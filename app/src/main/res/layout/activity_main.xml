@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/saury"
+        android:layout_width="0px"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:onClick="onClick"
+        android:text="@string/saury"
+        android:textAllCaps="false"
+        app:layout_constraintBottom_toTopOf="@+id/saury_jp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/saury_jp"
+        android:layout_width="0px"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:onClick="onClick"
+        android:text="@string/saury_jp"
+        android:textAllCaps="false"
+        app:layout_constraintBottom_toTopOf="@+id/saury_kr"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/saury" />
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/saury_kr"
+        android:layout_width="0px"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:onClick="onClick"
+        android:text="@string/saury_kr"
+        android:textAllCaps="false"
+        app:layout_constraintBottom_toTopOf="@+id/saury_cn"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/saury_jp" />
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/saury_cn"
+        android:layout_width="0px"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:onClick="onClick"
+        android:text="@string/saury_cn"
+        android:textAllCaps="false"
+        app:layout_constraintBottom_toTopOf="@+id/saury_tw"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/saury_kr" />
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/saury_tw"
+        android:layout_width="0px"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:onClick="onClick"
+        android:text="@string/saury_tw"
+        android:textAllCaps="false"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/saury_cn" />
+
+</android.support.constraint.ConstraintLayout>
