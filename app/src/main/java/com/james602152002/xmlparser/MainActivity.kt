@@ -20,10 +20,6 @@ import java.io.FileOutputStream
 import java.io.IOException
 import java.io.InputStream
 
-import butterknife.BindView
-import butterknife.ButterKnife
-import butterknife.OnClick
-
 class MainActivity : AppCompatActivity(), View.OnClickListener {
 
     private val builder = StringBuilder()
@@ -103,7 +99,6 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
         return false
     }
 
-    @OnClick(R.id.saury, R.id.saury_jp, R.id.saury_kr, R.id.saury_cn, R.id.saury_tw)
     override fun onClick(v: View) {
         AndPermission.with(this).permission(Permission.WRITE_EXTERNAL_STORAGE).onGranted {
             try {
