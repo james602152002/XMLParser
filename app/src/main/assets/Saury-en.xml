@@ -1242,7 +1242,7 @@
     <text value="My case" name="Pages.Business.CaseApplications.MyApplyCases" />
     <text value="Settlement management" name="Pages.Business.CaseClose" />
     <text value="Closed application" name="Pages.Business.CaseClose.Apply" />
-    <text value="My closed application" name="Pages.Business.CaseClose.ApplyList" />
+    <text value="My closing case" name="Pages.Business.CaseClose.ApplyList" />
     <text value="Case review" name="Pages.Business.CaseClose.Approve" />
     <text value="Financial Audit" name="Pages.Business.CaseClose.ApproveFinancial" />
     <text value="File Management" name="Pages.Business.CaseClose.ArchiveManage" />
@@ -1255,7 +1255,7 @@
     <text value="My case" name="Pages.Business.Cases.MyCases" />
     <text value="My process" name="Pages.Business.Cases.MyProcesses" />
     <text value="Document management" name="Pages.Business.StampFiles" />
-    <text value="My stamp instrument" name="Pages.Business.StampFiles.ApplyFileList" />
+    <text value="My instrument" name="Pages.Business.StampFiles.ApplyFileList" />
     <text value="Document review" name="Pages.Business.StampFiles.Approve" />
     <text value="Case document management" name="Pages.Business.StampFiles.Manage" />
     <text value="Stamp review" name="Pages.Business.StampFiles.StampFileManage" />
@@ -1433,9 +1433,9 @@
     <text value="forward" name="Previous" />
     <text value="Previous page" name="PreviousPage" />
     <text value="Past project experience" name="PreviousProjectExperience" />
-    <text value="current" name="Primary" />
+    <text value="Theme skin" name="Primary" />
     <text value="Primary key number cannot be empty" name="PrimaryKeyCanNotEmpty" />
-    <text value="Current skin" name="PrimarySkins" />
+    <text value="Theme color" name="PrimarySkins" />
     <text value="priority" name="Priority" />
     <text value="Awards" name="Prize" />
     <text value="Process state" name="ProcessStatus" />
@@ -1805,14 +1805,14 @@
     <text value="Template upload help information" name="TemplateUploadHelpInformation" />
     <text value="Template upload information" name="TemplateUploadingInformation" />
     <text value="Tenant name" name="TenancyCodeName" />
-    <text value="Tenant name" name="TenancyName" />
+    <text value="Law firm logo" name="TenancyName" />
     <text value="Note: Before changing the tenant's database connection string, you should move the tenant database to a new location. Changing the connection string does not move the tenant database." name="TenantDatabaseConnectionStringChangeWarningMessage" />
     <text value="Tenant {0} will be deleted." name="TenantDeleteWarningMessage" />
     <text value="Tenant information" name="TenantInformations" />
-    <text value="Tenant {0} is not activated." name="TenantIsNotActive" />
+    <text value="Law firm {0} is not activated." name="TenantIsNotActive" />
     <text value="Tenant management" name="TenantManagement" />
-    <text value="Tenant name" name="TenantName" />
-    <text value="The tenant name must consist of two or more letters, numbers, -, _, starting with a letter" name="TenantName_Regex_Description" />
+    <text value="Law firm name" name="TenantName" />
+    <text value="The law firm logo must consist of more than 2 letters, numbers, -, _, beginning with a letter" name="TenantName_Regex_Description" />
     <text value="Tenant name cannot be empty" name="TenantNameCanNotBeEmpty" />
     <text value="Tenant" name="Tenants" />
     <text value="Select tenants" name="TenantSelection" />
@@ -1854,7 +1854,7 @@
     <text value="There is a payment of {0}{1} {2}." name="ThereIsAPaymentForAmountOf" />
     <text value="There is no job alert" name="ThereIsNoJobRemindAtTheMoment" />
     <text value="Without notice." name="ThereIsNoNotification" />
-    <text value="Tenant {0} does not exist" name="ThereIsNoTenantDefinedWithName" />
+    <text value="Law firm ID {0} does not exist" name="ThereIsNoTenantDefinedWithName" />
     <text value="Source person" name="TheSourceOfPeople" />
     <text value="Postal code" name="TheZipCode" />
     <text value="Third party account" name="ThirdPartyAccount" />
@@ -2145,17 +2145,17 @@
     <text value="Sorry, you do not have the authority to stamp the document!" name="NoPermissionToSealTheDocument" />
     <text value="Please select the court" name="PleaseSelectCourt" />
     <text value="Third-party bindings will be lifted" name="UserSocialWillBeCancel" />
-    <text value="This account is already bound to other tenants" name="AccountOtherTenantsHasBeenBound" />
+    <text value="The account has been bound under other law firm IDs" name="AccountOtherTenantsHasBeenBound" />
     <text value="Affiliated organization structure" name="AffiliatedOrganizationStructure" />
     <text value="There is no contact information for the customer, click on the upper right corner" name="ClientHasNoContact" />
     <text value="Add this case's associated contact" name="AddCaseContact" />
     <text value="Please login after binding in the personal center!" name="Bindfirst" />
     <text value="Customer status" name="CustomerStatus" />
-    <text value="Please verify your tenant name and email address first" name="SendPasswordResetMessage" />
+    <text value="Please verify your law firm ID and email address first." name="SendPasswordResetMessage" />
     <text value="Open project" name="PublicProject" />
     <text value="If the verification code is invalid, please re-acquire" name="InvalidCodeReacquire" />
     <text value="The verification code does not match, please re-enter" name="InvalidCodeNotMatch" />
-    <text value="The tenant name already exists" name="TenantNameAlreadyExists" />
+    <text value="Law firm logo already exists" name="TenantNameAlreadyExists" />
     <text value="phone number" name="CellPhoneNumber" />
     <text value="Click for phone verification code" name="ClickforVerificationCode" />
     <text value="Please fill in your mobile phone number correctly" name="FillNumberCorrectly" />
@@ -2435,8 +2435,8 @@
     <text value="Are you sure to save the project task as a personal template?" name="ConfirmConvertToPersonalTemplate" />
     <text value="Go to edit or improve the saved template?" name="GotoEditOrImproveConvertedTemplate" />
     <text value="Completed, not modifiable" name="CompletedAndNotModifiable" />
-    <text value="Law firm or organization code" name="LawFirmOrOrganizationCode" />
-    <text value="Law firm or organization name" name="LawFirmOrOrganizationName" />
+    <text value="Law firm logo" name="LawFirmOrOrganizationCode" />
+    <text value="Law firm name" name="LawFirmOrOrganizationName" />
     <text value="Log entry active time record" name="LogEntryActiveTimeRecord" />
     <text value="(eg: Bitzsoft, can use letters, numbers, underscores, need to start with a letter, used to log in to the system)" name="TenancyNameRegisterHint" />
     <text value="The law firm or organization code must consist of more than 2 letters, numbers, -, _, beginning with a letter" name="LawCodeRegexDescription" />
@@ -2563,5 +2563,120 @@
     <text value="Free" name="Free" />
     <text value="yuan" name="Yuan" />
     <text value="Opps! Page Developing..." name="OppsPageDeveloping" />
+    <text value="Case fee information" name="CaseFeeInformation" />
+    <text value="The current contract file has been used!" name="TheCurrentContractFileHasBeenUsed" />
+    <text value="French angel contract library" name="Pages.CommonTools.FaTianShi" />
+    <text value="use" name="Use" />
+    <text value="Major Studied" name="MajorStudied" />
+    <text value="External Rate" name="ExternalRate" />
+    <text value="Project Experience" name="ProjectExperience" />
+    <text value="Community Based Part Time ob" name="CommunityBasedPartTimeJob" />
+    <text value="Local Office" name="LocalOffice" />
+    <text value="Non Local Office" name="NonLocalOffice" />
+    <text value="Account Management" name="AccountManagement" />
+    <text value="Skin Replacement" name="SkinReplacement" />
+    <text value="Clear Cache" name="ClearCache" />
+    <text value="Help And Feedback" name="HelpAndFeedback" />
+    <text value="Quit Landing" name="QuitLanding" />
+    <text value="Third Party Landing" name="ThirdPartyLanding" />
+    <text value="Employee Name" name="EmployeeName" />
+    <text value="Please Enter The Employees Name" name="PleaseEnterTheEmployeesName" />
+    <text value="Please Enter Your English Name" name="PleaseEnterYourEnglishName" />
+    <text value="Please Enter Your Country Of Origin" name="PleaseEnterYourCountryOfOrigin" />
+    <text value="Please Enter Your Major" name="PleaseEnterYourMajor" />
+    <text value="Please Enter The Graduate School" name="PleaseEnterTheGraduateSchool" />
+    <text value="Project Time" name="ProjectTime" />
+    <text value="Project Data Link" name="ProjectDataLink" />
+    <text value="Our Project" name="OurProject" />
+    <text value="Not Our Project" name="NotOurProject" />
+    <text value="Contract Commencement Date" name="ContractCommencementDate" />
+    <text value="Contract Deadline Date" name="ContractDeadlineDate" />
+    <text value="Select From The Album" name="SelectFromTheAlbum" />
+    <text value="Photo graph" name="Photograph" />
+    <text value="Please Enter The Name Of TheSchool" name="PleaseEnterTheNameOfTheSchool" />
+    <text value="Please Enter The Name Of The Unit" name="PleaseEnterTheNameOfTheUnit" />
+    <text value="Please Enter The Project Name" name="PleaseEnterTheProjectName" />
+    <text value="Please Enter The Work Content" name="PleaseEnterTheWorkContent" />
+    <text value="article" name="piece" />
+    <text value="Selectable log" name="Selectablelog" />
+    <text value="Optional fee" name="Optionalfee" />
+    <text value="Optional contract information" name="OptionalContractInformation" />
+    <text value="chosen" name="selected" />
+    <text value="Confirm selection" name="Confirmselection" />
+    <text value="Show lawyer tax rate" name="Showlawyerrate" />
+    <text value="Display case rate" name="Showcaserate" />
+    <text value="Click to view help documentation" name="HelpTitle" />
+    <text value="full screen" name="Fullscreen" />
+    <text value="Exit Full Screen" name="ExitFullScreen" />
+    <text value="Set as favorite" name="SetFavorite" />
+    <text value="collected" name="AlreadyCollected" />
+    <text value="Already have an account, log in now" name="Alreadyaccountloginnow" />
+    <text value="Corporate credit report" name="Corporatereport" />
+    <text value="Enterprise reports are time-sensitive, click to download the latest to download the latest report" name="ClientReportTip" />
+    <text value="Sample preview" name="Samplepreview" />
+    <text value="Download the latest" name="Downloadlatest" />
+    <text value="No people selected" name="NoPeopleselected" />
+    <text value="Corporate management, high investment, and employment report" name="CmheReport" />
+    <text value="Pay" name="Pay" />
+    <text value="Last payment time" name="Lastpaymenttime" />
+    <text value="Established" name="Established" />
+    <text value="Registered address" name="Registeredaddress" />
+    <text value="Registered capital" name="Registeredcapital" />
+    <text value="Registration authority" name="Registrationauthority" />
+    <text value="Type of company" name="Typeofcompany" />
+    <text value="Agency Code" name="AgencyCode" />
+    <text value="Registration number" name="Registnumber" />
+    <text value="Pay with Ali-Pay" name="Alipay" />
+    <text value="order number" name="Ordernumber" />
+    <text value="Order time" name="Ordertime" />
+    <text value="Failed to generate QR code" name="QRcodefail" />
+    <text value="Enterprise information inquiry" name="Pages.CommonTools.Corporate" />
+    <text value="Press {0} or click &quot;Bookmarks&quot; at the top of the browser window and select &quot;Add Bookmark...&quot; from the drop-down menu." name="AddCurrentPageToBookmark" />
+    <text value="The resource could not be found." name="Error404" />
+    <text value="You do not have permission to view this directory or page." name="Error403" />
+    <text value="The request could not be completed because of an internal server error." name="Error500" />
+    <text value="(Unauthorized) request for authentication." name="Error401" />
+    <text value="Add to Favorites" name="AddToBookMark" />
+    <text value="Recent visit history" name="RecentVisitHistory" />
+    <text value="Mobile version" name="MobileVersion" />
+    <text value="WeChat min app" name="WeChatMina" />
+    <text value="Open WeChat scan code using the applet" name="ScanUseWeChatMina" />
+    <text value="Coming soon, stay tuned" name="ComingSoon" />
+    <text value="All RIGHT RESERVED." name="AllRightReserved" />
+    <text value="My resume" name="MyResume" />
+    <text value="share it" name="Share" />
+    <text value="Please enter a conflict keyword" name="PlzInputConflictKeywords" />
+    <text value="No data on the page" name="NoDataOnThePage" />
+    <text value="{0} contacts" name="ContactsCnt" />
+    <text value="Fill in or select customer information" name="FillOrSelectClientInfo" />
+    <text value="Switch language" name="SwitchLanguage" />
+    <text value="English" name="English" />
+    <text value="Japanese" name="Japanese" />
+    <text value="Korean" name="Korean" />
+    <text value="Simplified Chinese" name="SimplifiedChinese" />
+    <text value="traditional Chinese" name="TraditionalChinese" />
+    <text value="Law firm website" name="LawFirmWebsite" />
+    <text value="Associate existing contacts" name="LinkContacts" />
+    <text value="New" name="CreateNew" />
+    <text value="Contractor" name="UndertakeLawyer" />
+    <text value="Mailbox {0} is already occupied" name="DuplicateEmail" />
+    <text value="partner" name="Partner" />
+    <text value="Optional" name="Optional" />
+    <text value="chosen" name="chosen" />
+    <text value="Please add the contract document from the above method. If there is no contract, the status of the case will remain in the contract stage to be uploaded!" name="AddCaseContractModalTips" />
+    <text value="Create contract" name="CreateContract" />
+    <text value="Welcome" name="App.WelcomeToTheApplication" />
+    <text value="Collection details" name="CollectionDetails" />
+    <text value="Preferences" name="Preferences" />
+    <text value="Menu bar background color" name="MenuBarSkins" />
+    <text value="Navigation bar background color" name="NavbarBackgroundColor" />
+    <text value="Reverse: The background color of the navigation bar is the theme color, the text is white; cancel the reverse: the background color is white, and the text is the theme color." name="NavbarBackgroundTips" />
+    <text value="Table preference" name="TablePreference" />
+    <text value="Page display data number" name="PageSize" />
+    <text value="The default display is 10, the range of displayable items can be set: 5-100" name="PageSizeTips" />
+    <text value="Operation column preference" name="ActionColumnPreference" />
+    <text value="Button alignment" name="ButtonAlign" />
+    <text value="{0} lawyer" name="LawyerCnt" />
+    <text value="Please select relevant lawyers" name="PlzSelectRelativeLawyer" />
   </texts>
 </localizationDictionary>

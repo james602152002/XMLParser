@@ -1242,7 +1242,7 @@
     <text value="私の場合" name="Pages.Business.CaseApplications.MyApplyCases" />
     <text value="決済管理" name="Pages.Business.CaseClose" />
     <text value="閉鎖されたアプリケーション" name="Pages.Business.CaseClose.Apply" />
-    <text value="私の閉じたアプリケーション" name="Pages.Business.CaseClose.ApplyList" />
+    <text value="私の決済" name="Pages.Business.CaseClose.ApplyList" />
     <text value="ケースレビュー" name="Pages.Business.CaseClose.Approve" />
     <text value="財務レビュー" name="Pages.Business.CaseClose.ApproveFinancial" />
     <text value="ファイル管理" name="Pages.Business.CaseClose.ArchiveManage" />
@@ -1255,7 +1255,7 @@
     <text value="私の場合" name="Pages.Business.Cases.MyCases" />
     <text value="私のプロセス" name="Pages.Business.Cases.MyProcesses" />
     <text value="文書管理" name="Pages.Business.StampFiles" />
-    <text value="私のスタンプ装置" name="Pages.Business.StampFiles.ApplyFileList" />
+    <text value="私の楽器" name="Pages.Business.StampFiles.ApplyFileList" />
     <text value="文書の審査" name="Pages.Business.StampFiles.Approve" />
     <text value="事例管理" name="Pages.Business.StampFiles.Manage" />
     <text value="判を押して審査する" name="Pages.Business.StampFiles.StampFileManage" />
@@ -1433,9 +1433,9 @@
     <text value="フォワード" name="Previous" />
     <text value="前のページ" name="PreviousPage" />
     <text value="過去のプロジェクト経験" name="PreviousProjectExperience" />
-    <text value="現在の" name="Primary" />
+    <text value="テーマスキン" name="Primary" />
     <text value="主キー番号は空にできません" name="PrimaryKeyCanNotEmpty" />
-    <text value="現在のスキン" name="PrimarySkins" />
+    <text value="テーマカラー" name="PrimarySkins" />
     <text value="優先度" name="Priority" />
     <text value="賞" name="Prize" />
     <text value="プロセス状態" name="ProcessStatus" />
@@ -1805,14 +1805,14 @@
     <text value="テンプレートアップロードのヘルプ情報" name="TemplateUploadHelpInformation" />
     <text value="テンプレートアップロード情報" name="TemplateUploadingInformation" />
     <text value="テナント名" name="TenancyCodeName" />
-    <text value="テナント名" name="TenancyName" />
+    <text value="法律事務所のロゴ" name="TenancyName" />
     <text value="注意：テナントのデータベース接続文字列を変更する前に、テナントデータベースを新しい場所に移動する必要があります。接続文字列を変更してもテナントデータベースは移動しません。" name="TenantDatabaseConnectionStringChangeWarningMessage" />
     <text value="テナント{0}が削除されます。" name="TenantDeleteWarningMessage" />
     <text value="テナント情報" name="TenantInformations" />
-    <text value="テナント{0}は有効化されていません。" name="TenantIsNotActive" />
+    <text value="法律事務所{0}はアクティブ化されていません。" name="TenantIsNotActive" />
     <text value="テナント管理" name="TenantManagement" />
-    <text value="テナント名" name="TenantName" />
-    <text value="テナント名は、文字で始まる2つ以上の文字、数字、 - 、_で構成されていなければなりません" name="TenantName_Regex_Description" />
+    <text value="法律事務所の名前" name="TenantName" />
+    <text value="法律事務所のロゴは、文字で始まる2文字以上の数字、 - 、_で構成する必要があります" name="TenantName_Regex_Description" />
     <text value="テナント名は空ではありません" name="TenantNameCanNotBeEmpty" />
     <text value="テナント" name="Tenants" />
     <text value="テナントの選択" name="TenantSelection" />
@@ -1854,7 +1854,7 @@
     <text value="{0} {1} {2}の支払いがあります。" name="ThereIsAPaymentForAmountOf" />
     <text value="ジョブアラートはありません" name="ThereIsNoJobRemindAtTheMoment" />
     <text value="通知はありません。" name="ThereIsNoNotification" />
-    <text value="テナント{0}は存在しません" name="ThereIsNoTenantDefinedWithName" />
+    <text value="法律事務所ID {0}が存在しません" name="ThereIsNoTenantDefinedWithName" />
     <text value="出身者" name="TheSourceOfPeople" />
     <text value="郵便番号" name="TheZipCode" />
     <text value="第三者のアカウント" name="ThirdPartyAccount" />
@@ -2145,17 +2145,17 @@
     <text value="申し訳ありませんが、文書にスタンプする権限はありません！" name="NoPermissionToSealTheDocument" />
     <text value="裁判所を選択してください" name="PleaseSelectCourt" />
     <text value="第三者の拘束力が解除されます" name="UserSocialWillBeCancel" />
-    <text value="このアカウントはすでに他のテナントにバインドされています" name="AccountOtherTenantsHasBeenBound" />
+    <text value="アカウントは他の法律事務所IDでバインドされています" name="AccountOtherTenantsHasBeenBound" />
     <text value="提携組織の構成" name="AffiliatedOrganizationStructure" />
     <text value="顧客の連絡先情報はありません。右上のをクリックしてください" name="ClientHasNoContact" />
     <text value="このケースに関連付けられた連絡先を追加する" name="AddCaseContact" />
     <text value="個人センターでバインドしてログインしてください！" name="Bindfirst" />
     <text value="お客様のステータス" name="CustomerStatus" />
-    <text value="まずテナント名とEメールアドレスを確認してください" name="SendPasswordResetMessage" />
+    <text value="まずあなたの法律事務所のIDとEメールアドレスを確認してください。" name="SendPasswordResetMessage" />
     <text value="プロジェクトを開く" name="PublicProject" />
     <text value="確認コードが無効な場合は、再取得してください" name="InvalidCodeReacquire" />
     <text value="確認コードが一致しないため、再入力してください" name="InvalidCodeNotMatch" />
-    <text value="テナント名はすでに存在します" name="TenantNameAlreadyExists" />
+    <text value="法律事務所のロゴはすでに存在します" name="TenantNameAlreadyExists" />
     <text value="電話番号" name="CellPhoneNumber" />
     <text value="クリックして電話番号の確認コードを取得する" name="ClickforVerificationCode" />
     <text value="携帯電話番号を正しく入力してください" name="FillNumberCorrectly" />
@@ -2435,8 +2435,8 @@
     <text value="プロジェクトタスクを個人用のテンプレートとして保存してもよろしいですか？" name="ConfirmConvertToPersonalTemplate" />
     <text value="保存されたテンプレートの編集や改善に行く？" name="GotoEditOrImproveConvertedTemplate" />
     <text value="完了した、変更不可能な" name="CompletedAndNotModifiable" />
-    <text value="法律事務所または組織コード" name="LawFirmOrOrganizationCode" />
-    <text value="法律事務所または組織名" name="LawFirmOrOrganizationName" />
+    <text value="法律事務所のロゴ" name="LawFirmOrOrganizationCode" />
+    <text value="法律事務所の名前" name="LawFirmOrOrganizationName" />
     <text value="ログエントリのアクティブタイムレコード" name="LogEntryActiveTimeRecord" />
     <text value="（例：Bitzsoftは、文字、数字、アンダースコア、文字で始める必要があり、システムにログインするために使用することができます）" name="TenancyNameRegisterHint" />
     <text value="法律事務所または組織コードは、2文字以上の数字、 - 、_、文字で始まります" name="LawCodeRegexDescription" />
@@ -2563,5 +2563,120 @@
     <text value="無料" name="Free" />
     <text value="元" name="Yuan" />
     <text value="ページ開発にご注目ください。" name="OppsPageDeveloping" />
+    <text value="ケース手数料情報" name="CaseFeeInformation" />
+    <text value="現在の契約ファイルが使用されました。" name="TheCurrentContractFileHasBeenUsed" />
+    <text value="フランスの天使契約図書館" name="Pages.CommonTools.FaTianShi" />
+    <text value="使用する" name="Use" />
+    <text value="学科" name="MajorStudied" />
+    <text value="外部料金" name="ExternalRate" />
+    <text value="プロジェクトの経験" name="ProjectExperience" />
+    <text value="サークルのアルバイト" name="CommunityBasedPartTimeJob" />
+    <text value="本所" name="LocalOffice" />
+    <text value="本所ではない" name="NonLocalOffice" />
+    <text value="アカウント管理" name="AccountManagement" />
+    <text value="皮膚を入れ替える" name="SkinReplacement" />
+    <text value="キャッシュ" name="ClearCache" />
+    <text value="助けとフィードバック" name="HelpAndFeedback" />
+    <text value="上陸を退く" name="QuitLanding" />
+    <text value="第3に上陸する" name="ThirdPartyLanding" />
+    <text value="従業員の名前" name="EmployeeName" />
+    <text value="従業員の名前を入力してください" name="PleaseEnterTheEmployeesName" />
+    <text value="英語名を入力してください" name="PleaseEnterYourEnglishName" />
+    <text value="出身地を入力してください" name="PleaseEnterYourCountryOfOrigin" />
+    <text value="学科の専攻を入力してください" name="PleaseEnterYourMajor" />
+    <text value="卒業院校を入力してください" name="PleaseEnterTheGraduateSchool" />
+    <text value="プロジェクトの時間" name="ProjectTime" />
+    <text value="プロジェクトデータリンク" name="ProjectDataLink" />
+    <text value="このプロジェクト" name="OurProject" />
+    <text value="本所ではない" name="NotOurProject" />
+    <text value="契約の発効日" name="ContractCommencementDate" />
+    <text value="契約の締め切り" name="ContractDeadlineDate" />
+    <text value="アルバムから" name="SelectFromTheAlbum" />
+    <text value="写真を撮る" name="Photograph" />
+    <text value="学校の名前を入力してください" name="PleaseEnterTheNameOfTheSchool" />
+    <text value="単位の名前を入力してください" name="PleaseEnterTheNameOfTheUnit" />
+    <text value="プロジェクトの名前を入力してください" name="PleaseEnterTheProjectName" />
+    <text value="仕事の内容を入力してください" name="PleaseEnterTheWorkContent" />
+    <text value="記事" name="piece" />
+    <text value="選択可能なログ" name="Selectablelog" />
+    <text value="オプション料金" name="Optionalfee" />
+    <text value="オプションの契約情報" name="OptionalContractInformation" />
+    <text value="選択済み" name="selected" />
+    <text value="選択を確認" name="Confirmselection" />
+    <text value="弁護士税率を表示する" name="Showlawyerrate" />
+    <text value="ディスプレイケース率" name="Showcaserate" />
+    <text value="クリックしてヘルプドキュメントを参照してください。" name="HelpTitle" />
+    <text value="全画面" name="Fullscreen" />
+    <text value="全画面を終了" name="ExitFullScreen" />
+    <text value="お気に入りに設定" name="SetFavorite" />
+    <text value="お気に入り" name="AlreadyCollected" />
+    <text value="アカウントをお持ちですか？今すぐログイン" name="Alreadyaccountloginnow" />
+    <text value="企業信用レポート" name="Corporatereport" />
+    <text value="エンタープライズレポートは時間に敏感です。最新のレポートをダウンロードするには最新をクリックしてダウンロードしてください。" name="ClientReportTip" />
+    <text value="サンプルプレビュー" name="Samplepreview" />
+    <text value="最新版をダウンロードする" name="Downloadlatest" />
+    <text value="人が選択されていません" name="NoPeopleselected" />
+    <text value="企業経営、高投資、雇用レポート" name="CmheReport" />
+    <text value="支払う" name="Pay" />
+    <text value="最後の支払い時期" name="Lastpaymenttime" />
+    <text value="設立時期" name="Established" />
+    <text value="登録アドレス" name="Registeredaddress" />
+    <text value="登録資本金" name="Registeredcapital" />
+    <text value="登録機関" name="Registrationauthority" />
+    <text value="会社の種類" name="Typeofcompany" />
+    <text value="機関コード" name="AgencyCode" />
+    <text value="登録番号" name="Registnumber" />
+    <text value="アリペイ支払い" name="Alipay" />
+    <text value="注文番号" name="Ordernumber" />
+    <text value="注文時間" name="Ordertime" />
+    <text value="QRコードを生成できませんでした" name="QRcodefail" />
+    <text value="企業情報の照会" name="Pages.CommonTools.Corporate" />
+    <text value="{0}を押すか、ブラウザウィンドウの上部にある[ブックマーク]をクリックして、ドロップダウンメニューから[ブックマークを追加...]を選択してください。" name="AddCurrentPageToBookmark" />
+    <text value="リソースが見つかりませんでした。" name="Error404" />
+    <text value="このディレクトリまたはページを閲覧する権限がありません。" name="Error403" />
+    <text value="サーバーに内部エラーが発生し、要求を完了できませんでした。" name="Error500" />
+    <text value="認証のための（無許可の）要求。" name="Error401" />
+    <text value="お気に入りに追加" name="AddToBookMark" />
+    <text value="最近の訪問履歴" name="RecentVisitHistory" />
+    <text value="モバイル版" name="MobileVersion" />
+    <text value="WeChatアプレット" name="WeChatMina" />
+    <text value="小さなプログラムを使ってコードをスキャンするOpen WeChat" name="ScanUseWeChatMina" />
+    <text value="もうすぐ、お楽しみに" name="ComingSoon" />
+    <text value="無断複写・転載を禁じます。" name="AllRightReserved" />
+    <text value="私の履歴書" name="MyResume" />
+    <text value="共有する" name="Share" />
+    <text value="競合キーワードを入力してください" name="PlzInputConflictKeywords" />
+    <text value="ページにデータがありません" name="NoDataOnThePage" />
+    <text value="{0}件の連絡先" name="ContactsCnt" />
+    <text value="顧客情報を入力または選択する" name="FillOrSelectClientInfo" />
+    <text value="言語を切り替える" name="SwitchLanguage" />
+    <text value="英語" name="English" />
+    <text value="日本語" name="Japanese" />
+    <text value="韓国語" name="Korean" />
+    <text value="簡体字中国語" name="SimplifiedChinese" />
+    <text value="繁体字中国語" name="TraditionalChinese" />
+    <text value="法律事務所のウェブサイト" name="LawFirmWebsite" />
+    <text value="既存の連絡先を関連付ける" name="LinkContacts" />
+    <text value="新しい" name="CreateNew" />
+    <text value="請負業者" name="UndertakeLawyer" />
+    <text value="メールボックス{0}はすでに占有されています" name="DuplicateEmail" />
+    <text value="パートナー" name="Partner" />
+    <text value="オプション" name="Optional" />
+    <text value="選択済み" name="chosen" />
+    <text value="上記の方法で契約書を追加してください｡契約がない場合、ケースのステータスはアップロードされる契約段階に残ります。" name="AddCaseContractModalTips" />
+    <text value="契約を作成する" name="CreateContract" />
+    <text value="ようこそ" name="App.WelcomeToTheApplication" />
+    <text value="コレクションの詳細" name="CollectionDetails" />
+    <text value="設定" name="Preferences" />
+    <text value="メニューバーの背景色" name="MenuBarSkins" />
+    <text value="ナビゲーションバーの背景色" name="NavbarBackgroundColor" />
+    <text value="反転：ナビゲーションバーの背景色はテーマ色、テキストは白です;反転をキャンセルします：背景色は白、テキストはテーマカラーです。" name="NavbarBackgroundTips" />
+    <text value="テーブル設定" name="TablePreference" />
+    <text value="ページ表示データ数" name="PageSize" />
+    <text value="デフォルトの表示は10です。表示可能な項目の範囲は5〜100に設定できます。" name="PageSizeTips" />
+    <text value="操作列の設定" name="ActionColumnPreference" />
+    <text value="ボタン配置" name="ButtonAlign" />
+    <text value="{0} 弁護士" name="LawyerCnt" />
+    <text value="関連する弁護士を選択してください" name="PlzSelectRelativeLawyer" />
   </texts>
 </localizationDictionary>

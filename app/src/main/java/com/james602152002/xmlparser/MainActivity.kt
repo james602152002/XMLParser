@@ -2,13 +2,12 @@ package com.james602152002.xmlparser
 
 import android.os.Bundle
 import android.os.Environment
-import android.support.v7.app.AppCompatActivity
-import android.support.v7.widget.AppCompatButton
+import androidx.appcompat.app.AppCompatActivity
+import androidx.appcompat.widget.AppCompatButton
 import android.util.Log
 import android.util.Xml
 import android.view.View
 
-import com.yanzhenjie.permission.Action
 import com.yanzhenjie.permission.AndPermission
 import com.yanzhenjie.permission.Permission
 
@@ -93,10 +92,17 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
     }
 
     private fun isNoColorKey(key: String): Boolean {
-        when (key) {
-            "ConflictCounts", "RecordsCount", "DeadlineInHoursCnt", "DeadlineDate", "DeadlineInDaysCnt", "RemindAheadOfDate", "DocCounts", "MinutesAgo", "UploadedDocCnt", "ApprovedByAuditorCnt", "SealCnt", "DaysCnt", "WorkLogParticipantsHint", "ConflictRecordsCnt", "RemainingAnnualLeaveDays", "RemindBeforeMinutes", "RemindBeforeHours", "RemindBeforeDays", "RemindBeforeWeeks", "PreviewTemplate", "SelectableLogCnt", "OptionalContractInfoCnt", "OptionalFeeCnt", "SelectedCnt", "LawyerCnt" -> return true
+        return when (key) {
+            "ConflictCounts", "RecordsCount", "DeadlineInHoursCnt",
+            "DeadlineDate", "DeadlineInDaysCnt", "RemindAheadOfDate",
+            "DocCounts", "MinutesAgo", "UploadedDocCnt", "ApprovedByAuditorCnt",
+            "SealCnt", "DaysCnt", "WorkLogParticipantsHint", "ConflictRecordsCnt",
+            "RemainingAnnualLeaveDays", "RemindBeforeMinutes", "RemindBeforeHours",
+            "RemindBeforeDays", "RemindBeforeWeeks", "PreviewTemplate", "SelectableLogCnt",
+            "OptionalContractInfoCnt", "OptionalFeeCnt", "SelectedCnt", "LawyerCnt",
+            "ContactsCnt" -> true
+            else -> false
         }
-        return false
     }
 
     override fun onClick(v: View) {
@@ -138,16 +144,16 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
     private fun createXmlFile(path: String, data: String) {
         var path = path
         // Create the folder.
-        path = path + File.separator
-        val FPath = File(path)
-        if (!FPath.exists()) {
-            if (!FPath.mkdirs()) {
+        path += File.separator
+        val fPath = File(path)
+        if (!fPath.exists()) {
+            if (!fPath.mkdirs()) {
             }
         }
-        FPath.setReadable(true)
-        FPath.setWritable(true)
+        fPath.setReadable(true)
+        fPath.setWritable(true)
         // Create the file.
-        val file = File(FPath, "strings.xml")
+        val file = File(fPath, "strings.xml")
         try {
             val fop = FileOutputStream(file)
             if (!file.exists())

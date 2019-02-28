@@ -1242,7 +1242,7 @@
     <text value="我的立案" name="Pages.Business.CaseApplications.MyApplyCases" />
     <text value="結案管理" name="Pages.Business.CaseClose" />
     <text value="結案申請" name="Pages.Business.CaseClose.Apply" />
-    <text value="我的結案申請" name="Pages.Business.CaseClose.ApplyList" />
+    <text value="我的結案" name="Pages.Business.CaseClose.ApplyList" />
     <text value="結案審核" name="Pages.Business.CaseClose.Approve" />
     <text value="財務審核" name="Pages.Business.CaseClose.ApproveFinancial" />
     <text value="檔案管理" name="Pages.Business.CaseClose.ArchiveManage" />
@@ -1255,7 +1255,7 @@
     <text value="我的案件" name="Pages.Business.Cases.MyCases" />
     <text value="我的進程" name="Pages.Business.Cases.MyProcesses" />
     <text value="文書管理" name="Pages.Business.StampFiles" />
-    <text value="我的蓋章文書" name="Pages.Business.StampFiles.ApplyFileList" />
+    <text value="我的文書" name="Pages.Business.StampFiles.ApplyFileList" />
     <text value="文書稽核" name="Pages.Business.StampFiles.Approve" />
     <text value="案件文書管理" name="Pages.Business.StampFiles.Manage" />
     <text value="蓋章稽核" name="Pages.Business.StampFiles.StampFileManage" />
@@ -1433,9 +1433,9 @@
     <text value="向前" name="Previous" />
     <text value="上一頁" name="PreviousPage" />
     <text value="以往項目經驗" name="PreviousProjectExperience" />
-    <text value="當前" name="Primary" />
+    <text value="主題皮膚" name="Primary" />
     <text value="主鍵編號不能為空" name="PrimaryKeyCanNotEmpty" />
-    <text value="當前皮膚" name="PrimarySkins" />
+    <text value="主題色" name="PrimarySkins" />
     <text value="優先級" name="Priority" />
     <text value="獎項" name="Prize" />
     <text value="進程狀態" name="ProcessStatus" />
@@ -1805,14 +1805,14 @@
     <text value="模版上傳幫助信息" name="TemplateUploadHelpInformation" />
     <text value="模版上傳信息" name="TemplateUploadingInformation" />
     <text value="租戶名稱" name="TenancyCodeName" />
-    <text value="律所标识" name="TenancyName" />
+    <text value="律所標識" name="TenancyName" />
     <text value="注意：在更改租戶的數據庫連接字符串之前，您應該將租戶數據庫移動到新位置. 更改連接字符串不會移動租戶數據庫." name="TenantDatabaseConnectionStringChangeWarningMessage" />
     <text value="租戶 {0} 將被刪除." name="TenantDeleteWarningMessage" />
     <text value="租戶信息" name="TenantInformations" />
-    <text value="租戶 {0} 未激活." name="TenantIsNotActive" />
+    <text value="律所 {0} 未激活." name="TenantIsNotActive" />
     <text value="租戶管理" name="TenantManagement" />
-    <text value="租戶名稱" name="TenantName" />
-    <text value="租戶名稱必須由2個以上字母、數字、-、_組成,以字母開頭" name="TenantName_Regex_Description" />
+    <text value="律所名稱" name="TenantName" />
+    <text value="律所標識必須由2個以上字母、數字、-、_組成,以字母開頭" name="TenantName_Regex_Description" />
     <text value="租戶名不能為空" name="TenantNameCanNotBeEmpty" />
     <text value="租戶" name="Tenants" />
     <text value="選擇租戶" name="TenantSelection" />
@@ -1854,7 +1854,7 @@
     <text value="有一筆金額為{0}{1}的收款{2}." name="ThereIsAPaymentForAmountOf" />
     <text value="當前沒有工作提醒" name="ThereIsNoJobRemindAtTheMoment" />
     <text value="沒有通知." name="ThereIsNoNotification" />
-    <text value="租戶 {0} 不存在" name="ThereIsNoTenantDefinedWithName" />
+    <text value="律所標識 {0} 不存在" name="ThereIsNoTenantDefinedWithName" />
     <text value="案源人" name="TheSourceOfPeople" />
     <text value="郵政編碼" name="TheZipCode" />
     <text value="第三方賬號" name="ThirdPartyAccount" />
@@ -2145,17 +2145,17 @@
     <text value="對不起，您沒有對該文檔蓋章的權限！" name="NoPermissionToSealTheDocument" />
     <text value="請選擇法院" name="PleaseSelectCourt" />
     <text value="第三方綁定將會被解除" name="UserSocialWillBeCancel" />
-    <text value="該賬號已在其他租戶下綁定" name="AccountOtherTenantsHasBeenBound" />
+    <text value="該賬號已在其他律所標識下綁定" name="AccountOtherTenantsHasBeenBound" />
     <text value="隸屬組織架構" name="AffiliatedOrganizationStructure" />
     <text value="客戶尚無聯繫人信息，點擊右上角" name="ClientHasNoContact" />
     <text value="添加本案關聯聯繫人" name="AddCaseContact" />
     <text value="請在個人中心綁定後登陸！" name="Bindfirst" />
     <text value="客戶狀態" name="CustomerStatus" />
-    <text value="請先驗證您的租戶名稱和郵箱地址" name="SendPasswordResetMessage" />
+    <text value="請先驗證您的律所標識和郵箱地址" name="SendPasswordResetMessage" />
     <text value="公開項目" name="PublicProject" />
     <text value="驗證碼失效請重新獲取" name="InvalidCodeReacquire" />
     <text value="驗證碼不匹配請重新輸入" name="InvalidCodeNotMatch" />
-    <text value="租戶名稱已存在" name="TenantNameAlreadyExists" />
+    <text value="律所標識已存在" name="TenantNameAlreadyExists" />
     <text value="手機號" name="CellPhoneNumber" />
     <text value="點擊獲取手機驗證碼" name="ClickforVerificationCode" />
     <text value="請正確填寫您的手機號碼" name="FillNumberCorrectly" />
@@ -2435,8 +2435,8 @@
     <text value="是否確認將該項目任務另存為個人模板？" name="ConfirmConvertToPersonalTemplate" />
     <text value="前往編輯或完善另存為後的模板？" name="GotoEditOrImproveConvertedTemplate" />
     <text value="已完善，不可修改" name="CompletedAndNotModifiable" />
-    <text value="律所或組織代碼" name="LawFirmOrOrganizationCode" />
-    <text value="律所或組織名稱" name="LawFirmOrOrganizationName" />
+    <text value="律所標識" name="LawFirmOrOrganizationCode" />
+    <text value="律所名稱" name="LawFirmOrOrganizationName" />
     <text value="日誌錄入活躍時間記錄" name="LogEntryActiveTimeRecord" />
     <text value="(如：Bitzsoft,可使用字母、數字、下劃線，需以字母開頭,用於登陸系統)" name="TenancyNameRegisterHint" />
     <text value="律所或組織代碼必須由2個以上字母、數字、-、_組成,以字母開頭" name="LawCodeRegexDescription" />
@@ -2563,5 +2563,120 @@
     <text value="免費" name="Free" />
     <text value="元" name="Yuan" />
     <text value="頁面開發中，敬請期待！" name="OppsPageDeveloping" />
+    <text value="案件費用信息" name="CaseFeeInformation" />
+    <text value="已使用當前合同文件！" name="TheCurrentContractFileHasBeenUsed" />
+    <text value="法天使合同庫" name="Pages.CommonTools.FaTianShi" />
+    <text value="使用" name="Use" />
+    <text value="所學專業" name="MajorStudied" />
+    <text value="外部費率" name="ExternalRate" />
+    <text value="項目經驗" name="ProjectExperience" />
+    <text value="社團兼職" name="CommunityBasedPartTimeJob" />
+    <text value="本所" name="LocalOffice" />
+    <text value="非本所" name="NonLocalOffice" />
+    <text value="賬號管理" name="AccountManagement" />
+    <text value="更換皮膚" name="SkinReplacement" />
+    <text value="清除緩存" name="ClearCache" />
+    <text value="幫助與反饋" name="HelpAndFeedback" />
+    <text value="退出登錄" name="QuitLanding" />
+    <text value="第三方登錄" name="ThirdPartyLanding" />
+    <text value="員工姓名" name="EmployeeName" />
+    <text value="請輸入員工姓名" name="PleaseEnterTheEmployeesName" />
+    <text value="請輸入英文名" name="PleaseEnterYourEnglishName" />
+    <text value="請輸入籍貫" name="PleaseEnterYourCountryOfOrigin" />
+    <text value="請輸入所學專業" name="PleaseEnterYourMajor" />
+    <text value="請輸入畢業院校" name="PleaseEnterTheGraduateSchool" />
+    <text value="項目時間" name="ProjectTime" />
+    <text value="項目數據連接" name="ProjectDataLink" />
+    <text value="本所項目" name="OurProject" />
+    <text value="非本所項目" name="NotOurProject" />
+    <text value="合同生效日期" name="ContractCommencementDate" />
+    <text value="合同截止日期" name="ContractDeadlineDate" />
+    <text value="從相冊中選擇" name="SelectFromTheAlbum" />
+    <text value="拍照" name="Photograph" />
+    <text value="請輸入學校名稱" name="PleaseEnterTheNameOfTheSchool" />
+    <text value="請輸入單位名稱" name="PleaseEnterTheNameOfTheUnit" />
+    <text value="請輸入項目名稱" name="PleaseEnterTheProjectName" />
+    <text value="請輸入工作內容" name="PleaseEnterTheWorkContent" />
+    <text value="條" name="piece" />
+    <text value="可選擇日誌" name="Selectablelog" />
+    <text value="可選擇費用" name="Optionalfee" />
+    <text value="可選擇合同信息" name="OptionalContractInformation" />
+    <text value="已選擇" name="selected" />
+    <text value="確認選擇" name="Confirmselection" />
+    <text value="顯示律師費稅率" name="Showlawyerrate" />
+    <text value="顯示辦案費稅率" name="Showcaserate" />
+    <text value="點擊查看幫助文檔" name="HelpTitle" />
+    <text value="全屏" name="Fullscreen" />
+    <text value="退出全屏" name="ExitFullScreen" />
+    <text value="設為收藏" name="SetFavorite" />
+    <text value="已收藏" name="AlreadyCollected" />
+    <text value="已有賬號,現在登錄" name="Alreadyaccountloginnow" />
+    <text value="企業信用報告" name="Corporatereport" />
+    <text value="企業報告具有時效性,點擊下載最新可下載最新報告" name="ClientReportTip" />
+    <text value="樣本預覽" name="Samplepreview" />
+    <text value="下載最新" name="Downloadlatest" />
+    <text value="未選擇人員" name="NoPeopleselected" />
+    <text value="企董監高對外投資及任職報告" name="CmheReport" />
+    <text value="支付" name="Pay" />
+    <text value="上次支付時間" name="Lastpaymenttime" />
+    <text value="成立時間" name="Established" />
+    <text value="註冊地址" name="Registeredaddress" />
+    <text value="註冊資金" name="Registeredcapital" />
+    <text value="登記機關" name="Registrationauthority" />
+    <text value="公司類型" name="Typeofcompany" />
+    <text value="機構代碼" name="AgencyCode" />
+    <text value="註冊編號" name="Registnumber" />
+    <text value="支付寶支付" name="Alipay" />
+    <text value="訂單號" name="Ordernumber" />
+    <text value="訂單時間" name="Ordertime" />
+    <text value="生成二維碼失敗" name="QRcodefail" />
+    <text value="企業信息查詢" name="Pages.CommonTools.Corporate" />
+    <text value="按{0}或單擊瀏覽器窗口頂部的“書籤”，然後從下拉菜單中選擇“添加書籤...”。" name="AddCurrentPageToBookmark" />
+    <text value="無法找到該資源。" name="Error404" />
+    <text value="您無權查看此目錄或頁面。" name="Error403" />
+    <text value="服務器內部錯誤，無法完成請求。" name="Error500" />
+    <text value="(未授權)請求要求身份驗證。" name="Error401" />
+    <text value="添加到收藏夾" name="AddToBookMark" />
+    <text value="最近的訪問歷史" name="RecentVisitHistory" />
+    <text value="移動版本" name="MobileVersion" />
+    <text value="微信小程序" name="WeChatMina" />
+    <text value="打開微信掃碼使用小程序" name="ScanUseWeChatMina" />
+    <text value="即將上線，敬請期待" name="ComingSoon" />
+    <text value="保留所有權利。" name="AllRightReserved" />
+    <text value="我的履歷" name="MyResume" />
+    <text value="分享" name="Share" />
+    <text value="請輸入衝突關鍵字" name="PlzInputConflictKeywords" />
+    <text value="頁面暫無數據" name="NoDataOnThePage" />
+    <text value="共 {0} 位聯繫人" name="ContactsCnt" />
+    <text value="填寫或選擇客戶信息" name="FillOrSelectClientInfo" />
+    <text value="切換語言" name="SwitchLanguage" />
+    <text value="英語" name="English" />
+    <text value="日語" name="Japanese" />
+    <text value="朝鮮的" name="Korean" />
+    <text value="簡體中文" name="SimplifiedChinese" />
+    <text value="繁體中文" name="TraditionalChinese" />
+    <text value="律所網站" name="LawFirmWebsite" />
+    <text value="關聯已有聯繫人" name="LinkContacts" />
+    <text value="新建" name="CreateNew" />
+    <text value="承辦律師" name="UndertakeLawyer" />
+    <text value="郵箱{0}已被佔用" name="DuplicateEmail" />
+    <text value="合夥人" name="Partner" />
+    <text value="可選擇" name="Optional" />
+    <text value="已選擇" name="chosen" />
+    <text value="請從上述方式中添加合同文件，若無合同，案件狀態將一直處於待上傳合同階段！" name="AddCaseContractModalTips" />
+    <text value="創建合同" name="CreateContract" />
+    <text value="歡迎使用" name="App.WelcomeToTheApplication" />
+    <text value="收款詳情" name="CollectionDetails" />
+    <text value="偏好設置" name="Preferences" />
+    <text value="菜單欄背景色" name="MenuBarSkins" />
+    <text value="導航欄背景色" name="NavbarBackgroundColor" />
+    <text value="反轉：導航欄背景顏色為主題色，文字為白色；取消反轉：背景色為白色，文字為主題色。" name="NavbarBackgroundTips" />
+    <text value="表格偏好" name="TablePreference" />
+    <text value="頁展示數據條數" name="PageSize" />
+    <text value="默認展示10條，可設置的展示條數範圍：5-100條" name="PageSizeTips" />
+    <text value="操作列偏好" name="ActionColumnPreference" />
+    <text value="按鈕對齊方式" name="ButtonAlign" />
+    <text value="{0} 位律師" name="LawyerCnt" />
+    <text value="請選擇相關律師人員" name="PlzSelectRelativeLawyer" />
   </texts>
 </localizationDictionary>
