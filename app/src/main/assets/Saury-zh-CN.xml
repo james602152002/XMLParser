@@ -2663,7 +2663,7 @@
     <text value="合伙人" name="Partner" />
     <text value="可选择" name="Optional" />
     <text value="已选择" name="chosen" />
-    <text value="请从上述方式中添加合同文件，若无合同，案件状态将一直处于待上传合同阶段！" name="AddCaseContractModalTips" />
+    <text value="请从下述方式中添加合同文件，若无合同，案件状态将一直处于待上传合同阶段！" name="AddCaseContractModalTips" />
     <text value="创建合同" name="CreateContract" />
     <text value="欢迎使用" name="App.WelcomeToTheApplication" />
     <text value="收款详情" name="CollectionDetails" />
@@ -2678,5 +2678,21 @@
     <text value="按钮对齐方式" name="ButtonAlign" />
     <text value="{0} 位律师" name="LawyerCnt" />
     <text value="请选择相关律师人员" name="PlzSelectRelativeLawyer" />
+    <text value="设置管理员邮箱" name="SetAdministratormailbox" />
+    <text value="请输入邮箱" name="PleaseInputMail" />
+    <text value="此邮箱用于修改管理员密码" name="MailEditadminPassword" />
+    <text value="跳过设置，直接登录" name="SkipSetting" />
+    <text value="您的网络已走失，请点击重试~" name="NetworkLost" />
+    <text value="网络丢失, 请检查网络" name="CheckNetwork" />
+    <text value="发生未知错误" name="UnknownError" />
+    <text value="收案开始时间" name="ClosingStartTime" />
+    <text value="收案结束时间" name="ClosingEndTime" />
+    <text value="文件-命名" name="AddFileName" />
+    <text value="使用名称" name="UseName" />
+    <text value="选择样本文件" name="SelectSampleFile" />
+    <text value="是否编辑当前模版?" name="EditCurrentTemplateTip" />
+    <text value="当前名称已被使用，请使用其他名称！" name="CanNotUseName" />
+    <text value="创建开始时间" name="CreationStartTime" />
+    <text value="创建结束时间" name="CreationEndTime" />
   </texts>
 </localizationDictionary>

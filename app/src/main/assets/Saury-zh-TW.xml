@@ -2678,5 +2678,21 @@
     <text value="按鈕對齊方式" name="ButtonAlign" />
     <text value="{0} 位律師" name="LawyerCnt" />
     <text value="請選擇相關律師人員" name="PlzSelectRelativeLawyer" />
+    <text value="設置管理員郵箱" name="SetAdministratormailbox" />
+    <text value="請輸入郵箱" name="PleaseInputMail" />
+    <text value="此郵箱用於修改管理員密碼" name="MailEditadminPassword" />
+    <text value="跳過設置，直接登錄" name="SkipSetting" />
+    <text value="您的網絡已走失，請點擊重試~" name="NetworkLost" />
+    <text value="網絡丟失, 請檢查網絡" name="CheckNetwork" />
+    <text value="發生未知錯誤" name="UnknownError" />
+    <text value="收案開始時間" name="ClosingStartTime" />
+    <text value="收案結束時間" name="ClosingEndTime" />
+    <text value="文件-命名" name="AddFileName" />
+    <text value="使用名稱" name="UseName" />
+    <text value="選擇樣本文件" name="SelectSampleFile" />
+    <text value="是否編輯當前模板?" name="EditCurrentTemplateTip" />
+    <text value="當前名稱已被使用，請使用其他名稱！" name="CanNotUseName" />
+    <text value="創建開始時間" name="CreationStartTime" />
+    <text value="創建結束時間" name="CreationEndTime" />
   </texts>
 </localizationDictionary>

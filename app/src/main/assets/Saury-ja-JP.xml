@@ -2678,5 +2678,21 @@
     <text value="ボタン配置" name="ButtonAlign" />
     <text value="{0} 弁護士" name="LawyerCnt" />
     <text value="関連する弁護士を選択してください" name="PlzSelectRelativeLawyer" />
+    <text value="管理者メールボックスを設定する" name="SetAdministratormailbox" />
+    <text value="あなたのメールアドレスを入力してください" name="PleaseInputMail" />
+    <text value="このメールボックスは管理者パスワードを変更するために使用されます" name="MailEditadminPassword" />
+    <text value="設定をスキップして直接ログインする" name="SkipSetting" />
+    <text value="ネットワークが失われました。クリックしてもう一度やり直してください〜" name="NetworkLost" />
+    <text value="ネットワークが失われました。ネットワークを確認してください。" name="CheckNetwork" />
+    <text value="不明なエラーが発生しました" name="UnknownError" />
+    <text value="終了開始時刻" name="ClosingStartTime" />
+    <text value="閉店時間" name="ClosingEndTime" />
+    <text value="ファイル名" name="AddFileName" />
+    <text value="名前を使用" name="UseName" />
+    <text value="サンプルファイルを選択" name="SelectSampleFile" />
+    <text value="現在のテンプレートを編集しますか？" name="EditCurrentTemplateTip" />
+    <text value="現在の名前は既に使用されています。別の名前を使用してください。" name="CanNotUseName" />
+    <text value="開始時間" name="CreationStartTime" />
+    <text value="作成終了時刻" name="CreationEndTime" />
   </texts>
 </localizationDictionary>

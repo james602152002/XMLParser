@@ -2678,5 +2678,21 @@
     <text value="Button alignment" name="ButtonAlign" />
     <text value="{0} lawyer" name="LawyerCnt" />
     <text value="Please select relevant lawyers" name="PlzSelectRelativeLawyer" />
+    <text value="Set administrator mailbox" name="SetAdministratormailbox" />
+    <text value="please input your email" name="PleaseInputMail" />
+    <text value="This mailbox is used to modify the administrator password" name="MailEditadminPassword" />
+    <text value="Skip settings, log in directly" name="SkipSetting" />
+    <text value="Your network has been lost, please click to try again~" name="NetworkLost" />
+    <text value="The network is lost, please check the network" name="CheckNetwork" />
+    <text value="An unknown error has occurred" name="UnknownError" />
+    <text value="Closing start time" name="ClosingStartTime" />
+    <text value="Closing time" name="ClosingEndTime" />
+    <text value="File-name" name="AddFileName" />
+    <text value="Use name" name="UseName" />
+    <text value="Select sample file" name="SelectSampleFile" />
+    <text value="Do you edit the current template?" name="EditCurrentTemplateTip" />
+    <text value="The current name is already in use, please use a different name!" name="CanNotUseName" />
+    <text value="Start time" name="CreationStartTime" />
+    <text value="Creation end time" name="CreationEndTime" />
   </texts>
 </localizationDictionary>
