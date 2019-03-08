@@ -2694,5 +2694,26 @@
     <text value="The current name is already in use, please use a different name!" name="CanNotUseName" />
     <text value="Start time" name="CreationStartTime" />
     <text value="Creation end time" name="CreationEndTime" />
+    <text value="Current version maximum number of accounts" name="CurrentVerMaxNum" />
+    <text value="Show deleted users" name="ShowDeletedUser" />
+    <text value="System customer" name="SystemCustomer" />
+    <text value="Please enter the company name, for example &quot;Shanghai Bizhi Technology Co., Ltd.&quot;" name="CorporateHint" />
+    <text value="Administrator guide" name="AdministratorGuide" />
+    <text value="Customer Relationship Operating Guidelines" name="CustomerGuide" />
+    <text value="Case operation guide" name="CaseGuide" />
+    <text value="Case business operation guidelines" name="CaseBusinessGuide" />
+    <text value="Document operation guide" name="DocumentGuide" />
+    <text value="Financial operation guidelines" name="FinancialGuide" />
+    <text value="Administrative guidelines" name="AdministrativeGuide" />
+    <text value="Human Resources Operation Guide" name="HumanGuide" />
+    <text value="Novice operation guide" name="NoviceGuide" />
+    <text value="Help document" name="Helpdocument" />
+    <text value="Archive start time" name="ArchiveStartTime" />
+    <text value="Archive end time" name="ArchiveEndTime" />
+    <text value="Application start time" name="ApplyStartTime" />
+    <text value="Application end time" name="ApplyEndTime" />
+    <text value="Charge and contract information" name="ChargeAndContractInfo" />
+    <text value="Please fill in the contract related information" name="PlzFillContractRelatedInfo" />
+    <text value="Lawyer fee information" name="LawyerFeeInfo" />
   </texts>
 </localizationDictionary>

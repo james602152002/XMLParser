@@ -2694,5 +2694,26 @@
     <text value="현재 이름이 이미 사용 중입니다. 다른 이름을 사용하십시오!" name="CanNotUseName" />
     <text value="시작 시간" name="CreationStartTime" />
     <text value="생성 종료 시간" name="CreationEndTime" />
+    <text value="현재 버전 최대 계정 수" name="CurrentVerMaxNum" />
+    <text value="삭제 된 사용자 표시" name="ShowDeletedUser" />
+    <text value="시스템 고객" name="SystemCustomer" />
+    <text value="&quot;Shanghai Bizhi Technology Co., Ltd.&quot;와 같은 회사 이름을 입력하십시오." name="CorporateHint" />
+    <text value="관리자 가이드" name="AdministratorGuide" />
+    <text value="고객 관계 운영 지침" name="CustomerGuide" />
+    <text value="케이스 조작 가이드" name="CaseGuide" />
+    <text value="사례 사업 운영 지침" name="CaseBusinessGuide" />
+    <text value="문서 조작 안내서" name="DocumentGuide" />
+    <text value="금융 운영 지침" name="FinancialGuide" />
+    <text value="행정 지침" name="AdministrativeGuide" />
+    <text value="인적 자원 운영 가이드" name="HumanGuide" />
+    <text value="초보자 조작 가이드" name="NoviceGuide" />
+    <text value="도움말 문서" name="Helpdocument" />
+    <text value="보관 시작 시간" name="ArchiveStartTime" />
+    <text value="아카이브 종료 시간" name="ArchiveEndTime" />
+    <text value="응용 프로그램 시작 시간" name="ApplyStartTime" />
+    <text value="응용 프로그램 종료 시간" name="ApplyEndTime" />
+    <text value="청구 및 계약 정보" name="ChargeAndContractInfo" />
+    <text value="계약 관련 정보를 입력하십시오." name="PlzFillContractRelatedInfo" />
+    <text value="변호사 비용 정보" name="LawyerFeeInfo" />
   </texts>
 </localizationDictionary>

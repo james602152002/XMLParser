@@ -2694,5 +2694,26 @@
     <text value="當前名稱已被使用，請使用其他名稱！" name="CanNotUseName" />
     <text value="創建開始時間" name="CreationStartTime" />
     <text value="創建結束時間" name="CreationEndTime" />
+    <text value="當前版本最大賬號數量" name="CurrentVerMaxNum" />
+    <text value="顯示已刪除用戶" name="ShowDeletedUser" />
+    <text value="系統客戶" name="SystemCustomer" />
+    <text value="請輸入企業名稱，例如“上海必智科技有限公司“" name="CorporateHint" />
+    <text value="管理員操作指引" name="AdministratorGuide" />
+    <text value="客戶關係操作指引" name="CustomerGuide" />
+    <text value="案件操作指引" name="CaseGuide" />
+    <text value="案件業務操作指引" name="CaseBusinessGuide" />
+    <text value="文檔操作指引" name="DocumentGuide" />
+    <text value="財務操作指引" name="FinancialGuide" />
+    <text value="行政操作指引" name="AdministrativeGuide" />
+    <text value="人力資源操作指引" name="HumanGuide" />
+    <text value="新手操作指引" name="NoviceGuide" />
+    <text value="幫助文檔" name="Helpdocument" />
+    <text value="歸檔開始時間" name="ArchiveStartTime" />
+    <text value="歸檔結束時間" name="ArchiveEndTime" />
+    <text value="申請開始時間" name="ApplyStartTime" />
+    <text value="申請結束時間" name="ApplyEndTime" />
+    <text value="收費與合同信息" name="ChargeAndContractInfo" />
+    <text value="請填寫合同相關信息" name="PlzFillContractRelatedInfo" />
+    <text value="律師費信息" name="LawyerFeeInfo" />
   </texts>
 </localizationDictionary>
