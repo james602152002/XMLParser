@@ -2715,5 +2715,7 @@
     <text value="청구 및 계약 정보" name="ChargeAndContractInfo" />
     <text value="계약 관련 정보를 입력하십시오." name="PlzFillContractRelatedInfo" />
     <text value="변호사 비용 정보" name="LawyerFeeInfo" />
+    <text value="전체 위험" name="FullRisk" />
+    <text value="기본 플러스 위험" name="BasicPlusRisk" />
   </texts>
 </localizationDictionary>

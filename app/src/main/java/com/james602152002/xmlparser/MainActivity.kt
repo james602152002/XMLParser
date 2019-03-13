@@ -33,7 +33,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
     //    @BindView(R.id.saury_tw)
     //    AppCompatButton sauryTw;
 
-    private val culture: String? = null
+//    private val culture: String? = null
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

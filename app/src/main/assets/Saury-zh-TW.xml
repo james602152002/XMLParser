@@ -2715,5 +2715,7 @@
     <text value="收費與合同信息" name="ChargeAndContractInfo" />
     <text value="請填寫合同相關信息" name="PlzFillContractRelatedInfo" />
     <text value="律師費信息" name="LawyerFeeInfo" />
+    <text value="全風險" name="FullRisk" />
+    <text value="基本加風險" name="BasicPlusRisk" />
   </texts>
 </localizationDictionary>

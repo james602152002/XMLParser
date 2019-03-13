@@ -2715,5 +2715,7 @@
     <text value="Charge and contract information" name="ChargeAndContractInfo" />
     <text value="Please fill in the contract related information" name="PlzFillContractRelatedInfo" />
     <text value="Lawyer fee information" name="LawyerFeeInfo" />
+    <text value="Full risk" name="FullRisk" />
+    <text value="Basic plus risk" name="BasicPlusRisk" />
   </texts>
 </localizationDictionary>
