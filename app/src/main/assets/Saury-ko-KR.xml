@@ -2717,5 +2717,53 @@
     <text value="변호사 비용 정보" name="LawyerFeeInfo" />
     <text value="전체 위험" name="FullRisk" />
     <text value="기본 플러스 위험" name="BasicPlusRisk" />
+    <text value="단일 요금" name="SingleRate" />
+    <text value="다른 요율" name="DifferentRate" />
+    <text value="요점" name="KeyPoints" />
+    <text value="업데이트 시간" name="UpdateTime" />
+    <text value="귀하의 동의를 얻지 못하면 귀하는 귀하의 동의를 얻지 못하게됩니다." name="SyncChangeSettingsWarning" />
+    <text value="이 계정은 Admin 계정에 바인딩 된 타사 동기화 계정에 속하며 주로 동기화 설정 작업에 사용됩니다. 일단 바인딩을 해제하면 동기화 할 수 없습니다.주의하십시오." name="SyncAccountUnbindSarning" />
+    <text value="이 계정은 관리자 계정에 바인딩 된 타사 동기화 계정에 속하므로 바인딩시 현재 타사 계정이 관리자 계정에 바인딩되어 있는지 확인하십시오." name="SyncAccountBindSarning" />
+    <text value="파일 크기" name="FileSize" />
+    <text value="여러 줄의 텍스트를 입력하려면 Shift + Enter를 눌러 줄 바꿈하십시오." name="PressCtrlAndEnterToWrapLines" />
+    <text value="{0} 개의 작업" name="ScheduleTaskCnt" />
+    <text value="총 {0} 일정" name="ScheduleCnt" />
+    <text value="총 {0} 로그" name="ScheduleLogCnt" />
+    <text value="총 {0} 법원 알림" name="ScheduleCourtCnt" />
+    <text value="{0} 회의" name="ScheduleMeetingCnt" />
+    <text value="{0} 출발" name="ScheduleLeaveCnt" />
+    <text value="일치하는 레코드가 없습니다." name="NoMatchingRecordsWereFound" />
+    <text value="{0} 초 전" name="SecondsAgo" />
+    <text value="다른 {0}" name="YouStillHaveOtherCnt" />
+    <text value="모두" name="ScheduleAll" />
+    <text value="고객을 만들거나 선택하십시오." name="PlzCreateOrSelectClient" />
+    <text value="청구 및 계약 정보를 입력하십시오." name="PlzInputChargeAndContractInfo" />
+    <text value="검색 코드 또는 검색 검색 " name="ScanUseWechatOfficialAccounts" />
+    <text value="WeChat official accounts" name="WechatOfficialAccounts" />
+    <text value="기본 앱" name="NativeApp" />
+    <text value="스캔 코드 다운로드 및 네이티브 앱 설치" name="ScanDownloadNativeApp" />
+    <text value="청구 및 계약 정보를 확인하십시오." name="PlzConfirmChargeAndContractInfo" />
+    <text value="메시지 알리미" name="MessageNotification" />
+    <text value="신규 입주자 등록" name="NewTenantRegisterEmail_Title" />
+    <text value="신규 입주자 등록 정보는 다음과 같습니다." name="NewTenantRegisterEmail_SubTitle" />
+    <text value="피드백 사용" name="Feedback" />
+    <text value="모듈" name="Module" />
+    <text value="간단히 피드백의 주요 아이디어를 소개하십시오 :)" name="FeedbackTitlePlaceholder" />
+    <text value="모듈을 작성하십시오." name="PleaseFillModule" />
+    <text value="문제 설명" name="FeedbackDescription" />
+    <text value="여기에 문제를 설명해주세요. 피드백 버그 인 경우 오류 메시지를 설명하고 스크린 샷을 업로드하십시오. 감사합니다." name="FeedbackRemark" />
+    <text value="사용자 피드백" name="FeedbackEmail_Title" />
+    <text value="사용자가 의견을 제출했습니다. 확인해주세요." name="FeedbackEmail_Body" />
+    <text value="사건은 존재하지 않습니다!" name="CaseNotExist" />
+    <text value="신청자에게 돌아 가기" name="ReturnToApplicant" />
+    <text value="빨리 만들기" name="CreationShortcut" />
+    <text value="뉴스 발표" name="NewsBulletin" />
+    <text value="최신 뉴스" name="LatestNews" />
+    <text value="내부 고지" name="InternalCirculation" />
+    <text value="인기있는 콘텐츠" name="HotContent" />
+    <text value="내 컬렉션" name="MyCollection" />
+    <text value="키워드 :" name="KeywordsTitle" />
+    <text value="중요도 :" name="ImportantLevelTitle" />
+    <text value="인사 관리" name="PersonnelManagement" />
   </texts>
 </localizationDictionary>

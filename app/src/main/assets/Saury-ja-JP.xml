@@ -2642,7 +2642,7 @@
     <text value="WeChatアプレット" name="WeChatMina" />
     <text value="小さなプログラムを使ってコードをスキャンするOpen WeChat" name="ScanUseWeChatMina" />
     <text value="もうすぐ、お楽しみに" name="ComingSoon" />
-    <text value="無断複写・転載を禁じます。" name="AllRightReserved" />
+    <text value="全著作権所有。" name="AllRightReserved" />
     <text value="私の履歴書" name="MyResume" />
     <text value="共有する" name="Share" />
     <text value="競合キーワードを入力してください" name="PlzInputConflictKeywords" />
@@ -2717,5 +2717,53 @@
     <text value="弁護士手数料情報" name="LawyerFeeInfo" />
     <text value="全リスク" name="FullRisk" />
     <text value="基本プラスリスク" name="BasicPlusRisk" />
+    <text value="シングルレート" name="SingleRate" />
+    <text value="異なる料金" name="DifferentRate" />
+    <text value="キーポイント" name="KeyPoints" />
+    <text value="更新時間" name="UpdateTime" />
+    <text value="現在の設定が変更されたことを確認したかどうかにかかわらず、サードパーティを変更する場合は、アドミニストレーターで設定されたサードパーティのコードを使用して、次のようにすることができます。" name="SyncChangeSettingsWarning" />
+    <text value="このアカウントは、管理者アカウントにバインドされているサードパーティの同期アカウントに属しており、主に同期設定操作に使用されます。一度バインド解除すると、同期することができなくなります。" name="SyncAccountUnbindSarning" />
+    <text value="このアカウントは、管理者アカウントにバインドされているサードパーティの同期アカウントに属していますバインドするときは、現在のサードパーティアカウントが管理者アカウントにバインドされているかどうかを確認してください。" name="SyncAccountBindSarning" />
+    <text value="ファイルサイズ" name="FileSize" />
+    <text value="複数行のテキストを入力したい場合は、Shift + Enterを押して折り返します。" name="PressCtrlAndEnterToWrapLines" />
+    <text value="{0}タスク" name="ScheduleTaskCnt" />
+    <text value="合計{0}スケジュール" name="ScheduleCnt" />
+    <text value="合計{0}ログ" name="ScheduleLogCnt" />
+    <text value="合計{0}件の裁判所の通知" name="ScheduleCourtCnt" />
+    <text value="{0}件の会議" name="ScheduleMeetingCnt" />
+    <text value="{0}を離れる" name="ScheduleLeaveCnt" />
+    <text value="一致するレコードが見つかりません" name="NoMatchingRecordsWereFound" />
+    <text value="{0} 秒前" name="SecondsAgo" />
+    <text value="他に {0} がいます" name="YouStillHaveOtherCnt" />
+    <text value="全部" name="ScheduleAll" />
+    <text value="顧客を作成または選択してください" name="PlzCreateOrSelectClient" />
+    <text value="料金と契約情報を入力してください" name="PlzInputChargeAndContractInfo" />
+    <text value="WeChatがコードをスキャンしたり検索を検索する" name="ScanUseWechatOfficialAccounts" />
+    <text value="微信公衆号" name="WechatOfficialAccounts" />
+    <text value="ネイティブアプリ" name="NativeApp" />
+    <text value="コードのダウンロードをスキャンしてネイティブアプリをインストールする" name="ScanDownloadNativeApp" />
+    <text value="料金および契約情報を確認してください" name="PlzConfirmChargeAndContractInfo" />
+    <text value="メッセージリマインダー" name="MessageNotification" />
+    <text value="新規テナント登録" name="NewTenantRegisterEmail_Title" />
+    <text value="新規テナント登録情報は以下のとおりです" name="NewTenantRegisterEmail_SubTitle" />
+    <text value="フィードバックを使用する" name="Feedback" />
+    <text value="モジュール" name="Module" />
+    <text value="フィードバックの主な考え方を簡単に紹介してください:)" name="FeedbackTitlePlaceholder" />
+    <text value="モジュールを記入してください" name="PleaseFillModule" />
+    <text value="問題の説明" name="FeedbackDescription" />
+    <text value="ここにあなたの問題を記述しなさい、それがフィードバックのバグなら、エラープロンプトを説明し、スクリーンショットをアップロードしてください。" name="FeedbackRemark" />
+    <text value="ユーザーフィードバック" name="FeedbackEmail_Title" />
+    <text value="ユーザーがフィードバックを送信しました。確認してください" name="FeedbackEmail_Body" />
+    <text value="事件は存在しません！" name="CaseNotExist" />
+    <text value="申請者に戻る" name="ReturnToApplicant" />
+    <text value="素早く作成" name="CreationShortcut" />
+    <text value="ニュース発表" name="NewsBulletin" />
+    <text value="最新ニュース" name="LatestNews" />
+    <text value="内部通知" name="InternalCirculation" />
+    <text value="人気のあるコンテンツ" name="HotContent" />
+    <text value="私のコレクション" name="MyCollection" />
+    <text value="キーワード：" name="KeywordsTitle" />
+    <text value="重要レベル" name="ImportantLevelTitle" />
+    <text value="人事管理" name="PersonnelManagement" />
   </texts>
 </localizationDictionary>

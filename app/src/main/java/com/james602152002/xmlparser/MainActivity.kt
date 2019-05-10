@@ -22,18 +22,6 @@ import java.io.InputStream
 class MainActivity : AppCompatActivity(), View.OnClickListener {
 
     private val builder = StringBuilder()
-    //    @BindView(R.id.saury)
-    //    AppCompatButton saury;
-    //    @BindView(R.id.saury_jp)
-    //    AppCompatButton sauryJp;
-    //    @BindView(R.id.saury_kr)
-    //    AppCompatButton sauryKr;
-    //    @BindView(R.id.saury_cn)
-    //    AppCompatButton sauryCn;
-    //    @BindView(R.id.saury_tw)
-    //    AppCompatButton sauryTw;
-
-//    private val culture: String? = null
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -100,7 +88,9 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
             "RemainingAnnualLeaveDays", "RemindBeforeMinutes", "RemindBeforeHours",
             "RemindBeforeDays", "RemindBeforeWeeks", "PreviewTemplate", "SelectableLogCnt",
             "OptionalContractInfoCnt", "OptionalFeeCnt", "SelectedCnt", "LawyerCnt",
-            "ContactsCnt" -> true
+            "ContactsCnt", "ScheduleTaskCnt", "ScheduleCnt", "ScheduleLogCnt",
+            "ScheduleCourtCnt", "ScheduleMeetingCnt", "ScheduleLeaveCnt",
+            "SecondsAgo", "YouStillHaveOtherCnt" -> true
             else -> false
         }
     }

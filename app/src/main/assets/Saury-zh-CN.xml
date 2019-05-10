@@ -2717,5 +2717,53 @@
     <text value="律师费信息" name="LawyerFeeInfo" />
     <text value="全风险" name="FullRisk" />
     <text value="基本加风险" name="BasicPlusRisk" />
+    <text value="单一费率" name="SingleRate" />
+    <text value="不同费率" name="DifferentRate" />
+    <text value="要点" name="KeyPoints" />
+    <text value="更新时间" name="UpdateTime" />
+    <text value="是否确认更改当前同步设置，若改成第三方同步，此时会在Admin账号所绑定的第三方账号下生成同步文件夹和文件。" name="SyncChangeSettingsWarning" />
+    <text value="此账号属于Admin账号下所绑定的第三方同步账号，主要用于同步设置操作，一旦解绑将无法进行同步操作，请谨慎操作！" name="SyncAccountUnbindSarning" />
+    <text value="此账号属于Admin账号下所绑定的第三方同步账号，绑定时请确定当前第三方账号是否与Admin账号互相绑定！" name="SyncAccountBindSarning" />
+    <text value="文件大小" name="FileSize" />
+    <text value="想输入多行文本 可按 Shift+Enter 换行" name="PressCtrlAndEnterToWrapLines" />
+    <text value="共 {0} 条任务" name="ScheduleTaskCnt" />
+    <text value="共 {0} 条日程" name="ScheduleCnt" />
+    <text value="共 {0} 条日志" name="ScheduleLogCnt" />
+    <text value="共 {0} 条开庭提醒" name="ScheduleCourtCnt" />
+    <text value="共 {0} 条会议" name="ScheduleMeetingCnt" />
+    <text value="共 {0} 条请假" name="ScheduleLeaveCnt" />
+    <text value="没有找到匹配的记录" name="NoMatchingRecordsWereFound" />
+    <text value="{0} 秒前" name="SecondsAgo" />
+    <text value="您还有其他 {0} 条" name="YouStillHaveOtherCnt" />
+    <text value="全部" name="ScheduleAll" />
+    <text value="请创建或选择客户" name="PlzCreateOrSelectClient" />
+    <text value="请输入收费与合同信息" name="PlzInputChargeAndContractInfo" />
+    <text value="微信扫码或搜一搜：律智荟" name="ScanUseWechatOfficialAccounts" />
+    <text value="微信公众号" name="WechatOfficialAccounts" />
+    <text value="原生App" name="NativeApp" />
+    <text value="扫一扫下载安装" name="ScanDownloadNativeApp" />
+    <text value="请确认收费及合同信息" name="PlzConfirmChargeAndContractInfo" />
+    <text value="消息提醒" name="MessageNotification" />
+    <text value="新租户注册" name="NewTenantRegisterEmail_Title" />
+    <text value="新租户注册信息如下" name="NewTenantRegisterEmail_SubTitle" />
+    <text value="使用反馈" name="Feedback" />
+    <text value="模块" name="Module" />
+    <text value="请简单介绍下反馈的主旨:)" name="FeedbackTitlePlaceholder" />
+    <text value="请填写模块" name="PleaseFillModule" />
+    <text value="问题描述" name="FeedbackDescription" />
+    <text value="在这里描述您的问题,如果是反馈Bug,请描述错误提示,并上传截图.谢谢" name="FeedbackRemark" />
+    <text value="用户使用反馈" name="FeedbackEmail_Title" />
+    <text value="用户提交了一条反馈信息，请查看" name="FeedbackEmail_Body" />
+    <text value="案件不存在！" name="CaseNotExist" />
+    <text value="退回给申请人" name="ReturnToApplicant" />
+    <text value="快速创建" name="CreationShortcut" />
+    <text value="新闻公告" name="NewsBulletin" />
+    <text value="最新新闻" name="LatestNews" />
+    <text value="内部通告" name="InternalCirculation" />
+    <text value="热门内容" name="HotContent" />
+    <text value="我的收藏" name="MyCollection" />
+    <text value="关键词：" name="KeywordsTitle" />
+    <text value="重要级别：" name="ImportantLevelTitle" />
+    <text value="人事管理" name="PersonnelManagement" />
   </texts>
 </localizationDictionary>

@@ -2642,7 +2642,7 @@
     <text value="WeChat min app" name="WeChatMina" />
     <text value="Open WeChat scan code using the applet" name="ScanUseWeChatMina" />
     <text value="Coming soon, stay tuned" name="ComingSoon" />
-    <text value="All RIGHT RESERVED." name="AllRightReserved" />
+    <text value="all rights reserved." name="AllRightReserved" />
     <text value="My resume" name="MyResume" />
     <text value="share it" name="Share" />
     <text value="Please enter a conflict keyword" name="PlzInputConflictKeywords" />
@@ -2717,5 +2717,53 @@
     <text value="Lawyer fee information" name="LawyerFeeInfo" />
     <text value="Full risk" name="FullRisk" />
     <text value="Basic plus risk" name="BasicPlusRisk" />
+    <text value="Single rate" name="SingleRate" />
+    <text value="Different rates" name="DifferentRate" />
+    <text value="Key points" name="KeyPoints" />
+    <text value="Update time" name="UpdateTime" />
+    <text value="Whether to confirm the change of the current synchronization settings, if it is changed to a third-party synchronization, the synchronization folder and files will be generated under the third-party account bound to the Admin account." name="SyncChangeSettingsWarning" />
+    <text value="This account belongs to the third-party synchronization account bound to the Admin account. It is mainly used for synchronization setting operations. Once unbind, it cannot be synchronized. Please be cautious!" name="SyncAccountUnbindSarning" />
+    <text value="This account belongs to the third-party synchronization account bound to the Admin account. When binding, please confirm whether the current third-party account is bound to the Admin account." name="SyncAccountBindSarning" />
+    <text value="File size" name="FileSize" />
+    <text value="Want to enter multiple lines of text, press Shift+Enter to wrap" name="PressCtrlAndEnterToWrapLines" />
+    <text value="{0} tasks" name="ScheduleTaskCnt" />
+    <text value="A total of {0} schedules" name="ScheduleCnt" />
+    <text value="Total {0} logs" name="ScheduleLogCnt" />
+    <text value="A total of {0} court reminders" name="ScheduleCourtCnt" />
+    <text value="{0} meetings" name="ScheduleMeetingCnt" />
+    <text value="{0} leave" name="ScheduleLeaveCnt" />
+    <text value="No matching records found" name="NoMatchingRecordsWereFound" />
+    <text value="{0} seconds ago" name="SecondsAgo" />
+    <text value="You have other {0}" name="YouStillHaveOtherCnt" />
+    <text value="All" name="ScheduleAll" />
+    <text value="Please create or select a customer" name="PlzCreateOrSelectClient" />
+    <text value="Please enter the charge and contract information" name="PlzInputChargeAndContractInfo" />
+    <text value="WeChat scan code or search" name="ScanUseWechatOfficialAccounts" />
+    <text value="WeChat official accounts" name="WechatOfficialAccounts" />
+    <text value="Native App" name="NativeApp" />
+    <text value="Scan code download and install native app" name="ScanDownloadNativeApp" />
+    <text value="Please confirm the charge and contract information" name="PlzConfirmChargeAndContractInfo" />
+    <text value="Message notification" name="MessageNotification" />
+    <text value="New tenant registration" name="NewTenantRegisterEmail_Title" />
+    <text value="New tenant registration information is as follows" name="NewTenantRegisterEmail_SubTitle" />
+    <text value="Use feedback" name="Feedback" />
+    <text value="Module" name="Module" />
+    <text value="Please briefly introduce the main idea of ​​feedback:)" name="FeedbackTitlePlaceholder" />
+    <text value="Please fill in the module" name="PleaseFillModule" />
+    <text value="Problem Description" name="FeedbackDescription" />
+    <text value="Describe your problem here, if it is a feedback bug, please describe the error prompt and upload a screenshot. Thank you" name="FeedbackRemark" />
+    <text value="User feedback" name="FeedbackEmail_Title" />
+    <text value="User submitted a feedback, please check" name="FeedbackEmail_Body" />
+    <text value="The case does not exist!" name="CaseNotExist" />
+    <text value="Return to applicant" name="ReturnToApplicant" />
+    <text value="Quickly create" name="CreationShortcut" />
+    <text value="News announcement" name="NewsBulletin" />
+    <text value="latest news" name="LatestNews" />
+    <text value="Internal notice" name="InternalCirculation" />
+    <text value="Popular content" name="HotContent" />
+    <text value="my collection" name="MyCollection" />
+    <text value="Key words:" name="KeywordsTitle" />
+    <text value="Important level:" name="ImportantLevelTitle" />
+    <text value="HR management" name="PersonnelManagement" />
   </texts>
 </localizationDictionary>
