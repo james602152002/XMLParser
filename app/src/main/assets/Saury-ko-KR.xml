@@ -524,7 +524,7 @@
     <text value="{0} 이메일로 이메일을 보냈습니다. 이메일의 링크를 클릭하여 이메일 주소를 확인하십시오." name="ConfirmationMailSentPleaseClickLinkInTheEmail" />
     <text value="충돌 검색 정보를 확인 하시겠습니까?" name="ConfirmConflictRetrievalInfo" />
     <text value="정보 삭제를 확인합니까?" name="ConfirmDeleteInformation" />
-    <text value="확인 통과" name="Confirmed" />
+    <text value="확인 됨" name="Confirmed" />
     <text value="{0} 예약 한 컨퍼런스 참여 확인 [{1}]" name="ConfirmParticipatedMeeting" />
     <text value="참여 기록이 더 이상 표시되지 않는 것을 확인합니까? " name="ConfirmParticipationLogIsNoLongerDisplayed" />
     <text value="일정 확인" name="ConfirmSchedule" />
@@ -2765,5 +2765,14 @@
     <text value="키워드 :" name="KeywordsTitle" />
     <text value="중요도 :" name="ImportantLevelTitle" />
     <text value="인사 관리" name="PersonnelManagement" />
+    <text value="인보이스 검토" name="Pages.Financial.Invoices.AuditInvoices" />
+    <text value="컬렉션 검토" name="Pages.Financial.Receipts.AuditReceipts" />
+    <text value="비용 검토" name="Pages.Financial.Charge.AuditCharges" />
+    <text value="도장을 찍다" name="Stamped" />
+    <text value="도장을 찍는 것을 허락하지 않다" name="NoPermissionToSeal" />
+    <text value="다운로드 실패" name="DownloadFailed" />
+    <text value="대기중인 인보이스" name="WaitForRegister" />
+    <text value="대기중인 소유권 주장" name="WaitForClaim" />
+    <text value="태그 반복" name="TagRepeat" />
   </texts>
 </localizationDictionary>

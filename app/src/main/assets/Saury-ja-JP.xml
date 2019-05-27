@@ -524,7 +524,7 @@
     <text value="あなたの{0}メールにメールが送信されました。あなたのメールアドレスを確認するには、メールのリンクをクリックしてください。" name="ConfirmationMailSentPleaseClickLinkInTheEmail" />
     <text value="競合検索情報を確認しますか？" name="ConfirmConflictRetrievalInfo" />
     <text value="情報の削除を確認しますか？" name="ConfirmDeleteInformation" />
-    <text value="確認の合格" name="Confirmed" />
+    <text value="確認済み" name="Confirmed" />
     <text value="{0}予約した会議への参加を確認する[{1}]" name="ConfirmParticipatedMeeting" />
     <text value="参加ログが表示されなくなったことを確認しますか？" name="ConfirmParticipationLogIsNoLongerDisplayed" />
     <text value="スケジュールを確認する" name="ConfirmSchedule" />
@@ -2765,5 +2765,14 @@
     <text value="キーワード：" name="KeywordsTitle" />
     <text value="重要レベル" name="ImportantLevelTitle" />
     <text value="人事管理" name="PersonnelManagement" />
+    <text value="請求書のレビュー" name="Pages.Financial.Invoices.AuditInvoices" />
+    <text value="コレクションレビュー" name="Pages.Financial.Receipts.AuditReceipts" />
+    <text value="コストレビュー" name="Pages.Financial.Charge.AuditCharges" />
+    <text value="捺印済み" name="Stamped" />
+    <text value="はんこを許さない" name="NoPermissionToSeal" />
+    <text value="ダウンロード失敗" name="DownloadFailed" />
+    <text value="保留中の請求書" name="WaitForRegister" />
+    <text value="保留中の申し立て" name="WaitForClaim" />
+    <text value="タグリピート" name="TagRepeat" />
   </texts>
 </localizationDictionary>

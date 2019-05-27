@@ -524,7 +524,7 @@
     <text value="已往您的{0}郵箱發送了一封郵件，請點擊郵件中的鏈接，驗證您的郵箱地址." name="ConfirmationMailSentPleaseClickLinkInTheEmail" />
     <text value="確認衝突檢索信息?" name="ConfirmConflictRetrievalInfo" />
     <text value="是否確認刪除信息？" name="ConfirmDeleteInformation" />
-    <text value="確認通過" name="Confirmed" />
+    <text value="已確認" name="Confirmed" />
     <text value="{0}確認參與了您預訂的會議[{1}]" name="ConfirmParticipatedMeeting" />
     <text value="是否確認不再顯示該參與日誌？" name="ConfirmParticipationLogIsNoLongerDisplayed" />
     <text value="確認日程" name="ConfirmSchedule" />
@@ -2765,5 +2765,14 @@
     <text value="關鍵詞：" name="KeywordsTitle" />
     <text value="重要級別：" name="ImportantLevelTitle" />
     <text value="人事管理" name="PersonnelManagement" />
+    <text value="發票審核" name="Pages.Financial.Invoices.AuditInvoices" />
+    <text value="收款審核" name="Pages.Financial.Receipts.AuditReceipts" />
+    <text value="費用審核" name="Pages.Financial.Charge.AuditCharges" />
+    <text value="已蓋章" name="Stamped" />
+    <text value="不允蓋章" name="NoPermissionToSeal" />
+    <text value="下載失敗" name="DownloadFailed" />
+    <text value="待開票" name="WaitForRegister" />
+    <text value="待認領" name="WaitForClaim" />
+    <text value="標籤重複" name="TagRepeat" />
   </texts>
 </localizationDictionary>

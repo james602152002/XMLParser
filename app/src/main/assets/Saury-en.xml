@@ -524,7 +524,7 @@
     <text value="An email was sent to your {0} email. Please click the link in the email to verify your email address." name="ConfirmationMailSentPleaseClickLinkInTheEmail" />
     <text value="Confirm conflict search information?" name="ConfirmConflictRetrievalInfo" />
     <text value="Do you confirm the deletion of information?" name="ConfirmDeleteInformation" />
-    <text value="Confirmation passed" name="Confirmed" />
+    <text value="confirmed" name="Confirmed" />
     <text value="{0}Confirm your participation in the conference you reserved[{1}]" name="ConfirmParticipatedMeeting" />
     <text value="Do you confirm that the participation log is no longer displayed? " name="ConfirmParticipationLogIsNoLongerDisplayed" />
     <text value="Confirm schedule" name="ConfirmSchedule" />
@@ -2765,5 +2765,14 @@
     <text value="Key words:" name="KeywordsTitle" />
     <text value="Important level:" name="ImportantLevelTitle" />
     <text value="HR management" name="PersonnelManagement" />
+    <text value="Invoice review" name="Pages.Financial.Invoices.AuditInvoices" />
+    <text value="Collection review" name="Pages.Financial.Receipts.AuditReceipts" />
+    <text value="Cost review" name="Pages.Financial.Charge.AuditCharges" />
+    <text value="Stamped" name="Stamped" />
+    <text value="No permission to seal" name="NoPermissionToSeal" />
+    <text value="download failed" name="DownloadFailed" />
+    <text value="Pending invoice" name="WaitForRegister" />
+    <text value="Pending claim" name="WaitForClaim" />
+    <text value="Tag repeat" name="TagRepeat" />
   </texts>
 </localizationDictionary>

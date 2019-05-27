@@ -524,7 +524,7 @@
     <text value="已往您的{0}邮箱发送了一封邮件，请点击邮件中的链接，验证您的邮箱地址." name="ConfirmationMailSentPleaseClickLinkInTheEmail" />
     <text value="确认冲突检索信息?" name="ConfirmConflictRetrievalInfo" />
     <text value="是否确认删除信息？" name="ConfirmDeleteInformation" />
-    <text value="确认通过" name="Confirmed" />
+    <text value="已确认" name="Confirmed" />
     <text value="{0}确认参与了您预订的会议[{1}]" name="ConfirmParticipatedMeeting" />
     <text value="是否确认不再显示该参与日志？取消后将无法再转换为自己的日志" name="ConfirmParticipationLogIsNoLongerDisplayed" />
     <text value="确认日程" name="ConfirmSchedule" />
@@ -2765,5 +2765,14 @@
     <text value="关键词：" name="KeywordsTitle" />
     <text value="重要级别：" name="ImportantLevelTitle" />
     <text value="人事管理" name="PersonnelManagement" />
+    <text value="发票审核" name="Pages.Financial.Invoices.AuditInvoices" />
+    <text value="收款审核" name="Pages.Financial.Receipts.AuditReceipts" />
+    <text value="费用审核" name="Pages.Financial.Charge.AuditCharges" />
+    <text value="已盖章" name="Stamped" />
+    <text value="不允盖章" name="NoPermissionToSeal" />
+    <text value="下载失败" name="DownloadFailed" />
+    <text value="待开票" name="WaitForRegister" />
+    <text value="待认领" name="WaitForClaim" />
+    <text value="标签重复" name="TagRepeat" />
   </texts>
 </localizationDictionary>
