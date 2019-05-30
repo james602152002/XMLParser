@@ -2774,5 +2774,11 @@
     <text value="保留中の請求書" name="WaitForRegister" />
     <text value="保留中の申し立て" name="WaitForClaim" />
     <text value="タグリピート" name="TagRepeat" />
+    <text value="顧客名はすでに存在します。既存の顧客情報を修正または選択して確認してください。" name="TheSameCustomerNameHasAlreadyExisted" />
+    <text value="この市民権情報はすでに存在します！" name="TheCardNoHasAlreadyExisted" />
+    <text value="請求書レビュー" name="Pages_Financial_Billings_AuditBillings" />
+    <text value="サブタスクは追加されていません" name="NoSubtaskAdded" />
+    <text value="このアイテムを削除する前に、このアイテムのすべてのステージとタスクをクリアしてください。" name="ClearTaskProject" />
+    <text value="私のプロジェクト" name="MyProject" />
   </texts>
 </localizationDictionary>

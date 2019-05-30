@@ -2774,5 +2774,11 @@
     <text value="Pending invoice" name="WaitForRegister" />
     <text value="Pending claim" name="WaitForClaim" />
     <text value="Tag repeat" name="TagRepeat" />
+    <text value="The customer name already exists. Please check to correct or select existing customer information." name="TheSameCustomerNameHasAlreadyExisted" />
+    <text value="This citizenship information already exists!" name="TheCardNoHasAlreadyExisted" />
+    <text value="Bill review" name="Pages_Financial_Billings_AuditBillings" />
+    <text value="No subtask added" name="NoSubtaskAdded" />
+    <text value="Sorry, please clear all the stages and tasks on this task item before deleting this item!" name="ClearTaskProject" />
+    <text value="My project" name="MyProject" />
   </texts>
 </localizationDictionary>

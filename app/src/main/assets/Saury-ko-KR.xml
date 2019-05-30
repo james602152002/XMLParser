@@ -2774,5 +2774,11 @@
     <text value="대기중인 인보이스" name="WaitForRegister" />
     <text value="대기중인 소유권 주장" name="WaitForClaim" />
     <text value="태그 반복" name="TagRepeat" />
+    <text value="고객 이름이 이미 있습니다. 기존 고객 정보를 수정하거나 선택하십시오." name="TheSameCustomerNameHasAlreadyExisted" />
+    <text value="이 시민권 정보는 이미 존재합니다!" name="TheCardNoHasAlreadyExisted" />
+    <text value="청구서 검토" name="Pages_Financial_Billings_AuditBillings" />
+    <text value="하위 작업이 추가되지 않았습니다." name="NoSubtaskAdded" />
+    <text value="죄송합니다.이 항목을 삭제하기 전에이 작업 항목의 모든 단계와 작업을 삭제하십시오!" name="ClearTaskProject" />
+    <text value="내 프로젝트" name="MyProject" />
   </texts>
 </localizationDictionary>

@@ -2774,5 +2774,11 @@
     <text value="待开票" name="WaitForRegister" />
     <text value="待认领" name="WaitForClaim" />
     <text value="标签重复" name="TagRepeat" />
+    <text value="该客户名称已存在，请检查后更正或选择已有客户信息" name="TheSameCustomerNameHasAlreadyExisted" />
+    <text value="该公民身份信息已存在！" name="TheCardNoHasAlreadyExisted" />
+    <text value="账单审核" name="Pages_Financial_Billings_AuditBillings" />
+    <text value="未添加子任务" name="NoSubtaskAdded" />
+    <text value="对不起，请先清空此任务项目上的所有阶段及任务，然后再删除这个项目！" name="ClearTaskProject" />
+    <text value="我的项目" name="MyProject" />
   </texts>
 </localizationDictionary>
