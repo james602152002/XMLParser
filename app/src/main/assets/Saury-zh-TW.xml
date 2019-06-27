@@ -371,7 +371,7 @@
     <text value="案件基本信息" name="CaseBasicInformation" />
     <text value="案件類別" name="CaseCategory" />
     <text value="結案報審" name="CaseClose" />
-    <text value="結案申請信息" name="CaseCloseApplicationInformation" />
+    <text value="結案信息" name="CaseCloseInformation" />
     <text value="結案中" name="CaseClosing" />
     <text value="案件變更" name="CaseConfig" />
     <text value="項目合同文檔" name="CaseContractDocument" />
@@ -1558,7 +1558,7 @@
     <text value="退回原因" name="ReturnReason" />
     <text value="歸還登記" name="ReturnTheRegistration" />
     <text value="歸還時間" name="ReturnTime" />
-    <text value="退回給衝突檢索人" name="ReturnToConflictRetrieveSpecialist" />
+    <text value="退回衝突檢索" name="ReturnToConflictRetrieveSpecialist" />
     <text value="退回給財務" name="ReturnToFinance" />
     <text value="退回給結案審核人" name="ReturnToTheClosingAuditor" />
     <text value="{0}退回了您的工作日誌[{1}]，退回原因[{2}]" name="ReturnWorkLogRemind" />
@@ -2361,7 +2361,7 @@
     <text value="請選擇部門" name="PlzSelectDepartment" />
     <text value="請選擇職員" name="PlzSelectStaff" />
     <text value="請選擇蓋章類型" name="PlzSelectStampType" />
-    <text value="請輸入蓋章份書" name="PlzInputSealCnt" />
+    <text value="請輸入蓋章份數" name="PlzInputSealCnt" />
     <text value="蓋章成功" name="StampSuccessfully" />
     <text value="蓋章失敗" name="StampFailure" />
     <text value="客戶地區" name="ClientRegion" />
@@ -2776,9 +2776,36 @@
     <text value="標籤重複" name="TagRepeat" />
     <text value="該客戶名稱已存在，請檢查後更正或選擇已有客戶信息" name="TheSameCustomerNameHasAlreadyExisted" />
     <text value="該公民身份信息已存在！" name="TheCardNoHasAlreadyExisted" />
-    <text value="賬單審核" name="Pages_Financial_Billings_AuditBillings" />
+    <text value="賬單審核" name="Pages.Financial.Billings.AuditBillings" />
     <text value="未添加子任務" name="NoSubtaskAdded" />
     <text value="對不起，請先清空此任務項目上的所有階段及任務，然後再刪除這個項目！" name="ClearTaskProject" />
     <text value="我的項目" name="MyProject" />
+    <text value="結案信息表" name="ClosingInformationTable" />
+    <text value="借閱登記" name="BorrowRegistration" />
+    <text value="財務審核" name="FinancialReview" />
+    <text value="待結案審核" name="PendingReview" />
+    <text value="財務審核退回" name="FinanciaReviewReturned" />
+    <text value="結案人退回" name="TheCaserReturned" />
+    <text value="待歸檔" name="ToBeArchived" />
+    <text value="待提交(立案申請中)" name="PendingSubmissionInApplicationForCreate" />
+    <text value="工作流" name="Workflow" />
+    <text value="待財務重新審核" name="PendingFinancialReview" />
+    <text value="流程圖" name="FlowChart" />
+    <text value="退回給財務" name="ReturnToFinancial" />
+    <text value="處理" name="Process" />
+    <text value="工作流" name="Pages.Administration.Workflow" />
+    <text value="待衝突檢索" name="ConflictSearch" />
+    <text value="衝突檢索退回" name="ConflictRetrievalReturn" />
+    <text value="合夥人審核" name="PendingPartnerReview" />
+    <text value="合夥人不許立案" name="PartnerIsNotAllowedToFileCase" />
+    <text value="待提交(結案申請中)" name="PendingSubmissionInApplicationForClose" />
+    <text value="設置案件費用" name="SetCaseCost" />
+    <text value="上傳案件合同" name="UploadCaseContract" />
+    <text value="當前衝突檢索已存在處理結果" name="CurrentConflictRetrievalAlreadyExistsProcessingResult" />
+    <text value="當前案件審核已存在處理結果" name="CurrentCaseReviewAlreadyHasProcessingResults" />
+    <text value="處理中" name="Processing" />
+    <text value="申請文書蓋章" name="ApplyPaperStamp" />
+    <text value="是否確定變更當前代碼的狀態？" name="AreYouSureChangeCurrentCodeState" />
+    <text value="該鍵值已存在，請變更後再提交！" name="TheKeyOfEntityAlreadyExists" />
   </texts>
 </localizationDictionary>

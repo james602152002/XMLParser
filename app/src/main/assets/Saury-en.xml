@@ -127,7 +127,7 @@
     <text value="Lawyer letter appraisal" name="ALawyerSLetterForTrial" />
     <text value="Alias" name="Alias" />
     <text value="List of Coiled Materials" name="AListOfMaterials" />
-    <text value="all" name="All" />
+    <text value="All" name="All" />
     <text value="All caches are successfully cleared." name="AllCachesSuccessfullyCleared" />
     <text value="All customers" name="AllCustomers" />
     <text value="Proportional allocation of quotas" name="AllocationQuotas" />
@@ -371,7 +371,7 @@
     <text value="Basic information of the case" name="CaseBasicInformation" />
     <text value="Case category" name="CaseCategory" />
     <text value="Case review" name="CaseClose" />
-    <text value="Closing application information" name="CaseCloseApplicationInformation" />
+    <text value="Closing information" name="CaseCloseInformation" />
     <text value="Closed" name="CaseClosing" />
     <text value="Change of case" name="CaseConfig" />
     <text value="Project Contract Document" name="CaseContractDocument" />
@@ -867,7 +867,7 @@
     <text value="Accepted" name="HasBeenAccepted" />
     <text value="activated" name="HasBeenActivated" />
     <text value="Cancelled" name="HasBeenCancelled" />
-    <text value="completed" name="HasBeenCompleted" />
+    <text value="Completed" name="HasBeenCompleted" />
     <text value="{0} confirmed to participate in your assigned schedule [{1}]" name="HasBeenConfirmedToParticipateInYourAssignedSchedule" />
     <text value="Returned" name="HasBeenReturned" />
     <text value="rejected" name="HasDeclined" />
@@ -878,7 +878,7 @@
     <text value="Meeting [{0}] has set you up as a meeting contact." name="HasSetYouAsMeetingContact" />
     <text value="Has timed out" name="HasTimeout" />
     <text value="Claimed" name="HaveBeenClaimed" />
-    <text value="unsubmitted" name="HaveNotBeenSubmitted" />
+    <text value="Unsubmitted" name="HaveNotBeenSubmitted" />
     <text value="Have read" name="HaveRead" />
     <text value="head" name="Header" />
     <text value="help" name="Help" />
@@ -2361,7 +2361,7 @@
     <text value="Please select a department" name="PlzSelectDepartment" />
     <text value="Please select a staff member" name="PlzSelectStaff" />
     <text value="Please select the stamp type" name="PlzSelectStampType" />
-    <text value="Please enter a stamped copy" name="PlzInputSealCnt" />
+    <text value="Please enter the number of stamps" name="PlzInputSealCnt" />
     <text value="Sealed successfully" name="StampSuccessfully" />
     <text value="Seal failed" name="StampFailure" />
     <text value="Customer area" name="ClientRegion" />
@@ -2776,9 +2776,36 @@
     <text value="Tag repeat" name="TagRepeat" />
     <text value="The customer name already exists. Please check to correct or select existing customer information." name="TheSameCustomerNameHasAlreadyExisted" />
     <text value="This citizenship information already exists!" name="TheCardNoHasAlreadyExisted" />
-    <text value="Bill review" name="Pages_Financial_Billings_AuditBillings" />
+    <text value="Bill review" name="Pages.Financial.Billings.AuditBillings" />
     <text value="No subtask added" name="NoSubtaskAdded" />
     <text value="Sorry, please clear all the stages and tasks on this task item before deleting this item!" name="ClearTaskProject" />
     <text value="My project" name="MyProject" />
+    <text value="Closing information table" name="ClosingInformationTable" />
+    <text value="Borrow registration" name="BorrowRegistration" />
+    <text value="Financial review" name="FinancialReview" />
+    <text value="Pending review" name="PendingReview" />
+    <text value="Financial review returned" name="FinanciaReviewReturned" />
+    <text value="The caser returned" name="TheCaserReturned" />
+    <text value="To be archived" name="ToBeArchived" />
+    <text value="Pending submission (in the case of filing)" name="PendingSubmissionInApplicationForCreate" />
+    <text value="Workflow" name="Workflow" />
+    <text value="Pending financial review" name="PendingFinancialReview" />
+    <text value="flow chart" name="FlowChart" />
+    <text value="Return to finance" name="ReturnToFinancial" />
+    <text value="process" name="Process" />
+    <text value="Workflow" name="Pages.Administration.Workflow" />
+    <text value="Conflict search" name="ConflictSearch" />
+    <text value="Conflict retrieval return" name="ConflictRetrievalReturn" />
+    <text value="Pending partner review" name="PendingPartnerReview" />
+    <text value="Partner is not allowed to file a case" name="PartnerIsNotAllowedToFileCase" />
+    <text value="Pending submission (in the case of closing the application)" name="PendingSubmissionInApplicationForClose" />
+    <text value="Set case cost" name="SetCaseCost" />
+    <text value="Upload case contract" name="UploadCaseContract" />
+    <text value="Current conflict retrieval already exists processing result" name="CurrentConflictRetrievalAlreadyExistsProcessingResult" />
+    <text value="The current case review already has processing results" name="CurrentCaseReviewAlreadyHasProcessingResults" />
+    <text value="Processing" name="Processing" />
+    <text value="Apply paper stamp" name="ApplyPaperStamp" />
+    <text value="Are you sure to change the status of the current code?" name="AreYouSureChangeCurrentCodeState" />
+    <text value="The key value already exists. Please change it before submitting!" name="TheKeyOfEntityAlreadyExists" />
   </texts>
 </localizationDictionary>

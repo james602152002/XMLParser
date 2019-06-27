@@ -371,7 +371,7 @@
     <text value="ケースの基本情報" name="CaseBasicInformation" />
     <text value="ケースカテゴリ" name="CaseCategory" />
     <text value="ケースレビュー" name="CaseClose" />
-    <text value="アプリケーション情報を閉じる" name="CaseCloseApplicationInformation" />
+    <text value="クロージング情報" name="CaseCloseInformation" />
     <text value="クローズド" name="CaseClosing" />
     <text value="ケースの変更" name="CaseConfig" />
     <text value="プロジェクト契約書" name="CaseContractDocument" />
@@ -2361,7 +2361,7 @@
     <text value="部門を選択してください" name="PlzSelectDepartment" />
     <text value="スタッフを選択してください" name="PlzSelectStaff" />
     <text value="スタンプタイプを選択してください" name="PlzSelectStampType" />
-    <text value="スタンプされたコピーを入力してください" name="PlzInputSealCnt" />
+    <text value="切手の数を入力してください" name="PlzInputSealCnt" />
     <text value="密封された" name="StampSuccessfully" />
     <text value="シールが失敗した" name="StampFailure" />
     <text value="顧客エリア" name="ClientRegion" />
@@ -2776,9 +2776,36 @@
     <text value="タグリピート" name="TagRepeat" />
     <text value="顧客名はすでに存在します。既存の顧客情報を修正または選択して確認してください。" name="TheSameCustomerNameHasAlreadyExisted" />
     <text value="この市民権情報はすでに存在します！" name="TheCardNoHasAlreadyExisted" />
-    <text value="請求書レビュー" name="Pages_Financial_Billings_AuditBillings" />
+    <text value="請求書レビュー" name="Pages.Financial.Billings.AuditBillings" />
     <text value="サブタスクは追加されていません" name="NoSubtaskAdded" />
     <text value="このアイテムを削除する前に、このアイテムのすべてのステージとタスクをクリアしてください。" name="ClearTaskProject" />
     <text value="私のプロジェクト" name="MyProject" />
+    <text value="決算情報テーブル" name="ClosingInformationTable" />
+    <text value="登録を借りる" name="BorrowRegistration" />
+    <text value="財務レビュー" name="FinancialReview" />
+    <text value="レビュー待ち" name="PendingReview" />
+    <text value="財務レビューが返されました" name="FinanciaReviewReturned" />
+    <text value="ケーサーが戻った" name="TheCaserReturned" />
+    <text value="アーカイブする" name="ToBeArchived" />
+    <text value="提出待ち（提出の場合）" name="PendingSubmissionInApplicationForCreate" />
+    <text value="ワークフロー" name="Workflow" />
+    <text value="保留中の財務レビュー" name="PendingFinancialReview" />
+    <text value="フローチャート" name="FlowChart" />
+    <text value="ファイナンスに戻る" name="ReturnToFinancial" />
+    <text value="処理中" name="Process" />
+    <text value="ワークフロー" name="Pages.Administration.Workflow" />
+    <text value="競合検索" name="ConflictSearch" />
+    <text value="競合検索戻り" name="ConflictRetrievalReturn" />
+    <text value="保留中のパートナーレビュー" name="PendingPartnerReview" />
+    <text value="パートナーは訴訟を起こすことができません" name="PartnerIsNotAllowedToFileCase" />
+    <text value="保留中の申請（申請をクローズする場合）" name="PendingSubmissionInApplicationForClose" />
+    <text value="セットケース費用" name="SetCaseCost" />
+    <text value="ケース契約をアップロード" name="UploadCaseContract" />
+    <text value="現在の競合検索はすでに存在します処理結果" name="CurrentConflictRetrievalAlreadyExistsProcessingResult" />
+    <text value="現在のケースレビューには既に処理結果があります" name="CurrentCaseReviewAlreadyHasProcessingResults" />
+    <text value="処理中" name="Processing" />
+    <text value="申請用紙スタンプ" name="ApplyPaperStamp" />
+    <text value="現在のコードのステータスを変更しますか？" name="AreYouSureChangeCurrentCodeState" />
+    <text value="キー値は既に存在します。送信する前に変更してください。" name="TheKeyOfEntityAlreadyExists" />
   </texts>
 </localizationDictionary>

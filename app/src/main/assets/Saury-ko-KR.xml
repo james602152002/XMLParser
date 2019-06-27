@@ -371,7 +371,7 @@
     <text value="사건의 기본 정보" name="CaseBasicInformation" />
     <text value="케이스 카테고리" name="CaseCategory" />
     <text value="사례 검토" name="CaseClose" />
-    <text value="응용 프로그램 정보 닫기" name="CaseCloseApplicationInformation" />
+    <text value="정보 닫기" name="CaseCloseInformation" />
     <text value="휴무일" name="CaseClosing" />
     <text value="사건의 변경" name="CaseConfig" />
     <text value="프로젝트 계약 문서" name="CaseContractDocument" />
@@ -2361,7 +2361,7 @@
     <text value="부서를 선택하십시오." name="PlzSelectDepartment" />
     <text value="직원을 선택하십시오." name="PlzSelectStaff" />
     <text value="스탬프 유형을 선택하십시오." name="PlzSelectStampType" />
-    <text value="각인 된 사본을 입력하십시오." name="PlzInputSealCnt" />
+    <text value="우표 수를 입력하십시오." name="PlzInputSealCnt" />
     <text value="봉인 됨" name="StampSuccessfully" />
     <text value="인장 실패" name="StampFailure" />
     <text value="고객 지역" name="ClientRegion" />
@@ -2776,9 +2776,36 @@
     <text value="태그 반복" name="TagRepeat" />
     <text value="고객 이름이 이미 있습니다. 기존 고객 정보를 수정하거나 선택하십시오." name="TheSameCustomerNameHasAlreadyExisted" />
     <text value="이 시민권 정보는 이미 존재합니다!" name="TheCardNoHasAlreadyExisted" />
-    <text value="청구서 검토" name="Pages_Financial_Billings_AuditBillings" />
+    <text value="청구서 검토" name="Pages.Financial.Billings.AuditBillings" />
     <text value="하위 작업이 추가되지 않았습니다." name="NoSubtaskAdded" />
     <text value="죄송합니다.이 항목을 삭제하기 전에이 작업 항목의 모든 단계와 작업을 삭제하십시오!" name="ClearTaskProject" />
     <text value="내 프로젝트" name="MyProject" />
+    <text value="결산 정보 테이블" name="ClosingInformationTable" />
+    <text value="차용 등록" name="BorrowRegistration" />
+    <text value="재무 검토" name="FinancialReview" />
+    <text value="검토 대기 중" name="PendingReview" />
+    <text value="재무 검토가 반환 됨" name="FinanciaReviewReturned" />
+    <text value="캐서 리턴" name="TheCaserReturned" />
+    <text value="보관 처리" name="ToBeArchived" />
+    <text value="대기중인 제출 (제출의 경우)" name="PendingSubmissionInApplicationForCreate" />
+    <text value="워크 플로" name="Workflow" />
+    <text value="대기중인 재무 검토" name="PendingFinancialReview" />
+    <text value="흐름도" name="FlowChart" />
+    <text value="재정으로 돌아 가기" name="ReturnToFinancial" />
+    <text value="가공" name="Process" />
+    <text value="워크 플로" name="Pages.Administration.Workflow" />
+    <text value="충돌 검색" name="ConflictSearch" />
+    <text value="충돌 검색 반환" name="ConflictRetrievalReturn" />
+    <text value="대기중인 파트너 검토" name="PendingPartnerReview" />
+    <text value="파트너가 사례를 제출할 수 없습니다" name="PartnerIsNotAllowedToFileCase" />
+    <text value="대기중인 제출 (신청 마감시)" name="PendingSubmissionInApplicationForClose" />
+    <text value="케이스 비용 설정" name="SetCaseCost" />
+    <text value="사례 계약 업로드" name="UploadCaseContract" />
+    <text value="현재 충돌 검색 처리 결과가 이미 있습니다." name="CurrentConflictRetrievalAlreadyExistsProcessingResult" />
+    <text value="현재 사례 검토에 이미 처리 결과가 있습니다." name="CurrentCaseReviewAlreadyHasProcessingResults" />
+    <text value="가공" name="Processing" />
+    <text value="신청 용지 스탬프" name="ApplyPaperStamp" />
+    <text value="현재 코드의 상태를 변경 하시겠습니까?" name="AreYouSureChangeCurrentCodeState" />
+    <text value="키 값이 이미 있습니다. 제출하기 전에 변경하십시오!" name="TheKeyOfEntityAlreadyExists" />
   </texts>
 </localizationDictionary>
