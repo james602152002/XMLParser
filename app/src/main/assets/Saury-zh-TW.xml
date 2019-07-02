@@ -2490,10 +2490,10 @@
     <text value="文件-重命名" name="Folder.Document.ReName" />
     <text value="文件-蓋章" name="Folder.Document.Seal" />
     <text value="文件-下載" name="Folder.Document.Download" />
-    <text value="共 %s 份定卷材料附件" name="FixedMaterialAttachmentsCnt" />
+    <text value="共 %s 份訂卷材料附件" name="FixedMaterialAttachmentsCnt" />
     <text value=" Nín quèdìng yào cóng jīběn mùlù {1} zhōng yí chú yònghù {0} ma? 22/5000 您確定要從基本目錄{1}中移除用戶{0}嗎？" name="RemoveUserFromFolderWarningMessage" />
     <text value="您確定要從基本目錄{1}中移除角色{0}嗎？" name="RemoveRoleFromFolderWarningMessage" />
-    <text value="上傳定卷材料" name="UploadingRollMaterial" />
+    <text value="上傳訂卷材料" name="UploadingRollMaterial" />
     <text value="設置首目錄" name="SetDocumentCenterHome" />
     <text value="是否設置當前目錄為首目錄？" name="IsTheCurrentDirectorySettotheFirstDirectory" />
     <text value="當前目錄為系統目錄，無法刪除!" name="TheCurrentDirectoryIsAsystemDirectoryAndCannotBeDeleted" />
@@ -2521,7 +2521,7 @@
     <text value="費用詳情" name="FeeDetail" />
     <text value="請選擇一個角色" name="SelectARole" />
     <text value="添加費用信息" name="AddExpensesInfo" />
-    <text value="選擇定卷材料" name="SelectRollMaterial" />
+    <text value="選擇訂卷材料" name="SelectRollMaterial" />
     <text value="必填" name="required" />
     <text value="請填寫結案報告書" name="PlzFillOutClosingReport" />
     <text value="當前檔案已被借出" name="TheCurrentFileHasBeenLoaned" />
@@ -2807,5 +2807,7 @@
     <text value="申請文書蓋章" name="ApplyPaperStamp" />
     <text value="是否確定變更當前代碼的狀態？" name="AreYouSureChangeCurrentCodeState" />
     <text value="該鍵值已存在，請變更後再提交！" name="TheKeyOfEntityAlreadyExists" />
+    <text value="當前選擇項中包含不同的狀態，無法批量處理!" name="UnableToBatchProcess" />
+    <text value="批量處理" name="BatchProcess" />
   </texts>
 </localizationDictionary>

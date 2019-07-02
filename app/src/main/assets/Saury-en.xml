@@ -2490,10 +2490,10 @@
     <text value="File - rename" name="Folder.Document.ReName" />
     <text value="Document-seal" name="Folder.Document.Seal" />
     <text value="file download" name="Folder.Document.Download" />
-    <text value="Total %s of fixed material attachments" name="FixedMaterialAttachmentsCnt" />
+    <text value="A total of %s of order material attachments" name="FixedMaterialAttachmentsCnt" />
     <text value="Are you sure you want to remove user {0} from the base directory {1}?" name="RemoveUserFromFolderWarningMessage" />
     <text value="Are you sure you want to remove the role {0} from the base directory {1}?" name="RemoveRoleFromFolderWarningMessage" />
-    <text value="Uploading roll material" name="UploadingRollMaterial" />
+    <text value="Uploading order material" name="UploadingRollMaterial" />
     <text value="Set the first directory" name="SetDocumentCenterHome" />
     <text value="Is the current directory set to the first directory?" name="IsTheCurrentDirectorySettotheFirstDirectory" />
     <text value="The current directory is a system directory and cannot be deleted!" name="TheCurrentDirectoryIsAsystemDirectoryAndCannotBeDeleted" />
@@ -2521,7 +2521,7 @@
     <text value="Fee details" name="FeeDetail" />
     <text value="Please select a role" name="SelectARole" />
     <text value="Add expenses information" name="AddExpensesInfo" />
-    <text value="Selecting the roll material" name="SelectRollMaterial" />
+    <text value="Select order material" name="SelectRollMaterial" />
     <text value="Required" name="required" />
     <text value="Please fill out the closing report" name="PlzFillOutClosingReport" />
     <text value="The current file has been loaned" name="TheCurrentFileHasBeenLoaned" />
@@ -2807,5 +2807,7 @@
     <text value="Apply paper stamp" name="ApplyPaperStamp" />
     <text value="Are you sure to change the status of the current code?" name="AreYouSureChangeCurrentCodeState" />
     <text value="The key value already exists. Please change it before submitting!" name="TheKeyOfEntityAlreadyExists" />
+    <text value="The current selection contains different states and cannot be processed in batches!" name="UnableToBatchProcess" />
+    <text value="Batch processing" name="BatchProcess" />
   </texts>
 </localizationDictionary>

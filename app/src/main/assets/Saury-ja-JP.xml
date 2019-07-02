@@ -2490,10 +2490,10 @@
     <text value="ファイル名の変更" name="Folder.Document.ReName" />
     <text value="文書シール" name="Folder.Document.Seal" />
     <text value="ファイルダウンロード" name="Folder.Document.Download" />
-    <text value="固定材添付ファイルの合計 %s" name="FixedMaterialAttachmentsCnt" />
+    <text value="注文品目添付の合計%s" name="FixedMaterialAttachmentsCnt" />
     <text value="ユーザー{0}をベースディレクトリ{1}から削除してもよろしいですか？" name="RemoveUserFromFolderWarningMessage" />
     <text value="ベースディレクトリ{1}から役割{0}を削除してもよろしいですか？" name="RemoveRoleFromFolderWarningMessage" />
-    <text value="ロール素材のアップロード" name="UploadingRollMaterial" />
+    <text value="注文資料のアップロード" name="UploadingRollMaterial" />
     <text value="最初のディレクトリを設定する" name="SetDocumentCenterHome" />
     <text value="現在のディレクトリが最初のディレクトリに設定されていますか？" name="IsTheCurrentDirectorySettotheFirstDirectory" />
     <text value="現在のディレクトリはシステムディレクトリであり、削除することはできません！" name="TheCurrentDirectoryIsAsystemDirectoryAndCannotBeDeleted" />
@@ -2521,7 +2521,7 @@
     <text value="手数料の詳細" name="FeeDetail" />
     <text value="役割を選択してください" name="SelectARole" />
     <text value="費用情報を追加する" name="AddExpensesInfo" />
-    <text value="ロール材の選択" name="SelectRollMaterial" />
+    <text value="注文品目を選択" name="SelectRollMaterial" />
     <text value="必須" name="required" />
     <text value="クロージングレポートに記入してください" name="PlzFillOutClosingReport" />
     <text value="現在のファイルは貸し出されました" name="TheCurrentFileHasBeenLoaned" />
@@ -2807,5 +2807,7 @@
     <text value="申請用紙スタンプ" name="ApplyPaperStamp" />
     <text value="現在のコードのステータスを変更しますか？" name="AreYouSureChangeCurrentCodeState" />
     <text value="キー値は既に存在します。送信する前に変更してください。" name="TheKeyOfEntityAlreadyExists" />
+    <text value="現在の選択にはさまざまな状態が含まれているため、バッチで処理することはできません。" name="UnableToBatchProcess" />
+    <text value="バッチ処理" name="BatchProcess" />
   </texts>
 </localizationDictionary>

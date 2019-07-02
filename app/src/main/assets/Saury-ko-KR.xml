@@ -2490,10 +2490,10 @@
     <text value="파일 - 이름 바꾸기" name="Folder.Document.ReName" />
     <text value="문서 - 인감" name="Folder.Document.Seal" />
     <text value="파일 다운로드" name="Folder.Document.Download" />
-    <text value="고정 된 자료 첨부 파일의 총 %s" name="FixedMaterialAttachmentsCnt" />
+    <text value="총 주문 자료 첨부 파일 %s 개" name="FixedMaterialAttachmentsCnt" />
     <text value="기본 디렉토리 {1}에서 사용자 {0}을 (를) 제거 하시겠습니까?" name="RemoveUserFromFolderWarningMessage" />
     <text value="기본 디렉토리 {1}에서 역할 {0}을 (를) 제거 하시겠습니까?" name="RemoveRoleFromFolderWarningMessage" />
-    <text value="롤 소재 업로드 중" name="UploadingRollMaterial" />
+    <text value="주문 자료 업로드" name="UploadingRollMaterial" />
     <text value="첫 번째 디렉토리 설정" name="SetDocumentCenterHome" />
     <text value="현재 디렉토리가 첫 번째 디렉토리로 설정되어 있습니까?" name="IsTheCurrentDirectorySettotheFirstDirectory" />
     <text value="현재 디렉토리는 시스템 디렉토리이므로 삭제할 수 없습니다!" name="TheCurrentDirectoryIsAsystemDirectoryAndCannotBeDeleted" />
@@ -2521,7 +2521,7 @@
     <text value="수수료 세부 정보" name="FeeDetail" />
     <text value="역할을 선택하십시오." name="SelectARole" />
     <text value="비용 정보 추가" name="AddExpensesInfo" />
-    <text value="롤 재료 선택" name="SelectRollMaterial" />
+    <text value="주문 자료 선택" name="SelectRollMaterial" />
     <text value="필수" name="required" />
     <text value="마감 보고서를 작성하십시오." name="PlzFillOutClosingReport" />
     <text value="현재 파일이 대여되었습니다." name="TheCurrentFileHasBeenLoaned" />
@@ -2807,5 +2807,7 @@
     <text value="신청 용지 스탬프" name="ApplyPaperStamp" />
     <text value="현재 코드의 상태를 변경 하시겠습니까?" name="AreYouSureChangeCurrentCodeState" />
     <text value="키 값이 이미 있습니다. 제출하기 전에 변경하십시오!" name="TheKeyOfEntityAlreadyExists" />
+    <text value="현재 선택 항목에는 여러 상태가 있으며 일괄 처리 할 수 없습니다!" name="UnableToBatchProcess" />
+    <text value="일괄 처리" name="BatchProcess" />
   </texts>
 </localizationDictionary>

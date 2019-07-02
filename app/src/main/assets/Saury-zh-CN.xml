@@ -2490,10 +2490,10 @@
     <text value="文件-重命名" name="Folder.Document.ReName" />
     <text value="文件-盖章" name="Folder.Document.Seal" />
     <text value="文件-下载" name="Folder.Document.Download" />
-    <text value="共 %s 份定卷材料附件" name="FixedMaterialAttachmentsCnt" />
+    <text value="共 %s 份订卷材料附件" name="FixedMaterialAttachmentsCnt" />
     <text value="您确定要从基本目录{1}中移除用户{0}吗？" name="RemoveUserFromFolderWarningMessage" />
     <text value="您确定要从基本目录{1}中移除角色{0}吗？" name="RemoveRoleFromFolderWarningMessage" />
-    <text value="上传定卷材料" name="UploadingRollMaterial" />
+    <text value="上传订卷材料" name="UploadingRollMaterial" />
     <text value="设置首目录" name="SetDocumentCenterHome" />
     <text value="是否设置当前目录为首目录？" name="IsTheCurrentDirectorySettotheFirstDirectory" />
     <text value="当前目录为系统目录，无法删除!" name="TheCurrentDirectoryIsAsystemDirectoryAndCannotBeDeleted" />
@@ -2521,7 +2521,7 @@
     <text value="费用详情" name="FeeDetail" />
     <text value="请选择一个角色" name="SelectARole" />
     <text value="添加费用信息" name="AddExpensesInfo" />
-    <text value="选择定卷材料" name="SelectRollMaterial" />
+    <text value="选择订卷材料" name="SelectRollMaterial" />
     <text value="必填" name="required" />
     <text value="请填写结案报告书" name="PlzFillOutClosingReport" />
     <text value="当前档案已被借出" name="TheCurrentFileHasBeenLoaned" />
@@ -2807,5 +2807,7 @@
     <text value="申请文书盖章" name="ApplyPaperStamp" />
     <text value="是否确定变更当前代码的状态？" name="AreYouSureChangeCurrentCodeState" />
     <text value="该键值已存在，请变更后再提交！" name="TheKeyOfEntityAlreadyExists" />
+    <text value="当前选择项中包含不同的状态，无法批量处理!" name="UnableToBatchProcess" />
+    <text value="批量处理" name="BatchProcess" />
   </texts>
 </localizationDictionary>
