@@ -2809,5 +2809,8 @@
     <text value="The key value already exists. Please change it before submitting!" name="TheKeyOfEntityAlreadyExists" />
     <text value="The current selection contains different states and cannot be processed in batches!" name="UnableToBatchProcess" />
     <text value="Batch processing" name="BatchProcess" />
+    <text value="The current log already has processing results!" name="CurrentWorklogAlreadyExistsProcessingResult" />
+    <text value="AiLinkedLaw - Legal Circle Intelligent Convergence Platform" name="ShareTitle" />
+    <text value="AiLinkedLaw adheres to the philosophy of providing professional and professional services to professional companies. It fully considers the importance of open cooperation and cooperates with many technology companies and data content professional companies to provide richer application scenarios and resources for law firms and lawyers. " name="ShareContent" />
   </texts>
 </localizationDictionary>

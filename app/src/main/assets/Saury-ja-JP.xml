@@ -2809,5 +2809,8 @@
     <text value="キー値は既に存在します。送信する前に変更してください。" name="TheKeyOfEntityAlreadyExists" />
     <text value="現在の選択にはさまざまな状態が含まれているため、バッチで処理することはできません。" name="UnableToBatchProcess" />
     <text value="バッチ処理" name="BatchProcess" />
+    <text value="現在のログにはすでに処理結果があります。" name="CurrentWorklogAlreadyExistsProcessingResult" />
+    <text value="リーガルインテリジェンス - リーガルサークルインテリジェントコンバージェンスプラットフォーム" name="ShareTitle" />
+    <text value="AiLinkedLawは、プロフェッショナル企業向けのプロフェッショナルでプロフェッショナルなサービスを提供するという理念を遵守し、オープンな協力の重要性を十分に考慮し、多くのテクノロジー企業やデータコンテンツのプロフェッショナル企業と協力してより豊富なアプリケーションシナリオとリソースを法律事務所や弁護士に提供します。" name="ShareContent" />
   </texts>
 </localizationDictionary>

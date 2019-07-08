@@ -2809,5 +2809,8 @@
     <text value="키 값이 이미 있습니다. 제출하기 전에 변경하십시오!" name="TheKeyOfEntityAlreadyExists" />
     <text value="현재 선택 항목에는 여러 상태가 있으며 일괄 처리 할 수 없습니다!" name="UnableToBatchProcess" />
     <text value="일괄 처리" name="BatchProcess" />
+    <text value="현재 로그에 이미 처리 결과가 있습니다!" name="CurrentWorklogAlreadyExistsProcessingResult" />
+    <text value="법률 정보원 - 법률 서클 지능형 컨버전스 플랫폼" name="ShareTitle" />
+    <text value="AiLinkedLaw는 전문 회사에 전문적이고 전문적인 서비스를 제공한다는 철학을 준수하며 개방 된 협력의 중요성을 충분히 고려하고 많은 기술 회사 및 데이터 컨텐츠 전문 회사와 협력하여 법률 회사 및 변호사를위한 풍부한 응용 프로그램 시나리오 및 리소스를 제공합니다. " name="ShareContent" />
   </texts>
 </localizationDictionary>

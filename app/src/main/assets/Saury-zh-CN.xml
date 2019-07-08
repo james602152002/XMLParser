@@ -2809,5 +2809,8 @@
     <text value="该键值已存在，请变更后再提交！" name="TheKeyOfEntityAlreadyExists" />
     <text value="当前选择项中包含不同的状态，无法批量处理!" name="UnableToBatchProcess" />
     <text value="批量处理" name="BatchProcess" />
+    <text value="当前日志已存在处理结果！" name="CurrentWorklogAlreadyExistsProcessingResult" />
+    <text value="律智荟 - 法律圈智能汇聚平台" name="ShareTitle" />
+    <text value="律智荟秉承专业的公司提供专业极致服务的理念，充分考虑到了开放合作的重要性，与众多科技公司、数据内容专业公司合作，为律师事务所及律师提供更丰富的应用场景与资源，全面提升平台的使用价值。" name="ShareContent" />
   </texts>
 </localizationDictionary>
