@@ -2,18 +2,15 @@ package com.james602152002.xmlparser
 
 import android.os.Bundle
 import android.os.Environment
-import androidx.appcompat.app.AppCompatActivity
-import androidx.appcompat.widget.AppCompatButton
 import android.util.Log
 import android.util.Xml
 import android.view.View
-
+import androidx.appcompat.app.AppCompatActivity
+import androidx.appcompat.widget.AppCompatButton
 import com.yanzhenjie.permission.AndPermission
 import com.yanzhenjie.permission.Permission
-
 import org.xmlpull.v1.XmlPullParser
 import org.xmlpull.v1.XmlPullParserException
-
 import java.io.File
 import java.io.FileOutputStream
 import java.io.IOException
@@ -90,7 +87,8 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
             "OptionalContractInfoCnt", "OptionalFeeCnt", "SelectedCnt", "LawyerCnt",
             "ContactsCnt", "ScheduleTaskCnt", "ScheduleCnt", "ScheduleLogCnt",
             "ScheduleCourtCnt", "ScheduleMeetingCnt", "ScheduleLeaveCnt",
-            "SecondsAgo", "YouStillHaveOtherCnt" -> true
+            "SecondsAgo", "YouStillHaveOtherCnt", "PasswordComplexity_MinLength_Hint",
+            "PasswordComplexity_MaxLength_Hint" -> true
             else -> false
         }
     }
