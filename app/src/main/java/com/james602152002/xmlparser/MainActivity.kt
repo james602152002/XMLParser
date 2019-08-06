@@ -49,10 +49,10 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
                             ?: ""
                     //                                .replaceAll("\\{0\\}", "%s");
                     if (value.contains("{0}")) {
-                        if (isNoColorKey(name)) {
-                            value = value.replace("\\{0\\}".toRegex(), "%s")
+                        value = if (isNoColorKey(name)) {
+                            value.replace("\\{0\\}".toRegex(), "%s")
                         } else {
-                            value = "<Data><![CDATA[" + value.substring(0, value.indexOf("{0}")) + "<font color=\"#5D73FA\">%s</font>" +
+                            "<Data><![CDATA[" + value.substring(0, value.indexOf("{0}")) + "<font color=\"#5D73FA\">%s</font>" +
                                     value.substring(value.indexOf("{0}") + "{0}".length, value.length) +
                                     "]]></Data>"
                         }
@@ -60,8 +60,10 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
                     //                        value = value.replaceAll("'", "&apos;");
                     name = name.replace("\\(".toRegex(), "").replace("\\)".toRegex(), "")
                     name = name.replace(".", "_")
-                    builder.append("    <string name=\"").append(name.trim { it <= ' ' }).append("\">")
-                            .append(value).append("</string>\n")
+
+                    if (!name.contains("{0}") && !name.contains(" ") && !name.contains("/") && name != "ChatUserSearch_Hint")
+                        builder.append("    <string name=\"").append(name.trim { it <= ' ' }).append("\">")
+                                .append(value).append("</string>\n")
                 }
                 //结束标签
                 XmlPullParser.END_TAG -> if ("text" == parser.name) {

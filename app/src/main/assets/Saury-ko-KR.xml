@@ -56,7 +56,6 @@
     <text value="이득" name="Gains" />
     <text value="수량" name="Quantity" />
     <text value="조금" name="Bit" />
-    <text value="총 금액" name="TotalAmount" />
     <text value="계절" name="Quarterly" />
     <text value="특정 범위" name="SpecificRange" />
     <text value="총 통계 방문 시간" name="TotalTimeOfStatisticalVisits" />
@@ -68,20 +67,13 @@
     <text value="통계" name="Statistics" />
     <text value="늘다" name="Grow" />
     <text value="법원의 약어" name="AbbreviationOfCourt" />
-    <text value="회사 소개" name="AboutUs" />
     <text value="요약 설명" name="AbstractDescription" />
     <text value="도" name="AcademicDegree" />
     <text value="허용 시간" name="AcceptTime" />
     <text value="액세스 카드 번호" name="AccessCardNumber" />
     <text value="계정 지불 정보" name="AccountPaymentInformation" />
-    <text value="계정 설정" name="AccountSettings" />
     <text value="도착 상태" name="AccountStatus" />
     <text value="받은" name="Acquired" />
-    <text value="운영" name="Action" />
-    <text value="운영 정보" name="ActionInformations" />
-    <text value="운영" name="Actions" />
-    <text value="이메일 확인 이메일이 귀하의 이메일로 발송되었습니다. 확인하십시오." name="ActivationMailSentMessage" />
-    <text value="활성화 됨" name="Active" />
     <text value="사전에 재무 검토 취소" name="ActiveCancellationOfFinancialAudits" />
     <text value="추가됨" name="Add" />
     <text value="실행" name="Run" />
@@ -89,30 +81,19 @@
     <text value="고객 주소록 추가" name="AddCustomerAddressBook" />
     <text value="고객 연락처 추가" name="AddCustomerContacts" />
     <text value="고객 추가" name="AddCustomers" />
-    <text value="시간 추가" name="AddedTime" />
-    <text value="친구 추가" name="AddFriend" />
     <text value="인트라넷 정보 증가" name="AddIntranet" />
-    <text value="회원 추가" name="AddMember" />
     <text value="이 후에 새로운 단계 추가" name="AddNewStageAfterThat" />
     <text value="새로운 작업" name="AddNewTask" />
-    <text value="주소" name="Address" />
     <text value="루트 노드 추가" name="AddRootNode" />
-    <text value="루트 노드 추가" name="AddRootUnit" />
     <text value="단계 추가" name="AddStage" />
-    <text value="자식 노드 추가" name="AddSubUnit" />
     <text value="태그 추가" name="AddTags" />
     <text value="할 일 추가" name="AddTask" />
     <text value="템플릿 추가" name="AddTemplate" />
-    <text value="사용자 추가" name="AddUser" />
     <text value="방문 기록 추가" name="AddVisitRecord" />
     <text value="위치 조정" name="AdjustPosition" />
     <text value="검색 기준을 조정하거나 이전 수준으로 돌아가십시오." name="AdjustSearchCriteriaOrReturnToThePreviousLevel" />
-    <text value="관리자 사서함" name="AdminEmailAddress" />
-    <text value="시스템 관리" name="Administration" />
     <text value="관리 장 관리 정보 테이블" name="AdministrativeSealManagementInformationTable" />
     <text value="귀하의 검토를 기다리는 행정 인 도장 요청이 있습니다." name="AdministrativeSealReview" />
-    <text value="관리자 암호" name="AdminPassword" />
-    <text value="관리자 암호 (확인)" name="AdminPasswordRepeat" />
     <text value="사전" name="Advance" />
     <text value="고급 검색" name="AdvancedSearch" />
     <text value="상대방" name="Adversary" />
@@ -127,15 +108,8 @@
     <text value="변호사 서신 평가" name="ALawyerSLetterForTrial" />
     <text value="별칭" name="Alias" />
     <text value="코일 재료 목록" name="AListOfMaterials" />
-    <text value="모두" name="All" />
-    <text value="모든 캐시가 성공적으로 지워집니다." name="AllCachesSuccessfullyCleared" />
     <text value="모든 고객" name="AllCustomers" />
     <text value="할당량의 비례 할당" name="AllocationQuotas" />
-    <text value="임차인을 시스템에 등록 할 수 있습니다." name="AllowTenantsToRegisterThemselves" />
-    <text value="이 기능을 사용하지 않으면 세입자 관리 페이지를 사용하여 관리자 만 테넌트를 추가 할 수 있습니다." name="AllowTenantsToRegisterThemselves_Hint" />
-    <text value="허용 된 경우 사용자는 브라우저를 기억하도록 선택하여 동일한 브라우저의 이중 확인을 건너 뛸 수 있습니다." name="AllowToRememberBrowserForTwoFactorLogin" />
-    <text value="사용자가 등록 할 수 있습니다." name="AllowUsersToRegisterThemselves" />
-    <text value="이 항목을 사용하지 않으면 관리자가 사용자 관리 페이지를 통해서만 사용자를 추가 할 수 있습니다." name="AllowUsersToRegisterThemselves_Hint" />
     <text value="모든 일정" name="AllSchedule" />
     <text value="인보이스 발행" name="AlreadyInvoices" />
     <text value="받은" name="AlreadyReceived" />
@@ -143,7 +117,6 @@
     <text value="봉인 된" name="AlreadySealed" />
     <text value="이미 도착했습니다." name="AlreadyToAccount" />
     <text value="대체 텍스트는 다음과 같습니다." name="AlternativeTextIsAsFollows" />
-    <text value="금액" name="Amount" />
     <text value="지불 금액" name="AmountOfPayment" />
     <text value="피사체의 양" name="AmountOfStandard" />
     <text value="크레딧 금액" name="AmountReceived" />
@@ -230,7 +203,6 @@
     <text value="행정 장을 위해 신청하십시오" name="ApplicationForCertificateStamp" />
     <text value="현재 사례의 종결 사례 검토 신청서가 처리되었습니다!" name="ApplicationForClosingCaseHasBeenProcessed" />
     <text value="제출 시간" name="ApplicationTime" />
-    <text value="신청서" name="Apply" />
     <text value="논문 심사" name="ApplyDocumentReview" />
     <text value="신청 시간" name="ApplyTime" />
     <text value="계약 변호사 비용 정보" name="AppointmentOfAttorneyFeeInformation" />
@@ -250,7 +222,6 @@
     <text value="사람들을 신고" name="ArchivePerson" />
     <text value="보관 시간" name="ArchiveTime" />
     <text value="영역 축소 축소" name="ArealScaleReduction" />
-    <text value="괜찮은거야?" name="AreYouSure" />
     <text value="선택한 컨퍼런스 상태를 변경 하시겠습니까?" name="AreYouSureTheChangeSelectedSessionState" />
     <text value="정말로 삭제 하시겠습니까?" name="AreYouSureYouWantToDelete" />
     <text value="삭제 하시겠습니까?" name="AreYouSureYouWantToRemoveItCompletely" />
@@ -270,9 +241,6 @@
     <text value="오디오 주파수" name="Audio" />
     <text value="리뷰" name="Audit" />
     <text value="관리 장 감사 정보 테이블" name="AuditInformationTableForAdministrativeUse" />
-    <text value="감사 로그 세부 정보" name="AuditLogDetail" />
-    <text value="참고 :이 작업은이 사용자를 대신하여 다른 사용자가 수행합니다." name="AuditLogImpersonatedOperationInfo" />
-    <text value="감사 로그" name="AuditLogs" />
     <text value="[{0}]이 (가) 관리 장에 신청하여 검토를 기다리고 있습니다." name="AuditOfAdministrativeUse" />
     <text value="결제 감사" name="AuditReview" />
     <text value="감사 상태" name="AuditStatus" />
@@ -280,13 +248,9 @@
     <text value="저자 중요도 수준" name="AuthorImportantLevel" />
     <text value="사례 자료 자동 생성" name="AutomaticallyGeneratedCaseMaterial" />
     <text value="평균값" name="AverageValue" />
-    <text value="돌아 가기" name="Back" />
-    <text value="내 계정으로 돌아 가기" name="BackToMyAccount" />
     <text value="고객" name="Bailor" />
     <text value="수탁자 가입" name="BailorAssociatedCompany" />
     <text value="계좌 은행 및 계좌 번호" name="BankAccountAndAccountNumber" />
-    <text value="기본 언어" name="BaseLanguage" />
-    <text value="기본값" name="BaseValue" />
     <text value="기본 금액" name="BasicAmount" />
     <text value="기본 정보" name="BasicInformation" />
     <text value="일괄 다운로드" name="BatchDownload" />
@@ -320,15 +284,11 @@
     <text value="결제 템플릿" name="BillTemplate" />
     <text value="결제 템플릿 업로드" name="BillTemplateUpload" />
     <text value="바인딩" name="Bind" />
-    <text value="차단 된 사용자" name="BlockedUsers" />
-    <text value="사용자 차단" name="BlockUser" />
-    <text value="블루" name="Blue" />
     <text value="차용 기록" name="BorrowedRecord" />
     <text value="기소와 방위" name="BothSidesOfTheArgument" />
     <text value="상자 모양" name="Boxed" />
     <text value="사례 소개" name="BriefIntroductionOfTheCase" />
     <text value="브라운" name="Brown" />
-    <text value="탐색기" name="Browser" />
     <text value="현재 사용중인 브라우저 버전이 너무 낮아서 웹 사이트에 액세스 할 수 없게 될 수도 있습니다!" name="BrowseHappyTips" />
     <text value="웹 사이트 기능을 정상적으로 사용하려면 이러한 최신 웹 브라우저를 사용하십시오." name="BrowseHappyCanUseBrowsers" />
     <text value="브라우저가 지리적 위치를 지원하지 않습니다." name="BrowserNoSupportLocation" />
@@ -342,29 +302,20 @@
     <text value="사업 비서" name="BusinessSecretary" />
     <text value="영업 시간" name="BusinessTime" />
     <text value="업종" name="BusinessType" />
-    <text value="캐싱" name="Caches" />
-    <text value="이 페이지의 응용 프로그램에서 캐시를 지울 수 있습니다." name="CachesHeaderInfo" />
-    <text value="캐시가 성공적으로 지워졌습니다." name="CacheSuccessfullyCleared" />
     <text value="일정 소유자" name="CalendarOwner" />
     <text value="캘린더 소스" name="CalendarSource" />
     <text value="캘린더보기" name="CalendarView" />
-    <text value="취소" name="Cancel" />
     <text value="전환 도움말 취소" name="CancelConversionPrompt" />
     <text value="취소되었습니다." name="Cancellation" />
     <text value="병합 해제" name="CancelMerge" />
     <text value="리뷰 취소" name="CancelTheAudit" />
     <text value="인보이스 발행" name="CanInvoices" />
     <text value="완료, 변경 불가능" name="CannotBeModified" />
-    <text value="사용자를 관리하고 사용자 이름을 수정할 수 없습니다." name="CanNotChangeAdminUserName" />
     <text value="죄송합니다.이 디렉토리 바로 아래에 폴더를 만들거나 편집 할 수 없습니다. 다른 디렉토리를 선택하십시오!" name="CannotEditDirectlyUnderThisDirectory" />
-    <text value="기본 언어는 삭제할 수 없으며 자신의 언어 만 삭제하거나 수정할 수 있지만 모든 언어의 텍스트 정보를 변경할 수 있습니다." name="CanNotEditOrDeleteDefaultLanguages" />
     <text value="사례를 제출할 수 없습니다." name="CanNotFileACase" />
     <text value="죄송합니다.이 디렉토리에 파일을 직접 업로드 할 수 없습니다. 다른 디렉토리를 선택하십시오!" name="CannotUploadFilesDirectlyUnderThisDirectory" />
     <text value="미수금" name="CanReceivables" />
-    <text value="확인 코드는 null 일 수 없습니다." name="CaptchaCanNotBeEmpty" />
     <text value="텅 비어서는 안 된다." name="CannotBeEmpty" />
-    <text value="그림에 인증 코드를 입력하십시오 :" name="Captha_Hint" />
-    <text value="계단식 시뮬레이션을 수행 할 수 없습니다. 이미 아날로그 로그인입니다!" name="CascadeImpersonationErrorMessage" />
     <text value="사례" name="Case" />
     <text value="파일에" name="CaseApplying" />
     <text value="사례 지원 정보" name="CaseAssistanceInformation" />
@@ -429,13 +380,6 @@
     <text value="관리 장 정보 표" name="CertificateStampInformationSheet" />
     <text value="문서 유형" name="CertificateType" />
     <text value="비 m : 부서 단위를 변경 한 후에는 사용자가 자신이 속한 부서에 포함 된 데이터베이스 권한 만 갖 고 g 용자에게 직접 지정된 데이터 권한은 취소됩니다." name="ChangeOrganizationUnitNote" />
-    <text value="비밀번호 변경" name="ChangePassword" />
-    <text value="이 계정을 연결하기 전에 비밀번호를 변경해야합니다!" name="ChangePasswordBeforeLinkToAnAccount" />
-    <text value="그림 수정" name="ChangeProfilePicture" />
-    <text value="텍스트 정보 변경" name="ChangeTexts" />
-    <text value="기능 매개 변수 수정하기" name="ChangingFeatures" />
-    <text value="권한 변경" name="ChangingPermissions" />
-    <text value="문자 메시지 편집 중" name="ChangingTexts" />
     <text value="비용" name="Charge" />
     <text value="요금 금액" name="ChargeAmount" />
     <text value="수수료가 검토되었습니다." name="ChargeApproved" />
@@ -444,12 +388,6 @@
     <text value="충전 방법" name="ChargeModes" />
     <text value="수수료가 반환되었습니다." name="ChargeReturned" />
     <text value="검토 할 수수료가 있습니다." name="ChargeWaitForApproved" />
-    <text value="채팅" name="Chat" />
-    <text value="채팅 기능" name="ChatFeature" />
-    <text value="세입자가 채팅을 거부하지 않았습니다." name="ChatFeatureIsNotEnabledForReceiver" />
-    <text value="채팅을 사용할 수 없습니다." name="ChatFeatureIsNotEnabledForSender" />
-    <text value="채팅이 연결되지 않았습니다." name="ChatIsNotConnectedWarning" />
-    <text value="동일한 임차인 사용자에 대해서만 사용자 이름 작성" name="ChatUserSearch_Hint" />
     <text value="수표" name="Check" />
     <text value="대화보기" name="CheckDialogue" />
     <text value="번호 확인" name="CheckNumber" />
@@ -461,16 +399,12 @@
     <text value="범주" name="Classification" />
     <text value="분류 이름" name="ClassificationName" />
     <text value="사례 분류" name="ClassificationOfBrief" />
-    <text value="지우기" name="Clear" />
-    <text value="모두 지우기" name="ClearAll" />
     <text value="죄송합니다.이 단계 목록을 삭제하기 전에이 단계 목록의 작업을 삭제하십시오!" name="ClearTasklistInStage" />
-    <text value="여기를 클릭하십시오." name="ClickHere" />
     <text value="오른쪽 링크를 클릭하면 운영 전 정보를 볼 수 있습니다." name="ClickOnTheRightLinkToViewTheFrontActionInfo" />
     <text value="클릭하여 샘플 다운로드" name="ClickTheDownloadExample" />
     <text value="고객의 케이스 연락처 정보" name="ClientCaseContactInformation" />
     <text value="고객의 연락처 정보가 없습니다 오른쪽 상단의 더하기 기호를 클릭하여 담당자를 담당자에게 추가하십시오." name="ClientHasNoContactAndClickToAddCaseContacts" />
     <text value="고객" name="ClientSide" />
-    <text value="휴무일" name="Close" />
     <text value="알림 닫기" name="CloseToRemind" />
     <text value="응용 프로그램 도움말 정보 닫기" name="ClosingApplicationHelpsInformation" />
     <text value="마감일" name="ClosingCaseDate" />
@@ -484,7 +418,6 @@
     <text value="파일 업로드 목록 닫기" name="ClosingFileUploadList" />
     <text value="아카이브 된 아카이브 [{0}]을 (를) 성공적으로 완료했습니다." name="ClosingFileWasArchivedSuccessfully" />
     <text value="공동 변호사" name="CoAttorney" />
-    <text value="코드" name="Code" />
     <text value="공동 작업이 거부되었습니다." name="CollaborationRejected" />
     <text value="수집 된" name="Collected" />
     <text value="컬렉션" name="Collection" />
@@ -521,7 +454,6 @@
     <text value="기밀 유지 계약" name="ConfidentialityAgreement" />
     <text value="확인" name="Confirm" />
     <text value="승인 정보를 확인 하시겠습니까?" name="ConfirmApprovalInformation" />
-    <text value="{0} 이메일로 이메일을 보냈습니다. 이메일의 링크를 클릭하여 이메일 주소를 확인하십시오." name="ConfirmationMailSentPleaseClickLinkInTheEmail" />
     <text value="충돌 검색 정보를 확인 하시겠습니까?" name="ConfirmConflictRetrievalInfo" />
     <text value="정보 삭제를 확인합니까?" name="ConfirmDeleteInformation" />
     <text value="확인 됨" name="Confirmed" />
@@ -566,25 +498,13 @@
     <text value="사례 만들기" name="CreateACase" />
     <text value="카테고리 만들기" name="CreateAClassification" />
     <text value="고객 생성" name="CreateACustomer" />
-    <text value="등록" name="CreateAnAccount" />
     <text value="작업 로그 만들기" name="CreateAWorkLog" />
     <text value="새 폴더" name="CreateDocumentFolder" />
     <text value="회의 만들기" name="CreateMeeting" />
-    <text value="새 버전 만들기" name="CreateNewEdition" />
     <text value="새 폴더" name="CreateNewFolder" />
-    <text value="새 언어 만들기" name="CreateNewLanguage" />
-    <text value="역할 추가" name="CreateNewRole" />
-    <text value="임차인 코드" name="CreateNewTenant" />
-    <text value="사용자 추가" name="CreateNewUser" />
     <text value="프로세스 만들기" name="CreateProcess" />
     <text value="일정 만들기" name="CreateSchedule" />
     <text value="작업 단계 생성" name="CreateTaskStage" />
-    <text value="새 버전 만들기" name="CreatingNewEdition" />
-    <text value="새 언어 만들기" name="CreatingNewLanguage" />
-    <text value="역할 추가" name="CreatingNewRole" />
-    <text value="세입자 추가" name="CreatingNewTenant" />
-    <text value="사용자 추가" name="CreatingNewUser" />
-    <text value="창조 시간" name="CreationTime" />
     <text value="작성자 :" name="Creator" />
     <text value="통화" name="Currency" />
     <text value="통화 유형" name="CurrencyType" />
@@ -597,10 +517,8 @@
     <text value="현재 일치하는 폴더 및 파일 없음" name="CurrentlyNoMatchingFoldersAndFiles" />
     <text value="현재 Word 2007/2010/2013 파일 (.docx 형식의 파일) 만 지원합니다." name="CurrentlyOnlySupportsDocuments" />
     <text value="현재 페이지" name="CurrentPage" />
-    <text value="현재 비밀번호" name="CurrentPassword" />
     <text value="현재 관리 챕터 응용 프로그램에는 이미 처리 결과가 있습니다!" name="CurrentStampIsAlreadyExistsResult" />
     <text value="현재의 행정 도장 신청이 처리되었습니다!" name="CurrentStampIsAlreadyExistsToDealWithResult" />
-    <text value="맞춤 데이터" name="CustomData" />
     <text value="고객" name="Customer" />
     <text value="고객 주소" name="CustomerAddress" />
     <text value="고객 연락" name="CustomerContact" />
@@ -621,19 +539,10 @@
     <text value="고객 유형" name="CustomerType" />
     <text value="고객 방문 정보 테이블" name="CustomerVisitInformationTable" />
     <text value="고객 방문 기록" name="CustomerVisitRecord" />
-    <text value="맞춤 범위" name="CustomRange" />
     <text value="시안" name="Cyan" />
     <text value="블랙" name="Dark" />
-    <text value="벤치" name="Dashboard" />
-    <text value="이 데모 시스템에서는 왼쪽의 메뉴 기능을 사용하여 사용자 관리, 역할 관리 및 시스템 설정과 같은 모듈의 모든 기능을 테스트하고 이해할 수 있습니다." name="DashboardDemo_Note_Info" />
-    <text value="ASP.NET Zero 시작 프로젝트에 오신 것을 환영합니다!" name="DashboardDemo_Note_Title" />
-    <text value="분석 및보고" name="DashboardHeaderInfo" />
-    <text value="이 예제를 봅니다 : ASP.NET MVC 및&lt;strong&gt;jQuery &lt;/strong&gt;에 기반한 &lt;strong&gt;다중 페이지 응용 프로그램 &lt;/strong&gt; 버전을 기반으로합니다." name="DashboardNoteForMpaVersion" />
-    <text value="이 예제를 봅니다 : ASP.NET MVC 및&lt;strong&gt;AngularJs &lt;/strong&gt;에 기반한 &lt;strong&gt;단일 페이지 응용 프로그램 &lt;/strong&gt; 버전을 기반으로합니다." name="DashboardNoteForSpaVersion" />
-    <text value="데이터베이스 연결 문자열" name="DatabaseConnectionString" />
     <text value="데이터로드 중" name="DataLoading" />
     <text value="데이터 권한" name="DataPermissions" />
-    <text value="날짜" name="Date" />
     <text value="생년월일" name="DateOfBirth" />
     <text value="전달 날짜" name="DateOfCorrection" />
     <text value="변호사 관계 입금 날짜" name="DateOfDepositingLawyersRelations" />
@@ -643,24 +552,11 @@
     <text value="영수증 날짜" name="DateOfReceipt" />
     <text value="상환 날짜" name="DateOfReimbursement" />
     <text value="입금 날짜" name="DateOfStorage" />
-    <text value="기간" name="DateRange" />
     <text value="주간" name="Day" />
     <text value="휴가 일 수" name="DaysToLeave" />
     <text value="마감일" name="Deadline" />
-    <text value="기본값" name="Default" />
-    <text value="계정 잠금 시간 (초)" name="DefaultAccountLockoutDurationAsSeconds" />
-    <text value="기본 전자 메일 주소" name="DefaultFromAddress" />
-    <text value="기본 발신자 이름" name="DefaultFromDisplayName" />
-    <text value="새로운 사용자는 기본적으로이 역할을 갖습니다." name="DefaultRole_Description" />
-    <text value="제거" name="Delete" />
     <text value="삭제 된 파일은 휴지통에 있습니다." name="DeletedFilesCanBeFoundInTheRecycleBin" />
     <text value="문서 삭제" name="DeleteDocument" />
-    <text value="버전 삭제 중" name="DeletingEdition" />
-    <text value="언어 삭제하기" name="DeletingLanguages" />
-    <text value="역할 삭제" name="DeletingRole" />
-    <text value="세입자 삭제" name="DeletingTenant" />
-    <text value="사용자 삭제" name="DeletingUser" />
-    <text value="안녕하세요, 테스트 메시지입니다. 내 계정으로 다른 브라우저에 로그인하고 채팅 기능의 작동 방식을 확인하십시오." name="Demo_SampleChatMessage" />
     <text value="학과" name="Department" />
     <text value="사무실 및 부서 문서" name="DepartmentalDocuments" />
     <text value="부서 단위" name="DepartmentUnit" />
@@ -672,7 +568,6 @@
     <text value="세부 정보" name="Details" />
     <text value="문서 검토 세부 정보" name="DetailsOfApplicatingDocument" />
     <text value="카테고리 정보 {0}을 (를) 삭제 하시겠습니까?" name="DetermineToDeleteClassifiedInfo" />
-    <text value="다른 임차인의 사용자를 시뮬레이트 할 수 없습니다!" name="DifferentTenantImpersonationErrorMessage" />
     <text value="디렉토리" name="Directory" />
     <text value="변호사 수수료 할인율" name="DiscountsOfAttorneyFee" />
     <text value="QR 코드 표시" name="DisplayQRCode" />
@@ -693,52 +588,19 @@
     <text value="문서 템플릿" name="DocumentTemplate" />
     <text value="문서 유형" name="DocumentType" />
     <text value="죄송합니다. 선택한 문서가 없거나 선택한 문서의 미리보기 기능이 지원되지 않습니다!" name="DocumentWasNotFoundOrNotSupportedToPreview" />
-    <text value="도메인 이름" name="DomainName" />
     <text value="실수를 피하려면 동시에 여러 파일이나 폴더를 삭제하지 마십시오!" name="DoNotDeleteMultipleFilesOrFoldersAtTheSameTime" />
     <text value="지폐를 사용하지 마십시오." name="DonotUseBills" />
     <text value="실패" name="DonTAllowSeal" />
-    <text value="아직 시스템 사용자가 아니십니까?" name="DontYouHaveAnAccount" />
-    <text value="다운로드" name="Download" />
-    <text value="모두 다운로드" name="DownloadAll" />
     <text value="분 다운로드" name="DownloadMinutes" />
     <text value="변환 된 로그 북을 편집하거나 개선 하시겠습니까?" name="DoYouEditOrImproveConvertedWorkLog" />
     <text value="그룹화 가능한 드래그 가능한 정렬" name="DragSortInGroups" />
-    <text value="기간" name="Duration" />
-    <text value="수정" name="Edit" />
     <text value="고객 수정" name="EditCustomer" />
     <text value="고객 담당자 편집" name="EditCustomerContact" />
-    <text value="버전 수정" name="EditEdition" />
     <text value="파일 정보 편집" name="EditFileInformation" />
-    <text value="버전 수정 중" name="EditingEdition" />
-    <text value="편집 언어" name="EditingLanguage" />
-    <text value="역할 수정" name="EditingRole" />
     <text value="작업 편집" name="EditingTask" />
-    <text value="세입자 수정" name="EditingTenant" />
-    <text value="사용자 수정" name="EditingUser" />
-    <text value="버전" name="Edition" />
-    <text value="이미 임차인에게 할당 된 {0} 버전이 삭제됩니다." name="EditionDeleteWarningMessage" />
-    <text value="버전 이름" name="EditionName" />
-    <text value="버전 속성 목록" name="EditionProperties" />
-    <text value="버전 목록" name="Editions" />
-    <text value="현재 응용 프로그램의 버전 및 기능 매개 변수 관리" name="EditionsHeaderInfo" />
-    <text value="편집 언어" name="EditLanguage" />
-    <text value="역할 수정" name="EditRole" />
-    <text value="세입자 수정" name="EditTenant" />
-    <text value="텍스트 수정" name="EditText" />
     <text value="닫는 응용 프로그램 편집" name="EditTheClosingApplication" />
-    <text value="사용자 수정" name="EditUser" />
     <text value="교육" name="Education" />
     <text value="교육 배경" name="EducationalBackground" />
-    <text value="이메일" name="Email" />
-    <text value="활성화 이메일 보내기" name="EmailActivation" />
-    <text value="아래 링크를 클릭하여 이메일 주소를 확인하고 사용자 계정을 활성화하십시오." name="EmailActivation_ClickTheLinkBelowToVerifyYourEmail" />
-    <text value="사용자 계정 활성화" name="EmailActivation_Subject" />
-    <text value="시스템이이 전자 메일을 보내 전자 메일 주소를 확인하고 사용자 계정을 활성화합니다." name="EmailActivation_SubTitle" />
-    <text value="시스템 사용을 환영합니다." name="EmailActivation_Title" />
-    <text value="이메일 주소" name="EmailAddress" />
-    <text value="전자 메일 주소 확인" name="EmailConfirm" />
-    <text value="로그인하려면 이메일 주소를 확인해야합니다." name="EmailConfirmationRequiredForLogin" />
-    <text value="사서함 (SMTP)" name="EmailSmtp" />
     <text value="회의 주최자" name="Emcee" />
     <text value="비상 연락처" name="EmergencyContact" />
     <text value="긴급 연락처" name="EmergencyContactAddress" />
@@ -746,10 +608,6 @@
     <text value="종업원 명함" name="EmployeeCard" />
     <text value="직원 정보" name="EmployeeInformation" />
     <text value="인사 번호" name="EmployeeNumber" />
-    <text value="Null 값" name="EmptyOnes" />
-    <text value="LDAP (Lightweight Directory Access Protocol) 인증을 사용합니다." name="EnableLdapAuthentication" />
-    <text value="계정 이중 로그인 확인을 사용합니다." name="EnableTwoFactorLogin" />
-    <text value="실패한 로그인 시도에 대해 사용자 계정 잠금 사용" name="EnableUserAccountLockingOnFailedLoginAttemts" />
     <text value="종료 시간" name="EndTime" />
     <text value="종료 시간은 비워 둘 수 없습니다!" name="EndTimeCannotBeEmpty" />
     <text value="영어 이름" name="EnglishName" />
@@ -757,12 +615,10 @@
     <text value="회사 등록 번호" name="EnterpriseRegistrationNumber" />
     <text value="위탁 사항" name="EntrustedMatters" />
     <text value="참가 비용 계약" name="EntryContractFee" />
-    <text value="틀렸어!" name="Error" />
     <text value="문제가 있으면 연락 할 수 있습니다." name="ErrorHelpMessage" />
     <text value="오류 메시지" name="ErrorMessage" />
     <text value="업로드 중 오류 발생 : {0}" name="ErrorOccurredWhileUploading" />
     <text value="오류 페이지" name="ErrorPage" />
-    <text value="오류 상태" name="ErrorState" />
     <text value="예상 도착 일" name="EstimateDateOfPayment" />
     <text value="예상 소요 시간" name="EstimatedTime" />
     <text value="이벤트 유형 예약" name="EventType" />
@@ -772,7 +628,6 @@
     <text value="부문 내의 돈 비율 내에서, 초과 부분은 더 이상 분할되지 않습니다." name="ExceededPartNoLongerSplit" />
     <text value="환율" name="ExchangeRage" />
     <text value="유사한 고객 목록에서 해당 고객 정보가 조건에 따라 검색되며, 현재 목록의 고객이 현재 고객의 고객을 대체하도록 선택되지 않았습니다. 올바른 것으로 확인 되었습니까?" name="ExisitsSimilarReplaceableCustomersWhetherConfirmPositive" />
-    <text value="더 많은 설정 펼치기" name="Expand" />
     <text value="작업에 많은 시간이 소요됨" name="ExpenditureOfTime" />
     <text value="비용 정보" name="ExpenseInfomration" />
     <text value="비용 정보 테이블" name="ExpenseInformationSheet" />
@@ -782,16 +637,12 @@
     <text value="곧 만료 됨" name="Expiring" />
     <text value="수출" name="Export" />
     <text value="설정 내보내기" name="ExportSetting" />
-    <text value="Excel로 내보내기" name="ExportToExcel" />
     <text value="실패" name="Fail" />
-    <text value="실패" name="Failed" />
     <text value="댓글 작성 실패" name="Failure" />
     <text value="기기 오류 : {0}" name="FailureOfDocumentReview" />
     <text value="민족" name="FamilyName" />
     <text value="팩시밀리" name="Fax" />
-    <text value="특성 매개 변수 목록" name="Features" />
     <text value="요금 및 계약 첨부" name="FeesAndContractAccessories" />
-    <text value="문서" name="File" />
     <text value="파일 디렉토리" name="FileDirectory" />
     <text value="파일이 존재하지 않습니다." name="FileDoesNotExist" />
     <text value="파일 생성 실패 : {0}" name="FileGenerationFailure" />
@@ -799,15 +650,11 @@
     <text value="파일 정보 테이블" name="FileInformationTable" />
     <text value="파일 이름" name="FileName" />
     <text value="파일 크기가 {0} MB를 초과하지 않습니다." name="FileSizeIsLessThanMb" />
-    <text value="파일 업로드" name="FileUpload" />
     <text value="정식으로 신청할 수있다." name="FilingACase" />
     <text value="신청 신청" name="FilingCase" />
     <text value="마감 보고서 작성" name="FillInTheClosingCaseReport" />
     <text value="{0}은 작업 로그에 기입하고 귀하의 승인을 기다렸습니다." name="FillInWorkLogForYourApproval" />
-    <text value="허가로 필터링" name="FilterByPermission" />
-    <text value="역할 별 필터링" name="FilterByRole" />
     <text value="상태 별 필터링" name="FilterByState" />
-    <text value="사용자 필터링 / 추가" name="FilterOrAddUser" />
     <text value="재무 검토 종결 정보 테이블" name="FinancialAuditClosingInformationSheet" />
     <text value="재무 감사 ​​정보" name="FinancialAuditInformation" />
     <text value="재무 정보" name="FinancialInformation" />
@@ -822,7 +669,6 @@
     <text value="고정 금액" name="FixedAmount" />
     <text value="고정 요금 카테고리" name="FixedChargeCategory" />
     <text value="고정 전화" name="FixedTelephone" />
-    <text value="태그" name="Flag" />
     <text value="초점" name="Focusing" />
     <text value="분쟁의 초점" name="FocusOfControversy" />
     <text value="폴딩" name="Fold" />
@@ -831,20 +677,13 @@
     <text value="외상 비용" name="ForeignCharge" />
     <text value="외국 환율" name="ForeignRate" />
     <text value="예를 들어" name="ForExample" />
-    <text value="암호가 기억 나지 않습니까?" name="ForgotPassword" />
     <text value="공식적인 사건" name="FormalCase" />
     <text value="정식 고객" name="FormalCustomer" />
     <text value="공식 VIP 고객" name="FormalVipCustomers" />
-    <text value="폼 기반 인증" name="FormBasedRegistration" />
-    <text value="일부 입력 정보가 ​​요구 사항을 충족하지 않습니다. 확인하고 수정하십시오." name="FormIsNotValidMessage" />
     <text value="요청 정보 양식 마감" name="FormOfClosingApplicationInformation" />
     <text value="무료 시간" name="FreeHour" />
-    <text value="친구" name="Friends" />
-    <text value="허용 된 친구 요청" name="FriendshipRequestAccepted" />
-    <text value="테넌트 사용자의 호스트 사용자를 가장 할 수 없습니다!" name="FromTenantToHostImpersonationErrorMessage" />
     <text value="이름" name="FullName" />
     <text value="성별" name="Gender" />
-    <text value="기본 정보" name="General" />
     <text value="생성 된" name="Generate" />
     <text value="지폐 생성" name="GenerateBills" />
     <text value="송장 생성" name="GenerateInvoice" />
@@ -855,14 +694,11 @@
     <text value="안녕하세요." name="GoodEvening" />
     <text value="안녕하세요." name="GoodMorning" />
     <text value="좋은 주말" name="GoodWeekend" />
-    <text value="로그인 시스템" name="GoToApplication" />
     <text value="대학원" name="GraduateSchool" />
-    <text value="녹색" name="Green" />
     <text value="회색" name="Grey" />
     <text value="차트" name="GridRangesMap" />
     <text value="그룹화" name="GroupBy" />
     <text value="성공적으로 처리됨" name="HandleASuccessful" />
-    <text value="Hangfire 대시 보드" name="HangfireDashboard" />
     <text value="수락 됨" name="HasAccepted" />
     <text value="수락 됨" name="HasBeenAccepted" />
     <text value="활성화 됨" name="HasBeenActivated" />
@@ -871,9 +707,7 @@
     <text value="{0}이 (가) 지정된 일정 [{1}]에 참여하는 것을 확인했습니다." name="HasBeenConfirmedToParticipateInYourAssignedSchedule" />
     <text value="반품 됨" name="HasBeenReturned" />
     <text value="거절 한" name="HasDeclined" />
-    <text value="오류가 발생했습니다." name="HasError" />
     <text value="아직 허용되지 않음" name="HasNotAccepted" />
-    <text value="자신의 도서관" name="HasOwnDatabase" />
     <text value="회의 [{0}]이 (가) 당신을 회의 주최자로 설정했습니다." name="HasSetYouAsEmceeOfMeeting" />
     <text value="회의 [{0}]이 (가) 당신을 회의 연락처로 설정했습니다." name="HasSetYouAsMeetingContact" />
     <text value="시간이 초과되었습니다." name="HasTimeout" />
@@ -882,23 +716,19 @@
     <text value="읽기" name="HaveRead" />
     <text value="머리" name="Header" />
     <text value="도움" name="Help" />
-    <text value="고급 필터 숨기기" name="HideAdvancedFilters" />
     <text value="QR 코드 숨기기" name="HideQRCode" />
     <text value="친절한 팁" name="Hints" />
     <text value="집 주소" name="HomeAddress" />
-    <text value="홈페이지" name="HomePage" />
     <text value="후원 변호사" name="HostLawyer" />
     <text value="시간당 요금" name="HourlyPay" />
     <text value="시간당 요금" name="HourlyRate" />
     <text value="시간" name="Hours" />
     <text value="시간 (H)" name="HourUnit" />
     <text value="기본 키 번호와 관련된 정보를 일치시킬 수 없습니다!" name="IdHasNotBeenFound" />
-    <text value="가짜 토큰이 잘못되었거나 만료되었습니다!" name="ImpersonationTokenErrorMessage" />
     <text value="중요하고 긴급한" name="ImportantAndInstancy" />
     <text value="중요하지만 긴급하지는 않음" name="ImportantButNotInstancy" />
     <text value="중요도" name="ImportantLevel" />
     <text value="수집 상자" name="Inbox" />
-    <text value="인증 코드가 잘못되었습니다." name="IncorrectCaptchaAnswer" />
     <text value="비즈니스 지수" name="IndexOfTheBusiness" />
     <text value="산업 분야" name="Industry" />
     <text value="개인 센터" name="InfoCenter" />
@@ -911,20 +741,8 @@
     <text value="면접 정보" name="IntervieweeInformation" />
     <text value="인트라넷 정보 검색" name="Intranetsearch" />
     <text value="무효" name="Invalid" />
-    <text value="이메일 주소가 잘못되었습니다." name="InvalidEmailAddress" />
-    <text value="사서함 확인이 만료되었습니다." name="InvalidEmailConfirmationCode" />
-    <text value="이메일의 재설정 링크를 클릭하여이 페이지를 입력하십시오. 이미 수행 한 경우 여전히 문제가 있으므로 이메일 확인 작업을 다시 시도하십시오!" name="InvalidEmailConfirmationCode_Detail" />
-    <text value="하나 이상의 속성 매개 변수 값이 잘못되었습니다." name="InvalidFeaturesWarning" />
-    <text value="일부 입력 정보가 ​​요구 사항을 충족하지 않습니다. 확인하고 수정하십시오." name="InvalidFormMessage" />
-    <text value="비밀번호 재설정 기한이 만료되었습니다." name="InvalidPasswordResetCode" />
-    <text value="이메일의 재설정 링크를 클릭하여이 페이지를 입력하십시오. 이미 완료 한 경우 여전히 문제가 있습니다. 비밀번호 재설정 작업을 다시 시도하십시오!" name="InvalidPasswordResetCode_Detail" />
-    <text value="잘못된 보안 코드입니다!" name="InvalidSecurityCode" />
-    <text value="사용자 이름 또는 이메일 주소가 잘못되었습니다." name="InvalidUserNameOrEmailAddress" />
-    <text value="잘못된 사용자 이름 또는 비밀번호" name="InvalidUserNameOrPassword" />
     <text value="취소" name="Inverse" />
     <text value="회의 참석자 초대" name="InvitedGuests" />
-    <text value="언어 코드가 잘못되었습니다." name="InvlalidLanguageCode" />
-    <text value="송장" name="Invoice" />
     <text value="송장 금액" name="InvoiceAmount" />
     <text value="송장 [{0}]이 취소되었습니다." name="InvoiceCanceled" />
     <text value="송장 [{0}]이 (가) 청구되었습니다." name="InvoiceClaimed" />
@@ -934,7 +752,6 @@
     <text value="청구일" name="InvoicedDate" />
     <text value="송장 문서" name="InvoiceFiles" />
     <text value="송장 [{0}]이 (가) 발급되었습니다." name="InvoiceHandled" />
-    <text value="송장 정보" name="InvoiceInformation" />
     <text value="송장 정보 테이블" name="InvoiceInformationSheet" />
     <text value="송장 무효화" name="InvoiceInvalid" />
     <text value="송장 [{0}] {1}." name="InvoiceNotify" />
@@ -944,39 +761,24 @@
     <text value="송장 헤더" name="InvoiceTitle" />
     <text value="송장 유형" name="InvoiceType" />
     <text value="보류중인 금액이 {0} {1} 인 송장이 있습니다." name="InvoiceUnHandled" />
-    <text value="IP 주소" name="IpAddress" />
-    <text value="이메일 확인을 사용합니다." name="IsEmailVerificationEnabled" />
     <text value="최상위 여부" name="IsPlacedAtTheTop" />
     <text value="[{0}] 스케줄을 작업중인 로그로 변환 하시겠습니까?" name="IsScheduleTurnedIntoWorkLog" />
-    <text value="SMS 확인을 사용합니다." name="IsSmsVerificationEnabled" />
     <text value="문제의 원인" name="IssuedByReason" />
     <text value="발행 권한" name="IssuingAgency" />
     <text value="직종 분석" name="JobCategoryAnalysis" />
     <text value="작업 내용" name="JobContent" />
-    <text value="주요 가치" name="Key" />
     <text value="키워드" name="KeyWord" />
     <text value="검색 키" name="KeywordSearch" />
     <text value="태그" name="Label" />
     <text value="노동 관계" name="LaborRelations" />
     <text value="유선 전화" name="Landline" />
-    <text value="언어" name="Language" />
-    <text value="현재 언어 팩 {0}을 (를) 삭제 하시겠습니까?" name="LanguageDeleteWarningMessage" />
-    <text value="언어 목록" name="Languages" />
-    <text value="언어 팩 관리를위한 텍스트 헤더" name="LanguagesHeaderInfo" />
-    <text value="언어 텍스트 정보" name="LanguageTexts" />
-    <text value="언어 텍스트 헤더 정보 편집." name="LanguageTextsHeaderInfo" />
-    <text value="지난 30 일" name="Last30Days" />
-    <text value="최근 7 일" name="Last7Days" />
     <text value="마지막으로 수정 한 날짜" name="LastEditDate" />
-    <text value="마지막 로그인 시간" name="LastLoginTime" />
-    <text value="지난 달" name="LastMonth" />
     <text value="지난 7 일" name="LastSevenDays" />
     <text value="변호사" name="Lawyer" />
     <text value="보조원 보조원" name="LawyerAssistant" />
     <text value="레이아웃" name="Layout" />
     <text value="레이아웃 모드" name="LayoutMode" />
     <text value="레이아웃 유형" name="LayoutType" />
-    <text value="LDAP 설정" name="LdapSettings" />
     <text value="떠나라." name="Leave" />
     <text value="요청 양식을 남겨주세요." name="LeaveApplicationForm" />
     <text value="감사 정보 남기기" name="LeaveAuditInfo" />
@@ -996,9 +798,6 @@
     <text value="개인 정보 보호 수준" name="LevelOfConfidentiality" />
     <text value="화이트" name="Light" />
     <text value="사례 수수료 한도" name="LimitOfHandlingExpenses" />
-    <text value="연결된 계정" name="LinkedAccounts" />
-    <text value="사용자 {0}의 연결이 삭제됩니다." name="LinkedUserDeleteWarningMessage" />
-    <text value="새 계정 연결" name="LinkNewAccount" />
     <text value="미수금 명부" name="ListOfReceivables" />
     <text value="목록보기" name="ListView" />
     <text value="데이터로드 중입니다. 잠시 기다려주십시오 ..." name="LoadingMessage" />
@@ -1013,43 +812,25 @@
     <text value="로그 승인 성공" name="LogApprovalSuccess" />
     <text value="로그 내용 / 메모" name="LogContentOrRemarks" />
     <text value="귀하의 로그 [{0}]이 (가) [{1}]에 의해 승인되었습니다." name="LogHasBeenApprovedRemind" />
-    <text value="로그인" name="LogIn" />
-    <text value="이 거주자로 로그인하십시오." name="LoginAsThisTenant" />
-    <text value="이 사용자로 로그인" name="LoginAsThisUser" />
-    <text value="로그인 시도" name="LoginAttempts" />
-    <text value="로그인에 실패했습니다!" name="LoginFailed" />
     <text value="정보 상세 정보 기록" name="LogInformation" />
-    <text value="임차인 로그인" name="LoginForTenants" />
-    <text value="로그인 사용자" name="LoginForUsers" />
     <text value="로그인 정보" name="LoginInformation" />
     <text value="로그 간격" name="LogInterval" />
-    <text value="로그인" name="LoginWith" />
     <text value="로그 목록" name="LogList" />
     <text value="로그 번호" name="LogNumber" />
     <text value="로그인 로그" name="LogOnLog" />
-    <text value="로그 아웃" name="Logout" />
     <text value="로그 소유자" name="LogOwner" />
     <text value="로그 속도" name="LogRate" />
-    <text value="다중 페이지 응용 프로그램 버전 번호 찾기" name="LookingForMpaVersion" />
-    <text value="단일 페이지 응용 프로그램 버전 번호 찾기" name="LookingForSpaVersion" />
-    <text value="이메일이 전송되었습니다." name="MailSent" />
     <text value="제목" name="Main" />
     <text value="주요 내용" name="MainContent" />
-    <text value="유지 보수" name="Maintenance" />
     <text value="주요 납품 단위" name="MainUnit" />
     <text value="주요 배달 단위, 발행 사유 및 인쇄 매수가 비어서는 안됩니다!" name="MainUnitIssuedByReasonCopiesNotallowedtobeEmpty" />
     <text value="죄송합니다. 선택 목록에있는 승인을 다시 제출하는 이유가 모두 기입되어 있는지 확인하십시오. 그렇지 않으면 승인 결과를 제출할 수 없습니다." name="MakeSureReasonsForApprovalInSelectionListAreFilledIn" />
-    <text value="관리 계정" name="ManageAccounts" />
     <text value="인트라넷 분류 정보 관리" name="ManageIntranetClassificationInformation" />
     <text value="경영 정보" name="ManagementInformation" />
-    <text value="경영진" name="ManagingMembers" />
-    <text value="관리 조직 트리" name="ManagingOrganizationTree" />
     <text value="마커 색상" name="MarkColor" />
     <text value="표시됨" name="Marked" />
     <text value="결혼" name="MarriageStatus" />
     <text value="물질 이름" name="MaterialName" />
-    <text value="계정을 잠그기 전에 실패한 로그인 시도의 최대 횟수" name="MaxFailedAccessAttemptsBeforeLockout" />
-    <text value="최대 암호 길이" name="MaxPasswordLength" />
     <text value="최대" name="MaxValue" />
     <text value="회의" name="Meeting" />
     <text value="컨퍼런스 주제" name="MeetingAgenda" />
@@ -1091,11 +872,8 @@
     <text value="회의 제목 / 내용 설명" name="MeetingTitleOrContentDescription" />
     <text value="[{0}]에 참여하는 것으로 확인 된 회의가 있습니다." name="MeetingToBeConfirmed" />
     <text value="회의 유형" name="MeetingType" />
-    <text value="회원" name="Members" />
     <text value="메뉴 권한" name="MenuPermissions" />
     <text value="합병" name="Merged" />
-    <text value="메시지" name="Message" />
-    <text value="최소 암호 길이" name="MinPasswordLength" />
     <text value="분" name="Minutes" />
     <text value="{0} 회의록" name="MinutesOfMeeting" />
     <text value="회의록 [{0}]은 {1}까지 완료되었으며 볼 수 있도록 다운로드 할 수 있습니다." name="MinutesOfMeetingHaveBeenImproved" />
@@ -1108,45 +886,24 @@
     <text value="작업 단계 수정" name="ModifyTaskStage" />
     <text value="케이스의 응용 프로그램 내용 수정" name="ModifyTheApplicationContentOfTheCase" />
     <text value="달" name="Month" />
-    <text value="월간" name="Monthly" />
     <text value="성공적인 이동" name="MoveSucceeded" />
     <text value="내 기록" name="MyLog" />
-    <text value="나는" name="MySettings" />
     <text value="내 구성 요소" name="MyWidgets" />
     <text value="내 기록" name="MyWorkLog" />
-    <text value="이름" name="Name" />
     <text value="이름 (in)" name="Name(Chinese)" />
-    <text value="이름" name="NameSurname" />
     <text value="원산지" name="NativePlace" />
     <text value="탐색 바" name="Navbar" />
     <text value="탐색 모음 스킨" name="NavbarSkins" />
     <text value="탐색 모음 유형" name="NavbarType" />
     <text value="내비게이션" name="Navigation" />
     <text value="자세한 위치를 가져 오지 못했습니다. 위치를 입력하십시오." name="NeedLocation" />
-    <text value="새로운 채팅 메시지가 있습니다." name="NewChatMessageEmail_Subject" />
-    <text value="" name="NewChatMessageEmail_SubTitle" />
-    <text value="메시지 세부 정보" name="NewChatMessageEmail_Title" />
     <text value="{0}이 (가) [{1}] 작업 아래에 새 댓글을 올렸습니다." name="NewCommentsRemind" />
-    <text value="조직 구조 추가" name="NewOrganizationUnit" />
-    <text value="새 암호" name="NewPassword" />
-    <text value="새 암호 (확인)" name="NewPasswordRepeat" />
-    <text value="새로 등록 된 세입자는 기본적으로 활성화되어 있습니다." name="NewRegisteredTenantsIsActiveByDefault" />
-    <text value="이 기능을 사용하지 않으면 관리자가 수동으로 계정을 활성화 할 때까지 새 테넌트가 활성화되지 않고 로그인 할 수 없습니다." name="NewRegisteredTenantsIsActiveByDefault_Hint" />
-    <text value="등록 된 사용자는 기본적으로 활성화됩니다." name="NewRegisteredUsersIsActiveByDefault" />
-    <text value="이 항목을 사용 중지하면 로그인 할 때 새 사용자를 전자 메일로 활성화해야합니다." name="NewRegisteredUsersIsActiveByDefault_Hint" />
     <text value="뉴스" name="News" />
     <text value="뉴스 및 공지 사항은 삭제를 허용하지 않습니다." name="NewsBulletinAreNotAllowedToBeDeleted" />
     <text value="새로운 작업 단계" name="NewTaskStage" />
-    <text value="세입자 추가" name="NewTenant" />
-    <text value="임차인 등록." name="NewTenantRegisteredNotificationDefinition" />
-    <text value="새 임차인이 신청서를 등록했습니다. 임차인 이름 : {tenancyName}." name="NewTenantRegisteredNotificationMessage" />
-    <text value="새로운 사용자 등록." name="NewUserRegisteredNotificationDefinition" />
-    <text value="새 사용자가 응용 프로그램에 등록되었습니다. 사용자 이름 : {userName}, 전자 메일 주소 : {emailAddress}." name="NewUserRegisteredNotificationMessage" />
-    <text value="다음 단계" name="Next" />
     <text value="다음 페이지" name="NextPage" />
     <text value="별명" name="Nickname" />
     <text value="없음" name="Nihility" />
-    <text value="아니요" name="No" />
     <text value="공지 사항이 현재 설정되지 않았습니다." name="NoAnnouncementsAreCurrentlySet" />
     <text value="첨부 정보가 없으므로 첨부 파일을 추가하십시오!" name="NoAttachmentsPleaseAddAttachments" />
     <text value="사례 정보 없음" name="NoCaseInformation" />
@@ -1158,10 +915,8 @@
     <text value="현재 일치하는 작업 항목이 없습니다." name="NoMatchingTaskItem" />
     <text value="병합되지 않음" name="NoMerge" />
     <text value="더 이상" name="NoMoreMessage" />
-    <text value="아니요" name="None" />
     <text value="현재 설정된 뉴스가 없습니다." name="NoNewsWasSet" />
     <text value="정상적인 청구 정보가 없습니다. 오른쪽 상단의 더하기 기호를 클릭하여 추가하십시오." name="NoNormalChargeInfoPleaseClickToAdd" />
-    <text value="아직 정의 된 조직이 없습니다." name="NoOrganizationUnitDefinedYet" />
     <text value="죄송합니다.이 폴더의 이름을 변경할 수있는 권한이 없습니다." name="NoPermissionsToRenameThisFolder" />
     <text value="죄송합니다.이 문서를 삭제할 수있는 권한이 없습니다." name="NoPermissionToDeleteThisDocument" />
     <text value="죄송합니다.이 폴더를 삭제할 수있는 권한이 없습니다." name="NoPermissionToDeleteThisFolder" />
@@ -1177,12 +932,7 @@
     <text value="정상 요금" name="NormalCharge" />
     <text value="검색 충돌이 없습니다." name="NoSearchConflicts" />
     <text value="활성화되지 않음" name="NotActivated" />
-    <text value="할당 없음" name="NotAssigned" />
     <text value="미완성의" name="NotCompleted" />
-    <text value="공지 사항" name="Notifications" />
-    <text value="통보 수락" name="NotificationSettings" />
-    <text value="알림 유형" name="NotificationTypes" />
-    <text value="이것은 모방 로그인이 아닙니다!" name="NotImpersonatedLoginErrorMessage" />
     <text value="작업 구성원 목록에 없습니다." name="NotInListOfTaskMembers" />
     <text value="중요하지 않고 긴급하지 않습니다." name="NotInstancy" />
     <text value="죄송합니다. 작업의 참가자 목록에 없습니다. 작업을 삭제할 수있는 권한이 없습니다." name="NotInTaskParticipants" />
@@ -1198,17 +948,13 @@
     <text value="로그 수" name="NumberOfLogs" />
     <text value="회의 예약 번호" name="NumberOfMeetings" />
     <text value="방문객" name="NumberOfVisitors" />
-    <text value="끄기" name="Off" />
     <text value="사무실" name="Office" />
     <text value="사무실 프로필" name="OfficeIntroduction" />
     <text value="사무실 이름" name="OfficeName" />
     <text value="책임자" name="Officer" />
-    <text value="좋은" name="Ok" />
-    <text value="열기" name="On" />
     <text value="진행중인 프로젝트" name="OngoingProjects" />
     <text value="죄송합니다. 하나의 파일 이름 만 바꿀 수 있습니다!" name="OnlyIndividualFilesCanBeRenamed" />
     <text value="근무 상태" name="OnTheJobStatus" />
-    <text value="오!" name="OopsYouAreLost" />
     <text value="열기" name="Open" />
     <text value="연산자" name="Operater" />
     <text value="작동 팁" name="OperationTips" />
@@ -1217,21 +963,13 @@
     <text value="주황색" name="Orange" />
     <text value="조직의 구성원" name="OrganizationMembers" />
     <text value="조직 구조" name="OrganizationStructure" />
-    <text value="조직도" name="OrganizationTree" />
-    <text value="조직 {0}을 (를) 삭제 하시겠습니까?" name="OrganizationUnitDeleteWarningMessage" />
-    <text value="{0}을 (를) {1} (으)로 이동하려면 확인하십시오." name="OrganizationUnitMoveConfirmMessage" />
-    <text value="조직" name="OrganizationUnits" />
-    <text value="조직을 사용하여 사용자 및 엔터티 구성" name="OrganizationUnitsHeaderInfo" />
     <text value="원본 법률 회사" name="OriginalPracticeLawFirm" />
     <text value="기타" name="Other" />
     <text value="기타 우편함" name="OtherEmail" />
     <text value="기타 정보" name="OtherInformation" />
     <text value="타사 계열사" name="OtherPartyAssociatedCompany" />
-    <text value="기타" name="Others" />
-    <text value="기타 설정" name="OtherSettings" />
     <text value="도착하지 않음" name="OutOfAccount" />
     <text value="더 많은 설정 접기" name="Packup" />
-    <text value="페이지" name="Pages" />
     <text value="경영 관리" name="Pages.Business" />
     <text value="서류 정리 관리" name="Pages.Business.CaseApplications" />
     <text value="신청서 제출" name="Pages.Business.CaseApplications.Apply" />
@@ -1332,7 +1070,6 @@
     <text value="작업 프로세스" name="Pages.Works.Task" />
     <text value="작업 항목" name="Pages.Works.Task.Project" />
     <text value="작업 템플릿" name="Pages.Works.Task.Templates" />
-    <text value="매개 변수" name="Parameters" />
     <text value="학부모 일정 번호" name="ParentScheduleNumber" />
     <text value="상위 작업 번호" name="ParentTaskNumber" />
     <text value="일부 로그가 승인되었습니다. 승인되지 않은 로그는 다시 시도하십시오." name="PartialLogApprovalIsSuccessfulRemind" />
@@ -1346,23 +1083,6 @@
     <text value="사회 단체 및 아르바이트 참여" name="ParticipationInSocialGroupsAndPart" />
     <text value="파트너 리뷰 결과" name="PartnerReviewResults" />
     <text value="부분 도착" name="PartToAccount" />
-    <text value="비밀번호" name="Password" />
-    <text value="비밀번호를 잊으셨습니까? " name="PasswordChangeDontRememberMessage" />
-    <text value="암호 복잡성" name="PasswordComplexity" />
-    <text value="비밀번호는 최대 {0} 자 여야합니다." name="PasswordComplexity_MaxLength_Hint" />
-    <text value="비밀번호는 적어도 {0} 자 이상이어야합니다." name="PasswordComplexity_MinLength_Hint" />
-    <text value="비밀번호는 소문자가 1 자 이상이어야합니다." name="PasswordComplexity_UseLowerCaseLetters_Hint" />
-    <text value="비밀번호는 최소 1 자 이상이어야합니다." name="PasswordComplexity_UseNumbers_Hint" />
-    <text value="비밀번호에는 적어도 하나 이상의 특수 문자가 포함되어야합니다." name="PasswordComplexity_UsePunctuations_Hint" />
-    <text value="비밀번호는 대문자가 1 자 이상이어야합니다." name="PasswordComplexity_UseUpperCaseLetters_Hint" />
-    <text value="암호 복잡성은 너무 간단합니다." name="PasswordComplexityNotSatisfied" />
-    <text value="비밀번호 (확인)" name="PasswordRepeat" />
-    <text value="비밀번호 재설정" name="PasswordReset" />
-    <text value="아래 링크를 클릭하여 비밀번호를 재설정하십시오." name="PasswordResetEmail_ClickTheLinkBelowToResetYourPassword" />
-    <text value="비밀번호 재설정" name="PasswordResetEmail_Subject" />
-    <text value="암호 재설정을 수행하십시오." name="PasswordResetEmail_SubTitle" />
-    <text value="비밀번호를 재설정하십시오." name="PasswordResetEmail_Title" />
-    <text value="비밀번호 재설정 이메일이 이메일로 전송되었습니다. 확인하십시오." name="PasswordResetMailSentMessage" />
     <text value="수취인" name="Payee" />
     <text value="지불 인" name="Payer" />
     <text value="수령액" name="PaymentAmount" />
@@ -1372,13 +1092,10 @@
     <text value="페널티 항목" name="PenaltyItem" />
     <text value="{0} 관련된 사람들" name="PepoleParticipants" />
     <text value="신청자" name="PepoleWhoUse" />
-    <text value="권한" name="Permission" />
-    <text value="권한" name="Permissions" />
     <text value="내 개인 문서" name="PersonalDocument" />
     <text value="개인 사서함" name="PersonalEmail" />
     <text value="개인 홈 페이지" name="PersonalHomePage" />
     <text value="신분증" name="PersonalId" />
-    <text value="개인 정보" name="PersonalInformations" />
     <text value="개인 인스턴트 메시징" name="PersonalInstantMessaging" />
     <text value="개인 전화" name="PersonalPhone" />
     <text value="개인 이력서" name="PersonalResume" />
@@ -1387,9 +1104,7 @@
     <text value="개인 설명" name="PersonDescription" />
     <text value="개인 전화 2" name="PersonPhone2" />
     <text value="개인 홈 페이지" name="PersonWebSite" />
-    <text value="전화 번호" name="PhoneNumber" />
     <text value="사진들" name="Picture" />
-    <text value="핑크색" name="Pink" />
     <text value="맨위" name="PlacedAtTheTop" />
     <text value="변호사 관계 보관소" name="PlaceOfLawyerRelations" />
     <text value="인사 파일 저장 장소" name="PlaceOfPersonnelFiles" />
@@ -1398,14 +1113,12 @@
     <text value="직원을 선택하십시오!" name="PleasechooseAStaffMember" />
     <text value="시간을 가지고 선택하십시오!" name="PleaseChooseToBringOutTime" />
     <text value="회의록을 작성하십시오." name="PleaseCompleteMinutesOfMeeting" />
-    <text value="로그인 정보를 입력하십시오." name="PleaseEnterLoginInformation" />
     <text value="메시지를 입력하십시오." name="PleaseEnterMessage" />
     <text value="감사 의견을 입력하십시오!" name="PleaseEnterMessageReviewOpinion" />
     <text value="해당 콘텐츠 설명을 입력하십시오!" name="Pleaseentertheappropriatedescription" />
     <text value="콘텐츠를 입력하십시오." name="PleaseEnterTheContent" />
     <text value="검색 키를 입력하십시오." name="PleaseEnterTheKeyword" />
     <text value="검색 키를 입력하십시오." name="PleaseEnterTheSearchKey" />
-    <text value="새 암호를 입력하십시오." name="PleaseEnterYourNewPassword" />
     <text value="제목 이름을 기입하십시오." name="PleaseFillInTheTitle" />
     <text value="검사 한 파일 대기열에 폴더가있는 경우 폴더 검사 옵션을 제거하십시오." name="PleaseRemoveTheFolderCheckOption" />
     <text value="선택하십시오" name="PleaseSelect" />
@@ -1430,7 +1143,6 @@
     <text value="선불 결제" name="PreOpeningBill" />
     <text value="재판장 / 지명 된 중재인" name="PresidingJudgeOrAppointedArbitrator" />
     <text value="미리보기" name="Preview" />
-    <text value="앞으로" name="Previous" />
     <text value="이전 페이지" name="PreviousPage" />
     <text value="과거의 프로젝트 경험" name="PreviousProjectExperience" />
     <text value="테마 스킨" name="Primary" />
@@ -1440,10 +1152,6 @@
     <text value="수상 내역" name="Prize" />
     <text value="프로세스 상태" name="ProcessStatus" />
     <text value="전문가" name="Profession" />
-    <text value="아바타 수정 오류." name="ProfilePicture_Change_Error" />
-    <text value="1MB 이내의 JPG / JPEG / PNG 이미지 만 선택하십시오." name="ProfilePicture_Change_Info" />
-    <text value="1MB 이내의 JPG / JPEG 이미지 만 선택하십시오. 아바타 파일을 다시 선택하십시오." name="ProfilePicture_Warn_FileType" />
-    <text value="1MB 이내의 JPG / JPEG 이미지 만 선택하십시오. 아바타 파일을 다시 선택하십시오." name="ProfilePicture_Warn_SizeLimit" />
     <text value="품목 범주" name="ProjectCategory" />
     <text value="프로젝트의 내용" name="ProjectContent" />
     <text value="프로젝트 표지" name="ProjectCover" />
@@ -1479,19 +1187,14 @@
     <text value="{0} {1}의 확인을위한 영수증이 있습니다." name="ReceiptWaitForConfirmed" />
     <text value="영수증" name="Receivables" />
     <text value="수신" name="Receive" />
-    <text value="알림 수신" name="ReceiveNotifications" />
-    <text value="이 옵션을 사용하여 수신 알림을 완전히 활성화 / 비활성화 할 수 있습니다." name="ReceiveNotifications_Definition" />
-    <text value="알림 수신을 완전히 사용하지 않도록 설정할 수 있습니다. 알림을 사용하도록 설정하고 수신 할 알림 유형을 선택할 수 있습니다." name="ReceiveNotifications_DisableInfo" />
     <text value="최근에" name="Recent" />
     <text value="추천" name="Recommended" />
     <text value="작전 기록" name="Records" />
     <text value="휴지통" name="RecycleBin" />
     <text value="빨간색" name="Red" />
     <text value="복원" name="Reduction" />
-    <text value="새로 고침" name="Refresh" />
     <text value="지역" name="Region" />
     <text value="영역 확대 / 축소" name="RegionalScale" />
-    <text value="사용자 이름의 이메일 주소를 입력하지 마십시오." name="RegisterFormUserNameInvalidMessage" />
     <text value="송장 등록" name="RegisterInvoice" />
     <text value="등록" name="Registration" />
     <text value="상환 자" name="ReimbursementApplicant" />
@@ -1510,8 +1213,6 @@
     <text value="출시일" name="ReleaseDate" />
     <text value="남은 연가" name="RemainingAnnualLeave" />
     <text value="참고" name="Remark" />
-    <text value="나를 기억해." name="RememberMe" />
-    <text value="이 브라우저 기억하기" name="RememberThisBrowser" />
     <text value="고급 {0} 경고" name="RemindAheadOfTime" />
     <text value="{0} 일 전에 미리 알림" name="RemindDaysInAdvance" />
     <text value="내 일이 생각 나네." name="Reminder" />
@@ -1519,22 +1220,12 @@
     <text value="시간 다시 알림" name="ReminderTime" />
     <text value="미리 알림" name="RemindInAdvance" />
     <text value="변호사를 상기시킵니다." name="RemindingTheLawyer" />
-    <text value="조직 {1}에서 사용자 {0}을 (를) 제거 하시겠습니까?" name="RemoveUserFromOuWarningMessage" />
     <text value="이름 바꾸기" name="Rename" />
     <text value="폴더 이름 바꾸기" name="ReNameDocumentFolder" />
     <text value="폴더 이름 바꾸기" name="RenamingFolders" />
-    <text value="답글" name="Reply" />
     <text value="대행사 결과" name="RepresentativeResults" />
-    <text value="요청한 파일이 존재하지 않습니다!" name="RequestedFileDoesNotExists" />
     <text value="신청을 떠나라." name="RequestForLeave" />
     <text value="재전송" name="Resend" />
-    <text value="재설정" name="Reset" />
-    <text value="세입자의 지정된 기능 설정을 재설정하고 저장합니다. 현재 세입자는 등록 된 버전의 기능 매개 변수 만 갖습니다." name="ResetFeaturesTooltip" />
-    <text value="사용자 권한을 다시 설정하면 사용자는 제휴 된 역할에만 포함 된 권한을 가지며 사용자에게 직접 지정된 권한은 취소됩니다." name="ResetPermissionsTooltip" />
-    <text value="특수 특성 매개 변수 재설정" name="ResetSpecialFeatures" />
-    <text value="직접 권한 재설정 재설정" name="ResetSpecialPermissions" />
-    <text value="재설정 완료" name="ResetSuccessfully" />
-    <text value="조정 된 이미지 크기는 100KB 미만이어야합니다. 크기를 조정하고 다시 시도하십시오." name="ResizedProfilePicture_Warn_SizeLimit" />
     <text value="면접관" name="Respondents" />
     <text value="복원 된 폴더는 삭제 된 디렉토리에서 찾을 수 있습니다." name="RestoredDocumentToTheDirectoryBeforeDeletion" />
     <text value="문서 복원" name="RestoreDocument" />
@@ -1578,25 +1269,12 @@
     <text value="위험 부담금" name="RiskCharge" />
     <text value="위험 관리 청구 카테고리" name="RiskChargeCategory" />
     <text value="리스크 충족 조건" name="RiskReachingConditions" />
-    <text value="역할" name="Role" />
-    <text value="역할 {0}이 (가) 삭제되고이 역할을 가진 사용자는이 역할을 취소합니다." name="RoleDeleteWarningMessage" />
-    <text value="역할 이름" name="RoleName" />
-    <text value="역할 속성" name="RoleProperties" />
-    <text value="역할" name="Roles" />
-    <text value="역할을 사용하여 사용 권한을 그룹화합니다." name="RolesHeaderInfo" />
-    <text value="루트 노드" name="Root" />
     <text value="행" name="Row" />
     <text value="급여 수준" name="SalaryLevel" />
     <text value="같은 연락처" name="SameSourceContacts" />
     <text value="샘플 문서" name="SampleDocuments" />
-    <text value="저장" name="Save" />
-    <text value="모두 저장" name="SaveAll" />
-    <text value="저장하고 닫기" name="SaveAndClose" />
-    <text value="텍스트 저장 (&amp; T)" name="SaveAndNext" />
     <text value="수신자 저장 및 알림" name="SaveAndNotifyRecipient" />
     <text value="저장 및 제출" name="SaveAndSubmit" />
-    <text value="성공적으로 저장되었습니다." name="SavedSuccessfully" />
-    <text value="저장 ..." name="SavingWithThreeDot" />
     <text value="QR 코드를 스캔하여 전화 번호부에 연락처 정보를 추가하십시오." name="ScanQrCodeToAddContact" />
     <text value="의제" name="Schedule" />
     <text value="일정 센터" name="ScheduleCenter" />
@@ -1619,20 +1297,11 @@
     <text value="인장은 비워 둘 수 없습니다!" name="SealerCanTBeEmpty" />
     <text value="인장 상태" name="SealState" />
     <text value="씰 타입" name="SealType" />
-    <text value="검색" name="Search" />
-    <text value="검색 ..." name="SearchWithThreeDot" />
     <text value="좌석" name="Seat" />
     <text value="비서 전화" name="SecretarialTelephone" />
-    <text value="안전" name="Security" />
-    <text value="모든 알림보기" name="SeeAllNotifications" />
-    <text value="예제보기" name="SeeDemo" />
-    <text value="선택" name="Select" />
     <text value="결과 선택" name="SelectTheResults" />
     <text value="세부 정보를 볼 카테고리 선택" name="SelectACategoryToViewTheDetails" />
-    <text value="자녀 선택" name="SelectAnItem" />
     <text value="구성원을 보려면 조직 단위를 선택하십시오." name="SelectAnOrganizationalUnitToViewMembers" />
-    <text value="구성원을 볼 조직을 선택하십시오." name="SelectAnOrganizationUnitToSeeMembers" />
-    <text value="사용자 선택" name="SelectAUser" />
     <text value="죄송합니다. 먼저 삭제할 파일을 선택하십시오!" name="SelectFilesToDelete" />
     <text value="죄송합니다. 이름을 바꾸려는 파일을 선택하십시오!" name="SelectFileToRename" />
     <text value="사건의 역할에 따라 참가자를 선택하십시오!" name="SelectPeopleByCaseRole" />
@@ -1642,53 +1311,29 @@
     <text value="제목 선택" name="SelectTheTitle" />
     <text value="자체보고 된 시간" name="SelfReportedTime" />
     <text value="총 자기보고 시간" name="SelfReportedTotalLength" />
-    <text value="가입 할 수 없습니다!" name="SelfUserRegistrationIsDisabledMessage" />
-    <text value="등록이 비활성화되어 있습니다. 시스템 관리자에게 문의하여 사용자 계정을 만드십시오." name="SelfUserRegistrationIsDisabledMessage_Detail" />
-    <text value="보내는 중" name="Send" />
-    <text value="활성화 이메일을 보내십시오." name="SendActivationEmail" />
     <text value="감사 보내기" name="SendAnAudit" />
-    <text value="시스템은 사용자 계정을 활성화하는 데 수십 초 내에 이메일을 전송합니다. 전자 메일 내용의 활성화 링크를 받아 클릭하십시오. " name="SendEmailActivationLink_Information" />
-    <text value="보낸 사람" name="Sender" />
     <text value="전송 파트너" name="SendPartner" />
-    <text value="시스템에서 암호 재설정 이메일을 수십 초 내에 전송했습니다. 3 분 후에이 이메일을받지 못하면 다시 시도하십시오." name="SendPasswordResetLink_Information" />
-    <text value="보안 코드를 보냅니다." name="SendSecurityCode" />
-    <text value="로그인 인증이 필요합니다. 인증 유형을 선택하십시오. 선택한 인증 유형에 따라 코드가 전송됩니다." name="SendSecurityCode_Information" />
-    <text value="보안 코드를 보낼 수 없습니다!" name="SendSecurityCodeErrorMessage" />
-    <text value="테스트 메일 보내기" name="SendTestEmail" />
     <text value="재무 검토 보내기" name="SendToFinancialAudit" />
     <text value="성공을 보내십시오!" name="SentSuccessfully" />
     <text value="아니." name="SerialNumber" />
-    <text value="서비스" name="Service" />
     <text value="서비스 유형" name="ServiceType" />
-    <text value="모두 읽도록 설정" name="SetAllAsRead" />
-    <text value="현재 언어를 기본 언어로 설정" name="SetAsDefaultLanguage" />
-    <text value="읽도록 설정" name="SetAsRead" />
     <text value="표시 열 설정" name="SetDisplayColumn" />
-    <text value="임의의 암호를 사용하십시오." name="SetRandomPassword" />
     <text value="내보내기 콘텐츠 설정" name="SettingExportContent" />
-    <text value="설정" name="Settings" />
-    <text value="프로그램 설정을 표시하고 수정하십시오." name="SettingsHeaderInfo" />
     <text value="사례 참여자 설정" name="SettingUpCaseParticipants" />
     <text value="안녕하세요 {0} " name="SetToParticipateInWorkLogRemind" />
     <text value="{0} 로그 [{1}]에 로그 참여자로 설정하면 클릭하여 로그 정보를 복사할지 여부를 확인할 수 있습니다" name="SetYouInLogParticipantRemind" />
     <text value="빠른 작동" name="Shortcuts" />
-    <text value="다음 로그인에는 암호 변경이 필요합니다." name="ShouldChangePasswordOnNextLogin" />
-    <text value="고급 필터링 표시" name="ShowAdvancedFilters" />
     <text value="사이드 바" name="Sidebar" />
     <text value="사이드 바 스킨" name="SidebarSkins" />
-    <text value="등록" name="SignUp" />
     <text value="관련 목록에 유사한 고객이있는 경우 해당 사례가 입력되고 고객 정보가 삭제되고 대체됩니다." name="SimilarCustomerInAssociationListTheCaseHasBeenEnteredTheCustomerWillBeDeletedAndReplaced" />
     <text value="유사한 고객 목록" name="SimilarCustomerList" />
     <text value="사이트 맵" name="SiteMap" />
     <text value="상황" name="Situation" />
-    <text value="SMTP 서버" name="SmtpHost" />
-    <text value="SMTP 포트" name="SmtpPort" />
     <text value="사회 보험 기반" name="SocialInsuranceBase" />
     <text value="사회 보장 번호" name="SocialInsuranceNumber" />
     <text value="미안해." name="Sorry" />
     <text value="죄송합니다. 먼저 검색 목록에서 충돌 항목을 선택하십시오!" name="SorryPleaseSelectConflictItemInSearchListFirst" />
     <text value="정렬" name="Sorting" />
-    <text value="소스 선택" name="Source" />
     <text value="명함 소스" name="SourceOfBusinessCard" />
     <text value="로그 소스" name="SourceOfLog" />
     <text value="관계의 원천" name="SourceOfRelations" />
@@ -1714,40 +1359,27 @@
     <text value="상태" name="State" />
     <text value="케이스 상태" name="StateOfCase" />
     <text value="인보이스 발행 상태" name="StateOfInvoice" />
-    <text value="시스템" name="Static" />
-    <text value="시스템 역할을 삭제할 수 없습니다." name="StaticRole_Tooltip" />
     <text value="통계적 간격" name="StatisticalInterval" />
     <text value="오류가 발생하면 중지하십시오." name="StopWhenAMistakeIsMade" />
     <text value="저장 위치" name="StorageLocation" />
     <text value="저장 위치는 비워 둘 수 없습니다!" name="StorageLocationCannotBeEmpty" />
     <text value="조직도" name="StructureTree" />
     <text value="사례 비즈니스 하위 클래스" name="SubclassOfCaseBusiness" />
-    <text value="제출" name="Submit" />
     <text value="메시지 제출" name="SubmitMessage" />
     <text value="소속 사무실" name="SubordinationOffice" />
     <text value="속한 지역" name="SubRegion" />
     <text value="하위 작업" name="Subtasks" />
     <text value="소계 금액" name="Subtotal" />
     <text value="CC 장치" name="SubUnit" />
-    <text value="성공" name="Success" />
-    <text value="추가 완료" name="SuccessfullyAdded" />
-    <text value="성공적으로 삭제되었습니다." name="SuccessfullyDeleted" />
     <text value="신고 된 보관 케이스 [{0}]을 (를) 성공적으로 제출했습니다." name="SuccessfullyFiled" />
-    <text value="성공적인 전송." name="SuccessfullyMoved" />
-    <text value="성공적인 등록" name="SuccessfullyRegistered" />
-    <text value="성공적으로 제거되었습니다." name="SuccessfullyRemoved" />
-    <text value="성공적으로 저장되었습니다." name="SuccessfullySaved" />
-    <text value="성공적으로 연결 해제 됨" name="SuccessfullyUnlinked" />
     <text value="변호사 감독" name="SupervisionLawyer" />
     <text value="컨퍼런스 예약 정보를 삭제 하시겠습니까?" name="SureToDeleteMeetingBooking" />
     <text value="계약 정보가 잠겨 있는지 확인합니까?" name="SureToDeleteTheContractInformation" />
     <text value="휴가 정보를 삭제해도 괜찮습니까?" name="SureToDeleteTheLeaveInformation" />
-    <text value="성" name="Surname" />
     <text value="스위칭" name="Switch" />
     <text value="내 기록으로 돌아 가라." name="SwitchMyLog" />
     <text value="히스토그램으로 전환" name="SwitchToAHistogram" />
     <text value="선 차트로 전환" name="SwitchToLineGraph" />
-    <text value="가짜 토큰이 잘못되었거나 만료되었습니다!" name="SwitchToLinkedAccountTokenErrorMessage" />
     <text value="로그 켜기" name="SwitchToWorkLog" />
     <text value="시스템 도움말" name="SystemHelper" />
     <text value="시스템 로그인 정보" name="SystemLoginInformation" />
@@ -1757,9 +1389,6 @@
     <text value="직종 범주 순서" name="Tactic" />
     <text value="등록을 철회하십시오" name="TakeOutRegistration" />
     <text value="시간 초과하다" name="TakeOutTime" />
-    <text value="대상 언어" name="TargetLanguage" />
-    <text value="대상 사용자가 찾을 수 없으며 삭제되었을 수 있습니다." name="TargetUserNotFoundProbablyDeleted" />
-    <text value="목표 값" name="TargetValue" />
     <text value="할 일 목록" name="Task" />
     <text value="작업 할당 자" name="TaskAssigner" />
     <text value="태스크 보드" name="Taskboard" />
@@ -1804,31 +1433,6 @@
     <text value="템플릿 유형" name="TemplateType" />
     <text value="템플릿 업로드 도움말 정보" name="TemplateUploadHelpInformation" />
     <text value="템플릿 업로드 정보" name="TemplateUploadingInformation" />
-    <text value="임차인 이름" name="TenancyCodeName" />
-    <text value="법률 회사 로고" name="TenancyName" />
-    <text value="참고 : 테넌트의 데이터베이스 연결 문자열을 변경하기 전에 테넌트 데이터베이스를 새 위치로 이동해야합니다. 연결 문자열을 변경해도 테넌트 데이터베이스는 이동하지 않습니다." name="TenantDatabaseConnectionStringChangeWarningMessage" />
-    <text value="임차인 {0}이 (가) 삭제됩니다." name="TenantDeleteWarningMessage" />
-    <text value="임차인 정보" name="TenantInformations" />
-    <text value="법률 회사 {0}이 (가) 활성화되지 않았습니다." name="TenantIsNotActive" />
-    <text value="임차인 관리" name="TenantManagement" />
-    <text value="법률 회사 이름" name="TenantName" />
-    <text value="법률 회사 로고는 문자로 시작하는 2 자 이상의 숫자, 숫자, -, _로 구성되어야합니다" name="TenantName_Regex_Description" />
-    <text value="임차인 이름은 비워 둘 수 없습니다." name="TenantNameCanNotBeEmpty" />
-    <text value="임차인" name="Tenants" />
-    <text value="세입자 선택" name="TenantSelection" />
-    <text value="세입자를 선택하십시오." name="TenantSelection_Detail" />
-    <text value="임차인 관리" name="TenantsHeaderInfo" />
-    <text value="임차인 등록" name="TenantSignUp" />
-    <text value="호스트와 채팅" name="TenantToHostChatFeature" />
-    <text value="세입자가 사용 가능하지 않고 호스트 채팅을합니다." name="TenantToHostChatFeatureIsNotEnabledForReceiver" />
-    <text value="채팅을 사용하도록 설정하지 않았습니다." name="TenantToHostChatFeatureIsNotEnabledForSender" />
-    <text value="다른 세입자와 대화" name="TenantToTenantChatFeature" />
-    <text value="임차인은 다른 임차인과 대화 할 수 없습니다." name="TenantToTenantChatFeatureIsNotEnabledForReceiver" />
-    <text value="다른 임차인과 채팅을 사용하도록 설정하지 않았습니다." name="TenantToTenantChatFeatureIsNotEnabledForSender" />
-    <text value="이것은 테스트 메일입니다." name="TestEmail_Body" />
-    <text value="AbpZeroTemplate 테스트 메일" name="TestEmail_Subject" />
-    <text value="테스트 이메일이 성공적으로 전송되었습니다." name="TestEmailSentSuccessfully" />
-    <text value="사서함 설정 테스트" name="TestEmailSettingsHeader" />
     <text value="텍스트" name="Text" />
     <text value="텍스트 형식은 템플릿 파일을 참조해야합니다. 템플릿 설명을 확인하십시오." name="TextFormatMustReferToTheTemplateFile" />
     <text value="협조 해 주셔서 감사합니다." name="ThanksForSupport" />
@@ -1853,29 +1457,19 @@
     <text value="금액 {0} {1} 인 인보이스 {2}이 (가) 있습니다." name="ThereIsAnInvoiceFor" />
     <text value="{0} {1} {2}의 지불이 있습니다." name="ThereIsAPaymentForAmountOf" />
     <text value="직업 경고가 없습니다." name="ThereIsNoJobRemindAtTheMoment" />
-    <text value="알림 없음." name="ThereIsNoNotification" />
     <text value="법률 회사 ID가 {0}이 (가) 존재하지 않습니다." name="ThereIsNoTenantDefinedWithName" />
     <text value="출처 사람" name="TheSourceOfPeople" />
     <text value="우편 번호" name="TheZipCode" />
     <text value="제 3 자 계정" name="ThirdPartyAccount" />
-    <text value="이 언어는 이미 존재합니다!" name="ThisLanguageAlreadyExists" />
-    <text value="이번 달" name="ThisMonth" />
-    <text value="웹 사이트 http 루트 경로" name="ThisWebSiteRootAddress" />
-    <text value="예 :이 시스템에 대한 외부 링크의 경우 http://mydomain.com/ (예 : 암호 재설정 링크)" name="ThisWebSiteRootAddress_Hint" />
-    <text value="시간" name="Time" />
     <text value="타임 라인보기" name="TimelineView" />
-    <text value="시간대" name="Timezone" />
-    <text value="시간대 설정이 변경되었습니다. 확인 버튼을 클릭하면 페이지가 새로 고침되고 변경 사항이 적용됩니다." name="TimeZoneSettingChangedRefreshPageNotification" />
     <text value="제목" name="Title" />
     <text value="~하려면" name="To" />
     <text value="할당" name="ToBeAllocated" />
     <text value="대기중인" name="ToBeProcessed" />
-    <text value="오늘" name="Today" />
     <text value="오늘 끝내야한다." name="TodayToBeDone" />
     <text value="처리가 실패했습니다." name="ToDealWithFailure" />
     <text value="인보이스 수신" name="ToReceiveTheInvoice" />
     <text value="리뷰 유형" name="ToSubmitForApprovalTheType" />
-    <text value="합계" name="Total" />
     <text value="연간 매출" name="TotalAnnualRevenue" />
     <text value="총 청구 시간" name="TotalBillHours" />
     <text value="총 영업 시간" name="TotalBusinessHours" />
@@ -1892,29 +1486,22 @@
     <text value="일정에 소비 된 총 시간" name="TotalTimeSpentInTheSchedule" />
     <text value="이 휴가 신청을 취소 하시겠습니까?" name="ToVoidLeaveInformation" />
     <text value="전송" name="TransferAccounts" />
-    <text value="이중 로그인 확인" name="TwoFactorLogin" />
     <text value="유형" name="Type" />
-    <text value="여기에 정보를 입력하십시오 ..." name="TypeAMessageHere" />
     <text value="토론 메시지 유형" name="TypeDiscussionMessage" />
     <text value="직업 카테고리" name="TypeOfWork" />
     <text value="폴더를 다운로드 할 수 없습니다." name="UnableToDownloadFolder" />
     <text value="폴더를 미리 볼 수 없습니다." name="UnableToPreviewFolder" />
     <text value="풀다" name="Unbind" />
-    <text value="차단 해제" name="UnblockUser" />
     <text value="청구되지 않음" name="Unclaimed" />
     <text value="완료 취소" name="UncompletedState" />
     <text value="펼치기" name="Unfold" />
     <text value="장치 주소록" name="UnitAddressBook" />
     <text value="조직 이름" name="UnitName" />
-    <text value="잠금 해제" name="Unlock" />
     <text value="잠금 해제 됨" name="UnLocked" />
     <text value="성공적으로 잠금 해제되었습니다!" name="UnLockedSuccessfully" />
-    <text value="사용자 {0}의 잠금을 해제하십시오." name="UnlockedTheUser" />
     <text value="일치하는 항목 없음" name="UnmatchedResults" />
-    <text value="읽지 않은" name="Unread" />
     <text value="관련 없음" name="Unrelated" />
     <text value="관련이없는 경우." name="UnRelatedCase" />
-    <text value="업로드" name="Upload" />
     <text value="다시 업로드" name="UploadAgain" />
     <text value="첨부 파일 업로드 실패 : {0}" name="UploadAttachmentFailure" />
     <text value="첨부 파일 업로드" name="UploadAttachments" />
@@ -1926,39 +1513,10 @@
     <text value="이미지 업로드" name="UploadPicture" />
     <text value="사진 업로드" name="UploadPictures" />
     <text value="업로드가 완료되었습니다." name="UploadSuccessfully" />
-    <text value="사용자는 등록 할 때 captcha를 사용합니다." name="UseCaptchaOnRegistration" />
-    <text value="기본 인증" name="UseDefaultCredentials" />
-    <text value="기본 설정 사용" name="UseDefaultSettings" />
-    <text value="호스트 데이터베이스 사용" name="UseHostDatabase" />
-    <text value="암호에 소문자 사용" name="UseLowerCaseLetters" />
-    <text value="비밀번호에 숫자 사용" name="UseNumbers" />
-    <text value="비밀번호에 구두점 사용" name="UsePunctuations" />
-    <text value="사용자 성공을 차단하십시오." name="UserBlocked" />
     <text value="{0을 (를) 삭제할 수 없습니다.} 사용자." name="UserCannotBeDeleted" />
-    <text value="사용자 {0}이 (가) 삭제됩니다." name="UserDeleteWarningMessage" />
-    <text value="귀하의 이메일 주소가 확인되지 않았습니다. 귀하의 이메일 주소가 정확한지 확인하십시오. 이메일을 확인하고 이메일의 확인 링크를 클릭하여 확인하고 활성화하십시오. 이메일을받지 못하면 [사서함 확인]을 클릭하십시오. 그러면 시스템에서 새 이메일을 다시 보냅니다. " name="UserEmailIsNotConfirmedAndCanNotLogin" />
-    <text value="사용자 정보" name="UserInformations" />
-    <text value="이 사용자는 이미 조직에 있습니다!" name="UserIsAlreadyInTheOrganizationUnit" />
-    <text value="사용자가 차단되었습니다." name="UserIsBlocked" />
-    <text value="사용자 {0}이 (가) 비활성화되어 로그인 할 수 없습니다." name="UserIsNotActiveAndCanNotLogin" />
-    <text value="사용자 계정이 잠겼습니다. 나중에 다시 시도하십시오." name="UserLockedOutMessage" />
-    <text value="사용자 잠금" name="UserLockOut" />
-    <text value="사용자 관리" name="UserManagement" />
-    <text value="사용자 이름" name="UserName" />
-    <text value="사용자 이름 또는 전자 메일 주소" name="UserNameOrEmail" />
-    <text value="사용자" name="Users" />
-    <text value="{0} 님이 나를 당신을 친구로 추가했습니다." name="UserSendYouAFriendshipRequest" />
-    <text value="사용자 및 사용 권한을 관리합니다." name="UsersHeaderInfo" />
     <text value="사용자 유형" name="UserType" />
-    <text value="성공적으로 마스크 해제되었습니다." name="UserUnblocked" />
-    <text value="SSL 사용" name="UseSsl" />
     <text value="청구서 사용" name="UseTheBill" />
-    <text value="암호에 대문자 사용" name="UseUpperCaseLetters" />
     <text value="제목 사용" name="UsingTheStandard" />
-    <text value="인증 코드" name="VerificationCode" />
-    <text value="보안 코드 확인" name="VerifySecurityCode" />
-    <text value="보내 드린 인증 코드를 입력하십시오." name="VerifySecurityCode_Information" />
-    <text value="자신을 확인하려면 로그인해야합니다! " name="VerifySecurityCodeNotLoggedInErrorMessage" />
     <text value="비디오" name="Video" />
     <text value="보기" name="View" />
     <text value="모든 작업보기" name="ViewAllTasks" />
@@ -1982,13 +1540,7 @@
     <text value="[[0}]을 (를) 제출하기 위해 제출 한 사례가 서면 자료 제출을 기다리고 있습니다." name="WaitingToSubmitWrittenMaterials" />
     <text value="확인하려면" name="WaitngForConfirmed" />
     <text value="통신 방법" name="WayToCommunicate" />
-    <text value="웹 로그" name="WebSiteLogs" />
-    <text value="이 페이지의 최신 로그를 보거나 모든 로그를 zip 파일로 다운로드 할 수 있습니다." name="WebSiteLogsHeaderInfo" />
-    <text value="방문하려는 페이지는 제공 할 수 없습니다." name="WeCanNotFindThePage" />
     <text value="주" name="Weeks" />
-    <text value="이 응용 프로그램에 오신 것을 환영합니다. 왼쪽 메뉴에서 사용할 기능을 시작할 수 있습니다. " name="WelcomePage_Info" />
-    <text value="환영합니다!" name="WelcomePage_Title" />
-    <text value="AbpZeroTemplate에 오신 것을 환영합니다! " name="WelcomeToTheApplicationNotificationMessage" />
     <text value="하루 종일입니까?" name="WhetherAllDay" />
     <text value="보관 여부" name="WhetherArchive" />
     <text value="대량으로 다운로드됩니까?" name="WhetherBatchDownload" />
@@ -2026,25 +1578,10 @@
     <text value="직장 전화 2" name="WorkPhone2" />
     <text value="근무 시간" name="WorkTime" />
     <text value="작문 언어" name="WritingLanguage" />
-    <text value="{0} 초" name="Xms" />
     <text value="몇 년" name="Year" />
-    <text value="옐로우" name="Yellow" />
-    <text value="~이다." name="Yes" />
-    <text value="예, 삭제하십시오!" name="YesDelete" />
-    <text value="어제" name="Yesterday" />
-    <text value="이 사용자를 이미 추가했습니다." name="YouAlreadySentAFriendshipRequestToThisUser" />
     <text value="[{0}]에 신청하신 케이스가 검토를 위해 반납되었으며 파일에 보관할 수 없습니다." name="YouApplicationForCaseIsReturnedCanNotFileCase" />
     <text value="[{0}]에 신청 한 사례가 검토를 위해 반환되었습니다. 신청 내용을 수정 한 후 다시 제출하십시오." name="YouApplicationForCaseIsReturnedPleaseReviseAndSubmitItAgain" />
-    <text value="여기에서 귀하의 계정으로 돌아갈 수 있습니다." name="YouCanBackToYourAccount" />
-    <text value="너는 너의 자신의 친구를 추가 할 수 없다." name="YouCannotBeFriendWithYourself" />
-    <text value="자신의 사용자 계정을 삭제할 수 없습니다!" name="YouCanNotDeleteOwnAccount" />
-    <text value="동일한 계정에 연결할 수 없습니다!" name="YouCannotLinkToSameAccount" />
-    <text value="차단 된 사용자가 없습니다. " name="YouDontHaveAnyBlockedFriend" />
-    <text value="너는 친구가 없다. " name="YouDontHaveAnyFriend" />
-    <text value="사용자 계정이 활성화되지 않았습니다. 시스템 관리자가 활성화 할 때까지 시스템에 로그인 할 수 있습니다." name="YourAccountIsWaitingToBeActivatedByAdmin" />
     <text value="[{0}]에 신청하신 케이스가 검토를 위해 반환되었습니다. 계약 정보를 변경하십시오." name="YourApplicationForCaseIsCheckedAndReturnedPleaseAmendContractInfo" />
-    <text value="이메일이 확인되었습니다." name="YourEmailIsConfirmedMessage" />
-    <text value="성공적인 암호 수정." name="YourPasswordHasChangedSuccessfully" />
     <text value="[[0}]을 (를) 제출하기 위해 제출하신 케이스가 보관 대기 중입니다." name="YourRequestForSettlementIsWaitingForArchiving" />
     <text name="CaseSerialIdRule" />
     <text name="PreviewCaseSerialIdRule" />
@@ -2189,7 +1726,6 @@
     <text value="사례 시작 시간" name="CaseStartTime" />
     <text value="휴대 전화" name="CellPhone" />
     <text value="청구 방법 :" name="ChargeModeTitle" />
-    <text value="고객" name="Client" />
     <text value="고객의 케이스 연락처" name="ClientCaseContact" />
     <text value="프로세스 상태 닫기" name="ClosingProcessStatus" />
     <text value="총 {0} 충돌 정보" name="ConflictCounts" />
@@ -2229,7 +1765,6 @@
     <text value="법적 도움 없음" name="NoLegalAid" />
     <text value="정상 요금 :" name="NormalChargeWithColon" />
     <text value="케이스에서 케이스를 처리하기위한 비용은 다음과 같습니다." name="PaidPartyTitle" />
-    <text value="청구 정보" name="PaymentInfo" />
     <text value="사례 요약 내용을 입력하십시오." name="PleaseInputCaseBrief" />
     <text value="케이스 이름을 입력하십시오." name="PleaseInputCaseName" />
     <text value="관련 사례 정보를 입력하십시오." name="PleaseInputCaseRelationInfo" />
@@ -2522,7 +2057,6 @@
     <text value="역할을 선택하십시오." name="SelectARole" />
     <text value="비용 정보 추가" name="AddExpensesInfo" />
     <text value="주문 자료 선택" name="SelectRollMaterial" />
-    <text value="필수" name="required" />
     <text value="마감 보고서를 작성하십시오." name="PlzFillOutClosingReport" />
     <text value="현재 파일이 대여되었습니다." name="TheCurrentFileHasBeenLoaned" />
     <text value="현재 파일이 반환되었습니다." name="TheCurrentFileHasBeenReturned" />
@@ -2560,7 +2094,6 @@
     <text value="아직 검색 데이터가 없습니다!" name="NoSearchData" />
     <text value="단어 수" name="WordCount" />
     <text value="단어" name="word" />
-    <text value="비어 있는" name="Free" />
     <text value="위안" name="Yuan" />
     <text value="페이지 개발을 위해 계속 지켜봐주십시오!" name="OppsPageDeveloping" />
     <text value="사례 수수료 정보" name="CaseFeeInformation" />
@@ -2812,5 +2345,886 @@
     <text value="현재 로그에 이미 처리 결과가 있습니다!" name="CurrentWorklogAlreadyExistsProcessingResult" />
     <text value="법률 정보원 - 법률 서클 지능형 컨버전스 플랫폼" name="ShareTitle" />
     <text value="AiLinkedLaw는 전문 회사에 전문적이고 전문적인 서비스를 제공한다는 철학을 준수하며 개방 된 협력의 중요성을 충분히 고려하고 많은 기술 회사 및 데이터 컨텐츠 전문 회사와 협력하여 법률 회사 및 변호사를위한 풍부한 응용 프로그램 시나리오 및 리소스를 제공합니다. " name="ShareContent" />
+    <text value="홈페이지" name="HomePage" />
+    <text value="회사 소개" name="AboutUs" />
+    <text value="시스템 관리" name="Administration" />
+    <text value="역할" name="Roles" />
+    <text value="사용자" name="Users" />
+    <text value="일부 입력 정보가 ​​요구 사항을 충족하지 않습니다. 확인하고 수정하십시오." name="InvalidFormMessage" />
+    <text value="잘못된 사용자 이름 또는 비밀번호" name="InvalidUserNameOrPassword" />
+    <text name="ThereIsNoTenantDefinedWithName{0}" />
+    <text value="법률 회사 {0}이 (가) 활성화되지 않았습니다." name="TenantIsNotActive" />
+    <text value="사용자 {0}이 (가) 비활성화되어 로그인 할 수 없습니다." name="UserIsNotActiveAndCanNotLogin" />
+    <text value="로그인 정보를 입력하십시오." name="PleaseEnterLoginInformation" />
+    <text value="법률 회사 로고" name="TenancyName" />
+    <text value="사용자 이름 또는 전자 메일 주소" name="UserNameOrEmail" />
+    <text value="비밀번호" name="Password" />
+    <text value="나를 기억해." name="RememberMe" />
+    <text value="로그인" name="LogIn" />
+    <text value="암호가 기억 나지 않습니까?" name="ForgotPassword" />
+    <text value="아직 시스템 사용자가 아니십니까?" name="DontYouHaveAnAccount" />
+    <text value="등록" name="CreateAnAccount" />
+    <text value="페이지" name="Pages" />
+    <text value="역할 이름" name="RoleName" />
+    <text value="역할 수정" name="EditRole" />
+    <text value="역할 추가" name="CreateNewRole" />
+    <text value="역할 속성" name="RoleProperties" />
+    <text value="권한" name="Permissions" />
+    <text value="저장" name="Save" />
+    <text value="취소" name="Cancel" />
+    <text value="역할을 사용하여 사용 권한을 그룹화합니다." name="RolesHeaderInfo" />
+    <text value="시스템" name="Static" />
+    <text value="운영" name="Actions" />
+    <text value="제거" name="Delete" />
+    <text value="성공적으로 저장되었습니다." name="SavedSuccessfully" />
+    <text value="괜찮은거야?" name="AreYouSure" />
+    <text value="예, 삭제하십시오!" name="YesDelete" />
+    <text value="사용자 삭제" name="DeletingUser" />
+    <text value="사용자 및 사용 권한을 관리합니다." name="UsersHeaderInfo" />
+    <text value="사용자 추가" name="CreateNewUser" />
+    <text value="사용자 이름" name="UserName" />
+    <text value="이름" name="Name" />
+    <text value="성" name="Surname" />
+    <text value="이메일 주소" name="EmailAddress" />
+    <text value="마지막 로그인 시간" name="LastLoginTime" />
+    <text value="사용자 수정" name="EditUser" />
+    <text value="사용자 정보" name="UserInformations" />
+    <text value="비밀번호 (확인)" name="PasswordRepeat" />
+    <text value="성공적으로 삭제되었습니다." name="SuccessfullyDeleted" />
+    <text value="역할 {0}이 (가) 삭제되고이 역할을 가진 사용자는이 역할을 취소합니다." name="RoleDeleteWarningMessage" />
+    <text value="사용자 {0}이 (가) 삭제됩니다." name="UserDeleteWarningMessage" />
+    <text value="활성화 됨" name="Active" />
+    <text value="전자 메일 주소 확인" name="EmailConfirm" />
+    <text value="~이다." name="Yes" />
+    <text value="아니요" name="No" />
+    <text value="나는" name="MySettings" />
+    <text value="로그 아웃" name="Logout" />
+    <text value="재설정" name="Reset" />
+    <text value="사용자 권한을 다시 설정하면 사용자는 제휴 된 역할에만 포함 된 권한을 가지며 사용자에게 직접 지정된 권한은 취소됩니다." name="ResetPermissionsTooltip" />
+    <text value="재설정 완료" name="ResetSuccessfully" />
+    <text value="임차인" name="Tenants" />
+    <text value="임차인 관리" name="TenantsHeaderInfo" />
+    <text value="임차인 코드" name="CreateNewTenant" />
+    <text value="임차인 이름" name="TenancyCodeName" />
+    <text value="법률 회사 이름" name="TenantName" />
+    <text value="임차인 {0}이 (가) 삭제됩니다." name="TenantDeleteWarningMessage" />
+    <text value="관리자 사서함" name="AdminEmailAddress" />
+    <text value="관리자 암호" name="AdminPassword" />
+    <text value="관리자 암호 (확인)" name="AdminPasswordRepeat" />
+    <text value="세입자 수정" name="EditTenant" />
+    <text value="권한 변경" name="ChangingPermissions" />
+    <text value="사용자 수정" name="EditingUser" />
+    <text value="사용자 추가" name="CreatingNewUser" />
+    <text value="수정" name="Edit" />
+    <text value="세입자 수정" name="EditingTenant" />
+    <text value="세입자 추가" name="CreatingNewTenant" />
+    <text value="세입자 삭제" name="DeletingTenant" />
+    <text value="역할 수정" name="EditingRole" />
+    <text value="역할 추가" name="CreatingNewRole" />
+    <text value="역할 삭제" name="DeletingRole" />
+    <text value="창조 시간" name="CreationTime" />
+    <text value="검색 ..." name="SearchWithThreeDot" />
+    <text value="직접 권한 재설정 재설정" name="ResetSpecialPermissions" />
+    <text value="저장 ..." name="SavingWithThreeDot" />
+    <text value="설정" name="Settings" />
+    <text value="모두 저장" name="SaveAll" />
+    <text value="프로그램 설정을 표시하고 수정하십시오." name="SettingsHeaderInfo" />
+    <text value="사서함 (SMTP)" name="EmailSmtp" />
+    <text value="기본 전자 메일 주소" name="DefaultFromAddress" />
+    <text value="기본 발신자 이름" name="DefaultFromDisplayName" />
+    <text value="SMTP 서버" name="SmtpHost" />
+    <text value="SMTP 포트" name="SmtpPort" />
+    <text value="기본 인증" name="UseDefaultCredentials" />
+    <text name="UseHostDefaultEmailSettings" />
+    <text value="도메인 이름" name="DomainName" />
+    <text value="SSL 사용" name="UseSsl" />
+    <text value="웹 사이트 http 루트 경로" name="ThisWebSiteRootAddress" />
+    <text value="예 :이 시스템에 대한 외부 링크의 경우 http://mydomain.com/ (예 : 암호 재설정 링크)" name="ThisWebSiteRootAddress_Hint" />
+    <text value="기본 정보" name="General" />
+    <text value="시스템에서 암호 재설정 이메일을 수십 초 내에 전송했습니다. 3 분 후에이 이메일을받지 못하면 다시 시도하십시오." name="SendPasswordResetLink_Information" />
+    <text value="보내는 중" name="Send" />
+    <text value="비밀번호 재설정" name="PasswordReset" />
+    <text value="사용자 이름 또는 이메일 주소가 잘못되었습니다." name="InvalidUserNameOrEmailAddress" />
+    <text value="비밀번호 재설정" name="PasswordResetEmail_Subject" />
+    <text value="비밀번호를 재설정하십시오." name="PasswordResetEmail_Title" />
+    <text value="암호 재설정을 수행하십시오." name="PasswordResetEmail_SubTitle" />
+    <text value="아래 링크를 클릭하여 비밀번호를 재설정하십시오." name="PasswordResetEmail_ClickTheLinkBelowToResetYourPassword" />
+    <text value="사용자 계정 활성화" name="EmailActivation_Subject" />
+    <text value="시스템 사용을 환영합니다." name="EmailActivation_Title" />
+    <text value="시스템이이 전자 메일을 보내 전자 메일 주소를 확인하고 사용자 계정을 활성화합니다." name="EmailActivation_SubTitle" />
+    <text value="아래 링크를 클릭하여 이메일 주소를 확인하고 사용자 계정을 활성화하십시오." name="EmailActivation_ClickTheLinkBelowToVerifyYourEmail" />
+    <text value="이메일 주소가 잘못되었습니다." name="InvalidEmailAddress" />
+    <text value="비밀번호 재설정 기한이 만료되었습니다." name="InvalidPasswordResetCode" />
+    <text value="이메일의 재설정 링크를 클릭하여이 페이지를 입력하십시오. 이미 완료 한 경우 여전히 문제가 있습니다. 비밀번호 재설정 작업을 다시 시도하십시오!" name="InvalidPasswordResetCode_Detail" />
+    <text value="새 암호를 입력하십시오." name="PleaseEnterYourNewPassword" />
+    <text value="귀하의 이메일 주소가 확인되지 않았습니다. 귀하의 이메일 주소가 정확한지 확인하십시오. 이메일을 확인하고 이메일의 확인 링크를 클릭하여 확인하고 활성화하십시오. 이메일을받지 못하면 [사서함 확인]을 클릭하십시오. 그러면 시스템에서 새 이메일을 다시 보냅니다. " name="UserEmailIsNotConfirmedAndCanNotLogin" />
+    <text value="로그인에 실패했습니다!" name="LoginFailed" />
+    <text value="사서함 확인이 만료되었습니다." name="InvalidEmailConfirmationCode" />
+    <text value="이메일의 재설정 링크를 클릭하여이 페이지를 입력하십시오. 이미 수행 한 경우 여전히 문제가 있으므로 이메일 확인 작업을 다시 시도하십시오!" name="InvalidEmailConfirmationCode_Detail" />
+    <text value="이메일이 확인되었습니다." name="YourEmailIsConfirmedMessage" />
+    <text value="다음 로그인에는 암호 변경이 필요합니다." name="ShouldChangePasswordOnNextLogin" />
+    <text value="임의의 암호를 사용하십시오." name="SetRandomPassword" />
+    <text value="활성화 이메일 보내기" name="EmailActivation" />
+    <text value="시스템은 사용자 계정을 활성화하는 데 수십 초 내에 이메일을 전송합니다. 전자 메일 내용의 활성화 링크를 받아 클릭하십시오. " name="SendEmailActivationLink_Information" />
+    <text value="활성화 이메일을 보내십시오." name="SendActivationEmail" />
+    <text value="비밀번호 변경" name="ChangePassword" />
+    <text value="현재 비밀번호" name="CurrentPassword" />
+    <text value="새 암호" name="NewPassword" />
+    <text value="새 암호 (확인)" name="NewPasswordRepeat" />
+    <text value="성공적인 암호 수정." name="YourPasswordHasChangedSuccessfully" />
+    <text value="가입 할 수 없습니다!" name="SelfUserRegistrationIsDisabledMessage" />
+    <text value="등록이 비활성화되어 있습니다. 시스템 관리자에게 문의하여 사용자 계정을 만드십시오." name="SelfUserRegistrationIsDisabledMessage_Detail" />
+    <text value="성공적인 등록" name="SuccessfullyRegistered" />
+    <text value="{0} 이메일로 이메일을 보냈습니다. 이메일의 링크를 클릭하여 이메일 주소를 확인하십시오." name="ConfirmationMailSentPleaseClickLinkInTheEmail" />
+    <text value="사용자 계정이 활성화되지 않았습니다. 시스템 관리자가 활성화 할 때까지 시스템에 로그인 할 수 있습니다." name="YourAccountIsWaitingToBeActivatedByAdmin" />
+    <text value="이름" name="NameSurname" />
+    <text value="사용자 관리" name="UserManagement" />
+    <text value="사용자가 등록 할 수 있습니다." name="AllowUsersToRegisterThemselves" />
+    <text value="이 항목을 사용하지 않으면 관리자가 사용자 관리 페이지를 통해서만 사용자를 추가 할 수 있습니다." name="AllowUsersToRegisterThemselves_Hint" />
+    <text value="등록 된 사용자는 기본적으로 활성화됩니다." name="NewRegisteredUsersIsActiveByDefault" />
+    <text value="이 항목을 사용 중지하면 로그인 할 때 새 사용자를 전자 메일로 활성화해야합니다." name="NewRegisteredUsersIsActiveByDefault_Hint" />
+    <text value="기본값" name="Default" />
+    <text value="새로운 사용자는 기본적으로이 역할을 갖습니다." name="DefaultRole_Description" />
+    <text value="시스템 역할을 삭제할 수 없습니다." name="StaticRole_Tooltip" />
+    <text value="로그인하려면 이메일 주소를 확인해야합니다." name="EmailConfirmationRequiredForLogin" />
+    <text name="{0}UserCannotBeDeleted" />
+    <text value="임차인 이름은 비워 둘 수 없습니다." name="TenantNameCanNotBeEmpty" />
+    <text value="Excel로 내보내기" name="ExportToExcel" />
+    <text value="그림 수정" name="ChangeProfilePicture" />
+    <text value="법률 회사 로고는 문자로 시작하는 2 자 이상의 숫자, 숫자, -, _로 구성되어야합니다" name="TenantName_Regex_Description" />
+    <text value="1MB 이내의 JPG / JPEG / PNG 이미지 만 선택하십시오." name="ProfilePicture_Change_Info" />
+    <text value="아바타 수정 오류." name="ProfilePicture_Change_Error" />
+    <text value="1MB 이내의 JPG / JPEG 이미지 만 선택하십시오. 아바타 파일을 다시 선택하십시오." name="ProfilePicture_Warn_SizeLimit" />
+    <text value="1MB 이내의 JPG / JPEG 이미지 만 선택하십시오. 아바타 파일을 다시 선택하십시오." name="ProfilePicture_Warn_FileType" />
+    <text value="벤치" name="Dashboard" />
+    <text value="분석 및보고" name="DashboardHeaderInfo" />
+    <text value="로그인 시스템" name="GoToApplication" />
+    <text value="임차인 정보" name="TenantInformations" />
+    <text value="개인 정보" name="PersonalInformations" />
+    <text value="계정 설정" name="AccountSettings" />
+    <text value="그림에 인증 코드를 입력하십시오 :" name="Captha_Hint" />
+    <text value="돌아 가기" name="Back" />
+    <text value="제출" name="Submit" />
+    <text value="등록" name="SignUp" />
+    <text value="확인 코드는 null 일 수 없습니다." name="CaptchaCanNotBeEmpty" />
+    <text value="인증 코드가 잘못되었습니다." name="IncorrectCaptchaAnswer" />
+    <text value="일부 입력 정보가 ​​요구 사항을 충족하지 않습니다. 확인하고 수정하십시오." name="FormIsNotValidMessage" />
+    <text value="사용자를 관리하고 사용자 이름을 수정할 수 없습니다." name="CanNotChangeAdminUserName" />
+    <text value="틀렸어!" name="Error" />
+    <text value="오!" name="OopsYouAreLost" />
+    <text value="방문하려는 페이지는 제공 할 수 없습니다." name="WeCanNotFindThePage" />
+    <text value="ASP.NET Zero 시작 프로젝트에 오신 것을 환영합니다!" name="DashboardDemo_Note_Title" />
+    <text value="이 데모 시스템에서는 왼쪽의 메뉴 기능을 사용하여 사용자 관리, 역할 관리 및 시스템 설정과 같은 모듈의 모든 기능을 테스트하고 이해할 수 있습니다." name="DashboardDemo_Note_Info" />
+    <text value="환영합니다!" name="WelcomePage_Title" />
+    <text value="이 응용 프로그램에 오신 것을 환영합니다. 왼쪽 메뉴에서 사용할 기능을 시작할 수 있습니다. " name="WelcomePage_Info" />
+    <text value="요청한 파일이 존재하지 않습니다!" name="RequestedFileDoesNotExists" />
+    <text value="이메일이 전송되었습니다." name="MailSent" />
+    <text value="비밀번호 재설정 이메일이 이메일로 전송되었습니다. 확인하십시오." name="PasswordResetMailSentMessage" />
+    <text value="이메일 확인 이메일이 귀하의 이메일로 발송되었습니다. 확인하십시오." name="ActivationMailSentMessage" />
+    <text value="사용자는 등록 할 때 captcha를 사용합니다." name="UseCaptchaOnRegistration" />
+    <text value="폼 기반 인증" name="FormBasedRegistration" />
+    <text value="LDAP 설정" name="LdapSettings" />
+    <text value="LDAP (Lightweight Directory Access Protocol) 인증을 사용합니다." name="EnableLdapAuthentication" />
+    <text value="기타 설정" name="OtherSettings" />
+    <text value="감사 로그" name="AuditLogs" />
+    <text value="성공" name="Success" />
+    <text value="시간" name="Time" />
+    <text value="서비스" name="Service" />
+    <text value="운영" name="Action" />
+    <text value="기간" name="Duration" />
+    <text value="IP 주소" name="IpAddress" />
+    <text value="고객" name="Client" />
+    <text value="탐색기" name="Browser" />
+    <text value="{0} 초" name="Xms" />
+    <text value="휴무일" name="Close" />
+    <text value="새로 고침" name="Refresh" />
+    <text value="오류 상태" name="ErrorState" />
+    <text value="모두" name="All" />
+    <text value="오류가 발생했습니다." name="HasError" />
+    <text value="고급 필터링 표시" name="ShowAdvancedFilters" />
+    <text value="고급 필터 숨기기" name="HideAdvancedFilters" />
+    <text value="감사 로그 세부 정보" name="AuditLogDetail" />
+    <text value="매개 변수" name="Parameters" />
+    <text value="기간" name="DateRange" />
+    <text value="운영 정보" name="ActionInformations" />
+    <text value="오늘" name="Today" />
+    <text value="어제" name="Yesterday" />
+    <text value="최근 7 일" name="Last7Days" />
+    <text value="지난 30 일" name="Last30Days" />
+    <text value="이번 달" name="ThisMonth" />
+    <text value="지난 달" name="LastMonth" />
+    <text value="세입자 선택" name="TenantSelection" />
+    <text value="세입자를 선택하십시오." name="TenantSelection_Detail" />
+    <text value="로그인" name="LoginWith" />
+    <text value="비밀번호를 잊으셨습니까? " name="PasswordChangeDontRememberMessage" />
+    <text value="여기를 클릭하십시오." name="ClickHere" />
+    <text value="신청서" name="Apply" />
+    <text value="맞춤 범위" name="CustomRange" />
+    <text value="이 예제를 봅니다 : ASP.NET MVC 및&lt;strong&gt;jQuery &lt;/strong&gt;에 기반한 &lt;strong&gt;다중 페이지 응용 프로그램 &lt;/strong&gt; 버전을 기반으로합니다." name="DashboardNoteForMpaVersion" />
+    <text value="이 예제를 봅니다 : ASP.NET MVC 및&lt;strong&gt;AngularJs &lt;/strong&gt;에 기반한 &lt;strong&gt;단일 페이지 응용 프로그램 &lt;/strong&gt; 버전을 기반으로합니다." name="DashboardNoteForSpaVersion" />
+    <text value="예제보기" name="SeeDemo" />
+    <text value="버전" name="Edition" />
+    <text value="버전 목록" name="Editions" />
+    <text value="현재 응용 프로그램의 버전 및 기능 매개 변수 관리" name="EditionsHeaderInfo" />
+    <text value="새 버전 만들기" name="CreateNewEdition" />
+    <text value="버전 수정" name="EditEdition" />
+    <text value="버전 속성 목록" name="EditionProperties" />
+    <text value="버전 이름" name="EditionName" />
+    <text value="특성 매개 변수 목록" name="Features" />
+    <text value="이미 임차인에게 할당 된 {0} 버전이 삭제됩니다." name="EditionDeleteWarningMessage" />
+    <text value="새 버전 만들기" name="CreatingNewEdition" />
+    <text value="버전 수정 중" name="EditingEdition" />
+    <text value="버전 삭제 중" name="DeletingEdition" />
+    <text value="기능 매개 변수 수정하기" name="ChangingFeatures" />
+    <text value="특수 특성 매개 변수 재설정" name="ResetSpecialFeatures" />
+    <text value="세입자의 지정된 기능 설정을 재설정하고 저장합니다. 현재 세입자는 등록 된 버전의 기능 매개 변수 만 갖습니다." name="ResetFeaturesTooltip" />
+    <text value="할당 없음" name="NotAssigned" />
+    <text value="하나 이상의 속성 매개 변수 값이 잘못되었습니다." name="InvalidFeaturesWarning" />
+    <text value="언어 목록" name="Languages" />
+    <text value="언어 팩 관리를위한 텍스트 헤더" name="LanguagesHeaderInfo" />
+    <text value="새 언어 만들기" name="CreateNewLanguage" />
+    <text value="코드" name="Code" />
+    <text value="새 언어 만들기" name="CreatingNewLanguage" />
+    <text value="편집 언어" name="EditingLanguage" />
+    <text value="언어 삭제하기" name="DeletingLanguages" />
+    <text value="문자 메시지 편집 중" name="ChangingTexts" />
+    <text value="성공적으로 저장되었습니다." name="SuccessfullySaved" />
+    <text value="언어" name="Language" />
+    <text value="태그" name="Flag" />
+    <text value="현재 언어를 기본 언어로 설정" name="SetAsDefaultLanguage" />
+    <text value="언어 코드가 잘못되었습니다." name="InvlalidLanguageCode" />
+    <text value="편집 언어" name="EditLanguage" />
+    <text value="텍스트 정보 변경" name="ChangeTexts" />
+    <text value="목표 값" name="TargetValue" />
+    <text value="기본값" name="BaseValue" />
+    <text value="주요 가치" name="Key" />
+    <text value="저장하고 닫기" name="SaveAndClose" />
+    <text value="텍스트 저장 (&amp; T)" name="SaveAndNext" />
+    <text value="텍스트 수정" name="EditText" />
+    <text value="언어 텍스트 정보" name="LanguageTexts" />
+    <text value="언어 텍스트 헤더 정보 편집." name="LanguageTextsHeaderInfo" />
+    <text value="Null 값" name="EmptyOnes" />
+    <text value="소스 선택" name="Source" />
+    <text value="기본 언어" name="BaseLanguage" />
+    <text value="대상 언어" name="TargetLanguage" />
+    <text value="앞으로" name="Previous" />
+    <text value="현재 언어 팩 {0}을 (를) 삭제 하시겠습니까?" name="LanguageDeleteWarningMessage" />
+    <text value="기본 언어는 삭제할 수 없으며 자신의 언어 만 삭제하거나 수정할 수 있지만 모든 언어의 텍스트 정보를 변경할 수 있습니다." name="CanNotEditOrDeleteDefaultLanguages" />
+    <text value="다중 페이지 응용 프로그램 버전 번호 찾기" name="LookingForMpaVersion" />
+    <text value="단일 페이지 응용 프로그램 버전 번호 찾기" name="LookingForSpaVersion" />
+    <text value="이 언어는 이미 존재합니다!" name="ThisLanguageAlreadyExists" />
+    <text value="조직을 사용하여 사용자 및 엔터티 구성" name="OrganizationUnitsHeaderInfo" />
+    <text value="조직도" name="OrganizationTree" />
+    <text value="회원" name="Members" />
+    <text value="구성원을 볼 조직을 선택하십시오." name="SelectAnOrganizationUnitToSeeMembers" />
+    <text value="조직 {0}을 (를) 삭제 하시겠습니까?" name="OrganizationUnitDeleteWarningMessage" />
+    <text value="자식 노드 추가" name="AddSubUnit" />
+    <text value="회원 추가" name="AddMember" />
+    <text value="추가 완료" name="SuccessfullyAdded" />
+    <text value="조직 {1}에서 사용자 {0}을 (를) 제거 하시겠습니까?" name="RemoveUserFromOuWarningMessage" />
+    <text value="성공적으로 제거되었습니다." name="SuccessfullyRemoved" />
+    <text value="자녀 선택" name="SelectAnItem" />
+    <text value="조직 구조 추가" name="NewOrganizationUnit" />
+    <text value="사용자 선택" name="SelectAUser" />
+    <text value="선택" name="Select" />
+    <text value="이 사용자는 이미 조직에 있습니다!" name="UserIsAlreadyInTheOrganizationUnit" />
+    <text value="루트 노드 추가" name="AddRootUnit" />
+    <text value="사용자 추가" name="AddUser" />
+    <text value="아직 정의 된 조직이 없습니다." name="NoOrganizationUnitDefinedYet" />
+    <text value="{0}을 (를) {1} (으)로 이동하려면 확인하십시오." name="OrganizationUnitMoveConfirmMessage" />
+    <text value="루트 노드" name="Root" />
+    <text value="성공적인 전송." name="SuccessfullyMoved" />
+    <text value="시간 추가" name="AddedTime" />
+    <text value="경영진" name="ManagingMembers" />
+    <text value="관리 조직 트리" name="ManagingOrganizationTree" />
+    <text value="로그인 사용자" name="LoginForUsers" />
+    <text value="이 사용자로 로그인" name="LoginAsThisUser" />
+    <text value="내 계정으로 돌아 가기" name="BackToMyAccount" />
+    <text value="임차인 로그인" name="LoginForTenants" />
+    <text value="이 거주자로 로그인하십시오." name="LoginAsThisTenant" />
+    <text value="참고 :이 작업은이 사용자를 대신하여 다른 사용자가 수행합니다." name="AuditLogImpersonatedOperationInfo" />
+    <text value="맞춤 데이터" name="CustomData" />
+    <text value="아니요" name="None" />
+    <text value="여기에서 귀하의 계정으로 돌아갈 수 있습니다." name="YouCanBackToYourAccount" />
+    <text value="계단식 시뮬레이션을 수행 할 수 없습니다. 이미 아날로그 로그인입니다!" name="CascadeImpersonationErrorMessage" />
+    <text value="테넌트 사용자의 호스트 사용자를 가장 할 수 없습니다!" name="FromTenantToHostImpersonationErrorMessage" />
+    <text value="다른 임차인의 사용자를 시뮬레이트 할 수 없습니다!" name="DifferentTenantImpersonationErrorMessage" />
+    <text value="가짜 토큰이 잘못되었거나 만료되었습니다!" name="ImpersonationTokenErrorMessage" />
+    <text value="이것은 모방 로그인이 아닙니다!" name="NotImpersonatedLoginErrorMessage" />
+    <text value="동일한 계정에 연결할 수 없습니다!" name="YouCannotLinkToSameAccount" />
+    <text value="이 계정을 연결하기 전에 비밀번호를 변경해야합니다!" name="ChangePasswordBeforeLinkToAnAccount" />
+    <text value="연결된 계정" name="LinkedAccounts" />
+    <text name="ManageLinkedAccounts" />
+    <text value="새 계정 연결" name="LinkNewAccount" />
+    <text value="성공적으로 연결 해제 됨" name="SuccessfullyUnlinked" />
+    <text value="사용자 {0}의 연결이 삭제됩니다." name="LinkedUserDeleteWarningMessage" />
+    <text value="가짜 토큰이 잘못되었거나 만료되었습니다!" name="SwitchToLinkedAccountTokenErrorMessage" />
+    <text value="AbpZeroTemplate에 오신 것을 환영합니다! " name="WelcomeToTheApplicationNotificationMessage" />
+    <text value="새로운 사용자 등록." name="NewUserRegisteredNotificationDefinition" />
+    <text value="새 사용자가 응용 프로그램에 등록되었습니다. 사용자 이름 : {userName}, 전자 메일 주소 : {emailAddress}." name="NewUserRegisteredNotificationMessage" />
+    <text value="모든 알림보기" name="SeeAllNotifications" />
+    <text value="읽도록 설정" name="SetAsRead" />
+    <text value="모두 읽도록 설정" name="SetAllAsRead" />
+    <text value="통보 수락" name="NotificationSettings" />
+    <text value="알림 수신" name="ReceiveNotifications" />
+    <text value="이 옵션을 사용하여 수신 알림을 완전히 활성화 / 비활성화 할 수 있습니다." name="ReceiveNotifications_Definition" />
+    <text value="알림 유형" name="NotificationTypes" />
+    <text value="알림 수신을 완전히 사용하지 않도록 설정할 수 있습니다. 알림을 사용하도록 설정하고 수신 할 알림 유형을 선택할 수 있습니다." name="ReceiveNotifications_DisableInfo" />
+    <text value="공지 사항" name="Notifications" />
+    <text value="알림 없음." name="ThereIsNoNotification" />
+    <text value="읽지 않은" name="Unread" />
+    <text value="자신의 사용자 계정을 삭제할 수 없습니다!" name="YouCanNotDeleteOwnAccount" />
+    <text value="열기" name="On" />
+    <text value="끄기" name="Off" />
+    <text value="유지 보수" name="Maintenance" />
+    <text value="캐싱" name="Caches" />
+    <text value="캐시가 성공적으로 지워졌습니다." name="CacheSuccessfullyCleared" />
+    <text value="모든 캐시가 성공적으로 지워집니다." name="AllCachesSuccessfullyCleared" />
+    <text value="모두 지우기" name="ClearAll" />
+    <text value="지우기" name="Clear" />
+    <text value="이 페이지의 응용 프로그램에서 캐시를 지울 수 있습니다." name="CachesHeaderInfo" />
+    <text value="사서함 설정 테스트" name="TestEmailSettingsHeader" />
+    <text value="테스트 메일 보내기" name="SendTestEmail" />
+    <text value="AbpZeroTemplate 테스트 메일" name="TestEmail_Subject" />
+    <text value="이것은 테스트 메일입니다." name="TestEmail_Body" />
+    <text value="테스트 이메일이 성공적으로 전송되었습니다." name="TestEmailSentSuccessfully" />
+    <text value="웹 로그" name="WebSiteLogs" />
+    <text value="이 페이지의 최신 로그를 보거나 모든 로그를 zip 파일로 다운로드 할 수 있습니다." name="WebSiteLogsHeaderInfo" />
+    <text value="모두 다운로드" name="DownloadAll" />
+    <text value="임차인 관리" name="TenantManagement" />
+    <text value="임차인을 시스템에 등록 할 수 있습니다." name="AllowTenantsToRegisterThemselves" />
+    <text value="이 기능을 사용하지 않으면 세입자 관리 페이지를 사용하여 관리자 만 테넌트를 추가 할 수 있습니다." name="AllowTenantsToRegisterThemselves_Hint" />
+    <text value="새로 등록 된 세입자는 기본적으로 활성화되어 있습니다." name="NewRegisteredTenantsIsActiveByDefault" />
+    <text value="이 기능을 사용하지 않으면 관리자가 수동으로 계정을 활성화 할 때까지 새 테넌트가 활성화되지 않고 로그인 할 수 없습니다." name="NewRegisteredTenantsIsActiveByDefault_Hint" />
+    <text value="임차인 등록" name="TenantSignUp" />
+    <text value="임차인 등록." name="NewTenantRegisteredNotificationDefinition" />
+    <text value="새 임차인이 신청서를 등록했습니다. 임차인 이름 : {tenancyName}." name="NewTenantRegisteredNotificationMessage" />
+    <text value="로그인 시도" name="LoginAttempts" />
+    <text value="실패" name="Failed" />
+    <text value="세입자 추가" name="NewTenant" />
+    <text value="조정 된 이미지 크기는 100KB 미만이어야합니다. 크기를 조정하고 다시 시도하십시오." name="ResizedProfilePicture_Warn_SizeLimit" />
+    <text value="사용자 이름의 이메일 주소를 입력하지 마십시오." name="RegisterFormUserNameInvalidMessage" />
+    <text value="호스트 데이터베이스 사용" name="UseHostDatabase" />
+    <text value="데이터베이스 연결 문자열" name="DatabaseConnectionString" />
+    <text value="참고 : 테넌트의 데이터베이스 연결 문자열을 변경하기 전에 테넌트 데이터베이스를 새 위치로 이동해야합니다. 연결 문자열을 변경해도 테넌트 데이터베이스는 이동하지 않습니다." name="TenantDatabaseConnectionStringChangeWarningMessage" />
+    <text value="시간대" name="Timezone" />
+    <text value="자신의 도서관" name="HasOwnDatabase" />
+    <text value="시간대 설정이 변경되었습니다. 확인 버튼을 클릭하면 페이지가 새로 고침되고 변경 사항이 적용됩니다." name="TimeZoneSettingChangedRefreshPageNotification" />
+    <text value="좋은" name="Ok" />
+    <text value="권한" name="Permission" />
+    <text value="역할" name="Role" />
+    <text value="안전" name="Security" />
+    <text value="암호 복잡성" name="PasswordComplexity" />
+    <text value="기본 설정 사용" name="UseDefaultSettings" />
+    <text value="암호 복잡성은 너무 간단합니다." name="PasswordComplexityNotSatisfied" />
+    <text value="이 사용자를 이미 추가했습니다." name="YouAlreadySentAFriendshipRequestToThisUser" />
+    <text value="너는 너의 자신의 친구를 추가 할 수 없다." name="YouCannotBeFriendWithYourself" />
+    <text value="메시지 세부 정보" name="NewChatMessageEmail_Title" />
+    <text name="NewChatMessageEmail_SubTitle" />
+    <text value="새로운 채팅 메시지가 있습니다." name="NewChatMessageEmail_Subject" />
+    <text value="보낸 사람" name="Sender" />
+    <text value="메시지" name="Message" />
+    <text value="사용자 성공을 차단하십시오." name="UserBlocked" />
+    <text value="성공적으로 마스크 해제되었습니다." name="UserUnblocked" />
+    <text value="사용자 차단" name="BlockUser" />
+    <text value="차단 해제" name="UnblockUser" />
+    <text value="허용 된 친구 요청" name="FriendshipRequestAccepted" />
+    <text value="{0} 님이 나를 당신을 친구로 추가했습니다." name="UserSendYouAFriendshipRequest" />
+    <text value="친구" name="Friends" />
+    <text value="기타" name="Others" />
+    <text value="차단 된 사용자" name="BlockedUsers" />
+    <text value="너는 친구가 없다. " name="YouDontHaveAnyFriend" />
+    <text value="차단 된 사용자가 없습니다. " name="YouDontHaveAnyBlockedFriend" />
+    <text value="동일한 임차인 사용자에 대해서만 사용자 이름 작성" name="ChatUserSearch_Hint" />
+    <text value="친구 추가" name="AddFriend" />
+    <text value="여기에 정보를 입력하십시오 ..." name="TypeAMessageHere" />
+    <text value="채팅" name="Chat" />
+    <text value="채팅 기능" name="ChatFeature" />
+    <text value="채팅을 사용할 수 없습니다." name="ChatFeatureIsNotEnabledForSender" />
+    <text value="세입자가 채팅을 거부하지 않았습니다." name="ChatFeatureIsNotEnabledForReceiver" />
+    <text value="사용자가 차단되었습니다." name="UserIsBlocked" />
+    <text value="채팅이 연결되지 않았습니다." name="ChatIsNotConnectedWarning" />
+    <text value="안녕하세요, 테스트 메시지입니다. 내 계정으로 다른 브라우저에 로그인하고 채팅 기능의 작동 방식을 확인하십시오." name="Demo_SampleChatMessage" />
+    <text value="다른 임차인과 채팅을 사용하도록 설정하지 않았습니다." name="TenantToTenantChatFeatureIsNotEnabledForSender" />
+    <text value="임차인은 다른 임차인과 대화 할 수 없습니다." name="TenantToTenantChatFeatureIsNotEnabledForReceiver" />
+    <text value="채팅을 사용하도록 설정하지 않았습니다." name="TenantToHostChatFeatureIsNotEnabledForSender" />
+    <text value="세입자가 사용 가능하지 않고 호스트 채팅을합니다." name="TenantToHostChatFeatureIsNotEnabledForReceiver" />
+    <text value="다른 세입자와 대화" name="TenantToTenantChatFeature" />
+    <text value="호스트와 채팅" name="TenantToHostChatFeature" />
+    <text value="허가로 필터링" name="FilterByPermission" />
+    <text value="역할 별 필터링" name="FilterByRole" />
+    <text value="사용자 필터링 / 추가" name="FilterOrAddUser" />
+    <text value="Hangfire 대시 보드" name="HangfireDashboard" />
+    <text name="CouldNotCompleteLoginOperation" />
+    <text name="UnAuthorizedOperation" />
+    <text name="YouAreNotAuthorizedToPerformThisOperation" />
+    <text value="대상 사용자가 찾을 수 없으며 삭제되었을 수 있습니다." name="TargetUserNotFoundProbablyDeleted" />
+    <text value="사용자 계정이 잠겼습니다. 나중에 다시 시도하십시오." name="UserLockedOutMessage" />
+    <text value="보안 코드를 보냅니다." name="SendSecurityCode" />
+    <text value="로그인 인증이 필요합니다. 인증 유형을 선택하십시오. 선택한 인증 유형에 따라 코드가 전송됩니다." name="SendSecurityCode_Information" />
+    <text value="보안 코드를 보낼 수 없습니다!" name="SendSecurityCodeErrorMessage" />
+    <text value="자신을 확인하려면 로그인해야합니다! " name="VerifySecurityCodeNotLoggedInErrorMessage" />
+    <text value="인증 코드" name="VerificationCode" />
+    <text value="보안 코드 확인" name="VerifySecurityCode" />
+    <text value="보내 드린 인증 코드를 입력하십시오." name="VerifySecurityCode_Information" />
+    <text value="이 브라우저 기억하기" name="RememberThisBrowser" />
+    <text value="잘못된 보안 코드입니다!" name="InvalidSecurityCode" />
+    <text value="전화 번호" name="PhoneNumber" />
+    <text value="잠금 해제" name="Unlock" />
+    <text value="사용자 {0}의 잠금을 해제하십시오." name="UnlockedTheUser" />
+    <text value="사용자 잠금" name="UserLockOut" />
+    <text value="실패한 로그인 시도에 대해 사용자 계정 잠금 사용" name="EnableUserAccountLockingOnFailedLoginAttemts" />
+    <text value="계정을 잠그기 전에 실패한 로그인 시도의 최대 횟수" name="MaxFailedAccessAttemptsBeforeLockout" />
+    <text value="계정 잠금 시간 (초)" name="DefaultAccountLockoutDurationAsSeconds" />
+    <text value="이중 로그인 확인" name="TwoFactorLogin" />
+    <text value="계정 이중 로그인 확인을 사용합니다." name="EnableTwoFactorLogin" />
+    <text value="이메일 확인을 사용합니다." name="IsEmailVerificationEnabled" />
+    <text value="SMS 확인을 사용합니다." name="IsSmsVerificationEnabled" />
+    <text value="허용 된 경우 사용자는 브라우저를 기억하도록 선택하여 동일한 브라우저의 이중 확인을 건너 뛸 수 있습니다." name="AllowToRememberBrowserForTwoFactorLogin" />
+    <text name="CurrentTenant" />
+    <text name="NotSelected" />
+    <text name="Change" />
+    <text name="ChangeTenant" />
+    <text name="UnknownTenantId{0}" />
+    <text name="TenantIdIsNotActive{0}" />
+    <text name="TimeoutPleaseTryAgain" />
+    <text name="RemainingTime" />
+    <text name="SecondShort{0}" />
+    <text name="ResetCode" />
+    <text name="IsTwoFactorEnabled" />
+    <text name="IsLockoutEnabled" />
+    <text name="IsLockoutEnabled_Hint" />
+    <text name="TenantRegistrationLoginInfo" />
+    <text name="CouldNotValidateExternalUser" />
+    <text name="LeaveEmptyToSwitchToHost" />
+    <text name="PleaseWaitToConfirmYourEmailMessage" />
+    <text name="ChatIsConnecting" />
+    <text name="Note_RefreshPageForPermissionChanges" />
+    <text name="ApplicationLogo" />
+    <text name="CustomCSS" />
+    <text value="업로드" name="Upload" />
+    <text value="다운로드" name="Download" />
+    <text name="UploadLogo_Info" />
+    <text name="UploadCSS_Info" />
+    <text name="Browse" />
+    <text name="Appearance" />
+    <text name="ClearedSuccessfully" />
+    <text name="File_Empty_Error" />
+    <text name="File_SizeLimit_Error" />
+    <text name="File_Invalid_Type_Error" />
+    <text name="MaximumUserCount" />
+    <text name="MaximumUserCount_Description" />
+    <text name="MaximumUserCount_Error_Message" />
+    <text name="MaximumUserCount_Error_Detail" />
+    <text name="UnlockedTenandAdmin" />
+    <text value="이메일" name="Email" />
+    <text name="EmailSecurityCodeSubject" />
+    <text name="EmailSecurityCodeBody" />
+    <text name="Sms" />
+    <text name="SmsSecurityCodeMessage" />
+    <text name="PasswordComplexity_RequireDigit_Hint" />
+    <text name="PasswordComplexity_RequireLowercase_Hint" />
+    <text name="PasswordComplexity_RequireNonAlphanumeric_Hint" />
+    <text name="PasswordComplexity_RequireUppercase_Hint" />
+    <text name="PasswordComplexity_RequiredLength_Hint" />
+    <text name="PasswordComplexity_RequireDigit" />
+    <text name="PasswordComplexity_RequireLowercase" />
+    <text name="PasswordComplexity_RequireNonAlphanumeric" />
+    <text name="PasswordComplexity_RequireUppercase" />
+    <text name="PasswordComplexity_RequiredLength" />
+    <text name="HostDashboardHeaderInfo" />
+    <text name="DashboardSampleStatistics" />
+    <text name="DashboardSampleStatisticsHelpText" />
+    <text name="NewTenants" />
+    <text name="NewSubscriptionAmount" />
+    <text name="Income" />
+    <text name="IncomeStatistics" />
+    <text name="ChangeDateRange" />
+    <text name="Daily" />
+    <text name="Weekly" />
+    <text value="월간" name="Monthly" />
+    <text name="DateFormatShort" />
+    <text name="EditionStatistics" />
+    <text name="SubscriptionExpiringTenants" />
+    <text name="RemainingDay" />
+    <text name="SeeAllRecords" />
+    <text name="RecentTenants" />
+    <text name="RecentTenantsHelpText" />
+    <text name="ExpiringTenantsHelpText" />
+    <text name="NoData" />
+    <text name="SubscriptionEndDate" />
+    <text name="TenantNameOrTenancyCode" />
+    <text name="IncomeWithAmount" />
+    <text name="Subscription" />
+    <text name="Extend" />
+    <text name="Upgrade" />
+    <text name="PaymentPeriodType" />
+    <text value="청구 정보" name="PaymentInfo" />
+    <text name="MonthlyPrice" />
+    <text name="AnnualPrice" />
+    <text name="StartUsingFree" />
+    <text name="TryIt" />
+    <text name="Days" />
+    <text name="PerMonth" />
+    <text name="PerYear" />
+    <text name="TestCheckFeature" />
+    <text name="TestCheckFeature2" />
+    <text name="Unlimited" />
+    <text name="LatestPaymentAmount" />
+    <text name="Payment" />
+    <text value="다음 단계" name="Next" />
+    <text name="Start" />
+    <text name="FreeTrial" />
+    <text name="BuyNow" />
+    <text name="WhatWillDoneAfterSubscriptionExpiry" />
+    <text name="DeactiveTenant" />
+    <text name="AssignToAnotherEdition" />
+    <text name="SubscriptionPrice" />
+    <text value="비어 있는" name="Free" />
+    <text name="Paid" />
+    <text name="IsTrialActive" />
+    <text name="TrialDayCount" />
+    <text name="WaitAfterSubscriptionExpireDate" />
+    <text name="WaitingDayAfterExpire" />
+    <text name="DisplayOrder" />
+    <text name="Annual" />
+    <text name="SubscriptionStartDate" />
+    <text name="Pricing" />
+    <text name="ClientIsRequestingYourPermission" />
+    <text name="ApplicationAccess" />
+    <text name="RememberMyDecision" />
+    <text name="Allow" />
+    <text name="DoNotAllow" />
+    <text name="Your user identifier" />
+    <text value="필수" name="Required" />
+    <text name="User profile" />
+    <text name="Your user profile information (first name, last name, etc.)" />
+    <text name="Your email address" />
+    <text name="Your phone number" />
+    <text name="Your postal address" />
+    <text name="AllFunctionalityYouHaveInTheApplication" />
+    <text name="Default (all) API" />
+    <text name="Offline Access" />
+    <text name="Access to your applications and resources, even when you are offline" />
+    <text name="Purchase" />
+    <text name="Trial" />
+    <text name="IsDisabled" />
+    <text name="ChartDateFormat" />
+    <text name="ThereIsNoLoggedInUser" />
+    <text name="IsInTrialPeriod" />
+    <text name="FailedSubscriptionTerminations_Email_Subject" />
+    <text name="FailedSubscriptionTerminations_Email_Body" />
+    <text name="SubscriptionExpire_Email_Subject" />
+    <text name="SubscriptionExpire_Email_Body" />
+    <text name="UnlimitedTimeSubscription" />
+    <text name="SubscriptionEndDateUtc" />
+    <text name="ExpiringEditionMustBeAFreeEdition" />
+    <text name="ThisEditionIsUsedAsAnExpiringEdition" />
+    <text name="UpgradedTo" />
+    <text name="ExtendedEdition" />
+    <text name="TrialSubscriptionNotification" />
+    <text name="SubscriptionExpireNotification" />
+    <text name="TrialExpireNotification" />
+    <text name="CanNotUpgradeSubscriptionSinceTenantHasNoEditionAssigned" />
+    <text name="PaymentCouldNotCompleted" />
+    <text name="TenantEditionIsNotAssigned" />
+    <text name="FreeEditionsCannotHaveTrialVersions" />
+    <text value="합계" name="Total" />
+    <text name="Extend_Edition_Description" />
+    <text name="Upgrade_Edition_Description" />
+    <text name="PaymentMightBeExpiredWarning" />
+    <text name="GoToSubscriptionManagement" />
+    <text name="DemoPayPalAccount" />
+    <text name="IsEnabled" />
+    <text name="IsGoogleAuthenticatorEnabled" />
+    <text name="GoogleAuthenticatorReferrerLink" />
+    <text name="ScanQrCodeWithYourMobileApp" />
+    <text name="Profile" />
+    <text name="Enable" />
+    <text name="GoogleAuthenticatorIsNotEnabled" />
+    <text name="SubscriptionExpiringSoon_Email_Subject" />
+    <text name="SubscriptionExpiringSoon_Email_Body" />
+    <text name="SubscriptionExpire_Title" />
+    <text name="SubscriptionExpire_SubTitle" />
+    <text name="SubscriptionAssignedToAnother_Email_Body" />
+    <text name="FailedSubscriptionTerminations_Title" />
+    <text name="FailedSubscriptionTerminations_SubTitle" />
+    <text name="SubscriptionExpiringSoon_Title" />
+    <text name="SubscriptionExpiringSoon_SubTitle" />
+    <text name="AdminRoleCannotRemoveFromAdminUser" />
+    <text name="YouCannotRemoveUserRolePermissionsFromAdminRole" />
+    <text name="YouCannotRemoveUserRolePermissionsFromAdminUser" />
+    <text name="Notification" />
+    <text name="TotalRecordsCount" />
+    <text name="SubscriptionInformation" />
+    <text name="PaymentHistory" />
+    <text name="Gateway" />
+    <text value="금액" name="Amount" />
+    <text name="Status" />
+    <text name="Period" />
+    <text name="DayCount" />
+    <text name="LastModificationTime" />
+    <text name="PaymentId" />
+    <text name="SubscriptionPaymentGatewayType_Paypal" />
+    <text name="SubscriptionPaymentGatewayType_Stripe" />
+    <text name="SubscriptionPaymentStatus_Completed" />
+    <text name="SubscriptionPaymentStatus_NotPaid" />
+    <text name="SubscriptionPaymentStatus_Paid" />
+    <text name="SubscriptionPaymentStatus_Failed" />
+    <text name="SubscriptionPaymentStatus_Cancelled" />
+    <text name="PaymentPeriodType_Annual" />
+    <text name="PaymentPeriodType_Monthly" />
+    <text name="ProcessTime" />
+    <text name="SmsVerificationEnabled" />
+    <text name="SmsVerificationMessage" />
+    <text name="Verify" />
+    <text name="YourCode" />
+    <text name="VerifyYourCode" />
+    <text name="YourPhoneNumberIsVerified" />
+    <text name="YourPhoneNumberIsNotVerified" />
+    <text name="WrongSmsVerificationCode" />
+    <text name="SelectUsers" />
+    <text value="조직" name="OrganizationUnits" />
+    <text name="YouCanManageUsersOrganizationUnitsFromOrganizationUnitsPage" />
+    <text name="DemoUiComponents" />
+    <text name="DateAndTimePickers" />
+    <text value="파일 업로드" name="FileUpload" />
+    <text name="PostedValue" />
+    <text name="SelectDate" />
+    <text name="SelectFile" />
+    <text name="UploadedFile" />
+    <text name="PostedData" />
+    <text name="Remove" />
+    <text name="OrganizationUnitNotFoundForThisUser" />
+    <text name="DemoUiComponents_Info" />
+    <text name="DemoUiComponents_Info_Metronic_Link_Text" />
+    <text name="Image" />
+    <text value="문서" name="File" />
+    <text name="Link" />
+    <text name="Billing" />
+    <text name="LegalName" />
+    <text value="주소" name="Address" />
+    <text name="Tax/VatNo" />
+    <text value="송장" name="Invoice" />
+    <text value="총 금액" name="TotalAmount" />
+    <text name="Print" />
+    <text name="ShowInvoice" />
+    <text value="송장 정보" name="InvoiceInformation" />
+    <text name="InvoiceNo" />
+    <text value="날짜" name="Date" />
+    <text name="ThisInvoiceIsNotYours" />
+    <text name="UiCustomizationHeaderInfo" />
+    <text name="UiCustomization_Layout" />
+    <text name="UiCustomization_LayoutType" />
+    <text name="UiCustomization_Fluid" />
+    <text name="UiCustomization_Boxed" />
+    <text name="UiCustomization_Disabled" />
+    <text name="UiCustomization_Default" />
+    <text name="UiCustomization_SpinnerMessage" />
+    <text name="UiCustomization_ContentSkin" />
+    <text name="UiCustomization_LightGrey" />
+    <text name="UiCustomization_White" />
+    <text name="UiCustomization_DesktopFixedHeader" />
+    <text name="UiCustomization_None" />
+    <text name="UiCustomization_Hide" />
+    <text name="UiCustomization_MobileFixedHeader" />
+    <text name="UiCustomization_DisplayHeaderMenu" />
+    <text name="UiCustomization_Light" />
+    <text name="UiCustomization_Dark" />
+    <text name="UiCustomization_DropdownSkin" />
+    <text name="UiCustomization_Menu" />
+    <text name="UiCustomization_MenuPosition" />
+    <text name="UiCustomization_Left" />
+    <text name="UiCustomization_Top" />
+    <text name="UiCustomization_MenuSkin" />
+    <text name="UiCustomization_FixedMenu" />
+    <text name="UiCustomization_AllowAsideMinimizing" />
+    <text name="UiCustomization_DefaultMinimizedAside" />
+    <text name="UiCustomization_AllowAsideHiding" />
+    <text name="UiCustomization_DropdownSubmenuSkin" />
+    <text name="UiCustomization_Inherit" />
+    <text name="UiCustomization_Footer" />
+    <text name="UiCustomization_FixedFooter" />
+    <text name="UiCustomization_PushFooter" />
+    <text name="UiCustomization_Header" />
+    <text name="UiCustomization_Theme" />
+    <text name="VisualSettings" />
+    <text name="SaveAsSystemDefault" />
+    <text name="UseSystemDefaults" />
+    <text name="NewNotifications" />
+    <text name="Subscriptions" />
+    <text name="UiCustomization_DefaultHiddenAside" />
+    <text name="LoadWithThreeDot" />
+    <text name="NoInternetConnection" />
+    <text name="Warning" />
+    <text name="RequestTimedOut" />
+    <text name="AnErrorOccurred" />
+    <text name="AnHttpErrorOccured" />
+    <text name="ChangePasswordToLogin" />
+    <text name="NoPermission" />
+    <text name="NoCamera" />
+    <text name="PickFromGallery" />
+    <text name="TakePhoto" />
+    <text name="Rotate" />
+    <text name="PasswordsDontMatch" />
+    <text name="RequiredField" />
+    <text name="StringLengthDoesntMatch" />
+    <text name="LessThanMinStringLength" />
+    <text name="InvalidPhoneNumber" />
+    <text name="InvalidRegularExpression" />
+    <text name="LengthNotInRange" />
+    <text name="UiCustomization_Mobile" />
+    <text name="UiCustomization_Desktop" />
+    <text name="TwoFactorLoginIsNotSupported" />
+    <text name="LinkToCurrentPage" />
+    <text name="ThisFieldIsRequired" />
+    <text name="PleaseEnterAtLeastNCharacter" />
+    <text name="PleaseEnterNoMoreThanNCharacter" />
+    <text name="SelectTwoFactorProvider" />
+    <text name="InvoiceInfoIsMissingOrNotCompleted" />
+    <text name="InvoiceTo" />
+    <text name="OperationLogs" />
+    <text name="ChangeLogs" />
+    <text name="Object" />
+    <text name="Property" />
+    <text name="OriginalValue" />
+    <text name="NewValue" />
+    <text name="Detail" />
+    <text name="CreatedAtByUser" />
+    <text name="MyCompanyName.AbpZeroTemplate.MultiTenancy.Tenant" />
+    <text name="Abp.Organizations.OrganizationUnit" />
+    <text value="검색" name="Search" />
+    <text name="Pin" />
+    <text name="TopMenu" />
+    <text name="LeftMenu" />
+    <text name="UserAccounts" />
+    <text value="블루" name="Blue" />
+    <text value="녹색" name="Green" />
+    <text value="핑크색" name="Pink" />
+    <text value="옐로우" name="Yellow" />
+    <text name="UiCustomization_HeaderSkin" />
+    <text name="TenantsCannotCreateLanguage" />
+    <text name="Toggle" />
+    <text name="UserAccount" />
+    <text value="더 많은 설정 펼치기" name="Expand" />
+    <text name="Attach" />
+    <text name="Collapse" />
+    <text name="AllOfThesePermissionsMustBeGranted" />
+    <text name="AtLeastOneOfThesePermissionsMustBeGranted" />
+    <text name="OnlyLockedUsers" />
+    <text name="DefaultFromSenderEmailAddress" />
+    <text name="DefaultFromSenderDisplayName" />
+    <text name="DefaultLanguage" />
+    <text name="CurrentUserDidNotLoginToTheApplication" />
+    <text name="MainMenu" />
+    <text name="IncorrectImageFormat" />
+    <text name="NotificationDeleteWarningMessage" />
+    <text name="ProcessingWithThreeDot" />
+    <text name="ThereIsNoSuchImageFileWithGivenToken" />
+    <text name="YouAreNotLinkedToAnyAccount" />
+    <text name="DownloadCollectedData" />
+    <text name="GdprDataPrepareStartedNotification" />
+    <text name="GdprDataPreparedNotificationMessage" />
+    <text name="ChatMessage_From" />
+    <text name="ChatMessage_To" />
+    <text name="ReadState" />
+    <text name="You" />
+    <text name="Anonymous" />
+    <text name="Messages" />
+    <text name="ThisNotificationDoesntBelongToYou" />
+    <text name="CookieConsent_Message" />
+    <text name="CookieConsent_Dismiss" />
+    <text name="UiCustomization_Wide" />
+    <text name="MyCompanyName.AbpZeroTemplate.Authorization.Roles.Role" />
+    <text name="History" />
+    <text name="IsCookieConsentEnabled" />
+    <text name="CookieConsent" />
+    <text name="AutomaticallyBillMyAccount" />
+    <text name="CheckoutWithStripe" />
+    <text name="CheckoutWithPaypal" />
+    <text name="DisableRecurringPayments" />
+    <text name="EnableRecurringPayments" />
+    <text name="ExpiringEdition" />
+    <text name="Price" />
+    <text name="ThereAreTenantsSubscribedToThisEdition" />
+    <text name="MoveTenantsToAnotherEdition" />
+    <text name="TenantsMovedToEditionNotificationMessage" />
+    <text name="MoveTenantsOfEdition" />
+    <text name="MoveTenantsOfEditionDescription" />
+    <text name="MoveTenantsToAnotherEditionStartedNotification" />
+    <text name="BuyNow_Edition_Description" />
+    <text name="NewRegistration_Edition_Description" />
+    <text name="Item" />
+    <text name="RecurringSubscriptionUpgradeNote" />
+    <text name="Theme_Default" />
+    <text name="Theme_Theme1" />
+    <text name="Theme_Theme2" />
+    <text name="Theme_Theme3" />
+    <text name="Theme_Theme4" />
+    <text name="Theme_Theme5" />
+    <text name="Theme_Theme6" />
+    <text name="Theme_Theme7" />
+    <text name="Theme_Theme8" />
+    <text name="Theme_Theme9" />
+    <text name="Theme_Theme10" />
+    <text name="Theme_Theme11" />
+    <text name="Theme_Theme12" />
+    <text name="SelectATheme" />
+    <text name="QuickThemeSelection" />
+    <text name="IsQuickThemeSelectEnabled" />
+    <text name="EmailMessage_CopyTheLinkBelowToYourBrowser" />
+    <text value="역할 추가" name="AddRole" />
+    <text name="SelectAnOrganizationUnitToSeeRoles" />
+    <text name="RemoveRoleFromOuWarningMessage" />
+    <text name="ManagingRoles" />
+    <text name="UiCustomization_LayoutFixedContent" />
+    <text name="UiCustomization_LayoutMobileFixedContent" />
+    <text name="ExcelOperations" />
+    <text name="ImportFromExcel" />
+    <text name="ImportToExcelSampleFileDownloadInfo" />
+    <text name="ImportUsersProcessStart" />
+    <text name="ImportUsersUploadFailed" />
+    <text name="AllUsersSuccessfullyImportedFromExcel" />
+    <text name="FileCantBeConvertedToUserList" />
+    <text name="{0}IsInvalid" />
+    <text name="Exception" />
+    <text name="InvalidUserImports" />
+    <text name="ClickToSeeInvalidUsers" />
+    <text name="YouAreAlreadyLoggedInWithUser" />
+    <text name="RequiresPasswordChange" />
+    <text name="RequiresTwoFactorAuth" />
+    <text name="Online" />
+    <text name="Offline" />
+    <text value="답글" name="Reply" />
+    <text name="UiCustomization_FixedSubHeader" />
+    <text name="UiCustomization_SubHeaderStyle" />
+    <text name="UiCustomization_SubHeaderStyle_Solid" />
+    <text name="UiCustomization_SubHeaderStyle_Transparent" />
+    <text name="UiCustomization_SubmenuToggle" />
+    <text name="UiCustomization_SubmenuToggle_Accordion" />
+    <text name="UiCustomization_SubmenuToggle_Dropdown" />
+    <text name="UiCustomization_SubHeader" />
+    <text name="UiCustomization_Fixed" />
+    <text name="UiCustomization_HeaderMinimizeType" />
+    <text name="UiCustomization_HeaderMinimizeType_All" />
+    <text name="UiCustomization_HeaderMinimizeType_Topbar" />
+    <text name="UiCustomization_HeaderMinimizeType_Menu" />
+    <text name="UiCustomization_HeaderMenuArrows" />
+    <text name="InvalidPattern" />
+    <text name="SwitchToTenant" />
+    <text name="TenancyNameRequired" />
+    <text name="EnterTenancyName" />
+    <text name="SwitchToTheTenant" />
+    <text name="SwitchToTheHost" />
+    <text value="비밀번호는 적어도 {0} 자 이상이어야합니다." name="PasswordComplexity_MinLength_Hint" />
+    <text value="비밀번호는 최대 {0} 자 여야합니다." name="PasswordComplexity_MaxLength_Hint" />
+    <text value="비밀번호는 최소 1 자 이상이어야합니다." name="PasswordComplexity_UseNumbers_Hint" />
+    <text value="비밀번호는 대문자가 1 자 이상이어야합니다." name="PasswordComplexity_UseUpperCaseLetters_Hint" />
+    <text value="비밀번호는 소문자가 1 자 이상이어야합니다." name="PasswordComplexity_UseLowerCaseLetters_Hint" />
+    <text value="비밀번호에는 적어도 하나 이상의 특수 문자가 포함되어야합니다." name="PasswordComplexity_UsePunctuations_Hint" />
+    <text name="UiCustomization_DisplaySubmenuArrowDesktop" />
+    <text value="" name="Platform.MultiTenancy.Tenant" />
+    <text value="케이스 담당자를 선택하십시오." name="PlzSelectCasePrincipal" />
+    <text value="새 암호 확인이 일치하지 않습니다." name="NewPasswordCheckIncorrect" />
   </texts>
 </localizationDictionary>
