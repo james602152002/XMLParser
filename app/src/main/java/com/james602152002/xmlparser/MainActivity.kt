@@ -44,26 +44,28 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
                 XmlPullParser.START_TAG -> if ("text" == parser.name) {
                     //                        <Data><![CDATA[：%s]]></Data>
                     var name = parser.getAttributeValue(null, "name")
-                    var value: String? = parser.getAttributeValue(null, "value")
-                    value = value?.replace("&".toRegex(), "&amp;")?.replace("'".toRegex(), "\\\\'")?.replace("忘记密码？ \\{0\\}\\.".toRegex(), "忘记密码？")?.replace("\\{0\\}\\.".toRegex(), "%s")
-                            ?: ""
-                    //                                .replaceAll("\\{0\\}", "%s");
-                    if (value.contains("{0}")) {
-                        value = if (isNoColorKey(name)) {
-                            value.replace("\\{0\\}".toRegex(), "%s")
-                        } else {
-                            "<Data><![CDATA[" + value.substring(0, value.indexOf("{0}")) + "<font color=\"#5D73FA\">%s</font>" +
-                                    value.substring(value.indexOf("{0}") + "{0}".length, value.length) +
-                                    "]]></Data>"
+                    if (name != null) {
+                        var value: String? = parser.getAttributeValue(null, "value")
+                        value = value?.replace("&".toRegex(), "&amp;")?.replace("'".toRegex(), "\\\\'")?.replace("忘记密码？ \\{0\\}\\.".toRegex(), "忘记密码？")?.replace("\\{0\\}\\.".toRegex(), "%s")
+                                ?: ""
+                        //                                .replaceAll("\\{0\\}", "%s");
+                        if (value.contains("{0}")) {
+                            value = if (isNoColorKey(name)) {
+                                value.replace("\\{0\\}".toRegex(), "%s")
+                            } else {
+                                "<Data><![CDATA[" + value.substring(0, value.indexOf("{0}")) + "<font color=\"#5D73FA\">%s</font>" +
+                                        value.substring(value.indexOf("{0}") + "{0}".length, value.length) +
+                                        "]]></Data>"
+                            }
                         }
-                    }
-                    //                        value = value.replaceAll("'", "&apos;");
-                    name = name.replace("\\(".toRegex(), "").replace("\\)".toRegex(), "")
-                    name = name.replace(".", "_")
+                        //                        value = value.replaceAll("'", "&apos;");
+                        name = name.replace("\\(".toRegex(), "").replace("\\)".toRegex(), "")
+                        name = name.replace(".", "_")
 
-                    if (!name.contains("{0}") && !name.contains(" ") && !name.contains("/") && name != "ChatUserSearch_Hint")
-                        builder.append("    <string name=\"").append(name.trim { it <= ' ' }).append("\">")
-                                .append(value).append("</string>\n")
+                        if (!name.contains("{0}") && !name.contains(" ") && !name.contains("/") && name != "ChatUserSearch_Hint")
+                            builder.append("    <string name=\"").append(name.trim { it <= ' ' }).append("\">")
+                                    .append(value).append("</string>\n")
+                    }
                 }
                 //结束标签
                 XmlPullParser.END_TAG -> if ("text" == parser.name) {

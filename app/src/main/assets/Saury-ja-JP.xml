@@ -1,6 +1,30 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <localizationDictionary culture="ja-JP">
   <texts>
+    <text value="金額" />
+    <text value="合計金額" />
+    <text value="住所" />
+    <text value="日付" />
+    <text value="ダウンロード" />
+    <text value="Eメール" />
+    <text value="その他の設定を展開する" />
+    <text value="ファイルのアップロード" />
+    <text value="グリーン" />
+    <text value="請求書情報" />
+    <text value="次のステップ" />
+    <text value="ピンク" />
+    <text value="返信" />
+    <text value="ドキュメント" />
+    <text value="請求書" />
+    <text value="毎月" />
+    <text value="アップロード" />
+    <text value="合計" />
+    <text value="青" />
+    <text value="検索" />
+    <text value="イエロー" />
+    <text value="料金情報" />
+    <text value="必須" />
+    <text value="無料" />
     <text value="ClientSecretは、Azureに登録されているアプリケーションの対応する設定への鍵です。" name=" Office365ClientSecretPrompt" />
     <text name="{0}IsInvalid" />
     <text name="{0}UserCannotBeDeleted" />
@@ -10,6 +34,7 @@
     <text value="要約の説明" name="AbstractDescription" />
     <text value="度" name="AcademicDegree" />
     <text value="許容時間" name="AcceptTime" />
+    <text value="アクセス" name="Access" />
     <text name="Access to your applications and resources, even when you are offline" />
     <text value="アクセスカード番号" name="AccessCardNumber" />
     <text value="アカウント管理" name="AccountManagement" />
@@ -50,10 +75,13 @@
     <text value="役割を追加" name="AddRole" />
     <text value="ルートノードを追加する" name="AddRootNode" />
     <text value="ルートノードを追加する" name="AddRootUnit" />
+    <text value="シリアル番号ルールを追加する" name="AddSerialNumberRule" />
     <text value="相を追加する" name="AddStage" />
     <text value="子ノードを追加する" name="AddSubUnit" />
     <text value="タグを追加" name="AddTags" />
     <text value="タスクを追加" name="AddTask" />
+    <text value="ケースはまだ追加されていません。プロジェクトを追加した後にタスクを追加してください！" name="AddTaskWithOutProjectWarning " />
+    <text value="プロジェクトはまだ追加されていません。ステージを追加した後にタスクを追加してください！" name="AddTaskWithOutStageWarning" />
     <text value="テンプレートを追加する" name="AddTemplate" />
     <text value="お気に入りに追加" name="AddToBookMark" />
     <text value="ユーザーを追加する" name="AddUser" />
@@ -83,6 +111,7 @@
     <text value="問題は会議参加者（会議の連絡先：{0}）にのみ表示されます" name="AgendaOnlyVisibleToParticipants" />
     <text value="何をすべきか" name="AgendaView" />
     <text value="エージェント" name="Agent" />
+    <text value="合意金利" name="AgreedInterestRate" />
     <text value="為替レート" name="AgreedRate" />
     <text value="ファイルに同意する" name="AgreeToArchive" />
     <text value="律智荟" name="AIlinkedlaw" />
@@ -94,6 +123,7 @@
     <text value="すべて" name="All" />
     <text value="すべてのキャッシュが正常にクリアされます。" name="AllCachesSuccessfullyCleared" />
     <text value="すべてのお客様" name="AllCustomers" />
+    <text value="一日中" name="AllDay" />
     <text name="AllFunctionalityYouHaveInTheApplication" />
     <text value="クォータの比例配分" name="AllocationQuotas" />
     <text name="AllOfThesePermissionsMustBeGranted" />
@@ -245,6 +275,7 @@
     <text value="返品オプションの承認" name="ApproveTheReturnOption" />
     <text value="選択による承認" name="ApproveTheSelectionOfItems" />
     <text value="4月" name="April" />
+    <text value="仲裁手数料" name="ArbitrationFee" />
     <text value="建築図" name="ArchitectureDiagram" />
     <text value="提出日" name="ArchivalDate" />
     <text value="アーカイブ情報" name="ArchivalInformation" />
@@ -256,6 +287,7 @@
     <text value="ファイリング人" name="ArchivePerson" />
     <text value="アーカイブ開始時刻" name="ArchiveStartTime" />
     <text value="アーカイブ時間" name="ArchiveTime" />
+    <text value="面積" name="Area" />
     <text value="エリアズーム縮小" name="ArealScaleReduction" />
     <text value="本当ですか？" name="AreYouSure" />
     <text value="現在のコードのステータスを変更しますか？" name="AreYouSureChangeCurrentCodeState" />
@@ -286,6 +318,7 @@
     <text value="弁護士の税率" name="AttorneyFeeRate" />
     <text value="弁護士税率％" name="AttorneyFeeRateWithPercentSign" />
     <text value="弁護士料金" name="AttorneyRate" />
+    <text value="オークション手数料" name="AuctionCommission" />
     <text value="オーディオ周波数" name="Audio" />
     <text value="レビュー" name="Audit" />
     <text value="管理章監査情報テーブル" name="AuditInformationTableForAdministrativeUse" />
@@ -304,6 +337,7 @@
     <text value="平均値" name="AverageValue" />
     <text value="に戻る" name="Back" />
     <text value="私のアカウントに戻る" name="BackToMyAccount" />
+    <text value="逆算" name="BackwardCalculation" />
     <text value="クライアント" name="Bailor" />
     <text value="受託会社アフィリエイト" name="BailorAssociatedCompany" />
     <text value="口座番号と口座番号" name="BankAccountAndAccountNumber" />
@@ -373,6 +407,7 @@
     <text value="より多くのファイルを選択し、単一のファイルが大きい場合は、バッチダウンロードに時間がかかります！" name="BulkDownloadsTakeLonger" />
     <text value="法務省分類" name="BureauofJusticeClassification" />
     <text value="ビジネスアカウント" name="BusinessAccount" />
+    <text value="事業エリア" name="BusinessArea" />
     <text value="名刺増加" name="BusinessCardIncrease" />
     <text value="ビジネスカテゴリ" name="BusinessCategory" />
     <text value="組織別営業時間" name="BusinessHoursByorganization" />
@@ -391,6 +426,13 @@
     <text value="キャッシング" name="Caches" />
     <text value="このページのアプリケーションでキャッシュをクリアすることができます。" name="CachesHeaderInfo" />
     <text value="キャッシュは正常にクリアされました。" name="CacheSuccessfullyCleared" />
+    <text value="ローン金額に基づいて計算" name="CalcBasedLoanAmount" />
+    <text value="計算結果は参照専用です" name="CalcResultForReferenceOnly" />
+    <text value="{0}で計算" name="CalculatedBy" />
+    <text value="計算" name="Calculation" />
+    <text value="計算結果" name="CalculationResults" />
+    <text value="電卓" name="Calcultor" />
+    <text value="面積と単価に基づいて計算" name="CalcWithAreaAndUnitPrice" />
     <text value="スケジュール所有者" name="CalendarOwner" />
     <text value="カレンダーのソース" name="CalendarSource" />
     <text value="カレンダービュー" name="CalendarView" />
@@ -437,6 +479,7 @@
     <text value="ケースの内容" name="CaseContent" />
     <text value="プロジェクト契約書" name="CaseContractDocument" />
     <text value="ケース契約情報" name="CaseContractInformation" />
+    <text value="ケース契約はロックされています。ロックを解除して変更してください！" name="CaseContractLockedTip" />
     <text value="アイテム数" name="CaseCount" />
     <text value="レビューのためのファイル" name="CaseCreation" />
     <text value="ケースの詳細" name="CaseDetail" />
@@ -464,6 +507,7 @@
     <text value="ケースログ情報" name="CaseLogInformation" />
     <text value="事例管理の統計" name="CaseManagementStatistics" />
     <text value="ケース名" name="CaseName" />
+    <text value="ケース名/顧客名" name="CaseNameOrClientName" />
     <text value="事件は存在しません！" name="CaseNotExist" />
     <text value="ケース番号" name="CaseNumber" />
     <text value="あなたが申請した[{0}]件のケースが検索によって返されました。アプリケーションの内容を改訂した後、競合を再確認してください。" name="CaseOfYouApplicationIsReturnedPleaseModifyAndResumeConflict" />
@@ -552,6 +596,8 @@
     <text value="申立人" name="Claimant" />
     <text value="請求された" name="Claimed" />
     <text value="請求情報" name="ClaimInformation" />
+    <text value="資産評価率の請求" name="ClaimingPropertyAppreciationRate" />
+    <text value="不動産価格の請求" name="ClaimingPropertyPrices" />
     <text value="カテゴリー" name="Classification" />
     <text value="分類名" name="ClassificationName" />
     <text value="ケースの分類" name="ClassificationOfBrief" />
@@ -611,6 +657,7 @@
     <text value="コメントメッセージ" name="Comments" />
     <text value="合計{0}件のレビュー" name="CommentsCount" />
     <text value="成功したコメント" name="CommentSuccessful" />
+    <text value="商業ローン" name="CommercialLoans" />
     <text value="共通の機能" name="CommonFunctions" />
     <text value="よく使われる" name="CommonlyUsed" />
     <text value="通信時間" name="CommunicationTime" />
@@ -622,6 +669,8 @@
     <text value="産業" name="CompanyIndustry" />
     <text value="会社情報" name="CompanyInformation" />
     <text value="会社名" name="CompanyName" />
+    <text value="{0}は{1}より大きくなければなりません" name="CompareMustGreaterThan" />
+    <text value="労働災害補償" name="CompensationForIndustrialInjury" />
     <text value="タスクの完了ステータスを設定する前に、チェックを完了してください！" name="CompleteCheckItemBefore" />
     <text value="完了" name="Completed" />
     <text value="{0}はあなたの割り当てられたスケジュール[{1}]を完了しました" name="CompletedAgendaYouAllocated" />
@@ -730,6 +779,7 @@
     <text value="新しい顧客を作成する" name="CreateNewCustomer" />
     <text value="新しいバージョンを作成する" name="CreateNewEdition" />
     <text value="新しいフォルダ" name="CreateNewFolder" />
+    <text value="新しい汎用コードを作成する" name="CreateNewGeneralCode" />
     <text value="新しい言語を作成する" name="CreateNewLanguage" />
     <text value="役割を追加する" name="CreateNewRole" />
     <text value="テナントコード" name="CreateNewTenant" />
@@ -758,6 +808,8 @@
     <text value="現在の顧客情報は元の顧客情報であり、類似の顧客のリストから顧客の交換は選択されない。" name="CurrentCustomerIsOrigina" />
     <text value="現在のペーパーアプリケーションが処理されました！" name="CurrentDocApplicationHasBeenProcessed" />
     <text value="現在の文書をスタンプするためのアプリケーションが処理されました！" name="CurrentDocStampApplicationHasBeenProcessed" />
+    <text value="現在のドキュメントは確認され、競合検索のために送信されました！" name="CurrentDocumentHasBeenReviewedAndSubmittedForConflictSearch" />
+    <text value="現在の文書レビューでは、最初に競合検索が必要です！" name="CurrentDocumentReviewRequiresConflictSearchFirst" />
     <text value="現在の休暇申請には既に処理結果があります。" name="CurrentLeaveRequestAlreadyExistsProcessingResult" />
     <text value="現在一致するフォルダとファイルがありません" name="CurrentlyNoMatchingFoldersAndFiles" />
     <text value="現在のところ、Word 2007/2010/2013ファイル（.docx形式のファイル）のみをサポートしています。" name="CurrentlyOnlySupportsDocuments" />
@@ -808,10 +860,14 @@
     <text name="DashboardSampleStatistics" />
     <text name="DashboardSampleStatisticsHelpText" />
     <text value="データベース接続文字列" name="DatabaseConnectionString" />
+    <text value="データ辞書" name="DataDictionary" />
     <text value="データの読み込み" name="DataLoading" />
     <text value="データ権限" name="DataPermissions" />
     <text value="日付" name="Date" />
     <text name="DateAndTimePickers" />
+    <text value="日付区切り記号" name="DateDelimiter" />
+    <text value="日付差の計算" name="DateDiffCalculation" />
+    <text value="日付のフォーマット" name="DateFormat" />
     <text name="DateFormatShort" />
     <text value="応募日：" name="DateOfApplicationTitle" />
     <text value="生年月日" name="DateOfBirth" />
@@ -826,6 +882,7 @@
     <text value="払い戻しの日付" name="DateOfReimbursement" />
     <text value="払い戻しの日付：" name="DateOfReimbursementTitle" />
     <text value="入金日" name="DateOfStorage" />
+    <text value="日付の投影" name="DateProjection" />
     <text value="期間" name="DateRange" />
     <text value="日" name="Day" />
     <text name="DayCount" />
@@ -850,11 +907,13 @@
     <text name="DefaultFromSenderEmailAddress" />
     <text name="DefaultLanguage" />
     <text value="新規ユーザーは、デフォルトでこの役割を持ちます。" name="DefaultRole_Description" />
+    <text value="遅延パフォーマンス時間" name="DelayedPerformanceTime" />
     <text value="遅延レコードログ" name="DelayLog" />
     <text value="削除する" name="Delete" />
     <text value="削除されたファイルはごみ箱にあります" name="DeletedFilesCanBeFoundInTheRecycleBin" />
     <text value="ドキュメントを削除する" name="DeleteDocument" />
     <text value="削除に失敗しました" name="DeleteFailed" />
+    <text value="シリアル番号ルールを削除" name="DeleteSerialNumberRule" />
     <text value="バージョンの削除" name="DeletingEdition" />
     <text value="言語を削除する" name="DeletingLanguages" />
     <text value="ロールを削除する" name="DeletingRole" />
@@ -882,6 +941,7 @@
     <text value="異なるテナントのユーザーをシミュレートすることはできません！" name="DifferentTenantImpersonationErrorMessage" />
     <text value="ディレクトリ" name="Directory" />
     <text name="DisableRecurringPayments" />
+    <text value="割引き" name="Discount" />
     <text value="弁護士費用割引率" name="DiscountsOfAttorneyFee" />
     <text value="弁護士報酬の割引率 %" name="DiscountsOfAttorneyFeeWithPercentSign" />
     <text value="ディスカッション" name="Discussion" />
@@ -894,7 +954,8 @@
     <text value="割り当て情報" name="DistributionOfInformation" />
     <text value="割り当てモード" name="DistributionPattern" />
     <text value="分配比" name="DistributionRatio" />
-    <text value="事例事業部" name="DivisionOfCaseBusiness" />
+    <text value="司法局事業部" name="DivisionOfCaseBusiness" />
+    <text value="離婚" name="Divorce" />
     <text value="ドキュメントの合計%s" name="DocCounts" />
     <text value="ドキュメントタイプ" name="DocType" />
     <text value="文書承認情報フォーム" name="DocumentApprovalInformationSheet" />
@@ -933,6 +994,7 @@
     <text value="顧客の連絡先を編集する" name="EditCustomerContact" />
     <text value="バージョンを編集する" name="EditEdition" />
     <text value="ファイル情報の編集" name="EditFileInformation" />
+    <text value="汎用コードを編集" name="EditGeneralCode" />
     <text value="編集版" name="EditingEdition" />
     <text value="言語の編集" name="EditingLanguage" />
     <text value="役割を変更する" name="EditingRole" />
@@ -948,6 +1010,7 @@
     <text name="EditionStatistics" />
     <text value="言語の編集" name="EditLanguage" />
     <text value="役割を変更する" name="EditRole" />
+    <text value="シリアル番号ルールを変更する" name="EditSerialNumberRule" />
     <text value="テナントの変更" name="EditTenant" />
     <text value="テキストを編集する" name="EditText" />
     <text value="終了するアプリケーションを編集する" name="EditTheClosingApplication" />
@@ -995,6 +1058,8 @@
     <text name="EnterTenancyName" />
     <text value="委託事項" name="EntrustedMatters" />
     <text value="エントリーコスト契約" name="EntryContractFee" />
+    <text value="等しい校長" name="EqualPrincipal" />
+    <text value="平等な校長と利子" name="EqualPrincipalInterest" />
     <text value="株式担保" name="Equitypledge" />
     <text value="間違っている！" name="Error" />
     <text value="認証のための（無許可の）要求。" name="Error401" />
@@ -1061,6 +1126,7 @@
     <text value="フィードバックの主な考え方を簡単に紹介してください:)" name="FeedbackTitlePlaceholder" />
     <text value="手数料の詳細" name="FeeDetail" />
     <text value="料金および契約添付書類" name="FeesAndContractAccessories" />
+    <text value="野原" name="Field" />
     <text value="ドキュメント" name="File" />
     <text name="File_Empty_Error" />
     <text name="File_Invalid_Type_Error" />
@@ -1109,13 +1175,14 @@
     <text value="固定料金カテゴリ" name="FixedChargeCategory" />
     <text value="注文品目添付の合計%s" name="FixedMaterialAttachmentsCnt" />
     <text value="固定電話" name="FixedTelephone" />
+    <text value="固定フィールド" name="FixedText" />
     <text value="タグ" name="Flag" />
     <text value="フローチャート" name="FlowChart" />
     <text value="フォーカス" name="Focusing" />
     <text value="紛争の焦点" name="FocusOfControversy" />
     <text value="折りたたみ" name="Fold" />
-    <text value="フォルダ - 新規" name="Folder.Create" />
-    <text value="フォルダの削除" name="Folder.Delete" />
+    <text value="下位ディレクトリ-新規" name="Folder.Create" />
+    <text value="下位ディレクトリ-削除" name="Folder.Delete" />
     <text value="ファイルの削除" name="Folder.Document.Delete" />
     <text value="ファイルダウンロード" name="Folder.Document.Download" />
     <text value="ファイル名の変更" name="Folder.Document.ReName" />
@@ -1123,9 +1190,9 @@
     <text value="ファイル表示" name="Folder.Document.Show" />
     <text value="ファイルアップロード" name="Folder.Document.Upload" />
     <text value="ファイルビュー" name="Folder.Document.View" />
-    <text value="フォルダ - リネーム" name="Folder.ReName" />
-    <text value="フォルダ - 表示" name="Folder.Show" />
-    <text value="フォルダビュー" name="Folder.View" />
+    <text value="下位ディレクトリ-名前の変更" name="Folder.ReName" />
+    <text value="現在のディレクトリ-表示" name="Folder.Show" />
+    <text value="下位ディレクトリ-表示" name="Folder.View" />
     <text value="フォルダを空にすることはできません" name="FolderCanNotEmpty" />
     <text value="フォルダレベル" name="FolderLevel" />
     <text value="フォローアップスタッフ" name="FolowUpPersonnel" />
@@ -1140,6 +1207,7 @@
     <text value="フォームベースの認証" name="FormBasedRegistration" />
     <text value="入力情報の一部が要件を満たしていません。確認して修正してください。" name="FormIsNotValidMessage" />
     <text value="リクエスト情報フォームを閉じる" name="FormOfClosingApplicationInformation" />
+    <text value="フォワード計算" name="ForwardCalculation" />
     <text value="無料" name="Free" />
     <text name="FreeEditionsCannotHaveTrialVersions" />
     <text value="無料時間" name="FreeHour" />
@@ -1195,6 +1263,7 @@
     <text value="エラーが発生しました" name="HasError" />
     <text value="法的援助" name="HasLegalAid" />
     <text value="まだ受け入れられていない" name="HasNotAccepted" />
+    <text value="組織構造を含めるかどうか" name="HasOrganization" />
     <text value="自分の図書館" name="HasOwnDatabase" />
     <text value="会議[{0}]があなたを会議のホストとして設定しました。" name="HasSetYouAsEmceeOfMeeting" />
     <text value="会議[{0}]はあなたを会議の連絡先として設定しました。" name="HasSetYouAsMeetingContact" />
@@ -1222,6 +1291,7 @@
     <text value="時間別料金：" name="HourPayWithColon" />
     <text value="時間" name="Hours" />
     <text value="時間（H）" name="HourUnit" />
+    <text value="住宅ローン" name="HousingLoans" />
     <text value="人事運用ガイド" name="HumanGuide" />
     <text value="主キー番号に関連する情報を照合できません！" name="IdHasNotBeenFound" />
     <text name="Image" />
@@ -1241,16 +1311,22 @@
     <text name="Income" />
     <text value="収支比" name="IncomeandExpenditureRatio" />
     <text name="IncomeStatistics" />
+    <text value="収入タイプ" name="IncomeType" />
     <text name="IncomeWithAmount" />
     <text value="確認コードが無効です。" name="IncorrectCaptchaAnswer" />
     <text value="不適切な形式" name="IncorrectFormat" />
     <text name="IncorrectImageFormat" />
     <text value="ビジネス指標" name="IndexOfTheBusiness" />
     <text value="産業" name="Industry" />
+    <text value="推定方向" name="InferredDirection" />
     <text value="パーソナルセンター" name="InfoCenter" />
     <text value="会議中に..." name="InMeeting" />
+    <text value="現在のステータスが{0}に変更された後、システムにログインできなくなります。大丈夫ですか？" name="InserviceStatusChangeWarning" />
+    <text value="現在のステータスが{0}に変更された後、ログインを続行できますか？" name="InServiceStatusChangeWarning2" />
     <text value="その場で" name="Inside" />
     <text value="緊急だが重要ではない" name="InstancyButNotImportant" />
+    <text value="金利" name="InterestRate" />
+    <text value="金利変換" name="InterestRateConversion" />
     <text value="内部費用" name="InternalCharge" />
     <text value="内部通知" name="InternalCirculation" />
     <text value="内部レート" name="InternalRate" />
@@ -1337,7 +1413,10 @@
     <text value="職種分析" name="JobCategoryAnalysis" />
     <text value="職種統計" name="JobCategoryStatistics" />
     <text value="作業内容" name="JobContent" />
+    <text value="共通の関心" name="JointInterestPaid" />
+    <text value="一般的なローンの返済" name="JointRepaymentPart" />
     <text value="ジャッジ" name="Judge" />
+    <text value="司法鑑定料" name="JudicialAppraisalFee" />
     <text value="7月" name="July" />
     <text value="6月" name="June" />
     <text value="ちょうど" name="JustNow" />
@@ -1413,6 +1492,7 @@
     <text value="ポジション" name="LegalType" />
     <text name="LengthNotInRange" />
     <text name="LessThanMinStringLength" />
+    <text value="レターオブジェクト" name="LetterObject" />
     <text value="プライバシーレベル" name="LevelOfConfidentiality" />
     <text value="ホワイト" name="Light" />
     <text value="事件手数料の限度額" name="LimitOfHandlingExpenses" />
@@ -1423,11 +1503,16 @@
     <text value="ユーザー{0}の関連付けは削除されます。" name="LinkedUserDeleteWarningMessage" />
     <text value="新しいアカウントをリンクする" name="LinkNewAccount" />
     <text name="LinkToCurrentPage" />
+    <text value="清算損害" name="LiquidatedDamages" />
     <text value="債権一覧" name="ListOfReceivables" />
     <text value="リストビュー" name="ListView" />
+    <text value="訴訟費用" name="LitigationCosts" />
     <text value="ライティング・ソーダ" name="LitigationPhase" />
     <text value="データを読み込んでいます。お待ちください..." name="LoadingMessage" />
     <text name="LoadWithThreeDot" />
+    <text value="貸付額" name="LoanAmount" />
+    <text value="ローン方式" name="LoanMethod" />
+    <text value="貸出期間" name="LoanTerm" />
     <text value="ローカルディレクトリ" name="LocalDirectory" />
     <text value="本所" name="LocalOffice" />
     <text value="場所" name="Location" />
@@ -1476,7 +1561,7 @@
     <text value="学科" name="MajorStudied" />
     <text value="申し訳ございませんが、選択リストに承認を返す理由がすべて記入されていることを確認してください。そうでない場合、承認結果を提出できません。" name="MakeSureReasonsForApprovalInSelectionListAreFilledIn" />
     <text value="イントラネット分類情報を管理する" name="ManageIntranetClassificationInformation" />
-    <text name="ManageLinkedAccounts" />
+    <text value="アカウント管理" name="ManageLinkedAccounts" />
     <text value="マネジメント" name="Management" />
     <text value="管理情報" name="ManagementInformation" />
     <text value="管理メンバー" name="ManagingMembers" />
@@ -1485,13 +1570,14 @@
     <text value="3月" name="March" />
     <text value="マーカーの色" name="MarkColor" />
     <text value="マークされた" name="Marked" />
+    <text value="結婚するとき" name="Marriage" />
     <text value="結婚" name="MarriageStatus" />
     <text value="品名" name="MaterialName" />
     <text value="アカウントをロックするまでに失敗したログイン試行の最大回数" name="MaxFailedAccessAttemptsBeforeLockout" />
-    <text name="MaximumUserCount" />
+    <text value="ユーザーの最大数" name="MaximumUserCount" />
     <text name="MaximumUserCount_Description" />
     <text name="MaximumUserCount_Error_Detail" />
-    <text name="MaximumUserCount_Error_Message" />
+    <text value="許可されているユーザーの最大数に達しました！" name="MaximumUserCount_Error_Message" />
     <text value="最大" name="MaxValue" />
     <text value="申し訳ありませんが、最大7つのタイマーしか作成できません。" name="MaxWorkLogTimerTips" />
     <text value="5月" name="May" />
@@ -1561,17 +1647,20 @@
     <text value="変更された人" name="ModificationUser" />
     <text value="分類を変更する" name="ModifiedClassification" />
     <text value="変更" name="Modify" />
+    <text value="顧客の連絡先を変更する" name="ModifyClientContact" />
     <text value="タスクフェーズを変更する" name="ModifyTaskStage" />
     <text value="ケースのアプリケーションコンテンツを変更する" name="ModifyTheApplicationContentOfTheCase" />
     <text value="モジュール" name="Module" />
     <text value="月" name="Month" />
     <text value="毎月" name="Monthly" />
     <text name="MonthlyPrice" />
+    <text value="住宅ローン" name="Mortgage" />
     <text value="成功した移動" name="MoveSucceeded" />
     <text value="テナントを別のバージョンに移行する" name="MoveTenantsOfEdition" />
     <text value="{0}テナントが移行されます" name="MoveTenantsOfEditionDescription" />
     <text value="テナントを別のエディションに移動する" name="MoveTenantsToAnotherEdition" />
     <text name="MoveTenantsToAnotherEditionStartedNotification" />
+    <text value="{0}に相手の情報を入力してください。" name="MustHasConflictInfo" />
     <text value="私のコレクション" name="MyCollection" />
     <text name="MyCompanyName.AbpZeroTemplate.Authorization.Roles.Role" />
     <text name="MyCompanyName.AbpZeroTemplate.MultiTenancy.Tenant" />
@@ -1678,6 +1767,7 @@
     <text value="検索データはまだありません。" name="NoSearchData" />
     <text value="サブタスクは追加されていません" name="NoSubtaskAdded" />
     <text value="活性化していない" name="NotActivated" />
+    <text value="公証料" name="NotarialFee" />
     <text value="割り当てなし" name="NotAssigned" />
     <text value="収集されない" name="NotCollected" />
     <text value="未完成の" name="NotCompleted" />
@@ -1772,13 +1862,17 @@
     <text value="または、別のユーザーとしてログインする" name="OrLogindifferentuser" />
     <text value="その他" name="Other" />
     <text value="その他のメールボックス" name="OtherEmail" />
+    <text value="譲渡税などのその他の費用" name="OtherExpensesSuchAsDeedTax" />
     <text value="その他の情報" name="OtherInformation" />
     <text value="他の関係会社" name="OtherPartyAssociatedCompany" />
     <text value="その他" name="Others" />
     <text value="その他の設定" name="OtherSettings" />
     <text value="他の{0}未読メッセージがあります" name="OtherUnreadMessages" />
     <text value="このプロジェクト" name="OurProject" />
+    <text value="おでかけ時間" name="OutingTime" />
     <text value="到着していない" name="OutOfAccount" />
+    <text value="期限切れ" name="Overdue" />
+    <text value="延滞金利" name="OverdueInterest" />
     <text value="より多くの設定を折りたたむ" name="Packup" />
     <text value="ページ" name="Pages" />
     <text value="サードパーティの設定" name="Pages.Administration.Tenant.ThirdPartySettings" />
@@ -1816,6 +1910,7 @@
     <text value="連絡先" name="Pages.CommonTools.Contacts" />
     <text value="企業情報の照会" name="Pages.CommonTools.Corporate" />
     <text value="フランスの天使契約図書館" name="Pages.CommonTools.FaTianShi" />
+    <text value="法人ナビゲーション" name="Pages.CommonTools.Navigation" />
     <text value="顧客関係" name="Pages.Customers" />
     <text value="顧客管理" name="Pages.Customers.Manage" />
     <text value="顧客管理" name="Pages.Customers.MyCustomers" />
@@ -1830,6 +1925,8 @@
     <text value="分類管理" name="Pages.Executive.Intranet.Classify" />
     <text value="イントラネット情報" name="Pages.Executive.Intranet.Info" />
     <text value="コンテンツ管理" name="Pages.Executive.Intranet.Manage" />
+    <text value="人事管理" name="Pages.Executive.Schedule" />
+    <text value="発信状態" name="Pages.Executive.Schedule.Status" />
     <text value="章による管理" name="Pages.Executive.Stamp" />
     <text value="章で適用する" name="Pages.Executive.Stamp.Apply" />
     <text value="私の章" name="Pages.Executive.Stamp.ApplyList" />
@@ -1993,6 +2090,7 @@
     <text value="個人のメールボックス" name="PersonalEmail" />
     <text value="個人ホームページ" name="PersonalHomePage" />
     <text value="IDカード" name="PersonalId" />
+    <text value="個人所得税" name="PersonalIncomeTax" />
     <text value="人事情報" name="PersonalInfo" />
     <text value="個人情報" name="PersonalInformations" />
     <text value="パーソナルインスタントメッセージング" name="PersonalInstantMessaging" />
@@ -2073,6 +2171,9 @@
     <text name="PleaseWaitToConfirmYourEmailMessage" />
     <text value="質権者" name="Pledgee" />
     <text value="プレドゴール" name="Pledgor" />
+    <text value="メールボックスサービス" name="PluginGroup.Email" />
+    <text value="基本サービス" name="PluginGroup.LegalDta" />
+    <text value="網盤服務" name="PluginGroup.SkyDrive" />
     <text value="料金および契約情報を確認してください" name="PlzConfirmChargeAndContractInfo" />
     <text value="顧客を作成または選択してください" name="PlzCreateOrSelectClient" />
     <text value="契約関連情報を記入してください" name="PlzFillContractRelatedInfo" />
@@ -2094,20 +2195,24 @@
     <text value="極座標アイコン" name="PolarChart" />
     <text value="政治的見通し" name="PoliticsStatus" />
     <text value="人気" name="Popular" />
+    <text value="ポートフォリオローン" name="PortfolioLoans" />
     <text value="求人" name="Position" />
     <text value="ジョブの種類" name="PositionType" />
     <text name="PostedData" />
     <text name="PostedValue" />
+    <text value="終わりの言葉" name="PostField" />
     <text value="潜在的な顧客" name="PotentialCustomers" />
     <text value="関連する利害関係者の潜在的第三者" name="PotentialThirdPartiesOfInterest" />
     <text value="ライセンス番号" name="PracticeNumber" />
     <text value="事前請求" name="PreBilling" />
     <text value="設定" name="Preferences" />
+    <text value="事前フィールド" name="PreField" />
     <text value="文字の事前ファイリングと識別" name="PreFilingWord" />
     <text value="この手紙は事前に提出されたプロジェクトではなく、事前にプロジェクトでのみ有効です。" name="PreFilingWord_Hint" />
     <text value="事前請求" name="PreOpeningBill" />
     <text value="裁判長/指定仲裁人" name="PresidingJudgeOrAppointedArbitrator" />
     <text value="複数行のテキストを入力したい場合は、Shift + Enterを押して折り返します。" name="PressCtrlAndEnterToWrapLines" />
+    <text value="税引前賃金" name="PretaxIncome" />
     <text value="プレビュー" name="Preview" />
     <text value="シリアル番号のルールをプレビューする" name="PreviewCaseSerialIdRule" />
     <text value="プレビュー {0} テンプレート" name="PreviewTemplate" />
@@ -2154,7 +2259,9 @@
     <text value="プロジェクトのステータス" name="ProjectStatus" />
     <text value="プロジェクトの時間" name="ProjectTime" />
     <text name="Property" />
+    <text value="プロパティのセグメンテーション" name="PropertySegmentation" />
     <text value="比例配分" name="ProportionateDistribution" />
+    <text value="積立基金ローン" name="ProvidentFundLoans" />
     <text value="プロジェクトを開く" name="PublicProject" />
     <text value="延期記録ログ" name="PunctualLog" />
     <text value="処罰機関" name="PunishmentMechanism" />
@@ -2207,6 +2314,7 @@
     <text name="RecurringSubscriptionUpgradeNote" />
     <text value="ごみ箱" name="RecycleBin" />
     <text value="レッド" name="Red" />
+    <text value="再送信" name="Redo" />
     <text value="復元" name="Reduction" />
     <text value="参照線" name="ReferenceLine" />
     <text value="リフレッシュ" name="Refresh" />
@@ -2270,6 +2378,7 @@
     <text value="名前を変更する" name="Rename" />
     <text value="フォルダの名前を変更する" name="ReNameDocumentFolder" />
     <text value="フォルダの名前を変更する" name="RenamingFolders" />
+    <text value="返済" name="Repayment" />
     <text value="返信" name="Reply" />
     <text value="代理店の結果" name="RepresentativeResults" />
     <text value="要求されたファイルは存在しません！" name="RequestedFileDoesNotExists" />
@@ -2284,6 +2393,8 @@
     <text value="リセット" name="Reset" />
     <text name="ResetCode" />
     <text value="テナントの指定された機能設定をリセットして保存します。現在のテナントは、登録されたバージョンのプロパティのみを保持します。" name="ResetFeaturesTooltip" />
+    <text value="@ {0}形式の{1}をリセットしてください！" name="ResetFormatEamil" />
+    <text value="リセットサイクル" name="ResetPeriod" />
     <text value="ユーザ特権​​をリセットした後、ユーザは所属するロールに含まれる特権のみを持ち、ユーザに直接指定された特権は取り消されます。" name="ResetPermissionsTooltip" />
     <text value="特別な特性パラメータをリセットする" name="ResetSpecialFeatures" />
     <text value="許可を直接指定してリセットする" name="ResetSpecialPermissions" />
@@ -2322,7 +2433,7 @@
     <text value="ファイナンスに戻る" name="ReturnToFinancial" />
     <text value="最初のレベルに戻る" name="ReturnToFirstNode" />
     <text value="レビュアーに返された" name="ReturnToTheClosingAuditor" />
-    <text value="{0}はあなたの作業ログ[{1}]を返しました、理由[{2}を返します" name="ReturnWorkLogRemind" />
+    <text value="{0}はあなたの作業ログ[{1}]を返しました" name="ReturnWorkLogRemind" />
     <text value="逆作業カテゴリ" name="Reverse" />
     <text value="監査が合格しました" name="ReviewAndApproved" />
     <text value="レビューが返された" name="ReviewAndReturn" />
@@ -2343,6 +2454,7 @@
     <text value="リスクの履行条件" name="RiskReachingConditions" />
     <text value="役割" name="Role" />
     <text value="役割{0}は削除され、この役割を持つユーザーはこの役割をキャンセルします。" name="RoleDeleteWarningMessage" />
+    <text value="現在のフォルダにはこの役割が割り当てられています。" name="RoleIsAlreadyInThisFolder" />
     <text value="ロール名" name="RoleName" />
     <text value="ロール属性" name="RoleProperties" />
     <text value="役割" name="Roles" />
@@ -2472,9 +2584,13 @@
     <text value="送信済み" name="Sent" />
     <text value="送信に失敗しました" name="SentFailed" />
     <text value="成功を送る！" name="SentSuccessfully" />
+    <text value="セパレーター" name="Separator" />
     <text value="9月" name="September" />
     <text value="いいえ。" name="SerialNumber" />
+    <text value="パイプ番号ルールのフォーマット" name="SerialNumberFormat" />
     <text value="シリアル番号の長さ" name="SerialNumberLength" />
+    <text value="シリアル番号エンコードルールを使用してビジネステーブルのデータフロー番号をパーソナライズする" name="SerialNumberRuleHeaderInfo" />
+    <text value="シリアル番号コーディング規則" name="SerialNumberRules" />
     <text value="重大な法律違反" name="Seriousviolationoflaw" />
     <text value="サービス" name="Service" />
     <text value="サービスタイプ" name="ServiceType" />
@@ -2486,6 +2602,7 @@
     <text value="表示列を設定する" name="SetDisplayColumn" />
     <text value="最初のディレクトリを設定する" name="SetDocumentCenterHome" />
     <text value="お気に入りに設定" name="SetFavorite" />
+    <text value="あなたの個人的なメールを設定してください！" name="SetPersonalEmail" />
     <text value="ランダムなパスワードを使用してください。" name="SetRandomPassword" />
     <text value="エクスポートコンテンツを設定する" name="SettingExportContent" />
     <text value="設定" name="Settings" />
@@ -2555,6 +2672,8 @@
     <text value="スタンプ情報" name="StampDocumentInformation" />
     <text value="捺印済み" name="Stamped" />
     <text value="シールが失敗した" name="StampFailure" />
+    <text value="申請した弁護士の手紙[{0}]は回収のため返送されました。申請を修正し、競合を再度トリムしてください。" name="StampFileConflictReturn" />
+    <text value="{0}は弁護士の手紙を申請し、あなたが紛争調査を行うのを待っています" name="StampFileWaitForConflict" />
     <text value="シール情報" name="StampInformation" />
     <text value="シール枚数" name="StampNumber" />
     <text value="印鑑" name="StampRecord" />
@@ -2590,10 +2709,11 @@
     <text value="組織別の顧客数に関する統計" name="StatisticsnumberofcustomersbyOrganization" />
     <text value="部門内の人員の出席順位統計" name="StatisticsOfPersonnelInTheDepartment" />
     <text name="Status" />
+    <text value="やめる" name="Stop" />
     <text value="エラー発生時に停止する" name="StopWhenAMistakeIsMade" />
     <text value="保管場所" name="StorageLocation" />
     <text value="保管場所を空にすることはできません！" name="StorageLocationCannotBeEmpty" />
-    <text name="StringLengthDoesntMatch" />
+    <text value="フィールド{0}の最小長は{1}、最大長は{2}でなければなりません。" name="StringLengthDoesntMatch" />
     <text value="組織ツリー" name="StructureTree" />
     <text value="ケースビジネスサブクラス" name="SubclassOfCaseBusiness" />
     <text value="提出時間" name="Submissiontime" />
@@ -2638,6 +2758,7 @@
     <text value="削除されました" name="SuccessfullyRemoved" />
     <text value="成功裏に保存されました。" name="SuccessfullySaved" />
     <text value="正常にリンク解除されました" name="SuccessfullyUnlinked" />
+    <text value="メールボックスのサフィックス" name="Suffix" />
     <text value="要約" name="Summary" />
     <text value="弁護士を監督する" name="SupervisionLawyer" />
     <text value="決定する" name="Sure" />
@@ -2667,6 +2788,7 @@
     <text value="システム権限" name="SystemPermissions" />
     <text value="システムテンプレート" name="SystemTemplate" />
     <text value="システムテンプレート" name="SystemTemplates" />
+    <text value="フォーム名" name="TableName" />
     <text value="テーブル設定" name="TablePreference" />
     <text value="職種の注文" name="Tactic" />
     <text value="タグリピート" name="TagRepeat" />
@@ -2720,6 +2842,7 @@
     <text value="税率" name="TaxRate" />
     <text value="ケース税率" name="TaxRateForCases" />
     <text value="ケース課金率 ％" name="TaxRateForCasesWithPercentSign" />
+    <text value="マーキングポイント" name="TaxThreshold" />
     <text value="青緑" name="Teal" />
     <text value="コール" name="Telephone" />
     <text value="テンプレート" name="Template" />
@@ -2730,6 +2853,7 @@
     <text value="テンプレートファイル情報テーブル" name="TemplateFileInformationSheet" />
     <text value="選択したテンプレートファイル情報は存在しません。" name="TemplateFileYouChooseDoesNotExist" />
     <text value="選択したテンプレートファイルは存在しません。" name="TemplateFileYouSelectedDoesNotExist" />
+    <text value="テンプレート言語" name="TemplateLanguage" />
     <text value="テンプレート名" name="TemplateName" />
     <text value="テンプレートステージ" name="TemplateStage" />
     <text value="テンプレートタスク" name="TemplateTask" />
@@ -2753,7 +2877,7 @@
     <text value="法律事務所のロゴは、文字で始まる2文字以上の数字、 - 、_で構成する必要があります" name="TenantName_Regex_Description" />
     <text value="法律事務所のロゴはすでに存在します" name="TenantNameAlreadyExists" />
     <text value="テナント名は空ではありません" name="TenantNameCanNotBeEmpty" />
-    <text name="TenantNameOrTenancyCode" />
+    <text value="法律事務所名/法律事務所コード" name="TenantNameOrTenancyCode" />
     <text name="TenantRegistrationLoginInfo" />
     <text value="テナント" name="Tenants" />
     <text name="TenantsCannotCreateLanguage" />
@@ -2768,6 +2892,7 @@
     <text value="他のテナントとチャット" name="TenantToTenantChatFeature" />
     <text value="テナントは他のテナントとのチャットを有効にしません。" name="TenantToTenantChatFeatureIsNotEnabledForReceiver" />
     <text value="他のテナントとチャットを有効にしていません。" name="TenantToTenantChatFeatureIsNotEnabledForSender" />
+    <text value="終了" name="Termination" />
     <text name="TestCheckFeature" />
     <text name="TestCheckFeature2" />
     <text value="これはテストメールです。" name="TestEmail_Body" />
@@ -2895,6 +3020,7 @@
     <text value="スケジュールに費やされた合計時間" name="TotalTimeSpentInTheSchedule" />
     <text value="この離脱リクエストをキャンセルしてもよろしいですか？" name="ToVoidLeaveInformation" />
     <text value="繁体字中国語" name="TraditionalChinese" />
+    <text value="交通補償" name="TrafficCompensation" />
     <text value="転送" name="TransferAccounts" />
     <text value="ポジティブになった" name="Transfered" />
     <text name="Trial" />
@@ -2977,10 +3103,13 @@
     <text value="未請求" name="Unclaimed" />
     <text value="完了をキャンセルする" name="UncompletedState" />
     <text value="請負業者" name="UndertakeLawyer" />
+    <text value="未完債務額" name="UnfinishedDebtAmount" />
     <text value="展開する" name="Unfold" />
+    <text value="統一された社会的信用コード" name="UnifiedSocialCreditCode" />
     <text value="ユニットアドレス帳" name="UnitAddressBook" />
     <text value="（元 / 時間）" name="UnitDollarsPerHour" />
     <text value="組織名" name="UnitName" />
+    <text value="単価" name="UnitPrice" />
     <text value="不明なエラーが発生しました" name="UnknownError" />
     <text name="UnknownTenantId{0}" />
     <text name="Unlimited" />
@@ -3018,7 +3147,7 @@
     <text value="アップロードに失敗しました" name="UploadFailed" />
     <text value="注文資料のアップロード" name="UploadingRollMaterial" />
     <text value="請求書のアップロード" name="UploadInvoice" />
-    <text name="UploadLogo_Info" />
+    <text value="最大ピクセルサイズが400x100で30KB以下のJPG / JPEG / PNG / GIF画像ファイルを選択します。" name="UploadLogo_Info" />
     <text value="新しいカバーをアップロードする" name="UploadNewCover" />
     <text value="画像のアップロード" name="UploadPicture" />
     <text value="写真をアップロードする" name="UploadPictures" />
@@ -3041,7 +3170,7 @@
     <text value="あなたのメールアドレスが確認されていませんあなたのメールアドレスが正しいことを確認してくださいあなたのメールアドレスを確認し、メールの確認リンクをクリックして確認し、有効にしてください。" name="UserEmailIsNotConfirmedAndCanNotLogin" />
     <text value="ユーザー情報" name="UserInformations" />
     <text value="このユーザーは既に組織に所属しています。" name="UserIsAlreadyInTheOrganizationUnit" />
-    <text value="ユーザーは現在のフォルダに割り当てられています" name="UserIsAlreadyInThisFolder" />
+    <text value="ユーザーは現在のフォルダに割り当てられています。" name="UserIsAlreadyInThisFolder" />
     <text value="ユーザーはブロックされています。" name="UserIsBlocked" />
     <text value="ユーザー{0}は非アクティブでログインできません。" name="UserIsNotActiveAndCanNotLogin" />
     <text value="ユーザーアカウントがロックされています。後でもう一度お試しください。" name="UserLockedOutMessage" />
@@ -3060,6 +3189,7 @@
     <text name="UseSystemDefaults" />
     <text value="請求を使用する" name="UseTheBill" />
     <text value="件名を使用する" name="UsingTheStandard" />
+    <text value="付加価値" name="ValueAdded" />
     <text value="確認コード" name="VerificationCode" />
     <text name="Verify" />
     <text value="セキュリティコードを確認する" name="VerifySecurityCode" />
@@ -3100,6 +3230,7 @@
     <text value="[[0]]提出のために提出したケースは、書面による資料の提出を待っていました。" name="WaitingToSubmitWrittenMaterials" />
     <text value="ポジティブになるには" name="WaitingTransfer" />
     <text value="確認する" name="WaitngForConfirmed" />
+    <text value="万" name="Wan" />
     <text name="Warning" />
     <text value="通信方式" name="WayToCommunicate" />
     <text value="ウェブログ" name="WebSiteLogs" />
