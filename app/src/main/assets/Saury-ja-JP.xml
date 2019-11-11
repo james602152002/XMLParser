@@ -1,30 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <localizationDictionary culture="ja-JP">
   <texts>
-    <text value="金額" />
-    <text value="合計金額" />
-    <text value="住所" />
-    <text value="日付" />
-    <text value="ダウンロード" />
-    <text value="Eメール" />
-    <text value="その他の設定を展開する" />
-    <text value="ファイルのアップロード" />
-    <text value="グリーン" />
-    <text value="請求書情報" />
-    <text value="次のステップ" />
-    <text value="ピンク" />
-    <text value="返信" />
-    <text value="ドキュメント" />
-    <text value="請求書" />
-    <text value="毎月" />
-    <text value="アップロード" />
-    <text value="合計" />
-    <text value="青" />
-    <text value="検索" />
-    <text value="イエロー" />
-    <text value="料金情報" />
-    <text value="必須" />
-    <text value="無料" />
     <text value="ClientSecretは、Azureに登録されているアプリケーションの対応する設定への鍵です。" name=" Office365ClientSecretPrompt" />
     <text name="{0}IsInvalid" />
     <text name="{0}UserCannotBeDeleted" />
@@ -1766,6 +1742,7 @@
     <text value="検索の競合はありません" name="NoSearchConflicts" />
     <text value="検索データはまだありません。" name="NoSearchData" />
     <text value="サブタスクは追加されていません" name="NoSubtaskAdded" />
+    <text value="受け入れられたファイルタイプではありません" name="NotAcceptedFileType" />
     <text value="活性化していない" name="NotActivated" />
     <text value="公証料" name="NotarialFee" />
     <text value="割り当てなし" name="NotAssigned" />
@@ -2515,6 +2492,7 @@
     <text value="{0}コピー" name="SealCnt" />
     <text value="スタンパー" name="Sealer" />
     <text value="シールは空ではありません！" name="SealerCanTBeEmpty" />
+    <text value="スタンプの数は少なくとも1です" name="SealNumberMustPositiveInteger" />
     <text value="印鑑ステータス" name="SealState" />
     <text value="シールタイプ" name="SealType" />
     <text value="検索" name="Search" />

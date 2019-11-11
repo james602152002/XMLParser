@@ -1,30 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <localizationDictionary culture="en">
   <texts>
-    <text value="Amount" />
-    <text value="Total Amount" />
-    <text value="address" />
-    <text value="date" />
-    <text value="download" />
-    <text value="mailbox" />
-    <text value="Expand more settings" />
-    <text value="File Upload" />
-    <text value="green" />
-    <text value="Invoice Information" />
-    <text value="The next step" />
-    <text value="Pink" />
-    <text value="Reply" />
-    <text value="Documents" />
-    <text value="invoice" />
-    <text value="Monthly" />
-    <text value="Upload" />
-    <text value="total" />
-    <text value="blue" />
-    <text value="search for" />
-    <text value="yellow" />
-    <text value="Charge information" />
-    <text value="Required" />
-    <text value="Free" />
     <text value="ClientSecret is the key to the corresponding settings of the registered application in Azure." name=" Office365ClientSecretPrompt" />
     <text value="&quot;{0}&quot; is invalid" name="{0}IsInvalid" />
     <text value="{0} user can not be deleted." name="{0}UserCannotBeDeleted" />
@@ -1766,6 +1742,7 @@
     <text value="No search conflicts" name="NoSearchConflicts" />
     <text value="No search data yet!" name="NoSearchData" />
     <text value="No subtask added" name="NoSubtaskAdded" />
+    <text value="Not an accepted file type" name="NotAcceptedFileType" />
     <text value="inactivated" name="NotActivated" />
     <text value="Notarial fees" name="NotarialFee" />
     <text value="Not assigned" name="NotAssigned" />
@@ -2515,6 +2492,7 @@
     <text value="{0} copies" name="SealCnt" />
     <text value="Stamper" name="Sealer" />
     <text value="The seal cannot be empty!" name="SealerCanTBeEmpty" />
+    <text value="The number of stamps is at least 1" name="SealNumberMustPositiveInteger" />
     <text value="Seal status" name="SealState" />
     <text value="Seal type" name="SealType" />
     <text value="Search" name="Search" />

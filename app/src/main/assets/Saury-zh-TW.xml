@@ -1,30 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <localizationDictionary culture="zh-TW">
   <texts>
-    <text value="金額" />
-    <text value="合計數量" />
-    <text value="地址" />
-    <text value="日期" />
-    <text value="下載" />
-    <text value="郵箱" />
-    <text value="展開更多設置" />
-    <text value="文件上傳" />
-    <text value="綠色" />
-    <text value="發票信息" />
-    <text value="下一步" />
-    <text value="粉色" />
-    <text value="回复" />
-    <text value="文檔" />
-    <text value="發票" />
-    <text value="月度" />
-    <text value="上傳" />
-    <text value="總計" />
-    <text value="藍色" />
-    <text value="搜索" />
-    <text value="黃色" />
-    <text value="收費信息" />
-    <text value="必填" />
-    <text value="免費" />
     <text value="ClientSecret是在Azure中已註冊應用程序對應設置的密鑰。" name=" Office365ClientSecretPrompt" />
     <text name="{0}IsInvalid" />
     <text name="{0}UserCannotBeDeleted" />
@@ -1766,6 +1742,7 @@
     <text value="未檢索衝突" name="NoSearchConflicts" />
     <text value="暫無任何搜索數據！" name="NoSearchData" />
     <text value="未添加子任務" name="NoSubtaskAdded" />
+    <text value="受け入れられたファイルタイプではありません" name="NotAcceptedFileType" />
     <text value="未激活" name="NotActivated" />
     <text value="公證費" name="NotarialFee" />
     <text value="沒有分配" name="NotAssigned" />
@@ -2515,6 +2492,7 @@
     <text value="{0} 份" name="SealCnt" />
     <text value="蓋章人" name="Sealer" />
     <text value="蓋章人不能為空！" name="SealerCanTBeEmpty" />
+    <text value="蓋章份數至少為1" name="SealNumberMustPositiveInteger" />
     <text value="蓋章狀態" name="SealState" />
     <text value="蓋章類型" name="SealType" />
     <text value="搜索" name="Search" />
