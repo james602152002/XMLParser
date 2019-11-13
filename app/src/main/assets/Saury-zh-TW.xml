@@ -7,6 +7,16 @@
     <text value="法院簡稱" name="AbbreviationOfCourt" />
     <text value="關於我們" name="AboutUs" />
     <text name="Abp.Organizations.OrganizationUnit" />
+    <text value="應用程序設置緩存" name="AbpApplicationSettingsCache" />
+    <text value="律所偏好設置緩存" name="AbpTenantSettingsCache" />
+    <text value="用戶偏好設置緩存" name="AbpUserSettingsCache" />
+    <text value="應用版本功能特性" name="AbpZeroEditionFeatures" />
+    <text value="多語言" name="AbpZeroLanguages" />
+    <text value="本地化字典緩存" name="AbpZeroMultiTenantLocalizationDictionaryCache" />
+    <text value="角色權限" name="AbpZeroRolePermissions" />
+    <text value="律所配置緩存" name="AbpZeroTenantCache" />
+    <text value="律所功能特性緩存" name="AbpZeroTenantFeatures" />
+    <text value="用戶權限" name="AbpZeroUserPermissions" />
     <text value="摘要描述" name="AbstractDescription" />
     <text value="學位" name="AcademicDegree" />
     <text value="接受時間" name="AcceptTime" />
@@ -154,14 +164,17 @@
     <text name="Anonymous" />
     <text value="立案-衝突檢索-已退回" name="App.Business.CaseCheck.ConflictReturn" />
     <text value="立案-衝突檢索" name="App.Business.CaseCheck.Created" />
+    <text value="結案" name="App.Business.CaseClose" />
     <text value="結案-負責人審核-待審核" name="App.Business.CaseClose.Created" />
     <text value="結案-負責人審核-待退回" name="App.Business.CaseClose.Returned" />
+    <text value="立案" name="App.Business.CaseCreation" />
     <text value="立案-待審核" name="App.Business.CaseCreation.Created" />
     <text value="立案-不可以立案" name="App.Business.CaseCreation.CreationRefuse" />
     <text value="立案-退回申請人" name="App.Business.CaseCreation.ReturnApply" />
     <text value="立案-退回案件檢索人" name="App.Business.CaseCreation.ReturnConflict" />
     <text value="立案-合同退回" name="App.Business.CaseCreation.ReturnContract" />
     <text value="立案-待轉正" name="App.Business.CaseCreation.WaitForTransfer" />
+    <text value="文書" name="App.Business.CaseFile" />
     <text value="結案-已歸檔" name="App.Business.CaseFile.Approved" />
     <text value="結案-待歸檔" name="App.Business.CaseFile.Created" />
     <text value="結案-待提交書面材料" name="App.Business.CaseFile.Returned" />
@@ -169,6 +182,7 @@
     <text value="結案-財務審核-已退回" name="App.Business.CaseFinance.Returned" />
     <text value="立案-處理過程" name="App.Business.CaseRecord.Info" />
     <text value="立案-已審核" name="App.Business.CaseTransfer.Created" />
+    <text value="蓋章" name="App.Business.StampFiles" />
     <text value="文書報審-已審核" name="App.Business.StampFiles.Approved" />
     <text value="文書報審-待審核" name="App.Business.StampFiles.Created" />
     <text value="文書蓋章-待蓋章" name="App.Business.StampFiles.IsSeal.Created" />
@@ -181,27 +195,35 @@
     <text value="行政蓋章-未通過" name="App.Executive.OffficeSeal.IsSeal.NoStamp" />
     <text value="行政蓋章-已蓋章" name="App.Executive.OffficeSeal.IsSeal.Stamped" />
     <text value="行政用章-已退回" name="App.Executive.OffficeSeal.Returned" />
+    <text value="用章" name="App.Executive.OfficeSeal" />
+    <text value="賬單" name="App.Financial.Billings" />
     <text value="賬單-已審核" name="App.Financial.Billings.Approved" />
     <text value="賬單-待處理" name="App.Financial.Billings.Created" />
     <text value="賬單-已退回" name="App.Financial.Billings.Returned" />
     <text value="費用-已審核" name="App.Financial.Charge.Approved" />
     <text value="費用-已退回" name="App.Financial.Charge.Returned" />
     <text value="費用-待審核" name="App.Financial.Charge.WaitForApproved" />
+    <text value="費用" name="App.Financial.Charges" />
     <text value="發票-已作廢" name="App.Financial.Invoice.Canceled" />
     <text value="發票-已退回" name="App.Financial.Invoice.Returned" />
     <text value="發票-待領取" name="App.Financial.Invoice.WaitForClaimed" />
     <text value="發票-待開票" name="App.Financial.Invoice.WaitForRegistered" />
+    <text value="發票" name="App.Financial.Invoices" />
     <text value="收款-待認領" name="App.Financial.Receipt.WaitForClaimed" />
     <text value="收款-待確認" name="App.Financial.Receipt.WaitForConfirmed" />
+    <text value="收款" name="App.Financial.Receipts" />
+    <text value="請假" name="App.HumanResource.Attendance" />
     <text value="請假-已審核" name="App.HumanResource.Attendance.Approved" />
     <text value="請假-待審核" name="App.HumanResource.Attendance.Created" />
     <text value="請假-已退回" name="App.HumanResource.Attendance.Returned" />
     <text value="系統通知" name="App.Tenant.Notice" />
     <text value="歡迎使用" name="App.WelcomeToTheApplication" />
+    <text value="日誌" name="App.Works.Log" />
     <text value="工作日誌-已審核" name="App.Works.Log.Approved" />
     <text value="工作日誌-已參與" name="App.Works.Log.Created" />
     <text value="工作日誌-已退回" name="App.Works.Log.Returned" />
     <text value="工作日誌-待審核" name="App.Works.Log.WaitApproved" />
+    <text value="會議" name="App.Works.Meeting" />
     <text value="會議-已參與" name="App.Works.Meeting.Confirmed" />
     <text value="會議-新會議" name="App.Works.Meeting.Created" />
     <text value="會議-紀要-已完成" name="App.Works.Meeting.MeetingMinutesCompleted" />
@@ -209,12 +231,14 @@
     <text value="會議-預設提醒" name="App.Works.Meeting.Reminded" />
     <text value="會議-即將開始" name="App.Works.Meeting.StartRemind" />
     <text value="會議-待參與" name="App.Works.Meeting.WaitApproved" />
+    <text value="日程" name="App.Works.Schedule" />
     <text value="日程-已完成" name="App.Works.Schedule.Completed" />
     <text value="日程-已參與" name="App.Works.Schedule.Confirmed" />
     <text value="日程-已拒絕" name="App.Works.Schedule.Rejected" />
     <text value="日程-預設提醒" name="App.Works.Schedule.Reminded" />
     <text value="日程-即將開始" name="App.Works.Schedule.StartRemind" />
     <text value="日程-待確認" name="App.Works.Schedule.WaitForConfirmed" />
+    <text value="任務" name="App.Works.Task" />
     <text value="任務-已歸檔" name="App.Works.Task.Archived" />
     <text value="任務-新消息" name="App.Works.Task.Comment.Created" />
     <text value="任務-已完成" name="App.Works.Task.Completed" />
@@ -1469,6 +1493,7 @@
     <text name="LengthNotInRange" />
     <text name="LessThanMinStringLength" />
     <text value="發函對象" name="LetterObject" />
+    <text value="您有 %s 位發函對象" name="LetterObjectCnt" />
     <text value="保密級別" name="LevelOfConfidentiality" />
     <text value="白色" name="Light" />
     <text value="辦案費限額" name="LimitOfHandlingExpenses" />
@@ -1636,6 +1661,7 @@
     <text value="{0} 租戶將被遷移" name="MoveTenantsOfEditionDescription" />
     <text value="將租戶遷移至另一個版本" name="MoveTenantsToAnotherEdition" />
     <text name="MoveTenantsToAnotherEditionStartedNotification" />
+    <text value="所屬多個部門，點擊+號顯示所有" name="MultipleOrganizationUnit" />
     <text value="請在{0}中錄入對方當事人信息。" name="MustHasConflictInfo" />
     <text value="我的收藏" name="MyCollection" />
     <text name="MyCompanyName.AbpZeroTemplate.Authorization.Roles.Role" />
@@ -2076,6 +2102,7 @@
     <text value="個人設置" name="PersonalSettings" />
     <text value="個人模板" name="PersonalTemplates" />
     <text value="個人描述" name="PersonDescription" />
+    <text value="人員" name="personnel" />
     <text value="人員任務甘特圖" name="PersonnelGanttChar" />
     <text value="人事管理" name="PersonnelManagement" />
     <text value="個人電話2" name="PersonPhone2" />
@@ -2151,6 +2178,7 @@
     <text value="사서함 서비스" name="PluginGroup.Email" />
     <text value="기본 서비스" name="PluginGroup.LegalDta" />
     <text value="網盤服務" name="PluginGroup.SkyDrive" />
+    <text value="請添加發函對象" name="PlzAddLetterObject" />
     <text value="請確認收費及合同信息" name="PlzConfirmChargeAndContractInfo" />
     <text value="請創建或選擇客戶" name="PlzCreateOrSelectClient" />
     <text value="請填寫合同相關信息" name="PlzFillContractRelatedInfo" />
@@ -2432,6 +2460,7 @@
     <text value="角色" name="Role" />
     <text value="角色 {0} 將被刪除，擁有此角色的用戶將取消此角色." name="RoleDeleteWarningMessage" />
     <text value="當前文件夾已分配過該角色。" name="RoleIsAlreadyInThisFolder" />
+    <text value="該角色繼承自一個用戶組織" name="RoleIsInheritedFromOrganizationUnit" />
     <text value="角色名稱" name="RoleName" />
     <text value="角色屬性" name="RoleProperties" />
     <text value="角色" name="Roles" />

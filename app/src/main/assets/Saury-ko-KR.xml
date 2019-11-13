@@ -7,6 +7,16 @@
     <text value="법원의 약어" name="AbbreviationOfCourt" />
     <text value="회사 소개" name="AboutUs" />
     <text name="Abp.Organizations.OrganizationUnit" />
+    <text value="응용 프로그램 설정 캐시" name="AbpApplicationSettingsCache" />
+    <text value="법률 사무소 환경 설정 캐시" name="AbpTenantSettingsCache" />
+    <text value="사용자 기본 설정 캐시" name="AbpUserSettingsCache" />
+    <text value="응용 프로그램 버전 기능" name="AbpZeroEditionFeatures" />
+    <text value="다국어" name="AbpZeroLanguages" />
+    <text value="현지화 된 사전 캐시" name="AbpZeroMultiTenantLocalizationDictionaryCache" />
+    <text value="역할 권한" name="AbpZeroRolePermissions" />
+    <text value="법률 사무소 구성 캐시" name="AbpZeroTenantCache" />
+    <text value="법률 라이브러리 기능 캐시" name="AbpZeroTenantFeatures" />
+    <text value="사용자 권리" name="AbpZeroUserPermissions" />
     <text value="요약 설명" name="AbstractDescription" />
     <text value="도" name="AcademicDegree" />
     <text value="허용 시간" name="AcceptTime" />
@@ -154,14 +164,17 @@
     <text name="Anonymous" />
     <text value="파일 - 충돌 검색 - 반환 됨" name="App.Business.CaseCheck.ConflictReturn" />
     <text value="파일 - 충돌 검색" name="App.Business.CaseCheck.Created" />
+    <text value="결산 사례" name="App.Business.CaseClose" />
     <text value="마감 - 책임자 검토 - 검토 대기 중" name="App.Business.CaseClose.Created" />
     <text value="종결 - 인사 검토 - 보류 중 반환" name="App.Business.CaseClose.Returned" />
+    <text value="제출" name="App.Business.CaseCreation" />
     <text value="출원 - 검토 대기 중" name="App.Business.CaseCreation.Created" />
     <text value="주문 제출 - 사례를 제출할 수 없음" name="App.Business.CaseCreation.CreationRefuse" />
     <text value="파일 - 반환 신청자" name="App.Business.CaseCreation.ReturnApply" />
     <text value="서류 제출 - 반송 된 케이스 검색 자" name="App.Business.CaseCreation.ReturnConflict" />
     <text value="파일 - 계약 반환" name="App.Business.CaseCreation.ReturnContract" />
     <text value="파일 - 대기 중" name="App.Business.CaseCreation.WaitForTransfer" />
+    <text value="계기" name="App.Business.CaseFile" />
     <text value="사례 폐쇄 됨 - 보관 됨" name="App.Business.CaseFile.Approved" />
     <text value="종결 - 보관 처리됨" name="App.Business.CaseFile.Created" />
     <text value="마감 - 서면 자료 제출 대기 중" name="App.Business.CaseFile.Returned" />
@@ -169,6 +182,7 @@
     <text value="마감 - 재무 검토 - 반품 됨" name="App.Business.CaseFinance.Returned" />
     <text value="파일 - 프로세스" name="App.Business.CaseRecord.Info" />
     <text value="신청 - 감사" name="App.Business.CaseTransfer.Created" />
+    <text value="스탬프" name="App.Business.StampFiles" />
     <text value="기기 검토 - 검토 됨" name="App.Business.StampFiles.Approved" />
     <text value="기기 검토 - 검토 대기 중" name="App.Business.StampFiles.Created" />
     <text value="서류의 인장 - 봉인되어야합니다." name="App.Business.StampFiles.IsSeal.Created" />
@@ -181,27 +195,35 @@
     <text value="관리 인감 - 실패" name="App.Executive.OffficeSeal.IsSeal.NoStamp" />
     <text value="행정 도장 - 스탬프" name="App.Executive.OffficeSeal.IsSeal.Stamped" />
     <text value="관리 장 - 반환 됨" name="App.Executive.OffficeSeal.Returned" />
+    <text value="챕터 사용" name="App.Executive.OfficeSeal" />
+    <text value="빌" name="App.Financial.Billings" />
     <text value="결제 - 감사" name="App.Financial.Billings.Approved" />
     <text value="결제 - 대기 중" name="App.Financial.Billings.Created" />
     <text value="결제 - 반품 됨" name="App.Financial.Billings.Returned" />
     <text value="수수료 - 검토 됨" name="App.Financial.Charge.Approved" />
     <text value="수수료 - 반환 됨" name="App.Financial.Charge.Returned" />
     <text value="수수료 - 검토 대기 중" name="App.Financial.Charge.WaitForApproved" />
+    <text value="비용" name="App.Financial.Charges" />
     <text value="인보이스 - 더 이상 사용되지 않는" name="App.Financial.Invoice.Canceled" />
     <text value="인보이스 - 반품 됨" name="App.Financial.Invoice.Returned" />
     <text value="인보이스 - 수집 대상" name="App.Financial.Invoice.WaitForClaimed" />
     <text value="인보이스 - 보류중인 인보이스 발행" name="App.Financial.Invoice.WaitForRegistered" />
+    <text value="송장" name="App.Financial.Invoices" />
     <text value="영수증 - 보류중인 소유권 주장" name="App.Financial.Receipt.WaitForClaimed" />
     <text value="영수증 - 확인" name="App.Financial.Receipt.WaitForConfirmed" />
+    <text value="영수증" name="App.Financial.Receipts" />
+    <text value="떠나" name="App.HumanResource.Attendance" />
     <text value="나가기 - 검토 됨" name="App.HumanResource.Attendance.Approved" />
     <text value="나가기 - 검토 대기 중" name="App.HumanResource.Attendance.Created" />
     <text value="퇴장 - 반환 됨" name="App.HumanResource.Attendance.Returned" />
     <text value="시스템 알림" name="App.Tenant.Notice" />
     <text value="환영합니다." name="App.WelcomeToTheApplication" />
+    <text value="로그" name="App.Works.Log" />
     <text value="작업 로그 - 감사" name="App.Works.Log.Approved" />
     <text value="작업 로그 - 참여" name="App.Works.Log.Created" />
     <text value="작업 로그 - 반환 됨" name="App.Works.Log.Returned" />
     <text value="작업 로그 - 검토 대기 중" name="App.Works.Log.WaitApproved" />
+    <text value="회의" name="App.Works.Meeting" />
     <text value="컨퍼런스 - 참가" name="App.Works.Meeting.Confirmed" />
     <text value="컨퍼런스 - 새로운 컨퍼런스" name="App.Works.Meeting.Created" />
     <text value="회의 - 회의록 - 완료 됨" name="App.Works.Meeting.MeetingMinutesCompleted" />
@@ -209,12 +231,14 @@
     <text value="컨퍼런스 - 사전 설정 알림" name="App.Works.Meeting.Reminded" />
     <text value="컨퍼런스 - 곧 제공 예정" name="App.Works.Meeting.StartRemind" />
     <text value="컨퍼런스 - 참여" name="App.Works.Meeting.WaitApproved" />
+    <text value="일정" name="App.Works.Schedule" />
     <text value="일정 - 완료 됨" name="App.Works.Schedule.Completed" />
     <text value="일정 - 참여" name="App.Works.Schedule.Confirmed" />
     <text value="일정 - 거부 됨" name="App.Works.Schedule.Rejected" />
     <text value="일정 - 사전 설정 미리 알림" name="App.Works.Schedule.Reminded" />
     <text value="일정 - 곧 제공 예정" name="App.Works.Schedule.StartRemind" />
     <text value="일정 - 확인" name="App.Works.Schedule.WaitForConfirmed" />
+    <text value="과제" name="App.Works.Task" />
     <text value="작업 - 보관 됨" name="App.Works.Task.Archived" />
     <text value="작업 - 새 메시지" name="App.Works.Task.Comment.Created" />
     <text value="작업 - 완료 됨" name="App.Works.Task.Completed" />
@@ -1469,6 +1493,7 @@
     <text name="LengthNotInRange" />
     <text name="LessThanMinStringLength" />
     <text value="문자 객체" name="LetterObject" />
+    <text value="%s  비트 전송 오브젝트가 있습니다" name="LetterObjectCnt" />
     <text value="개인 정보 보호 수준" name="LevelOfConfidentiality" />
     <text value="화이트" name="Light" />
     <text value="사례 수수료 한도" name="LimitOfHandlingExpenses" />
@@ -1636,6 +1661,7 @@
     <text value="{0} 테넌트가 마이그레이션됩니다" name="MoveTenantsOfEditionDescription" />
     <text value="테넌트를 다른 버전으로 이동" name="MoveTenantsToAnotherEdition" />
     <text name="MoveTenantsToAnotherEditionStartedNotification" />
+    <text value="여러 부서에서 + 표시를 클릭하여 모두 표시" name="MultipleOrganizationUnit" />
     <text value="{0}에 상대방의 정보를 입력하십시오." name="MustHasConflictInfo" />
     <text value="내 컬렉션" name="MyCollection" />
     <text name="MyCompanyName.AbpZeroTemplate.Authorization.Roles.Role" />
@@ -2076,6 +2102,7 @@
     <text value="개인 설정" name="PersonalSettings" />
     <text value="개인 템플릿" name="PersonalTemplates" />
     <text value="개인 설명" name="PersonDescription" />
+    <text value="인사" name="personnel" />
     <text value="인사 임무 간트 차트" name="PersonnelGanttChar" />
     <text value="인사 관리" name="PersonnelManagement" />
     <text value="개인 전화 2" name="PersonPhone2" />
@@ -2151,6 +2178,7 @@
     <text value="사서함 서비스" name="PluginGroup.Email" />
     <text value="기본 서비스" name="PluginGroup.LegalDta" />
     <text value="網盤服務" name="PluginGroup.SkyDrive" />
+    <text value="문자 개체를 추가하십시오" name="PlzAddLetterObject" />
     <text value="청구 및 계약 정보를 확인하십시오." name="PlzConfirmChargeAndContractInfo" />
     <text value="고객을 만들거나 선택하십시오." name="PlzCreateOrSelectClient" />
     <text value="계약 관련 정보를 입력하십시오." name="PlzFillContractRelatedInfo" />
@@ -2432,6 +2460,7 @@
     <text value="역할" name="Role" />
     <text value="역할 {0}이 (가) 삭제되고이 역할을 가진 사용자는이 역할을 취소합니다." name="RoleDeleteWarningMessage" />
     <text value="현재 폴더에이 역할이 할당되었습니다." name="RoleIsAlreadyInThisFolder" />
+    <text value="이 역할은 사용자 조직에서 상속됩니다." name="RoleIsInheritedFromOrganizationUnit" />
     <text value="역할 이름" name="RoleName" />
     <text value="역할 속성" name="RoleProperties" />
     <text value="역할" name="Roles" />

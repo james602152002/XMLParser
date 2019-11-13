@@ -7,6 +7,16 @@
     <text value="Court abbreviation" name="AbbreviationOfCourt" />
     <text value="About us" name="AboutUs" />
     <text value="Organization unit" name="Abp.Organizations.OrganizationUnit" />
+    <text value="Application settings cache" name="AbpApplicationSettingsCache" />
+    <text value="Law firm preference setting cache" name="AbpTenantSettingsCache" />
+    <text value="User preference setting cache" name="AbpUserSettingsCache" />
+    <text value="Application version feature" name="AbpZeroEditionFeatures" />
+    <text value="multi-language" name="AbpZeroLanguages" />
+    <text value="Localized dictionary cache" name="AbpZeroMultiTenantLocalizationDictionaryCache" />
+    <text value="Role Permissions" name="AbpZeroRolePermissions" />
+    <text value="Law firm configuration cache" name="AbpZeroTenantCache" />
+    <text value="Law firm feature cache" name="AbpZeroTenantFeatures" />
+    <text value="User Permissions" name="AbpZeroUserPermissions" />
     <text value="Summary description" name="AbstractDescription" />
     <text value="Bachelor of Science" name="AcademicDegree" />
     <text value="Accepted time" name="AcceptTime" />
@@ -154,14 +164,17 @@
     <text value="Anonymous" name="Anonymous" />
     <text value="File - Conflict Search - Returned" name="App.Business.CaseCheck.ConflictReturn" />
     <text value="File - Collision Search" name="App.Business.CaseCheck.Created" />
+    <text value="Closing case" name="App.Business.CaseClose" />
     <text value="Closing - responsible person review - pending review" name="App.Business.CaseClose.Created" />
     <text value="Closing - Personnel Review - Pending Return" name="App.Business.CaseClose.Returned" />
+    <text value="Filing" name="App.Business.CaseCreation" />
     <text value="Filed - pending review" name="App.Business.CaseCreation.Created" />
     <text value="File an order - cannot file a case" name="App.Business.CaseCreation.CreationRefuse" />
     <text value="File - Return applicant" name="App.Business.CaseCreation.ReturnApply" />
     <text value="Filed - Returned Case Searcher" name="App.Business.CaseCreation.ReturnConflict" />
     <text value="File - Contract Return" name="App.Business.CaseCreation.ReturnContract" />
     <text value="File - Waiting" name="App.Business.CaseCreation.WaitForTransfer" />
+    <text value="Instrument" name="App.Business.CaseFile" />
     <text value="Case closed - archived" name="App.Business.CaseFile.Approved" />
     <text value="Closing - to be archived" name="App.Business.CaseFile.Created" />
     <text value="Closing - pending submission of written materials" name="App.Business.CaseFile.Returned" />
@@ -169,6 +182,7 @@
     <text value="Closing - Financial Review - Returned" name="App.Business.CaseFinance.Returned" />
     <text value="File - Process" name="App.Business.CaseRecord.Info" />
     <text value="Filed - Audited" name="App.Business.CaseTransfer.Created" />
+    <text value="Stamp" name="App.Business.StampFiles" />
     <text value="Instrument review - reviewed" name="App.Business.StampFiles.Approved" />
     <text value="Instrument review - pending review" name="App.Business.StampFiles.Created" />
     <text value="Seal of the document - to be sealed" name="App.Business.StampFiles.IsSeal.Created" />
@@ -181,27 +195,35 @@
     <text value="Administrative seal - failed" name="App.Executive.OffficeSeal.IsSeal.NoStamp" />
     <text value="Administrative seal - stamped" name="App.Executive.OffficeSeal.IsSeal.Stamped" />
     <text value="Administrative chapter - returned" name="App.Executive.OffficeSeal.Returned" />
+    <text value="Use chapter" name="App.Executive.OfficeSeal" />
+    <text value="Bill" name="App.Financial.Billings" />
     <text value="Billing - Audited" name="App.Financial.Billings.Approved" />
     <text value="Billing - Pending" name="App.Financial.Billings.Created" />
     <text value="Billing - Returned" name="App.Financial.Billings.Returned" />
     <text value="Fees - reviewed" name="App.Financial.Charge.Approved" />
     <text value="Fee - returned" name="App.Financial.Charge.Returned" />
     <text value="Fee - pending review" name="App.Financial.Charge.WaitForApproved" />
+    <text value="Cost" name="App.Financial.Charges" />
     <text value="Invoice - Deprecated" name="App.Financial.Invoice.Canceled" />
     <text value="Invoice - Returned" name="App.Financial.Invoice.Returned" />
     <text value="Invoice - to be collected" name="App.Financial.Invoice.WaitForClaimed" />
     <text value="Invoice - pending invoicing" name="App.Financial.Invoice.WaitForRegistered" />
+    <text value="Invoice" name="App.Financial.Invoices" />
     <text value="Receipt - pending claim" name="App.Financial.Receipt.WaitForClaimed" />
     <text value="Receipts - to be confirmed" name="App.Financial.Receipt.WaitForConfirmed" />
+    <text value="Receipt" name="App.Financial.Receipts" />
+    <text value="Leave" name="App.HumanResource.Attendance" />
     <text value="Leave - Reviewed" name="App.HumanResource.Attendance.Approved" />
     <text value="Leave - pending review" name="App.HumanResource.Attendance.Created" />
     <text value="Leave - returned" name="App.HumanResource.Attendance.Returned" />
     <text value="system notification" name="App.Tenant.Notice" />
     <text value="Welcome" name="App.WelcomeToTheApplication" />
+    <text value="Log" name="App.Works.Log" />
     <text value="Work Log - Audited" name="App.Works.Log.Approved" />
     <text value="Work Log - Participated" name="App.Works.Log.Created" />
     <text value="Work Log - Returned" name="App.Works.Log.Returned" />
     <text value="Work log - pending review" name="App.Works.Log.WaitApproved" />
+    <text value="Meeting" name="App.Works.Meeting" />
     <text value="Conference - Participated" name="App.Works.Meeting.Confirmed" />
     <text value="Conference - New Conference" name="App.Works.Meeting.Created" />
     <text value="Meetings - Minutes - Completed" name="App.Works.Meeting.MeetingMinutesCompleted" />
@@ -209,12 +231,14 @@
     <text value="Conference - preset reminder" name="App.Works.Meeting.Reminded" />
     <text value="Conference - coming soon" name="App.Works.Meeting.StartRemind" />
     <text value="Conference - to be involved" name="App.Works.Meeting.WaitApproved" />
+    <text value="Schedule" name="App.Works.Schedule" />
     <text value="Schedule - Completed" name="App.Works.Schedule.Completed" />
     <text value="Schedule - Participated" name="App.Works.Schedule.Confirmed" />
     <text value="Schedule - Rejected" name="App.Works.Schedule.Rejected" />
     <text value="Schedule - preset reminder" name="App.Works.Schedule.Reminded" />
     <text value="Schedule - coming soon" name="App.Works.Schedule.StartRemind" />
     <text value="Schedule - to be confirmed" name="App.Works.Schedule.WaitForConfirmed" />
+    <text value="Task" name="App.Works.Task" />
     <text value="Task - Archived" name="App.Works.Task.Archived" />
     <text value="Task - New Message" name="App.Works.Task.Comment.Created" />
     <text value="Task - Completed" name="App.Works.Task.Completed" />
@@ -1469,6 +1493,7 @@
     <text value="The lenth of field {0} must be between {1} and {2}." name="LengthNotInRange" />
     <text value="The field {0} must be a minimum length of {1}." name="LessThanMinStringLength" />
     <text value="Letter object" name="LetterObject" />
+    <text value="You have a %s bit letter object" name="LetterObjectCnt" />
     <text value="Privacy level" name="LevelOfConfidentiality" />
     <text value="white" name="Light" />
     <text value="Limit of case fees" name="LimitOfHandlingExpenses" />
@@ -1636,6 +1661,7 @@
     <text value="{0} tenants will be moved" name="MoveTenantsOfEditionDescription" />
     <text value="Move tenants to another edition" name="MoveTenantsToAnotherEdition" />
     <text value="We are moving tenants to selected edition. You will be notified when the operation is complete." name="MoveTenantsToAnotherEditionStartedNotification" />
+    <text value="In multiple departments, click the + sign to display all" name="MultipleOrganizationUnit" />
     <text value="Please enter the other party's information in {0}." name="MustHasConflictInfo" />
     <text value="my collection" name="MyCollection" />
     <text value="Role" name="MyCompanyName.AbpZeroTemplate.Authorization.Roles.Role" />
@@ -2076,6 +2102,7 @@
     <text value="Personal settings" name="PersonalSettings" />
     <text value="Personal template" name="PersonalTemplates" />
     <text value="personal description" name="PersonDescription" />
+    <text value="personnel" name="personnel" />
     <text value="Personnel mission Gantt chart" name="PersonnelGanttChar" />
     <text value="HR management" name="PersonnelManagement" />
     <text value="Personal phone 2" name="PersonPhone2" />
@@ -2151,6 +2178,7 @@
     <text value="Mailbox service" name="PluginGroup.Email" />
     <text value="Basic services" name="PluginGroup.LegalDta" />
     <text value="Network disk service" name="PluginGroup.SkyDrive" />
+    <text value="Please add a letter object" name="PlzAddLetterObject" />
     <text value="Please confirm the charge and contract information" name="PlzConfirmChargeAndContractInfo" />
     <text value="Please create or select a customer" name="PlzCreateOrSelectClient" />
     <text value="Please fill in the contract related information" name="PlzFillContractRelatedInfo" />
@@ -2432,6 +2460,7 @@
     <text value="Role" name="Role" />
     <text value="Role {0} will be deleted and unassigned from all assigned users." name="RoleDeleteWarningMessage" />
     <text value="The current folder has been assigned this role." name="RoleIsAlreadyInThisFolder" />
+    <text value="This role is inherited from one of users organizations" name="RoleIsInheritedFromOrganizationUnit" />
     <text value="Role name" name="RoleName" />
     <text value="Role properties" name="RoleProperties" />
     <text value="Roles" name="Roles" />

@@ -7,6 +7,16 @@
     <text value="裁判所の省略" name="AbbreviationOfCourt" />
     <text value="私たちについて" name="AboutUs" />
     <text name="Abp.Organizations.OrganizationUnit" />
+    <text value="アプリケーション設定キャッシュ" name="AbpApplicationSettingsCache" />
+    <text value="法律事務所の設定キャッシュ" name="AbpTenantSettingsCache" />
+    <text value="ユーザー設定キャッシュ" name="AbpUserSettingsCache" />
+    <text value="アプリケーションバージョン機能" name="AbpZeroEditionFeatures" />
+    <text value="多言語" name="AbpZeroLanguages" />
+    <text value="ローカライズされた辞書キャッシュ" name="AbpZeroMultiTenantLocalizationDictionaryCache" />
+    <text value="役割の許可" name="AbpZeroRolePermissions" />
+    <text value="法律事務所の構成キャッシュ" name="AbpZeroTenantCache" />
+    <text value="法律ライブラリ機能キャッシュ" name="AbpZeroTenantFeatures" />
+    <text value="ユーザー権利" name="AbpZeroUserPermissions" />
     <text value="要約の説明" name="AbstractDescription" />
     <text value="度" name="AcademicDegree" />
     <text value="許容時間" name="AcceptTime" />
@@ -154,14 +164,17 @@
     <text name="Anonymous" />
     <text value="ファイル - 競合検索 - 返された" name="App.Business.CaseCheck.ConflictReturn" />
     <text value="ファイル - 衝突検索" name="App.Business.CaseCheck.Created" />
+    <text value="クロージングケース" name="App.Business.CaseClose" />
     <text value="閉鎖 - 責任者レビュー - 審査待ち" name="App.Business.CaseClose.Created" />
     <text value="終了 - 人材レビュー - 保留中の返品" name="App.Business.CaseClose.Returned" />
+    <text value="ファイリング" name="App.Business.CaseCreation" />
     <text value="報告されている - 保留中のレビュー" name="App.Business.CaseCreation.Created" />
     <text value="オーダーを提出する - 案件を提出できない" name="App.Business.CaseCreation.CreationRefuse" />
     <text value="ファイル - 申請者を返す" name="App.Business.CaseCreation.ReturnApply" />
     <text value="提出 - 返品ケース検索" name="App.Business.CaseCreation.ReturnConflict" />
     <text value="ファイル - 契約の返品" name="App.Business.CaseCreation.ReturnContract" />
     <text value="ファイル - 待機中" name="App.Business.CaseCreation.WaitForTransfer" />
+    <text value="楽器" name="App.Business.CaseFile" />
     <text value="ケース閉鎖 - アーカイブ済み" name="App.Business.CaseFile.Approved" />
     <text value="閉鎖 - アーカイブする" name="App.Business.CaseFile.Created" />
     <text value="終了 - 書面による資料の提出を保留中" name="App.Business.CaseFile.Returned" />
@@ -169,6 +182,7 @@
     <text value="終了 - 財務レビュー - 返品" name="App.Business.CaseFinance.Returned" />
     <text value="ファイル - プロセス" name="App.Business.CaseRecord.Info" />
     <text value="ファイルされた - 監査された" name="App.Business.CaseTransfer.Created" />
+    <text value="切手" name="App.Business.StampFiles" />
     <text value="楽器レビュー - レビュー" name="App.Business.StampFiles.Approved" />
     <text value="楽器レビュー - 保留中のレビュー" name="App.Business.StampFiles.Created" />
     <text value="書類のシール - 封印する" name="App.Business.StampFiles.IsSeal.Created" />
@@ -181,27 +195,35 @@
     <text value="管理シール - 失敗" name="App.Executive.OffficeSeal.IsSeal.NoStamp" />
     <text value="行政印鑑" name="App.Executive.OffficeSeal.IsSeal.Stamped" />
     <text value="管理の章 - 返された" name="App.Executive.OffficeSeal.Returned" />
+    <text value="使用章" name="App.Executive.OfficeSeal" />
+    <text value="ビル" name="App.Financial.Billings" />
     <text value="請求 - 監査済み" name="App.Financial.Billings.Approved" />
     <text value="請求 - 保留中" name="App.Financial.Billings.Created" />
     <text value="請求 - 返品" name="App.Financial.Billings.Returned" />
     <text value="料金 - 審査済み" name="App.Financial.Charge.Approved" />
     <text value="手数料 - 返品済み" name="App.Financial.Charge.Returned" />
     <text value="有料 - 審査待ちの審査" name="App.Financial.Charge.WaitForApproved" />
+    <text value="費用" name="App.Financial.Charges" />
     <text value="請求書 - 非推奨" name="App.Financial.Invoice.Canceled" />
     <text value="請求書 - 返品済み" name="App.Financial.Invoice.Returned" />
     <text value="請求書 - 回収される" name="App.Financial.Invoice.WaitForClaimed" />
     <text value="請求書 - 保留中の請求書" name="App.Financial.Invoice.WaitForRegistered" />
+    <text value="請求書" name="App.Financial.Invoices" />
     <text value="領収書保留中の請求" name="App.Financial.Receipt.WaitForClaimed" />
     <text value="領収書 - 確認される" name="App.Financial.Receipt.WaitForConfirmed" />
+    <text value="領収書" name="App.Financial.Receipts" />
+    <text value="去る" name="App.HumanResource.Attendance" />
     <text value="離れる - レビュー" name="App.HumanResource.Attendance.Approved" />
     <text value="放置 - レビュー待ち" name="App.HumanResource.Attendance.Created" />
     <text value="離れる - 返される" name="App.HumanResource.Attendance.Returned" />
     <text value="システム通知" name="App.Tenant.Notice" />
     <text value="ようこそ" name="App.WelcomeToTheApplication" />
+    <text value="ログ" name="App.Works.Log" />
     <text value="作業ログ - 監査済み" name="App.Works.Log.Approved" />
     <text value="ワークログ - 参加" name="App.Works.Log.Created" />
     <text value="作業ログ - 返品" name="App.Works.Log.Returned" />
     <text value="作業ログ - 保留中のレビュー" name="App.Works.Log.WaitApproved" />
+    <text value="ミーティング" name="App.Works.Meeting" />
     <text value="会議 - 参加" name="App.Works.Meeting.Confirmed" />
     <text value="会議 - 新しい会議" name="App.Works.Meeting.Created" />
     <text value="ミーティング - 分 - 完了" name="App.Works.Meeting.MeetingMinutesCompleted" />
@@ -209,12 +231,14 @@
     <text value="会議 - プリセット通知" name="App.Works.Meeting.Reminded" />
     <text value="会議 - すぐに来る" name="App.Works.Meeting.StartRemind" />
     <text value="会議 - 関与する" name="App.Works.Meeting.WaitApproved" />
+    <text value="スケジュール" name="App.Works.Schedule" />
     <text value="スケジュール - 完了" name="App.Works.Schedule.Completed" />
     <text value="スケジュール - 参加" name="App.Works.Schedule.Confirmed" />
     <text value="スケジュール - 拒否" name="App.Works.Schedule.Rejected" />
     <text value="スケジュール - 事前通知" name="App.Works.Schedule.Reminded" />
     <text value="スケジュール - すぐに来る" name="App.Works.Schedule.StartRemind" />
     <text value="スケジュール - 確認する" name="App.Works.Schedule.WaitForConfirmed" />
+    <text value="タスク" name="App.Works.Task" />
     <text value="タスク - アーカイブ済み" name="App.Works.Task.Archived" />
     <text value="タスク - 新しいメッセージ" name="App.Works.Task.Comment.Created" />
     <text value="タスク - 完了" name="App.Works.Task.Completed" />
@@ -1469,6 +1493,7 @@
     <text name="LengthNotInRange" />
     <text name="LessThanMinStringLength" />
     <text value="レターオブジェクト" name="LetterObject" />
+    <text value="%s ビット送信オブジェクトがあります" name="LetterObjectCnt" />
     <text value="プライバシーレベル" name="LevelOfConfidentiality" />
     <text value="ホワイト" name="Light" />
     <text value="事件手数料の限度額" name="LimitOfHandlingExpenses" />
@@ -1636,6 +1661,7 @@
     <text value="{0}テナントが移行されます" name="MoveTenantsOfEditionDescription" />
     <text value="テナントを別のエディションに移動する" name="MoveTenantsToAnotherEdition" />
     <text name="MoveTenantsToAnotherEditionStartedNotification" />
+    <text value="複数の部門で、+記号をクリックしてすべてを表示します" name="MultipleOrganizationUnit" />
     <text value="{0}に相手の情報を入力してください。" name="MustHasConflictInfo" />
     <text value="私のコレクション" name="MyCollection" />
     <text name="MyCompanyName.AbpZeroTemplate.Authorization.Roles.Role" />
@@ -2076,6 +2102,7 @@
     <text value="個人設定" name="PersonalSettings" />
     <text value="個人用テンプレート" name="PersonalTemplates" />
     <text value="個人的な説明" name="PersonDescription" />
+    <text value="人事" name="personnel" />
     <text value="人事ミッションガントチャート" name="PersonnelGanttChar" />
     <text value="人事管理" name="PersonnelManagement" />
     <text value="パーソナル電話2" name="PersonPhone2" />
@@ -2151,6 +2178,7 @@
     <text value="メールボックスサービス" name="PluginGroup.Email" />
     <text value="基本サービス" name="PluginGroup.LegalDta" />
     <text value="網盤服務" name="PluginGroup.SkyDrive" />
+    <text value="レターオブジェクトを追加してください" name="PlzAddLetterObject" />
     <text value="料金および契約情報を確認してください" name="PlzConfirmChargeAndContractInfo" />
     <text value="顧客を作成または選択してください" name="PlzCreateOrSelectClient" />
     <text value="契約関連情報を記入してください" name="PlzFillContractRelatedInfo" />
@@ -2432,6 +2460,7 @@
     <text value="役割" name="Role" />
     <text value="役割{0}は削除され、この役割を持つユーザーはこの役割をキャンセルします。" name="RoleDeleteWarningMessage" />
     <text value="現在のフォルダにはこの役割が割り当てられています。" name="RoleIsAlreadyInThisFolder" />
+    <text value="この役割はユーザー組織から継承されます" name="RoleIsInheritedFromOrganizationUnit" />
     <text value="ロール名" name="RoleName" />
     <text value="ロール属性" name="RoleProperties" />
     <text value="役割" name="Roles" />
