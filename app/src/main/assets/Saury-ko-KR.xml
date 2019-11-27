@@ -24,6 +24,7 @@
     <text name="Access to your applications and resources, even when you are offline" />
     <text value="액세스 카드 번호" name="AccessCardNumber" />
     <text value="계좌 번호 관리" name="AccountManagement" />
+    <text value="계좌 번호" name="AccountNumber" />
     <text value="이 계좌는 다른 법률 회사 ID로 묶여 있습니다." name="AccountOtherTenantsHasBeenBound" />
     <text value="계정 지불 정보" name="AccountPaymentInformation" />
     <text value="계정 설정" name="AccountSettings" />
@@ -162,89 +163,22 @@
     <text value="조직 고객의 연간 통계" name="AnnualStatisticsOrganizationCustomers" />
     <text value="조직 사용자의 연간 통계" name="AnnualStatisticsOrganizationUsers" />
     <text name="Anonymous" />
-    <text value="파일 - 충돌 검색 - 반환 됨" name="App.Business.CaseCheck.ConflictReturn" />
-    <text value="파일 - 충돌 검색" name="App.Business.CaseCheck.Created" />
     <text value="결산 사례" name="App.Business.CaseClose" />
-    <text value="마감 - 책임자 검토 - 검토 대기 중" name="App.Business.CaseClose.Created" />
-    <text value="종결 - 인사 검토 - 보류 중 반환" name="App.Business.CaseClose.Returned" />
     <text value="제출" name="App.Business.CaseCreation" />
-    <text value="출원 - 검토 대기 중" name="App.Business.CaseCreation.Created" />
-    <text value="주문 제출 - 사례를 제출할 수 없음" name="App.Business.CaseCreation.CreationRefuse" />
-    <text value="파일 - 반환 신청자" name="App.Business.CaseCreation.ReturnApply" />
-    <text value="서류 제출 - 반송 된 케이스 검색 자" name="App.Business.CaseCreation.ReturnConflict" />
-    <text value="파일 - 계약 반환" name="App.Business.CaseCreation.ReturnContract" />
-    <text value="파일 - 대기 중" name="App.Business.CaseCreation.WaitForTransfer" />
     <text value="계기" name="App.Business.CaseFile" />
-    <text value="사례 폐쇄 됨 - 보관 됨" name="App.Business.CaseFile.Approved" />
-    <text value="종결 - 보관 처리됨" name="App.Business.CaseFile.Created" />
-    <text value="마감 - 서면 자료 제출 대기 중" name="App.Business.CaseFile.Returned" />
-    <text value="마감 - 재무 검토 - 검토 대기 중" name="App.Business.CaseFinance.Created" />
-    <text value="마감 - 재무 검토 - 반품 됨" name="App.Business.CaseFinance.Returned" />
-    <text value="파일 - 프로세스" name="App.Business.CaseRecord.Info" />
-    <text value="신청 - 감사" name="App.Business.CaseTransfer.Created" />
     <text value="스탬프" name="App.Business.StampFiles" />
-    <text value="기기 검토 - 검토 됨" name="App.Business.StampFiles.Approved" />
-    <text value="기기 검토 - 검토 대기 중" name="App.Business.StampFiles.Created" />
-    <text value="서류의 인장 - 봉인되어야합니다." name="App.Business.StampFiles.IsSeal.Created" />
-    <text value="인감의 문서 - 실패" name="App.Business.StampFiles.IsSeal.NoStamp" />
-    <text value="책의 인장 - 각인" name="App.Business.StampFiles.IsSeal.Stamped" />
-    <text value="기기 검토 - 반품 됨" name="App.Business.StampFiles.Returned" />
-    <text value="관리 장 - 검토 됨" name="App.Executive.OffficeSeal.Approved" />
-    <text value="관리 장 - 검토 대기 중" name="App.Executive.OffficeSeal.Created" />
-    <text value="관리 인 - 검토 대기 중" name="App.Executive.OffficeSeal.IsSeal.Created" />
-    <text value="관리 인감 - 실패" name="App.Executive.OffficeSeal.IsSeal.NoStamp" />
-    <text value="행정 도장 - 스탬프" name="App.Executive.OffficeSeal.IsSeal.Stamped" />
-    <text value="관리 장 - 반환 됨" name="App.Executive.OffficeSeal.Returned" />
     <text value="챕터 사용" name="App.Executive.OfficeSeal" />
     <text value="빌" name="App.Financial.Billings" />
-    <text value="결제 - 감사" name="App.Financial.Billings.Approved" />
-    <text value="결제 - 대기 중" name="App.Financial.Billings.Created" />
-    <text value="결제 - 반품 됨" name="App.Financial.Billings.Returned" />
-    <text value="수수료 - 검토 됨" name="App.Financial.Charge.Approved" />
-    <text value="수수료 - 반환 됨" name="App.Financial.Charge.Returned" />
-    <text value="수수료 - 검토 대기 중" name="App.Financial.Charge.WaitForApproved" />
     <text value="비용" name="App.Financial.Charges" />
-    <text value="인보이스 - 더 이상 사용되지 않는" name="App.Financial.Invoice.Canceled" />
-    <text value="인보이스 - 반품 됨" name="App.Financial.Invoice.Returned" />
-    <text value="인보이스 - 수집 대상" name="App.Financial.Invoice.WaitForClaimed" />
-    <text value="인보이스 - 보류중인 인보이스 발행" name="App.Financial.Invoice.WaitForRegistered" />
     <text value="송장" name="App.Financial.Invoices" />
-    <text value="영수증 - 보류중인 소유권 주장" name="App.Financial.Receipt.WaitForClaimed" />
-    <text value="영수증 - 확인" name="App.Financial.Receipt.WaitForConfirmed" />
     <text value="영수증" name="App.Financial.Receipts" />
     <text value="떠나" name="App.HumanResource.Attendance" />
-    <text value="나가기 - 검토 됨" name="App.HumanResource.Attendance.Approved" />
-    <text value="나가기 - 검토 대기 중" name="App.HumanResource.Attendance.Created" />
-    <text value="퇴장 - 반환 됨" name="App.HumanResource.Attendance.Returned" />
     <text value="시스템 알림" name="App.Tenant.Notice" />
     <text value="환영합니다." name="App.WelcomeToTheApplication" />
     <text value="로그" name="App.Works.Log" />
-    <text value="작업 로그 - 감사" name="App.Works.Log.Approved" />
-    <text value="작업 로그 - 참여" name="App.Works.Log.Created" />
-    <text value="작업 로그 - 반환 됨" name="App.Works.Log.Returned" />
-    <text value="작업 로그 - 검토 대기 중" name="App.Works.Log.WaitApproved" />
     <text value="회의" name="App.Works.Meeting" />
-    <text value="컨퍼런스 - 참가" name="App.Works.Meeting.Confirmed" />
-    <text value="컨퍼런스 - 새로운 컨퍼런스" name="App.Works.Meeting.Created" />
-    <text value="회의 - 회의록 - 완료 됨" name="App.Works.Meeting.MeetingMinutesCompleted" />
-    <text value="회의 - 거절 됨" name="App.Works.Meeting.Rejected" />
-    <text value="컨퍼런스 - 사전 설정 알림" name="App.Works.Meeting.Reminded" />
-    <text value="컨퍼런스 - 곧 제공 예정" name="App.Works.Meeting.StartRemind" />
-    <text value="컨퍼런스 - 참여" name="App.Works.Meeting.WaitApproved" />
     <text value="일정" name="App.Works.Schedule" />
-    <text value="일정 - 완료 됨" name="App.Works.Schedule.Completed" />
-    <text value="일정 - 참여" name="App.Works.Schedule.Confirmed" />
-    <text value="일정 - 거부 됨" name="App.Works.Schedule.Rejected" />
-    <text value="일정 - 사전 설정 미리 알림" name="App.Works.Schedule.Reminded" />
-    <text value="일정 - 곧 제공 예정" name="App.Works.Schedule.StartRemind" />
-    <text value="일정 - 확인" name="App.Works.Schedule.WaitForConfirmed" />
     <text value="과제" name="App.Works.Task" />
-    <text value="작업 - 보관 됨" name="App.Works.Task.Archived" />
-    <text value="작업 - 새 메시지" name="App.Works.Task.Comment.Created" />
-    <text value="작업 - 완료 됨" name="App.Works.Task.Completed" />
-    <text value="작업 - 참여" name="App.Works.Task.Confirmed" />
-    <text value="할 일 목록 - 거부 됨" name="App.Works.Task.Rejected" />
-    <text value="할 일 - 확인" name="App.Works.Task.WaitForConfirmed" />
     <text value="律智薈" name="app_name" />
     <text name="Appearance" />
     <text value="신청자" name="Applicant" />
@@ -258,6 +192,7 @@
     <text value="행정 장을 위해 신청하십시오" name="ApplicationForCertificateStamp" />
     <text value="현재 사례의 종결 사례 검토 신청서가 처리되었습니다!" name="ApplicationForClosingCaseHasBeenProcessed" />
     <text name="ApplicationLogo" />
+    <text value="신청 용지 스탬프" name="ApplicationPaperStamp" />
     <text value="신청 날짜" name="ApplicationPublishdate" />
     <text value="제출 시간" name="ApplicationTime" />
     <text value="신청서" name="Apply" />
@@ -342,6 +277,8 @@
     <text value="수탁자 가입" name="BailorAssociatedCompany" />
     <text value="계좌 은행 및 계좌 번호" name="BankAccountAndAccountNumber" />
     <text value="기본 디렉토리" name="BaseFolder" />
+    <text value="기본 디렉토리를 초기화하지 못했습니다. 디렉토리가 현재 존재합니다!" name="BaseFolderInitFailed" />
+    <text value="기본 디렉토리가 초기화되었습니다!" name="BaseFolderInitSucess" />
     <text value="기본 언어" name="BaseLanguage" />
     <text value="기본값" name="BaseValue" />
     <text value="기본 금액" name="BasicAmount" />
@@ -445,6 +382,7 @@
     <text value="텅 비어서는 안 된다." name="CannotBeEmpty" />
     <text value="완료, 변경 불가능" name="CannotBeModified" />
     <text value="사용자를 관리하고 사용자 이름을 수정할 수 없습니다." name="CanNotChangeAdminUserName" />
+    <text value="이 사례는 삭제할 수 없습니다!" name="CannotDeleteCase" />
     <text value="죄송합니다.이 디렉토리 바로 아래에 폴더를 만들거나 편집 할 수 없습니다. 다른 디렉토리를 선택하십시오!" name="CannotEditDirectlyUnderThisDirectory" />
     <text value="기본 언어는 삭제할 수 없으며 자신의 언어 만 삭제하거나 수정할 수 있지만 모든 언어의 텍스트 정보를 변경할 수 있습니다." name="CanNotEditOrDeleteDefaultLanguages" />
     <text value="사례를 제출할 수 없습니다." name="CanNotFileACase" />
@@ -471,6 +409,7 @@
     <text value="사례 카테고리 통계" name="CaseCategoryStatistics" />
     <text value="사례 클라이언트" name="CaseClient" />
     <text value="사례 검토" name="CaseClose" />
+    <text value="휴무" name="CaseClosed" />
     <text value="정보 닫기" name="CaseCloseInformation" />
     <text value="휴무일" name="CaseClosing" />
     <text value="사건의 변경" name="CaseConfig" />
@@ -507,6 +446,7 @@
     <text value="케이스 로그 정보" name="CaseLogInformation" />
     <text value="사례 관리 통계" name="CaseManagementStatistics" />
     <text value="사례 이름" name="CaseName" />
+    <text value="사례 이름 / 고객 이름 / 설명" name="CaseNameClientNameOrDesc" />
     <text value="사례 이름 / 고객 이름" name="CaseNameOrClientName" />
     <text value="사건은 존재하지 않습니다!" name="CaseNotExist" />
     <text value="케이스 번호" name="CaseNumber" />
@@ -937,9 +877,11 @@
     <text value="세부 정보" name="Details" />
     <text value="문서 검토 세부 정보" name="DetailsOfApplicatingDocument" />
     <text value="카테고리 정보 {0}을 (를) 삭제 하시겠습니까?" name="DetermineToDeleteClassifiedInfo" />
+    <text value="장비" name="Device" />
     <text value="다른 요율" name="DifferentRate" />
     <text value="다른 임차인의 사용자를 시뮬레이트 할 수 없습니다!" name="DifferentTenantImpersonationErrorMessage" />
     <text value="디렉토리" name="Directory" />
+    <text value="비활성화" name="Disable" />
     <text name="DisableRecurringPayments" />
     <text value="할인" name="Discount" />
     <text value="변호사 수수료 할인율" name="DiscountsOfAttorneyFee" />
@@ -1019,7 +961,7 @@
     <text value="교육 배경" name="EducationalBackground" />
     <text value="효과적인 의무" name="Effectiveobligation" />
     <text value="이메일" name="Email" />
-    <text value="활성화 이메일 보내기" name="EmailActivation" />
+    <text value="이메일 보안 링크 로그인" name="EmailActivation" />
     <text value="아래 링크를 클릭하여 이메일 주소를 확인하고 사용자 계정을 활성화하십시오." name="EmailActivation_ClickTheLinkBelowToVerifyYourEmail" />
     <text value="사용자 계정 활성화" name="EmailActivation_Subject" />
     <text value="시스템이이 전자 메일을 보내 전자 메일 주소를 확인하고 사용자 계정을 활성화합니다." name="EmailActivation_SubTitle" />
@@ -1042,6 +984,7 @@
     <text value="인사 번호" name="EmployeeNumber" />
     <text value="Null 값" name="EmptyOnes" />
     <text name="Enable" />
+    <text value="법률 천사 다운로드 서비스가 아직 활성화되지 않았습니다. 서비스를 열려면 관리자에게 문의하십시오!" name="EnableFaTianShi" />
     <text value="LDAP (Lightweight Directory Access Protocol) 인증을 사용합니다." name="EnableLdapAuthentication" />
     <text name="EnableRecurringPayments" />
     <text value="계정 이중 로그인 확인을 사용합니다." name="EnableTwoFactorLogin" />
@@ -1775,6 +1718,7 @@
     <text value="수집되지 않음" name="NotCollected" />
     <text value="미완성의" name="NotCompleted" />
     <text name="Note_RefreshPageForPermissionChanges" />
+    <text value="[{0}]이 (가) 제출되었으며 귀하는 {1} 역할에 해당 사례에 참여하게됩니다." name="NoticeCaseParticipants" />
     <text name="Notification" />
     <text name="NotificationDeleteWarningMessage" />
     <text value="공지 사항" name="Notifications" />
@@ -1878,6 +1822,7 @@
     <text value="연체이자" name="OverdueInterest" />
     <text value="더 많은 설정 접기" name="Packup" />
     <text value="페이지" name="Pages" />
+    <text value="문서 설정" name="Pages.Administration.Tenant.DocumentSettings" />
     <text value="타사 설정" name="Pages.Administration.Tenant.ThirdPartySettings" />
     <text value="워크 플로" name="Pages.Administration.Workflow" />
     <text value="경영 관리" name="Pages.Business" />
@@ -2179,6 +2124,7 @@
     <text value="기본 서비스" name="PluginGroup.LegalDta" />
     <text value="網盤服務" name="PluginGroup.SkyDrive" />
     <text value="문자 개체를 추가하십시오" name="PlzAddLetterObject" />
+    <text value="이해 상충 정보를 추가하십시오" name="PlzAddProfitConflictInfo" />
     <text value="청구 및 계약 정보를 확인하십시오." name="PlzConfirmChargeAndContractInfo" />
     <text value="고객을 만들거나 선택하십시오." name="PlzCreateOrSelectClient" />
     <text value="계약 관련 정보를 입력하십시오." name="PlzFillContractRelatedInfo" />
@@ -2979,6 +2925,7 @@
     <text value="이번 주" name="ThisWeek" />
     <text value="시간" name="Time" />
     <text value="타임 라인보기" name="TimelineView" />
+    <text value="시간 초과를 기다리는 중, 다시 클릭하여 결제를 다운로드하십시오!" name="TimeOutForPayment" />
     <text name="TimeoutPleaseTryAgain" />
     <text value="타이머" name="Timer" />
     <text value="단일 타이머는 24 시간보다 길며 로그에서 계산할 수 없습니다!" name="TimerAlert" />
@@ -3106,6 +3053,7 @@
     <text name="UnAuthorizedOperation" />
     <text value="불신자들" name="Unbelievers" />
     <text value="풀다" name="Unbind" />
+    <text value="바인딩 해제 후 다시 로그인해야합니다!" name="UnBindingReLoginMessage" />
     <text value="차단 해제" name="UnblockUser" />
     <text value="청구되지 않음" name="Unclaimed" />
     <text value="완료 취소" name="UncompletedState" />
@@ -3166,7 +3114,7 @@
     <text value="기본 인증" name="UseDefaultCredentials" />
     <text value="기본 설정 사용" name="UseDefaultSettings" />
     <text value="호스트 데이터베이스 사용" name="UseHostDatabase" />
-    <text name="UseHostDefaultEmailSettings" />
+    <text value="기본 메일 설정 사용" name="UseHostDefaultEmailSettings" />
     <text value="이름 사용" name="UseName" />
     <text name="User profile" />
     <text name="UserAccount" />

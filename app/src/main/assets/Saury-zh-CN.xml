@@ -24,6 +24,7 @@
     <text value="即使您处于脱机状态，也可以访问您的应用程序和资源" name="Access to your applications and resources, even when you are offline" />
     <text value="门禁卡编号" name="AccessCardNumber" />
     <text value="账号管理" name="AccountManagement" />
+    <text value="账号" name="AccountNumber" />
     <text value="该账号已在其他律所标识下绑定" name="AccountOtherTenantsHasBeenBound" />
     <text value="账户付费信息" name="AccountPaymentInformation" />
     <text value="账号设置" name="AccountSettings" />
@@ -162,89 +163,22 @@
     <text value="组织机构客户年度统计" name="AnnualStatisticsOrganizationCustomers" />
     <text value="组织机构用户年度统计" name="AnnualStatisticsOrganizationUsers" />
     <text name="Anonymous" />
-    <text value="立案-冲突检索-已退回" name="App.Business.CaseCheck.ConflictReturn" />
-    <text value="立案-冲突检索" name="App.Business.CaseCheck.Created" />
     <text value="结案" name="App.Business.CaseClose" />
-    <text value="结案-负责人审核-待审核" name="App.Business.CaseClose.Created" />
-    <text value="结案-负责人审核-待退回" name="App.Business.CaseClose.Returned" />
     <text value="立案" name="App.Business.CaseCreation" />
-    <text value="立案-待审核" name="App.Business.CaseCreation.Created" />
-    <text value="立案-不可以立案" name="App.Business.CaseCreation.CreationRefuse" />
-    <text value="立案-退回申请人" name="App.Business.CaseCreation.ReturnApply" />
-    <text value="立案-退回案件检索人" name="App.Business.CaseCreation.ReturnConflict" />
-    <text value="立案-合同退回" name="App.Business.CaseCreation.ReturnContract" />
-    <text value="立案-待转正" name="App.Business.CaseCreation.WaitForTransfer" />
     <text value="文书" name="App.Business.CaseFile" />
-    <text value="结案-已归档" name="App.Business.CaseFile.Approved" />
-    <text value="结案-待归档" name="App.Business.CaseFile.Created" />
-    <text value="结案-待提交书面材料" name="App.Business.CaseFile.Returned" />
-    <text value="结案-财务审核-待审核" name="App.Business.CaseFinance.Created" />
-    <text value="结案-财务审核-已退回" name="App.Business.CaseFinance.Returned" />
-    <text value="立案-处理过程" name="App.Business.CaseRecord.Info" />
-    <text value="立案-已审核" name="App.Business.CaseTransfer.Created" />
     <text value="盖章" name="App.Business.StampFiles" />
-    <text value="文书报审-已审核" name="App.Business.StampFiles.Approved" />
-    <text value="文书报审-待审核" name="App.Business.StampFiles.Created" />
-    <text value="文书盖章-待盖章" name="App.Business.StampFiles.IsSeal.Created" />
-    <text value="文书盖章-未通过" name="App.Business.StampFiles.IsSeal.NoStamp" />
-    <text value="文书盖章-已盖章" name="App.Business.StampFiles.IsSeal.Stamped" />
-    <text value="文书报审-已退回" name="App.Business.StampFiles.Returned" />
-    <text value="行政用章-已审核" name="App.Executive.OffficeSeal.Approved" />
-    <text value="行政用章-待审核" name="App.Executive.OffficeSeal.Created" />
-    <text value="行政盖章-待审核" name="App.Executive.OffficeSeal.IsSeal.Created" />
-    <text value="行政盖章-未通过" name="App.Executive.OffficeSeal.IsSeal.NoStamp" />
-    <text value="行政盖章-已盖章" name="App.Executive.OffficeSeal.IsSeal.Stamped" />
-    <text value="行政用章-已退回" name="App.Executive.OffficeSeal.Returned" />
     <text value="用章" name="App.Executive.OfficeSeal" />
     <text value="账单" name="App.Financial.Billings" />
-    <text value="账单-已审核" name="App.Financial.Billings.Approved" />
-    <text value="账单-待处理" name="App.Financial.Billings.Created" />
-    <text value="账单-已退回" name="App.Financial.Billings.Returned" />
-    <text value="费用-已审核" name="App.Financial.Charge.Approved" />
-    <text value="费用-已退回" name="App.Financial.Charge.Returned" />
-    <text value="费用-待审核" name="App.Financial.Charge.WaitForApproved" />
     <text value="费用" name="App.Financial.Charges" />
-    <text value="发票-已作废" name="App.Financial.Invoice.Canceled" />
-    <text value="发票-已退回" name="App.Financial.Invoice.Returned" />
-    <text value="发票-待领取" name="App.Financial.Invoice.WaitForClaimed" />
-    <text value="发票-待开票" name="App.Financial.Invoice.WaitForRegistered" />
     <text value="发票" name="App.Financial.Invoices" />
-    <text value="收款-待认领" name="App.Financial.Receipt.WaitForClaimed" />
-    <text value="收款-待确认" name="App.Financial.Receipt.WaitForConfirmed" />
     <text value="收款" name="App.Financial.Receipts" />
     <text value="请假" name="App.HumanResource.Attendance" />
-    <text value="请假-已审核" name="App.HumanResource.Attendance.Approved" />
-    <text value="请假-待审核" name="App.HumanResource.Attendance.Created" />
-    <text value="请假-已退回" name="App.HumanResource.Attendance.Returned" />
     <text value="系统通知" name="App.Tenant.Notice" />
     <text value="欢迎使用" name="App.WelcomeToTheApplication" />
     <text value="日志" name="App.Works.Log" />
-    <text value="工作日志-已审核" name="App.Works.Log.Approved" />
-    <text value="工作日志-已参与" name="App.Works.Log.Created" />
-    <text value="工作日志-已退回" name="App.Works.Log.Returned" />
-    <text value="工作日志-待审核" name="App.Works.Log.WaitApproved" />
     <text value="会议" name="App.Works.Meeting" />
-    <text value="会议-已参与" name="App.Works.Meeting.Confirmed" />
-    <text value="会议-新会议" name="App.Works.Meeting.Created" />
-    <text value="会议-纪要-已完成" name="App.Works.Meeting.MeetingMinutesCompleted" />
-    <text value="会议-已拒绝" name="App.Works.Meeting.Rejected" />
-    <text value="会议-预设提醒" name="App.Works.Meeting.Reminded" />
-    <text value="会议-即将开始" name="App.Works.Meeting.StartRemind" />
-    <text value="会议-待参与" name="App.Works.Meeting.WaitApproved" />
     <text value="日程" name="App.Works.Schedule" />
-    <text value="日程-已完成" name="App.Works.Schedule.Completed" />
-    <text value="日程-已参与" name="App.Works.Schedule.Confirmed" />
-    <text value="日程-已拒绝" name="App.Works.Schedule.Rejected" />
-    <text value="日程-预设提醒" name="App.Works.Schedule.Reminded" />
-    <text value="日程-即将开始" name="App.Works.Schedule.StartRemind" />
-    <text value="日程-待确认" name="App.Works.Schedule.WaitForConfirmed" />
     <text value="任务" name="App.Works.Task" />
-    <text value="任务-已归档" name="App.Works.Task.Archived" />
-    <text value="任务-新消息" name="App.Works.Task.Comment.Created" />
-    <text value="任务-已完成" name="App.Works.Task.Completed" />
-    <text value="任务-已参与" name="App.Works.Task.Confirmed" />
-    <text value="任务-已拒绝" name="App.Works.Task.Rejected" />
-    <text value="任务-待确认" name="App.Works.Task.WaitForConfirmed" />
     <text value="律智荟" name="app_name" />
     <text value="外观" name="Appearance" />
     <text value="申请人" name="Applicant" />
@@ -258,6 +192,7 @@
     <text value="申请行政用章" name="ApplicationForCertificateStamp" />
     <text value="当前案件的结案审核申请已经被处理！" name="ApplicationForClosingCaseHasBeenProcessed" />
     <text value="应用程序Logo" name="ApplicationLogo" />
+    <text value="应用文书盖章" name="ApplicationPaperStamp" />
     <text value="申请公布日" name="ApplicationPublishdate" />
     <text value="报审时间" name="ApplicationTime" />
     <text value="应用" name="Apply" />
@@ -342,6 +277,8 @@
     <text value="委托方关联公司" name="BailorAssociatedCompany" />
     <text value="开户行及账号" name="BankAccountAndAccountNumber" />
     <text value="基本目录" name="BaseFolder" />
+    <text value="基础目录初始化失败，当前已存在目录！" name="BaseFolderInitFailed" />
+    <text value="基础目录初始化成功！" name="BaseFolderInitSucess" />
     <text value="默认语言" name="BaseLanguage" />
     <text value="默认值" name="BaseValue" />
     <text value="基本金额" name="BasicAmount" />
@@ -445,6 +382,7 @@
     <text value="不能为空." name="CannotBeEmpty" />
     <text value="已完善，不可修改" name="CannotBeModified" />
     <text value="管理用户，不能修改用户名." name="CanNotChangeAdminUserName" />
+    <text value="不允许删除该案件!" name="CannotDeleteCase" />
     <text value="对不起，您不能在该目录下直接创建或编辑文件夹，请选择其他目录！" name="CannotEditDirectlyUnderThisDirectory" />
     <text value="不能删除默认语言.只能删除或者修改自己增加的语言. 但可以改变所有语言的文本信息." name="CanNotEditOrDeleteDefaultLanguages" />
     <text value="不可以立案" name="CanNotFileACase" />
@@ -471,6 +409,7 @@
     <text value="案件类别统计" name="CaseCategoryStatistics" />
     <text value="案件客户" name="CaseClient" />
     <text value="结案报审" name="CaseClose" />
+    <text value="已结案" name="CaseClosed" />
     <text value="结案信息" name="CaseCloseInformation" />
     <text value="结案中" name="CaseClosing" />
     <text value="案件变更" name="CaseConfig" />
@@ -507,6 +446,7 @@
     <text value="案件日志信息" name="CaseLogInformation" />
     <text value="案件管理统计" name="CaseManagementStatistics" />
     <text value="案件名称" name="CaseName" />
+    <text value="案件名称 / 客户名称 / 描述" name="CaseNameClientNameOrDesc" />
     <text value="案件名称 / 客户名称" name="CaseNameOrClientName" />
     <text value="案件不存在！" name="CaseNotExist" />
     <text value="案件编号" name="CaseNumber" />
@@ -937,9 +877,11 @@
     <text value="详情" name="Details" />
     <text value="文书报审详细信息" name="DetailsOfApplicatingDocument" />
     <text value="确定要删除分类信息 {0}?" name="DetermineToDeleteClassifiedInfo" />
+    <text value="设备" name="Device" />
     <text value="不同费率" name="DifferentRate" />
     <text value="不能模拟不同租户的用户!" name="DifferentTenantImpersonationErrorMessage" />
     <text value="目录" name="Directory" />
+    <text value="禁用" name="Disable" />
     <text name="DisableRecurringPayments" />
     <text value="折扣" name="Discount" />
     <text value="律师费折扣率" name="DiscountsOfAttorneyFee" />
@@ -1019,7 +961,7 @@
     <text value="教育背景" name="EducationalBackground" />
     <text value="生效义务" name="Effectiveobligation" />
     <text value="电子邮件" name="Email" />
-    <text value="发送激活邮件" name="EmailActivation" />
+    <text value="邮件安全链接登录" name="EmailActivation" />
     <text value="请点击以下链接确认您的邮箱地址,并激活您的用户账号:" name="EmailActivation_ClickTheLinkBelowToVerifyYourEmail" />
     <text value="激活您的用户账号" name="EmailActivation_Subject" />
     <text value="系统发送此邮件验证您的邮箱地址,并激活您的用户账号." name="EmailActivation_SubTitle" />
@@ -1042,6 +984,7 @@
     <text value="人员编号" name="EmployeeNumber" />
     <text value="空值" name="EmptyOnes" />
     <text value="启用" name="Enable" />
+    <text value="法天使下载服务暂未启用，请联系管理员开启该服务!" name="EnableFaTianShi" />
     <text value="启用轻量目录访问协议(LDAP)认证." name="EnableLdapAuthentication" />
     <text name="EnableRecurringPayments" />
     <text value="启用两步认证登录" name="EnableTwoFactorLogin" />
@@ -1775,6 +1718,7 @@
     <text value="未收集" name="NotCollected" />
     <text value="未完成" name="NotCompleted" />
     <text value="如果您正在更改自己的权限，则可能需要刷新页面（F5），以在您所做的权限更改生效！" name="Note_RefreshPageForPermissionChanges" />
+    <text value="[{0}]已立案，您将以{1}的角色参与到该案件中。" name="NoticeCaseParticipants" />
     <text value="通知" name="Notification" />
     <text value="此通知将被删除" name="NotificationDeleteWarningMessage" />
     <text value="通知" name="Notifications" />
@@ -1878,6 +1822,7 @@
     <text value="逾期利息" name="OverdueInterest" />
     <text value="收起更多设置" name="Packup" />
     <text value="页面" name="Pages" />
+    <text value="文档设置" name="Pages.Administration.Tenant.DocumentSettings" />
     <text value="第三方设置" name="Pages.Administration.Tenant.ThirdPartySettings" />
     <text value="工作流" name="Pages.Administration.Workflow" />
     <text value="业务管理" name="Pages.Business" />
@@ -2179,6 +2124,7 @@
     <text value="基础服务" name="PluginGroup.LegalDta" />
     <text value="网盘服务" name="PluginGroup.SkyDrive" />
     <text value="请添加发函对象" name="PlzAddLetterObject" />
+    <text value=" 请添加利益冲突信息" name="PlzAddProfitConflictInfo" />
     <text value="请确认收费及合同信息" name="PlzConfirmChargeAndContractInfo" />
     <text value="请创建或选择客户" name="PlzCreateOrSelectClient" />
     <text value="请填写合同相关信息" name="PlzFillContractRelatedInfo" />
@@ -2274,7 +2220,7 @@
     <text value="购买" name="Purchase" />
     <text value="采购人" name="Purchaser" />
     <text value="紫色" name="Purple" />
-    <text value="放入收集库" name="PutInCollectionLibrary" />
+    <text value="放入收集箱" name="PutInCollectionLibrary" />
     <text value="生成二维码失败" name="QRcodefail" />
     <text value="象限类别" name="QuadrantCategory" />
     <text value="象限视图" name="QuadrantView" />
@@ -2979,6 +2925,7 @@
     <text value="本周" name="ThisWeek" />
     <text value="时间" name="Time" />
     <text value="时间轴视图" name="TimelineView" />
+    <text value="等待超时，请重新点击下载支付！" name="TimeOutForPayment" />
     <text value="操作超时！请再试一次。" name="TimeoutPleaseTryAgain" />
     <text value="计时器" name="Timer" />
     <text value="单计时器时长超出24小时部分无法计入日志！" name="TimerAlert" />
@@ -3106,6 +3053,7 @@
     <text name="UnAuthorizedOperation" />
     <text value="失信人" name="Unbelievers" />
     <text value="解绑" name="Unbind" />
+    <text value="解除绑定后，需重新登录！" name="UnBindingReLoginMessage" />
     <text value="解锁用户" name="UnblockUser" />
     <text value="未认领" name="Unclaimed" />
     <text value="取消完成状态" name="UncompletedState" />
@@ -3166,7 +3114,7 @@
     <text value="默认身份验证" name="UseDefaultCredentials" />
     <text value="使用默认设置" name="UseDefaultSettings" />
     <text value="使用Host数据库" name="UseHostDatabase" />
-    <text name="UseHostDefaultEmailSettings" />
+    <text value="使用默认邮件设置" name="UseHostDefaultEmailSettings" />
     <text value="使用名称" name="UseName" />
     <text value="用户资料" name="User profile" />
     <text value="用户账户" name="UserAccount" />

@@ -24,6 +24,7 @@
     <text value="Access to your applications and resources, even when you are offline" name="Access to your applications and resources, even when you are offline" />
     <text value="Access card number" name="AccessCardNumber" />
     <text value="Account Management" name="AccountManagement" />
+    <text value="account number" name="AccountNumber" />
     <text value="The account has been bound under other law firm IDs" name="AccountOtherTenantsHasBeenBound" />
     <text value="Account payment information" name="AccountPaymentInformation" />
     <text value="Account settings" name="AccountSettings" />
@@ -162,89 +163,22 @@
     <text value="Annual Statistics of Organization Customers" name="AnnualStatisticsOrganizationCustomers" />
     <text value="Annual Statistics of Organization Users" name="AnnualStatisticsOrganizationUsers" />
     <text value="Anonymous" name="Anonymous" />
-    <text value="File - Conflict Search - Returned" name="App.Business.CaseCheck.ConflictReturn" />
-    <text value="File - Collision Search" name="App.Business.CaseCheck.Created" />
     <text value="Closing case" name="App.Business.CaseClose" />
-    <text value="Closing - responsible person review - pending review" name="App.Business.CaseClose.Created" />
-    <text value="Closing - Personnel Review - Pending Return" name="App.Business.CaseClose.Returned" />
     <text value="Filing" name="App.Business.CaseCreation" />
-    <text value="Filed - pending review" name="App.Business.CaseCreation.Created" />
-    <text value="File an order - cannot file a case" name="App.Business.CaseCreation.CreationRefuse" />
-    <text value="File - Return applicant" name="App.Business.CaseCreation.ReturnApply" />
-    <text value="Filed - Returned Case Searcher" name="App.Business.CaseCreation.ReturnConflict" />
-    <text value="File - Contract Return" name="App.Business.CaseCreation.ReturnContract" />
-    <text value="File - Waiting" name="App.Business.CaseCreation.WaitForTransfer" />
     <text value="Instrument" name="App.Business.CaseFile" />
-    <text value="Case closed - archived" name="App.Business.CaseFile.Approved" />
-    <text value="Closing - to be archived" name="App.Business.CaseFile.Created" />
-    <text value="Closing - pending submission of written materials" name="App.Business.CaseFile.Returned" />
-    <text value="Closing - Financial Review - Awaiting Review" name="App.Business.CaseFinance.Created" />
-    <text value="Closing - Financial Review - Returned" name="App.Business.CaseFinance.Returned" />
-    <text value="File - Process" name="App.Business.CaseRecord.Info" />
-    <text value="Filed - Audited" name="App.Business.CaseTransfer.Created" />
     <text value="Stamp" name="App.Business.StampFiles" />
-    <text value="Instrument review - reviewed" name="App.Business.StampFiles.Approved" />
-    <text value="Instrument review - pending review" name="App.Business.StampFiles.Created" />
-    <text value="Seal of the document - to be sealed" name="App.Business.StampFiles.IsSeal.Created" />
-    <text value="Seal of the document - failed" name="App.Business.StampFiles.IsSeal.NoStamp" />
-    <text value="Seal of the book - stamped" name="App.Business.StampFiles.IsSeal.Stamped" />
-    <text value="Instrument Review - Returned" name="App.Business.StampFiles.Returned" />
-    <text value="Administrative chapter - reviewed" name="App.Executive.OffficeSeal.Approved" />
-    <text value="Administrative chapter - pending review" name="App.Executive.OffficeSeal.Created" />
-    <text value="Administrative seal - pending review" name="App.Executive.OffficeSeal.IsSeal.Created" />
-    <text value="Administrative seal - failed" name="App.Executive.OffficeSeal.IsSeal.NoStamp" />
-    <text value="Administrative seal - stamped" name="App.Executive.OffficeSeal.IsSeal.Stamped" />
-    <text value="Administrative chapter - returned" name="App.Executive.OffficeSeal.Returned" />
     <text value="Use chapter" name="App.Executive.OfficeSeal" />
     <text value="Bill" name="App.Financial.Billings" />
-    <text value="Billing - Audited" name="App.Financial.Billings.Approved" />
-    <text value="Billing - Pending" name="App.Financial.Billings.Created" />
-    <text value="Billing - Returned" name="App.Financial.Billings.Returned" />
-    <text value="Fees - reviewed" name="App.Financial.Charge.Approved" />
-    <text value="Fee - returned" name="App.Financial.Charge.Returned" />
-    <text value="Fee - pending review" name="App.Financial.Charge.WaitForApproved" />
     <text value="Cost" name="App.Financial.Charges" />
-    <text value="Invoice - Deprecated" name="App.Financial.Invoice.Canceled" />
-    <text value="Invoice - Returned" name="App.Financial.Invoice.Returned" />
-    <text value="Invoice - to be collected" name="App.Financial.Invoice.WaitForClaimed" />
-    <text value="Invoice - pending invoicing" name="App.Financial.Invoice.WaitForRegistered" />
     <text value="Invoice" name="App.Financial.Invoices" />
-    <text value="Receipt - pending claim" name="App.Financial.Receipt.WaitForClaimed" />
-    <text value="Receipts - to be confirmed" name="App.Financial.Receipt.WaitForConfirmed" />
     <text value="Receipt" name="App.Financial.Receipts" />
     <text value="Leave" name="App.HumanResource.Attendance" />
-    <text value="Leave - Reviewed" name="App.HumanResource.Attendance.Approved" />
-    <text value="Leave - pending review" name="App.HumanResource.Attendance.Created" />
-    <text value="Leave - returned" name="App.HumanResource.Attendance.Returned" />
-    <text value="system notification" name="App.Tenant.Notice" />
+    <text value="System notification" name="App.Tenant.Notice" />
     <text value="Welcome" name="App.WelcomeToTheApplication" />
     <text value="Log" name="App.Works.Log" />
-    <text value="Work Log - Audited" name="App.Works.Log.Approved" />
-    <text value="Work Log - Participated" name="App.Works.Log.Created" />
-    <text value="Work Log - Returned" name="App.Works.Log.Returned" />
-    <text value="Work log - pending review" name="App.Works.Log.WaitApproved" />
     <text value="Meeting" name="App.Works.Meeting" />
-    <text value="Conference - Participated" name="App.Works.Meeting.Confirmed" />
-    <text value="Conference - New Conference" name="App.Works.Meeting.Created" />
-    <text value="Meetings - Minutes - Completed" name="App.Works.Meeting.MeetingMinutesCompleted" />
-    <text value="Meeting - Rejected" name="App.Works.Meeting.Rejected" />
-    <text value="Conference - preset reminder" name="App.Works.Meeting.Reminded" />
-    <text value="Conference - coming soon" name="App.Works.Meeting.StartRemind" />
-    <text value="Conference - to be involved" name="App.Works.Meeting.WaitApproved" />
     <text value="Schedule" name="App.Works.Schedule" />
-    <text value="Schedule - Completed" name="App.Works.Schedule.Completed" />
-    <text value="Schedule - Participated" name="App.Works.Schedule.Confirmed" />
-    <text value="Schedule - Rejected" name="App.Works.Schedule.Rejected" />
-    <text value="Schedule - preset reminder" name="App.Works.Schedule.Reminded" />
-    <text value="Schedule - coming soon" name="App.Works.Schedule.StartRemind" />
-    <text value="Schedule - to be confirmed" name="App.Works.Schedule.WaitForConfirmed" />
     <text value="Task" name="App.Works.Task" />
-    <text value="Task - Archived" name="App.Works.Task.Archived" />
-    <text value="Task - New Message" name="App.Works.Task.Comment.Created" />
-    <text value="Task - Completed" name="App.Works.Task.Completed" />
-    <text value="Task - Participated" name="App.Works.Task.Confirmed" />
-    <text value="Task - Rejected" name="App.Works.Task.Rejected" />
-    <text value="Task - to be confirmed" name="App.Works.Task.WaitForConfirmed" />
     <text value="AIlinkedlaw" name="app_name" />
     <text value="Appearance" name="Appearance" />
     <text value="applicant" name="Applicant" />
@@ -258,6 +192,7 @@
     <text value="Apply for administrative chapter" name="ApplicationForCertificateStamp" />
     <text value="The current case's closing case review application has been processed!" name="ApplicationForClosingCaseHasBeenProcessed" />
     <text value="Application Logo" name="ApplicationLogo" />
+    <text value="Application paper stamp" name="ApplicationPaperStamp" />
     <text value="Application Date" name="ApplicationPublishdate" />
     <text value="Filing time" name="ApplicationTime" />
     <text value="Apply" name="Apply" />
@@ -342,6 +277,8 @@
     <text value="Trustee Affiliate" name="BailorAssociatedCompany" />
     <text value="Account bank and account number" name="BankAccountAndAccountNumber" />
     <text value="Basic directory" name="BaseFolder" />
+    <text value="The base directory failed to initialize. The directory currently exists!" name="BaseFolderInitFailed" />
+    <text value="The base directory is initialized successfully!" name="BaseFolderInitSucess" />
     <text value="Base language" name="BaseLanguage" />
     <text value="Base value" name="BaseValue" />
     <text value="Basic amount" name="BasicAmount" />
@@ -445,6 +382,7 @@
     <text value="Can't be empty." name="CannotBeEmpty" />
     <text value="Completed, unmodifiable" name="CannotBeModified" />
     <text value="Can not change username of the admin." name="CanNotChangeAdminUserName" />
+    <text value="This case is not allowed to be deleted!" name="CannotDeleteCase" />
     <text value="Sorry, you cannot create or edit a folder directly under this directory. Please select another directory!" name="CannotEditDirectlyUnderThisDirectory" />
     <text value="Can not edit or delete default languages. You can only edit or delete the languages you added. But you can change texts of all languages." name="CanNotEditOrDeleteDefaultLanguages" />
     <text value="Can not file a case" name="CanNotFileACase" />
@@ -471,6 +409,7 @@
     <text value="Case category statistics" name="CaseCategoryStatistics" />
     <text value="Case client" name="CaseClient" />
     <text value="Case review" name="CaseClose" />
+    <text value="Closed" name="CaseClosed" />
     <text value="Closing information" name="CaseCloseInformation" />
     <text value="Closed" name="CaseClosing" />
     <text value="Change of case" name="CaseConfig" />
@@ -507,6 +446,7 @@
     <text value="Case log information" name="CaseLogInformation" />
     <text value="Case management statistics" name="CaseManagementStatistics" />
     <text value="Case name" name="CaseName" />
+    <text value="Case name / customer name / description" name="CaseNameClientNameOrDesc" />
     <text value="Case name / customer name" name="CaseNameOrClientName" />
     <text value="The case does not exist!" name="CaseNotExist" />
     <text value="Case number" name="CaseNumber" />
@@ -937,9 +877,11 @@
     <text value="Details" name="Details" />
     <text value="Document review details" name="DetailsOfApplicatingDocument" />
     <text value="Are you sure you want to delete the category information {0}?" name="DetermineToDeleteClassifiedInfo" />
+    <text value="Device" name="Device" />
     <text value="Different rates" name="DifferentRate" />
     <text value="Can not impersonate a user of a different tenant!" name="DifferentTenantImpersonationErrorMessage" />
     <text value="table of Contents" name="Directory" />
+    <text value="Disable" name="Disable" />
     <text value="Don't bill my account automatically" name="DisableRecurringPayments" />
     <text value="discount" name="Discount" />
     <text value="Attorney fee discount rate" name="DiscountsOfAttorneyFee" />
@@ -1019,7 +961,7 @@
     <text value="Education background" name="EducationalBackground" />
     <text value="Effective obligation" name="Effectiveobligation" />
     <text value="Email" name="Email" />
-    <text value="Email activation" name="EmailActivation" />
+    <text value="Email Security Link" name="EmailActivation" />
     <text value="Please click the link below to verify your email address:" name="EmailActivation_ClickTheLinkBelowToVerifyYourEmail" />
     <text value="AbpZeroTemplate account email activation" name="EmailActivation_Subject" />
     <text value="This email is sent you to verify your email." name="EmailActivation_SubTitle" />
@@ -1042,6 +984,7 @@
     <text value="personnel number" name="EmployeeNumber" />
     <text value="Empty ones" name="EmptyOnes" />
     <text value="Enable" name="Enable" />
+    <text value="The law angel download service has not been activated yet, please contact the administrator to open the service!" name="EnableFaTianShi" />
     <text value="Enable LDAP Authentication." name="EnableLdapAuthentication" />
     <text value="Bill my account automatically" name="EnableRecurringPayments" />
     <text value="Enable two factor user login." name="EnableTwoFactorLogin" />
@@ -1775,6 +1718,7 @@
     <text value="Not collected" name="NotCollected" />
     <text value="undone" name="NotCompleted" />
     <text value="If you are changing your own permissions, you may need to refresh page (F5) to take effect of permission changes on your own screen!" name="Note_RefreshPageForPermissionChanges" />
+    <text value="[{0}] has been filed and you will be participating in the case in the role of {1}." name="NoticeCaseParticipants" />
     <text value="Notification" name="Notification" />
     <text value="This notification will be deleted" name="NotificationDeleteWarningMessage" />
     <text value="Notifications" name="Notifications" />
@@ -1878,6 +1822,7 @@
     <text value="Overdue interest" name="OverdueInterest" />
     <text value="Collapse more settings" name="Packup" />
     <text value="Pages" name="Pages" />
+    <text value="Document settings" name="Pages.Administration.Tenant.DocumentSettings" />
     <text value="Third party settings" name="Pages.Administration.Tenant.ThirdPartySettings" />
     <text value="Workflow" name="Pages.Administration.Workflow" />
     <text value="Business Management" name="Pages.Business" />
@@ -2179,6 +2124,7 @@
     <text value="Basic services" name="PluginGroup.LegalDta" />
     <text value="Network disk service" name="PluginGroup.SkyDrive" />
     <text value="Please add a letter object" name="PlzAddLetterObject" />
+    <text value="Please add conflict of interest information" name="PlzAddProfitConflictInfo" />
     <text value="Please confirm the charge and contract information" name="PlzConfirmChargeAndContractInfo" />
     <text value="Please create or select a customer" name="PlzCreateOrSelectClient" />
     <text value="Please fill in the contract related information" name="PlzFillContractRelatedInfo" />
@@ -2979,6 +2925,7 @@
     <text value="This week" name="ThisWeek" />
     <text value="Time" name="Time" />
     <text value="Timeline view" name="TimelineView" />
+    <text value="Waiting for timeout, please click again to download the payment!" name="TimeOutForPayment" />
     <text value="Timeout! Please try again." name="TimeoutPleaseTryAgain" />
     <text value="Timer" name="Timer" />
     <text value="The single timer is longer than 24 hours and cannot be counted in the log!" name="TimerAlert" />
@@ -3106,6 +3053,7 @@
     <text value="Unauthorized Operation" name="UnAuthorizedOperation" />
     <text value="Unbelievers" name="Unbelievers" />
     <text value="Untie" name="Unbind" />
+    <text value="After unbinding, you need to log in again!" name="UnBindingReLoginMessage" />
     <text value="Unblock" name="UnblockUser" />
     <text value="Unclaimed" name="Unclaimed" />
     <text value="Cancel completion" name="UncompletedState" />
@@ -3166,7 +3114,7 @@
     <text value="Use default credentials" name="UseDefaultCredentials" />
     <text value="Use default settings" name="UseDefaultSettings" />
     <text value="Use host database" name="UseHostDatabase" />
-    <text value="Use default email settings" name="UseHostDefaultEmailSettings" />
+    <text value="Use default mail settings" name="UseHostDefaultEmailSettings" />
     <text value="Use name" name="UseName" />
     <text value="User profile" name="User profile" />
     <text value="User account" name="UserAccount" />

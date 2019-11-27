@@ -24,6 +24,7 @@
     <text name="Access to your applications and resources, even when you are offline" />
     <text value="門禁卡編號" name="AccessCardNumber" />
     <text value="賬號管理" name="AccountManagement" />
+    <text value="賬號" name="AccountNumber" />
     <text value="該賬號已在其他律所標識下綁定" name="AccountOtherTenantsHasBeenBound" />
     <text value="賬戶付費信息" name="AccountPaymentInformation" />
     <text value="賬號設置" name="AccountSettings" />
@@ -162,89 +163,22 @@
     <text value="組織機構客戶年度統計" name="AnnualStatisticsOrganizationCustomers" />
     <text value="組織機構用戶年度統計" name="AnnualStatisticsOrganizationUsers" />
     <text name="Anonymous" />
-    <text value="立案-衝突檢索-已退回" name="App.Business.CaseCheck.ConflictReturn" />
-    <text value="立案-衝突檢索" name="App.Business.CaseCheck.Created" />
     <text value="結案" name="App.Business.CaseClose" />
-    <text value="結案-負責人審核-待審核" name="App.Business.CaseClose.Created" />
-    <text value="結案-負責人審核-待退回" name="App.Business.CaseClose.Returned" />
     <text value="立案" name="App.Business.CaseCreation" />
-    <text value="立案-待審核" name="App.Business.CaseCreation.Created" />
-    <text value="立案-不可以立案" name="App.Business.CaseCreation.CreationRefuse" />
-    <text value="立案-退回申請人" name="App.Business.CaseCreation.ReturnApply" />
-    <text value="立案-退回案件檢索人" name="App.Business.CaseCreation.ReturnConflict" />
-    <text value="立案-合同退回" name="App.Business.CaseCreation.ReturnContract" />
-    <text value="立案-待轉正" name="App.Business.CaseCreation.WaitForTransfer" />
     <text value="文書" name="App.Business.CaseFile" />
-    <text value="結案-已歸檔" name="App.Business.CaseFile.Approved" />
-    <text value="結案-待歸檔" name="App.Business.CaseFile.Created" />
-    <text value="結案-待提交書面材料" name="App.Business.CaseFile.Returned" />
-    <text value="結案-財務審核-待審核" name="App.Business.CaseFinance.Created" />
-    <text value="結案-財務審核-已退回" name="App.Business.CaseFinance.Returned" />
-    <text value="立案-處理過程" name="App.Business.CaseRecord.Info" />
-    <text value="立案-已審核" name="App.Business.CaseTransfer.Created" />
     <text value="蓋章" name="App.Business.StampFiles" />
-    <text value="文書報審-已審核" name="App.Business.StampFiles.Approved" />
-    <text value="文書報審-待審核" name="App.Business.StampFiles.Created" />
-    <text value="文書蓋章-待蓋章" name="App.Business.StampFiles.IsSeal.Created" />
-    <text value="文書蓋章-未通過" name="App.Business.StampFiles.IsSeal.NoStamp" />
-    <text value="文書蓋章-已蓋章" name="App.Business.StampFiles.IsSeal.Stamped" />
-    <text value="文書報審-已退回" name="App.Business.StampFiles.Returned" />
-    <text value="行政用章-已審核" name="App.Executive.OffficeSeal.Approved" />
-    <text value="行政用章-待審核" name="App.Executive.OffficeSeal.Created" />
-    <text value="行政蓋章-待審核" name="App.Executive.OffficeSeal.IsSeal.Created" />
-    <text value="行政蓋章-未通過" name="App.Executive.OffficeSeal.IsSeal.NoStamp" />
-    <text value="行政蓋章-已蓋章" name="App.Executive.OffficeSeal.IsSeal.Stamped" />
-    <text value="行政用章-已退回" name="App.Executive.OffficeSeal.Returned" />
     <text value="用章" name="App.Executive.OfficeSeal" />
     <text value="賬單" name="App.Financial.Billings" />
-    <text value="賬單-已審核" name="App.Financial.Billings.Approved" />
-    <text value="賬單-待處理" name="App.Financial.Billings.Created" />
-    <text value="賬單-已退回" name="App.Financial.Billings.Returned" />
-    <text value="費用-已審核" name="App.Financial.Charge.Approved" />
-    <text value="費用-已退回" name="App.Financial.Charge.Returned" />
-    <text value="費用-待審核" name="App.Financial.Charge.WaitForApproved" />
     <text value="費用" name="App.Financial.Charges" />
-    <text value="發票-已作廢" name="App.Financial.Invoice.Canceled" />
-    <text value="發票-已退回" name="App.Financial.Invoice.Returned" />
-    <text value="發票-待領取" name="App.Financial.Invoice.WaitForClaimed" />
-    <text value="發票-待開票" name="App.Financial.Invoice.WaitForRegistered" />
     <text value="發票" name="App.Financial.Invoices" />
-    <text value="收款-待認領" name="App.Financial.Receipt.WaitForClaimed" />
-    <text value="收款-待確認" name="App.Financial.Receipt.WaitForConfirmed" />
     <text value="收款" name="App.Financial.Receipts" />
     <text value="請假" name="App.HumanResource.Attendance" />
-    <text value="請假-已審核" name="App.HumanResource.Attendance.Approved" />
-    <text value="請假-待審核" name="App.HumanResource.Attendance.Created" />
-    <text value="請假-已退回" name="App.HumanResource.Attendance.Returned" />
     <text value="系統通知" name="App.Tenant.Notice" />
     <text value="歡迎使用" name="App.WelcomeToTheApplication" />
     <text value="日誌" name="App.Works.Log" />
-    <text value="工作日誌-已審核" name="App.Works.Log.Approved" />
-    <text value="工作日誌-已參與" name="App.Works.Log.Created" />
-    <text value="工作日誌-已退回" name="App.Works.Log.Returned" />
-    <text value="工作日誌-待審核" name="App.Works.Log.WaitApproved" />
     <text value="會議" name="App.Works.Meeting" />
-    <text value="會議-已參與" name="App.Works.Meeting.Confirmed" />
-    <text value="會議-新會議" name="App.Works.Meeting.Created" />
-    <text value="會議-紀要-已完成" name="App.Works.Meeting.MeetingMinutesCompleted" />
-    <text value="會議-已拒絕" name="App.Works.Meeting.Rejected" />
-    <text value="會議-預設提醒" name="App.Works.Meeting.Reminded" />
-    <text value="會議-即將開始" name="App.Works.Meeting.StartRemind" />
-    <text value="會議-待參與" name="App.Works.Meeting.WaitApproved" />
     <text value="日程" name="App.Works.Schedule" />
-    <text value="日程-已完成" name="App.Works.Schedule.Completed" />
-    <text value="日程-已參與" name="App.Works.Schedule.Confirmed" />
-    <text value="日程-已拒絕" name="App.Works.Schedule.Rejected" />
-    <text value="日程-預設提醒" name="App.Works.Schedule.Reminded" />
-    <text value="日程-即將開始" name="App.Works.Schedule.StartRemind" />
-    <text value="日程-待確認" name="App.Works.Schedule.WaitForConfirmed" />
     <text value="任務" name="App.Works.Task" />
-    <text value="任務-已歸檔" name="App.Works.Task.Archived" />
-    <text value="任務-新消息" name="App.Works.Task.Comment.Created" />
-    <text value="任務-已完成" name="App.Works.Task.Completed" />
-    <text value="任務-已參與" name="App.Works.Task.Confirmed" />
-    <text value="任務-已拒絕" name="App.Works.Task.Rejected" />
-    <text value="任務-待確認" name="App.Works.Task.WaitForConfirmed" />
     <text value="律智薈" name="app_name" />
     <text name="Appearance" />
     <text value="申請人" name="Applicant" />
@@ -258,6 +192,7 @@
     <text value="申請行政用章" name="ApplicationForCertificateStamp" />
     <text value="當前案件的結案審核申請已經被處理！" name="ApplicationForClosingCaseHasBeenProcessed" />
     <text name="ApplicationLogo" />
+    <text value="應用文書蓋章" name="ApplicationPaperStamp" />
     <text value="申請公佈日" name="ApplicationPublishdate" />
     <text value="報審時間" name="ApplicationTime" />
     <text value="申請" name="Apply" />
@@ -342,6 +277,8 @@
     <text value="委託方關聯公司" name="BailorAssociatedCompany" />
     <text value="開戶行及賬號" name="BankAccountAndAccountNumber" />
     <text value="基本目錄" name="BaseFolder" />
+    <text value="基礎目錄初始化失敗，當前已存在目錄！" name="BaseFolderInitFailed" />
+    <text value="基礎目錄初始化成功！" name="BaseFolderInitSucess" />
     <text value="默認語言" name="BaseLanguage" />
     <text value="默認值" name="BaseValue" />
     <text value="基本金額" name="BasicAmount" />
@@ -445,6 +382,7 @@
     <text value="不能為空." name="CannotBeEmpty" />
     <text value="已完善，不可修改" name="CannotBeModified" />
     <text value="管理用戶，不能修改用戶名." name="CanNotChangeAdminUserName" />
+    <text value="不允許刪除該案件!" name="CannotDeleteCase" />
     <text value="對不起，您不能在該目錄下直接創建或編輯文件夾，請選擇其他目錄！" name="CannotEditDirectlyUnderThisDirectory" />
     <text value="不能刪除默認語言.只能刪除或者修改自己增加的語言. 但可以改變所有語言的文本信息." name="CanNotEditOrDeleteDefaultLanguages" />
     <text value="不可以立案" name="CanNotFileACase" />
@@ -471,6 +409,7 @@
     <text value="案件類別統計" name="CaseCategoryStatistics" />
     <text value="案件客戶" name="CaseClient" />
     <text value="結案報審" name="CaseClose" />
+    <text value=" Yǐ jié'àn 3/5000 已結案" name="CaseClosed" />
     <text value="結案信息" name="CaseCloseInformation" />
     <text value="結案中" name="CaseClosing" />
     <text value="案件變更" name="CaseConfig" />
@@ -507,6 +446,7 @@
     <text value="案件日誌信息" name="CaseLogInformation" />
     <text value="案件管理統計" name="CaseManagementStatistics" />
     <text value="案件名稱" name="CaseName" />
+    <text value="案件名稱 / 客戶名稱 / 描述" name="CaseNameClientNameOrDesc" />
     <text value="案件名稱 / 客戶名稱" name="CaseNameOrClientName" />
     <text value="案件不存在！" name="CaseNotExist" />
     <text value="案件編號" name="CaseNumber" />
@@ -937,9 +877,11 @@
     <text value="詳情" name="Details" />
     <text value="文書報審詳細信息" name="DetailsOfApplicatingDocument" />
     <text value="確定要刪除分類信息 {0}?" name="DetermineToDeleteClassifiedInfo" />
+    <text value="設備" name="Device" />
     <text value="不同費率" name="DifferentRate" />
     <text value="無法模擬不同租戶的用戶！" name="DifferentTenantImpersonationErrorMessage" />
     <text value="目錄" name="Directory" />
+    <text value="禁用" name="Disable" />
     <text name="DisableRecurringPayments" />
     <text value="折扣" name="Discount" />
     <text value="律師費折扣率" name="DiscountsOfAttorneyFee" />
@@ -1019,7 +961,7 @@
     <text value="教育背景" name="EducationalBackground" />
     <text value="生效義務" name="Effectiveobligation" />
     <text value="郵箱" name="Email" />
-    <text value="發送激活郵件" name="EmailActivation" />
+    <text value="郵件安全鏈接登錄" name="EmailActivation" />
     <text value="請點擊以下鏈接確認您的郵箱地址,並激活您的用戶賬號:" name="EmailActivation_ClickTheLinkBelowToVerifyYourEmail" />
     <text value="激活您的用戶賬號" name="EmailActivation_Subject" />
     <text value="系統發送此郵件驗證您的郵箱地址,並激活您的用戶賬號." name="EmailActivation_SubTitle" />
@@ -1042,6 +984,7 @@
     <text value="人員編號" name="EmployeeNumber" />
     <text value="空值" name="EmptyOnes" />
     <text name="Enable" />
+    <text value="法天使下載服務暫未啟用，請聯繫管理員開啟該服務!" name="EnableFaTianShi" />
     <text value="啟用輕量目錄訪問協議(LDAP)認證." name="EnableLdapAuthentication" />
     <text name="EnableRecurringPayments" />
     <text value="啟用帳戶雙重登錄驗證." name="EnableTwoFactorLogin" />
@@ -1775,6 +1718,7 @@
     <text value="未收集" name="NotCollected" />
     <text value="未完成" name="NotCompleted" />
     <text name="Note_RefreshPageForPermissionChanges" />
+    <text value="[{0}]已立案，您將以{1}的角色參與到該案件中。" name="NoticeCaseParticipants" />
     <text name="Notification" />
     <text name="NotificationDeleteWarningMessage" />
     <text value="通知" name="Notifications" />
@@ -1878,6 +1822,7 @@
     <text value="逾期利息" name="OverdueInterest" />
     <text value="收起更多設置" name="Packup" />
     <text value="頁面" name="Pages" />
+    <text value="文檔設置" name="Pages.Administration.Tenant.DocumentSettings" />
     <text value="第三方設置" name="Pages.Administration.Tenant.ThirdPartySettings" />
     <text value="工作流" name="Pages.Administration.Workflow" />
     <text value="業務管理" name="Pages.Business" />
@@ -2179,6 +2124,7 @@
     <text value="기본 서비스" name="PluginGroup.LegalDta" />
     <text value="網盤服務" name="PluginGroup.SkyDrive" />
     <text value="請添加發函對象" name="PlzAddLetterObject" />
+    <text value="請添加利益衝突信息" name="PlzAddProfitConflictInfo" />
     <text value="請確認收費及合同信息" name="PlzConfirmChargeAndContractInfo" />
     <text value="請創建或選擇客戶" name="PlzCreateOrSelectClient" />
     <text value="請填寫合同相關信息" name="PlzFillContractRelatedInfo" />
@@ -2274,7 +2220,7 @@
     <text name="Purchase" />
     <text value="採購人" name="Purchaser" />
     <text value="紫色" name="Purple" />
-    <text value="放入收集庫" name="PutInCollectionLibrary" />
+    <text value="放入收集箱" name="PutInCollectionLibrary" />
     <text value="生成二維碼失敗" name="QRcodefail" />
     <text value="象限類別" name="QuadrantCategory" />
     <text value="象限視圖" name="QuadrantView" />
@@ -2979,6 +2925,7 @@
     <text value="本週" name="ThisWeek" />
     <text value="時間" name="Time" />
     <text value="時間軸視圖" name="TimelineView" />
+    <text value="等待超時，請重新點擊下載支付！" name="TimeOutForPayment" />
     <text name="TimeoutPleaseTryAgain" />
     <text value="計時器" name="Timer" />
     <text value="單計時器時長超出24小時部分無法計入日誌！" name="TimerAlert" />
@@ -3106,6 +3053,7 @@
     <text name="UnAuthorizedOperation" />
     <text value="失信人" name="Unbelievers" />
     <text value="解綁" name="Unbind" />
+    <text value="解除綁定後，需重新登錄！" name="UnBindingReLoginMessage" />
     <text value="解除屏蔽" name="UnblockUser" />
     <text value="未認領" name="Unclaimed" />
     <text value="取消完成狀態" name="UncompletedState" />
@@ -3166,7 +3114,7 @@
     <text value="默認身份驗證" name="UseDefaultCredentials" />
     <text value="使用默認設置" name="UseDefaultSettings" />
     <text value="使用主機數據庫" name="UseHostDatabase" />
-    <text name="UseHostDefaultEmailSettings" />
+    <text value="使用默認郵件設置" name="UseHostDefaultEmailSettings" />
     <text value="使用名稱" name="UseName" />
     <text name="User profile" />
     <text name="UserAccount" />
