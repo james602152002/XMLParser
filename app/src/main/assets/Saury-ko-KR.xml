@@ -1,6 +1,30 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <localizationDictionary culture="ko-KR">
   <texts>
+    <text value="총 금액" />
+    <text value="금액" />
+    <text value="주소" />
+    <text value="날짜" />
+    <text value="블루" />
+    <text value="다운로드" />
+    <text value="이메일" />
+    <text value="더 많은 설정 펼치기" />
+    <text value="송장 정보" />
+    <text value="다음 단계" />
+    <text value="파일 업로드" />
+    <text value="녹색" />
+    <text value="핑크색" />
+    <text value="답글" />
+    <text value="문서" />
+    <text value="송장" />
+    <text value="월간" />
+    <text value="업로드" />
+    <text value="합계" />
+    <text value="검색" />
+    <text value="옐로우" />
+    <text value="청구 정보" />
+    <text value="필수" />
+    <text value="비어 있는" />
     <text value="ClientSecret은 Azure에서 등록 된 응용 프로그램의 해당 설정에 대한 키입니다." name=" Office365ClientSecretPrompt" />
     <text name="{0}IsInvalid" />
     <text name="{0}UserCannotBeDeleted" />
@@ -555,12 +579,15 @@
     <text value="고객" name="Client" />
     <text value="고객의 케이스 연락처" name="ClientCaseContact" />
     <text value="고객의 케이스 연락처 정보" name="ClientCaseContactInformation" />
+    <text value="고객 문의" name="ClientContact" />
+    <text value="고객 연락처 기본 정보" name="ClientContactBasicInfo" />
     <text value="고객 설명" name="ClientDescription" />
     <text value="고객의 연락처 정보가 없습니다. 오른쪽 상단 모서리를 클릭하십시오." name="ClientHasNoContact" />
     <text value="고객의 연락처 정보가 없습니다 오른쪽 상단의 더하기 기호를 클릭하여 담당자를 담당자에게 추가하십시오." name="ClientHasNoContactAndClickToAddCaseContacts" />
     <text name="ClientIsRequestingYourPermission" />
     <text value="고객 프로젝트" name="ClientProject" />
     <text value="고객 지역" name="ClientRegion" />
+    <text value="고객 담당자" name="ClientRelationContact" />
     <text value="기업 보고서는 시간에 민감하므로 클릭하여 최신 보고서를 다운로드하십시오." name="ClientReportTip" />
     <text value="고객" name="ClientSide" />
     <text value="고객 통계" name="ClientStatistics" />
@@ -780,6 +807,7 @@
     <text value="고객 이름 (영어)" name="CustomerNameEnglish" />
     <text value="고객 번호" name="CustomerNumber" />
     <text value="고객 리드 / 법정 대리인 정보" name="CustomerPrincipalAndLegalRepresentative" />
+    <text value="고객 범위" name="CustomerScope" />
     <text value="고객 관련 담당자" name="CustomerSimilarContact" />
     <text value="올바른 고객 정보와 유사한 고객 정보가 있습니다. 이전 고객과 연결할 지 여부를 먼저 확인하십시오!" name="CustomerSimilarToAPositiveCaseCustomer" />
     <text value="고객 출처" name="CustomerSource" />
@@ -961,7 +989,7 @@
     <text value="교육 배경" name="EducationalBackground" />
     <text value="효과적인 의무" name="Effectiveobligation" />
     <text value="이메일" name="Email" />
-    <text value="이메일 보안 링크 로그인" name="EmailActivation" />
+    <text value="이메일 확인" name="EmailActivation" />
     <text value="아래 링크를 클릭하여 이메일 주소를 확인하고 사용자 계정을 활성화하십시오." name="EmailActivation_ClickTheLinkBelowToVerifyYourEmail" />
     <text value="사용자 계정 활성화" name="EmailActivation_Subject" />
     <text value="시스템이이 전자 메일을 보내 전자 메일 주소를 확인하고 사용자 계정을 활성화합니다." name="EmailActivation_SubTitle" />
@@ -1510,7 +1538,7 @@
     <text value="경영 정보" name="ManagementInformation" />
     <text value="경영진" name="ManagingMembers" />
     <text value="관리 조직 트리" name="ManagingOrganizationTree" />
-    <text name="ManagingRoles" />
+    <text value="관리 역할" name="ManagingRoles" />
     <text value="3 월" name="March" />
     <text value="마커 색상" name="MarkColor" />
     <text value="표시됨" name="Marked" />
@@ -2292,6 +2320,7 @@
     <text value="죄송합니다. 작업에 참여를 거부하면 거절 이유가 null 일 수 없습니다!" name="RejectParticipateCannotBeEmpty" />
     <text value="{0}이 (가) 귀하의 할당 된 작업 [{1}]에 대한 참여를 거부했습니다." name="RejectsAssignmentTask" />
     <text value="관련 사례" name="RelatedCases" />
+    <text value="관련 고객" name="RelatedCustomers" />
     <text value="그것과의 관계" name="RelatedPartiesRelationship" />
     <text value="관련 프로젝트 정보" name="RelatedProjects" />
     <text value="관련 프로젝트" name="RelatedProjectsTitle" />

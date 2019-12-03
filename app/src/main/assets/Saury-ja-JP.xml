@@ -1,6 +1,30 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <localizationDictionary culture="ja-JP">
   <texts>
+    <text value="日付" />
+    <text value="Eメール" />
+    <text value="請求書情報" />
+    <text value="次のステップ" />
+    <text value="ピンク" />
+    <text value="ダウンロード" />
+    <text value="毎月" />
+    <text value="請求書" />
+    <text value="青" />
+    <text value="検索" />
+    <text value="合計" />
+    <text value="イエロー" />
+    <text value="グリーン" />
+    <text value="その他の設定を展開する" />
+    <text value="ファイルのアップロード" />
+    <text value="ドキュメント" />
+    <text value="アップロード" />
+    <text value="返信" />
+    <text value="住所" />
+    <text value="合計金額" />
+    <text value="金額" />
+    <text value="料金情報" />
+    <text value="必須" />
+    <text value="無料" />
     <text value="ClientSecretは、Azureに登録されているアプリケーションの対応する設定への鍵です。" name=" Office365ClientSecretPrompt" />
     <text name="{0}IsInvalid" />
     <text name="{0}UserCannotBeDeleted" />
@@ -555,12 +579,15 @@
     <text value="顧客" name="Client" />
     <text value="クライアントのケース連絡先" name="ClientCaseContact" />
     <text value="クライアントのケース連絡先情報" name="ClientCaseContactInformation" />
+    <text value="顧客連絡先" name="ClientContact" />
+    <text value="顧客連絡先の基本情報" name="ClientContactBasicInfo" />
     <text value="顧客の説明" name="ClientDescription" />
     <text value="顧客の連絡先情報はありません。右上のをクリックしてください" name="ClientHasNoContact" />
     <text value="この場合、担当者を追加するには、右上のプラス記号をクリックします。" name="ClientHasNoContactAndClickToAddCaseContacts" />
     <text name="ClientIsRequestingYourPermission" />
     <text value="顧客プロジェクト" name="ClientProject" />
     <text value="顧客エリア" name="ClientRegion" />
+    <text value="顧客連絡先" name="ClientRelationContact" />
     <text value="エンタープライズレポートは時間に敏感です。最新のレポートをダウンロードするには最新をクリックしてダウンロードしてください。" name="ClientReportTip" />
     <text value="クライアント" name="ClientSide" />
     <text value="顧客統計" name="ClientStatistics" />
@@ -780,6 +807,7 @@
     <text value="顧客名（英語）" name="CustomerNameEnglish" />
     <text value="顧客番号" name="CustomerNumber" />
     <text value="顧客リード/法的代表情報" name="CustomerPrincipalAndLegalRepresentative" />
+    <text value="顧客の範囲" name="CustomerScope" />
     <text value="顧客関連の連絡先" name="CustomerSimilarContact" />
     <text value="正しい顧客と同様の顧客情報があります。顧客が最初に関連付けられているかどうかを確認してください。" name="CustomerSimilarToAPositiveCaseCustomer" />
     <text value="カスタマーソース" name="CustomerSource" />
@@ -961,7 +989,7 @@
     <text value="教育的背景" name="EducationalBackground" />
     <text value="効果的な義務" name="Effectiveobligation" />
     <text value="Eメール" name="Email" />
-    <text value="メールセキュリティリンクログイン" name="EmailActivation" />
+    <text value="メール確認" name="EmailActivation" />
     <text value="下のリンクをクリックしてメールアドレスを確認し、ユーザーアカウントを有効にしてください：" name="EmailActivation_ClickTheLinkBelowToVerifyYourEmail" />
     <text value="ユーザーアカウントを有効にする" name="EmailActivation_Subject" />
     <text value="システムはこの電子メールを送信して、電子メールアドレスを確認し、ユーザーアカウントを有効にします。" name="EmailActivation_SubTitle" />
@@ -1510,7 +1538,7 @@
     <text value="管理情報" name="ManagementInformation" />
     <text value="管理メンバー" name="ManagingMembers" />
     <text value="管理組織ツリー" name="ManagingOrganizationTree" />
-    <text name="ManagingRoles" />
+    <text value="管理役割" name="ManagingRoles" />
     <text value="3月" name="March" />
     <text value="マーカーの色" name="MarkColor" />
     <text value="マークされた" name="Marked" />
@@ -2292,6 +2320,7 @@
     <text value="申し訳ありませんが、あなたがタスクに参加することを拒否した場合、拒否の理由はnullにはなりません！" name="RejectParticipateCannotBeEmpty" />
     <text value="{0}は割り当てられたタスク[{1}]への参加を拒否しました。" name="RejectsAssignmentTask" />
     <text value="関連するケース" name="RelatedCases" />
+    <text value="関連するお客様" name="RelatedCustomers" />
     <text value="それとの関係" name="RelatedPartiesRelationship" />
     <text value="関連プロジェクトの情報" name="RelatedProjects" />
     <text value="関連プロジェクト" name="RelatedProjectsTitle" />

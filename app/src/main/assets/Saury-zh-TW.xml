@@ -1,6 +1,30 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <localizationDictionary culture="zh-TW">
   <texts>
+    <text value="發票信息" />
+    <text value="金額" />
+    <text value="下載" />
+    <text value="郵箱" />
+    <text value="展開更多設置" />
+    <text value="發票" />
+    <text value="搜索" />
+    <text value="上傳" />
+    <text value="綠色" />
+    <text value="文件上傳" />
+    <text value="日期" />
+    <text value="月度" />
+    <text value="回复" />
+    <text value="下一步" />
+    <text value="總計" />
+    <text value="文檔" />
+    <text value="粉色" />
+    <text value="黃色" />
+    <text value="合計數量" />
+    <text value="地址" />
+    <text value="藍色" />
+    <text value="收費信息" />
+    <text value="必填" />
+    <text value="免費" />
     <text value="ClientSecret是在Azure中已註冊應用程序對應設置的密鑰。" name=" Office365ClientSecretPrompt" />
     <text name="{0}IsInvalid" />
     <text name="{0}UserCannotBeDeleted" />
@@ -555,12 +579,15 @@
     <text value="客戶" name="Client" />
     <text value="客戶方本案聯繫人" name="ClientCaseContact" />
     <text value="客戶方本案聯繫人信息" name="ClientCaseContactInformation" />
+    <text value="客戶聯繫人聯繫方式" name="ClientContact" />
+    <text value="客戶聯繫人基本信息" name="ClientContactBasicInfo" />
     <text value="客戶描述" name="ClientDescription" />
     <text value="客戶尚無聯繫人信息，點擊右上角" name="ClientHasNoContact" />
     <text value="客戶尚無聯繫人信息，點擊右上角 加 號 添加本案關聯聯繫人" name="ClientHasNoContactAndClickToAddCaseContacts" />
     <text name="ClientIsRequestingYourPermission" />
     <text value="客戶項目" name="ClientProject" />
     <text value="客戶地區" name="ClientRegion" />
+    <text value="客戶聯繫人關聯客戶" name="ClientRelationContact" />
     <text value="企業報告具有時效性,點擊下載最新可下載最新報告" name="ClientReportTip" />
     <text value="客戶端" name="ClientSide" />
     <text value="客戶統計" name="ClientStatistics" />
@@ -780,6 +807,7 @@
     <text value="客戶名稱（英文）" name="CustomerNameEnglish" />
     <text value="客戶編號" name="CustomerNumber" />
     <text value="客戶負責人/法定代表人信息" name="CustomerPrincipalAndLegalRepresentative" />
+    <text value="客戶範圍" name="CustomerScope" />
     <text value="客戶相關聯繫" name="CustomerSimilarContact" />
     <text value=" 存在與轉正案件客戶相似的客戶信息，請先確認是否關聯老客戶！" name="CustomerSimilarToAPositiveCaseCustomer" />
     <text value="客戶來源" name="CustomerSource" />
@@ -961,7 +989,7 @@
     <text value="教育背景" name="EducationalBackground" />
     <text value="生效義務" name="Effectiveobligation" />
     <text value="郵箱" name="Email" />
-    <text value="郵件安全鏈接登錄" name="EmailActivation" />
+    <text value="郵箱驗證" name="EmailActivation" />
     <text value="請點擊以下鏈接確認您的郵箱地址,並激活您的用戶賬號:" name="EmailActivation_ClickTheLinkBelowToVerifyYourEmail" />
     <text value="激活您的用戶賬號" name="EmailActivation_Subject" />
     <text value="系統發送此郵件驗證您的郵箱地址,並激活您的用戶賬號." name="EmailActivation_SubTitle" />
@@ -1510,7 +1538,7 @@
     <text value="管理信息" name="ManagementInformation" />
     <text value="管理成員" name="ManagingMembers" />
     <text value="管理組織機構樹" name="ManagingOrganizationTree" />
-    <text name="ManagingRoles" />
+    <text value="管理角色" name="ManagingRoles" />
     <text value="三月" name="March" />
     <text value="標記顏色" name="MarkColor" />
     <text value="已標記" name="Marked" />
@@ -2292,6 +2320,7 @@
     <text value="對不起，拒絕參與任務時，拒絕原因不能為空！" name="RejectParticipateCannotBeEmpty" />
     <text value="{0}拒絕了參與您分配的任務[{1}]." name="RejectsAssignmentTask" />
     <text value="相關案件" name="RelatedCases" />
+    <text value="關聯客戶" name="RelatedCustomers" />
     <text value="與其關係" name="RelatedPartiesRelationship" />
     <text value="關聯項目信息" name="RelatedProjects" />
     <text value="關聯項目" name="RelatedProjectsTitle" />

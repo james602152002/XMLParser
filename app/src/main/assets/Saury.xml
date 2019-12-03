@@ -1,6 +1,30 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <localizationDictionary culture="en">
   <texts>
+    <text value="Invoice Information" />
+    <text value="invoice" />
+    <text value="The next step" />
+    <text value="Monthly" />
+    <text value="address" />
+    <text value="Amount" />
+    <text value="Total Amount" />
+    <text value="blue" />
+    <text value="date" />
+    <text value="mailbox" />
+    <text value="Expand more settings" />
+    <text value="download" />
+    <text value="Documents" />
+    <text value="File Upload" />
+    <text value="green" />
+    <text value="Pink" />
+    <text value="Reply" />
+    <text value="Upload" />
+    <text value="total" />
+    <text value="search for" />
+    <text value="yellow" />
+    <text value="Charge information" />
+    <text value="Required" />
+    <text value="Free" />
     <text value="ClientSecret is the key to the corresponding settings of the registered application in Azure." name=" Office365ClientSecretPrompt" />
     <text value="&quot;{0}&quot; is invalid" name="{0}IsInvalid" />
     <text value="{0} user can not be deleted." name="{0}UserCannotBeDeleted" />
@@ -555,12 +579,15 @@
     <text value="Client" name="Client" />
     <text value="Client's case contact" name="ClientCaseContact" />
     <text value="Client's case contact information" name="ClientCaseContactInformation" />
+    <text value="Customer Contact" name="ClientContact" />
+    <text value="Customer Contact Basic Information" name="ClientContactBasicInfo" />
     <text value="Client Description" name="ClientDescription" />
     <text value="There is no contact information for the customer, click on the upper right corner" name="ClientHasNoContact" />
     <text value="There is no contact information for the customer. Click the plus sign in the upper right corner to add the contact person in the case." name="ClientHasNoContactAndClickToAddCaseContacts" />
     <text value="{0} is requesting your permission" name="ClientIsRequestingYourPermission" />
     <text value="Customer project" name="ClientProject" />
     <text value="Customer area" name="ClientRegion" />
+    <text value="Customer relation contact" name="ClientRelationContact" />
     <text value="Enterprise reports are time-sensitive, click to download the latest to download the latest report" name="ClientReportTip" />
     <text value="Clients" name="ClientSide" />
     <text value="Customer statistics" name="ClientStatistics" />
@@ -780,6 +807,7 @@
     <text value="Customer Name (English)" name="CustomerNameEnglish" />
     <text value="Customer Number" name="CustomerNumber" />
     <text value="Customer Lead / Legal Representative Information" name="CustomerPrincipalAndLegalRepresentative" />
+    <text value="Customer scope" name="CustomerScope" />
     <text value="Customer related contact" name="CustomerSimilarContact" />
     <text value="There is customer information similar to the correct case customer. Please confirm whether the customer is associated with it first!" name="CustomerSimilarToAPositiveCaseCustomer" />
     <text value="Customer source" name="CustomerSource" />
@@ -961,7 +989,7 @@
     <text value="Education background" name="EducationalBackground" />
     <text value="Effective obligation" name="Effectiveobligation" />
     <text value="Email" name="Email" />
-    <text value="Email Security Link" name="EmailActivation" />
+    <text value="Email activation" name="EmailActivation" />
     <text value="Please click the link below to verify your email address:" name="EmailActivation_ClickTheLinkBelowToVerifyYourEmail" />
     <text value="AbpZeroTemplate account email activation" name="EmailActivation_Subject" />
     <text value="This email is sent you to verify your email." name="EmailActivation_SubTitle" />
@@ -1510,7 +1538,7 @@
     <text value="Management information" name="ManagementInformation" />
     <text value="Managing members" name="ManagingMembers" />
     <text value="Managing organization tree" name="ManagingOrganizationTree" />
-    <text value="Managing roles" name="ManagingRoles" />
+    <text value="Management role" name="ManagingRoles" />
     <text value="March" name="March" />
     <text value="Marker color" name="MarkColor" />
     <text value="Marked" name="Marked" />
@@ -2292,6 +2320,7 @@
     <text value="Sorry, when you refuse to participate in the task, the reason for rejection cannot be null!" name="RejectParticipateCannotBeEmpty" />
     <text value="{0} rejected participation in your assigned task [{1}]." name="RejectsAssignmentTask" />
     <text value="Related Cases" name="RelatedCases" />
+    <text value="Related customers" name="RelatedCustomers" />
     <text value="Relationship with it" name="RelatedPartiesRelationship" />
     <text value="Related project information" name="RelatedProjects" />
     <text value="Associated project" name="RelatedProjectsTitle" />
