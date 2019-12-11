@@ -1,30 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <localizationDictionary culture="ko-KR">
   <texts>
-    <text value="총 금액" />
-    <text value="금액" />
-    <text value="주소" />
-    <text value="날짜" />
-    <text value="블루" />
-    <text value="다운로드" />
-    <text value="이메일" />
-    <text value="더 많은 설정 펼치기" />
-    <text value="송장 정보" />
-    <text value="다음 단계" />
-    <text value="파일 업로드" />
-    <text value="녹색" />
-    <text value="핑크색" />
-    <text value="답글" />
-    <text value="문서" />
-    <text value="송장" />
-    <text value="월간" />
-    <text value="업로드" />
-    <text value="합계" />
-    <text value="검색" />
-    <text value="옐로우" />
-    <text value="청구 정보" />
-    <text value="필수" />
-    <text value="비어 있는" />
     <text value="ClientSecret은 Azure에서 등록 된 응용 프로그램의 해당 설정에 대한 키입니다." name=" Office365ClientSecretPrompt" />
     <text name="{0}IsInvalid" />
     <text name="{0}UserCannotBeDeleted" />
@@ -67,6 +43,7 @@
     <text value="첨부 파일 추가" name="AddAttachments" />
     <text value="사례의 연결된 연락처 추가" name="AddCaseContact" />
     <text value="위의 방법으로 계약 문서를 추가하십시오. 계약이 없으면 케이스의 상태가 계약 단계에 남아 업로드됩니다!" name="AddCaseContractModalTips" />
+    <text value="법원 알림 추가" name="AddCourtRemind" />
     <text value="브라우저 창 상단에서 {0}을 (를) 누르거나 &quot;책갈피&quot;를 클릭하고 드롭 다운 메뉴에서 &quot;책갈피 추가 ...&quot;를 선택하십시오." name="AddCurrentPageToBookmark" />
     <text value="고객 주소록 추가" name="AddCustomerAddressBook" />
     <text value="고객 연락처 추가" name="AddCustomerContacts" />
@@ -291,6 +268,8 @@
     <text value="8 월" name="August" />
     <text value="저자" name="Author" />
     <text value="저자 중요도 수준" name="AuthorImportantLevel" />
+    <text value="권한 부여 역할" name="AuthorizationRole" />
+    <text value="승인 된 사용자" name="AuthorizationUser" />
     <text name="AutomaticallyBillMyAccount" />
     <text value="사례 자료 자동 생성" name="AutomaticallyGeneratedCaseMaterial" />
     <text value="평균값" name="AverageValue" />
@@ -807,7 +786,6 @@
     <text value="고객 이름 (영어)" name="CustomerNameEnglish" />
     <text value="고객 번호" name="CustomerNumber" />
     <text value="고객 리드 / 법정 대리인 정보" name="CustomerPrincipalAndLegalRepresentative" />
-    <text value="고객 범위" name="CustomerScope" />
     <text value="고객 관련 담당자" name="CustomerSimilarContact" />
     <text value="올바른 고객 정보와 유사한 고객 정보가 있습니다. 이전 고객과 연결할 지 여부를 먼저 확인하십시오!" name="CustomerSimilarToAPositiveCaseCustomer" />
     <text value="고객 출처" name="CustomerSource" />
@@ -2060,6 +2038,7 @@
     <text value="실적" name="Performance" />
     <text name="Period" />
     <text value="권한" name="Permission" />
+    <text value="이 권한은 사용자 조직에서 상속됩니다." name="PermissionInheritedFromOrganizationUnit" />
     <text value="권한" name="Permissions" />
     <text name="PerMonth" />
     <text value="내 개인 문서" name="PersonalDocument" />
@@ -2167,6 +2146,7 @@
     <text value="케이스 담당자를 선택하십시오." name="PlzSelectCasePrincipal" />
     <text value="고객 출처를 선택하십시오." name="PlzSelectClientSource" />
     <text value="부서를 선택하십시오." name="PlzSelectDepartment" />
+    <text value="호스트 변호사를 선택하십시오" name="PlzSelectHostLawyer" />
     <text value="조직 구조를 선택하십시오." name="PlzSelectOrganizationalStructure" />
     <text value="관련 변호사를 선택하십시오." name="PlzSelectRelativeLawyer" />
     <text value="직원을 선택하십시오." name="PlzSelectStaff" />

@@ -1,30 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <localizationDictionary culture="en">
   <texts>
-    <text value="Invoice Information" />
-    <text value="invoice" />
-    <text value="The next step" />
-    <text value="Monthly" />
-    <text value="address" />
-    <text value="Amount" />
-    <text value="Total Amount" />
-    <text value="blue" />
-    <text value="date" />
-    <text value="mailbox" />
-    <text value="Expand more settings" />
-    <text value="download" />
-    <text value="Documents" />
-    <text value="File Upload" />
-    <text value="green" />
-    <text value="Pink" />
-    <text value="Reply" />
-    <text value="Upload" />
-    <text value="total" />
-    <text value="search for" />
-    <text value="yellow" />
-    <text value="Charge information" />
-    <text value="Required" />
-    <text value="Free" />
     <text value="ClientSecret is the key to the corresponding settings of the registered application in Azure." name=" Office365ClientSecretPrompt" />
     <text value="&quot;{0}&quot; is invalid" name="{0}IsInvalid" />
     <text value="{0} user can not be deleted." name="{0}UserCannotBeDeleted" />
@@ -67,6 +43,7 @@
     <text value="Add attachments" name="AddAttachments" />
     <text value="Add this case's associated contact" name="AddCaseContact" />
     <text value="Please add the contract document from the above method. If there is no contract, the status of the case will remain in the contract stage to be uploaded!" name="AddCaseContractModalTips" />
+    <text value="Add court reminder" name="AddCourtRemind" />
     <text value="Press {0} or click &quot;Bookmarks&quot; at the top of the browser window and select &quot;Add Bookmark...&quot; from the drop-down menu." name="AddCurrentPageToBookmark" />
     <text value="Add customer address book" name="AddCustomerAddressBook" />
     <text value="Add customer contact" name="AddCustomerContacts" />
@@ -291,6 +268,8 @@
     <text value="August" name="August" />
     <text value="The author" name="Author" />
     <text value="Author importance level" name="AuthorImportantLevel" />
+    <text value="Authorization Role" name="AuthorizationRole" />
+    <text value="Authorized user" name="AuthorizationUser" />
     <text value="Enable recurring payments" name="AutomaticallyBillMyAccount" />
     <text value="Automatically generated case materials" name="AutomaticallyGeneratedCaseMaterial" />
     <text value="average value" name="AverageValue" />
@@ -579,7 +558,7 @@
     <text value="Client" name="Client" />
     <text value="Client's case contact" name="ClientCaseContact" />
     <text value="Client's case contact information" name="ClientCaseContactInformation" />
-    <text value="Customer Contact" name="ClientContact" />
+    <text value="Customer Contact Contact" name="ClientContact" />
     <text value="Customer Contact Basic Information" name="ClientContactBasicInfo" />
     <text value="Client Description" name="ClientDescription" />
     <text value="There is no contact information for the customer, click on the upper right corner" name="ClientHasNoContact" />
@@ -587,7 +566,7 @@
     <text value="{0} is requesting your permission" name="ClientIsRequestingYourPermission" />
     <text value="Customer project" name="ClientProject" />
     <text value="Customer area" name="ClientRegion" />
-    <text value="Customer relation contact" name="ClientRelationContact" />
+    <text value="Customer contact" name="ClientRelationContact" />
     <text value="Enterprise reports are time-sensitive, click to download the latest to download the latest report" name="ClientReportTip" />
     <text value="Clients" name="ClientSide" />
     <text value="Customer statistics" name="ClientStatistics" />
@@ -807,7 +786,6 @@
     <text value="Customer Name (English)" name="CustomerNameEnglish" />
     <text value="Customer Number" name="CustomerNumber" />
     <text value="Customer Lead / Legal Representative Information" name="CustomerPrincipalAndLegalRepresentative" />
-    <text value="Customer scope" name="CustomerScope" />
     <text value="Customer related contact" name="CustomerSimilarContact" />
     <text value="There is customer information similar to the correct case customer. Please confirm whether the customer is associated with it first!" name="CustomerSimilarToAPositiveCaseCustomer" />
     <text value="Customer source" name="CustomerSource" />
@@ -2060,6 +2038,7 @@
     <text value="Performance" name="Performance" />
     <text value="Period" name="Period" />
     <text value="Permission" name="Permission" />
+    <text value="This permission is inherited from the user organization" name="PermissionInheritedFromOrganizationUnit" />
     <text value="Permissions" name="Permissions" />
     <text value="Per month" name="PerMonth" />
     <text value="My personal document" name="PersonalDocument" />
@@ -2167,6 +2146,7 @@
     <text value="Please select the person in charge of the case" name="PlzSelectCasePrincipal" />
     <text value="Please select a customer source" name="PlzSelectClientSource" />
     <text value="Please select a department" name="PlzSelectDepartment" />
+    <text value="Please select host lawyer" name="PlzSelectHostLawyer" />
     <text value="Please choose the organizational structure" name="PlzSelectOrganizationalStructure" />
     <text value="Please select relevant lawyers" name="PlzSelectRelativeLawyer" />
     <text value="Please select a staff member" name="PlzSelectStaff" />

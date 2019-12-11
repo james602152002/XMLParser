@@ -1,30 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <localizationDictionary culture="ja-JP">
   <texts>
-    <text value="日付" />
-    <text value="Eメール" />
-    <text value="請求書情報" />
-    <text value="次のステップ" />
-    <text value="ピンク" />
-    <text value="ダウンロード" />
-    <text value="毎月" />
-    <text value="請求書" />
-    <text value="青" />
-    <text value="検索" />
-    <text value="合計" />
-    <text value="イエロー" />
-    <text value="グリーン" />
-    <text value="その他の設定を展開する" />
-    <text value="ファイルのアップロード" />
-    <text value="ドキュメント" />
-    <text value="アップロード" />
-    <text value="返信" />
-    <text value="住所" />
-    <text value="合計金額" />
-    <text value="金額" />
-    <text value="料金情報" />
-    <text value="必須" />
-    <text value="無料" />
     <text value="ClientSecretは、Azureに登録されているアプリケーションの対応する設定への鍵です。" name=" Office365ClientSecretPrompt" />
     <text name="{0}IsInvalid" />
     <text name="{0}UserCannotBeDeleted" />
@@ -67,6 +43,7 @@
     <text value="添付ファイルを追加" name="AddAttachments" />
     <text value="このケースに関連付けられた連絡先を追加する" name="AddCaseContact" />
     <text value="上記の方法で契約書を追加してください｡契約がない場合、ケースのステータスはアップロードされる契約段階に残ります。" name="AddCaseContractModalTips" />
+    <text value="裁判所リマインダーを追加" name="AddCourtRemind" />
     <text value="{0}を押すか、ブラウザウィンドウの上部にある[ブックマーク]をクリックして、ドロップダウンメニューから[ブックマークを追加...]を選択してください。" name="AddCurrentPageToBookmark" />
     <text value="顧客の住所録を追加する" name="AddCustomerAddressBook" />
     <text value="顧客の連絡先を追加" name="AddCustomerContacts" />
@@ -291,6 +268,8 @@
     <text value="8月" name="August" />
     <text value="著者" name="Author" />
     <text value="著者の重要度レベル" name="AuthorImportantLevel" />
+    <text value="許可の役割" name="AuthorizationRole" />
+    <text value="許可ユーザー" name="AuthorizationUser" />
     <text name="AutomaticallyBillMyAccount" />
     <text value="ケース材料の自動生成" name="AutomaticallyGeneratedCaseMaterial" />
     <text value="平均値" name="AverageValue" />
@@ -807,7 +786,6 @@
     <text value="顧客名（英語）" name="CustomerNameEnglish" />
     <text value="顧客番号" name="CustomerNumber" />
     <text value="顧客リード/法的代表情報" name="CustomerPrincipalAndLegalRepresentative" />
-    <text value="顧客の範囲" name="CustomerScope" />
     <text value="顧客関連の連絡先" name="CustomerSimilarContact" />
     <text value="正しい顧客と同様の顧客情報があります。顧客が最初に関連付けられているかどうかを確認してください。" name="CustomerSimilarToAPositiveCaseCustomer" />
     <text value="カスタマーソース" name="CustomerSource" />
@@ -2060,6 +2038,7 @@
     <text value="パフォーマンス" name="Performance" />
     <text name="Period" />
     <text value="当局" name="Permission" />
+    <text value="この権限はユーザー組織から継承されます" name="PermissionInheritedFromOrganizationUnit" />
     <text value="当局" name="Permissions" />
     <text name="PerMonth" />
     <text value="私の個人的な文書" name="PersonalDocument" />
@@ -2167,6 +2146,7 @@
     <text value="案件の担当者を選択してください" name="PlzSelectCasePrincipal" />
     <text value="カスタマーソースを選択してください" name="PlzSelectClientSource" />
     <text value="部門を選択してください" name="PlzSelectDepartment" />
+    <text value="ホスト弁護士を選択してください" name="PlzSelectHostLawyer" />
     <text value="組織構造を選択してください" name="PlzSelectOrganizationalStructure" />
     <text value="関連する弁護士を選択してください" name="PlzSelectRelativeLawyer" />
     <text value="スタッフを選択してください" name="PlzSelectStaff" />

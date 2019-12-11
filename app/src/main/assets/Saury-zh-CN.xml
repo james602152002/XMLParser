@@ -1,30 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <localizationDictionary culture="zh-CN">
   <texts>
-    <text value="合计数量" />
-    <text value="地址" />
-    <text value="蓝色" />
-    <text value="发票信息" />
-    <text value="下一步" />
-    <text value="粉色" />
-    <text value="月度" />
-    <text value="总计" />
-    <text value="上传" />
-    <text value="发票" />
-    <text value="搜索" />
-    <text value="邮箱" />
-    <text value="回复" />
-    <text value="日期" />
-    <text value="金额" />
-    <text value="下载" />
-    <text value="黄色" />
-    <text value="文件上传" />
-    <text value="展开更多设置" />
-    <text value="文档" />
-    <text value="绿色" />
-    <text value="收费信息" />
-    <text value="必填" />
-    <text value="免费" />
     <text value="ClientSecret是在Azure中已注册应用程序对应设置的密钥。" name=" Office365ClientSecretPrompt" />
     <text name="{0}IsInvalid" />
     <text value="{不能删除0}用户." name="{0}UserCannotBeDeleted" />
@@ -67,6 +43,7 @@
     <text value="添加附件" name="AddAttachments" />
     <text value="添加本案关联联系人" name="AddCaseContact" />
     <text value="请从下述方式中添加合同文件，若无合同，案件状态将一直处于待上传合同阶段！" name="AddCaseContractModalTips" />
+    <text value="添加开庭提醒" name="AddCourtRemind" />
     <text value="按{0}或单击浏览器窗口顶部的“书签”，然后从下拉菜单中选择“添加书签...”。" name="AddCurrentPageToBookmark" />
     <text value="添加客户通讯录" name="AddCustomerAddressBook" />
     <text value="添加客户联系人" name="AddCustomerContacts" />
@@ -291,6 +268,8 @@
     <text value="八月" name="August" />
     <text value="作者" name="Author" />
     <text value="作者重要级别" name="AuthorImportantLevel" />
+    <text value="授权角色" name="AuthorizationRole" />
+    <text value="授权用户" name="AuthorizationUser" />
     <text name="AutomaticallyBillMyAccount" />
     <text value="自动生成的案件材料" name="AutomaticallyGeneratedCaseMaterial" />
     <text value="平均值" name="AverageValue" />
@@ -807,7 +786,6 @@
     <text value="客户名称（英文）" name="CustomerNameEnglish" />
     <text value="客户编号" name="CustomerNumber" />
     <text value="客户负责人/法定代表人信息" name="CustomerPrincipalAndLegalRepresentative" />
-    <text value="客户范围" name="CustomerScope" />
     <text value="客户相关联系" name="CustomerSimilarContact" />
     <text value=" 存在与转正案件客户相似的客户信息，请先确认是否关联老客户！" name="CustomerSimilarToAPositiveCaseCustomer" />
     <text value="客户来源" name="CustomerSource" />
@@ -2060,6 +2038,7 @@
     <text value="履行情况" name="Performance" />
     <text value="日期" name="Period" />
     <text value="许可" name="Permission" />
+    <text value="该权限继承自用户组织" name="PermissionInheritedFromOrganizationUnit" />
     <text value="权限" name="Permissions" />
     <text value="每月" name="PerMonth" />
     <text value="我的个人文档" name="PersonalDocument" />
@@ -2167,6 +2146,7 @@
     <text value="请选择案件负责人" name="PlzSelectCasePrincipal" />
     <text value="请选择客户来源" name="PlzSelectClientSource" />
     <text value="请选择部门" name="PlzSelectDepartment" />
+    <text value="请选择主办律师" name="PlzSelectHostLawyer" />
     <text value="请选择隶属组织机构" name="PlzSelectOrganizationalStructure" />
     <text value="请选择相关律师人员" name="PlzSelectRelativeLawyer" />
     <text value="请选择职员" name="PlzSelectStaff" />
