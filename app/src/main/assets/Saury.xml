@@ -43,6 +43,7 @@
     <text value="Add attachments" name="AddAttachments" />
     <text value="Add this case's associated contact" name="AddCaseContact" />
     <text value="Please add the contract document from the above method. If there is no contract, the status of the case will remain in the contract stage to be uploaded!" name="AddCaseContractModalTips" />
+    <text value="When the charging method is normal, the lawyer's fee cannot be 0, please add charging information!" name="AddChargingInformation" />
     <text value="Add court reminder" name="AddCourtRemind" />
     <text value="Press {0} or click &quot;Bookmarks&quot; at the top of the browser window and select &quot;Add Bookmark...&quot; from the drop-down menu." name="AddCurrentPageToBookmark" />
     <text value="Add customer address book" name="AddCustomerAddressBook" />
@@ -453,6 +454,7 @@
     <text value="Case name / customer name" name="CaseNameOrClientName" />
     <text value="The case does not exist!" name="CaseNotExist" />
     <text value="Case number" name="CaseNumber" />
+    <text value="The case number already exists!" name="CaseNumberExists" />
     <text value="The case [{0}] you applied for was returned by the search. Please revisit the conflict after revising the content of the application." name="CaseOfYouApplicationIsReturnedPleaseModifyAndResumeConflict" />
     <text value="Case original customer information" name="CaseOriginalInformation" />
     <text value="Case personnel information" name="CaseParticipantInformation" />
@@ -615,6 +617,7 @@
     <text value="Industry" name="CompanyIndustry" />
     <text value="company information" name="CompanyInformation" />
     <text value="company name" name="CompanyName" />
+    <text value="End of company name" name="CompanyTailWords" />
     <text value="{0} must be greater than {1}" name="CompareMustGreaterThan" />
     <text value="Compensation for industrial injury" name="CompensationForIndustrialInjury" />
     <text value="Sorry, please complete the check before setting the task's completion status!" name="CompleteCheckItemBefore" />
@@ -654,7 +657,7 @@
     <text value="Conflict of interest information" name="ConflictOfInterestInformation" />
     <text value="{0} conflict records" name="ConflictRecordsCnt" />
     <text value="Conflict retrieval return" name="ConflictRetrievalReturn" />
-    <text value="Conflict search" name="ConflictSearch" />
+    <text value="Pending conflict retrieval" name="ConflictSearch" />
     <text value="Contact company" name="ContactCompany" />
     <text value="Contact information" name="ContactInformation" />
     <text value="contact number" name="ContactNumber" />
@@ -786,6 +789,7 @@
     <text value="Customer Name (English)" name="CustomerNameEnglish" />
     <text value="Customer Number" name="CustomerNumber" />
     <text value="Customer Lead / Legal Representative Information" name="CustomerPrincipalAndLegalRepresentative" />
+    <text value="Customer scope" name="CustomerScope" />
     <text value="Customer related contact" name="CustomerSimilarContact" />
     <text value="There is customer information similar to the correct case customer. Please confirm whether the customer is associated with it first!" name="CustomerSimilarToAPositiveCaseCustomer" />
     <text value="Customer source" name="CustomerSource" />
@@ -937,6 +941,8 @@
     <text value="Mailbox {0} is already occupied" name="DuplicateEmail" />
     <text value="Duration" name="Duration" />
     <text value="Edit" name="Edit" />
+    <text value="Edit case number" name="EditCaseSerialId" />
+    <text value="Editor's Reminder" name="EditCourtRemind" />
     <text value="Do you edit the current template?" name="EditCurrentTemplateTip" />
     <text value="Edit customer" name="EditCustomer" />
     <text value="Edit customer contact" name="EditCustomerContact" />
@@ -1004,6 +1010,7 @@
     <text value="Business registration name" name="EnterpriseBusinessRegistrationNameOfEnterprise" />
     <text value="Enterprise key" name="EnterpriseKey" />
     <text value="Corporate company registration number" name="EnterpriseRegistrationNumber" />
+    <text value="Please enter the reason for {1} in {0}!" name="EnterReason" />
     <text value="Enter tenancy name..." name="EnterTenancyName" />
     <text value="Entrusted matters" name="EntrustedMatters" />
     <text value="Entry cost contract" name="EntryContractFee" />
@@ -1208,6 +1215,7 @@
     <text value="Completed" name="HasBeenCompleted" />
     <text value="{0} confirmed to participate in your assigned schedule [{1}]" name="HasBeenConfirmedToParticipateInYourAssignedSchedule" />
     <text value="Returned" name="HasBeenReturned" />
+    <text value="This content may have 1 conflict of interest information with your case" name="HasConflictHint" />
     <text value="rejected" name="HasDeclined" />
     <text value="Has error" name="HasError" />
     <text value="Legal aid" name="HasLegalAid" />
@@ -1270,6 +1278,7 @@
     <text value="Inferred direction" name="InferredDirection" />
     <text value="Personal center" name="InfoCenter" />
     <text value="in meeting……" name="InMeeting" />
+    <text value="You can fill in the default value (such as: no time) or random number when you are not sure what to enter" name="InputValueNullOrUnknownReminder" />
     <text value="After the incumbent status is changed to {0}, the system cannot be logged in. Is it OK?" name="InserviceStatusChangeWarning" />
     <text value="After the incumbent status is changed to {0}, is it allowed to continue logging in?" name="InServiceStatusChangeWarning2" />
     <text value="In the place" name="Inside" />
@@ -1350,6 +1359,8 @@
     <text value="Whether the top" name="IsPlacedAtTheTop" />
     <text value="Is quick theme select enabled" name="IsQuickThemeSelectEnabled" />
     <text value="Are you sure to convert the schedule [{0}] into a working log?" name="IsScheduleTurnedIntoWorkLog" />
+    <text value="Word segmentation by default" name="IsSegmenterEnabled" />
+    <text value="After closing, the search will be based on the original name by default. The accuracy of the search result is low, and the risk of profit is great!" name="IsSegmenterEnabled_Hint" />
     <text value="Enable SMS verification." name="IsSmsVerificationEnabled" />
     <text value="The reason for the issue" name="IssuedByReason" />
     <text value="Issuing authority" name="IssuingAgency" />
@@ -1410,6 +1421,8 @@
     <text value="{0} lawyer" name="LawyerCnt" />
     <text value="Lawyer Fee" name="LawyerFee" />
     <text value="Lawyer fee information" name="LawyerFeeInfo" />
+    <text value="Lawyer letter returned" name="LawyerLetterReturned" />
+    <text value="Lawyer letter pending review" name="LawyerLetterWaitingForApproval" />
     <text value="Lawyers self-reported hourly" name="LawyersSelfreportedHourly" />
     <text value="layout" name="Layout" />
     <text value="Layout mode" name="LayoutMode" />
@@ -1596,6 +1609,7 @@
     <text value="Change the time" name="ModificationTime" />
     <text value="Modified person" name="ModificationUser" />
     <text value="Modify classification" name="ModifiedClassification" />
+    <text value="Modifier" name="Modifiers" />
     <text value="modify" name="Modify" />
     <text value="Modify customer contact" name="ModifyClientContact" />
     <text value="Modify the task phase" name="ModifyTaskStage" />
@@ -1638,6 +1652,7 @@
     <text value="navigation" name="Navigation" />
     <text value="Failed to get detailed location, please enter location" name="NeedLocation" />
     <text value="Your network has been lost, please click to try again~" name="NetworkLost" />
+    <text value="new" name="new" />
     <text value="You have a new chat message" name="NewChatMessageEmail_Subject" />
     <text name="NewChatMessageEmail_SubTitle" />
     <text value="Message Details" name="NewChatMessageEmail_Title" />
@@ -1695,6 +1710,7 @@
     <text value="No news is currently set" name="NoNewsWasSet" />
     <text value="Non Local Office" name="NonLocalOffice" />
     <text value="There is no normal charging information, please click the plus sign in the upper right corner to add" name="NoNormalChargeInfoPleaseClickToAdd" />
+    <text value="Meaningless words" name="NonsenseWords" />
     <text value="No organization unit defined yet." name="NoOrganizationUnitDefinedYet" />
     <text value="No people selected" name="NoPeopleselected" />
     <text value="You do not have any permission. Contact your administrator." name="NoPermission" />
@@ -1707,9 +1723,11 @@
     <text value="Sorry, you did not have permission to restore this folder!" name="NoPermissionToRestoreTheFolder" />
     <text value="No permission to seal" name="NoPermissionToSeal" />
     <text value="Sorry, you do not have the authority to stamp the document!" name="NoPermissionToSealTheDocument" />
+    <text value="No conflict of interest information" name="NoProfitConflictInfo" />
     <text value="Did not find the results matching the query conditions!" name="NoQueryResultWithTheQueryCodition" />
     <text value="Sorry, no relevant records" name="NoRecord" />
     <text value="No reimbursement fee information" name="NoReimbursementFeeInformation" />
+    <text value="No related items" name="NoRelatedProject" />
     <text value="There is no risk charging information, please click the plus sign in the upper right corner to add" name="NoRiskFeeInfoPleaseClickToAdd" />
     <text value="normal" name="Normal" />
     <text value="Normal charge" name="NormalCharge" />
@@ -1741,6 +1759,7 @@
     <text value="Not accepted" name="NotToAccept" />
     <text value="November" name="November" />
     <text value="Novice operation guide" name="NoviceGuide" />
+    <text value="No visit history" name="NoVisitRecord" />
     <text value="No job log information" name="NoWorkLogInformation" />
     <text value="Numbering" name="Number" />
     <text value="number" name="NumberOf" />
@@ -1771,6 +1790,7 @@
     <text value="Offline" name="Offline" />
     <text value="Offline Access" name="Offline Access" />
     <text value="Ok" name="Ok" />
+    <text value="old" name="old" />
     <text value="On" name="On" />
     <text value="Onboarding" name="Onboarding" />
     <text value="Ongoing project" name="OngoingProjects" />
@@ -2028,7 +2048,7 @@
     <text value="Penalty item" name="PenaltyItem" />
     <text value="Pending claim" name="PendingClaim" />
     <text value="Pending financial review" name="PendingFinancialReview" />
-    <text value="Pending partner review" name="PendingPartnerReview" />
+    <text value="To be reviewed by partners" name="PendingPartnerReview" />
     <text value="Pending review" name="PendingReview" />
     <text value="Pending submission (in the case of closing the application)" name="PendingSubmissionInApplicationForClose" />
     <text value="Pending submission (in the case of filing)" name="PendingSubmissionInApplicationForCreate" />
@@ -2057,6 +2077,7 @@
     <text value="personnel" name="personnel" />
     <text value="Personnel mission Gantt chart" name="PersonnelGanttChar" />
     <text value="HR management" name="PersonnelManagement" />
+    <text value="Personnel do not exist!" name="PersonnelNotExist" />
     <text value="Personal phone 2" name="PersonPhone2" />
     <text value="personal project" name="PersonProject" />
     <text value="Person Type" name="PersonType" />
@@ -2302,6 +2323,7 @@
     <text value="Related Cases" name="RelatedCases" />
     <text value="Related customers" name="RelatedCustomers" />
     <text value="Relationship with it" name="RelatedPartiesRelationship" />
+    <text value="%s related" name="RelatedProjectCnt" />
     <text value="Related project information" name="RelatedProjects" />
     <text value="Associated project" name="RelatedProjectsTitle" />
     <text value="Related" name="Relation" />
@@ -2332,9 +2354,9 @@
     <text value="Remind the lawyer" name="RemindingTheLawyer" />
     <text value="Remove" name="Remove" />
     <text value="Are you sure you want to remove the role {0} from the base directory {1}?" name="RemoveRoleFromFolderWarningMessage" />
-    <text value="Are you sure to remove role {0} from organization unit {1}?" name="RemoveRoleFromOuWarningMessage" />
+    <text value="Are you sure you want to delete role {0} from organization {1}?" name="RemoveRoleFromOuWarningMessage" />
     <text value="Are you sure you want to remove user {0} from the base directory {1}?" name="RemoveUserFromFolderWarningMessage" />
-    <text value="Are you sure to remove user {0} from organization unit {1}?" name="RemoveUserFromOuWarningMessage" />
+    <text value="Are you sure you want to delete user {0} from organization {1}?" name="RemoveUserFromOuWarningMessage" />
     <text value="Rename" name="Rename" />
     <text value="Rename folder" name="ReNameDocumentFolder" />
     <text value="Rename folder" name="RenamingFolders" />
@@ -2491,6 +2513,7 @@
     <text value="See all records" name="SeeAllRecords" />
     <text value="See demo" name="SeeDemo" />
     <text value="Segmentation" name="Segmentation" />
+    <text value="Use English commas as separators" name="SegmenterCommasSeparator_Hint" />
     <text value="Select" name="Select" />
     <text value="Selectable log" name="Selectablelog" />
     <text value="Selectable log {0}" name="SelectableLogCnt" />
@@ -2500,10 +2523,11 @@
     <text value="Select an item" name="SelectAnItem" />
     <text value="Select organizational unit to view members." name="SelectAnOrganizationalUnitToViewMembers" />
     <text value="Select an organization unit to see members." name="SelectAnOrganizationUnitToSeeMembers" />
-    <text value="Select an organization unit to see roles" name="SelectAnOrganizationUnitToSeeRoles" />
+    <text value="Select an organization unit to see roles." name="SelectAnOrganizationUnitToSeeRoles" />
     <text value="Please select a role" name="SelectARole" />
     <text value="Select a Theme" name="SelectATheme" />
     <text value="Select a user" name="SelectAUser" />
+    <text value="Please select a customer first!" name="SelectCutomer" />
     <text value="Select date" name="SelectDate" />
     <text value="chosen" name="selected" />
     <text value="{0} selected" name="SelectedCnt" />
@@ -2559,13 +2583,14 @@
     <text value="Set administrator mailbox" name="SetAdministratormailbox" />
     <text value="Set all as read" name="SetAllAsRead" />
     <text value="Set as default language" name="SetAsDefaultLanguage" />
-    <text value="set as read" name="SetAsRead" />
+    <text value="Make read" name="SetAsRead" />
     <text value="Set case cost" name="SetCaseCost" />
     <text value="Set display columns" name="SetDisplayColumn" />
     <text value="Set the first directory" name="SetDocumentCenterHome" />
     <text value="Set as favorite" name="SetFavorite" />
     <text value="Please configure your personal email!" name="SetPersonalEmail" />
     <text value="Set random password." name="SetRandomPassword" />
+    <text value="Non-administrator roles are not allowed to modify username, email and organization information" name="SettingCannotEditUserAccountInfo" />
     <text value="Set export content" name="SettingExportContent" />
     <text value="Settings" name="Settings" />
     <text value="Show and change application settings." name="SettingsHeaderInfo" />
@@ -2673,6 +2698,7 @@
     <text value="Status" name="Status" />
     <text value="Stop" name="Stop" />
     <text value="Stop when an error occurs" name="StopWhenAMistakeIsMade" />
+    <text value="Stop words" name="StopWords" />
     <text value="Storage location" name="StorageLocation" />
     <text value="Storage location cannot be empty!" name="StorageLocationCannotBeEmpty" />
     <text value="The field {0} must be a minimum length of {1} and a maximum length of {2}." name="StringLengthDoesntMatch" />
@@ -2905,6 +2931,7 @@
     <text value="Theme style" name="Themes" />
     <text value="The number of working days this month" name="TheNumberOfWorkDaysThisMonth" />
     <text value="The number of working days this month" name="TheNumberOfWorkingDaysThisMonth" />
+    <text value="The official case data is currently displayed by default. If you need to retrieve more, please change the status condition in advanced search!" name="TheOfficialCaseDataIsCurrentlyDisplayedByDefault" />
     <text value="There are tenants subscribed to this edition. Please assign a different edition to them and then delete this edition." name="ThereAreTenantsSubscribedToThisEdition" />
     <text value="There is a fee {0}." name="ThereIsAFee" />
     <text value="There is an invoice {2} with amount {0}{1}." name="ThereIsAnInvoiceFor" />
@@ -2917,6 +2944,7 @@
     <text value="Only one person can choose one" name="ThereIsOnlyOnePlace" />
     <text value="The return date must be greater than the take-out date!" name="TheReturnDateMustBeGreaterThanTheTakeOutDate" />
     <text value="The customer name already exists. Please check to correct or select existing customer information." name="TheSameCustomerNameHasAlreadyExisted" />
+    <text value="The search conditions only listed the information of the top 20 counterparties. If you need to add keywords, you can manually enter the keyword information in the word segmentation mode!" name="TheSearchConditionsOnlyListedTheInformationOfTheTop20Counterparties" />
     <text value="Source person" name="TheSourceOfPeople" />
     <text value="The way" name="TheWay" />
     <text value="Postal code" name="TheZipCode" />
@@ -3127,6 +3155,12 @@
     <text value="Use name" name="UseName" />
     <text value="User profile" name="User profile" />
     <text value="User account" name="UserAccount" />
+    <text value="The default username is the same as the email address" name="UserAccountProtectedField_IsUsernameEqualsEmailAddress" />
+    <text value="Protect email address (non-Admin roles cannot be modified)" name="UserAccountProtectedField_ProtectedEmailAddress" />
+    <text value="Protect organization (non-Admin users cannot modify)" name="UserAccountProtectedField_ProtectedOrganizationUnitId" />
+    <text value="Protection role settings (non-Admin roles cannot be modified)" name="UserAccountProtectedField_ProtectedRoleId" />
+    <text value="Protect user name (non-Admin roles cannot be modified)" name="UserAccountProtectedField_ProtectedUserName" />
+    <text value="Fixed email address suffix" name="UserAccountProtectedField_VerifyEmailAddressSuffix" />
     <text value="User accounts" name="UserAccounts" />
     <text value="User blocked successfully." name="UserBlocked" />
     <text value="{Cannot delete 0} user." name="UserCannotBeDeleted" />
@@ -3209,6 +3243,7 @@
     <text value="Welcome to AbpZeroTemplate! Notification system is used to inform you for intended events. You can select which type of notifications you want to receive from the notification settings." name="WelcomeToTheApplicationNotificationMessage" />
     <text value="Hello {0}, welcome to use the ailinkedlaw" name="WelcomeToUseAilinkedlaw" />
     <text value="What will be done after subscription expiry" name="WhatWillDoneAfterSubscriptionExpiry" />
+    <text value="whether" name="whether" />
     <text value="Is it all day?" name="WhetherAllDay" />
     <text value="Whether to archive" name="WhetherArchive" />
     <text value="Is it downloaded in bulk?" name="WhetherBatchDownload" />
@@ -3255,6 +3290,7 @@
     <text value="Work log - pending review" name="WN.Works.Log.WaitApproved" />
     <text value="word" name="word" />
     <text value="Word count" name="WordCount" />
+    <text value="Word segmentation settings" name="WordSegmenterSetting" />
     <text value="Workbench components" name="WorkbenchWidgets" />
     <text value="Work date" name="WorkDate" />
     <text value="Work date field is required" name="WorkDateFormatRequired" />

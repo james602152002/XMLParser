@@ -43,6 +43,7 @@
     <text value="첨부 파일 추가" name="AddAttachments" />
     <text value="사례의 연결된 연락처 추가" name="AddCaseContact" />
     <text value="위의 방법으로 계약 문서를 추가하십시오. 계약이 없으면 케이스의 상태가 계약 단계에 남아 업로드됩니다!" name="AddCaseContractModalTips" />
+    <text value="청구 방법이 정상이면 변호사 비용이 0이 될 수 없습니다. 청구 정보를 추가하십시오!" name="AddChargingInformation" />
     <text value="법원 알림 추가" name="AddCourtRemind" />
     <text value="브라우저 창 상단에서 {0}을 (를) 누르거나 &quot;책갈피&quot;를 클릭하고 드롭 다운 메뉴에서 &quot;책갈피 추가 ...&quot;를 선택하십시오." name="AddCurrentPageToBookmark" />
     <text value="고객 주소록 추가" name="AddCustomerAddressBook" />
@@ -453,6 +454,7 @@
     <text value="사례 이름 / 고객 이름" name="CaseNameOrClientName" />
     <text value="사건은 존재하지 않습니다!" name="CaseNotExist" />
     <text value="케이스 번호" name="CaseNumber" />
+    <text value="사건 번호가 이미 존재합니다!" name="CaseNumberExists" />
     <text value="[{0}] 신청 한 사례가 검색 결과로 반환되었습니다. 신청 내용을 수정 한 후 충돌을 다시 확인하십시오." name="CaseOfYouApplicationIsReturnedPleaseModifyAndResumeConflict" />
     <text value="사례 원래 고객 정보" name="CaseOriginalInformation" />
     <text value="사례 인사 정보" name="CaseParticipantInformation" />
@@ -615,6 +617,7 @@
     <text value="산업" name="CompanyIndustry" />
     <text value="회사 정보" name="CompanyInformation" />
     <text value="회사 명" name="CompanyName" />
+    <text value="회사 명" name="CompanyTailWords" />
     <text value="{0}은 {1}보다 커야합니다." name="CompareMustGreaterThan" />
     <text value="작업 상해 보상" name="CompensationForIndustrialInjury" />
     <text value="죄송합니다. 작업 완료 상태를 설정하기 전에 확인을 완료하십시오!" name="CompleteCheckItemBefore" />
@@ -654,7 +657,7 @@
     <text value="관심 분야 정보 충돌" name="ConflictOfInterestInformation" />
     <text value="{0} 충돌 레코드" name="ConflictRecordsCnt" />
     <text value="충돌 검색 반환" name="ConflictRetrievalReturn" />
-    <text value="충돌 검색" name="ConflictSearch" />
+    <text value="대기중인 충돌 검색" name="ConflictSearch" />
     <text value="회사에 문의" name="ContactCompany" />
     <text value="연락 방법" name="ContactInformation" />
     <text value="연락 가능한 전화 번호" name="ContactNumber" />
@@ -786,6 +789,7 @@
     <text value="고객 이름 (영어)" name="CustomerNameEnglish" />
     <text value="고객 번호" name="CustomerNumber" />
     <text value="고객 리드 / 법정 대리인 정보" name="CustomerPrincipalAndLegalRepresentative" />
+    <text value="고객 범위" name="CustomerScope" />
     <text value="고객 관련 담당자" name="CustomerSimilarContact" />
     <text value="올바른 고객 정보와 유사한 고객 정보가 있습니다. 이전 고객과 연결할 지 여부를 먼저 확인하십시오!" name="CustomerSimilarToAPositiveCaseCustomer" />
     <text value="고객 출처" name="CustomerSource" />
@@ -937,6 +941,8 @@
     <text value="사서함 {0}이 (가) 이미 사용 중입니다." name="DuplicateEmail" />
     <text value="기간" name="Duration" />
     <text value="수정" name="Edit" />
+    <text value="사례 번호 수정" name="EditCaseSerialId" />
+    <text value="편집자 알림" name="EditCourtRemind" />
     <text value="현재 템플릿을 편집합니까?" name="EditCurrentTemplateTip" />
     <text value="고객 수정" name="EditCustomer" />
     <text value="고객 담당자 편집" name="EditCustomerContact" />
@@ -1004,6 +1010,7 @@
     <text value="사업자 등록 이름" name="EnterpriseBusinessRegistrationNameOfEnterprise" />
     <text value="엔터프라이즈 키" name="EnterpriseKey" />
     <text value="회사 등록 번호" name="EnterpriseRegistrationNumber" />
+    <text value="{0}에 {1}의 이유를 입력하십시오!" name="EnterReason" />
     <text name="EnterTenancyName" />
     <text value="위탁 사항" name="EntrustedMatters" />
     <text value="참가 비용 계약" name="EntryContractFee" />
@@ -1208,6 +1215,7 @@
     <text value="완료 됨" name="HasBeenCompleted" />
     <text value="{0}이 (가) 지정된 일정 [{1}]에 참여하는 것을 확인했습니다." name="HasBeenConfirmedToParticipateInYourAssignedSchedule" />
     <text value="반품 됨" name="HasBeenReturned" />
+    <text value="이 콘텐츠는 귀하의 사례와 1 개의 이해 상충 정보를 가질 수 있습니다" name="HasConflictHint" />
     <text value="거절 한" name="HasDeclined" />
     <text value="오류가 발생했습니다." name="HasError" />
     <text value="법률 원조" name="HasLegalAid" />
@@ -1270,6 +1278,7 @@
     <text value="추론 된 방향" name="InferredDirection" />
     <text value="개인 센터" name="InfoCenter" />
     <text value="회의 도중 ..." name="InMeeting" />
+    <text value="입력 할 내용이 확실하지 않은 경우 기본값 (예 : 시간 없음) 또는 임의의 숫자를 채울 수 있습니다." name="InputValueNullOrUnknownReminder" />
     <text value="기존 상태가 {0}으로 변경되면 시스템에 로그인 할 수 없습니다. 정상입니까?" name="InserviceStatusChangeWarning" />
     <text value="기존 상태가 {0} (으)로 변경된 후 계속 로그인 할 수 있습니까?" name="InServiceStatusChangeWarning2" />
     <text value="그 장소에서" name="Inside" />
@@ -1350,6 +1359,8 @@
     <text value="최상위 여부" name="IsPlacedAtTheTop" />
     <text value="빠른 테마 선택 가능 여부" name="IsQuickThemeSelectEnabled" />
     <text value="[{0}] 스케줄을 작업중인 로그로 변환 하시겠습니까?" name="IsScheduleTurnedIntoWorkLog" />
+    <text value="기본적으로 단어 분할" name="IsSegmenterEnabled" />
+    <text value="종료 후 기본적으로 검색은 원래 이름을 기준으로하며 검색 결과의 정확도가 낮고 수익 위험이 높습니다!" name="IsSegmenterEnabled_Hint" />
     <text value="SMS 확인을 사용합니다." name="IsSmsVerificationEnabled" />
     <text value="문제의 원인" name="IssuedByReason" />
     <text value="발행 권한" name="IssuingAgency" />
@@ -1410,6 +1421,8 @@
     <text value="변호사 {0}" name="LawyerCnt" />
     <text value="변호사 비용" name="LawyerFee" />
     <text value="변호사 비용 정보" name="LawyerFeeInfo" />
+    <text value="변호사 서신 반환" name="LawyerLetterReturned" />
+    <text value="변호사 서한 검토" name="LawyerLetterWaitingForApproval" />
     <text value="변호사가 매시간 자기보고" name="LawyersSelfreportedHourly" />
     <text value="레이아웃" name="Layout" />
     <text value="레이아웃 모드" name="LayoutMode" />
@@ -1596,6 +1609,7 @@
     <text value="수정 시간" name="ModificationTime" />
     <text value="수정 된 사람" name="ModificationUser" />
     <text value="분류 수정" name="ModifiedClassification" />
+    <text value="수정 자" name="Modifiers" />
     <text value="수정" name="Modify" />
     <text value="고객 연락처 수정" name="ModifyClientContact" />
     <text value="작업 단계 수정" name="ModifyTaskStage" />
@@ -1638,6 +1652,7 @@
     <text value="내비게이션" name="Navigation" />
     <text value="자세한 위치를 가져 오지 못했습니다. 위치를 입력하십시오." name="NeedLocation" />
     <text value="네트워크가 손실되었습니다. 다시 시도하려면 클릭하십시오 ~" name="NetworkLost" />
+    <text value="새로운" name="new" />
     <text value="새로운 채팅 메시지가 있습니다." name="NewChatMessageEmail_Subject" />
     <text name="NewChatMessageEmail_SubTitle" />
     <text value="메시지 세부 정보" name="NewChatMessageEmail_Title" />
@@ -1695,6 +1710,7 @@
     <text value="현재 설정된 뉴스가 없습니다." name="NoNewsWasSet" />
     <text value="무본소" name="NonLocalOffice" />
     <text value="정상적인 청구 정보가 없습니다. 오른쪽 상단의 더하기 기호를 클릭하여 추가하십시오." name="NoNormalChargeInfoPleaseClickToAdd" />
+    <text value="무의미한 단어" name="NonsenseWords" />
     <text value="아직 정의 된 조직이 없습니다." name="NoOrganizationUnitDefinedYet" />
     <text value="선택된 사용자가 없습니다." name="NoPeopleselected" />
     <text name="NoPermission" />
@@ -1707,9 +1723,11 @@
     <text value="죄송합니다.이 폴더를 복원 할 수있는 권한이 없습니다." name="NoPermissionToRestoreTheFolder" />
     <text value="도장을 찍는 것을 허락하지 않다" name="NoPermissionToSeal" />
     <text value="죄송합니다. 문서 스탬프를 할 권한이 없습니다!" name="NoPermissionToSealTheDocument" />
+    <text value="이해 상충 정보 없음" name="NoProfitConflictInfo" />
     <text value="쿼리 조건과 일치하는 결과를 찾지 못했습니다!" name="NoQueryResultWithTheQueryCodition" />
     <text value="죄송합니다. 관련 기록이 없습니다." name="NoRecord" />
     <text value="상환 수수료 정보 없음" name="NoReimbursementFeeInformation" />
+    <text value="관련 항목이 없습니다" name="NoRelatedProject" />
     <text value="위험 부담 정보가 없습니다. 오른쪽 상단의 더하기 기호를 클릭하여 정보를 추가하십시오." name="NoRiskFeeInfoPleaseClickToAdd" />
     <text value="정상" name="Normal" />
     <text value="정상 요금" name="NormalCharge" />
@@ -1741,6 +1759,7 @@
     <text value="허용되지 않음" name="NotToAccept" />
     <text value="11 월" name="November" />
     <text value="초보자 조작 가이드" name="NoviceGuide" />
+    <text value="방문 기록이 없습니다." name="NoVisitRecord" />
     <text value="작업 기록 정보 없음" name="NoWorkLogInformation" />
     <text value="아니." name="Number" />
     <text value="번호" name="NumberOf" />
@@ -1771,6 +1790,7 @@
     <text name="Offline" />
     <text name="Offline Access" />
     <text value="좋은" name="Ok" />
+    <text value="올드" name="old" />
     <text value="열기" name="On" />
     <text value="온 보딩" name="Onboarding" />
     <text value="진행중인 프로젝트" name="OngoingProjects" />
@@ -2028,7 +2048,7 @@
     <text value="페널티 항목" name="PenaltyItem" />
     <text value="대기중인 소유권 주장" name="PendingClaim" />
     <text value="대기중인 재무 검토" name="PendingFinancialReview" />
-    <text value="대기중인 파트너 검토" name="PendingPartnerReview" />
+    <text value="파트너가 검토" name="PendingPartnerReview" />
     <text value="검토 대기 중" name="PendingReview" />
     <text value="대기중인 제출 (신청 마감시)" name="PendingSubmissionInApplicationForClose" />
     <text value="대기중인 제출 (제출의 경우)" name="PendingSubmissionInApplicationForCreate" />
@@ -2057,6 +2077,7 @@
     <text value="인사" name="personnel" />
     <text value="인사 임무 간트 차트" name="PersonnelGanttChar" />
     <text value="인사 관리" name="PersonnelManagement" />
+    <text value="직원이 존재하지 않습니다!" name="PersonnelNotExist" />
     <text value="개인 전화 2" name="PersonPhone2" />
     <text value="개인 프로젝트" name="PersonProject" />
     <text value="인사 유형" name="PersonType" />
@@ -2302,6 +2323,7 @@
     <text value="관련 사례" name="RelatedCases" />
     <text value="관련 고객" name="RelatedCustomers" />
     <text value="그것과의 관계" name="RelatedPartiesRelationship" />
+    <text value="%s  관련" name="RelatedProjectCnt" />
     <text value="관련 프로젝트 정보" name="RelatedProjects" />
     <text value="관련 프로젝트" name="RelatedProjectsTitle" />
     <text value="관련" name="Relation" />
@@ -2332,9 +2354,9 @@
     <text value="변호사를 상기시킵니다." name="RemindingTheLawyer" />
     <text name="Remove" />
     <text value="기본 디렉토리 {1}에서 역할 {0}을 (를) 제거 하시겠습니까?" name="RemoveRoleFromFolderWarningMessage" />
-    <text name="RemoveRoleFromOuWarningMessage" />
+    <text value="{1} 조직에서 {0} 역할을 삭제 하시겠습니까?" name="RemoveRoleFromOuWarningMessage" />
     <text value="기본 디렉토리 {1}에서 사용자 {0}을 (를) 제거 하시겠습니까?" name="RemoveUserFromFolderWarningMessage" />
-    <text value="조직 {1}에서 사용자 {0}을 (를) 제거 하시겠습니까?" name="RemoveUserFromOuWarningMessage" />
+    <text value="조직 {1}에서 사용자 {0}을 (를) 삭제 하시겠습니까?" name="RemoveUserFromOuWarningMessage" />
     <text value="이름 바꾸기" name="Rename" />
     <text value="폴더 이름 바꾸기" name="ReNameDocumentFolder" />
     <text value="폴더 이름 바꾸기" name="RenamingFolders" />
@@ -2491,6 +2513,7 @@
     <text name="SeeAllRecords" />
     <text value="예제보기" name="SeeDemo" />
     <text value="분할" name="Segmentation" />
+    <text value="영어 쉼표를 구분 기호로 사용" name="SegmenterCommasSeparator_Hint" />
     <text value="선택" name="Select" />
     <text value="선택 가능한 로그" name="Selectablelog" />
     <text value="선택 가능한 로그 {0}" name="SelectableLogCnt" />
@@ -2500,10 +2523,11 @@
     <text value="자녀 선택" name="SelectAnItem" />
     <text value="구성원을 보려면 조직 단위를 선택하십시오." name="SelectAnOrganizationalUnitToViewMembers" />
     <text value="구성원을 볼 조직을 선택하십시오." name="SelectAnOrganizationUnitToSeeMembers" />
-    <text name="SelectAnOrganizationUnitToSeeRoles" />
+    <text value="역할을 보려면 조직 구조를 선택하십시오." name="SelectAnOrganizationUnitToSeeRoles" />
     <text value="역할을 선택하십시오." name="SelectARole" />
     <text name="SelectATheme" />
     <text value="사용자 선택" name="SelectAUser" />
+    <text value="먼저 고객을 선택하십시오!" name="SelectCutomer" />
     <text name="SelectDate" />
     <text value="선택됨" name="selected" />
     <text value="{0}이 (가) 선택됨" name="SelectedCnt" />
@@ -2559,13 +2583,14 @@
     <text value="관리자 사서함 설정" name="SetAdministratormailbox" />
     <text value="모두 읽도록 설정" name="SetAllAsRead" />
     <text value="현재 언어를 기본 언어로 설정" name="SetAsDefaultLanguage" />
-    <text value="읽도록 설정" name="SetAsRead" />
+    <text value="읽다" name="SetAsRead" />
     <text value="케이스 비용 설정" name="SetCaseCost" />
     <text value="표시 열 설정" name="SetDisplayColumn" />
     <text value="첫 번째 디렉토리 설정" name="SetDocumentCenterHome" />
     <text value="즐겨 찾기로 설정" name="SetFavorite" />
     <text value="개인 이메일을 구성하십시오!" name="SetPersonalEmail" />
     <text value="임의의 암호를 사용하십시오." name="SetRandomPassword" />
+    <text value="비 관리자 역할은 사용자 이름, 이메일 및 조직 정보를 수정할 수 없습니다" name="SettingCannotEditUserAccountInfo" />
     <text value="내보내기 콘텐츠 설정" name="SettingExportContent" />
     <text value="설정" name="Settings" />
     <text value="프로그램 설정을 표시하고 수정하십시오." name="SettingsHeaderInfo" />
@@ -2673,6 +2698,7 @@
     <text name="Status" />
     <text value="중지" name="Stop" />
     <text value="오류가 발생하면 중지하십시오." name="StopWhenAMistakeIsMade" />
+    <text value="단어 중지" name="StopWords" />
     <text value="저장 위치" name="StorageLocation" />
     <text value="저장 위치는 비워 둘 수 없습니다!" name="StorageLocationCannotBeEmpty" />
     <text value="{0} 필드는 최소 길이는 {1}이고 최대 길이는 {2}이어야합니다." name="StringLengthDoesntMatch" />
@@ -2905,6 +2931,7 @@
     <text value="테마 스타일" name="Themes" />
     <text value="이번 달 근무일 수" name="TheNumberOfWorkDaysThisMonth" />
     <text value="이번 달 근무일 수" name="TheNumberOfWorkingDaysThisMonth" />
+    <text value="공식 사례 데이터는 현재 기본적으로 표시됩니다. 더 검색해야하는 경우 고급 검색에서 상태 조건을 변경하십시오!" name="TheOfficialCaseDataIsCurrentlyDisplayedByDefault" />
     <text name="ThereAreTenantsSubscribedToThisEdition" />
     <text value="수수료가 {0}입니다." name="ThereIsAFee" />
     <text value="금액 {0} {1} 인 인보이스 {2}이 (가) 있습니다." name="ThereIsAnInvoiceFor" />
@@ -2917,6 +2944,7 @@
     <text value="한 명만 선택할 수 있어요." name="ThereIsOnlyOnePlace" />
     <text value="반환 날짜는 테이크 아웃 날짜보다 커야합니다!" name="TheReturnDateMustBeGreaterThanTheTakeOutDate" />
     <text value="고객 이름이 이미 있습니다. 기존 고객 정보를 수정하거나 선택하십시오." name="TheSameCustomerNameHasAlreadyExisted" />
+    <text value="검색 조건에는 상위 20 개 상대방의 정보 만 나열되어 있으므로 키워드를 추가해야하는 경우 단어 분할 모드에서 키워드 정보를 수동으로 입력 할 수 있습니다!" name="TheSearchConditionsOnlyListedTheInformationOfTheTop20Counterparties" />
     <text value="출처 사람" name="TheSourceOfPeople" />
     <text value="방법" name="TheWay" />
     <text value="우편 번호" name="TheZipCode" />
@@ -3127,6 +3155,12 @@
     <text value="이름 사용" name="UseName" />
     <text name="User profile" />
     <text name="UserAccount" />
+    <text value="기본 사용자 이름은 이메일 주소와 동일합니다" name="UserAccountProtectedField_IsUsernameEqualsEmailAddress" />
+    <text value="이메일 주소 보호 (비 관리자 역할은 수정할 수 없음)" name="UserAccountProtectedField_ProtectedEmailAddress" />
+    <text value="조직 보호 (관리자가 아닌 사용자는 수정할 수 없음)" name="UserAccountProtectedField_ProtectedOrganizationUnitId" />
+    <text value="보호 역할 설정 (비 관리자 역할은 수정할 수 없음)" name="UserAccountProtectedField_ProtectedRoleId" />
+    <text value="사용자 이름 보호 (비 관리자 역할은 수정할 수 없음)" name="UserAccountProtectedField_ProtectedUserName" />
+    <text value="고정 이메일 주소 접미사" name="UserAccountProtectedField_VerifyEmailAddressSuffix" />
     <text name="UserAccounts" />
     <text value="사용자 성공을 차단하십시오." name="UserBlocked" />
     <text value="{0을 (를) 삭제할 수 없습니다.} 사용자." name="UserCannotBeDeleted" />
@@ -3209,6 +3243,7 @@
     <text value="AbpZeroTemplate에 오신 것을 환영합니다! " name="WelcomeToTheApplicationNotificationMessage" />
     <text value="안녕하세요 {0}, 사용법에 오신 것을 환영합니다." name="WelcomeToUseAilinkedlaw" />
     <text name="WhatWillDoneAfterSubscriptionExpiry" />
+    <text value="여부" name="whether" />
     <text value="하루 종일입니까?" name="WhetherAllDay" />
     <text value="보관 여부" name="WhetherArchive" />
     <text value="대량으로 다운로드됩니까?" name="WhetherBatchDownload" />
@@ -3255,6 +3290,7 @@
     <text value="작업 로그 - 검토 대기 중" name="WN.Works.Log.WaitApproved" />
     <text value="단어" name="word" />
     <text value="단어 수" name="WordCount" />
+    <text value="단어 세분화 설정" name="WordSegmenterSetting" />
     <text value="워크 벤치 구성 요소" name="WorkbenchWidgets" />
     <text value="근무일" name="WorkDate" />
     <text value="작업 날짜 입력란은 필수 항목입니다." name="WorkDateFormatRequired" />
