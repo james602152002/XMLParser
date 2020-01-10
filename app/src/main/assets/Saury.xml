@@ -502,6 +502,7 @@
     <text value="Change profile picture" name="ChangeProfilePicture" />
     <text value="Switch tenant" name="ChangeTenant" />
     <text value="Change texts" name="ChangeTexts" />
+    <text value="In the new numbering rules, the year has changed!" name="ChangeYear" />
     <text value="Changing features" name="ChangingFeatures" />
     <text value="Changing permissions" name="ChangingPermissions" />
     <text value="Changing texts" name="ChangingTexts" />
@@ -719,6 +720,7 @@
     <text value="Create a working log" name="CreateAWorkLog" />
     <text value="Create contract" name="CreateContract" />
     <text value="Created at &lt;b&gt;{0}&lt;/b&gt; by &lt;b&gt;{1}&lt;/b&gt;" name="CreatedAtByUser" />
+    <text value="%s created" name="CreatedBy" />
     <text value="new folder" name="CreateDocumentFolder" />
     <text value="Creation failed" name="CreateFailed" />
     <text value="upload files" name="CreateFile" />
@@ -1063,6 +1065,7 @@
     <text value="External Rate" name="ExternalRate" />
     <text value="failure" name="Fail" />
     <text value="Failed" name="Failed" />
+    <text value="Failed to obtain corporate WeChat token!" name="FailedQYWeChatToken" />
     <text value="Subscription termination is failed for following tenants {0} at {1}. You can find detailed error messages in system logs." name="FailedSubscriptionTerminations_Email_Body" />
     <text value="Failed Subscription Terminations" name="FailedSubscriptionTerminations_Email_Subject" />
     <text value="Subscription termination is failed for some tenants" name="FailedSubscriptionTerminations_SubTitle" />
@@ -2150,6 +2153,7 @@
     <text value="Pledgor" name="Pledgor" />
     <text value="Mailbox service" name="PluginGroup.Email" />
     <text value="Basic services" name="PluginGroup.LegalDta" />
+    <text value="other service" name="PluginGroup.Other" />
     <text value="Network disk service" name="PluginGroup.SkyDrive" />
     <text value="Please add a letter object" name="PlzAddLetterObject" />
     <text value="Please add conflict of interest information" name="PlzAddProfitConflictInfo" />
@@ -2323,7 +2327,7 @@
     <text value="Related Cases" name="RelatedCases" />
     <text value="Related customers" name="RelatedCustomers" />
     <text value="Relationship with it" name="RelatedPartiesRelationship" />
-    <text value="%s related" name="RelatedProjectCnt" />
+    <text value="%s total" name="RelatedProjectCnt" />
     <text value="Related project information" name="RelatedProjects" />
     <text value="Associated project" name="RelatedProjectsTitle" />
     <text value="Related" name="Relation" />
@@ -3095,6 +3099,7 @@
     <text value="Unclaimed" name="Unclaimed" />
     <text value="Cancel completion" name="UncompletedState" />
     <text value="Contractor" name="UndertakeLawyer" />
+    <text value="unfilled" name="UnFilled" />
     <text value="Unfinished debt amount" name="UnfinishedDebtAmount" />
     <text value="Unfold" name="Unfold" />
     <text value="Unified social credit code" name="UnifiedSocialCreditCode" />
@@ -3205,10 +3210,12 @@
     <text value="View approval content" name="ViewTheApprovalContents" />
     <text value="Visible to participants" name="VisibleToParticipants" />
     <text value="Visit" name="Visit" />
+    <text value="Visit end time" name="VisitEndTime" />
     <text value="Visit content" name="VisitingContent" />
     <text value="Visitors" name="Visitors" />
     <text value="visiting record" name="VisitRecord" />
     <text value="Create a visit record" name="VisitRecordCreation" />
+    <text value="Visit start time" name="VisitStartTime" />
     <text value="Visit time" name="VisitTime" />
     <text value="Visual Settings" name="VisualSettings" />
     <text value="wage" name="Wages" />

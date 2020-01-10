@@ -502,6 +502,7 @@
     <text value="修改头像" name="ChangeProfilePicture" />
     <text value="修改租户" name="ChangeTenant" />
     <text value="改变文本信息" name="ChangeTexts" />
+    <text value="新编号规则中，年份已改变!" name="ChangeYear" />
     <text value="正在修改特性参数" name="ChangingFeatures" />
     <text value="更改权限" name="ChangingPermissions" />
     <text value="正在修改文本信息" name="ChangingTexts" />
@@ -719,6 +720,7 @@
     <text value="创建工作日志" name="CreateAWorkLog" />
     <text value="创建合同" name="CreateContract" />
     <text value="由&lt;b&gt;{1}&lt;/b&gt;创建于&lt;b&gt;{0}&lt;/b&gt;" name="CreatedAtByUser" />
+    <text value="%s创建" name="CreatedBy" />
     <text value="新建文件夹" name="CreateDocumentFolder" />
     <text value="创建失败" name="CreateFailed" />
     <text value="上传文件" name="CreateFile" />
@@ -1063,6 +1065,7 @@
     <text value="外部费率" name="ExternalRate" />
     <text value="失败" name="Fail" />
     <text value="失败" name="Failed" />
+    <text value="获取企业微信Token失败！" name="FailedQYWeChatToken" />
     <text value="终止租户{1}的{0}订阅时失败。您可以在系统日志中找到详细的错误消息。" name="FailedSubscriptionTerminations_Email_Body" />
     <text value="订阅终止失败" name="FailedSubscriptionTerminations_Email_Subject" />
     <text value="一些租户的订阅终止失败" name="FailedSubscriptionTerminations_SubTitle" />
@@ -2150,6 +2153,7 @@
     <text value="出质人" name="Pledgor" />
     <text value="邮箱服务" name="PluginGroup.Email" />
     <text value="基础服务" name="PluginGroup.LegalDta" />
+    <text value="其他服务" name="PluginGroup.Other" />
     <text value="网盘服务" name="PluginGroup.SkyDrive" />
     <text value="请添加发函对象" name="PlzAddLetterObject" />
     <text value=" 请添加利益冲突信息" name="PlzAddProfitConflictInfo" />
@@ -2323,7 +2327,7 @@
     <text value="相关案件" name="RelatedCases" />
     <text value="关联客户" name="RelatedCustomers" />
     <text value="与其关系" name="RelatedPartiesRelationship" />
-    <text value="共 %s 关联项目" name="RelatedProjectCnt" />
+    <text value="共 %s 个关联项目" name="RelatedProjectCnt" />
     <text value="关联项目信息" name="RelatedProjects" />
     <text value="关联项目" name="RelatedProjectsTitle" />
     <text value="关联" name="Relation" />
@@ -3095,6 +3099,7 @@
     <text value="未认领" name="Unclaimed" />
     <text value="取消完成状态" name="UncompletedState" />
     <text value="承办律师" name="UndertakeLawyer" />
+    <text value="未填写" name="UnFilled" />
     <text value="尚未履行的债务金额" name="UnfinishedDebtAmount" />
     <text value="展开" name="Unfold" />
     <text value="统一社会信用代码" name="UnifiedSocialCreditCode" />
@@ -3205,10 +3210,12 @@
     <text value="查看审批内容" name="ViewTheApprovalContents" />
     <text value="参与人可见" name="VisibleToParticipants" />
     <text value="拜访" name="Visit" />
+    <text value="拜访结束时间" name="VisitEndTime" />
     <text value="拜访内容" name="VisitingContent" />
     <text value="拜访人员" name="Visitors" />
     <text value="拜访记录" name="VisitRecord" />
     <text value="创建拜访记录" name="VisitRecordCreation" />
+    <text value="拜访开始时间" name="VisitStartTime" />
     <text value="拜访时间" name="VisitTime" />
     <text value="视觉设置" name="VisualSettings" />
     <text value="工资" name="Wages" />

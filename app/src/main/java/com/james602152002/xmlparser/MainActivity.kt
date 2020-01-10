@@ -44,7 +44,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
                 XmlPullParser.START_TAG -> if ("text" == parser.name) {
                     //                        <Data><![CDATA[：%s]]></Data>
                     var name = parser.getAttributeValue(null, "name")
-                    if (name != null) {
+                    if (name != null && name != "new") {
                         var value: String? = parser.getAttributeValue(null, "value")
                         value = value?.replace("&".toRegex(), "&amp;")?.replace("'".toRegex(), "\\\\'")?.replace("忘记密码？ \\{0\\}\\.".toRegex(), "忘记密码？")?.replace("\\{0\\}\\.".toRegex(), "%s")
                                 ?: ""

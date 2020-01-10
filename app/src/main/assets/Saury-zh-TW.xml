@@ -502,6 +502,7 @@
     <text value="修改頭像" name="ChangeProfilePicture" />
     <text name="ChangeTenant" />
     <text value="改變文本信息" name="ChangeTexts" />
+    <text value="新編號規則中，年份已改變!" name="ChangeYear" />
     <text value="正在修改特性參數" name="ChangingFeatures" />
     <text value="更改權限" name="ChangingPermissions" />
     <text value="正在修改文本信息" name="ChangingTexts" />
@@ -719,6 +720,7 @@
     <text value="創建工作日誌" name="CreateAWorkLog" />
     <text value="創建合同" name="CreateContract" />
     <text name="CreatedAtByUser" />
+    <text value="%s創建" name="CreatedBy" />
     <text value="新建文件夾" name="CreateDocumentFolder" />
     <text value="創建失敗" name="CreateFailed" />
     <text value="上傳文件" name="CreateFile" />
@@ -1063,6 +1065,7 @@
     <text value="外部費率" name="ExternalRate" />
     <text value="失敗" name="Fail" />
     <text value="失敗" name="Failed" />
+    <text value="獲取企業微信Token失敗！" name="FailedQYWeChatToken" />
     <text name="FailedSubscriptionTerminations_Email_Body" />
     <text name="FailedSubscriptionTerminations_Email_Subject" />
     <text name="FailedSubscriptionTerminations_SubTitle" />
@@ -2150,6 +2153,7 @@
     <text value="出質人" name="Pledgor" />
     <text value="사서함 서비스" name="PluginGroup.Email" />
     <text value="기본 서비스" name="PluginGroup.LegalDta" />
+    <text value="其他服務" name="PluginGroup.Other" />
     <text value="網盤服務" name="PluginGroup.SkyDrive" />
     <text value="請添加發函對象" name="PlzAddLetterObject" />
     <text value="請添加利益衝突信息" name="PlzAddProfitConflictInfo" />
@@ -2323,7 +2327,7 @@
     <text value="相關案件" name="RelatedCases" />
     <text value="關聯客戶" name="RelatedCustomers" />
     <text value="與其關係" name="RelatedPartiesRelationship" />
-    <text value="共 %s 關聯項目" name="RelatedProjectCnt" />
+    <text value="共 %s 個關聯項目" name="RelatedProjectCnt" />
     <text value="關聯項目信息" name="RelatedProjects" />
     <text value="關聯項目" name="RelatedProjectsTitle" />
     <text value="關聯" name="Relation" />
@@ -3095,6 +3099,7 @@
     <text value="未認領" name="Unclaimed" />
     <text value="取消完成狀態" name="UncompletedState" />
     <text value="承辦律師" name="UndertakeLawyer" />
+    <text value="未填寫" name="UnFilled" />
     <text value="尚未履行的債務金額" name="UnfinishedDebtAmount" />
     <text value="展開" name="Unfold" />
     <text value="統一社會信用代碼" name="UnifiedSocialCreditCode" />
@@ -3205,10 +3210,12 @@
     <text value="查看審批內容" name="ViewTheApprovalContents" />
     <text value="參與人可見" name="VisibleToParticipants" />
     <text value="拜訪" name="Visit" />
+    <text value="拜訪結束時間" name="VisitEndTime" />
     <text value="拜訪內容" name="VisitingContent" />
     <text value="拜訪人員" name="Visitors" />
     <text value="拜訪記錄" name="VisitRecord" />
     <text value="創建拜訪記錄" name="VisitRecordCreation" />
+    <text value="拜訪開始時間" name="VisitStartTime" />
     <text value="拜訪時間" name="VisitTime" />
     <text name="VisualSettings" />
     <text value="工資" name="Wages" />

@@ -502,6 +502,7 @@
     <text value="그림 수정" name="ChangeProfilePicture" />
     <text name="ChangeTenant" />
     <text value="텍스트 정보 변경" name="ChangeTexts" />
+    <text value="새로운 번호 규칙에서 연도가 변경되었습니다!" name="ChangeYear" />
     <text value="기능 매개 변수 수정하기" name="ChangingFeatures" />
     <text value="권한 변경" name="ChangingPermissions" />
     <text value="문자 메시지 편집 중" name="ChangingTexts" />
@@ -719,6 +720,7 @@
     <text value="작업 로그 만들기" name="CreateAWorkLog" />
     <text value="계약서 작성" name="CreateContract" />
     <text name="CreatedAtByUser" />
+    <text value="%s작성" name="CreatedBy" />
     <text value="새 폴더" name="CreateDocumentFolder" />
     <text value="창조에 실패했습니다." name="CreateFailed" />
     <text value="파일 업로드" name="CreateFile" />
@@ -1063,6 +1065,7 @@
     <text value="외부 비율" name="ExternalRate" />
     <text value="실패" name="Fail" />
     <text value="실패" name="Failed" />
+    <text value="회사 WeChat 토큰을 가져 오지 못했습니다!" name="FailedQYWeChatToken" />
     <text name="FailedSubscriptionTerminations_Email_Body" />
     <text name="FailedSubscriptionTerminations_Email_Subject" />
     <text name="FailedSubscriptionTerminations_SubTitle" />
@@ -2150,6 +2153,7 @@
     <text value="Pledgor" name="Pledgor" />
     <text value="사서함 서비스" name="PluginGroup.Email" />
     <text value="기본 서비스" name="PluginGroup.LegalDta" />
+    <text value="다른 서비스" name="PluginGroup.Other" />
     <text value="網盤服務" name="PluginGroup.SkyDrive" />
     <text value="문자 개체를 추가하십시오" name="PlzAddLetterObject" />
     <text value="이해 상충 정보를 추가하십시오" name="PlzAddProfitConflictInfo" />
@@ -2323,7 +2327,7 @@
     <text value="관련 사례" name="RelatedCases" />
     <text value="관련 고객" name="RelatedCustomers" />
     <text value="그것과의 관계" name="RelatedPartiesRelationship" />
-    <text value="%s  관련" name="RelatedProjectCnt" />
+    <text value="총 %s" name="RelatedProjectCnt" />
     <text value="관련 프로젝트 정보" name="RelatedProjects" />
     <text value="관련 프로젝트" name="RelatedProjectsTitle" />
     <text value="관련" name="Relation" />
@@ -3095,6 +3099,7 @@
     <text value="청구되지 않음" name="Unclaimed" />
     <text value="완료 취소" name="UncompletedState" />
     <text value="계약자" name="UndertakeLawyer" />
+    <text value="채워지지 않음" name="UnFilled" />
     <text value="미완성 부채 금액" name="UnfinishedDebtAmount" />
     <text value="펼치기" name="Unfold" />
     <text value="통합 소셜 신용 코드" name="UnifiedSocialCreditCode" />
@@ -3205,10 +3210,12 @@
     <text value="승인 내용보기" name="ViewTheApprovalContents" />
     <text value="참가자에게 공개" name="VisibleToParticipants" />
     <text value="방문" name="Visit" />
+    <text value="방문 종료 시간" name="VisitEndTime" />
     <text value="콘텐츠 방문" name="VisitingContent" />
     <text value="방문객" name="Visitors" />
     <text value="방문 기록" name="VisitRecord" />
     <text value="방문 기록 만들기" name="VisitRecordCreation" />
+    <text value="방문 시작 시간" name="VisitStartTime" />
     <text value="방문 시간" name="VisitTime" />
     <text name="VisualSettings" />
     <text value="임금" name="Wages" />

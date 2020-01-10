@@ -502,6 +502,7 @@
     <text value="画像を変更する" name="ChangeProfilePicture" />
     <text name="ChangeTenant" />
     <text value="テキスト情報を変更する" name="ChangeTexts" />
+    <text value="新しい番号付け規則では、年が変わりました！" name="ChangeYear" />
     <text value="フィーチャパラメータの変更" name="ChangingFeatures" />
     <text value="権限を変更する" name="ChangingPermissions" />
     <text value="テキストメッセージの編集" name="ChangingTexts" />
@@ -719,6 +720,7 @@
     <text value="作業ログを作成する" name="CreateAWorkLog" />
     <text value="契約を作成する" name="CreateContract" />
     <text name="CreatedAtByUser" />
+    <text value="%sが作成されました" name="CreatedBy" />
     <text value="新しいフォルダ" name="CreateDocumentFolder" />
     <text value="作成に失敗しました" name="CreateFailed" />
     <text value="ファイルをアップロードする" name="CreateFile" />
@@ -1063,6 +1065,7 @@
     <text value="外部料金" name="ExternalRate" />
     <text value="失敗" name="Fail" />
     <text value="失敗" name="Failed" />
+    <text value="企業のWeChatトークンを取得できませんでした！" name="FailedQYWeChatToken" />
     <text name="FailedSubscriptionTerminations_Email_Body" />
     <text name="FailedSubscriptionTerminations_Email_Subject" />
     <text name="FailedSubscriptionTerminations_SubTitle" />
@@ -2150,6 +2153,7 @@
     <text value="プレドゴール" name="Pledgor" />
     <text value="メールボックスサービス" name="PluginGroup.Email" />
     <text value="基本サービス" name="PluginGroup.LegalDta" />
+    <text value="その他のサービス" name="PluginGroup.Other" />
     <text value="網盤服務" name="PluginGroup.SkyDrive" />
     <text value="レターオブジェクトを追加してください" name="PlzAddLetterObject" />
     <text value="利益相反情報を追加してください" name="PlzAddProfitConflictInfo" />
@@ -2323,7 +2327,7 @@
     <text value="関連するケース" name="RelatedCases" />
     <text value="関連するお客様" name="RelatedCustomers" />
     <text value="それとの関係" name="RelatedPartiesRelationship" />
-    <text value="%s 関連" name="RelatedProjectCnt" />
+    <text value="%s合計" name="RelatedProjectCnt" />
     <text value="関連プロジェクトの情報" name="RelatedProjects" />
     <text value="関連プロジェクト" name="RelatedProjectsTitle" />
     <text value="関連する" name="Relation" />
@@ -3095,6 +3099,7 @@
     <text value="未請求" name="Unclaimed" />
     <text value="完了をキャンセルする" name="UncompletedState" />
     <text value="請負業者" name="UndertakeLawyer" />
+    <text value="満たされていない" name="UnFilled" />
     <text value="未完債務額" name="UnfinishedDebtAmount" />
     <text value="展開する" name="Unfold" />
     <text value="統一された社会的信用コード" name="UnifiedSocialCreditCode" />
@@ -3205,10 +3210,12 @@
     <text value="承認コンテンツを表示する" name="ViewTheApprovalContents" />
     <text value="参加者に見える" name="VisibleToParticipants" />
     <text value="訪問" name="Visit" />
+    <text value="訪問終了時間" name="VisitEndTime" />
     <text value="訪問コンテンツ" name="VisitingContent" />
     <text value="訪問者" name="Visitors" />
     <text value="訪問記録" name="VisitRecord" />
     <text value="訪問記録を作成する" name="VisitRecordCreation" />
+    <text value="訪問開始時間" name="VisitStartTime" />
     <text value="訪問時間" name="VisitTime" />
     <text name="VisualSettings" />
     <text value="賃金" name="Wages" />
