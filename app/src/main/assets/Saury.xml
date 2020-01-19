@@ -2,11 +2,11 @@
 <localizationDictionary culture="en">
   <texts>
     <text value="ClientSecret is the key to the corresponding settings of the registered application in Azure." name=" Office365ClientSecretPrompt" />
-    <text value="&quot;{0}&quot; is invalid" name="{0}IsInvalid" />
-    <text value="{0} user can not be deleted." name="{0}UserCannotBeDeleted" />
+    <text value="&quot;{}&quot; is invalid" name="{0}IsInvalid" />
+    <text value="{Cannot delete 0} user." name="{0}UserCannotBeDeleted" />
     <text value="Court abbreviation" name="AbbreviationOfCourt" />
     <text value="About us" name="AboutUs" />
-    <text value="Organization unit" name="Abp.Organizations.OrganizationUnit" />
+    <text value="Organizational Unit" name="Abp.Organizations.OrganizationUnit" />
     <text value="Application settings cache" name="AbpApplicationSettingsCache" />
     <text value="Law firm preference setting cache" name="AbpTenantSettingsCache" />
     <text value="User preference setting cache" name="AbpUserSettingsCache" />
@@ -21,7 +21,7 @@
     <text value="Bachelor of Science" name="AcademicDegree" />
     <text value="Accepted time" name="AcceptTime" />
     <text value="access" name="Access" />
-    <text value="Access to your applications and resources, even when you are offline" name="Access to your applications and resources, even when you are offline" />
+    <text value="Access your applications and resources even if you are offline" name="Access to your applications and resources, even when you are offline" />
     <text value="Access card number" name="AccessCardNumber" />
     <text value="Account Management" name="AccountManagement" />
     <text value="account number" name="AccountNumber" />
@@ -87,7 +87,7 @@
     <text value="Administrator guide" name="AdministratorGuide" />
     <text value="admin password" name="AdminPassword" />
     <text value="admin password (repeat)" name="AdminPasswordRepeat" />
-    <text value="Admin role can not be removed from admin user" name="AdminRoleCannotRemoveFromAdminUser" />
+    <text value="The admin role cannot be deleted from the admin user" name="AdminRoleCannotRemoveFromAdminUser" />
     <text value="Pre" name="Advance" />
     <text value="Advanced Search" name="AdvancedSearch" />
     <text value="The other party" name="Adversary" />
@@ -113,10 +113,10 @@
     <text value="All caches successfully cleared." name="AllCachesSuccessfullyCleared" />
     <text value="All customers" name="AllCustomers" />
     <text value="All day" name="AllDay" />
-    <text value="All functionality you have in the application" name="AllFunctionalityYouHaveInTheApplication" />
+    <text value="All the features you have in your application" name="AllFunctionalityYouHaveInTheApplication" />
     <text value="Proportional allocation of quotas" name="AllocationQuotas" />
     <text value="Required permissions are not granted. All of these permissions must be granted: {0}" name="AllOfThesePermissionsMustBeGranted" />
-    <text value="Allow" name="Allow" />
+    <text value="allow" name="Allow" />
     <text value="Allow tenants to register to the system." name="AllowTenantsToRegisterThemselves" />
     <text value="If you disable this, tenants will only be added by admin using tenant management page." name="AllowTenantsToRegisterThemselves_Hint" />
     <text value="Allow to remember browser. If you allow this, users can select to remember browser to skip second time two factor login for the same browser." name="AllowToRememberBrowserForTwoFactorLogin" />
@@ -126,7 +126,7 @@
     <text value="all rights reserved." name="AllRightReserved" />
     <text value="All schedule" name="AllSchedule" />
     <text value="All tasks" name="AllTask" />
-    <text value="User import process has been completed successfully. All users in file are imported." name="AllUsersSuccessfullyImportedFromExcel" />
+    <text value="The user import process has completed successfully and all users in the file have been imported." name="AllUsersSuccessfullyImportedFromExcel" />
     <text value="Already have an account, log in now" name="Alreadyaccountloginnow" />
     <text value="Archived" name="AlreadyArchived" />
     <text value="collected" name="AlreadyCollected" />
@@ -148,7 +148,7 @@
     <text value="There was an error communicating with the server." name="AnHttpErrorOccured" />
     <text value="announcement" name="Announcement" />
     <text value="Announcement time" name="Announcementtime" />
-    <text value="Annual" name="Annual" />
+    <text value="annual" name="Annual" />
     <text value="Annual statistics on the number of cases involved in the case" name="AnnualCasesStatistics" />
     <text value="Annual Daily Total Hours Statistics" name="AnnualDailyLogHoursStatistics" />
     <text value="Annual daily statistics" name="AnnualDailyStatistics" />
@@ -187,7 +187,7 @@
     <text value="Reviewer" name="Applicants" />
     <text value="Application date" name="Applicatedate" />
     <text value="application" name="Application" />
-    <text value="Application Access" name="ApplicationAccess" />
+    <text value="Application access" name="ApplicationAccess" />
     <text value="Apply for seal" name="ApplicationCertificateStamp" />
     <text value="Filing date" name="ApplicationDate" />
     <text value="Document application type" name="ApplicationFileType" />
@@ -288,6 +288,7 @@
     <text value="Basic amount" name="BasicAmount" />
     <text value="Basic Information" name="BasicInformation" />
     <text value="Basic plus risk" name="BasicPlusRisk" />
+    <text value="basis" name="Basis" />
     <text value="Batch download" name="BatchDownload" />
     <text value="Batch preview" name="BatchPreview" />
     <text value="Batch processing" name="BatchProcess" />
@@ -351,6 +352,8 @@
     <text value="Business area" name="BusinessArea" />
     <text value="Business card increase" name="BusinessCardIncrease" />
     <text value="Service category" name="BusinessCategory" />
+    <text value="Total number of business customers" name="BusinessCustomerCnt" />
+    <text value="Business customers" name="BusinessCustomers" />
     <text value="Business hours by organization" name="BusinessHoursByorganization" />
     <text value="Sorry, business hours can only enter numbers" name="BusinessHoursCanOnlyEnterNumbers" />
     <text value="Business hours are year-on-year" name="BusinessHoursCompare" />
@@ -362,7 +365,7 @@
     <text value="Business hours" name="BusinessTime" />
     <text value="business type" name="BusinessType" />
     <text value="Button alignment" name="ButtonAlign" />
-    <text value="Buy now" name="BuyNow" />
+    <text value="buy now" name="BuyNow" />
     <text value="{0} Edition" name="BuyNow_Edition_Description" />
     <text value="Caches" name="Caches" />
     <text value="You can clear caches in application on this page." name="CachesHeaderInfo" />
@@ -381,6 +384,7 @@
     <text value="Cancel conversion tips" name="CancelConversionPrompt" />
     <text value="Abolished" name="Cancellation" />
     <text value="Unmerge" name="CancelMerge" />
+    <text value="Are you sure you want to cancel the merged contact information!" name="CancelMergeWarningMessage" />
     <text value="Cancel review" name="CancelTheAudit" />
     <text value="Invoicing" name="CanInvoices" />
     <text value="Can't be empty." name="CannotBeEmpty" />
@@ -390,6 +394,7 @@
     <text value="Sorry, you cannot create or edit a folder directly under this directory. Please select another directory!" name="CannotEditDirectlyUnderThisDirectory" />
     <text value="Can not edit or delete default languages. You can only edit or delete the languages you added. But you can change texts of all languages." name="CanNotEditOrDeleteDefaultLanguages" />
     <text value="Can not file a case" name="CanNotFileACase" />
+    <text value="Cannot jump to the current mailbox, please contact the administrator!" name="CannotJumpToMailbox" />
     <text value="Non-collectible" name="CanNotReceivables" />
     <text value="Can not upgrade subscription since tenant has no edition assigned." name="CanNotUpgradeSubscriptionSinceTenantHasNoEditionAssigned" />
     <text value="Sorry, you cannot upload files directly in this directory. Please select another directory!" name="CannotUploadFilesDirectlyUnderThisDirectory" />
@@ -498,7 +503,7 @@
     <text value="Remarks: After changing the department unit, the user only has the database authority contained in the department to which he belongs, and the data authority directly specified for the user will be canceled." name="ChangeOrganizationUnitNote" />
     <text value="Change password" name="ChangePassword" />
     <text value="You must change your password before linking this account!" name="ChangePasswordBeforeLinkToAnAccount" />
-    <text value="You must change your password before logging on!" name="ChangePasswordToLogin" />
+    <text value="You must change your password before logging in!" name="ChangePasswordToLogin" />
     <text value="Change profile picture" name="ChangeProfilePicture" />
     <text value="Switch tenant" name="ChangeTenant" />
     <text value="Change texts" name="ChangeTexts" />
@@ -531,6 +536,7 @@
     <text value="View conversation" name="CheckDialogue" />
     <text value="Has not been bound to the nut cloud account, is it bound?" name="CheckJianGuoYunAccounts" />
     <text value="The network is lost, please check the network" name="CheckNetwork" />
+    <text value="Check new version" name="CheckNewVersion" />
     <text value="Check number" name="CheckNumber" />
     <text value="Not yet bound to the Office365 account, is it bound?" name="CheckOffice365Accounts" />
     <text value="Checkout with PayPal" name="CheckoutWithPaypal" />
@@ -557,6 +563,7 @@
     <text value="click here" name="ClickHere" />
     <text value="Click on the link on the right to view the pre-operation information" name="ClickOnTheRightLinkToViewTheFrontActionInfo" />
     <text value="Click to download sample" name="ClickTheDownloadExample" />
+    <text value="Click the + sign on the right to add charging information" name="ClickToAddChargingInformation" />
     <text value="User import process has been completed. There are some invalid data. Click to see Invalid user imports." name="ClickToSeeInvalidUsers" />
     <text value="Client" name="Client" />
     <text value="Client's case contact" name="ClientCaseContact" />
@@ -566,9 +573,10 @@
     <text value="Client Description" name="ClientDescription" />
     <text value="There is no contact information for the customer, click on the upper right corner" name="ClientHasNoContact" />
     <text value="There is no contact information for the customer. Click the plus sign in the upper right corner to add the contact person in the case." name="ClientHasNoContactAndClickToAddCaseContacts" />
-    <text value="{0} is requesting your permission" name="ClientIsRequestingYourPermission" />
+    <text value="{0} requesting your permission" name="ClientIsRequestingYourPermission" />
     <text value="Customer project" name="ClientProject" />
     <text value="Customer area" name="ClientRegion" />
+    <text value="The current customer is connected to the case and cannot be deleted!" name="ClientRelatedCases" />
     <text value="Customer contact" name="ClientRelationContact" />
     <text value="Enterprise reports are time-sensitive, click to download the latest to download the latest report" name="ClientReportTip" />
     <text value="Clients" name="ClientSide" />
@@ -752,6 +760,7 @@
     <text value="Currency" name="Currency" />
     <text value="According to currency statistics" name="CurrencyStatistics" />
     <text value="Currency type" name="CurrencyType" />
+    <text value="current" name="Current" />
     <text value="The current archive number already exists!" name="CurrentArchiveNumberHasAlreadyExisted" />
     <text value="The current case conflict preflight has been processed!" name="CurrentCaseConflictPrecheckHasBeenProcessed" />
     <text value="The current case review already has processing results" name="CurrentCaseReviewAlreadyHasProcessingResults" />
@@ -799,6 +808,7 @@
     <text value="Customer type" name="CustomerType" />
     <text value="Customer visit information table" name="CustomerVisitInformationTable" />
     <text value="Customer visit record" name="CustomerVisitRecord" />
+    <text value="Custom Login Page Banner" name="CustomLoginBanner" />
     <text value="Custom range" name="CustomRange" />
     <text value="blue" name="Cyan" />
     <text value="Daily" name="Daily" />
@@ -816,7 +826,7 @@
     <text value="loading" name="DataLoading" />
     <text value="data permission" name="DataPermissions" />
     <text value="Date" name="Date" />
-    <text value="Date and Time Pickers" name="DateAndTimePickers" />
+    <text value="Date and time picker" name="DateAndTimePickers" />
     <text value="Date delimiter" name="DateDelimiter" />
     <text value="Date difference calculation" name="DateDiffCalculation" />
     <text value="Date formatting" name="DateFormat" />
@@ -1044,6 +1054,7 @@
     <text value="Executive target" name="Executivetarget" />
     <text value="Executor" name="Executor" />
     <text value="In the similar customer list, the corresponding customer information is retrieved according to the conditions. Currently, the customer in the list has not been selected to replace the current case customer. Is it confirmed to be correct?" name="ExisitsSimilarReplaceableCustomersWhetherConfirmPositive" />
+    <text value="A contact with the same name already exists under the current customer!" name="ExistsSameNameOnCLient" />
     <text value="Exit Full Screen" name="ExitFullScreen" />
     <text value="Expand" name="Expand" />
     <text value="Task time-consuming" name="ExpenditureOfTime" />
@@ -1065,6 +1076,7 @@
     <text value="External Rate" name="ExternalRate" />
     <text value="failure" name="Fail" />
     <text value="Failed" name="Failed" />
+    <text value="Failed to get French angel file!" name="FailedFTSFile" />
     <text value="Failed to obtain corporate WeChat token!" name="FailedQYWeChatToken" />
     <text value="Subscription termination is failed for following tenants {0} at {1}. You can find detailed error messages in system logs." name="FailedSubscriptionTerminations_Email_Body" />
     <text value="Failed Subscription Terminations" name="FailedSubscriptionTerminations_Email_Subject" />
@@ -1075,6 +1087,7 @@
     <text value="Ethnic" name="FamilyName" />
     <text value="Angel of law" name="FaTianShi" />
     <text value="Fax" name="Fax" />
+    <text value="Features" name="FeatureIntroduction" />
     <text value="Features" name="Features" />
     <text value="February" name="February" />
     <text value="Use feedback" name="Feedback" />
@@ -1085,6 +1098,7 @@
     <text value="Please briefly introduce the main idea of ​​feedback:)" name="FeedbackTitlePlaceholder" />
     <text value="Fee details" name="FeeDetail" />
     <text value="Charges and contract attachments" name="FeesAndContractAccessories" />
+    <text value="Consulting client" name="FGClient" />
     <text value="Field" name="Field" />
     <text value="File" name="File" />
     <text value="Please select a file!" name="File_Empty_Error" />
@@ -1111,6 +1125,7 @@
     <text value="Filter by permission" name="FilterByPermission" />
     <text value="Filter by role" name="FilterByRole" />
     <text value="Filter by status" name="FilterByState" />
+    <text value="Filter default characters" name="FilterDefaultCharacters" />
     <text value="Filter/Add user" name="FilterOrAddUser" />
     <text value="Finance" name="Finance" />
     <text value="financial analysis" name="FinancialAnalysis" />
@@ -1168,6 +1183,7 @@
     <text value="Closing Request Information Form" name="FormOfClosingApplicationInformation" />
     <text value="Forward calculation" name="ForwardCalculation" />
     <text value="Free" name="Free" />
+    <text value="Free agent" name="FreeAgent" />
     <text value="Free editions cannot have trial versions" name="FreeEditionsCannotHaveTrialVersions" />
     <text value="Free hours" name="FreeHour" />
     <text value="Free trial" name="FreeTrial" />
@@ -1356,6 +1372,7 @@
     <text value="Foreign-related" name="IsForeign" />
     <text value="Enable Google Authenticator" name="IsGoogleAuthenticatorEnabled" />
     <text value="Is in trial period?" name="IsInTrialPeriod" />
+    <text value="Currently the latest version" name="IsLatestVersion" />
     <text value="Lockout enabled" name="IsLockoutEnabled" />
     <text value="User is locked for a while after a certain amount of failed login attempts." name="IsLockoutEnabled_Hint" />
     <text value="Not involved" name="IsNotForeign" />
@@ -1485,6 +1502,7 @@
     <text value="locked" name="Locked" />
     <text value="Locked successfully!" name="LockedSuccessfully" />
     <text value="locking" name="Locking" />
+    <text value="Enable lock / unlock" name="LockoutEnable" />
     <text value="Lock screen" name="LockScreen" />
     <text value="Logs" name="Log" />
     <text value="Log analysis" name="LogAnalysis" />
@@ -1597,7 +1615,9 @@
     <text value="Members" name="Members" />
     <text value="Menu bar background color" name="MenuBarSkins" />
     <text value="Menu permissions" name="MenuPermissions" />
+    <text value="Merge contacts" name="MergeContact" />
     <text value="merge" name="Merged" />
+    <text value="Are you sure you want to merge the current contacts!" name="MergeWarningMessage" />
     <text value="Message" name="Message" />
     <text value="Message notification" name="MessageNotification" />
     <text value="Messages" name="Messages" />
@@ -1657,7 +1677,7 @@
     <text value="Your network has been lost, please click to try again~" name="NetworkLost" />
     <text value="new" name="new" />
     <text value="You have a new chat message" name="NewChatMessageEmail_Subject" />
-    <text name="NewChatMessageEmail_SubTitle" />
+    <text value="New chat message email header" name="NewChatMessageEmail_SubTitle" />
     <text value="Message Details" name="NewChatMessageEmail_Title" />
     <text value="{0} posted a new comment under task [{1}]." name="NewCommentsRemind" />
     <text value="New notifications" name="NewNotifications" />
@@ -1709,6 +1729,7 @@
     <text value="Unmerged" name="NoMerge" />
     <text value="No more" name="NoMoreMessage" />
     <text value="None" name="None" />
+    <text value="No need to fill in, it is automatically calculated according to the charging method" name="NoNeedToFillIn" />
     <text value="The current directory is the base directory under the case, and there is no need to set personnel and role permissions separately." name="NoNeedToSetPermissions" />
     <text value="No news is currently set" name="NoNewsWasSet" />
     <text value="Non Local Office" name="NonLocalOffice" />
@@ -1796,6 +1817,7 @@
     <text value="old" name="old" />
     <text value="On" name="On" />
     <text value="Onboarding" name="Onboarding" />
+    <text value="One Key" name="OneKey" />
     <text value="Ongoing project" name="OngoingProjects" />
     <text value="Online" name="Online" />
     <text value="Sorry, you can only rename a single file!" name="OnlyIndividualFilesCanBeRenamed" />
@@ -2045,7 +2067,7 @@
     <text value="Your operation might be timed out, please contact us if you already made the payment." name="PaymentMightBeExpiredWarning" />
     <text value="payment method" name="PaymentMode" />
     <text value="Payment period type" name="PaymentPeriodType" />
-    <text value="Annual" name="PaymentPeriodType_Annual" />
+    <text value="Per year" name="PaymentPeriodType_Annual" />
     <text value="Monthly" name="PaymentPeriodType_Monthly" />
     <text value="Penalty content" name="Penaltycontent" />
     <text value="Penalty item" name="PenaltyItem" />
@@ -2155,6 +2177,7 @@
     <text value="Basic services" name="PluginGroup.LegalDta" />
     <text value="other service" name="PluginGroup.Other" />
     <text value="Network disk service" name="PluginGroup.SkyDrive" />
+    <text value="Please add charge information" name="PlzAddChargeInfo" />
     <text value="Please add a letter object" name="PlzAddLetterObject" />
     <text value="Please add conflict of interest information" name="PlzAddProfitConflictInfo" />
     <text value="Please confirm the charge and contract information" name="PlzConfirmChargeAndContractInfo" />
@@ -2247,6 +2270,7 @@
     <text value="be divided in portion" name="ProportionateDistribution" />
     <text value="Provident fund loans" name="ProvidentFundLoans" />
     <text value="Open project" name="PublicProject" />
+    <text value="Published" name="Published" />
     <text value="Punctual record log" name="PunctualLog" />
     <text value="Punishment agency" name="PunishmentMechanism" />
     <text value="Punishment time" name="Punishmenttime" />
@@ -2270,6 +2294,7 @@
     <text value="Rate" name="Rate" />
     <text value="Exchange rate update date" name="RateUpdateDate" />
     <text value="Read state" name="ReadState" />
+    <text value="Reason for agency" name="ReasonForAgency" />
     <text value="Reason for invalidation" name="ReasonOfInvalidation" />
     <text value="Reasons for refusing to attend" name="ReasonsForRejectToAttend" />
     <text value="Collection amount:" name="ReceiptAmountTitle" />
@@ -2327,7 +2352,7 @@
     <text value="Related Cases" name="RelatedCases" />
     <text value="Related customers" name="RelatedCustomers" />
     <text value="Relationship with it" name="RelatedPartiesRelationship" />
-    <text value="%s total" name="RelatedProjectCnt" />
+    <text value="%s related cases" name="RelatedProjectCnt" />
     <text value="Related project information" name="RelatedProjects" />
     <text value="Associated project" name="RelatedProjectsTitle" />
     <text value="Related" name="Relation" />
@@ -2783,6 +2808,7 @@
     <text value="Form name" name="TableName" />
     <text value="Table preference" name="TablePreference" />
     <text value="Job Category Order" name="Tactic" />
+    <text value="Tagline" name="Tagline" />
     <text value="Tag repeat" name="TagRepeat" />
     <text value="Bring out registration" name="TakeOutRegistration" />
     <text value="Take time out" name="TakeOutTime" />
@@ -2845,6 +2871,7 @@
     <text value="Template file information table" name="TemplateFileInformationSheet" />
     <text value="The template file information you selected no longer exists!" name="TemplateFileYouChooseDoesNotExist" />
     <text value="The template file you selected no longer exists!" name="TemplateFileYouSelectedDoesNotExist" />
+    <text value="Template Id cannot be empty" name="TemplateIdCanNotEmpty" />
     <text value="Template language" name="TemplateLanguage" />
     <text value="Template name" name="TemplateName" />
     <text value="Template stage" name="TemplateStage" />
@@ -2897,7 +2924,7 @@
     <text value="Thank you for your support, thank you!" name="ThanksForSupport" />
     <text value="year" name="TheAnnual" />
     <text value="Bill [{0}]{1}." name="TheBillNotify" />
-    <text value="This citizenship information already exists!" name="TheCardNoHasAlreadyExisted" />
+    <text value="This citizenship information already exists! " name="TheCardNoHasAlreadyExisted" />
     <text value="The case file you applied for [{0}] was stamped and not approved by {1}." name="TheCaseFileIsNotStamped" />
     <text value="The caser returned" name="TheCaserReturned" />
     <text value="Category name already exists!" name="TheCategoryNameAlreadyExists" />
@@ -2936,6 +2963,8 @@
     <text value="The number of working days this month" name="TheNumberOfWorkDaysThisMonth" />
     <text value="The number of working days this month" name="TheNumberOfWorkingDaysThisMonth" />
     <text value="The official case data is currently displayed by default. If you need to retrieve more, please change the status condition in advanced search!" name="TheOfficialCaseDataIsCurrentlyDisplayedByDefault" />
+    <text value="Case customers are currently displayed by default. If you need to retrieve more, please change the status criteria in advanced search!" name="TheOfficialClientDataIsCurrentlyDisplayedByDefault" />
+    <text value="Previous" name="ThePrevious" />
     <text value="There are tenants subscribed to this edition. Please assign a different edition to them and then delete this edition." name="ThereAreTenantsSubscribedToThisEdition" />
     <text value="There is a fee {0}." name="ThereIsAFee" />
     <text value="There is an invoice {2} with amount {0}{1}." name="ThereIsAnInvoiceFor" />
@@ -3019,10 +3048,11 @@
     <text value="Transfer" name="TransferAccounts" />
     <text value="Has been turned positive" name="Transfered" />
     <text value="Trial" name="Trial" />
-    <text value="Trial day count" name="TrialDayCount" />
+    <text value="Trial days" name="TrialDayCount" />
     <text value="Your trial period will expire in {0} day(s)." name="TrialExpireNotification" />
     <text value="You are in Trial period for {0} edition, {1} to purchase." name="TrialSubscriptionNotification" />
     <text value="Try it" name="TryIt" />
+    <text value="Enable two-step authentication login" name="TwoFactorEnabled" />
     <text value="Two Factor Login" name="TwoFactorLogin" />
     <text value="Two factor login is not currently supported!" name="TwoFactorLoginIsNotSupported" />
     <text value="Types of" name="Type" />
@@ -3031,8 +3061,8 @@
     <text value="Type of company" name="Typeofcompany" />
     <text value="Type of violation" name="Typeofviolation" />
     <text value="Job category" name="TypeOfWork" />
-    <text value="Allow aside hiding" name="UiCustomization_AllowAsideHiding" />
-    <text value="Allow aside minimizing" name="UiCustomization_AllowAsideMinimizing" />
+    <text value="Allow one side to hide" name="UiCustomization_AllowAsideHiding" />
+    <text value="try to deduct" name="UiCustomization_AllowAsideMinimizing" />
     <text value="Boxed" name="UiCustomization_Boxed" />
     <text value="Content skin" name="UiCustomization_ContentSkin" />
     <text value="Dark" name="UiCustomization_Dark" />

@@ -2,11 +2,11 @@
 <localizationDictionary culture="zh-TW">
   <texts>
     <text value="ClientSecret是在Azure中已註冊應用程序對應設置的密鑰。" name=" Office365ClientSecretPrompt" />
-    <text name="{0}IsInvalid" />
-    <text name="{0}UserCannotBeDeleted" />
+    <text value="&quot;{}&quot;是無效的" name="{0}IsInvalid" />
+    <text value="{不能刪除0}用戶." name="{0}UserCannotBeDeleted" />
     <text value="法院簡稱" name="AbbreviationOfCourt" />
     <text value="關於我們" name="AboutUs" />
-    <text name="Abp.Organizations.OrganizationUnit" />
+    <text value="組織單位" name="Abp.Organizations.OrganizationUnit" />
     <text value="應用程序設置緩存" name="AbpApplicationSettingsCache" />
     <text value="律所偏好設置緩存" name="AbpTenantSettingsCache" />
     <text value="用戶偏好設置緩存" name="AbpUserSettingsCache" />
@@ -21,7 +21,7 @@
     <text value="學位" name="AcademicDegree" />
     <text value="接受時間" name="AcceptTime" />
     <text value="訪問" name="Access" />
-    <text name="Access to your applications and resources, even when you are offline" />
+    <text value="即使您處於脫機狀態，也可以訪問您的應用程序和資源" name="Access to your applications and resources, even when you are offline" />
     <text value="門禁卡編號" name="AccessCardNumber" />
     <text value="賬號管理" name="AccountManagement" />
     <text value="賬號" name="AccountNumber" />
@@ -87,7 +87,7 @@
     <text value="管理員操作指引" name="AdministratorGuide" />
     <text value="管理員密碼" name="AdminPassword" />
     <text value="管理員密碼(核對)" name="AdminPasswordRepeat" />
-    <text name="AdminRoleCannotRemoveFromAdminUser" />
+    <text value="管理員角色無法從管理員用戶中刪除" name="AdminRoleCannotRemoveFromAdminUser" />
     <text value="預" name="Advance" />
     <text value="高級搜索" name="AdvancedSearch" />
     <text value="對方當事人" name="Adversary" />
@@ -113,10 +113,10 @@
     <text value="所有緩存成功清除." name="AllCachesSuccessfullyCleared" />
     <text value="所有客戶" name="AllCustomers" />
     <text value="全天" name="AllDay" />
-    <text name="AllFunctionalityYouHaveInTheApplication" />
+    <text value="您在應用程序中擁有的所有功能" name="AllFunctionalityYouHaveInTheApplication" />
     <text value="限額按比例分配" name="AllocationQuotas" />
-    <text name="AllOfThesePermissionsMustBeGranted" />
-    <text name="Allow" />
+    <text value="未授予所需權限，必須授予以下權限：{0}" name="AllOfThesePermissionsMustBeGranted" />
+    <text value="允許" name="Allow" />
     <text value="允許在系統註冊租戶." name="AllowTenantsToRegisterThemselves" />
     <text value="如果您禁用此功能，則只能由管理員使用租戶管理頁面添加租戶." name="AllowTenantsToRegisterThemselves_Hint" />
     <text value="允許記住瀏覽器. 如果允許，用戶可以選擇記住瀏覽器以跳過同一瀏覽器的雙重驗證." name="AllowToRememberBrowserForTwoFactorLogin" />
@@ -126,7 +126,7 @@
     <text value="保留所有權利。" name="AllRightReserved" />
     <text value="全部日程" name="AllSchedule" />
     <text value="全部任務" name="AllTask" />
-    <text name="AllUsersSuccessfullyImportedFromExcel" />
+    <text value="用戶導入過程已成功完成， 文件中的所有用戶均已導入。" name="AllUsersSuccessfullyImportedFromExcel" />
     <text value="已有賬號,現在登錄" name="Alreadyaccountloginnow" />
     <text value="已歸檔" name="AlreadyArchived" />
     <text value="已收藏" name="AlreadyCollected" />
@@ -144,11 +144,11 @@
     <text value="工作時長分析" name="AnalysisofWorkingHours" />
     <text value="分析頁" name="AnalysisPage" />
     <text value="分析頁組件" name="AnalysisPageWidgets" />
-    <text name="AnErrorOccurred" />
-    <text name="AnHttpErrorOccured" />
+    <text value="發生了一個錯誤，請稍後重試。" name="AnErrorOccurred" />
+    <text value="與服務器通信時出錯。" name="AnHttpErrorOccured" />
     <text value="公告" name="Announcement" />
     <text value="公告時間" name="Announcementtime" />
-    <text name="Annual" />
+    <text value="全年" name="Annual" />
     <text value="年度參案角色案件數量統計" name="AnnualCasesStatistics" />
     <text value="年度每日日誌總小時數統計" name="AnnualDailyLogHoursStatistics" />
     <text value="年度每日收案數統計" name="AnnualDailyStatistics" />
@@ -159,12 +159,12 @@
     <text value="年度參案角色任務數量統計" name="Annualnumberofparticipatingtasks" />
     <text value="年度人員角色案件數量統計" name="AnnualPersonnelCaseStatistics" />
     <text value="年度人員角色任務數量統計" name="Annualpersonnelroletaskstatistics" />
-    <text name="AnnualPrice" />
+    <text value="每年價格" name="AnnualPrice" />
     <text value="年度統計" name="AnnualStatistics" />
     <text value="組織機構案件年度統計" name="AnnualStatisticsOrganizationCases" />
     <text value="組織機構客戶年度統計" name="AnnualStatisticsOrganizationCustomers" />
     <text value="組織機構用戶年度統計" name="AnnualStatisticsOrganizationUsers" />
-    <text name="Anonymous" />
+    <text value="匿名" name="Anonymous" />
     <text value="結案" name="App.Business.CaseClose" />
     <text value="立案" name="App.Business.CaseCreation" />
     <text value="文書" name="App.Business.CaseFile" />
@@ -182,12 +182,12 @@
     <text value="日程" name="App.Works.Schedule" />
     <text value="任務" name="App.Works.Task" />
     <text value="律智薈" name="app_name" />
-    <text name="Appearance" />
+    <text value="外觀" name="Appearance" />
     <text value="申請人" name="Applicant" />
     <text value="報審人" name="Applicants" />
     <text value="申請日" name="Applicatedate" />
     <text value="應用" name="Application" />
-    <text name="ApplicationAccess" />
+    <text value="應用程序訪問權限" name="ApplicationAccess" />
     <text value="申請蓋章" name="ApplicationCertificateStamp" />
     <text value="報審日期" name="ApplicationDate" />
     <text value="文件申請類型" name="ApplicationFileType" />
@@ -239,13 +239,13 @@
     <text value="名稱倒序" name="AscendingOfTitle" />
     <text value="按時間升序" name="AscendingOrderOfTime" />
     <text value="已分配" name="Assigned" />
-    <text name="AssignToAnotherEdition" />
+    <text value="分配到另一個版本" name="AssignToAnotherEdition" />
     <text value="助理電話" name="AssistantPhone" />
     <text value="關聯賬單信息" name="AssociatedBillingInfo" />
     <text value="關聯發票信息" name="AssociatedInvoiceInfo" />
     <text value="關聯主鍵編號" name="AssociatePrimaryKey" />
-    <text name="AtLeastOneOfThesePermissionsMustBeGranted" />
-    <text name="Attach" />
+    <text value="未授予所需權限，至少授予以下權限之一：{0}" name="AtLeastOneOfThesePermissionsMustBeGranted" />
+    <text value="連接" name="Attach" />
     <text value="附件信息" name="AttachmentInformation" />
     <text value="勞動合同附件" name="AttachmentOfLaborContract" />
     <text value="附件" name="Attachments" />
@@ -271,7 +271,7 @@
     <text value="作者重要級別" name="AuthorImportantLevel" />
     <text value="授權角色" name="AuthorizationRole" />
     <text value="授權用戶" name="AuthorizationUser" />
-    <text name="AutomaticallyBillMyAccount" />
+    <text value="啟用定期付款" name="AutomaticallyBillMyAccount" />
     <text value="自動生成的案件材料" name="AutomaticallyGeneratedCaseMaterial" />
     <text value="平均值" name="AverageValue" />
     <text value="返回" name="Back" />
@@ -288,6 +288,7 @@
     <text value="基本金額" name="BasicAmount" />
     <text value="基本信息" name="BasicInformation" />
     <text value="基本加風險" name="BasicPlusRisk" />
+    <text value="基礎" name="Basis" />
     <text value="批量下載" name="BatchDownload" />
     <text value="批量預覽" name="BatchPreview" />
     <text value="批量處理" name="BatchProcess" />
@@ -308,7 +309,7 @@
     <text value="賬單已被處理" name="BillHasBeenProcessed" />
     <text value="賬單小時" name="BillHours" />
     <text value="賬單小時：" name="BillHoursWithColon" />
-    <text name="Billing" />
+    <text value="賬單" name="Billing" />
     <text value="開票金額" name="BillingAmount" />
     <text value="賬單關聯" name="BillingAssociation" />
     <text value="賬單週期" name="BillingCycle" />
@@ -339,7 +340,7 @@
     <text value="盒狀" name="Boxed" />
     <text value="案情簡介" name="BriefIntroductionOfTheCase" />
     <text value="棕色" name="Brown" />
-    <text name="Browse" />
+    <text value="瀏覽" name="Browse" />
     <text value="為了正常使用網站功能，請使用這些現代的網頁瀏覽器。" name="BrowseHappyCanUseBrowsers" />
     <text value="您當前的瀏覽器版本過低，可能導致網站不能正常訪問！" name="BrowseHappyTips" />
     <text value="瀏覽器" name="Browser" />
@@ -351,6 +352,8 @@
     <text value="業務領域" name="BusinessArea" />
     <text value="名片增加" name="BusinessCardIncrease" />
     <text value="業務類別" name="BusinessCategory" />
+    <text value="業務客戶總數" name="BusinessCustomerCnt" />
+    <text value="業務客戶" name="BusinessCustomers" />
     <text value="按組織機構統計業務時長" name="BusinessHoursByorganization" />
     <text value="對不起，業務小時只能輸入數字" name="BusinessHoursCanOnlyEnterNumbers" />
     <text value="業務時長同比" name="BusinessHoursCompare" />
@@ -362,8 +365,8 @@
     <text value="業務時長" name="BusinessTime" />
     <text value="業務類型" name="BusinessType" />
     <text value="按鈕對齊方式" name="ButtonAlign" />
-    <text name="BuyNow" />
-    <text name="BuyNow_Edition_Description" />
+    <text value="現在購買" name="BuyNow" />
+    <text value="{0}版本" name="BuyNow_Edition_Description" />
     <text value="緩存" name="Caches" />
     <text value="您可以在此頁面的應用程序中清除緩存." name="CachesHeaderInfo" />
     <text value="緩存成功清除." name="CacheSuccessfullyCleared" />
@@ -381,6 +384,7 @@
     <text value="取消轉化提示" name="CancelConversionPrompt" />
     <text value="已作廢" name="Cancellation" />
     <text value="取消合併" name="CancelMerge" />
+    <text value="是否確認取消已合併的聯繫人信息！" name="CancelMergeWarningMessage" />
     <text value="取消審核" name="CancelTheAudit" />
     <text value="可開發票" name="CanInvoices" />
     <text value="不能為空." name="CannotBeEmpty" />
@@ -390,8 +394,9 @@
     <text value="對不起，您不能在該目錄下直接創建或編輯文件夾，請選擇其他目錄！" name="CannotEditDirectlyUnderThisDirectory" />
     <text value="不能刪除默認語言.只能刪除或者修改自己增加的語言. 但可以改變所有語言的文本信息." name="CanNotEditOrDeleteDefaultLanguages" />
     <text value="不可以立案" name="CanNotFileACase" />
+    <text value="無法跳轉至當前郵箱，請聯繫管理員！" name="CannotJumpToMailbox" />
     <text value="不可收款" name="CanNotReceivables" />
-    <text name="CanNotUpgradeSubscriptionSinceTenantHasNoEditionAssigned" />
+    <text value="由於租戶沒有分配版本，因此無法升級訂閱。" name="CanNotUpgradeSubscriptionSinceTenantHasNoEditionAssigned" />
     <text value="對不起，您不能在該目錄下直接上傳文件，請選擇其他目錄！" name="CannotUploadFilesDirectlyUnderThisDirectory" />
     <text value="當前名稱已被使用，請使用其他名稱！" name="CanNotUseName" />
     <text value="可收款" name="CanReceivables" />
@@ -492,15 +497,15 @@
     <text value="蓋章申請" name="CertificateStampApply" />
     <text value="行政用章信息表" name="CertificateStampInformationSheet" />
     <text value="證件類型" name="CertificateType" />
-    <text name="Change" />
-    <text name="ChangeDateRange" />
-    <text name="ChangeLogs" />
+    <text value="修改" name="Change" />
+    <text value="更改日期範圍" name="ChangeDateRange" />
+    <text value="更改日誌" name="ChangeLogs" />
     <text value="備註:變更部門單位後，用戶僅擁有所屬部門包含的數據庫權限，為用戶直接指定的數據權限將取消." name="ChangeOrganizationUnitNote" />
     <text value="修改密碼" name="ChangePassword" />
     <text value="鏈接此帳戶之前，您必須更改密碼！" name="ChangePasswordBeforeLinkToAnAccount" />
-    <text name="ChangePasswordToLogin" />
+    <text value="您必須在登錄前更改密碼！" name="ChangePasswordToLogin" />
     <text value="修改頭像" name="ChangeProfilePicture" />
-    <text name="ChangeTenant" />
+    <text value="修改租戶" name="ChangeTenant" />
     <text value="改變文本信息" name="ChangeTexts" />
     <text value="新編號規則中，年份已改變!" name="ChangeYear" />
     <text value="正在修改特性參數" name="ChangingFeatures" />
@@ -517,24 +522,25 @@
     <text value="收費方式：" name="ChargeModeTitle" />
     <text value="費用已退回." name="ChargeReturned" />
     <text value="有一筆費用待審核." name="ChargeWaitForApproved" />
-    <text name="ChartDateFormat" />
+    <text value="%m/%d/%Y" name="ChartDateFormat" />
     <text value="聊天" name="Chat" />
     <text value="聊天功能" name="ChatFeature" />
     <text value="租戶未棄用聊天功能." name="ChatFeatureIsNotEnabledForReceiver" />
     <text value="聊天未啟用." name="ChatFeatureIsNotEnabledForSender" />
-    <text name="ChatIsConnecting" />
+    <text value="正在連接聊天..." name="ChatIsConnecting" />
     <text value="聊天沒有連接." name="ChatIsNotConnectedWarning" />
-    <text name="ChatMessage_From" />
-    <text name="ChatMessage_To" />
+    <text value="來自" name="ChatMessage_From" />
+    <text value="至" name="ChatMessage_To" />
     <text value="只為相同的律所用戶寫入用戶名" name="ChatUserSearch_Hint" />
     <text value="支票" name="Check" />
     <text value="查看對話" name="CheckDialogue" />
     <text value="尚未綁定堅果雲賬號，是否綁定？" name="CheckJianGuoYunAccounts" />
     <text value="網絡丟失, 請檢查網絡" name="CheckNetwork" />
+    <text value="檢查新版本" name="CheckNewVersion" />
     <text value="支票編號" name="CheckNumber" />
     <text value="尚未綁定Office365賬號，是否綁定？" name="CheckOffice365Accounts" />
-    <text name="CheckoutWithPaypal" />
-    <text name="CheckoutWithStripe" />
+    <text value="使用PayPal結帳" name="CheckoutWithPaypal" />
+    <text value="使用Stripe結帳" name="CheckoutWithStripe" />
     <text value="中文名稱" name="ChineseName" />
     <text value="選擇一個組織單位" name="ChooseAnOrganizationUnit" />
     <text value="已選擇" name="chosen" />
@@ -550,14 +556,15 @@
     <text value="清除" name="Clear" />
     <text value="清除所有" name="ClearAll" />
     <text value="清除緩存" name="ClearCache" />
-    <text name="ClearedSuccessfully" />
+    <text value="已成功清除" name="ClearedSuccessfully" />
     <text value="對不起，請先清空此階段列表上的任務，然後再刪除這個階段列表！" name="ClearTasklistInStage" />
     <text value="對不起，請先清空此任務項目上的所有階段及任務，然後再刪除這個項目！" name="ClearTaskProject" />
     <text value="點擊獲取手機驗證碼" name="ClickforVerificationCode" />
     <text value="點擊這裡" name="ClickHere" />
     <text value="點擊右側鏈接可查看前置操作信息" name="ClickOnTheRightLinkToViewTheFrontActionInfo" />
     <text value="點擊下載範例" name="ClickTheDownloadExample" />
-    <text name="ClickToSeeInvalidUsers" />
+    <text value="點擊右側+號，添加收費信息" name="ClickToAddChargingInformation" />
+    <text value="用戶導入過程已完成， 有一些無效的數據， 單擊以查看無效的用戶導入。" name="ClickToSeeInvalidUsers" />
     <text value="客戶" name="Client" />
     <text value="客戶方本案聯繫人" name="ClientCaseContact" />
     <text value="客戶方本案聯繫人信息" name="ClientCaseContactInformation" />
@@ -566,9 +573,10 @@
     <text value="客戶描述" name="ClientDescription" />
     <text value="客戶尚無聯繫人信息，點擊右上角" name="ClientHasNoContact" />
     <text value="客戶尚無聯繫人信息，點擊右上角 加 號 添加本案關聯聯繫人" name="ClientHasNoContactAndClickToAddCaseContacts" />
-    <text name="ClientIsRequestingYourPermission" />
+    <text value="{0}正在請求您的許可" name="ClientIsRequestingYourPermission" />
     <text value="客戶項目" name="ClientProject" />
     <text value="客戶地區" name="ClientRegion" />
+    <text value="當前客戶已關聯案件，無法刪除！" name="ClientRelatedCases" />
     <text value="客戶聯繫人關聯客戶" name="ClientRelationContact" />
     <text value="企業報告具有時效性,點擊下載最新可下載最新報告" name="ClientReportTip" />
     <text value="客戶端" name="ClientSide" />
@@ -594,7 +602,7 @@
     <text value="協辦律師" name="CoAttorney" />
     <text value="代碼" name="Code" />
     <text value="協同已拒絕" name="CollaborationRejected" />
-    <text name="Collapse" />
+    <text value="斷開" name="Collapse" />
     <text value="已收集" name="Collected" />
     <text value="收藏" name="Collection" />
     <text value="收款詳情" name="CollectionDetails" />
@@ -682,7 +690,7 @@
     <text value="合同退回" name="ContractIsRejected" />
     <text value="轉換為個人模板" name="ConvertToPersonalTemplate" />
     <text value="轉化參與的工作日誌" name="ConvertWorkLogOfParticipation" />
-    <text name="CookieConsent" />
+    <text value="同意Cookie" name="CookieConsent" />
     <text name="CookieConsent_Dismiss" />
     <text name="CookieConsent_Message" />
     <text value="協同待確認" name="CoordinateToBeConfirmed" />
@@ -701,8 +709,8 @@
     <text value="費用類別佔比" name="CostCategorys" />
     <text value="費用{0}." name="CostNotify" />
     <text value="費用數" name="Costs" />
-    <text name="CouldNotCompleteLoginOperation" />
-    <text name="CouldNotValidateExternalUser" />
+    <text value="無法完成登錄操作。" name="CouldNotCompleteLoginOperation" />
+    <text value="無法驗證外部用戶登錄" name="CouldNotValidateExternalUser" />
     <text value="按組織機構統計賬單時長" name="CountingBillsByorganization" />
     <text value="國家" name="Country" />
     <text value="統計自報小時總時長" name="CountTheTotalHoursOfSelfReportedHours" />
@@ -719,7 +727,7 @@
     <text value="註冊" name="CreateAnAccount" />
     <text value="創建工作日誌" name="CreateAWorkLog" />
     <text value="創建合同" name="CreateContract" />
-    <text name="CreatedAtByUser" />
+    <text value="由&lt;b&gt;{1}&lt;/b&gt;創建於&lt;b&gt;{0}&lt;/b&gt;" name="CreatedAtByUser" />
     <text value="%s創建" name="CreatedBy" />
     <text value="新建文件夾" name="CreateDocumentFolder" />
     <text value="創建失敗" name="CreateFailed" />
@@ -752,6 +760,7 @@
     <text value="幣種" name="Currency" />
     <text value="按幣種統計" name="CurrencyStatistics" />
     <text value="貨幣類型" name="CurrencyType" />
+    <text value="當前" name="Current" />
     <text value="當前的歸檔編號已存在！" name="CurrentArchiveNumberHasAlreadyExisted" />
     <text value="當前案件衝突預檢已經被處理！" name="CurrentCaseConflictPrecheckHasBeenProcessed" />
     <text value="當前案件審核已存在處理結果" name="CurrentCaseReviewAlreadyHasProcessingResults" />
@@ -768,12 +777,12 @@
     <text value="當前密碼" name="CurrentPassword" />
     <text value="當前行政用章申請已存在處理結果！" name="CurrentStampIsAlreadyExistsResult" />
     <text value="當前行政蓋章申請已存在處理結果！" name="CurrentStampIsAlreadyExistsToDealWithResult" />
-    <text name="CurrentTenant" />
-    <text name="CurrentUserDidNotLoginToTheApplication" />
+    <text value="當前租戶" name="CurrentTenant" />
+    <text value="當前用戶沒有登錄該應用程序！" name="CurrentUserDidNotLoginToTheApplication" />
     <text value="當前版本最大賬號數量" name="CurrentVerMaxNum" />
     <text value="當前日誌已存在處理結果！" name="CurrentWorklogAlreadyExistsProcessingResult" />
     <text value="今年" name="CurrentYear" />
-    <text name="CustomCSS" />
+    <text value="自定義CSS" name="CustomCSS" />
     <text value="自定義數據" name="CustomData" />
     <text value="客戶" name="Customer" />
     <text value="客戶地址" name="CustomerAddress" />
@@ -799,9 +808,10 @@
     <text value="客戶類型" name="CustomerType" />
     <text value="客戶拜訪信息表" name="CustomerVisitInformationTable" />
     <text value="客戶拜訪記錄" name="CustomerVisitRecord" />
+    <text value="自定義登陸頁Banner圖" name="CustomLoginBanner" />
     <text value="自定義範圍" name="CustomRange" />
     <text value="青色" name="Cyan" />
-    <text name="Daily" />
+    <text value="每日" name="Daily" />
     <text value="黑色" name="Dark" />
     <text value="工作台" name="Dashboard" />
     <text value="在這個演示系統，您可以使用左邊的菜單功能，測試和了解以下模塊的全部功能：用戶管理、角色管理、系統設置。" name="DashboardDemo_Note_Info" />
@@ -816,11 +826,11 @@
     <text value="數據加載中" name="DataLoading" />
     <text value="數據權限" name="DataPermissions" />
     <text value="日期" name="Date" />
-    <text name="DateAndTimePickers" />
+    <text value="日期和時間選擇器" name="DateAndTimePickers" />
     <text value="日期界定符" name="DateDelimiter" />
     <text value="日期差計算" name="DateDiffCalculation" />
     <text value="日期格式化" name="DateFormat" />
-    <text name="DateFormatShort" />
+    <text value="yyyy-MM-dd" name="DateFormatShort" />
     <text value="申請日期：" name="DateOfApplicationTitle" />
     <text value="出生日期" name="DateOfBirth" />
     <text value="轉正日期" name="DateOfCorrection" />
@@ -837,12 +847,12 @@
     <text value="日期推算" name="DateProjection" />
     <text value="日期範圍" name="DateRange" />
     <text value="天" name="Day" />
-    <text name="DayCount" />
+    <text value="天数" name="DayCount" />
     <text name="Days" />
     <text value="{0} 天" name="DaysCnt" />
     <text value="請假天數" name="DaysToLeave" />
     <text value="日" name="DayView" />
-    <text name="DeactiveTenant" />
+    <text value="不活躍的租戶" name="DeactiveTenant" />
     <text value="截止" name="Deadline" />
     <text value="{0} 截止" name="DeadlineDate" />
     <text value="{0} 天內 截止" name="DeadlineInDaysCnt" />
@@ -926,7 +936,7 @@
     <text value="文檔類型" name="DocumentType" />
     <text value="對不起，未找到所選文檔或暫不支持對所選文檔的預覽功能！" name="DocumentWasNotFoundOrNotSupportedToPreview" />
     <text value="域名" name="DomainName" />
-    <text name="DoNotAllow" />
+    <text value="不允許" name="DoNotAllow" />
     <text value="為避免誤操作，請勿同時刪除多個文件或文件夾！" name="DoNotDeleteMultipleFilesOrFoldersAtTheSameTime" />
     <text value="不使用賬單" name="DonotUseBills" />
     <text value="未通過" name="DonTAllowSeal" />
@@ -983,7 +993,7 @@
     <text value="郵箱地址" name="EmailAddress" />
     <text value="郵箱地址驗證" name="EmailConfirm" />
     <text value="必須驗證郵箱地址後才能登錄." name="EmailConfirmationRequiredForLogin" />
-    <text name="EmailMessage_CopyTheLinkBelowToYourBrowser" />
+    <text value="如果上面的按鈕不起作用，請將其粘貼到瀏覽器中：" name="EmailMessage_CopyTheLinkBelowToYourBrowser" />
     <text name="EmailSecurityCodeBody" />
     <text name="EmailSecurityCodeSubject" />
     <text value="郵箱 (SMTP)" name="EmailSmtp" />
@@ -1044,6 +1054,7 @@
     <text value="執行標的" name="Executivetarget" />
     <text value="被執行人" name="Executor" />
     <text value="相似客戶列表中有根據條件檢索到相應的客戶信息，當前尚未選擇列表中客戶替換當前案件客戶，是否確認轉正？" name="ExisitsSimilarReplaceableCustomersWhetherConfirmPositive" />
+    <text value="當前客戶下已存在同名的聯繫人！" name="ExistsSameNameOnCLient" />
     <text value="退出全屏" name="ExitFullScreen" />
     <text value="展開更多設置" name="Expand" />
     <text value="任務耗時" name="ExpenditureOfTime" />
@@ -1065,6 +1076,7 @@
     <text value="外部費率" name="ExternalRate" />
     <text value="失敗" name="Fail" />
     <text value="失敗" name="Failed" />
+    <text value="獲取法天使文件失敗!" name="FailedFTSFile" />
     <text value="獲取企業微信Token失敗！" name="FailedQYWeChatToken" />
     <text name="FailedSubscriptionTerminations_Email_Body" />
     <text name="FailedSubscriptionTerminations_Email_Subject" />
@@ -1075,6 +1087,7 @@
     <text value="民族" name="FamilyName" />
     <text value="法天使" name="FaTianShi" />
     <text value="傳真" name="Fax" />
+    <text value="功能介紹" name="FeatureIntroduction" />
     <text value="特性參數列表" name="Features" />
     <text value="二月" name="February" />
     <text value="使用反饋" name="Feedback" />
@@ -1085,11 +1098,12 @@
     <text value="請簡單介紹下反饋的主旨:)" name="FeedbackTitlePlaceholder" />
     <text value="費用詳情" name="FeeDetail" />
     <text value="收費與合同附件" name="FeesAndContractAccessories" />
+    <text value="顧問客戶" name="FGClient" />
     <text value="字段" name="Field" />
     <text value="文檔" name="File" />
     <text name="File_Empty_Error" />
     <text name="File_Invalid_Type_Error" />
-    <text name="File_SizeLimit_Error" />
+    <text value="文件大小超出限制！" name="File_SizeLimit_Error" />
     <text name="FileCantBeConvertedToUserList" />
     <text value="文件目錄" name="FileDirectory" />
     <text value="文件不存在" name="FileDoesNotExist" />
@@ -1111,6 +1125,7 @@
     <text value="按權限過濾" name="FilterByPermission" />
     <text value="按角色過濾" name="FilterByRole" />
     <text value="按狀態過濾" name="FilterByState" />
+    <text value="過濾缺省字符" name="FilterDefaultCharacters" />
     <text value="過濾/添加用戶" name="FilterOrAddUser" />
     <text value="財務" name="Finance" />
     <text value="財務分析" name="FinancialAnalysis" />
@@ -1168,6 +1183,7 @@
     <text value="結案申請信息表" name="FormOfClosingApplicationInformation" />
     <text value="向前推算" name="ForwardCalculation" />
     <text value="免費" name="Free" />
+    <text value="免費代理" name="FreeAgent" />
     <text name="FreeEditionsCannotHaveTrialVersions" />
     <text value="免費小時" name="FreeHour" />
     <text name="FreeTrial" />
@@ -1349,13 +1365,14 @@
     <text value="有一張金額為{0}{1}的發票待處理." name="InvoiceUnHandled" />
     <text value="上傳發票" name="InvoiceUpload" />
     <text value="IP地址" name="IpAddress" />
-    <text name="IsCookieConsentEnabled" />
+    <text value="已同意啟用Cookie信息" name="IsCookieConsentEnabled" />
     <text name="IsDisabled" />
     <text value="啟用郵箱驗證." name="IsEmailVerificationEnabled" />
     <text name="IsEnabled" />
     <text value="涉外" name="IsForeign" />
     <text name="IsGoogleAuthenticatorEnabled" />
     <text name="IsInTrialPeriod" />
+    <text value="當前已是最新版本" name="IsLatestVersion" />
     <text name="IsLockoutEnabled" />
     <text name="IsLockoutEnabled_Hint" />
     <text value="不涉外" name="IsNotForeign" />
@@ -1485,6 +1502,7 @@
     <text value="已鎖定" name="Locked" />
     <text value="鎖定成功！" name="LockedSuccessfully" />
     <text value="鎖定" name="Locking" />
+    <text value="啟用鎖定/解鎖" name="LockoutEnable" />
     <text value="鎖屏" name="LockScreen" />
     <text value="日誌" name="Log" />
     <text value="日誌分析" name="LogAnalysis" />
@@ -1542,7 +1560,7 @@
     <text value="鎖定帳戶之前失敗的登錄嘗試次數的最大值" name="MaxFailedAccessAttemptsBeforeLockout" />
     <text value="最大用戶數" name="MaximumUserCount" />
     <text name="MaximumUserCount_Description" />
-    <text name="MaximumUserCount_Error_Detail" />
+    <text value="允許此租戶最多擁有{0}名用戶。" name="MaximumUserCount_Error_Detail" />
     <text value="已達到允許的最大用戶數！" name="MaximumUserCount_Error_Message" />
     <text value="最大值" name="MaxValue" />
     <text value="對不起,您最多只可創建7個計時器" name="MaxWorkLogTimerTips" />
@@ -1597,7 +1615,9 @@
     <text value="成員" name="Members" />
     <text value="菜單欄背景色" name="MenuBarSkins" />
     <text value="菜單權限" name="MenuPermissions" />
+    <text value="合併聯繫人" name="MergeContact" />
     <text value="合併" name="Merged" />
+    <text value="是否確認合併當前聯繫人！" name="MergeWarningMessage" />
     <text value="消息" name="Message" />
     <text value="消息提醒" name="MessageNotification" />
     <text name="Messages" />
@@ -1657,7 +1677,7 @@
     <text value="您的網絡已走失，請點擊重試~" name="NetworkLost" />
     <text value="新" name="new" />
     <text value="你有一個新的聊天消息" name="NewChatMessageEmail_Subject" />
-    <text name="NewChatMessageEmail_SubTitle" />
+    <text value="新的聊天消息電子郵件標題" name="NewChatMessageEmail_SubTitle" />
     <text value="消息詳情" name="NewChatMessageEmail_Title" />
     <text value="{0}在任務[{1}]下發表了新的評論." name="NewCommentsRemind" />
     <text name="NewNotifications" />
@@ -1709,6 +1729,7 @@
     <text value="未合併" name="NoMerge" />
     <text value="沒有更多了" name="NoMoreMessage" />
     <text value="沒有" name="None" />
+    <text value="無需填寫，根據收費方式自動計算" name="NoNeedToFillIn" />
     <text value="當前目錄為案件下的基本目錄，無需單獨設置人員與角色權限。" name="NoNeedToSetPermissions" />
     <text value="當前沒有設置新聞" name="NoNewsWasSet" />
     <text value="非本所" name="NonLocalOffice" />
@@ -1744,7 +1765,7 @@
     <text value="沒有分配" name="NotAssigned" />
     <text value="未收集" name="NotCollected" />
     <text value="未完成" name="NotCompleted" />
-    <text name="Note_RefreshPageForPermissionChanges" />
+    <text value="如果您正在更改自己的權限，則可能需要刷新頁面（F5），以在您所做的權限更改生效！" name="Note_RefreshPageForPermissionChanges" />
     <text value="[{0}]已立案，您將以{1}的角色參與到該案件中。" name="NoticeCaseParticipants" />
     <text name="Notification" />
     <text name="NotificationDeleteWarningMessage" />
@@ -1796,6 +1817,7 @@
     <text value="老" name="old" />
     <text value="開" name="On" />
     <text value="操作指引" name="Onboarding" />
+    <text value="一鍵" name="OneKey" />
     <text value="進行中的項目" name="OngoingProjects" />
     <text name="Online" />
     <text value="對不起，您只能對單個文件重命名！" name="OnlyIndividualFilesCanBeRenamed" />
@@ -2045,7 +2067,7 @@
     <text name="PaymentMightBeExpiredWarning" />
     <text value="收款方式" name="PaymentMode" />
     <text name="PaymentPeriodType" />
-    <text name="PaymentPeriodType_Annual" />
+    <text value="每年" name="PaymentPeriodType_Annual" />
     <text name="PaymentPeriodType_Monthly" />
     <text value="處罰內容" name="Penaltycontent" />
     <text value="處罰項" name="PenaltyItem" />
@@ -2155,6 +2177,7 @@
     <text value="기본 서비스" name="PluginGroup.LegalDta" />
     <text value="其他服務" name="PluginGroup.Other" />
     <text value="網盤服務" name="PluginGroup.SkyDrive" />
+    <text value="請添加收費信息" name="PlzAddChargeInfo" />
     <text value="請添加發函對象" name="PlzAddLetterObject" />
     <text value="請添加利益衝突信息" name="PlzAddProfitConflictInfo" />
     <text value="請確認收費及合同信息" name="PlzConfirmChargeAndContractInfo" />
@@ -2221,7 +2244,7 @@
     <text value="專業" name="Profession" />
     <text name="Profile" />
     <text value="頭像修改錯誤." name="ProfilePicture_Change_Error" />
-    <text value="只能選擇1mb內的JPG/JPEG/PNG圖片." name="ProfilePicture_Change_Info" />
+    <text value="只能選擇{0}mb內的JPG/JPEG/PNG圖片." name="ProfilePicture_Change_Info" />
     <text value="只能選擇1mb內的JPG/JPEG圖片，請重新選擇頭像文件." name="ProfilePicture_Warn_FileType" />
     <text value="只能選擇1mb內的JPG/JPEG圖片，請重新選擇頭像文件." name="ProfilePicture_Warn_SizeLimit" />
     <text value="項目燃盡圖" name="ProjectBurnoutChart" />
@@ -2247,6 +2270,7 @@
     <text value="按比例分配" name="ProportionateDistribution" />
     <text value="公積金貸款" name="ProvidentFundLoans" />
     <text value="公開項目" name="PublicProject" />
+    <text value="已出版" name="Published" />
     <text value="守時記錄日誌" name="PunctualLog" />
     <text value="處罰機構" name="PunishmentMechanism" />
     <text value="處罰時間" name="Punishmenttime" />
@@ -2270,6 +2294,7 @@
     <text value="費率" name="Rate" />
     <text value="匯率更新日期" name="RateUpdateDate" />
     <text name="ReadState" />
+    <text value="代理理由" name="ReasonForAgency" />
     <text value="作廢原因" name="ReasonOfInvalidation" />
     <text value="拒絕參會的原因" name="ReasonsForRejectToAttend" />
     <text value="收款金額：" name="ReceiptAmountTitle" />
@@ -2327,7 +2352,7 @@
     <text value="相關案件" name="RelatedCases" />
     <text value="關聯客戶" name="RelatedCustomers" />
     <text value="與其關係" name="RelatedPartiesRelationship" />
-    <text value="共 %s 個關聯項目" name="RelatedProjectCnt" />
+    <text value="共 %s 個關聯案件" name="RelatedProjectCnt" />
     <text value="關聯項目信息" name="RelatedProjects" />
     <text value="關聯項目" name="RelatedProjectsTitle" />
     <text value="關聯" name="Relation" />
@@ -2372,7 +2397,7 @@
     <text name="RequestTimedOut" />
     <text value="必填" name="Required" />
     <text name="RequiredField" />
-    <text name="RequiresPasswordChange" />
+    <text value="需要更改密碼" name="RequiresPasswordChange" />
     <text name="RequiresTwoFactorAuth" />
     <text value="重新發送" name="Resend" />
     <text value="重新發送驗證碼" name="ResendCode" />
@@ -2783,6 +2808,7 @@
     <text value="表格名稱" name="TableName" />
     <text value="表格偏好" name="TablePreference" />
     <text value="工作類別順序" name="Tactic" />
+    <text value="品牌理念" name="Tagline" />
     <text value="標籤重複" name="TagRepeat" />
     <text value="帶出登記" name="TakeOutRegistration" />
     <text value="帶出時間" name="TakeOutTime" />
@@ -2845,6 +2871,7 @@
     <text value="模板文件信息表" name="TemplateFileInformationSheet" />
     <text value="您選擇的模板文件信息已不存在!" name="TemplateFileYouChooseDoesNotExist" />
     <text value="您選擇的模板文件已不存在!" name="TemplateFileYouSelectedDoesNotExist" />
+    <text value="模版Id不能為空" name="TemplateIdCanNotEmpty" />
     <text value="模板語言" name="TemplateLanguage" />
     <text value="模板名稱" name="TemplateName" />
     <text value="模板階段" name="TemplateStage" />
@@ -2936,6 +2963,8 @@
     <text value="本月應工作天數" name="TheNumberOfWorkDaysThisMonth" />
     <text value="本月已工作天數" name="TheNumberOfWorkingDaysThisMonth" />
     <text value="當前默認顯示正式案件數據，如需檢索更多，請在高級搜索中更改狀態條件！" name="TheOfficialCaseDataIsCurrentlyDisplayedByDefault" />
+    <text value="當前默認顯示有案件客戶，如需檢索更多，請在高級搜索中更改狀態條件！" name="TheOfficialClientDataIsCurrentlyDisplayedByDefault" />
+    <text value="上一" name="ThePrevious" />
     <text name="ThereAreTenantsSubscribedToThisEdition" />
     <text value="有一筆費用{0}." name="ThereIsAFee" />
     <text value="有一張金額為{0}{1}的發票{2}." name="ThereIsAnInvoiceFor" />
@@ -3019,10 +3048,11 @@
     <text value="轉賬" name="TransferAccounts" />
     <text value="已轉正" name="Transfered" />
     <text name="Trial" />
-    <text name="TrialDayCount" />
+    <text value="試用天數" name="TrialDayCount" />
     <text name="TrialExpireNotification" />
     <text name="TrialSubscriptionNotification" />
     <text name="TryIt" />
+    <text value="啟用兩步認證登錄" name="TwoFactorEnabled" />
     <text value="雙重登錄驗證" name="TwoFactorLogin" />
     <text name="TwoFactorLoginIsNotSupported" />
     <text value="類型" name="Type" />
@@ -3031,15 +3061,15 @@
     <text value="公司類型" name="Typeofcompany" />
     <text value="違法類型" name="Typeofviolation" />
     <text value="工作類別" name="TypeOfWork" />
-    <text name="UiCustomization_AllowAsideHiding" />
-    <text name="UiCustomization_AllowAsideMinimizing" />
+    <text value="允許一邊隱藏" name="UiCustomization_AllowAsideHiding" />
+    <text value="盡量減少" name="UiCustomization_AllowAsideMinimizing" />
     <text name="UiCustomization_Boxed" />
     <text name="UiCustomization_ContentSkin" />
     <text name="UiCustomization_Dark" />
     <text name="UiCustomization_Default" />
     <text name="UiCustomization_DefaultHiddenAside" />
     <text name="UiCustomization_DefaultMinimizedAside" />
-    <text name="UiCustomization_Desktop" />
+    <text value="桌面端" name="UiCustomization_Desktop" />
     <text name="UiCustomization_DesktopFixedHeader" />
     <text name="UiCustomization_Disabled" />
     <text name="UiCustomization_DisplayHeaderMenu" />
@@ -3087,7 +3117,7 @@
     <text name="UiCustomization_Top" />
     <text name="UiCustomization_White" />
     <text name="UiCustomization_Wide" />
-    <text name="UiCustomizationHeaderInfo" />
+    <text value="更改UI的外觀" name="UiCustomizationHeaderInfo" />
     <text value="當前選擇項中包含不同的狀態，無法批量處理!" name="UnableToBatchProcess" />
     <text value="無法下載文件夾" name="UnableToDownloadFolder" />
     <text value="無法預覽文件夾" name="UnableToPreviewFolder" />
