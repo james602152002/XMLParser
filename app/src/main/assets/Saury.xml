@@ -2234,6 +2234,7 @@
     <text value="Person in charge information" name="PrincipalInfo" />
     <text value="Print" name="Print" />
     <text value="priority" name="Priority" />
+    <text value="Privacy Policy" name="PrivacyPolicy" />
     <text value="Awards" name="Prize" />
     <text value="process" name="Process" />
     <text value="Processing" name="Processing" />

@@ -2234,6 +2234,7 @@
     <text value="담당자 정보" name="PrincipalInfo" />
     <text name="Print" />
     <text value="우선 순위" name="Priority" />
+    <text value="개인 정보 보호 정책" name="PrivacyPolicy" />
     <text value="수상 내역" name="Prize" />
     <text value="가공" name="Process" />
     <text value="가공" name="Processing" />

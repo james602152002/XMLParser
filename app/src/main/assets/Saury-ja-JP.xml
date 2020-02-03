@@ -2234,6 +2234,7 @@
     <text value="担当者情報" name="PrincipalInfo" />
     <text name="Print" />
     <text value="優先度" name="Priority" />
+    <text value="プライバシーポリシー" name="PrivacyPolicy" />
     <text value="賞" name="Prize" />
     <text value="処理中" name="Process" />
     <text value="処理中" name="Processing" />
