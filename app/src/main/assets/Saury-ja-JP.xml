@@ -1751,7 +1751,7 @@
     <text value="クエリ条件に一致する結果が見つかりませんでした。" name="NoQueryResultWithTheQueryCodition" />
     <text value="申し訳ありませんが、関連するレコードはありません" name="NoRecord" />
     <text value="払い戻し手数料情報なし" name="NoReimbursementFeeInformation" />
-    <text value="関連アイテムはありません" name="NoRelatedProject" />
+    <text value="無関係なケース" name="NoRelatedProject" />
     <text value="情報を請求するリスクはありません。右上のプラス記号をクリックして追加してください" name="NoRiskFeeInfoPleaseClickToAdd" />
     <text value="ノーマル" name="Normal" />
     <text value="通常のチャージ" name="NormalCharge" />
@@ -2173,6 +2173,7 @@
     <text name="PleaseWaitToConfirmYourEmailMessage" />
     <text value="質権者" name="Pledgee" />
     <text value="プレドゴール" name="Pledgor" />
+    <text value="電子契約" name="PluginGroup.ElectronicSignature" />
     <text value="メールボックスサービス" name="PluginGroup.Email" />
     <text value="基本サービス" name="PluginGroup.LegalDta" />
     <text value="その他のサービス" name="PluginGroup.Other" />
@@ -2360,6 +2361,7 @@
     <text value="関連するケース名：" name="RelationCasesTitle" />
     <text value="アソシエイト顧客名：" name="RelationClientName" />
     <text value="関係タイプ" name="RelationType" />
+    <text value="関連事例" name="RelativeCases" />
     <text value="発売日" name="ReleaseDate" />
     <text value="解放時間" name="ReleaseTime" />
     <text value="残りの年次休暇" name="RemainingAnnualLeave" />

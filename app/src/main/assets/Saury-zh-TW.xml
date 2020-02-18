@@ -1751,7 +1751,7 @@
     <text value="未查詢到與查詢條件匹配的結果！" name="NoQueryResultWithTheQueryCodition" />
     <text value="對不起，沒有相關記錄" name="NoRecord" />
     <text value="暫無報銷費用信息" name="NoReimbursementFeeInformation" />
-    <text value="無關聯項目" name="NoRelatedProject" />
+    <text value="無關聯案件" name="NoRelatedProject" />
     <text value="暫無風險收費信息，請點擊右上角 加 號添加" name="NoRiskFeeInfoPleaseClickToAdd" />
     <text value="正常" name="Normal" />
     <text value="正常收費" name="NormalCharge" />
@@ -2173,6 +2173,7 @@
     <text name="PleaseWaitToConfirmYourEmailMessage" />
     <text value="質權人" name="Pledgee" />
     <text value="出質人" name="Pledgor" />
+    <text value="電子簽約" name="PluginGroup.ElectronicSignature" />
     <text value="사서함 서비스" name="PluginGroup.Email" />
     <text value="기본 서비스" name="PluginGroup.LegalDta" />
     <text value="其他服務" name="PluginGroup.Other" />
@@ -2360,6 +2361,7 @@
     <text value="關聯案件名稱：" name="RelationCasesTitle" />
     <text value="關聯客戶名稱：" name="RelationClientName" />
     <text value="關係類型" name="RelationType" />
+    <text value="關聯案件" name="RelativeCases" />
     <text value="發布日期" name="ReleaseDate" />
     <text value="發佈時間" name="ReleaseTime" />
     <text value="剩餘年假" name="RemainingAnnualLeave" />

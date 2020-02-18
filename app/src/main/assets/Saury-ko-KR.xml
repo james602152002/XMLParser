@@ -1751,7 +1751,7 @@
     <text value="쿼리 조건과 일치하는 결과를 찾지 못했습니다!" name="NoQueryResultWithTheQueryCodition" />
     <text value="죄송합니다. 관련 기록이 없습니다." name="NoRecord" />
     <text value="상환 수수료 정보 없음" name="NoReimbursementFeeInformation" />
-    <text value="관련 항목이 없습니다" name="NoRelatedProject" />
+    <text value="관련없는 사례" name="NoRelatedProject" />
     <text value="위험 부담 정보가 없습니다. 오른쪽 상단의 더하기 기호를 클릭하여 정보를 추가하십시오." name="NoRiskFeeInfoPleaseClickToAdd" />
     <text value="정상" name="Normal" />
     <text value="정상 요금" name="NormalCharge" />
@@ -2173,6 +2173,7 @@
     <text name="PleaseWaitToConfirmYourEmailMessage" />
     <text value="질료" name="Pledgee" />
     <text value="Pledgor" name="Pledgor" />
+    <text value="전자 계약" name="PluginGroup.ElectronicSignature" />
     <text value="사서함 서비스" name="PluginGroup.Email" />
     <text value="기본 서비스" name="PluginGroup.LegalDta" />
     <text value="다른 서비스" name="PluginGroup.Other" />
@@ -2360,6 +2361,7 @@
     <text value="관련 사례 이름 :" name="RelationCasesTitle" />
     <text value="고객 이름 연결 :" name="RelationClientName" />
     <text value="관계 유형" name="RelationType" />
+    <text value="관련 사례" name="RelativeCases" />
     <text value="출시일" name="ReleaseDate" />
     <text value="릴리스 시간" name="ReleaseTime" />
     <text value="남은 연가" name="RemainingAnnualLeave" />

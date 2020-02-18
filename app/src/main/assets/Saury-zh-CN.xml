@@ -1751,7 +1751,7 @@
     <text value="未查询到与查询条件匹配的结果！" name="NoQueryResultWithTheQueryCodition" />
     <text value="对不起，没有相关记录" name="NoRecord" />
     <text value="暂无报销费用信息" name="NoReimbursementFeeInformation" />
-    <text value="无关联项目" name="NoRelatedProject" />
+    <text value="无关联案件" name="NoRelatedProject" />
     <text value="暂无风险收费信息，请点击右上角 加 号添加" name="NoRiskFeeInfoPleaseClickToAdd" />
     <text value="正常" name="Normal" />
     <text value="正常收费" name="NormalCharge" />
@@ -2173,6 +2173,7 @@
     <text value="正在确认您的电子邮件地址，请稍后..." name="PleaseWaitToConfirmYourEmailMessage" />
     <text value="质权人" name="Pledgee" />
     <text value="出质人" name="Pledgor" />
+    <text value="电子签约" name="PluginGroup.ElectronicSignature" />
     <text value="邮箱服务" name="PluginGroup.Email" />
     <text value="基础服务" name="PluginGroup.LegalDta" />
     <text value="其他服务" name="PluginGroup.Other" />
@@ -2360,6 +2361,7 @@
     <text value="关联案件名称：" name="RelationCasesTitle" />
     <text value="关联客户名称：" name="RelationClientName" />
     <text value="关系类型" name="RelationType" />
+    <text value="关联案件" name="RelativeCases" />
     <text value="发布日期" name="ReleaseDate" />
     <text value="发布时间" name="ReleaseTime" />
     <text value="剩余年假" name="RemainingAnnualLeave" />

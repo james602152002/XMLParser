@@ -1751,7 +1751,7 @@
     <text value="Did not find the results matching the query conditions!" name="NoQueryResultWithTheQueryCodition" />
     <text value="Sorry, no relevant records" name="NoRecord" />
     <text value="No reimbursement fee information" name="NoReimbursementFeeInformation" />
-    <text value="No related items" name="NoRelatedProject" />
+    <text value="Unrelated cases" name="NoRelatedProject" />
     <text value="There is no risk charging information, please click the plus sign in the upper right corner to add" name="NoRiskFeeInfoPleaseClickToAdd" />
     <text value="normal" name="Normal" />
     <text value="Normal charge" name="NormalCharge" />
@@ -2173,6 +2173,7 @@
     <text value="Please wait while confirming your email address..." name="PleaseWaitToConfirmYourEmailMessage" />
     <text value="Pledgee" name="Pledgee" />
     <text value="Pledgor" name="Pledgor" />
+    <text value="Electronic contract" name="PluginGroup.ElectronicSignature" />
     <text value="Mailbox service" name="PluginGroup.Email" />
     <text value="Basic services" name="PluginGroup.LegalDta" />
     <text value="other service" name="PluginGroup.Other" />
@@ -2360,6 +2361,7 @@
     <text value="Associated case name:" name="RelationCasesTitle" />
     <text value="Associate customer name:" name="RelationClientName" />
     <text value="Relationship type" name="RelationType" />
+    <text value="Related cases" name="RelativeCases" />
     <text value="Release date" name="ReleaseDate" />
     <text value="release time" name="ReleaseTime" />
     <text value="Remaining annual leave" name="RemainingAnnualLeave" />
