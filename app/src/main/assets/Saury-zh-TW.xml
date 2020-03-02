@@ -984,6 +984,7 @@
     <text value="學歷" name="Education" />
     <text value="教育背景" name="EducationalBackground" />
     <text value="生效義務" name="Effectiveobligation" />
+    <text value="電子簽章信息" name="ElectronicSignatureInfo" />
     <text value="郵箱" name="Email" />
     <text value="郵箱驗證" name="EmailActivation" />
     <text value="請點擊以下鏈接確認您的郵箱地址,並激活您的用戶賬號:" name="EmailActivation_ClickTheLinkBelowToVerifyYourEmail" />
@@ -1174,6 +1175,7 @@
     <text value="對外投資" name="Foreigninvestment" />
     <text value="對外費率" name="ForeignRate" />
     <text value="例如" name="ForExample" />
+    <text value="忘記密碼" name="ForgetPassword" />
     <text value="不記得密碼了?" name="ForgotPassword" />
     <text value="正式案件" name="FormalCase" />
     <text value="正式客戶" name="FormalCustomer" />
@@ -1694,6 +1696,7 @@
     <text value="新聞" name="News" />
     <text value="新聞公告" name="NewsBulletin" />
     <text value="新聞和公告不允許刪除" name="NewsBulletinAreNotAllowedToBeDeleted" />
+    <text value="新聞類型" name="NewsType" />
     <text name="NewSubscriptionAmount" />
     <text value="新增任務階段" name="NewTaskStage" />
     <text value="添加租戶" name="NewTenant" />
@@ -1854,6 +1857,7 @@
     <text value="組織機構" name="OrganizationUnits" />
     <text value="使用組織機構來組織用戶和實體" name="OrganizationUnitsHeaderInfo" />
     <text value="組織機構用戶統計" name="OrganizationUserStatistics" />
+    <text value="原件" name="Original" />
     <text value="原文地址" name="Originaladdress" />
     <text value="原執業律師事務所" name="OriginalPracticeLawFirm" />
     <text name="OriginalValue" />
@@ -1906,10 +1910,13 @@
     <text value="蓋章稽核" name="Pages.Business.StampFiles.StampFileManage" />
     <text value="文書模板" name="Pages.Business.StampFiles.UploadTemplate" />
     <text value="常用工具" name="Pages.CommonTools" />
+    <text value="案例法規庫" name="Pages.CommonTools.CaseLaw" />
+    <text value="威科先行·法律信息庫" name="Pages.CommonTools.CaseLaw.WkInfo" />
     <text value="通訊錄" name="Pages.CommonTools.Contacts" />
     <text value="企業信息查詢" name="Pages.CommonTools.Corporate" />
     <text value="法天使合同庫" name="Pages.CommonTools.FaTianShi" />
     <text value="法律人導航" name="Pages.CommonTools.Navigation" />
+    <text value="全時網絡會議" name="Pages.CommonTools.QuanShi" />
     <text value="客戶關係" name="Pages.Customers" />
     <text value="客戶管理" name="Pages.Customers.Manage" />
     <text value="客戶管理" name="Pages.Customers.MyCustomers" />
@@ -1926,11 +1933,11 @@
     <text value="內容管理" name="Pages.Executive.Intranet.Manage" />
     <text value="人員狀態管理" name="Pages.Executive.Schedule" />
     <text value="外出狀態" name="Pages.Executive.Schedule.Status" />
-    <text value="用章管理" name="Pages.Executive.Stamp" />
-    <text value="用章申請" name="Pages.Executive.Stamp.Apply" />
-    <text value="我的用章" name="Pages.Executive.Stamp.ApplyList" />
-    <text value="用章審核" name="Pages.Executive.Stamp.Approve" />
-    <text value="用章管理" name="Pages.Executive.Stamp.Manage" />
+    <text value="行政用章管理" name="Pages.Executive.Stamp" />
+    <text value="行政用章申請" name="Pages.Executive.Stamp.Apply" />
+    <text value="我的行政用章" name="Pages.Executive.Stamp.ApplyList" />
+    <text value="行政用章審核" name="Pages.Executive.Stamp.Approve" />
+    <text value="行政用章管理" name="Pages.Executive.Stamp.Manage" />
     <text value="財務管理" name="Pages.Financial" />
     <text value="賬單管理" name="Pages.Financial.Billings" />
     <text value="賬單審核" name="Pages.Financial.Billings.AuditBillings" />
@@ -2173,6 +2180,7 @@
     <text name="PleaseWaitToConfirmYourEmailMessage" />
     <text value="質權人" name="Pledgee" />
     <text value="出質人" name="Pledgor" />
+    <text value="案例法規庫" name="PluginGroup.CaseLaw" />
     <text value="電子簽約" name="PluginGroup.ElectronicSignature" />
     <text value="사서함 서비스" name="PluginGroup.Email" />
     <text value="기본 서비스" name="PluginGroup.LegalDta" />
@@ -2238,6 +2246,7 @@
     <text value="隱私政策" name="PrivacyPolicy" />
     <text value="獎項" name="Prize" />
     <text value="處理" name="Process" />
+    <text value="已處理" name="Processed" />
     <text value="處理中" name="Processing" />
     <text value="處理等級" name="Processinglevel" />
     <text name="ProcessingWithThreeDot" />
@@ -2315,6 +2324,7 @@
     <text value="接收通知" name="ReceiveNotifications" />
     <text value="該選項可用於完全啟用/禁用接收通知." name="ReceiveNotifications_Definition" />
     <text value="您完全禁用接收通知. 您可以啟用它並選擇您想要接收的通知類型." name="ReceiveNotifications_DisableInfo" />
+    <text value="接收人" name="Receiver" />
     <text value="最近" name="Recent" />
     <text name="RecentTenants" />
     <text name="RecentTenantsHelpText" />
@@ -2533,6 +2543,7 @@
     <text value="蓋章份數至少為1" name="SealNumberMustPositiveInteger" />
     <text value="蓋章狀態" name="SealState" />
     <text value="蓋章類型" name="SealType" />
+    <text value="蓋章方式" name="Sealway" />
     <text value="搜索" name="Search" />
     <text value="檢索更多律師" name="SearchMoreLawyers" />
     <text value="搜索..." name="SearchWithThreeDot" />
@@ -2646,6 +2657,9 @@
     <text value="顯示統計信息" name="ShowStatistics" />
     <text value="側欄" name="Sidebar" />
     <text value="側欄皮膚" name="SidebarSkins" />
+    <text value="簽署" name="sign" />
+    <text value="簽署方" name="Signatories" />
+    <text value="已簽署" name="Signed" />
     <text value="註冊" name="SignUp" />
     <text value="如關聯列表中的相似客戶，則該案件已錄入客戶信息將被刪除並替換" name="SimilarCustomerInAssociationListTheCaseHasBeenEnteredTheCustomerWillBeDeletedAndReplaced" />
     <text value="相似客戶列表" name="SimilarCustomerList" />

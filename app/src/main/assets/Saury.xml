@@ -984,6 +984,7 @@
     <text value="Education" name="Education" />
     <text value="Education background" name="EducationalBackground" />
     <text value="Effective obligation" name="Effectiveobligation" />
+    <text value="Electronic signature information" name="ElectronicSignatureInfo" />
     <text value="Email" name="Email" />
     <text value="Email activation" name="EmailActivation" />
     <text value="Please click the link below to verify your email address:" name="EmailActivation_ClickTheLinkBelowToVerifyYourEmail" />
@@ -1174,6 +1175,7 @@
     <text value="Foreign investment" name="Foreigninvestment" />
     <text value="Foreign rates" name="ForeignRate" />
     <text value="E.g" name="ForExample" />
+    <text value="forget password" name="ForgetPassword" />
     <text value="Forgot password?" name="ForgotPassword" />
     <text value="Formal case" name="FormalCase" />
     <text value="Formal customer" name="FormalCustomer" />
@@ -1694,6 +1696,7 @@
     <text value="news" name="News" />
     <text value="News announcement" name="NewsBulletin" />
     <text value="News and announcements do not allow deletion" name="NewsBulletinAreNotAllowedToBeDeleted" />
+    <text value="News type" name="NewsType" />
     <text value="New subscription amount" name="NewSubscriptionAmount" />
     <text value="New task stage" name="NewTaskStage" />
     <text value="New tenant" name="NewTenant" />
@@ -1854,6 +1857,7 @@
     <text value="Organization Units" name="OrganizationUnits" />
     <text value="Use organization units to organize users and entities" name="OrganizationUnitsHeaderInfo" />
     <text value="Organization User Statistics" name="OrganizationUserStatistics" />
+    <text value="Original" name="Original" />
     <text value="Original address" name="Originaladdress" />
     <text value="Original practice law firm" name="OriginalPracticeLawFirm" />
     <text value="Original value" name="OriginalValue" />
@@ -1906,10 +1910,13 @@
     <text value="Stamp review" name="Pages.Business.StampFiles.StampFileManage" />
     <text value="Document Template" name="Pages.Business.StampFiles.UploadTemplate" />
     <text value="Common tool" name="Pages.CommonTools" />
+    <text value="Case Law Library" name="Pages.CommonTools.CaseLaw" />
+    <text value="China Law &amp; Reference" name="Pages.CommonTools.CaseLaw.WkInfo" />
     <text value="Contacts" name="Pages.CommonTools.Contacts" />
     <text value="Enterprise information inquiry" name="Pages.CommonTools.Corporate" />
     <text value="French angel contract library" name="Pages.CommonTools.FaTianShi" />
     <text value="Legal navigation" name="Pages.CommonTools.Navigation" />
+    <text value="Full-time web conference" name="Pages.CommonTools.QuanShi" />
     <text value="customer relations" name="Pages.Customers" />
     <text value="Customer management" name="Pages.Customers.Manage" />
     <text value="Customer management" name="Pages.Customers.MyCustomers" />
@@ -1926,11 +1933,11 @@
     <text value="Content management" name="Pages.Executive.Intranet.Manage" />
     <text value="Personnel status management" name="Pages.Executive.Schedule" />
     <text value="Outgoing state" name="Pages.Executive.Schedule.Status" />
-    <text value="Management with chapters" name="Pages.Executive.Stamp" />
-    <text value="Apply with a chapter" name="Pages.Executive.Stamp.Apply" />
-    <text value="My chapter" name="Pages.Executive.Stamp.ApplyList" />
-    <text value="Review with chapter" name="Pages.Executive.Stamp.Approve" />
-    <text value="Management with chapters" name="Pages.Executive.Stamp.Manage" />
+    <text value="Administrative Chapter Management" name="Pages.Executive.Stamp" />
+    <text value="Administrative seal application" name="Pages.Executive.Stamp.Apply" />
+    <text value="My administrative stamp" name="Pages.Executive.Stamp.ApplyList" />
+    <text value="Audit of administrative chapter" name="Pages.Executive.Stamp.Approve" />
+    <text value="Administrative Chapter Management" name="Pages.Executive.Stamp.Manage" />
     <text value="Financial Management" name="Pages.Financial" />
     <text value="Billing Management" name="Pages.Financial.Billings" />
     <text value="Bill review" name="Pages.Financial.Billings.AuditBillings" />
@@ -2173,6 +2180,7 @@
     <text value="Please wait while confirming your email address..." name="PleaseWaitToConfirmYourEmailMessage" />
     <text value="Pledgee" name="Pledgee" />
     <text value="Pledgor" name="Pledgor" />
+    <text value="Case Law Library" name="PluginGroup.CaseLaw" />
     <text value="Electronic contract" name="PluginGroup.ElectronicSignature" />
     <text value="Mailbox service" name="PluginGroup.Email" />
     <text value="Basic services" name="PluginGroup.LegalDta" />
@@ -2238,6 +2246,7 @@
     <text value="Privacy Policy" name="PrivacyPolicy" />
     <text value="Awards" name="Prize" />
     <text value="process" name="Process" />
+    <text value="Processed" name="Processed" />
     <text value="Processing" name="Processing" />
     <text value="Processing level" name="Processinglevel" />
     <text value="Processing..." name="ProcessingWithThreeDot" />
@@ -2315,6 +2324,7 @@
     <text value="Receive Notifications" name="ReceiveNotifications" />
     <text value="This option can be used to completely enable/disable receiving notifications." name="ReceiveNotifications_Definition" />
     <text value="You completely disabled receiving notifications. You can enable it and select notification types you want to receive." name="ReceiveNotifications_DisableInfo" />
+    <text value="Receiver" name="Receiver" />
     <text value="recent" name="Recent" />
     <text value="Recent tenants" name="RecentTenants" />
     <text value="Last {1} customers registered in {0} days..." name="RecentTenantsHelpText" />
@@ -2533,6 +2543,7 @@
     <text value="The number of stamps is at least 1" name="SealNumberMustPositiveInteger" />
     <text value="Seal status" name="SealState" />
     <text value="Seal type" name="SealType" />
+    <text value="Seal way" name="Sealway" />
     <text value="Search" name="Search" />
     <text value="Search more lawyers" name="SearchMoreLawyers" />
     <text value="Search..." name="SearchWithThreeDot" />
@@ -2646,6 +2657,9 @@
     <text value="Display statistics" name="ShowStatistics" />
     <text value="Sidebar" name="Sidebar" />
     <text value="Sidebar skin" name="SidebarSkins" />
+    <text value="sign" name="sign" />
+    <text value="Signatories" name="Signatories" />
+    <text value="Signed" name="Signed" />
     <text value="Sign up" name="SignUp" />
     <text value="If there are similar customers in the related list, the case has been entered. The customer information will be deleted and replaced." name="SimilarCustomerInAssociationListTheCaseHasBeenEnteredTheCustomerWillBeDeletedAndReplaced" />
     <text value="Similar customer list" name="SimilarCustomerList" />

@@ -984,6 +984,7 @@
     <text value="교육" name="Education" />
     <text value="교육 배경" name="EducationalBackground" />
     <text value="효과적인 의무" name="Effectiveobligation" />
+    <text value="전자 서명 정보" name="ElectronicSignatureInfo" />
     <text value="이메일" name="Email" />
     <text value="이메일 확인" name="EmailActivation" />
     <text value="아래 링크를 클릭하여 이메일 주소를 확인하고 사용자 계정을 활성화하십시오." name="EmailActivation_ClickTheLinkBelowToVerifyYourEmail" />
@@ -1174,6 +1175,7 @@
     <text value="외국인 투자" name="Foreigninvestment" />
     <text value="외국 환율" name="ForeignRate" />
     <text value="예를 들어" name="ForExample" />
+    <text value="비밀번호를 잊어 버렸습니다" name="ForgetPassword" />
     <text value="암호가 기억 나지 않습니까?" name="ForgotPassword" />
     <text value="공식적인 사건" name="FormalCase" />
     <text value="정식 고객" name="FormalCustomer" />
@@ -1694,6 +1696,7 @@
     <text value="뉴스" name="News" />
     <text value="뉴스 발표" name="NewsBulletin" />
     <text value="뉴스 및 공지 사항은 삭제를 허용하지 않습니다." name="NewsBulletinAreNotAllowedToBeDeleted" />
+    <text value="뉴스 유형" name="NewsType" />
     <text name="NewSubscriptionAmount" />
     <text value="새로운 작업 단계" name="NewTaskStage" />
     <text value="세입자 추가" name="NewTenant" />
@@ -1854,6 +1857,7 @@
     <text value="조직" name="OrganizationUnits" />
     <text value="조직을 사용하여 사용자 및 엔터티 구성" name="OrganizationUnitsHeaderInfo" />
     <text value="조직 사용자 통계" name="OrganizationUserStatistics" />
+    <text value="원본" name="Original" />
     <text value="원래 주소" name="Originaladdress" />
     <text value="원본 법률 회사" name="OriginalPracticeLawFirm" />
     <text name="OriginalValue" />
@@ -1906,10 +1910,13 @@
     <text value="도장 을 덮 고 심사 하다" name="Pages.Business.StampFiles.StampFileManage" />
     <text value="문서 템플릿" name="Pages.Business.StampFiles.UploadTemplate" />
     <text value="일반적인 도구" name="Pages.CommonTools" />
+    <text value="판례법 도서관" name="Pages.CommonTools.CaseLaw" />
+    <text value="China Law &amp; Reference" name="Pages.CommonTools.CaseLaw.WkInfo" />
     <text value="연락처" name="Pages.CommonTools.Contacts" />
     <text value="기업 정보 문의" name="Pages.CommonTools.Corporate" />
     <text value="프랑스 천사 계약 도서관" name="Pages.CommonTools.FaTianShi" />
     <text value="법인 탐색" name="Pages.CommonTools.Navigation" />
+    <text value="풀 타임 웹 컨퍼런스" name="Pages.CommonTools.QuanShi" />
     <text value="고객 관계" name="Pages.Customers" />
     <text value="고객 관리" name="Pages.Customers.Manage" />
     <text value="고객 관리" name="Pages.Customers.MyCustomers" />
@@ -1926,11 +1933,11 @@
     <text value="콘텐츠 관리" name="Pages.Executive.Intranet.Manage" />
     <text value="인사 현황 관리" name="Pages.Executive.Schedule" />
     <text value="발신 상태" name="Pages.Executive.Schedule.Status" />
-    <text value="챕터 관리" name="Pages.Executive.Stamp" />
-    <text value="챕터로 적용" name="Pages.Executive.Stamp.Apply" />
-    <text value="내 장" name="Pages.Executive.Stamp.ApplyList" />
-    <text value="장으로 검토" name="Pages.Executive.Stamp.Approve" />
-    <text value="챕터 관리" name="Pages.Executive.Stamp.Manage" />
+    <text value="관리 장 관리" name="Pages.Executive.Stamp" />
+    <text value="관리 인감 신청" name="Pages.Executive.Stamp.Apply" />
+    <text value="내 관리 도장" name="Pages.Executive.Stamp.ApplyList" />
+    <text value="행정 장의 감사" name="Pages.Executive.Stamp.Approve" />
+    <text value="관리 장 관리" name="Pages.Executive.Stamp.Manage" />
     <text value="재무 관리" name="Pages.Financial" />
     <text value="결제 관리" name="Pages.Financial.Billings" />
     <text value="청구서 검토" name="Pages.Financial.Billings.AuditBillings" />
@@ -2173,6 +2180,7 @@
     <text name="PleaseWaitToConfirmYourEmailMessage" />
     <text value="질료" name="Pledgee" />
     <text value="Pledgor" name="Pledgor" />
+    <text value="판례법 도서관" name="PluginGroup.CaseLaw" />
     <text value="전자 계약" name="PluginGroup.ElectronicSignature" />
     <text value="사서함 서비스" name="PluginGroup.Email" />
     <text value="기본 서비스" name="PluginGroup.LegalDta" />
@@ -2238,6 +2246,7 @@
     <text value="개인 정보 보호 정책" name="PrivacyPolicy" />
     <text value="수상 내역" name="Prize" />
     <text value="가공" name="Process" />
+    <text value="가공" name="Processed" />
     <text value="가공" name="Processing" />
     <text value="처리 수준" name="Processinglevel" />
     <text name="ProcessingWithThreeDot" />
@@ -2315,6 +2324,7 @@
     <text value="알림 수신" name="ReceiveNotifications" />
     <text value="이 옵션을 사용하여 수신 알림을 완전히 활성화 / 비활성화 할 수 있습니다." name="ReceiveNotifications_Definition" />
     <text value="알림 수신을 완전히 사용하지 않도록 설정할 수 있습니다. 알림을 사용하도록 설정하고 수신 할 알림 유형을 선택할 수 있습니다." name="ReceiveNotifications_DisableInfo" />
+    <text value="받는 사람" name="Receiver" />
     <text value="최근에" name="Recent" />
     <text name="RecentTenants" />
     <text name="RecentTenantsHelpText" />
@@ -2533,6 +2543,7 @@
     <text value="스탬프 수는 1 이상입니다." name="SealNumberMustPositiveInteger" />
     <text value="인장 상태" name="SealState" />
     <text value="씰 타입" name="SealType" />
+    <text value="인감 방법" name="Sealway" />
     <text value="검색" name="Search" />
     <text value="더 많은 변호사 검색" name="SearchMoreLawyers" />
     <text value="검색 ..." name="SearchWithThreeDot" />
@@ -2646,6 +2657,9 @@
     <text value="통계 표시" name="ShowStatistics" />
     <text value="사이드 바" name="Sidebar" />
     <text value="사이드 바 스킨" name="SidebarSkins" />
+    <text value="서명" name="sign" />
+    <text value="서명국" name="Signatories" />
+    <text value="서명" name="Signed" />
     <text value="등록" name="SignUp" />
     <text value="관련 목록에 유사한 고객이있는 경우 해당 사례가 입력되고 고객 정보가 삭제되고 대체됩니다." name="SimilarCustomerInAssociationListTheCaseHasBeenEnteredTheCustomerWillBeDeletedAndReplaced" />
     <text value="유사한 고객 목록" name="SimilarCustomerList" />

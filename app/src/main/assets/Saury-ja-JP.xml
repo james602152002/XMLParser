@@ -984,6 +984,7 @@
     <text value="教育" name="Education" />
     <text value="教育的背景" name="EducationalBackground" />
     <text value="効果的な義務" name="Effectiveobligation" />
+    <text value="電子署名情報" name="ElectronicSignatureInfo" />
     <text value="Eメール" name="Email" />
     <text value="メール確認" name="EmailActivation" />
     <text value="下のリンクをクリックしてメールアドレスを確認し、ユーザーアカウントを有効にしてください：" name="EmailActivation_ClickTheLinkBelowToVerifyYourEmail" />
@@ -1174,6 +1175,7 @@
     <text value="外国投資" name="Foreigninvestment" />
     <text value="外国為替レート" name="ForeignRate" />
     <text value="例えば" name="ForExample" />
+    <text value="パスワードを忘れた" name="ForgetPassword" />
     <text value="パスワードを覚えていない？" name="ForgotPassword" />
     <text value="フォーマルケース" name="FormalCase" />
     <text value="正式な顧客" name="FormalCustomer" />
@@ -1694,6 +1696,7 @@
     <text value="ニュース" name="News" />
     <text value="ニュース発表" name="NewsBulletin" />
     <text value="ニュースとアナウンスは削除を許可していません" name="NewsBulletinAreNotAllowedToBeDeleted" />
+    <text value="ニュースの種類" name="NewsType" />
     <text name="NewSubscriptionAmount" />
     <text value="新しい作業段階" name="NewTaskStage" />
     <text value="テナントを追加する" name="NewTenant" />
@@ -1854,6 +1857,7 @@
     <text value="組織" name="OrganizationUnits" />
     <text value="組織を使用してユーザーとエンティティを整理する" name="OrganizationUnitsHeaderInfo" />
     <text value="組織のユーザー統計" name="OrganizationUserStatistics" />
+    <text value="オリジナル" name="Original" />
     <text value="元の住所" name="Originaladdress" />
     <text value="元練習法律事務所" name="OriginalPracticeLawFirm" />
     <text name="OriginalValue" />
@@ -1906,10 +1910,13 @@
     <text value="判を押して審査する" name="Pages.Business.StampFiles.StampFileManage" />
     <text value="ドキュメントテンプレート" name="Pages.Business.StampFiles.UploadTemplate" />
     <text value="一般的なツール" name="Pages.CommonTools" />
+    <text value="判例ライブラリ" name="Pages.CommonTools.CaseLaw" />
+    <text value="威科先行·法律信息庫" name="Pages.CommonTools.CaseLaw.WkInfo" />
     <text value="連絡先" name="Pages.CommonTools.Contacts" />
     <text value="企業情報の照会" name="Pages.CommonTools.Corporate" />
     <text value="フランスの天使契約図書館" name="Pages.CommonTools.FaTianShi" />
     <text value="法人ナビゲーション" name="Pages.CommonTools.Navigation" />
+    <text value="フルタイムのWeb会議" name="Pages.CommonTools.QuanShi" />
     <text value="顧客関係" name="Pages.Customers" />
     <text value="顧客管理" name="Pages.Customers.Manage" />
     <text value="顧客管理" name="Pages.Customers.MyCustomers" />
@@ -1926,11 +1933,11 @@
     <text value="コンテンツ管理" name="Pages.Executive.Intranet.Manage" />
     <text value="人事管理" name="Pages.Executive.Schedule" />
     <text value="発信状態" name="Pages.Executive.Schedule.Status" />
-    <text value="章による管理" name="Pages.Executive.Stamp" />
-    <text value="章で適用する" name="Pages.Executive.Stamp.Apply" />
-    <text value="私の章" name="Pages.Executive.Stamp.ApplyList" />
-    <text value="章で検討する" name="Pages.Executive.Stamp.Approve" />
-    <text value="章による管理" name="Pages.Executive.Stamp.Manage" />
+    <text value="管理章管理" name="Pages.Executive.Stamp" />
+    <text value="印鑑申請" name="Pages.Executive.Stamp.Apply" />
+    <text value="私の管理スタンプ" name="Pages.Executive.Stamp.ApplyList" />
+    <text value="行政支部の監査" name="Pages.Executive.Stamp.Approve" />
+    <text value="管理章管理" name="Pages.Executive.Stamp.Manage" />
     <text value="財務管理" name="Pages.Financial" />
     <text value="請求管理" name="Pages.Financial.Billings" />
     <text value="請求書レビュー" name="Pages.Financial.Billings.AuditBillings" />
@@ -2173,6 +2180,7 @@
     <text name="PleaseWaitToConfirmYourEmailMessage" />
     <text value="質権者" name="Pledgee" />
     <text value="プレドゴール" name="Pledgor" />
+    <text value="判例ライブラリ" name="PluginGroup.CaseLaw" />
     <text value="電子契約" name="PluginGroup.ElectronicSignature" />
     <text value="メールボックスサービス" name="PluginGroup.Email" />
     <text value="基本サービス" name="PluginGroup.LegalDta" />
@@ -2238,6 +2246,7 @@
     <text value="プライバシーポリシー" name="PrivacyPolicy" />
     <text value="賞" name="Prize" />
     <text value="処理中" name="Process" />
+    <text value="処理済み" name="Processed" />
     <text value="処理中" name="Processing" />
     <text value="処理レベル" name="Processinglevel" />
     <text name="ProcessingWithThreeDot" />
@@ -2315,6 +2324,7 @@
     <text value="通知を受け取る" name="ReceiveNotifications" />
     <text value="このオプションを使用すると、受信通知を完全に有効/無効にすることができます。" name="ReceiveNotifications_Definition" />
     <text value="通知の受信を完全に無効にします。通知を有効にして、受信する通知の種類を選択できます。" name="ReceiveNotifications_DisableInfo" />
+    <text value="受取人" name="Receiver" />
     <text value="最近" name="Recent" />
     <text name="RecentTenants" />
     <text name="RecentTenantsHelpText" />
@@ -2533,6 +2543,7 @@
     <text value="スタンプの数は少なくとも1です" name="SealNumberMustPositiveInteger" />
     <text value="印鑑ステータス" name="SealState" />
     <text value="シールタイプ" name="SealType" />
+    <text value="シール方法" name="Sealway" />
     <text value="検索" name="Search" />
     <text value="より多くの弁護士を検索する" name="SearchMoreLawyers" />
     <text value="検索..." name="SearchWithThreeDot" />
@@ -2646,6 +2657,9 @@
     <text value="統計情報を表示する" name="ShowStatistics" />
     <text value="サイドバー" name="Sidebar" />
     <text value="サイドバースキン" name="SidebarSkins" />
+    <text value="サイン" name="sign" />
+    <text value="署名者" name="Signatories" />
+    <text value="署名済み" name="Signed" />
     <text value="登録" name="SignUp" />
     <text value="関連リストに同様の顧客が存在する場合は、そのケースが入力されます。顧客情報は削除され、置き換えられます。" name="SimilarCustomerInAssociationListTheCaseHasBeenEnteredTheCustomerWillBeDeletedAndReplaced" />
     <text value="同様の顧客リスト" name="SimilarCustomerList" />
