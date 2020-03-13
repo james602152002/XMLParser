@@ -23,12 +23,14 @@
     <text value="access" name="Access" />
     <text value="Access your applications and resources even if you are offline" name="Access to your applications and resources, even when you are offline" />
     <text value="Access card number" name="AccessCardNumber" />
+    <text value="Account binding" name="AccountBinding" />
     <text value="Account Management" name="AccountManagement" />
     <text value="account number" name="AccountNumber" />
     <text value="The account has been bound under other law firm IDs" name="AccountOtherTenantsHasBeenBound" />
     <text value="Account payment information" name="AccountPaymentInformation" />
     <text value="Account settings" name="AccountSettings" />
     <text value="Arrival status" name="AccountStatus" />
+    <text value="Account synchronization. " name="AcountSync" />
     <text value="Received" name="Acquired" />
     <text value="Action" name="Action" />
     <text value="Operation column preference" name="ActionColumnPreference" />
@@ -244,6 +246,7 @@
     <text value="Associated billing information" name="AssociatedBillingInfo" />
     <text value="Associated invoice information" name="AssociatedInvoiceInfo" />
     <text value="Associated primary key number" name="AssociatePrimaryKey" />
+    <text value="At last" name="AtLast" />
     <text value="Required permissions are not granted. At least one of these permissions must be granted: {0}" name="AtLeastOneOfThesePermissionsMustBeGranted" />
     <text value="Attach" name="Attach" />
     <text value="Attachment information" name="AttachmentInformation" />
@@ -646,6 +649,7 @@
     <text value="Complete time" name="CompletionTime" />
     <text value="Compressed file" name="CompressedFile" />
     <text value="Computer number" name="ComputerNumbering" />
+    <text value="Conference password" name="ConferencePassword" />
     <text value="Confidentiality agreement" name="ConfidentialityAgreement" />
     <text value="confirm" name="Confirm" />
     <text value="Confirm approval information?" name="ConfirmApprovalInformation" />
@@ -696,6 +700,7 @@
     <text value="Collaboration to be confirmed" name="CoordinateToBeConfirmed" />
     <text value="Number of copies" name="Copies" />
     <text value="Copy" name="Copy" />
+    <text value="Copy invitation information" name="CopyInvitationInformation" />
     <text value="Corporate" name="Corporate" />
     <text value="Please enter the company name, for example &quot;Shanghai Bizhi Technology Co., Ltd.&quot;" name="CorporateHint" />
     <text value="Corporate Information" name="CorporateInformation" />
@@ -944,10 +949,12 @@
     <text value="Press again to exit the program" name="DoubleClickForExit" />
     <text value="Download" name="Download" />
     <text value="Download all" name="DownloadAll" />
+    <text value="Download audio file" name="DownloadAudioFile" />
     <text value="Download collected data" name="DownloadCollectedData" />
     <text value="download failed" name="DownloadFailed" />
     <text value="Download the latest" name="Downloadlatest" />
     <text value="Download minutes" name="DownloadMinutes" />
+    <text value="Download Post-Conference Report" name="DownloadPostConferenceReport" />
     <text value="Edit or improve the converted logbook?" name="DoYouEditOrImproveConvertedWorkLog" />
     <text value="Groupable dragable sort" name="DragSortInGroups" />
     <text value="Mailbox {0} is already occupied" name="DuplicateEmail" />
@@ -1260,9 +1267,10 @@
     <text value="friendly reminder" name="Hints" />
     <text value="History" name="History" />
     <text value="family address" name="HomeAddress" />
-    <text value="Home page" name="HomePage" />
+    <text value="Home" name="HomePage" />
     <text value="General statistics and recent activities" name="HostDashboardHeaderInfo" />
     <text value="Sponsored lawyers" name="HostLawyer" />
+    <text value="Host link" name="HostLink" />
     <text value="Popular content" name="HotContent" />
     <text value="Hourly charge" name="HourlyPay" />
     <text value="Hourly rate" name="HourlyRate" />
@@ -1631,6 +1639,7 @@
     <text value="Mission Gantt chart" name="MissionGanttchart" />
     <text value="mobile phone" name="MobilePhone" />
     <text value="Mobile version" name="MobileVersion" />
+    <text value="Moderator password" name="ModeratorPassword" />
     <text value="Change the time" name="ModificationTime" />
     <text value="Modified person" name="ModificationUser" />
     <text value="Modify classification" name="ModifiedClassification" />
@@ -1828,6 +1837,7 @@
     <text value="Working status" name="OnTheJobStatus" />
     <text value="Oops! You're lost." name="OopsYouAreLost" />
     <text value="public" name="Open" />
+    <text value="Open recording" name="OpenRecording" />
     <text value="Operator" name="Operater" />
     <text value="Operation logs" name="OperationLogs" />
     <text value="Operation tips" name="OperationTips" />
@@ -1851,6 +1861,7 @@
     <text value="Organization statistics" name="OrganizationStatistics" />
     <text value="Organization structure" name="OrganizationStructure" />
     <text value="Organization tree" name="OrganizationTree" />
+    <text value="Please delete members under this organization before deleting this organization." name="OrganizationUnitDeleteCondition" />
     <text value="Are you sure to delete organization unit {0}?" name="OrganizationUnitDeleteWarningMessage" />
     <text value="Please confirm to move {0} to under {1}." name="OrganizationUnitMoveConfirmMessage" />
     <text value="There is no Organization Unit For this user." name="OrganizationUnitNotFoundForThisUser" />
@@ -2022,6 +2033,7 @@
     <text value="Participating Lawyer" name="ParticipatingLawyer" />
     <text value="Participation log to be converted" name="ParticipatingLogsToBeTransformed" />
     <text value="Participation in social groups and part-time work" name="ParticipationInSocialGroupsAndPart" />
+    <text value="Participation link" name="ParticipationLink" />
     <text value="partner" name="Partner" />
     <text value="Partner is not allowed to file a case" name="PartnerIsNotAllowedToFileCase" />
     <text value="Partner review results" name="PartnerReviewResults" />
@@ -2129,6 +2141,7 @@
     <text value="Personnel file storage place" name="PlaceOfPersonnelFiles" />
     <text value="plaintiff" name="Plaintiff" />
     <text value="" name="Platform.MultiTenancy.Tenant" />
+    <text value="Playback recordings online" name="PlaybackRecordingsOnline" />
     <text value="Please adjust the search conditions" name="PleaseAdjustTheSearchCriteria" />
     <text value="Please select a staff member!" name="PleaseChooseAEmployee" />
     <text value="Please select a staff member!" name="PleasechooseAStaffMember" />
@@ -2258,6 +2271,7 @@
     <text value="You can select a JPG/JPEG/PNG file with a maximum {0}MB size." name="ProfilePicture_Change_Info" />
     <text value="You can only select JPG/JPEG file. Please select another file." name="ProfilePicture_Warn_FileType" />
     <text value="Picture size must be smaller than {0}MB. Please select another file." name="ProfilePicture_Warn_SizeLimit" />
+    <text value="It is not allowed to delete the root organization." name="ProhibitDeleteRootOrganizationUnit" />
     <text value="Project burnout chart" name="ProjectBurnoutChart" />
     <text value="Item category" name="ProjectCategory" />
     <text value="Project Description" name="ProjectContent" />
@@ -2330,6 +2344,7 @@
     <text value="Last {1} customers registered in {0} days..." name="RecentTenantsHelpText" />
     <text value="Recent visit history" name="RecentVisitHistory" />
     <text value="recommend" name="Recommended" />
+    <text value="Recording time" name="RecordingTime" />
     <text value="Operation record" name="Records" />
     <text value="Total {0} records" name="RecordsCount" />
     <text value="The price difference between your current edition and the one you are upgrading will be charged from your account." name="RecurringSubscriptionUpgradeNote" />
@@ -2598,7 +2613,7 @@
     <text value="You can not register to the system!" name="SelfUserRegistrationIsDisabledMessage" />
     <text value="Self user registration is disabled. Please contact the system administrator to register." name="SelfUserRegistrationIsDisabledMessage_Detail" />
     <text value="Send" name="Send" />
-    <text value="Send activation email." name="SendActivationEmail" />
+    <text value="Send notification email." name="SendActivationEmail" />
     <text value="Send an audit" name="SendAnAudit" />
     <text value="A link will be sent to your email to activate your email address. If you don't get an email within a few minutes, please re-try." name="SendEmailActivationLink_Information" />
     <text value="Sender" name="Sender" />
@@ -2785,6 +2800,7 @@
     <text value="CC unit" name="SubUnit" />
     <text value="Success" name="Success" />
     <text value="Successfully added" name="SuccessfullyAdded" />
+    <text value="Successfully copied the invitation information" name="SuccessfullyCopiedTheInvitationInformation" />
     <text value="Successfully deleted." name="SuccessfullyDeleted" />
     <text value="Your successful filing of the filed archived case [{0}] was successful." name="SuccessfullyFiled" />
     <text value="Successfully moved." name="SuccessfullyMoved" />
@@ -3284,7 +3300,10 @@
     <text value="to be confirmed" name="WaitngForConfirmed" />
     <text value="myriad" name="Wan" />
     <text value="Warning" name="Warning" />
+    <text value="Watch the post-conference report" name="WatchThePostConferenceReport" />
     <text value="Communication method" name="WayToCommunicate" />
+    <text value="Web conference information" name="WebConferenceInformation" />
+    <text value="Web conference recording file" name="WebConferenceRecordingFile" />
     <text value="Website Logs" name="WebSiteLogs" />
     <text value="You can see latest logs in this page or download all logs in a single zip file." name="WebSiteLogsHeaderInfo" />
     <text value="We can not find the page you're looking for." name="WeCanNotFindThePage" />

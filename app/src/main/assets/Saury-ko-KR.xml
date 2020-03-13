@@ -23,12 +23,14 @@
     <text value="액세스" name="Access" />
     <text value="오프라인 상태에서도 응용 프로그램 및 리소스에 액세스" name="Access to your applications and resources, even when you are offline" />
     <text value="액세스 카드 번호" name="AccessCardNumber" />
+    <text value="계정 바인딩" name="AccountBinding" />
     <text value="계좌 번호 관리" name="AccountManagement" />
     <text value="계좌 번호" name="AccountNumber" />
     <text value="이 계좌는 다른 법률 회사 ID로 묶여 있습니다." name="AccountOtherTenantsHasBeenBound" />
     <text value="계정 지불 정보" name="AccountPaymentInformation" />
     <text value="계정 설정" name="AccountSettings" />
     <text value="도착 상태" name="AccountStatus" />
+    <text value="계정 동기화 " name="AcountSync" />
     <text value="받은" name="Acquired" />
     <text value="운영" name="Action" />
     <text value="작업 열 환경 설정" name="ActionColumnPreference" />
@@ -244,6 +246,7 @@
     <text value="관련 결제 정보" name="AssociatedBillingInfo" />
     <text value="관련 송장 정보" name="AssociatedInvoiceInfo" />
     <text value="연관된 기본 키 번호" name="AssociatePrimaryKey" />
+    <text value="마지막으로" name="AtLast" />
     <text value="필수 권한이 ​​부여되지 않았습니다 ({0} 권한 중 하나 이상)." name="AtLeastOneOfThesePermissionsMustBeGranted" />
     <text value="연결" name="Attach" />
     <text value="첨부 파일 정보" name="AttachmentInformation" />
@@ -646,6 +649,7 @@
     <text value="완료 시간" name="CompletionTime" />
     <text value="압축 파일" name="CompressedFile" />
     <text value="컴퓨터 번호" name="ComputerNumbering" />
+    <text value="회의 비밀번호" name="ConferencePassword" />
     <text value="기밀 유지 계약" name="ConfidentialityAgreement" />
     <text value="확인" name="Confirm" />
     <text value="승인 정보를 확인 하시겠습니까?" name="ConfirmApprovalInformation" />
@@ -696,6 +700,7 @@
     <text value="공동 작업 확인" name="CoordinateToBeConfirmed" />
     <text value="인쇄 매수" name="Copies" />
     <text value="복사" name="Copy" />
+    <text value="초대 정보 복사" name="CopyInvitationInformation" />
     <text value="법인 법인" name="Corporate" />
     <text value="&quot;Shanghai Bizhi Technology Co., Ltd.&quot;와 같은 회사 이름을 입력하십시오." name="CorporateHint" />
     <text value="기업 정보" name="CorporateInformation" />
@@ -944,10 +949,12 @@
     <text value="프로그램을 종료하려면 다시 누릅니다." name="DoubleClickForExit" />
     <text value="다운로드" name="Download" />
     <text value="모두 다운로드" name="DownloadAll" />
+    <text value="오디오 파일 다운로드" name="DownloadAudioFile" />
     <text name="DownloadCollectedData" />
     <text value="다운로드 실패" name="DownloadFailed" />
     <text value="최신 다운로드" name="Downloadlatest" />
     <text value="분 다운로드" name="DownloadMinutes" />
+    <text value="회의 후 보고서 다운로드" name="DownloadPostConferenceReport" />
     <text value="변환 된 로그 북을 편집하거나 개선 하시겠습니까?" name="DoYouEditOrImproveConvertedWorkLog" />
     <text value="그룹화 가능한 드래그 가능한 정렬" name="DragSortInGroups" />
     <text value="사서함 {0}이 (가) 이미 사용 중입니다." name="DuplicateEmail" />
@@ -1263,6 +1270,7 @@
     <text value="홈페이지" name="HomePage" />
     <text name="HostDashboardHeaderInfo" />
     <text value="후원 변호사" name="HostLawyer" />
+    <text value="호스트 링크" name="HostLink" />
     <text value="인기있는 콘텐츠" name="HotContent" />
     <text value="시간당 요금" name="HourlyPay" />
     <text value="시간당 요금" name="HourlyRate" />
@@ -1631,6 +1639,7 @@
     <text value="미션 간트 차트" name="MissionGanttchart" />
     <text value="휴대 전화" name="MobilePhone" />
     <text value="모바일 버전" name="MobileVersion" />
+    <text value="중재자 비밀번호" name="ModeratorPassword" />
     <text value="수정 시간" name="ModificationTime" />
     <text value="수정 된 사람" name="ModificationUser" />
     <text value="분류 수정" name="ModifiedClassification" />
@@ -1828,6 +1837,7 @@
     <text value="근무 상태" name="OnTheJobStatus" />
     <text value="오!" name="OopsYouAreLost" />
     <text value="열기" name="Open" />
+    <text value="녹음 열기" name="OpenRecording" />
     <text value="연산자" name="Operater" />
     <text name="OperationLogs" />
     <text value="작동 팁" name="OperationTips" />
@@ -1851,6 +1861,7 @@
     <text value="조직 통계" name="OrganizationStatistics" />
     <text value="조직 구조" name="OrganizationStructure" />
     <text value="조직도" name="OrganizationTree" />
+    <text value="이 조직을 삭제하기 전에이 조직의 구성원을 삭제하십시오." name="OrganizationUnitDeleteCondition" />
     <text value="조직 {0}을 (를) 삭제 하시겠습니까?" name="OrganizationUnitDeleteWarningMessage" />
     <text value="{0}을 (를) {1} (으)로 이동하려면 확인하십시오." name="OrganizationUnitMoveConfirmMessage" />
     <text name="OrganizationUnitNotFoundForThisUser" />
@@ -2022,6 +2033,7 @@
     <text value="참여 변호사" name="ParticipatingLawyer" />
     <text value="참여 로그를 변환해야합니다." name="ParticipatingLogsToBeTransformed" />
     <text value="사회 단체 및 아르바이트 참여" name="ParticipationInSocialGroupsAndPart" />
+    <text value="참여 링크" name="ParticipationLink" />
     <text value="파트너" name="Partner" />
     <text value="파트너가 사례를 제출할 수 없습니다" name="PartnerIsNotAllowedToFileCase" />
     <text value="파트너 리뷰 결과" name="PartnerReviewResults" />
@@ -2129,6 +2141,7 @@
     <text value="인사 파일 저장 장소" name="PlaceOfPersonnelFiles" />
     <text value="원고" name="Plaintiff" />
     <text value="" name="Platform.MultiTenancy.Tenant" />
+    <text value="온라인 재생 녹화" name="PlaybackRecordingsOnline" />
     <text value="검색 조건을 조정하십시오." name="PleaseAdjustTheSearchCriteria" />
     <text value="직원을 선택하십시오!" name="PleaseChooseAEmployee" />
     <text value="직원을 선택하십시오!" name="PleasechooseAStaffMember" />
@@ -2258,6 +2271,7 @@
     <text value="{0} mb 내의 JPG / JPEG / PNG 사진 만 선택할 수 있습니다." name="ProfilePicture_Change_Info" />
     <text value="1MB 이내의 JPG / JPEG 이미지 만 선택하십시오. 아바타 파일을 다시 선택하십시오." name="ProfilePicture_Warn_FileType" />
     <text value="1MB 이내의 JPG / JPEG 이미지 만 선택하십시오. 아바타 파일을 다시 선택하십시오." name="ProfilePicture_Warn_SizeLimit" />
+    <text value="루트 조직을 삭제할 수 없습니다." name="ProhibitDeleteRootOrganizationUnit" />
     <text value="프로젝트 번 아웃 차트" name="ProjectBurnoutChart" />
     <text value="품목 범주" name="ProjectCategory" />
     <text value="프로젝트의 내용" name="ProjectContent" />
@@ -2330,6 +2344,7 @@
     <text name="RecentTenantsHelpText" />
     <text value="최근 방문 기록" name="RecentVisitHistory" />
     <text value="추천" name="Recommended" />
+    <text value="녹화 시간" name="RecordingTime" />
     <text value="작전 기록" name="Records" />
     <text value="총 {0} 레코드" name="RecordsCount" />
     <text name="RecurringSubscriptionUpgradeNote" />
@@ -2598,7 +2613,7 @@
     <text value="가입 할 수 없습니다!" name="SelfUserRegistrationIsDisabledMessage" />
     <text value="등록이 비활성화되어 있습니다. 시스템 관리자에게 문의하여 사용자 계정을 만드십시오." name="SelfUserRegistrationIsDisabledMessage_Detail" />
     <text value="보내는 중" name="Send" />
-    <text value="활성화 이메일을 보내십시오." name="SendActivationEmail" />
+    <text value="알림 이메일을 보냅니다." name="SendActivationEmail" />
     <text value="감사 보내기" name="SendAnAudit" />
     <text value="시스템은 사용자 계정을 활성화하는 데 수십 초 내에 이메일을 전송합니다. 전자 메일 내용의 활성화 링크를 받아 클릭하십시오. " name="SendEmailActivationLink_Information" />
     <text value="보낸 사람" name="Sender" />
@@ -2785,6 +2800,7 @@
     <text value="CC 장치" name="SubUnit" />
     <text value="성공" name="Success" />
     <text value="추가 완료" name="SuccessfullyAdded" />
+    <text value="초대 정보를 성공적으로 복사했습니다" name="SuccessfullyCopiedTheInvitationInformation" />
     <text value="성공적으로 삭제되었습니다." name="SuccessfullyDeleted" />
     <text value="신고 된 보관 케이스 [{0}]을 (를) 성공적으로 제출했습니다." name="SuccessfullyFiled" />
     <text value="성공적인 전송." name="SuccessfullyMoved" />
@@ -3284,7 +3300,10 @@
     <text value="확인하려면" name="WaitngForConfirmed" />
     <text value="만" name="Wan" />
     <text name="Warning" />
+    <text value="회의 후 보고서보기" name="WatchThePostConferenceReport" />
     <text value="통신 방법" name="WayToCommunicate" />
+    <text value="웹 컨퍼런스 정보" name="WebConferenceInformation" />
+    <text value="웹 회의 기록 파일" name="WebConferenceRecordingFile" />
     <text value="웹 로그" name="WebSiteLogs" />
     <text value="이 페이지의 최신 로그를 보거나 모든 로그를 zip 파일로 다운로드 할 수 있습니다." name="WebSiteLogsHeaderInfo" />
     <text value="방문하려는 페이지는 제공 할 수 없습니다." name="WeCanNotFindThePage" />

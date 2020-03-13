@@ -23,12 +23,14 @@
     <text value="アクセス" name="Access" />
     <text value="オフラインであってもアプリケーションとリソースにアクセスする" name="Access to your applications and resources, even when you are offline" />
     <text value="アクセスカード番号" name="AccessCardNumber" />
+    <text value="アカウントのバインド" name="AccountBinding" />
     <text value="アカウント管理" name="AccountManagement" />
     <text value="口座番号" name="AccountNumber" />
     <text value="アカウントは他の法律事務所IDでバインドされています" name="AccountOtherTenantsHasBeenBound" />
     <text value="アカウントのお支払い情報" name="AccountPaymentInformation" />
     <text value="アカウントの設定" name="AccountSettings" />
     <text value="到着ステータス" name="AccountStatus" />
+    <text value="アカウントの同期。 " name="AcountSync" />
     <text value="受け取った" name="Acquired" />
     <text value="オペレーション" name="Action" />
     <text value="操作列の設定" name="ActionColumnPreference" />
@@ -244,6 +246,7 @@
     <text value="関連する課金情報" name="AssociatedBillingInfo" />
     <text value="関連する請求書情報" name="AssociatedInvoiceInfo" />
     <text value="関連する主キー番号" name="AssociatePrimaryKey" />
+    <text value="ついに" name="AtLast" />
     <text value="必要な許可が付与されていません。次の許可の少なくとも1つ：{0}" name="AtLeastOneOfThesePermissionsMustBeGranted" />
     <text value="つなぐ" name="Attach" />
     <text value="添付情報" name="AttachmentInformation" />
@@ -646,6 +649,7 @@
     <text value="完了時間" name="CompletionTime" />
     <text value="圧縮ファイル" name="CompressedFile" />
     <text value="コンピュータ番号" name="ComputerNumbering" />
+    <text value="会議パスワード" name="ConferencePassword" />
     <text value="機密保持契約" name="ConfidentialityAgreement" />
     <text value="確認" name="Confirm" />
     <text value="承認情報を確認しますか？" name="ConfirmApprovalInformation" />
@@ -696,6 +700,7 @@
     <text value="コラボレーションを確認する" name="CoordinateToBeConfirmed" />
     <text value="部数" name="Copies" />
     <text value="コピー" name="Copy" />
+    <text value="招待情報をコピーする" name="CopyInvitationInformation" />
     <text value="法人" name="Corporate" />
     <text value="会社名を入力してください（例： &quot;Shanghai Bizhi Technology Co.、Ltd.&quot;）。" name="CorporateHint" />
     <text value="企業情報" name="CorporateInformation" />
@@ -944,10 +949,12 @@
     <text value="もう一度押すとプログラムが終了します。" name="DoubleClickForExit" />
     <text value="ダウンロード" name="Download" />
     <text value="すべてをダウンロードする" name="DownloadAll" />
+    <text value="オーディオファイルをダウンロードする" name="DownloadAudioFile" />
     <text name="DownloadCollectedData" />
     <text value="ダウンロード失敗" name="DownloadFailed" />
     <text value="最新版をダウンロードする" name="Downloadlatest" />
     <text value="分をダウンロードする" name="DownloadMinutes" />
+    <text value="会議後レポートのダウンロード" name="DownloadPostConferenceReport" />
     <text value="変換したログブックを編集または改善しますか？" name="DoYouEditOrImproveConvertedWorkLog" />
     <text value="グループ化可能なドラッグ可能なソート" name="DragSortInGroups" />
     <text value="メールボックス{0}はすでに占有されています" name="DuplicateEmail" />
@@ -1263,6 +1270,7 @@
     <text value="ホームページ" name="HomePage" />
     <text name="HostDashboardHeaderInfo" />
     <text value="弁護士弁護士" name="HostLawyer" />
+    <text value="ホストリンク" name="HostLink" />
     <text value="人気のあるコンテンツ" name="HotContent" />
     <text value="時間別料金" name="HourlyPay" />
     <text value="時間別料金" name="HourlyRate" />
@@ -1631,6 +1639,7 @@
     <text value="ミッションガントチャート" name="MissionGanttchart" />
     <text value="携帯電話" name="MobilePhone" />
     <text value="モバイル版" name="MobileVersion" />
+    <text value="モデレーターのパスワード" name="ModeratorPassword" />
     <text value="変更時刻" name="ModificationTime" />
     <text value="変更された人" name="ModificationUser" />
     <text value="分類を変更する" name="ModifiedClassification" />
@@ -1828,6 +1837,7 @@
     <text value="働く状態" name="OnTheJobStatus" />
     <text value="ああ、行方不明。" name="OopsYouAreLost" />
     <text value="オープン" name="Open" />
+    <text value="オープン録音" name="OpenRecording" />
     <text value="オペレーター" name="Operater" />
     <text name="OperationLogs" />
     <text value="操作のヒント" name="OperationTips" />
@@ -1851,6 +1861,7 @@
     <text value="組織別のケース数の統計" name="OrganizationStatistics" />
     <text value="組織構造" name="OrganizationStructure" />
     <text value="組織ツリー" name="OrganizationTree" />
+    <text value="この組織を削除する前に、この組織のメンバーを削除してください。" name="OrganizationUnitDeleteCondition" />
     <text value="組織{0}を削除してもよろしいですか？" name="OrganizationUnitDeleteWarningMessage" />
     <text value="{0}を{1}に移動することを確認してください。" name="OrganizationUnitMoveConfirmMessage" />
     <text name="OrganizationUnitNotFoundForThisUser" />
@@ -2022,6 +2033,7 @@
     <text value="パーティー" name="ParticipatingLawyer" />
     <text value="変換される参加ログ" name="ParticipatingLogsToBeTransformed" />
     <text value="社会的集団への参加とアルバイト" name="ParticipationInSocialGroupsAndPart" />
+    <text value="参加リンク" name="ParticipationLink" />
     <text value="パートナー" name="Partner" />
     <text value="パートナーは訴訟を起こすことができません" name="PartnerIsNotAllowedToFileCase" />
     <text value="パートナーレビュー結果" name="PartnerReviewResults" />
@@ -2129,6 +2141,7 @@
     <text value="人員ファイル保管場所" name="PlaceOfPersonnelFiles" />
     <text value="原告" name="Plaintiff" />
     <text value="" name="Platform.MultiTenancy.Tenant" />
+    <text value="オンラインで録画を再生する" name="PlaybackRecordingsOnline" />
     <text value="検索条件を調整してください" name="PleaseAdjustTheSearchCriteria" />
     <text value="スタッフを選んでください！" name="PleaseChooseAEmployee" />
     <text value="スタッフを選んでください！" name="PleasechooseAStaffMember" />
@@ -2258,6 +2271,7 @@
     <text value="{0} mb以内のJPG / JPEG / PNG画像のみを選択できます。" name="ProfilePicture_Change_Info" />
     <text value="1MB以内のJPG / JPEG画像のみを選択してください。アバターファイルを再選択してください。" name="ProfilePicture_Warn_FileType" />
     <text value="1MB以内のJPG / JPEG画像のみを選択してください。アバターファイルを再選択してください。" name="ProfilePicture_Warn_SizeLimit" />
+    <text value="ルート組織を削除することはできません。" name="ProhibitDeleteRootOrganizationUnit" />
     <text value="プロジェクトバーンアウトチャート" name="ProjectBurnoutChart" />
     <text value="明細カテゴリ" name="ProjectCategory" />
     <text value="プロジェクトの内容" name="ProjectContent" />
@@ -2330,6 +2344,7 @@
     <text name="RecentTenantsHelpText" />
     <text value="最近の訪問履歴" name="RecentVisitHistory" />
     <text value="おすすめ" name="Recommended" />
+    <text value="録音時間" name="RecordingTime" />
     <text value="運用記録" name="Records" />
     <text value="合計{0}レコード" name="RecordsCount" />
     <text name="RecurringSubscriptionUpgradeNote" />
@@ -2598,7 +2613,7 @@
     <text value="あなたはサインアップすることはできません！" name="SelfUserRegistrationIsDisabledMessage" />
     <text value="登録が無効です。システム管理者に連絡してユーザーアカウントを作成してください。" name="SelfUserRegistrationIsDisabledMessage_Detail" />
     <text value="送信" name="Send" />
-    <text value="アクティベーションメールを送信します。" name="SendActivationEmail" />
+    <text value="通知メールを送信します。" name="SendActivationEmail" />
     <text value="監査を送信する" name="SendAnAudit" />
     <text value="システムは、数十秒以内にあなたのユーザーアカウントを有効にするための電子メールを送信します。電子メールコンテンツのアクティベーションリンクを受信して​​クリックしてください。 " name="SendEmailActivationLink_Information" />
     <text value="送信者" name="Sender" />
@@ -2785,6 +2800,7 @@
     <text value="CCユニット" name="SubUnit" />
     <text value="成功" name="Success" />
     <text value="追加されました" name="SuccessfullyAdded" />
+    <text value="招待情報をコピーしました" name="SuccessfullyCopiedTheInvitationInformation" />
     <text value="正常に削除されました。" name="SuccessfullyDeleted" />
     <text value="ファイル化されたアーカイブケース[{0}]のあなたの成功した提出は成功しました。" name="SuccessfullyFiled" />
     <text value="転送に成功しました。" name="SuccessfullyMoved" />
@@ -3284,7 +3300,10 @@
     <text value="確認する" name="WaitngForConfirmed" />
     <text value="万" name="Wan" />
     <text name="Warning" />
+    <text value="会議後のレポートを見る" name="WatchThePostConferenceReport" />
     <text value="通信方式" name="WayToCommunicate" />
+    <text value="Web会議情報" name="WebConferenceInformation" />
+    <text value="Web会議記録ファイル" name="WebConferenceRecordingFile" />
     <text value="ウェブログ" name="WebSiteLogs" />
     <text value="このページの最新のログを見ることができます。また、すべてのログをzipファイルにダウンロードすることもできます。" name="WebSiteLogsHeaderInfo" />
     <text value="訪問したいページを提供することはできません。" name="WeCanNotFindThePage" />

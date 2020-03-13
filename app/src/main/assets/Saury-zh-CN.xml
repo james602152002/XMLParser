@@ -23,12 +23,14 @@
     <text value="访问" name="Access" />
     <text value="即使您处于脱机状态，也可以访问您的应用程序和资源" name="Access to your applications and resources, even when you are offline" />
     <text value="门禁卡编号" name="AccessCardNumber" />
+    <text value="账号绑定" name="AccountBinding" />
     <text value="账号管理" name="AccountManagement" />
     <text value="账号" name="AccountNumber" />
     <text value="该账号已在其他律所标识下绑定" name="AccountOtherTenantsHasBeenBound" />
     <text value="账户付费信息" name="AccountPaymentInformation" />
     <text value="账号设置" name="AccountSettings" />
     <text value="到账状态" name="AccountStatus" />
+    <text value="账号同步中。。。" name="AcountSync" />
     <text value="已领取" name="Acquired" />
     <text value="操作" name="Action" />
     <text value="操作列偏好" name="ActionColumnPreference" />
@@ -244,6 +246,7 @@
     <text value="关联账单信息" name="AssociatedBillingInfo" />
     <text value="关联发票信息" name="AssociatedInvoiceInfo" />
     <text value="关联主键编号" name="AssociatePrimaryKey" />
+    <text value="最后" name="AtLast" />
     <text value="未授予所需权限，至少授予以下权限之一：{0}" name="AtLeastOneOfThesePermissionsMustBeGranted" />
     <text value="连接" name="Attach" />
     <text value="附件信息" name="AttachmentInformation" />
@@ -646,6 +649,7 @@
     <text value="完成时间" name="CompletionTime" />
     <text value="压缩文件" name="CompressedFile" />
     <text value="电脑编号" name="ComputerNumbering" />
+    <text value="参会密码" name="ConferencePassword" />
     <text value="保密协议" name="ConfidentialityAgreement" />
     <text value="确认" name="Confirm" />
     <text value="确认审批信息？" name="ConfirmApprovalInformation" />
@@ -696,6 +700,7 @@
     <text value="协同待确认" name="CoordinateToBeConfirmed" />
     <text value="份数" name="Copies" />
     <text value="复制" name="Copy" />
+    <text value="复制邀请信息" name="CopyInvitationInformation" />
     <text value="公司法人" name="Corporate" />
     <text value="请输入企业名称，例如“上海必智科技有限公司“" name="CorporateHint" />
     <text value="企业信息" name="CorporateInformation" />
@@ -944,10 +949,12 @@
     <text value="再按一次退出程序" name="DoubleClickForExit" />
     <text value="下载" name="Download" />
     <text value="全部下载" name="DownloadAll" />
+    <text value="下载录音文件" name="DownloadAudioFile" />
     <text name="DownloadCollectedData" />
     <text value="下载失败" name="DownloadFailed" />
     <text value="下载最新" name="Downloadlatest" />
     <text value="下载纪要" name="DownloadMinutes" />
+    <text value="下载会后报告" name="DownloadPostConferenceReport" />
     <text value="是否编辑或完善转化后的工作日志？" name="DoYouEditOrImproveConvertedWorkLog" />
     <text value="分组内可拖动排序" name="DragSortInGroups" />
     <text value="邮箱{0}已被占用" name="DuplicateEmail" />
@@ -1263,6 +1270,7 @@
     <text value="主页" name="HomePage" />
     <text value="一般统计和最近的活动" name="HostDashboardHeaderInfo" />
     <text value="主办律师" name="HostLawyer" />
+    <text value="主持链接" name="HostLink" />
     <text value="热门内容" name="HotContent" />
     <text value="小时收费" name="HourlyPay" />
     <text value="按小时收费费率" name="HourlyRate" />
@@ -1631,6 +1639,7 @@
     <text value="任务甘特图" name="MissionGanttchart" />
     <text value="移动电话" name="MobilePhone" />
     <text value="移动版本" name="MobileVersion" />
+    <text value="主持密码" name="ModeratorPassword" />
     <text value="修改时间" name="ModificationTime" />
     <text value="修改人" name="ModificationUser" />
     <text value="修改分类" name="ModifiedClassification" />
@@ -1828,6 +1837,7 @@
     <text value="在职状态" name="OnTheJobStatus" />
     <text value="噢! 失踪了." name="OopsYouAreLost" />
     <text value="公开" name="Open" />
+    <text value="开启录音" name="OpenRecording" />
     <text value="操作人" name="Operater" />
     <text value="操作日志" name="OperationLogs" />
     <text value="操作提示" name="OperationTips" />
@@ -1851,6 +1861,7 @@
     <text value="组织机构客户统计" name="OrganizationStatistics" />
     <text value="组织机构" name="OrganizationStructure" />
     <text value="组织机构树" name="OrganizationTree" />
+    <text value="请删除此组织机构下的成员后，再删除此组织机构." name="OrganizationUnitDeleteCondition" />
     <text value="您确定删除组织机构 {0}?" name="OrganizationUnitDeleteWarningMessage" />
     <text value="请确认移动 {0} 到 {1}." name="OrganizationUnitMoveConfirmMessage" />
     <text value="此用户没有组织单位。" name="OrganizationUnitNotFoundForThisUser" />
@@ -2022,6 +2033,7 @@
     <text value="参案律师" name="ParticipatingLawyer" />
     <text value="待转化的参与日志" name="ParticipatingLogsToBeTransformed" />
     <text value="参加社会团体及兼职情况" name="ParticipationInSocialGroupsAndPart" />
+    <text value="参会链接" name="ParticipationLink" />
     <text value="合伙人" name="Partner" />
     <text value="合伙人不许立案" name="PartnerIsNotAllowedToFileCase" />
     <text value="合伙人审核结果" name="PartnerReviewResults" />
@@ -2129,6 +2141,7 @@
     <text value="人事档案存放地" name="PlaceOfPersonnelFiles" />
     <text value="原告" name="Plaintiff" />
     <text value="租户" name="Platform.MultiTenancy.Tenant" />
+    <text value="在线回放录音" name="PlaybackRecordingsOnline" />
     <text value="请调整检索条件" name="PleaseAdjustTheSearchCriteria" />
     <text value="请选择一个职员!" name="PleaseChooseAEmployee" />
     <text value="请选择一个职员!" name="PleasechooseAStaffMember" />
@@ -2258,6 +2271,7 @@
     <text value="只能选择{0}mb内的JPG/JPEG/PNG图片." name="ProfilePicture_Change_Info" />
     <text value="只能选择1mb内的JPG/JPEG图片，请重新选择头像文件." name="ProfilePicture_Warn_FileType" />
     <text value="只能选择{0}mb内的JPG/JPEG图片，请重新选择头像文件." name="ProfilePicture_Warn_SizeLimit" />
+    <text value="不允许删除根组织." name="ProhibitDeleteRootOrganizationUnit" />
     <text value="项目燃尽图" name="ProjectBurnoutChart" />
     <text value="项目类别" name="ProjectCategory" />
     <text value="项目内容" name="ProjectContent" />
@@ -2330,6 +2344,7 @@
     <text value="最近{0}天内注册了{1}位客户..." name="RecentTenantsHelpText" />
     <text value="最近的访问历史" name="RecentVisitHistory" />
     <text value="推荐" name="Recommended" />
+    <text value="录制时间" name="RecordingTime" />
     <text value="操作记录" name="Records" />
     <text value="共{0}条记录" name="RecordsCount" />
     <text name="RecurringSubscriptionUpgradeNote" />
@@ -2598,7 +2613,7 @@
     <text value="您不能注册!" name="SelfUserRegistrationIsDisabledMessage" />
     <text value="注册功能被禁用，请联系您的系统管理员为您建立用户账号." name="SelfUserRegistrationIsDisabledMessage_Detail" />
     <text value="发送" name="Send" />
-    <text value="发送激活邮件." name="SendActivationEmail" />
+    <text value="发送通知邮件." name="SendActivationEmail" />
     <text value="发送审核" name="SendAnAudit" />
     <text value="系统在几十秒内向您发送一封邮件,用于激活您的用户账号，请接收并点击邮件内容中的激活链接。如果在2分钟内还没收到这封邮件，请重试." name="SendEmailActivationLink_Information" />
     <text value="发送人" name="Sender" />
@@ -2785,6 +2800,7 @@
     <text value="抄送单位" name="SubUnit" />
     <text value="成功" name="Success" />
     <text value="添加成功" name="SuccessfullyAdded" />
+    <text value="复制参会邀请信息成功" name="SuccessfullyCopiedTheInvitationInformation" />
     <text value="删除成功." name="SuccessfullyDeleted" />
     <text value="您申请的结案归档案件[{0}]归档成功." name="SuccessfullyFiled" />
     <text value="移动成功" name="SuccessfullyMoved" />
@@ -3284,7 +3300,10 @@
     <text value="待确认" name="WaitngForConfirmed" />
     <text value="万" name="Wan" />
     <text value="等待中" name="Warning" />
+    <text value="观看会后报告" name="WatchThePostConferenceReport" />
     <text value="沟通方式" name="WayToCommunicate" />
+    <text value="网络会议信息" name="WebConferenceInformation" />
+    <text value="网络会议录音文件" name="WebConferenceRecordingFile" />
     <text value="网站日志" name="WebSiteLogs" />
     <text value="您可以看到最新的日志，或下载所有日志的压缩文件。" name="WebSiteLogsHeaderInfo" />
     <text value="我们无法提供您想要访问的页面." name="WeCanNotFindThePage" />
