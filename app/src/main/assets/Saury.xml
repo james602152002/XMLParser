@@ -1,7 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <localizationDictionary culture="en">
   <texts>
-    <text value="ClientSecret is the key to the corresponding settings of the registered application in Azure." name=" Office365ClientSecretPrompt" />
     <text value="&quot;{}&quot; is invalid" name="{0}IsInvalid" />
     <text value="{Cannot delete 0} user." name="{0}UserCannotBeDeleted" />
     <text value="Court abbreviation" name="AbbreviationOfCourt" />
@@ -240,7 +239,9 @@
     <text value="Reverse time" name="AscendingOfTime" />
     <text value="Reversed name" name="AscendingOfTitle" />
     <text value="Ascending by time" name="AscendingOrderOfTime" />
+    <text value="Assign Completed Task" name="AssignCompletedTask" />
     <text value="Assigned" name="Assigned" />
+    <text value="Assign Overdue Task" name="AssignOverdueTask" />
     <text value="Assign to another edition" name="AssignToAnotherEdition" />
     <text value="Assistant telephone" name="AssistantPhone" />
     <text value="Associated billing information" name="AssociatedBillingInfo" />
@@ -305,6 +306,7 @@
     <text value="Billable statement" name="Billable" />
     <text value="Billing amount" name="BillAmount" />
     <text value="Billing amount:" name="BillAmountTitle" />
+    <text value="The bill cannot exceed 24 hours" name="BillCannotExceed24Hours" />
     <text value="Sorry, billing hours can only enter numbers" name="BillCanOnlyBeEnteredInNumbers" />
     <text value="Billed" name="Billed" />
     <text value="Bill entry" name="BillEntry" />
@@ -357,6 +359,7 @@
     <text value="Service category" name="BusinessCategory" />
     <text value="Total number of business customers" name="BusinessCustomerCnt" />
     <text value="Business customers" name="BusinessCustomers" />
+    <text value="Business duration cannot exceed 24 hours" name="BusinessDurationCannotExceed24Hours" />
     <text value="Business hours by organization" name="BusinessHoursByorganization" />
     <text value="Sorry, business hours can only enter numbers" name="BusinessHoursCanOnlyEnterNumbers" />
     <text value="Business hours are year-on-year" name="BusinessHoursCompare" />
@@ -402,6 +405,7 @@
     <text value="Can not upgrade subscription since tenant has no edition assigned." name="CanNotUpgradeSubscriptionSinceTenantHasNoEditionAssigned" />
     <text value="Sorry, you cannot upload files directly in this directory. Please select another directory!" name="CannotUploadFilesDirectlyUnderThisDirectory" />
     <text value="The current name is already in use, please use a different name!" name="CanNotUseName" />
+    <text value="Only allow numbers" name="CanOnlyEnterNumbers" />
     <text value="Receivables" name="CanReceivables" />
     <text value="You must prove that you are not a robot." name="CaptchaCanNotBeEmpty" />
     <text value="Please prove you are not a robot" name="Captha_Hint" />
@@ -752,6 +756,8 @@
     <text value="Create schedule" name="CreateSchedule" />
     <text value="Created successfully" name="CreateSuccess" />
     <text value="Create task phase" name="CreateTaskStage" />
+    <text value="Create timer" name="CreateTimer" />
+    <text value="Create timer from task" name="CreateTimerWithTask" />
     <text value="Creating new edition" name="CreatingNewEdition" />
     <text value="Creating new language" name="CreatingNewLanguage" />
     <text value="Creating new role" name="CreatingNewRole" />
@@ -778,6 +784,7 @@
     <text value="The current leave request already has processing results!" name="CurrentLeaveRequestAlreadyExistsProcessingResult" />
     <text value="No matching folders and files currently" name="CurrentlyNoMatchingFoldersAndFiles" />
     <text value="Currently only supports Word 2007/2010/2013 files (files in .docx format)" name="CurrentlyOnlySupportsDocuments" />
+    <text value="No data" name="CurrentNoData" />
     <text value="current page" name="CurrentPage" />
     <text value="Current password" name="CurrentPassword" />
     <text value="The current administrative chapter application already has processing results!" name="CurrentStampIsAlreadyExistsResult" />
@@ -987,6 +994,7 @@
     <text value="Edit tenant" name="EditTenant" />
     <text value="Edit text" name="EditText" />
     <text value="Edit the closing application" name="EditTheClosingApplication" />
+    <text value="Improve timer related information" name="EditTimerRelatedInfo" />
     <text value="Edit user" name="EditUser" />
     <text value="Education" name="Education" />
     <text value="Education background" name="EducationalBackground" />
@@ -1212,6 +1220,7 @@
     <text value="General" name="General" />
     <text value="generate" name="Generate" />
     <text value="Generate bills" name="GenerateBills" />
+    <text value="Generated based on the timer:" name="GeneratedBasedTimer" />
     <text value="Generate invoice" name="GenerateInvoice" />
     <text value="The words of the law firm" name="GenerationWordsOfLawFirm" />
     <text value="Lawsuit pronouns are simplifications of the law firm’s contractor’s law. They are expressed in Chinese characters or in English and two or three words are appropriate." name="GenerationWordsOfLawFirm_Hint" />
@@ -1572,6 +1581,7 @@
     <text value="0 = unlimited" name="MaximumUserCount_Description" />
     <text value="This tenant is allowed to have a maximum of {0} users." name="MaximumUserCount_Error_Detail" />
     <text value="Reached maximum allowed user count!" name="MaximumUserCount_Error_Message" />
+    <text value="The selected customers are not allowed to exceed {0}." name="MaxSelectedClientCount" />
     <text value="Maximum" name="MaxValue" />
     <text value="Sorry, you can only create up to 7 timers." name="MaxWorkLogTimerTips" />
     <text value="May" name="May" />
@@ -1663,6 +1673,7 @@
     <text value="my collection" name="MyCollection" />
     <text value="Role" name="MyCompanyName.AbpZeroTemplate.Authorization.Roles.Role" />
     <text value="Tenant" name="MyCompanyName.AbpZeroTemplate.MultiTenancy.Tenant" />
+    <text value="My component" name="MyComponents" />
     <text value="my file" name="MyFile" />
     <text value="My log" name="MyLog" />
     <text value="My project" name="MyProject" />
@@ -1820,6 +1831,7 @@
     <text value="Off" name="Off" />
     <text value="office" name="Office" />
     <text value="The ClientId is the Id number of the registered application in Azure." name="Office365ClientPrompt" />
+    <text value="ClientSecret is the key to the corresponding settings of the registered application in Azure." name="Office365ClientSecretPrompt" />
     <text value="Office Profile" name="OfficeIntroduction" />
     <text value="Office name" name="OfficeName" />
     <text value="principal" name="Officer" />
@@ -2378,6 +2390,7 @@
     <text value="{0} rejected participation in your assigned task [{1}]." name="RejectsAssignmentTask" />
     <text value="Related Cases" name="RelatedCases" />
     <text value="Related customers" name="RelatedCustomers" />
+    <text value="Related information" name="RelatedInfo" />
     <text value="Relationship with it" name="RelatedPartiesRelationship" />
     <text value="%s related cases" name="RelatedProjectCnt" />
     <text value="Related project information" name="RelatedProjects" />
@@ -2385,6 +2398,7 @@
     <text value="Related" name="Relation" />
     <text value="Associated case name:" name="RelationCasesTitle" />
     <text value="Associate customer name:" name="RelationClientName" />
+    <text value="Associated Task Information" name="RelationTaskInfo" />
     <text value="Relationship type" name="RelationType" />
     <text value="Related cases" name="RelativeCases" />
     <text value="Release date" name="ReleaseDate" />
@@ -2711,6 +2725,7 @@
     <text value="Spreadsheets" name="Spreadsheet" />
     <text value="Employee" name="Staff" />
     <text value="stage" name="Stage" />
+    <text value="Multiple choices allowed at the case stage" name="StageIsMultipleSelection" />
     <text value="Stage name" name="StageName" />
     <text value="The task stage list name {0} is already occupied." name="StageNameAlreadyExists" />
     <text value="The list of stages will be unrecoverable after deletion" name="StageNotBeRestoredAfterDeletion" />
@@ -3048,6 +3063,7 @@
     <text value="Processing failed" name="ToDealWithFailure" />
     <text value="Toggle" name="Toggle" />
     <text value="tomorrow" name="Tomorrow" />
+    <text value="The current timing time is too short and has not yet reached a timing unit ({0} minutes is a timing unit). Are you sure you are finished timing?" name="TooShortTimerNotifyTips" />
     <text value="Top menu" name="TopMenu" />
     <text value="Receive invoice" name="ToReceiveTheInvoice" />
     <text value="Type of review" name="ToSubmitForApprovalTheType" />
@@ -3430,5 +3446,16 @@
     <text value="The case you filed for filing [[0}] is pending archiving." name="YourRequestForSettlementIsWaitingForArchiving" />
     <text value="You have other {0}" name="YouStillHaveOtherCnt" />
     <text value="yuan" name="Yuan" />
+    <text value="Weekly Task" name="本周待办" />
+    <text value="Assigned Task" name="分配给我的" />
+    <text value="All" name="全部" />
+    <text value="Ongoing Project" name="我参与进行中" />
+    <text value="Unconfirmed Task" name="我参与未确认 " />
+    <text value="Completed Task" name="我参与已完成 " />
+    <text value="Overdue Task" name="我参与已逾期" />
+    <text value="My Task" name="我的项目" />
+    <text value="Assign Task" name="我分配的" />
+    <text value="Assign Unconfirmed Task" name="我分配未确认 " />
+    <text value="Assign Uncompleted Task" name="我分配未完成" />
   </texts>
 </localizationDictionary>

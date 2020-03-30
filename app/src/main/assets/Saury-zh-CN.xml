@@ -1,7 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <localizationDictionary culture="zh-CN">
   <texts>
-    <text value="ClientSecret是在Azure中已注册应用程序对应设置的密钥。" name=" Office365ClientSecretPrompt" />
     <text value="&quot;{}&quot;是无效的" name="{0}IsInvalid" />
     <text value="{不能删除0}用户." name="{0}UserCannotBeDeleted" />
     <text value="法院简称" name="AbbreviationOfCourt" />
@@ -240,7 +239,9 @@
     <text value="时间倒序" name="AscendingOfTime" />
     <text value="名称倒序" name="AscendingOfTitle" />
     <text value="按时间升序" name="AscendingOrderOfTime" />
+    <text value="我分配已完成 " name="AssignCompletedTask" />
     <text value="已分配" name="Assigned" />
+    <text value="我分配已逾期 " name="AssignOverdueTask" />
     <text value="分配到另一个版本" name="AssignToAnotherEdition" />
     <text value="助理电话" name="AssistantPhone" />
     <text value="关联账单信息" name="AssociatedBillingInfo" />
@@ -305,6 +306,7 @@
     <text value="可开账单" name="Billable" />
     <text value="账单金额" name="BillAmount" />
     <text value="账单金额：" name="BillAmountTitle" />
+    <text value="账单时长不能超过24小时" name="BillCannotExceed24Hours" />
     <text value="对不起，账单小时只能输入数字" name="BillCanOnlyBeEnteredInNumbers" />
     <text value="已开账单" name="Billed" />
     <text value="账单录入" name="BillEntry" />
@@ -357,6 +359,7 @@
     <text value="业务类别" name="BusinessCategory" />
     <text value="业务客户总数" name="BusinessCustomerCnt" />
     <text value="业务客户" name="BusinessCustomers" />
+    <text value="业务时长不能超过24小时" name="BusinessDurationCannotExceed24Hours" />
     <text value="按组织机构统计业务时长" name="BusinessHoursByorganization" />
     <text value="对不起，业务小时只能输入数字" name="BusinessHoursCanOnlyEnterNumbers" />
     <text value="业务时长同比" name="BusinessHoursCompare" />
@@ -402,6 +405,7 @@
     <text value="由于租户没有分配版本，因此无法升级订阅。" name="CanNotUpgradeSubscriptionSinceTenantHasNoEditionAssigned" />
     <text value="对不起，您不能在该目录下直接上传文件，请选择其他目录！" name="CannotUploadFilesDirectlyUnderThisDirectory" />
     <text value="当前名称已被使用，请使用其他名称！" name="CanNotUseName" />
+    <text value="只允许输入数字" name="CanOnlyEnterNumbers" />
     <text value="可收款" name="CanReceivables" />
     <text value="验证码不能为空." name="CaptchaCanNotBeEmpty" />
     <text value="输入图片中的验证码:" name="Captha_Hint" />
@@ -752,6 +756,8 @@
     <text value="创建日程" name="CreateSchedule" />
     <text value="创建成功" name="CreateSuccess" />
     <text value="创建任务阶段" name="CreateTaskStage" />
+    <text value="创建计时器" name="CreateTimer" />
+    <text value="通过任务创建计时器" name="CreateTimerWithTask" />
     <text value="创建一个新的版本" name="CreatingNewEdition" />
     <text value="正在创建新的语言" name="CreatingNewLanguage" />
     <text value="添加角色" name="CreatingNewRole" />
@@ -778,6 +784,7 @@
     <text value="当前请假申请已存在处理结果!" name="CurrentLeaveRequestAlreadyExistsProcessingResult" />
     <text value="当前无匹配文件夹和文件" name="CurrentlyNoMatchingFoldersAndFiles" />
     <text value="目前只支持 Word 2007/2010/2013文件(.docx格式的文件)" name="CurrentlyOnlySupportsDocuments" />
+    <text value="暂无数据" name="CurrentNoData" />
     <text value="当前页" name="CurrentPage" />
     <text value="当前密码" name="CurrentPassword" />
     <text value="当前行政用章申请已存在处理结果！" name="CurrentStampIsAlreadyExistsResult" />
@@ -987,6 +994,7 @@
     <text value="修改租户" name="EditTenant" />
     <text value="编辑文本" name="EditText" />
     <text value="编辑结案申请" name="EditTheClosingApplication" />
+    <text value="完善计时器关联信息" name="EditTimerRelatedInfo" />
     <text value="修改用户" name="EditUser" />
     <text value="学历" name="Education" />
     <text value="教育背景" name="EducationalBackground" />
@@ -1212,6 +1220,7 @@
     <text value="基本信息" name="General" />
     <text value="生成" name="Generate" />
     <text value="生成账单" name="GenerateBills" />
+    <text value="根据计时器生成：" name="GeneratedBasedTimer" />
     <text value="生成发票" name="GenerateInvoice" />
     <text value="律所代字" name="GenerationWordsOfLawFirm" />
     <text value="律所代字是案件承办律所的简化标识，用中文汉字或英文表示，两到三字为宜" name="GenerationWordsOfLawFirm_Hint" />
@@ -1572,6 +1581,7 @@
     <text value="0 = 无限制" name="MaximumUserCount_Description" />
     <text value="允许此租户最多拥有{0}名用户。" name="MaximumUserCount_Error_Detail" />
     <text value="已达到允许的最大用户数！" name="MaximumUserCount_Error_Message" />
+    <text value="选择的客户不允许超过{0}个。" name="MaxSelectedClientCount" />
     <text value="最大值" name="MaxValue" />
     <text value="对不起,您最多只可创建7个计时器" name="MaxWorkLogTimerTips" />
     <text value="五月" name="May" />
@@ -1663,6 +1673,7 @@
     <text value="我的收藏" name="MyCollection" />
     <text name="MyCompanyName.AbpZeroTemplate.Authorization.Roles.Role" />
     <text name="MyCompanyName.AbpZeroTemplate.MultiTenancy.Tenant" />
+    <text value="我的组件" name="MyComponents" />
     <text value="我的文件" name="MyFile" />
     <text value="我的日志" name="MyLog" />
     <text value="我的项目" name="MyProject" />
@@ -1820,6 +1831,7 @@
     <text value="禁用" name="Off" />
     <text value="办公室" name="Office" />
     <text value="ClientId是在Azure中已注册应用程序的Id编号。" name="Office365ClientPrompt" />
+    <text value="ClientSecret是在Azure中已注册应用程序对应设置的密钥。" name="Office365ClientSecretPrompt" />
     <text value="律所简介" name="OfficeIntroduction" />
     <text value="律所名称" name="OfficeName" />
     <text value="负责人" name="Officer" />
@@ -2378,6 +2390,7 @@
     <text value="{0}拒绝了参与您分配的任务[{1}]." name="RejectsAssignmentTask" />
     <text value="相关案件" name="RelatedCases" />
     <text value="关联客户" name="RelatedCustomers" />
+    <text value="关联信息" name="RelatedInfo" />
     <text value="与其关系" name="RelatedPartiesRelationship" />
     <text value="共 %s 个关联案件" name="RelatedProjectCnt" />
     <text value="关联项目信息" name="RelatedProjects" />
@@ -2385,6 +2398,7 @@
     <text value="关联" name="Relation" />
     <text value="关联案件名称：" name="RelationCasesTitle" />
     <text value="关联客户名称：" name="RelationClientName" />
+    <text value="关联任务信息" name="RelationTaskInfo" />
     <text value="关系类型" name="RelationType" />
     <text value="关联案件" name="RelativeCases" />
     <text value="发布日期" name="ReleaseDate" />
@@ -2711,6 +2725,7 @@
     <text value="电子表格" name="Spreadsheet" />
     <text value="职员" name="Staff" />
     <text value="阶段" name="Stage" />
+    <text value="案件阶段允许多选" name="StageIsMultipleSelection" />
     <text value="阶段名称" name="StageName" />
     <text value="任务阶段列表名称 {0} 已被占用." name="StageNameAlreadyExists" />
     <text value="删除后该阶段列表将不可恢复" name="StageNotBeRestoredAfterDeletion" />
@@ -3048,6 +3063,7 @@
     <text value="处理失败" name="ToDealWithFailure" />
     <text value="切换" name="Toggle" />
     <text value="明天" name="Tomorrow" />
+    <text value="当前计时时间过短，尚未达到一个计时单位（{0}分钟为一个计时单位），是否确定完成计时？" name="TooShortTimerNotifyTips" />
     <text value="顶部菜单" name="TopMenu" />
     <text value="领取发票" name="ToReceiveTheInvoice" />
     <text value="报审类型" name="ToSubmitForApprovalTheType" />
@@ -3430,5 +3446,16 @@
     <text value="您申请的结案归档案件[{0}]等待归档." name="YourRequestForSettlementIsWaitingForArchiving" />
     <text value="您还有其他 {0} 条" name="YouStillHaveOtherCnt" />
     <text value="元" name="Yuan" />
+    <text value="" name="本周待办" />
+    <text value="" name="分配给我的" />
+    <text value="" name="全部" />
+    <text value="" name="我参与进行中" />
+    <text value="" name="我参与未确认 " />
+    <text value="" name="我参与已完成 " />
+    <text value="" name="我参与已逾期" />
+    <text value="" name="我的项目" />
+    <text value="" name="我分配的" />
+    <text value="" name="我分配未确认 " />
+    <text value="" name="我分配未完成" />
   </texts>
 </localizationDictionary>

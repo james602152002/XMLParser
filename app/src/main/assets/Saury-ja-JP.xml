@@ -1,7 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <localizationDictionary culture="ja-JP">
   <texts>
-    <text value="ClientSecretは、Azureに登録されているアプリケーションの対応する設定への鍵です。" name=" Office365ClientSecretPrompt" />
     <text value="「{}」は無効です" name="{0}IsInvalid" />
     <text value="{0を削除できません}ユーザー。" name="{0}UserCannotBeDeleted" />
     <text value="裁判所の省略" name="AbbreviationOfCourt" />
@@ -240,7 +239,9 @@
     <text value="逆時間" name="AscendingOfTime" />
     <text value="逆の名前" name="AscendingOfTitle" />
     <text value="時間の昇順" name="AscendingOrderOfTime" />
+    <text value="私の割り当ては完了しました" name="AssignCompletedTask" />
     <text value="割り当てられた" name="Assigned" />
+    <text value="私の割り当ては期限切れです" name="AssignOverdueTask" />
     <text value="別のバージョンに割り当てる" name="AssignToAnotherEdition" />
     <text value="アシスタント電話" name="AssistantPhone" />
     <text value="関連する課金情報" name="AssociatedBillingInfo" />
@@ -305,6 +306,7 @@
     <text value="請求可能な明細書" name="Billable" />
     <text value="請求額" name="BillAmount" />
     <text value="請求額：" name="BillAmountTitle" />
+    <text value="請求書は24時間を超えることはできません" name="BillCannotExceed24Hours" />
     <text value="申し訳ありませんが、請求時間には数字のみ入力できます" name="BillCanOnlyBeEnteredInNumbers" />
     <text value="請求済み" name="Billed" />
     <text value="請求書入力" name="BillEntry" />
@@ -357,6 +359,7 @@
     <text value="ビジネスカテゴリ" name="BusinessCategory" />
     <text value="法人顧客の総数" name="BusinessCustomerCnt" />
     <text value="法人のお客様" name="BusinessCustomers" />
+    <text value="営業時間は24時間を超えることはできません" name="BusinessDurationCannotExceed24Hours" />
     <text value="組織別営業時間" name="BusinessHoursByorganization" />
     <text value="申し訳ありませんが、営業時間は数字のみ入力できます" name="BusinessHoursCanOnlyEnterNumbers" />
     <text value="営業時間は前年比です" name="BusinessHoursCompare" />
@@ -402,6 +405,7 @@
     <text value="テナントにはバージョンが割り当てられていないため、サブスクリプションをアップグレードできません。" name="CanNotUpgradeSubscriptionSinceTenantHasNoEditionAssigned" />
     <text value="申し訳ありませんが、このディレクトリに直接ファイルをアップロードすることはできません。別のディレクトリを選択してください！" name="CannotUploadFilesDirectlyUnderThisDirectory" />
     <text value="現在の名前は既に使用されています。別の名前を使用してください。" name="CanNotUseName" />
+    <text value="数字のみを許可する" name="CanOnlyEnterNumbers" />
     <text value="債権" name="CanReceivables" />
     <text value="確認コードを空にすることはできません。" name="CaptchaCanNotBeEmpty" />
     <text value="写真に確認コードを入力してください：" name="Captha_Hint" />
@@ -752,6 +756,8 @@
     <text value="スケジュールを作成する" name="CreateSchedule" />
     <text value="作成済み" name="CreateSuccess" />
     <text value="タスクフェーズの作成" name="CreateTaskStage" />
+    <text value="タイマーを作成する" name="CreateTimer" />
+    <text value="タスクからタイマーを作成する" name="CreateTimerWithTask" />
     <text value="新しいバージョンを作成する" name="CreatingNewEdition" />
     <text value="新しい言語を作成する" name="CreatingNewLanguage" />
     <text value="役割を追加する" name="CreatingNewRole" />
@@ -778,6 +784,7 @@
     <text value="現在の休暇申請には既に処理結果があります。" name="CurrentLeaveRequestAlreadyExistsProcessingResult" />
     <text value="現在一致するフォルダとファイルがありません" name="CurrentlyNoMatchingFoldersAndFiles" />
     <text value="現在のところ、Word 2007/2010/2013ファイル（.docx形式のファイル）のみをサポートしています。" name="CurrentlyOnlySupportsDocuments" />
+    <text value="データなし" name="CurrentNoData" />
     <text value="現在のページ" name="CurrentPage" />
     <text value="現在のパスワード" name="CurrentPassword" />
     <text value="現在の管理チャプターアプリケーションにはすでに処理結果があります！" name="CurrentStampIsAlreadyExistsResult" />
@@ -987,6 +994,7 @@
     <text value="テナントの変更" name="EditTenant" />
     <text value="テキストを編集する" name="EditText" />
     <text value="終了するアプリケーションを編集する" name="EditTheClosingApplication" />
+    <text value="タイマー関連情報を改善する" name="EditTimerRelatedInfo" />
     <text value="ユーザーを変更する" name="EditUser" />
     <text value="教育" name="Education" />
     <text value="教育的背景" name="EducationalBackground" />
@@ -1212,6 +1220,7 @@
     <text value="基本情報" name="General" />
     <text value="生成された" name="Generate" />
     <text value="請求書の作成" name="GenerateBills" />
+    <text value="タイマーに基づいて生成：" name="GeneratedBasedTimer" />
     <text value="請求書の生成" name="GenerateInvoice" />
     <text value="法律の言葉" name="GenerationWordsOfLawFirm" />
     <text value="訴訟代名詞は、法律事務所の法律の簡素化であり、漢字または英語で表現され、2?3文字が適切です。" name="GenerationWordsOfLawFirm_Hint" />
@@ -1572,6 +1581,7 @@
     <text name="MaximumUserCount_Description" />
     <text value="このテナントには、最大{0}人のユーザーを含めることができます。" name="MaximumUserCount_Error_Detail" />
     <text value="許可されているユーザーの最大数に達しました！" name="MaximumUserCount_Error_Message" />
+    <text value="選択した顧客は{0}を超えることはできません。" name="MaxSelectedClientCount" />
     <text value="最大" name="MaxValue" />
     <text value="申し訳ありませんが、最大7つのタイマーしか作成できません。" name="MaxWorkLogTimerTips" />
     <text value="5月" name="May" />
@@ -1663,6 +1673,7 @@
     <text value="私のコレクション" name="MyCollection" />
     <text name="MyCompanyName.AbpZeroTemplate.Authorization.Roles.Role" />
     <text name="MyCompanyName.AbpZeroTemplate.MultiTenancy.Tenant" />
+    <text value="私のコンポーネント" name="MyComponents" />
     <text value="私のファイル" name="MyFile" />
     <text value="私のログ" name="MyLog" />
     <text value="私のプロジェクト" name="MyProject" />
@@ -1820,6 +1831,7 @@
     <text value="オフ" name="Off" />
     <text value="オフィス" name="Office" />
     <text value="ClientIdは、Azureに登録されているアプリケーションのID番号です。" name="Office365ClientPrompt" />
+    <text value="ClientSecretは、Azureに登録されているアプリケーションの対応する設定への鍵です。" name="Office365ClientSecretPrompt" />
     <text value="オフィスプロフィール" name="OfficeIntroduction" />
     <text value="オフィス名" name="OfficeName" />
     <text value="責任者" name="Officer" />
@@ -2378,6 +2390,7 @@
     <text value="{0}は割り当てられたタスク[{1}]への参加を拒否しました。" name="RejectsAssignmentTask" />
     <text value="関連するケース" name="RelatedCases" />
     <text value="関連するお客様" name="RelatedCustomers" />
+    <text value="関連情報" name="RelatedInfo" />
     <text value="それとの関係" name="RelatedPartiesRelationship" />
     <text value="%s関連のケース" name="RelatedProjectCnt" />
     <text value="関連プロジェクトの情報" name="RelatedProjects" />
@@ -2385,6 +2398,7 @@
     <text value="関連する" name="Relation" />
     <text value="関連するケース名：" name="RelationCasesTitle" />
     <text value="アソシエイト顧客名：" name="RelationClientName" />
+    <text value="関連タスク情報" name="RelationTaskInfo" />
     <text value="関係タイプ" name="RelationType" />
     <text value="関連事例" name="RelativeCases" />
     <text value="発売日" name="ReleaseDate" />
@@ -2711,6 +2725,7 @@
     <text value="スプレッドシート" name="Spreadsheet" />
     <text value="従業員" name="Staff" />
     <text value="フェーズ" name="Stage" />
+    <text value="ケースの段階で複数の選択肢を許可" name="StageIsMultipleSelection" />
     <text value="ステージ名" name="StageName" />
     <text value="タスクステージリスト名{0}は既に占有されています。" name="StageNameAlreadyExists" />
     <text value="ステージのリストは削除後に回復不能になります" name="StageNotBeRestoredAfterDeletion" />
@@ -3048,6 +3063,7 @@
     <text value="処理に失敗しました" name="ToDealWithFailure" />
     <text name="Toggle" />
     <text value="明日" name="Tomorrow" />
+    <text value="現在のタイミング時間が短すぎて、タイミング単位にまだ到達していません（{0}分はタイミング単位です）。タイミングを完了してもよろしいですか？" name="TooShortTimerNotifyTips" />
     <text name="TopMenu" />
     <text value="請求書を受け取る" name="ToReceiveTheInvoice" />
     <text value="レビューの種類" name="ToSubmitForApprovalTheType" />
@@ -3430,5 +3446,16 @@
     <text value="[[0]]提出のために提出したケースは、保留中です。" name="YourRequestForSettlementIsWaitingForArchiving" />
     <text value="他に {0} がいます" name="YouStillHaveOtherCnt" />
     <text value="元" name="Yuan" />
+    <text value="" name="本周待办" />
+    <text value="" name="分配给我的" />
+    <text value="" name="全部" />
+    <text value="" name="我参与进行中" />
+    <text value="" name="我参与未确认 " />
+    <text value="" name="我参与已完成 " />
+    <text value="" name="我参与已逾期" />
+    <text value="" name="我的项目" />
+    <text value="" name="我分配的" />
+    <text value="" name="我分配未确认 " />
+    <text value="" name="我分配未完成" />
   </texts>
 </localizationDictionary>

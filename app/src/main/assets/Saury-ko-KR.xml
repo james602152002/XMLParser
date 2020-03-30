@@ -1,7 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <localizationDictionary culture="ko-KR">
   <texts>
-    <text value="ClientSecret은 Azure에서 등록 된 응용 프로그램의 해당 설정에 대한 키입니다." name=" Office365ClientSecretPrompt" />
     <text value="&quot;{}&quot;이 유효하지 않습니다" name="{0}IsInvalid" />
     <text value="{0} 명의 사용자를 삭제할 수 없습니다." name="{0}UserCannotBeDeleted" />
     <text value="법원의 약어" name="AbbreviationOfCourt" />
@@ -240,7 +239,9 @@
     <text value="역전 시간" name="AscendingOfTime" />
     <text value="반전 된 이름" name="AscendingOfTitle" />
     <text value="시간별 오름차순" name="AscendingOrderOfTime" />
+    <text value="과제가 완료되었습니다" name="AssignCompletedTask" />
     <text value="할당 된" name="Assigned" />
+    <text value="내 할당이 만료되었습니다" name="AssignOverdueTask" />
     <text value="다른 버전에 할당" name="AssignToAnotherEdition" />
     <text value="보조 전화" name="AssistantPhone" />
     <text value="관련 결제 정보" name="AssociatedBillingInfo" />
@@ -305,6 +306,7 @@
     <text value="청구 가능" name="Billable" />
     <text value="청구 금액" name="BillAmount" />
     <text value="결제 금액 :" name="BillAmountTitle" />
+    <text value="청구서는 24 시간을 초과 할 수 없습니다" name="BillCannotExceed24Hours" />
     <text value="죄송합니다. 결제 시간은 숫자 만 입력 할 수 있습니다." name="BillCanOnlyBeEnteredInNumbers" />
     <text value="과금 된" name="Billed" />
     <text value="청구 항목" name="BillEntry" />
@@ -357,6 +359,7 @@
     <text value="비즈니스 카테고리" name="BusinessCategory" />
     <text value="총 비즈니스 고객 수" name="BusinessCustomerCnt" />
     <text value="비즈니스 고객" name="BusinessCustomers" />
+    <text value="영업 시간은 24 시간을 초과 할 수 없습니다" name="BusinessDurationCannotExceed24Hours" />
     <text value="조직 별 영업 시간" name="BusinessHoursByorganization" />
     <text value="죄송합니다. 영업 시간에는 숫자 만 입력 할 수 있습니다." name="BusinessHoursCanOnlyEnterNumbers" />
     <text value="영업 시간은 전년 대비입니다." name="BusinessHoursCompare" />
@@ -402,6 +405,7 @@
     <text value="테넌트에 버전이 지정되어 있지 않으므로 구독을 업그레이드 할 수 없습니다." name="CanNotUpgradeSubscriptionSinceTenantHasNoEditionAssigned" />
     <text value="죄송합니다.이 디렉토리에 파일을 직접 업로드 할 수 없습니다. 다른 디렉토리를 선택하십시오!" name="CannotUploadFilesDirectlyUnderThisDirectory" />
     <text value="현재 이름이 이미 사용 중입니다. 다른 이름을 사용하십시오!" name="CanNotUseName" />
+    <text value="숫자 만 허용" name="CanOnlyEnterNumbers" />
     <text value="미수금" name="CanReceivables" />
     <text value="확인 코드는 null 일 수 없습니다." name="CaptchaCanNotBeEmpty" />
     <text value="그림에 인증 코드를 입력하십시오 :" name="Captha_Hint" />
@@ -752,6 +756,8 @@
     <text value="일정 만들기" name="CreateSchedule" />
     <text value="성공적으로 생성되었습니다." name="CreateSuccess" />
     <text value="작업 단계 생성" name="CreateTaskStage" />
+    <text value="타이머 만들기" name="CreateTimer" />
+    <text value="작업에서 타이머 만들기" name="CreateTimerWithTask" />
     <text value="새 버전 만들기" name="CreatingNewEdition" />
     <text value="새 언어 만들기" name="CreatingNewLanguage" />
     <text value="역할 추가" name="CreatingNewRole" />
@@ -778,6 +784,7 @@
     <text value="현재 휴가 요청에 이미 처리 결과가 있습니다!" name="CurrentLeaveRequestAlreadyExistsProcessingResult" />
     <text value="현재 일치하는 폴더 및 파일 없음" name="CurrentlyNoMatchingFoldersAndFiles" />
     <text value="현재 Word 2007/2010/2013 파일 (.docx 형식의 파일) 만 지원합니다." name="CurrentlyOnlySupportsDocuments" />
+    <text value="데이터가 없습니다" name="CurrentNoData" />
     <text value="현재 페이지" name="CurrentPage" />
     <text value="현재 비밀번호" name="CurrentPassword" />
     <text value="현재 관리 챕터 응용 프로그램에는 이미 처리 결과가 있습니다!" name="CurrentStampIsAlreadyExistsResult" />
@@ -987,6 +994,7 @@
     <text value="세입자 수정" name="EditTenant" />
     <text value="텍스트 수정" name="EditText" />
     <text value="닫는 응용 프로그램 편집" name="EditTheClosingApplication" />
+    <text value="타이머 관련 정보 개선" name="EditTimerRelatedInfo" />
     <text value="사용자 수정" name="EditUser" />
     <text value="교육" name="Education" />
     <text value="교육 배경" name="EducationalBackground" />
@@ -1212,6 +1220,7 @@
     <text value="기본 정보" name="General" />
     <text value="생성 된" name="Generate" />
     <text value="지폐 생성" name="GenerateBills" />
+    <text value="타이머를 기반으로 생성 :" name="GeneratedBasedTimer" />
     <text value="송장 생성" name="GenerateInvoice" />
     <text name="GenerationWordsOfLawFirm" />
     <text name="GenerationWordsOfLawFirm_Hint" />
@@ -1572,6 +1581,7 @@
     <text name="MaximumUserCount_Description" />
     <text value="이 테넌트는 최대 {0} 명의 사용자를 보유 할 수 있습니다." name="MaximumUserCount_Error_Detail" />
     <text value="허용되는 최대 사용자 수에 도달했습니다!" name="MaximumUserCount_Error_Message" />
+    <text value="선택된 고객은 {0}을 (를) 초과 할 수 없습니다." name="MaxSelectedClientCount" />
     <text value="최대" name="MaxValue" />
     <text value="죄송합니다. 최대 7 개의 타이머 만 만들 수 있습니다." name="MaxWorkLogTimerTips" />
     <text value="5 월" name="May" />
@@ -1663,6 +1673,7 @@
     <text value="내 컬렉션" name="MyCollection" />
     <text name="MyCompanyName.AbpZeroTemplate.Authorization.Roles.Role" />
     <text name="MyCompanyName.AbpZeroTemplate.MultiTenancy.Tenant" />
+    <text value="내 구성 요소" name="MyComponents" />
     <text value="내 파일" name="MyFile" />
     <text value="내 기록" name="MyLog" />
     <text value="내 프로젝트" name="MyProject" />
@@ -1820,6 +1831,7 @@
     <text value="끄기" name="Off" />
     <text value="사무실" name="Office" />
     <text value="ClientId는 Azure에 등록 된 응용 프로그램의 ID 번호입니다." name="Office365ClientPrompt" />
+    <text value="ClientSecret은 Azure에서 등록 된 응용 프로그램의 해당 설정에 대한 키입니다." name="Office365ClientSecretPrompt" />
     <text value="사무실 프로필" name="OfficeIntroduction" />
     <text value="사무실 이름" name="OfficeName" />
     <text value="책임자" name="Officer" />
@@ -2378,6 +2390,7 @@
     <text value="{0}이 (가) 귀하의 할당 된 작업 [{1}]에 대한 참여를 거부했습니다." name="RejectsAssignmentTask" />
     <text value="관련 사례" name="RelatedCases" />
     <text value="관련 고객" name="RelatedCustomers" />
+    <text value="관련 정보" name="RelatedInfo" />
     <text value="그것과의 관계" name="RelatedPartiesRelationship" />
     <text value="%s 관련 사례" name="RelatedProjectCnt" />
     <text value="관련 프로젝트 정보" name="RelatedProjects" />
@@ -2385,6 +2398,7 @@
     <text value="관련" name="Relation" />
     <text value="관련 사례 이름 :" name="RelationCasesTitle" />
     <text value="고객 이름 연결 :" name="RelationClientName" />
+    <text value="관련 작업 정보" name="RelationTaskInfo" />
     <text value="관계 유형" name="RelationType" />
     <text value="관련 사례" name="RelativeCases" />
     <text value="출시일" name="ReleaseDate" />
@@ -2711,6 +2725,7 @@
     <text value="스프레드 시트" name="Spreadsheet" />
     <text value="직원" name="Staff" />
     <text value="위상" name="Stage" />
+    <text value="사례 단계에서 여러 선택 가능" name="StageIsMultipleSelection" />
     <text value="무대 이름" name="StageName" />
     <text value="작업 단계 목록 이름 {0}이 (가) 이미 사용되었습니다." name="StageNameAlreadyExists" />
     <text value="스테이지 목록은 삭제 후 복구 할 수 없습니다." name="StageNotBeRestoredAfterDeletion" />
@@ -3048,6 +3063,7 @@
     <text value="처리가 실패했습니다." name="ToDealWithFailure" />
     <text name="Toggle" />
     <text value="내일" name="Tomorrow" />
+    <text value="현재 타이밍 시간이 너무 짧아 아직 타이밍 단위에 도달하지 않았습니다 ({0} 분은 타이밍 단위 임) 타이밍을 완료 하시겠습니까?" name="TooShortTimerNotifyTips" />
     <text name="TopMenu" />
     <text value="인보이스 수신" name="ToReceiveTheInvoice" />
     <text value="리뷰 유형" name="ToSubmitForApprovalTheType" />
@@ -3430,5 +3446,16 @@
     <text value="[[0}]을 (를) 제출하기 위해 제출하신 케이스가 보관 대기 중입니다." name="YourRequestForSettlementIsWaitingForArchiving" />
     <text value="다른 {0}" name="YouStillHaveOtherCnt" />
     <text value="위안" name="Yuan" />
+    <text value="" name="本周待办" />
+    <text value="" name="分配给我的" />
+    <text value="" name="全部" />
+    <text value="" name="我参与进行中" />
+    <text value="" name="我参与未确认 " />
+    <text value="" name="我参与已完成 " />
+    <text value="" name="我参与已逾期" />
+    <text value="" name="我的项目" />
+    <text value="" name="我分配的" />
+    <text value="" name="我分配未确认 " />
+    <text value="" name="我分配未完成" />
   </texts>
 </localizationDictionary>
