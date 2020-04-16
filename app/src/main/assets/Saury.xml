@@ -4,6 +4,7 @@
     <text value="&quot;{}&quot; is invalid" name="{0}IsInvalid" />
     <text value="{Cannot delete 0} user." name="{0}UserCannotBeDeleted" />
     <text value="Court abbreviation" name="AbbreviationOfCourt" />
+    <text value="About to leave" name="AboutToLeave" />
     <text value="About us" name="AboutUs" />
     <text value="Organizational Unit" name="Abp.Organizations.OrganizationUnit" />
     <text value="Application settings cache" name="AbpApplicationSettingsCache" />
@@ -45,6 +46,7 @@
     <text value="Add this case's associated contact" name="AddCaseContact" />
     <text value="Please add the contract document from the above method. If there is no contract, the status of the case will remain in the contract stage to be uploaded!" name="AddCaseContractModalTips" />
     <text value="When the charging method is normal, the lawyer's fee cannot be 0, please add charging information!" name="AddChargingInformation" />
+    <text value="add contact" name="AddContact" />
     <text value="Add court reminder" name="AddCourtRemind" />
     <text value="Press {0} or click &quot;Bookmarks&quot; at the top of the browser window and select &quot;Add Bookmark...&quot; from the drop-down menu." name="AddCurrentPageToBookmark" />
     <text value="Add customer address book" name="AddCustomerAddressBook" />
@@ -60,7 +62,7 @@
     <text value="Adding a lawyer's pop-up window by default shows frequent co-counsel lawyers. If no cases have been added, only up to 6 lawyers under the same department will be displayed. You can retrieve more lawyers through the search box in the pop-up layer!" name="AddLawyerSelectiveModalTips" />
     <text value="Add member" name="AddMember" />
     <text value="Add a new phase after this" name="AddNewStageAfterThat" />
-    <text value="New task" name="AddNewTask" />
+    <text value="Add New task" name="AddNewTask" />
     <text value="Address" name="Address" />
     <text value="Add role" name="AddRole" />
     <text value="Add the root node" name="AddRootNode" />
@@ -70,19 +72,21 @@
     <text value="Add sub-unit" name="AddSubUnit" />
     <text value="add tag" name="AddTags" />
     <text value="Add task" name="AddTask" />
-    <text value="The case has not been added yet, please add a task after adding the project!" name="AddTaskWithOutProjectWarning " />
-    <text value="The project has not been added yet, please add a task after adding the stage!" name="AddTaskWithOutStageWarning" />
+    <text value="No items have been added to this case. Adding the project before task.  " name="AddTaskWithOutProjectWarning " />
+    <text value="The project has not been added yet, please add a task after adding the project!" name="AddTaskWithOutStageWarning" />
     <text value="Add a template" name="AddTemplate" />
     <text value="Add to Favorites" name="AddToBookMark" />
     <text value="Add user" name="AddUser" />
+    <text value="Add a visit" name="AddVisit" />
     <text value="Add a visit record" name="AddVisitRecord" />
     <text value="Adjust position" name="AdjustPosition" />
     <text value="Please adjust the search criteria or return to the previous level" name="AdjustSearchCriteriaOrReturnToThePreviousLevel" />
     <text value="admin email" name="AdminEmailAddress" />
-    <text value="System Management" name="Administration" />
+    <text value="System" name="Administration" />
     <text value="Administrative guidelines" name="AdministrativeGuide" />
     <text value="Administrative manpower" name="AdministrativeHR" />
     <text value="Administrative penalties" name="Administrativepenalties" />
+    <text value="Administrative seal" name="AdministrativeSeal" />
     <text value="Administrative chapter management information table" name="AdministrativeSealManagementInformationTable" />
     <text value="There is an administrative seal request, waiting for your review." name="AdministrativeSealReview" />
     <text value="Administrator guide" name="AdministratorGuide" />
@@ -97,9 +101,9 @@
     <text value="Proxy authority" name="AgencyAuthority" />
     <text value="Agency Code" name="AgencyCode" />
     <text value="Agent difficulty" name="AgencyDifficulties" />
-    <text value="Agency matters" name="AgencyMatters" />
+    <text value="Agency Matters" name="AgencyMatters" />
     <text value="Issues are only visible to meeting participants (Conference contacts: {0})" name="AgendaOnlyVisibleToParticipants" />
-    <text value="to-do" name="AgendaView" />
+    <text value="Todo List" name="AgendaView" />
     <text value="Agent" name="Agent" />
     <text value="Agreed interest rate" name="AgreedInterestRate" />
     <text value="Exchange rate" name="AgreedRate" />
@@ -123,10 +127,10 @@
     <text value="Allow to remember browser. If you allow this, users can select to remember browser to skip second time two factor login for the same browser." name="AllowToRememberBrowserForTwoFactorLogin" />
     <text value="Allow users to register to the system." name="AllowUsersToRegisterThemselves" />
     <text value="If you disable this, users will only be added by admin using user management page." name="AllowUsersToRegisterThemselves_Hint" />
-    <text value="All items" name="AllProjects" />
+    <text value="All Projects" name="AllProjects" />
     <text value="all rights reserved." name="AllRightReserved" />
     <text value="All schedule" name="AllSchedule" />
-    <text value="All tasks" name="AllTask" />
+    <text value="Tasks" name="AllTask" />
     <text value="The user import process has completed successfully and all users in the file have been imported." name="AllUsersSuccessfullyImportedFromExcel" />
     <text value="Already have an account, log in now" name="Alreadyaccountloginnow" />
     <text value="Archived" name="AlreadyArchived" />
@@ -157,9 +161,9 @@
     <text value="Annual leave information table" name="AnnualLeaveInfoForm" />
     <text value="This year's annual leave" name="AnnualLeaveOfTheYear" />
     <text value="Annual litigation statistics" name="AnnualLitigationStatistics" />
-    <text value="Annual number of participating role tasks" name="Annualnumberofparticipatingtasks" />
+    <text value="Annual Participating Role Tasks" name="Annualnumberofparticipatingtasks" />
     <text value="Annual Personnel Case Statistics" name="AnnualPersonnelCaseStatistics" />
-    <text value="Annual personnel role task statistics" name="Annualpersonnelroletaskstatistics" />
+    <text value="Annual personnel task statistics" name="Annualpersonnelroletaskstatistics" />
     <text value="Annual price" name="AnnualPrice" />
     <text value="Annual statistics" name="AnnualStatistics" />
     <text value="Annual statistics of organizational cases" name="AnnualStatisticsOrganizationCases" />
@@ -201,6 +205,7 @@
     <text value="Apply" name="Apply" />
     <text value="Paper review" name="ApplyDocumentReview" />
     <text value="Application end time" name="ApplyEndTime" />
+    <text value="Apply for trial" name="ApplyForTrial" />
     <text value="Apply paper stamp" name="ApplyPaperStamp" />
     <text value="Application start time" name="ApplyStartTime" />
     <text value="application time" name="ApplyTime" />
@@ -210,8 +215,8 @@
     <text value="Review" name="ApprovalLevel" />
     <text value="Sorry, the return of the approval requires you to fill in the reason for the return." name="ApprovalReturnNeedsToFillInReasonOfReturn" />
     <text value="Reviewed by {0} reviewers" name="ApprovedByAuditorCnt" />
-    <text value="Approval of return options" name="ApproveTheReturnOption" />
-    <text value="Approval through selection" name="ApproveTheSelectionOfItems" />
+    <text value="Approve But Return Options" name="ApproveTheReturnOption" />
+    <text value="Approval of Selection" name="ApproveTheSelectionOfItems" />
     <text value="April" name="April" />
     <text value="Arbitration fee" name="ArbitrationFee" />
     <text value="Architecture diagram" name="ArchitectureDiagram" />
@@ -231,7 +236,7 @@
     <text value="Are you sure to change the status of the current code?" name="AreYouSureChangeCurrentCodeState" />
     <text value="Are you sure to change the selected conference status?" name="AreYouSureTheChangeSelectedSessionState" />
     <text value="Are you sure to delete the current folder?" name="AreYouSureToDeleteTheCurrentFolder" />
-    <text value="Are you sure to create a task project by this template? " name="AreYouSureYouCreationWithTemplate" />
+    <text value="Are you sure to create a project from this template? " name="AreYouSureYouCreationWithTemplate" />
     <text value="You sure you want to delete it?" name="AreYouSureYouWantToDelete" />
     <text value="Are you sure you want to delete it?" name="AreYouSureYouWantToRemoveItCompletely" />
     <text value="Are you sure you want to restore?" name="AreYouSureYouWantToRestore" />
@@ -239,9 +244,13 @@
     <text value="Reverse time" name="AscendingOfTime" />
     <text value="Reversed name" name="AscendingOfTitle" />
     <text value="Ascending by time" name="AscendingOrderOfTime" />
-    <text value="Assign Completed Task" name="AssignCompletedTask" />
     <text value="Assigned" name="Assigned" />
-    <text value="Assign Overdue Task" name="AssignOverdueTask" />
+    <text value="Responsible Completed Task" name="AssignedCompletedTask" />
+    <text value="Responsible Expired Task" name="AssignedExpiredTask" />
+    <text value="Responsible Task" name="AssignedTask" />
+    <text value="Participated Task" name="AssignedTaskToMe" />
+    <text value="Responsible Uncompleted Task" name="AssignedUncompletedTask" />
+    <text value="Responsible Unconfirmed Task" name="AssignedUnconfirmedTask" />
     <text value="Assign to another edition" name="AssignToAnotherEdition" />
     <text value="Assistant telephone" name="AssistantPhone" />
     <text value="Associated billing information" name="AssociatedBillingInfo" />
@@ -316,6 +325,7 @@
     <text value="Billing hours:" name="BillHoursWithColon" />
     <text value="Billing" name="Billing" />
     <text value="invoice amount" name="BillingAmount" />
+    <text value="Billing Amount" name="BillingAmountCap" />
     <text value="Billing Association" name="BillingAssociation" />
     <text value="Billing cycle" name="BillingCycle" />
     <text value="Billing cycle:" name="BillingCycleWithColon" />
@@ -370,6 +380,7 @@
     <text value="Business status" name="Businessstatus" />
     <text value="Business hours" name="BusinessTime" />
     <text value="business type" name="BusinessType" />
+    <text value="Business work log" name="BusinessWorkLog" />
     <text value="Button alignment" name="ButtonAlign" />
     <text value="buy now" name="BuyNow" />
     <text value="{0} Edition" name="BuyNow_Edition_Description" />
@@ -414,7 +425,7 @@
     <text value="Case analysis" name="CaseAnalysis" />
     <text value="On file" name="CaseApplying" />
     <text value="Case Assistance Information" name="CaseAssistanceInformation" />
-    <text value="Case review" name="CaseAudit" />
+    <text value="Case Review" name="CaseAudit" />
     <text value="Basic information of the case" name="CaseBasicInformation" />
     <text value="Case business operation guidelines" name="CaseBusinessGuide" />
     <text value="Case category" name="CaseCategory" />
@@ -435,7 +446,7 @@
     <text value="Project Contract Document" name="CaseContractDocument" />
     <text value="Case contract information" name="CaseContractInformation" />
     <text value="The case contract has been locked. Please unlock it and modify it!" name="CaseContractLockedTip" />
-    <text value="Number of items" name="CaseCount" />
+    <text value="Project Quantity" name="CaseCount" />
     <text value="File for review" name="CaseCreation" />
     <text value="Case details" name="CaseDetail" />
     <text value="Case Document Information" name="CaseDocumentInformation" />
@@ -472,15 +483,17 @@
     <text value="Case personnel information" name="CaseParticipantInformation" />
     <text value="Case process information" name="CaseProcessInformation" />
     <text value="Processing" name="CaseProcessing" />
-    <text value="Case project" name="CaseProject" />
+    <text value="Case Project" name="CaseProject" />
     <text value="Cancellation of case" name="CaseRemove" />
     <text value="Case results and analysis" name="CaseResultsAndAnalysis" />
     <text value="Case reverses information" name="CaseReversalInformation" />
+    <text value="Case Review" name="CaseReview" />
     <text value="The case [{0}] filed for filing of your case has been returned by the person in charge of the case. Please modify the closing information." name="CaseReviewReturned" />
     <text value="Case serial number formatting" name="CaseSerialIdFormat" />
     <text value="Case serial number rules" name="CaseSerialIdRule" />
     <text value="Case stage" name="CasesOfStage" />
     <text value="Case start time" name="CaseStartTime" />
+    <text value="Annual Case Status Statistics" name="CaseStatusAnnualStatistics" />
     <text value="Case status year-on-year" name="CaseStatusYearonYear" />
     <text value="Supplementary case" name="CaseSupplement" />
     <text value="Case client and partner information" name="CaseTheDelegateTheOtherPartyInformation" />
@@ -565,7 +578,7 @@
     <text value="Clear Cache" name="ClearCache" />
     <text value="Cleared successfully" name="ClearedSuccessfully" />
     <text value="Sorry, please clear the tasks on this stage list before deleting this stage list!" name="ClearTasklistInStage" />
-    <text value="Sorry, please clear all the stages and tasks on this task item before deleting this item!" name="ClearTaskProject" />
+    <text value="Delect project before you should deleted all the tasks. " name="ClearTaskProject" />
     <text value="Click for phone verification code" name="ClickforVerificationCode" />
     <text value="click here" name="ClickHere" />
     <text value="Click on the link on the right to view the pre-operation information" name="ClickOnTheRightLinkToViewTheFrontActionInfo" />
@@ -581,7 +594,7 @@
     <text value="There is no contact information for the customer, click on the upper right corner" name="ClientHasNoContact" />
     <text value="There is no contact information for the customer. Click the plus sign in the upper right corner to add the contact person in the case." name="ClientHasNoContactAndClickToAddCaseContacts" />
     <text value="{0} requesting your permission" name="ClientIsRequestingYourPermission" />
-    <text value="Customer project" name="ClientProject" />
+    <text value="Customer Project" name="ClientProject" />
     <text value="Customer area" name="ClientRegion" />
     <text value="The current customer is connected to the case and cannot be deleted!" name="ClientRelatedCases" />
     <text value="Customer contact" name="ClientRelationContact" />
@@ -655,11 +668,12 @@
     <text value="Computer number" name="ComputerNumbering" />
     <text value="Conference password" name="ConferencePassword" />
     <text value="Confidentiality agreement" name="ConfidentialityAgreement" />
+    <text value="Configuration" name="Configuration" />
     <text value="confirm" name="Confirm" />
     <text value="Confirm approval information?" name="ConfirmApprovalInformation" />
     <text value="A confirmation mail sent to {0}. Please click link in the email in order to confirm your mail address." name="ConfirmationMailSentPleaseClickLinkInTheEmail" />
     <text value="Confirm conflict search information?" name="ConfirmConflictRetrievalInfo" />
-    <text value="Are you sure to save the project task as a personal template?" name="ConfirmConvertToPersonalTemplate" />
+    <text value="Are you sure to create project as a personal template?" name="ConfirmConvertToPersonalTemplate" />
     <text value="Do you confirm the deletion of information?" name="ConfirmDeleteInformation" />
     <text value="confirmed" name="Confirmed" />
     <text value="{0}Confirm your participation in the conference you reserved[{1}]" name="ConfirmParticipatedMeeting" />
@@ -685,6 +699,7 @@
     <text value="Content information" name="ContentInformation" />
     <text value="Content length exceeds limit" name="ContentLengthExceedingLimit" />
     <text value="Content settings" name="ContentSetting" />
+    <text value="Continue to visit" name="ContinueToVisit" />
     <text value="contract" name="Contract" />
     <text value="Contract amount" name="ContractAmount" />
     <text value="contract attachment" name="ContractAttachments" />
@@ -730,6 +745,7 @@
     <text value="Court/court time information" name="CourtOrCourtTimeInformation" />
     <text value="Court reminds information" name="CourtReminder" />
     <text value="Court" name="Courts" />
+    <text value="During the current epidemic, full-time web conferencing is free!" name="COVID19FullTimeipsConferencingFreeTips" />
     <text value="Create a case" name="CreateACase" />
     <text value="Create a category" name="CreateAClassification" />
     <text value="Create customer" name="CreateACustomer" />
@@ -742,7 +758,7 @@
     <text value="Creation failed" name="CreateFailed" />
     <text value="upload files" name="CreateFile" />
     <text value="new folder" name="CreateFolder" />
-    <text value="Create a meeting" name="CreateMeeting" />
+    <text value="Create A Meeting" name="CreateMeeting" />
     <text value="New" name="CreateNew" />
     <text value="Create a new customer" name="CreateNewCustomer" />
     <text value="Create new edition" name="CreateNewEdition" />
@@ -755,7 +771,7 @@
     <text value="Create a process" name="CreateProcess" />
     <text value="Create schedule" name="CreateSchedule" />
     <text value="Created successfully" name="CreateSuccess" />
-    <text value="Create task phase" name="CreateTaskStage" />
+    <text value="Create New Task" name="CreateTaskStage" />
     <text value="Create timer" name="CreateTimer" />
     <text value="Create timer from task" name="CreateTimerWithTask" />
     <text value="Creating new edition" name="CreatingNewEdition" />
@@ -799,6 +815,7 @@
     <text value="client" name="Customer" />
     <text value="customer address" name="CustomerAddress" />
     <text value="Customer basic information" name="CustomerBasicInfo" />
+    <text value="Customer communications" name="CustomerCommunications" />
     <text value="Customer contact" name="CustomerContact" />
     <text value="Customer Development" name="CustomerDevelopment" />
     <text value="Customer documentation" name="CustomerDocuments" />
@@ -896,7 +913,7 @@
     <text value="Hi, this is a test message. Please login with my account in a different browser and check out how chat feature works." name="Demo_SampleChatMessage" />
     <text value="Demo PayPal Account" name="DemoPayPalAccount" />
     <text value="Demo UI Components" name="DemoUiComponents" />
-    <text value="&#xA;      This page shows a few useful UI components those can be used in your application.&#xA;      Components in this page are implemented as full stack (includes the server side).&#xA;    " name="DemoUiComponents_Info" />
+    <text value="This page shows some UI components that can be used in your application. " name="DemoUiComponents_Info" />
     <text value="Check Metronic theme for more UI components" name="DemoUiComponents_Info_Metronic_Link_Text" />
     <text value="department" name="Department" />
     <text value="Office and department documents" name="DepartmentalDocuments" />
@@ -934,8 +951,9 @@
     <text value="Divorce" name="Divorce" />
     <text value="Total %s documents" name="DocCounts" />
     <text value="Document type" name="DocType" />
+    <text value="Document analysis" name="DocumentAnalysis" />
     <text value="Document Approval Information Form" name="DocumentApprovalInformationSheet" />
-    <text value="Document Center" name="DocumentCenter" />
+    <text value="DM" name="DocumentCenter" />
     <text value="Instrument details" name="DocumentDetail" />
     <text value="Document operation guide" name="DocumentGuide" />
     <text value="Document number or case number cannot be empty!" name="DocumentNumberOrCaseNumberCannotBeEmpty" />
@@ -963,6 +981,7 @@
     <text value="Download minutes" name="DownloadMinutes" />
     <text value="Download Post-Conference Report" name="DownloadPostConferenceReport" />
     <text value="Edit or improve the converted logbook?" name="DoYouEditOrImproveConvertedWorkLog" />
+    <text value="Drafting documents and amendments" name="DraftingDocumentsAndAmendments" />
     <text value="Groupable dragable sort" name="DragSortInGroups" />
     <text value="Mailbox {0} is already occupied" name="DuplicateEmail" />
     <text value="Duration" name="Duration" />
@@ -978,7 +997,7 @@
     <text value="Editing edition" name="EditingEdition" />
     <text value="Editing language" name="EditingLanguage" />
     <text value="Editing role" name="EditingRole" />
-    <text value="Edit task" name="EditingTask" />
+    <text value="Edit Task" name="EditingTask" />
     <text value="Editing tenant" name="EditingTenant" />
     <text value="Editing user" name="EditingUser" />
     <text value="Edition" name="Edition" />
@@ -999,6 +1018,9 @@
     <text value="Education" name="Education" />
     <text value="Education background" name="EducationalBackground" />
     <text value="Effective obligation" name="Effectiveobligation" />
+    <text value="This prompt indicates that your currently logged in account does not have the corresponding seal authority on the electronic signature platform. Please wait patiently for the person with the seal authority to complete the electronic seal or contact the system administrator to help open the seal authority!" name="ElectronicSealNoSignAuthorityTips" />
+    <text value="This document has been applied for electronic seal, please click the seal button to complete the signing action!" name="ElectronicSealSignActionTips" />
+    <text value="This document has applied for electronic seal stamping, please wait for the sealer to complete the stamping authority!" name="ElectronicSealWaitSignCompleteTips" />
     <text value="Electronic signature information" name="ElectronicSignatureInfo" />
     <text value="Email" name="Email" />
     <text value="Email activation" name="EmailActivation" />
@@ -1013,7 +1035,7 @@
     <text value="Your security code is: {0}" name="EmailSecurityCodeBody" />
     <text value="Security Code" name="EmailSecurityCodeSubject" />
     <text value="Email (SMTP)" name="EmailSmtp" />
-    <text value="Conference host" name="Emcee" />
+    <text value="Meeting Host" name="Emcee" />
     <text value="host:" name="EmceeTitle" />
     <text value="emergency contact" name="EmergencyContact" />
     <text value="Emergency contact address" name="EmergencyContactAddress" />
@@ -1035,12 +1057,13 @@
     <text value="English" name="English" />
     <text value="Search keywords (English)" name="EnglishKeywordsSearch" />
     <text value="English name" name="EnglishName" />
+    <text value="English name" name="EnName" />
     <text value="Business registration name" name="EnterpriseBusinessRegistrationNameOfEnterprise" />
     <text value="Enterprise key" name="EnterpriseKey" />
     <text value="Corporate company registration number" name="EnterpriseRegistrationNumber" />
     <text value="Please enter the reason for {1} in {0}!" name="EnterReason" />
     <text value="Enter tenancy name..." name="EnterTenancyName" />
-    <text value="Entrusted matters" name="EntrustedMatters" />
+    <text value="Entrusted Matters" name="EntrustedMatters" />
     <text value="Entry cost contract" name="EntryContractFee" />
     <text value="Equal principal" name="EqualPrincipal" />
     <text value="Equal installments of principal and interest" name="EqualPrincipalInterest" />
@@ -1079,6 +1102,7 @@
     <text value="Expense review" name="ExpenseReview" />
     <text value="Date of Expiry" name="ExpirationDate" />
     <text value="be expired" name="Expired" />
+    <text value="Participated Expired Task" name="ExpiredTask" />
     <text value="Expiring" name="Expiring" />
     <text value="Expiring edition" name="ExpiringEdition" />
     <text value="Expiring edition must be a free edition" name="ExpiringEditionMustBeAFreeEdition" />
@@ -1094,7 +1118,7 @@
     <text value="Failed" name="Failed" />
     <text value="Failed to get French angel file!" name="FailedFTSFile" />
     <text value="Failed to obtain corporate WeChat token!" name="FailedQYWeChatToken" />
-    <text value="Subscription termination is failed for following tenants {0} at {1}. You can find detailed error messages in system logs." name="FailedSubscriptionTerminations_Email_Body" />
+    <text value="Failure terminating {0} subscription for tenant {1}. " name="FailedSubscriptionTerminations_Email_Body" />
     <text value="Failed Subscription Terminations" name="FailedSubscriptionTerminations_Email_Subject" />
     <text value="Subscription termination is failed for some tenants" name="FailedSubscriptionTerminations_SubTitle" />
     <text value="Failed subscription terminations" name="FailedSubscriptionTerminations_Title" />
@@ -1123,6 +1147,7 @@
     <text value="User import process has failed. File is invalid." name="FileCantBeConvertedToUserList" />
     <text value="File Directory" name="FileDirectory" />
     <text value="file does not exist" name="FileDoesNotExist" />
+    <text value="The file must conform to the following format: {0}" name="FileFormatLimitation" />
     <text value="File generation failed: {0}" name="FileGenerationFailure" />
     <text value="Submitting file information table" name="FileInformationSheet" />
     <text value="File information table" name="FileInformationTable" />
@@ -1150,12 +1175,14 @@
     <text value="Financial operation guidelines" name="FinancialGuide" />
     <text value="Financial Information" name="FinancialInformation" />
     <text value="Financial operation record" name="FinancialOperationRecord" />
+    <text value="Financial overview" name="FinancialOverview" />
     <text value="Financial review" name="FinancialReview" />
     <text value="The closing file [{0}] you have applied for has been returned by the financial department. Please modify the closing information." name="FinancialReviewReturned" />
     <text value="The current case's financial closure review application has been processed!" name="FinancialSettlementAuditOfCaseHasBeenProcessed" />
     <text value="Financial review returned" name="FinanciaReviewReturned" />
     <text value="Finding a case" name="FindACase" />
     <text value="Finding customers" name="FindACustomer" />
+    <text value="Find regulations, information" name="FindRegulations,Information" />
     <text value="Business log" name="FirmLog" />
     <text value="Business documents" name="FirmOperationDocuments" />
     <text value="First" name="First" />
@@ -1192,6 +1219,7 @@
     <text value="E.g" name="ForExample" />
     <text value="forget password" name="ForgetPassword" />
     <text value="Forgot password?" name="ForgotPassword" />
+    <text value="Forgot to record drafting / modification" name="ForgotToRecordDrafting/Modification" />
     <text value="Formal case" name="FormalCase" />
     <text value="Formal customer" name="FormalCustomer" />
     <text value="Official VIP customer" name="FormalVipCustomers" />
@@ -1214,8 +1242,8 @@
     <text value="Features" name="Functions" />
     <text value="Gains" name="Gains" />
     <text value="Gateway" name="Gateway" />
-    <text value="Your data is prepared, click here to download." name="GdprDataPreparedNotificationMessage" />
-    <text value="We are preparing your data. You will be notified when your data is ready." name="GdprDataPrepareStartedNotification" />
+    <text value="Your data is ready, please click here to download." name="GdprDataPreparedNotificationMessage" />
+    <text value="We are preparing your data. " name="GdprDataPrepareStartedNotification" />
     <text value="gender" name="Gender" />
     <text value="General" name="General" />
     <text value="generate" name="Generate" />
@@ -1231,8 +1259,8 @@
     <text value="good evening" name="GoodEvening" />
     <text value="good morning" name="GoodMorning" />
     <text value="Good weekend" name="GoodWeekend" />
-    <text value="Google Authenticator is not enabled for your account. You must first enable it in your settings." name="GoogleAuthenticatorIsNotEnabled" />
-    <text value="Not sure what this screen means? You may need to check this " name="GoogleAuthenticatorReferrerLink" />
+    <text value="Google Account is not enabled for your account. " name="GoogleAuthenticatorIsNotEnabled" />
+    <text value="Not sure what this page means? " name="GoogleAuthenticatorReferrerLink" />
     <text value="Go to application" name="GoToApplication" />
     <text value="Go to edit or improve the saved template?" name="GotoEditOrImproveConvertedTemplate" />
     <text value="Go to subscription" name="GoToSubscriptionManagement" />
@@ -1252,7 +1280,7 @@
     <text value="Completed" name="HasBeenCompleted" />
     <text value="{0} confirmed to participate in your assigned schedule [{1}]" name="HasBeenConfirmedToParticipateInYourAssignedSchedule" />
     <text value="Returned" name="HasBeenReturned" />
-    <text value="This content may have 1 conflict of interest information with your case" name="HasConflictHint" />
+    <text value="This content may have conflict of interest information with your case" name="HasConflictHint" />
     <text value="rejected" name="HasDeclined" />
     <text value="Has error" name="HasError" />
     <text value="Legal aid" name="HasLegalAid" />
@@ -1290,6 +1318,7 @@
     <text value="Human Resources Operation Guide" name="HumanGuide" />
     <text value="Unable to match information related to primary key number!" name="IdHasNotBeenFound" />
     <text value="Image" name="Image" />
+    <text value="Image minimum pixels: {0}, scale: {1}" name="ImgSizeScaleLimitation" />
     <text value="Impersonation token is invalid or expired!" name="ImpersonationTokenErrorMessage" />
     <text value="Important and urgent" name="ImportantAndInstancy" />
     <text value="Important but not urgent" name="ImportantButNotInstancy" />
@@ -1315,7 +1344,7 @@
     <text value="industry" name="Industry" />
     <text value="Inferred direction" name="InferredDirection" />
     <text value="Personal center" name="InfoCenter" />
-    <text value="in meeting……" name="InMeeting" />
+    <text value="In the meeting……" name="InMeeting" />
     <text value="You can fill in the default value (such as: no time) or random number when you are not sure what to enter" name="InputValueNullOrUnknownReminder" />
     <text value="After the incumbent status is changed to {0}, the system cannot be logged in. Is it OK?" name="InserviceStatusChangeWarning" />
     <text value="After the incumbent status is changed to {0}, is it allowed to continue logging in?" name="InServiceStatusChangeWarning2" />
@@ -1350,8 +1379,9 @@
     <text value="Invalid user name or password" name="InvalidUserNameOrPassword" />
     <text value="inventor" name="Inventor" />
     <text value="Reversal" name="Inverse" />
+    <text value="Investigation" name="Investigation" />
     <text value="investment amount" name="Investmentamount" />
-    <text value="Conference invites guests" name="InvitedGuests" />
+    <text value="Participants" name="InvitedGuests" />
     <text value="Invalid language code." name="InvlalidLanguageCode" />
     <text value="Invoice" name="Invoice" />
     <text value="Invoice amount" name="InvoiceAmount" />
@@ -1377,6 +1407,7 @@
     <text value="Invoice [{0}] {1}." name="InvoiceNotify" />
     <text value="Invoice number" name="InvoiceNumber" />
     <text value="Invoice [{0}] has been returned." name="InvoiceReturned" />
+    <text value="Invoice review" name="InvoiceReview" />
     <text value="Invoice status has changed." name="InvoiceStatusHasBeenChanged" />
     <text value="Invoice" name="InvoiceTitle" />
     <text value="Invoice to" name="InvoiceTo" />
@@ -1390,7 +1421,7 @@
     <text value="Is enabled" name="IsEnabled" />
     <text value="Foreign-related" name="IsForeign" />
     <text value="Enable Google Authenticator" name="IsGoogleAuthenticatorEnabled" />
-    <text value="Is in trial period?" name="IsInTrialPeriod" />
+    <text value="Is it in the trial period?" name="IsInTrialPeriod" />
     <text value="Currently the latest version" name="IsLatestVersion" />
     <text value="Lockout enabled" name="IsLockoutEnabled" />
     <text value="User is locked for a while after a certain amount of failed login attempts." name="IsLockoutEnabled_Hint" />
@@ -1458,6 +1489,7 @@
     <text value="lawyer" name="Lawyer" />
     <text value="Paralegal" name="LawyerAssistant" />
     <text value="{0} lawyer" name="LawyerCnt" />
+    <text value="Lawyer discussion" name="LawyerDiscussion" />
     <text value="Lawyer Fee" name="LawyerFee" />
     <text value="Lawyer fee information" name="LawyerFeeInfo" />
     <text value="Lawyer letter returned" name="LawyerLetterReturned" />
@@ -1483,6 +1515,7 @@
     <text value="Leave time" name="LeaveTime" />
     <text value="Leave type" name="LeaveType" />
     <text value="Left menu" name="LeftMenu" />
+    <text value="Legal advice" name="LegalAdvice" />
     <text value="Whether legal aid" name="LegalAid" />
     <text value="Renewal of legal consultant contract" name="LegalCounselContractRenewalSituation" />
     <text value="Legal Consultant Service Content" name="LegalCounselServiceContent" />
@@ -1508,6 +1541,7 @@
     <text value="Liquidated damages" name="LiquidatedDamages" />
     <text value="Receivables list" name="ListOfReceivables" />
     <text value="List view" name="ListView" />
+    <text value="Litigation / Arbitration / Hearing" name="Litigation/Arbitration/Hearing" />
     <text value="Litigation costs" name="LitigationCosts" />
     <text value="Litigation phase" name="LitigationPhase" />
     <text value="Loading data, please wait..." name="LoadingMessage" />
@@ -1526,6 +1560,7 @@
     <text value="Logs" name="Log" />
     <text value="Log analysis" name="LogAnalysis" />
     <text value="Log analysis chart" name="LogAnalysisChart" />
+    <text value="Log approval" name="LogApproval" />
     <text value="Log approval failed, please try resubmitting approval" name="LogApprovalFailedRemind" />
     <text value="Log approval succeeded" name="LogApprovalSuccess" />
     <text value="Log contents / notes" name="LogContentOrRemarks" />
@@ -1586,52 +1621,52 @@
     <text value="Sorry, you can only create up to 7 timers." name="MaxWorkLogTimerTips" />
     <text value="May" name="May" />
     <text value="mine" name="Me" />
-    <text value="meeting" name="Meeting" />
-    <text value="Meeting agenda" name="MeetingAgenda" />
-    <text value="Meeting attachment" name="MeetingAttachment" />
-    <text value="Conference booking" name="MeetingBooking" />
-    <text value="Conference booking information" name="MeetingBookingInformation" />
-    <text value="Conference booking list" name="MeetingBookingList" />
-    <text value="Check the meeting" name="MeetingCheck" />
-    <text value="Meeting contacts" name="MeetingContact" />
-    <text value="Number of meetings" name="MeetingCount" />
-    <text value="Meeting details" name="MeetingDetail" />
-    <text value="Meeting duration" name="MeetingDuration" />
+    <text value="Meeting" name="Meeting" />
+    <text value="Meeting Agenda" name="MeetingAgenda" />
+    <text value="Attachment" name="MeetingAttachment" />
+    <text value="Meeting Reservation" name="MeetingBooking" />
+    <text value="Meeting Booking Information" name="MeetingBookingInformation" />
+    <text value="Meeting Booking List" name="MeetingBookingList" />
+    <text value="Meeting Check" name="MeetingCheck" />
+    <text value="Meeting Contact" name="MeetingContact" />
+    <text value="Meetings Quantity" name="MeetingCount" />
+    <text value="Meeting Details" name="MeetingDetail" />
+    <text value="Meeting Duration" name="MeetingDuration" />
     <text value="Meeting host field is required" name="MeetingEmceeIsRequired" />
-    <text value="Meeting completed" name="MeetingHasBeenCompleted" />
-    <text value="Conference level" name="MeetingLevel" />
-    <text value="Minutes of the meeting" name="MeetingMinutes" />
-    <text value="Conference modification" name="MeetingModification" />
-    <text value="Conference Name" name="MeetingName" />
+    <text value="Finshed" name="MeetingHasBeenCompleted" />
+    <text value="Meeting Level" name="MeetingLevel" />
+    <text value="Minutes" name="MeetingMinutes" />
+    <text value="Meeting Modification" name="MeetingModification" />
+    <text value="Meeting Name" name="MeetingName" />
     <text value="Meeting participant field is required" name="MeetingParticipantIsRequired" />
-    <text value="Conference participant" name="MeetingParticipants" />
+    <text value="Participants" name="MeetingParticipants" />
     <text value="Preparation before the meeting" name="MeetingPreparation" />
-    <text value="meeting room" name="MeetingRoom" />
-    <text value="Conference room address" name="MeetingRoomAddress" />
-    <text value="Conference room creation" name="MeetingRoomCreation" />
-    <text value="Conference Room Description" name="MeetingRoomDescription" />
-    <text value="Meeting room details" name="MeetingRoomDetails" />
-    <text value="Meeting room equipment information" name="MeetingRoomEquipmentInformation" />
+    <text value="Meeting Room" name="MeetingRoom" />
+    <text value="Meeting Room Address" name="MeetingRoomAddress" />
+    <text value="Create A Meeting Room" name="MeetingRoomCreation" />
+    <text value="Meeting Room Description" name="MeetingRoomDescription" />
+    <text value="Meeting Room Details" name="MeetingRoomDetails" />
+    <text value="Meeting Room Equipment " name="MeetingRoomEquipmentInformation" />
     <text value="There are already reserved conferences in this conference room during the current period. Please select another time to reserve or change the conference room!" name="MeetingRoomHasBeenOccupied" />
-    <text value="Conference room information table" name="MeetingRoomInformationSheet" />
+    <text value="Meeting Room Information Sheet" name="MeetingRoomInformationSheet" />
     <text value="Meeting room fields are required" name="MeetingRoomIsRequired" />
-    <text value="Meeting room level" name="MeetingRoomLevel" />
-    <text value="Conference room management" name="MeetingRoomManagement" />
-    <text value="Conference room manager" name="MeetingRoomManager" />
-    <text value="Conference room modification" name="MeetingRoomModification" />
-    <text value="Conference room name" name="MeetingRoomName" />
-    <text value="Conference room name/description" name="MeetingRoomNameOrDescription" />
-    <text value="Conference room number" name="MeetingRoomNumber" />
-    <text value="Meeting room size" name="MeetingRoomScale" />
+    <text value="Meeting Room Category" name="MeetingRoomLevel" />
+    <text value="Meeting Room Management" name="MeetingRoomManagement" />
+    <text value="Meeting Room Manager" name="MeetingRoomManager" />
+    <text value="Modification Meeting Room" name="MeetingRoomModification" />
+    <text value="Meeting Room Name" name="MeetingRoomName" />
+    <text value="Meeting Room Name" name="MeetingRoomNameOrDescription" />
+    <text value="Meeting Room Number" name="MeetingRoomNumber" />
+    <text value="Scale of Meeting" name="MeetingRoomScale" />
     <text value="Select meeting room" name="MeetingRoomSelection" />
-    <text value="Conference room style" name="MeetingRoomStyle" />
-    <text value="Conference source" name="MeetingSource" />
-    <text value="Conference status" name="MeetingState" />
-    <text value="meeting time" name="MeetingTime" />
-    <text value="meeting time:" name="MeetingTimeTitle" />
+    <text value="Meeting Room Description" name="MeetingRoomStyle" />
+    <text value="Meeting Source" name="MeetingSource" />
+    <text value="Meeting Status" name="MeetingState" />
+    <text value="Meeting Time" name="MeetingTime" />
+    <text value="Meeting Time:" name="MeetingTimeTitle" />
     <text value="Conference title/content description" name="MeetingTitleOrContentDescription" />
     <text value="You have a meeting to be confirmed to participate in [{0}]" name="MeetingToBeConfirmed" />
-    <text value="Conference type" name="MeetingType" />
+    <text value="Meeting Type" name="MeetingType" />
     <text value="Members" name="Members" />
     <text value="Menu bar background color" name="MenuBarSkins" />
     <text value="Menu permissions" name="MenuPermissions" />
@@ -1656,7 +1691,7 @@
     <text value="Modifier" name="Modifiers" />
     <text value="modify" name="Modify" />
     <text value="Modify customer contact" name="ModifyClientContact" />
-    <text value="Modify the task phase" name="ModifyTaskStage" />
+    <text value="Modify Task " name="ModifyTaskStage" />
     <text value="Modify the application content of the case" name="ModifyTheApplicationContentOfTheCase" />
     <text value="Module" name="Module" />
     <text value="month" name="Month" />
@@ -1667,18 +1702,28 @@
     <text value="Move Tenants to Another Edition" name="MoveTenantsOfEdition" />
     <text value="{0} tenants will be moved" name="MoveTenantsOfEditionDescription" />
     <text value="Move tenants to another edition" name="MoveTenantsToAnotherEdition" />
-    <text value="We are moving tenants to selected edition. You will be notified when the operation is complete." name="MoveTenantsToAnotherEditionStartedNotification" />
+    <text value="We are migrating tenants to the selected version. " name="MoveTenantsToAnotherEditionStartedNotification" />
     <text value="In multiple departments, click the + sign to display all" name="MultipleOrganizationUnit" />
     <text value="Please enter the other party's information in {0}." name="MustHasConflictInfo" />
+    <text value="My bill" name="MyBill" />
+    <text value="My business count" name="MyBusinessCount" />
+    <text value="My case count statistics" name="MyCaseCountStatistics" />
     <text value="my collection" name="MyCollection" />
     <text value="Role" name="MyCompanyName.AbpZeroTemplate.Authorization.Roles.Role" />
     <text value="Tenant" name="MyCompanyName.AbpZeroTemplate.MultiTenancy.Tenant" />
+    <text value="Participated Completed Task" name="MyCompletedTask" />
     <text value="My component" name="MyComponents" />
+    <text value="My expenses" name="MyExpenses" />
     <text value="my file" name="MyFile" />
+    <text value="My financial statistics" name="MyFinancialStatistics" />
+    <text value="My invoice" name="MyInvoice" />
     <text value="My log" name="MyLog" />
-    <text value="My project" name="MyProject" />
+    <text value="My log statistics" name="MyLogStatistics" />
+    <text value="My payment" name="MyPayment" />
+    <text value="My Project" name="MyProject" />
     <text value="My resume" name="MyResume" />
     <text value="My settings" name="MySettings" />
+    <text value="My Task" name="MyTask" />
     <text value="My components" name="MyWidgets" />
     <text value="My log" name="MyWorkLog" />
     <text value="Name" name="Name" />
@@ -1718,7 +1763,7 @@
     <text value="News and announcements do not allow deletion" name="NewsBulletinAreNotAllowedToBeDeleted" />
     <text value="News type" name="NewsType" />
     <text value="New subscription amount" name="NewSubscriptionAmount" />
-    <text value="New task stage" name="NewTaskStage" />
+    <text value="New Task" name="NewTaskStage" />
     <text value="New tenant" name="NewTenant" />
     <text value="On a new tenant registered to the application." name="NewTenantRegisteredNotificationDefinition" />
     <text value="A new tenant registered to the application. Tenancy name: {tenancyName}." name="NewTenantRegisteredNotificationMessage" />
@@ -1742,7 +1787,7 @@
     <text value="No data" name="NoData" />
     <text value="No data on the page" name="NoDataOnThePage" />
     <text value="No related information found" name="NoInformationWasFound" />
-    <text value="You are currently not connected to internet" name="NoInternetConnection" />
+    <text value="You are not currently connected to the Internet" name="NoInternetConnection" />
     <text value="No intranet classification information" name="NoIntranetClassificationInformation" />
     <text value="Not invoiced" name="NoInvoiced" />
     <text value="No legal aid" name="NoLegalAid" />
@@ -1781,9 +1826,10 @@
     <text value="Normal charge:" name="NormalChargeWithColon" />
     <text value="No search conflicts" name="NoSearchConflicts" />
     <text value="No search data yet!" name="NoSearchData" />
-    <text value="No subtask added" name="NoSubtaskAdded" />
+    <text value="No Added Subtasks " name="NoSubtaskAdded" />
     <text value="Not an accepted file type" name="NotAcceptedFileType" />
     <text value="inactivated" name="NotActivated" />
+    <text value="The system has detected that you have not activated the {0} service. Your access may be limited in data!" name="NotActivatedServiceAccessLimitedTips" />
     <text value="Notarial fees" name="NotarialFee" />
     <text value="Not assigned" name="NotAssigned" />
     <text value="Not collected" name="NotCollected" />
@@ -1799,7 +1845,7 @@
     <text value="You are not in the task member list." name="NotInListOfTaskMembers" />
     <text value="Not important, not urgent" name="NotInstancy" />
     <text value="Sorry, you are not in the participant list of the task. You do not have permission to delete the task!" name="NotInTaskParticipants" />
-    <text value="Not Our Project" name="NotOurProject" />
+    <text value="Not Firm Project" name="NotOurProject" />
     <text value="You will no longer be involved in this task after deleting" name="NotParticipateInTaskAfterDeletion" />
     <text value="Not selected" name="NotSelected" />
     <text value="Not set" name="NotSet" />
@@ -1813,16 +1859,16 @@
     <text value="The current version of the number of accounts has reached the upper limit." name="NumberOfAccountsHasReachedTheUpperLimit" />
     <text value="Bills" name="NumberOfBills" />
     <text value="Number of comments" name="NumberOfComments" />
-    <text value="Number of completed tasks" name="Numberofcompletedtasks" />
+    <text value="Completed Tasks Quantity" name="Numberofcompletedtasks" />
     <text value="Number of invoices" name="NumberOfInvoices" />
-    <text value="Number of lawyers' tasks" name="Numberoflawyerstasks" />
+    <text value="Compare Lawyer Tasks Quantity" name="Numberoflawyerstasks" />
     <text value="Number of lawyers in the same year" name="NumberofLawyersYearonYear" />
     <text value="Number of statistics by organization" name="NumberofLogByorganization" />
     <text value="Number of logs" name="NumberOfLogs" />
-    <text value="Conference booking number" name="NumberOfMeetings" />
-    <text value="Number of new tasks and number of completed tasks" name="Numberofnewandcompletedtasks" />
-    <text value="Number of new tasks" name="Numberofnewtasks" />
-    <text value="Number of remaining tasks" name="Numberofremainingtasks" />
+    <text value="Scheduled Meetings Quantity" name="NumberOfMeetings" />
+    <text value="New and Completed  Tasks Quantity" name="Numberofnewandcompletedtasks" />
+    <text value="New Tasks Quantity" name="Numberofnewtasks" />
+    <text value="Remaining Tasks Quantity" name="Numberofremainingtasks" />
     <text value="Number of users by organization" name="NumberofusersbyOrganization" />
     <text value="Visitors" name="NumberOfVisitors" />
     <text value="Object" name="Object" />
@@ -1842,7 +1888,7 @@
     <text value="On" name="On" />
     <text value="Onboarding" name="Onboarding" />
     <text value="One Key" name="OneKey" />
-    <text value="Ongoing project" name="OngoingProjects" />
+    <text value="Processing project" name="OngoingProjects" />
     <text value="Online" name="Online" />
     <text value="Sorry, you can only rename a single file!" name="OnlyIndividualFilesCanBeRenamed" />
     <text value="Only locked users" name="OnlyLockedUsers" />
@@ -1893,7 +1939,7 @@
     <text value="Others" name="Others" />
     <text value="Other Settings" name="OtherSettings" />
     <text value="You have other {0} unread messages" name="OtherUnreadMessages" />
-    <text value="Our Project" name="OurProject" />
+    <text value="Firm Project" name="OurProject" />
     <text value="Outing time" name="OutingTime" />
     <text value="Not arrived" name="OutOfAccount" />
     <text value="Overdue" name="Overdue" />
@@ -1903,7 +1949,7 @@
     <text value="Document settings" name="Pages.Administration.Tenant.DocumentSettings" />
     <text value="Third party settings" name="Pages.Administration.Tenant.ThirdPartySettings" />
     <text value="Workflow" name="Pages.Administration.Workflow" />
-    <text value="Business Management" name="Pages.Business" />
+    <text value="BM" name="Pages.Business" />
     <text value="Filing management" name="Pages.Business.CaseApplications" />
     <text value="Filing an application" name="Pages.Business.CaseApplications.Apply" />
     <text value="Case approval" name="Pages.Business.CaseApplications.Approve" />
@@ -1932,36 +1978,36 @@
     <text value="Case document management" name="Pages.Business.StampFiles.Manage" />
     <text value="Stamp review" name="Pages.Business.StampFiles.StampFileManage" />
     <text value="Document Template" name="Pages.Business.StampFiles.UploadTemplate" />
-    <text value="Common tool" name="Pages.CommonTools" />
+    <text value="Tools" name="Pages.CommonTools" />
     <text value="Case Law Library" name="Pages.CommonTools.CaseLaw" />
     <text value="China Law &amp; Reference" name="Pages.CommonTools.CaseLaw.WkInfo" />
     <text value="Contacts" name="Pages.CommonTools.Contacts" />
     <text value="Enterprise information inquiry" name="Pages.CommonTools.Corporate" />
-    <text value="French angel contract library" name="Pages.CommonTools.FaTianShi" />
+    <text value="Fatianshi contract library" name="Pages.CommonTools.FaTianShi" />
     <text value="Legal navigation" name="Pages.CommonTools.Navigation" />
     <text value="Full-time web conference" name="Pages.CommonTools.QuanShi" />
-    <text value="customer relations" name="Pages.Customers" />
+    <text value="CRM" name="Pages.Customers" />
     <text value="Customer management" name="Pages.Customers.Manage" />
     <text value="Customer management" name="Pages.Customers.MyCustomers" />
     <text value="Customer Address Book" name="Pages.Customers.MyCustomers.Contacts" />
     <text value="Increase customers" name="Pages.Customers.MyCustomers.Create" />
-    <text value="My client" name="Pages.Customers.MyCustomers.Manage" />
+    <text value="My customers" name="Pages.Customers.MyCustomers.Manage" />
     <text value="Customer visit record" name="Pages.Customers.MyCustomers.Visit" />
-    <text value="Document Center" name="Pages.Documents" />
-    <text value="Document Center" name="Pages.Documents.DocumentCenter" />
-    <text value="Administrative management" name="Pages.Executive" />
+    <text value="DM" name="Pages.Documents" />
+    <text value="DM" name="Pages.Documents.DocumentCenter" />
+    <text value="Administrative" name="Pages.Executive" />
     <text value="Intranet management" name="Pages.Executive.Intranet" />
     <text value="Classification management" name="Pages.Executive.Intranet.Classify" />
     <text value="Intranet information" name="Pages.Executive.Intranet.Info" />
     <text value="Content management" name="Pages.Executive.Intranet.Manage" />
-    <text value="Personnel status management" name="Pages.Executive.Schedule" />
+    <text value="Personnel state management" name="Pages.Executive.Schedule" />
     <text value="Outgoing state" name="Pages.Executive.Schedule.Status" />
     <text value="Administrative Chapter Management" name="Pages.Executive.Stamp" />
     <text value="Administrative seal application" name="Pages.Executive.Stamp.Apply" />
     <text value="My administrative stamp" name="Pages.Executive.Stamp.ApplyList" />
     <text value="Audit of administrative chapter" name="Pages.Executive.Stamp.Approve" />
     <text value="Administrative Chapter Management" name="Pages.Executive.Stamp.Manage" />
-    <text value="Financial Management" name="Pages.Financial" />
+    <text value="Financial" name="Pages.Financial" />
     <text value="Billing Management" name="Pages.Financial.Billings" />
     <text value="Bill review" name="Pages.Financial.Billings.AuditBillings" />
     <text value="Bill entry" name="Pages.Financial.Billings.Create" />
@@ -1994,7 +2040,7 @@
     <text value="To claim payment" name="Pages.Financial.Receipts.UnClaimedReceipts" />
     <text value="Financial Statistics" name="Pages.Financial.Statistics" />
     <text value="Personal statistics" name="Pages.Financial.Statistics.PersonalStatistics" />
-    <text value="Human Resources" name="Pages.HumanResource" />
+    <text value="HR" name="Pages.HumanResource" />
     <text value="Attendance management" name="Pages.HumanResource.Attendance" />
     <text value="Annual leave setting" name="Pages.HumanResource.Attendance.AnnualLeave" />
     <text value="Leave application" name="Pages.HumanResource.Attendance.Apply" />
@@ -2007,43 +2053,45 @@
     <text value="Onboarding management" name="Pages.HumanResource.Users" />
     <text value="Labor Relations Management" name="Pages.HumanResource.Users.LaborRelations" />
     <text value="Personnel management" name="Pages.HumanResource.Users.Manage" />
-    <text value="Work schedule" name="Pages.Works" />
+    <text value="Schedule" name="Pages.Works" />
     <text value="Work log" name="Pages.Works.Log" />
-    <text value="Work log entry" name="Pages.Works.Log.Create" />
+    <text value="Log entry" name="Pages.Works.Log.Create" />
     <text value="Log management" name="Pages.Works.Log.Manage" />
     <text value="My log" name="Pages.Works.Log.MyWorklog" />
     <text value="Log statistics" name="Pages.Works.Log.Statistics" />
     <text value="Log approval" name="Pages.Works.LogApproval" />
-    <text value="Conference booking" name="Pages.Works.Meeting" />
-    <text value="Conference room management" name="Pages.Works.Meeting.ManageMeetingRoom" />
-    <text value="My meeting" name="Pages.Works.Meeting.MyMeeting" />
-    <text value="Work schedule" name="Pages.Works.Schedule" />
+    <text value="Meeting Reservation" name="Pages.Works.Meeting" />
+    <text value="Meeting Room Management" name="Pages.Works.Meeting.ManageMeetingRoom" />
+    <text value="My Meeting" name="Pages.Works.Meeting.MyMeeting" />
+    <text value="Schedule" name="Pages.Works.Schedule" />
     <text value="Opening information" name="Pages.Works.Schedule.CourtInformations" />
     <text value="My schedule" name="Pages.Works.Schedule.MySchedule" />
     <text value="Schedule center" name="Pages.Works.Schedule.ScheduleCenter" />
     <text value="Schedule Center" name="Pages.Works.ScheduleCenter" />
-    <text value="Task process" name="Pages.Works.Task" />
-    <text value="Task workbench" name="Pages.Works.Task.Dashboard" />
-    <text value="Task item" name="Pages.Works.Task.Project" />
-    <text value="Task statistics" name="Pages.Works.Task.Statistics" />
-    <text value="Task template" name="Pages.Works.Task.Templates" />
+    <text value="Project Process" name="Pages.Works.Task" />
+    <text value="Tasks" name="Pages.Works.Task.Dashboard" />
+    <text value="Project" name="Pages.Works.Task.Project" />
+    <text value="Project Statistics" name="Pages.Works.Task.Statistics" />
+    <text value="Project Template" name="Pages.Works.Task.Templates" />
     <text value="Page display data number" name="PageSize" />
     <text value="The default display is 10, the range of displayable items can be set: 5-100" name="PageSizeTips" />
     <text value="Paid" name="Paid" />
     <text value="The expenses for handling cases under the case are:" name="PaidPartyTitle" />
     <text value="Parameters" name="Parameters" />
     <text value="Parent schedule number" name="ParentScheduleNumber" />
-    <text value="Parent task number" name="ParentTaskNumber" />
+    <text value="Parent Task number" name="ParentTaskNumber" />
     <text value="Some logs were successfully approved. Please retry the logs that were not successfully approved." name="PartialLogApprovalIsSuccessfulRemind" />
     <text value="participant" name="Participants" />
     <text value="Participants are visible" name="ParticipantsVisible" />
     <text value="Confirm participation" name="ParticipateConfirm" />
+    <text value="Participate in negotiations" name="ParticipateInNegotiations" />
     <text value="Participation role" name="ParticipateInRole" />
     <text value="Confirm participation in the schedule" name="ParticipateInSchedule" />
-    <text value="Participate in tasks" name="ParticipateInTasks" />
-    <text value="Participate in the project" name="ParticipateProject" />
+    <text value="Participate " name="ParticipateInTasks" />
+    <text value="Participated Project" name="ParticipateProject" />
     <text value="Participating Lawyer" name="ParticipatingLawyer" />
     <text value="Participation log to be converted" name="ParticipatingLogsToBeTransformed" />
+    <text value="Participated Task" name="ParticipatingTask" />
     <text value="Participation in social groups and part-time work" name="ParticipationInSocialGroupsAndPart" />
     <text value="Participation link" name="ParticipationLink" />
     <text value="partner" name="Partner" />
@@ -2057,15 +2105,15 @@
     <text value="Password must be a maximum of {0} characters" name="PasswordComplexity_MaxLength_Hint" />
     <text value="Password must be at least {0} characters" name="PasswordComplexity_MinLength_Hint" />
     <text value="Use numbers in passwords" name="PasswordComplexity_RequireDigit" />
-    <text value="Passwords must have at least one digit ('0'-'9')." name="PasswordComplexity_RequireDigit_Hint" />
+    <text value="The password must have at least one number ('0'-'9')." name="PasswordComplexity_RequireDigit_Hint" />
     <text value="Minimum password length" name="PasswordComplexity_RequiredLength" />
-    <text value="Passwords must be at least {0} characters." name="PasswordComplexity_RequiredLength_Hint" />
-    <text value="Require lowercase" name="PasswordComplexity_RequireLowercase" />
-    <text value="Passwords must have at least one lowercase ('a'-'z')." name="PasswordComplexity_RequireLowercase_Hint" />
+    <text value="The password must be at least {0} characters." name="PasswordComplexity_RequiredLength_Hint" />
+    <text value="Use lowercase letters in passwords" name="PasswordComplexity_RequireLowercase" />
+    <text value="The password must have at least one lowercase letter ('a'-'z')." name="PasswordComplexity_RequireLowercase_Hint" />
     <text value="Use special characters in passwords" name="PasswordComplexity_RequireNonAlphanumeric" />
-    <text value="Passwords must have at least one non-alphanumeric character." name="PasswordComplexity_RequireNonAlphanumeric_Hint" />
+    <text value="The password contains at least one special character." name="PasswordComplexity_RequireNonAlphanumeric_Hint" />
     <text value="Use uppercase letters in your password" name="PasswordComplexity_RequireUppercase" />
-    <text value="Passwords must have at least one uppercase ('A'-'Z')." name="PasswordComplexity_RequireUppercase_Hint" />
+    <text value="The password must have at least one uppercase letter ('A'-'Z')." name="PasswordComplexity_RequireUppercase_Hint" />
     <text value="Password must contain at least 1 lowercase letter" name="PasswordComplexity_UseLowerCaseLetters_Hint" />
     <text value="Password must contain at least 1 digit" name="PasswordComplexity_UseNumbers_Hint" />
     <text value="Password must contain at least one special character" name="PasswordComplexity_UsePunctuations_Hint" />
@@ -2095,13 +2143,13 @@
     <text value="Payment id" name="PaymentId" />
     <text value="Payment info" name="PaymentInfo" />
     <text value="payment method" name="PaymentMethods" />
-    <text value="Your operation might be timed out, please contact us if you already made the payment." name="PaymentMightBeExpiredWarning" />
+    <text value="Your operation may time out, if you have already paid, please contact us." name="PaymentMightBeExpiredWarning" />
     <text value="payment method" name="PaymentMode" />
-    <text value="Payment period type" name="PaymentPeriodType" />
+    <text value="Payment term type" name="PaymentPeriodType" />
     <text value="Per year" name="PaymentPeriodType_Annual" />
-    <text value="Monthly" name="PaymentPeriodType_Monthly" />
+    <text value="per month" name="PaymentPeriodType_Monthly" />
     <text value="Penalty content" name="Penaltycontent" />
-    <text value="Penalty item" name="PenaltyItem" />
+    <text value="Penalties" name="PenaltyItem" />
     <text value="Pending claim" name="PendingClaim" />
     <text value="Pending financial review" name="PendingFinancialReview" />
     <text value="To be reviewed by partners" name="PendingPartnerReview" />
@@ -2112,7 +2160,7 @@
     <text value="Applicant" name="PepoleWhoUse" />
     <text value="percentage" name="Percentage" />
     <text value="Performance" name="Performance" />
-    <text value="Period" name="Period" />
+    <text value="date" name="Period" />
     <text value="Permission" name="Permission" />
     <text value="This permission is inherited from the user organization" name="PermissionInheritedFromOrganizationUnit" />
     <text value="Permissions" name="Permissions" />
@@ -2123,7 +2171,7 @@
     <text value="ID card" name="PersonalId" />
     <text value="Personal Income Tax" name="PersonalIncomeTax" />
     <text value="Personnel information" name="PersonalInfo" />
-    <text value="Personal information" name="PersonalInformations" />
+    <text value="Personal Information" name="PersonalInformations" />
     <text value="Personal instant messaging" name="PersonalInstantMessaging" />
     <text value="Personal phone" name="PersonalPhone" />
     <text value="resume" name="PersonalResume" />
@@ -2135,7 +2183,7 @@
     <text value="HR management" name="PersonnelManagement" />
     <text value="Personnel do not exist!" name="PersonnelNotExist" />
     <text value="Personal phone 2" name="PersonPhone2" />
-    <text value="personal project" name="PersonProject" />
+    <text value="Personal Project" name="PersonProject" />
     <text value="Person Type" name="PersonType" />
     <text value="Homepage" name="PersonWebSite" />
     <text value="Per year" name="PerYear" />
@@ -2152,7 +2200,7 @@
     <text value="Lawyer relationship depository" name="PlaceOfLawyerRelations" />
     <text value="Personnel file storage place" name="PlaceOfPersonnelFiles" />
     <text value="plaintiff" name="Plaintiff" />
-    <text value="" name="Platform.MultiTenancy.Tenant" />
+    <text value="Tenant" name="Platform.MultiTenancy.Tenant" />
     <text value="Playback recordings online" name="PlaybackRecordingsOnline" />
     <text value="Please adjust the search conditions" name="PleaseAdjustTheSearchCriteria" />
     <text value="Please select a staff member!" name="PleaseChooseAEmployee" />
@@ -2202,7 +2250,7 @@
     <text value="Please upload attachments!" name="PleaseUploadTheAttachments" />
     <text value="Please upload template file!" name="PleaseUploadTheTemplateFile" />
     <text value="Please use the tags #$ and $# to include what needs to be replaced." name="PleaseUseLabelReplaceTheContent" />
-    <text value="Please wait while confirming your email address..." name="PleaseWaitToConfirmYourEmailMessage" />
+    <text value="Confirming your email address, please wait ..." name="PleaseWaitToConfirmYourEmailMessage" />
     <text value="Pledgee" name="Pledgee" />
     <text value="Pledgor" name="Pledgor" />
     <text value="Case Law Library" name="PluginGroup.CaseLaw" />
@@ -2259,7 +2307,7 @@
     <text value="Preview the {0} template" name="PreviewTemplate" />
     <text value="Previous" name="Previous" />
     <text value="Previous page" name="PreviousPage" />
-    <text value="Past project experience" name="PreviousProjectExperience" />
+    <text value="Previous Project Experience" name="PreviousProjectExperience" />
     <text value="Price" name="Price" />
     <text value="Pricing" name="Pricing" />
     <text value="Theme skin" name="Primary" />
@@ -2284,29 +2332,31 @@
     <text value="You can only select JPG/JPEG file. Please select another file." name="ProfilePicture_Warn_FileType" />
     <text value="Picture size must be smaller than {0}MB. Please select another file." name="ProfilePicture_Warn_SizeLimit" />
     <text value="It is not allowed to delete the root organization." name="ProhibitDeleteRootOrganizationUnit" />
-    <text value="Project burnout chart" name="ProjectBurnoutChart" />
-    <text value="Item category" name="ProjectCategory" />
+    <text value="Project" name="Project" />
+    <text value="Project Burnout Chart" name="ProjectBurnoutChart" />
+    <text value="Project Category" name="ProjectCategory" />
     <text value="Project Description" name="ProjectContent" />
-    <text value="Project cover" name="ProjectCover" />
-    <text value="Project Data Link" name="ProjectDataLink" />
-    <text value="project description" name="ProjectDescription" />
-    <text value="Project documentation" name="ProjectDocuments" />
+    <text value="Project Cover" name="ProjectCover" />
+    <text value="Project Reference" name="ProjectDataLink" />
+    <text value="Project Description" name="ProjectDescription" />
+    <text value="Project Documents" name="ProjectDocuments" />
     <text value="Project Experience" name="ProjectExperience" />
-    <text value="Project information" name="ProjectInformation" />
-    <text value="Project link" name="ProjectLink" />
-    <text value="project member" name="ProjectMembers" />
-    <text value="project name" name="ProjectName" />
-    <text value="Item Number" name="ProjectNumber" />
-    <text value="Project privacy" name="ProjectPrivacy" />
-    <text value="Project process phase" name="ProjectProcessPhase" />
-    <text value="project source" name="ProjectSource" />
-    <text value="project status" name="ProjectStatus" />
+    <text value="Project Information" name="ProjectInformation" />
+    <text value="Project Link" name="ProjectLink" />
+    <text value="Project Member" name="ProjectMembers" />
+    <text value="Project Name" name="ProjectName" />
+    <text value="Project Number" name="ProjectNumber" />
+    <text value="Project Privacy" name="ProjectPrivacy" />
+    <text value="Project Stage " name="ProjectProcessPhase" />
+    <text value="Project Resource" name="ProjectSource" />
+    <text value="Project Status" name="ProjectStatus" />
+    <text value="Project Template" name="ProjectTemplate" />
     <text value="Project Time" name="ProjectTime" />
     <text value="Property" name="Property" />
     <text value="Property segmentation" name="PropertySegmentation" />
     <text value="be divided in portion" name="ProportionateDistribution" />
     <text value="Provident fund loans" name="ProvidentFundLoans" />
-    <text value="Open project" name="PublicProject" />
+    <text value="Public Project" name="PublicProject" />
     <text value="Published" name="Published" />
     <text value="Punctual record log" name="PunctualLog" />
     <text value="Punishment agency" name="PunishmentMechanism" />
@@ -2323,6 +2373,8 @@
     <text value="Season" name="Quarterly" />
     <text value="Query by word segmentation result" name="QueryByParticiples" />
     <text value="Quick Agenda" name="QuickAgendaView" />
+    <text value="Quick appointment" name="QuickAppointment" />
+    <text value="Quick Navigation" name="QuickNavigation" />
     <text value="Quick theme selection" name="QuickThemeSelection" />
     <text value="Quit Landing" name="QuitLanding" />
     <text value="Quota standard" name="Quotastandard" />
@@ -2341,6 +2393,7 @@
     <text value="Billing message" name="ReceiptInformation" />
     <text value="Receipt information table" name="ReceiptInformationTable" />
     <text value="Receipt of invoice" name="ReceiptOfInvoice" />
+    <text value="Receipt review" name="ReceiptReview" />
     <text value="Receipts" name="Receipts" />
     <text value="Receipt status has changed." name="ReceiptStateHasBeenChanged" />
     <text value="There is a cash receipt for {0} {1}." name="ReceiptWaitForClaimed" />
@@ -2359,7 +2412,7 @@
     <text value="Recording time" name="RecordingTime" />
     <text value="Operation record" name="Records" />
     <text value="Total {0} records" name="RecordsCount" />
-    <text value="The price difference between your current edition and the one you are upgrading will be charged from your account." name="RecurringSubscriptionUpgradeNote" />
+    <text value="The price difference between the current version and the version to be upgraded will be charged to your account." name="RecurringSubscriptionUpgradeNote" />
     <text value="Recycle bin" name="RecycleBin" />
     <text value="red" name="Red" />
     <text value="Redo" name="Redo" />
@@ -2385,7 +2438,7 @@
     <text value="Closing the case" name="RejectedTheClosingCase" />
     <text value="Refused to participate" name="RejectedToParticipate" />
     <text value="{0} declined to participate in your assigned schedule [{1}]" name="RejectedToParticipateInYourAssignedAgenda" />
-    <text value="Reject task" name="RejectedToTask" />
+    <text value="Reject" name="RejectedToTask" />
     <text value="Sorry, when you refuse to participate in the task, the reason for rejection cannot be null!" name="RejectParticipateCannotBeEmpty" />
     <text value="{0} rejected participation in your assigned task [{1}]." name="RejectsAssignmentTask" />
     <text value="Related Cases" name="RelatedCases" />
@@ -2393,8 +2446,8 @@
     <text value="Related information" name="RelatedInfo" />
     <text value="Relationship with it" name="RelatedPartiesRelationship" />
     <text value="%s related cases" name="RelatedProjectCnt" />
-    <text value="Related project information" name="RelatedProjects" />
-    <text value="Associated project" name="RelatedProjectsTitle" />
+    <text value="Related Project information" name="RelatedProjects" />
+    <text value="Associated Project" name="RelatedProjectsTitle" />
     <text value="Related" name="Relation" />
     <text value="Associated case name:" name="RelationCasesTitle" />
     <text value="Associate customer name:" name="RelationClientName" />
@@ -2436,7 +2489,7 @@
     <text value="Agency results" name="RepresentativeResults" />
     <text value="Requested file does not exist!" name="RequestedFileDoesNotExists" />
     <text value="Leave application" name="RequestForLeave" />
-    <text value="Your request timed out, please try again later." name="RequestTimedOut" />
+    <text value="Your request timed out. Please try again later." name="RequestTimedOut" />
     <text value="Required" name="Required" />
     <text value="{0} field is required." name="RequiredField" />
     <text value="Requires password change" name="RequiresPasswordChange" />
@@ -2537,7 +2590,7 @@
     <text value="Saving..." name="SavingWithThreeDot" />
     <text value="Scan code download and install native app" name="ScanDownloadNativeApp" />
     <text value="Scan QR code to add contact information to phone address book" name="ScanQrCodeToAddContact" />
-    <text value="Scan this QR code with your mobile app" name="ScanQrCodeWithYourMobileApp" />
+    <text value="Scan this QR code with your application" name="ScanQrCodeWithYourMobileApp" />
     <text value="Open WeChat scan code using the applet" name="ScanUseWeChatMina" />
     <text value="WeChat scan code or search" name="ScanUseWechatOfficialAccounts" />
     <text value="schedule" name="Schedule" />
@@ -2570,6 +2623,7 @@
     <text value="Stamper" name="Sealer" />
     <text value="The seal cannot be empty!" name="SealerCanTBeEmpty" />
     <text value="The number of stamps is at least 1" name="SealNumberMustPositiveInteger" />
+    <text value="Seal selection" name="SealSelection" />
     <text value="Seal status" name="SealState" />
     <text value="Seal type" name="SealType" />
     <text value="Seal way" name="Sealway" />
@@ -2592,7 +2646,7 @@
     <text value="Select a category to view details" name="SelectACategoryToViewTheDetails" />
     <text value="Please select a directory" name="SelectADirectory" />
     <text value="select all" name="SelectAll" />
-    <text value="Select an item" name="SelectAnItem" />
+    <text value="Select A Project" name="SelectAnItem" />
     <text value="Select organizational unit to view members." name="SelectAnOrganizationalUnitToViewMembers" />
     <text value="Select an organization unit to see members." name="SelectAnOrganizationUnitToSeeMembers" />
     <text value="Select an organization unit to see roles." name="SelectAnOrganizationUnitToSeeRoles" />
@@ -2757,12 +2811,12 @@
     <text value="State categories" name="StateCategories" />
     <text value="Case status" name="StateOfCase" />
     <text value="Invoicing status" name="StateOfInvoice" />
-    <text value="Task status" name="StateOfTask" />
+    <text value="Task Status" name="StateOfTask" />
     <text value="Static" name="Static" />
     <text value="Static roles can not be deleted." name="StaticRole_Tooltip" />
     <text value="Attendance statistical analysis" name="StatisticalAnalysisofAttendances" />
     <text value="Statistical analysis of cases" name="StatisticalAnalysisofCases" />
-    <text value="Task statistical analysis" name="StatisticalAnalysisofTasks" />
+    <text value="Task Statistical Analysis" name="StatisticalAnalysisofTasks" />
     <text value="Statistical interval" name="StatisticalInterval" />
     <text value="Statistical methods" name="StatisticalMethods" />
     <text value="Statistical summary" name="StatisticalSummary" />
@@ -2786,17 +2840,17 @@
     <text value="Affiliation Office" name="SubordinationOffice" />
     <text value="Belonging area" name="SubRegion" />
     <text value="Subscription" name="Subscription" />
-    <text value="Your AbpZeroTemplate subscription is expired at {1}. Your current edition assigned to {0}." name="SubscriptionAssignedToAnother_Email_Body" />
+    <text value="Your platform subscription has expired on {1}. " name="SubscriptionAssignedToAnother_Email_Body" />
     <text value="Subscription end date" name="SubscriptionEndDate" />
     <text value="Subscription end date (Utc)" name="SubscriptionEndDateUtc" />
-    <text value="Your AbpZeroTemplate subscription is expired at {0}." name="SubscriptionExpire_Email_Body" />
-    <text value="Your AbpZeroTemplate subscription is expired" name="SubscriptionExpire_Email_Subject" />
-    <text value="This email is sent you to notify about your subscription expiration" name="SubscriptionExpire_SubTitle" />
+    <text value="Your platform subscription has expired on {0}." name="SubscriptionExpire_Email_Body" />
+    <text value="Your platform subscription has expired" name="SubscriptionExpire_Email_Subject" />
+    <text value="This email will notify you about your subscription expiration" name="SubscriptionExpire_SubTitle" />
     <text value="AbpZeroTemplate subscription expire" name="SubscriptionExpire_Title" />
-    <text value="Your subscription will expire in {0} day(s)." name="SubscriptionExpireNotification" />
-    <text value="Your AbpZeroTemplate subscription will expire at {0}." name="SubscriptionExpiringSoon_Email_Body" />
-    <text value="Your AbpZeroTemplate subscription expiration notice" name="SubscriptionExpiringSoon_Email_Subject" />
-    <text value="This email is sent you to notify about your subscription expiration." name="SubscriptionExpiringSoon_SubTitle" />
+    <text value="Your subscription will expire in {0} days." name="SubscriptionExpireNotification" />
+    <text value="Your platform subscription will expire on {0}." name="SubscriptionExpiringSoon_Email_Body" />
+    <text value="Your platform subscription expiration notice" name="SubscriptionExpiringSoon_Email_Subject" />
+    <text value="This email will notify you about your subscription expiration." name="SubscriptionExpiringSoon_SubTitle" />
     <text value="AbpZeroTemplate subscription expiration notice" name="SubscriptionExpiringSoon_Title" />
     <text value="Subscription expiring tenants" name="SubscriptionExpiringTenants" />
     <text value="Subscription information" name="SubscriptionInformation" />
@@ -2810,7 +2864,7 @@
     <text value="Subscription price" name="SubscriptionPrice" />
     <text value="Subscriptions" name="Subscriptions" />
     <text value="Subscription start date" name="SubscriptionStartDate" />
-    <text value="Subtasks" name="Subtasks" />
+    <text value="Subtask" name="Subtasks" />
     <text value="Subtotal amount" name="Subtotal" />
     <text value="CC unit" name="SubUnit" />
     <text value="Success" name="Success" />
@@ -2864,45 +2918,46 @@
     <text value="Target language" name="TargetLanguage" />
     <text value="Target user could not be found. It's probably deleted." name="TargetUserNotFoundProbablyDeleted" />
     <text value="Target value" name="TargetValue" />
-    <text value="task" name="Task" />
+    <text value="Task" name="Task" />
     <text value="Task has been deleted" name="TaskAlreadyDeleted" />
-    <text value="Task assigner" name="TaskAssigner" />
+    <text value="Assigner" name="TaskAssigner" />
     <text value="Task board" name="Taskboard" />
-    <text value="Task check item" name="TaskCheckItem" />
-    <text value="Task completion" name="TaskCompletion" />
+    <text value="Tasks Check List" name="TaskCheckItem" />
+    <text value="Task Completed" name="TaskCompletion" />
     <text value="{0} tasks" name="TaskCount" />
-    <text value="Create task" name="TaskCreate" />
-    <text value="Task project creation" name="TaskCreation" />
-    <text value="Task cycle" name="TaskCycle" />
-    <text value="Task details edit" name="TaskDetailEditor" />
-    <text value="Task details modify" name="TaskDetailModification" />
-    <text value="Task details" name="TaskDetails" />
-    <text value="Task discussion message" name="TaskDiscussionMessage" />
-    <text value="Task duration" name="TaskDuration" />
-    <text value="task list" name="TaskList" />
+    <text value="Create A Task" name="TaskCreate" />
+    <text value="Create A New Project" name="TaskCreation" />
+    <text value="Period Task" name="TaskCycle" />
+    <text value="Edit Task" name="TaskDetailEditor" />
+    <text value="Modify Task" name="TaskDetailModification" />
+    <text value="Task Details" name="TaskDetails" />
+    <text value="Comment" name="TaskDiscussionMessage" />
+    <text value="Task Duration" name="TaskDuration" />
+    <text value="Task List" name="TaskList" />
     <text value="The task leader field is required" name="TaskManagerRequired" />
-    <text value="Project member list" name="TaskMembers" />
-    <text value="Project member chart" name="TaskMembersChart" />
-    <text value="Task member statistics" name="TaskMemberstatistics" />
-    <text value="Task project modification" name="TaskModification" />
-    <text value="Task Item Number" name="TaskNumber" />
-    <text value="Task overview" name="TaskOverview" />
-    <text value="Task participant" name="TaskParticipant" />
+    <text value="Project Member List" name="TaskMembers" />
+    <text value="Project Member Chart" name="TaskMembersChart" />
+    <text value="Task Member Statistics" name="TaskMemberstatistics" />
+    <text value="Project Modification" name="TaskModification" />
+    <text value="Project Number" name="TaskNumber" />
+    <text value="Task Overview" name="TaskOverview" />
+    <text value="Task Participant" name="TaskParticipant" />
     <text value="Task participants cannot be empty." name="TaskParticipantCannotBeEmpty" />
     <text value="Task participant field is required" name="TaskParticipantRequired" />
     <text value="You have a task information [{0}] to be confirmed." name="TaskPendingConfirmation" />
-    <text value="Task personnel completion statistics" name="Taskpersonnelcompletionstatistics" />
-    <text value="Task Planner" name="TaskPlannerView" />
-    <text value="Task priority statistics" name="Taskpriority" />
-    <text value="Project member task statistics" name="TaskProjectstatistics" />
-    <text value="Task phase" name="TaskStage" />
-    <text value="Task phase creation" name="TaskStageCreation" />
-    <text value="Task phase modification" name="TaskStageModification" />
-    <text value="Task phase number" name="TaskStageNumber" />
-    <text value="Task phase fields are required" name="TaskStageRequired" />
-    <text value="Task template" name="TaskTemplate" />
-    <text value="Task time" name="TaskTime" />
-    <text value="Task type" name="TaskType" />
+    <text value="Personnel Task Completed statistics" name="Taskpersonnelcompletionstatistics" />
+    <text value="Brief " name="TaskPlannerView" />
+    <text value="Task Priority Statistics" name="Taskpriority" />
+    <text value="Project Member Statistics" name="TaskProjectstatistics" />
+    <text value="Task " name="TaskStage" />
+    <text value="New Task" name="TaskStageCreation" />
+    <text value="Modify Task" name="TaskStageModification" />
+    <text value="Stage Number" name="TaskStageNumber" />
+    <text value="Task field is required" name="TaskStageRequired" />
+    <text value="Project Template" name="TaskTemplate" />
+    <text value="Time" name="TaskTime" />
+    <text value="Category " name="TaskType" />
+    <text value="Task Workbench" name="TaskWorkbench" />
     <text value="Tax/VatNo" name="Tax/VatNo" />
     <text value="Tax ID" name="TaxIdentificationNumber" />
     <text value="tax rate" name="TaxRate" />
@@ -2923,7 +2978,7 @@
     <text value="Template language" name="TemplateLanguage" />
     <text value="Template name" name="TemplateName" />
     <text value="Template stage" name="TemplateStage" />
-    <text value="Template task" name="TemplateTask" />
+    <text value="Template " name="TemplateTask" />
     <text value="Template type" name="TemplateType" />
     <text value="Template upload help information" name="TemplateUploadHelpInformation" />
     <text value="Template upload information" name="TemplateUploadingInformation" />
@@ -2960,6 +3015,7 @@
     <text value="Chat with other tenants is not enabled for tenant." name="TenantToTenantChatFeatureIsNotEnabledForReceiver" />
     <text value="Chat with other tenants is not enabled for you." name="TenantToTenantChatFeatureIsNotEnabledForSender" />
     <text value="termination" name="Termination" />
+    <text value="test" name="test" />
     <text value="Test check feature" name="TestCheckFeature" />
     <text value="Test check feature 2" name="TestCheckFeature2" />
     <text value="This is a test email." name="TestEmail_Body" />
@@ -2989,7 +3045,7 @@
     <text value="Within the proportion of the yuan within the division, the excess part is no longer divided." name="TheExcessIsNoLongerSplit" />
     <text value="The expenses for handling the case" name="TheExpensesOfHandling" />
     <text value="The expenses for casework under the case are" name="TheExpensesOfHandlingTheCase" />
-    <text value="The project experience" name="TheExperienceOfTheProject" />
+    <text value="Project Experience" name="TheExperienceOfTheProject" />
     <text value="highest education" name="TheHighestDegreeOfEducation" />
     <text value="The key value already exists. Please change it before submitting!" name="TheKeyOfEntityAlreadyExists" />
     <text value="up to date" name="TheLatest" />
@@ -3032,12 +3088,12 @@
     <text value="Third party account" name="ThirdPartyAccount" />
     <text value="Third Party Landing" name="ThirdPartyLanding" />
     <text value="Sync account settings" name="ThirdPartySyncSettings" />
-    <text value="This edition is used as an expiring edition for another edition(s). If you want to make this edition paid, you should first remove it from other edition's." name="ThisEditionIsUsedAsAnExpiringEdition" />
+    <text value="This version is used as the expiration version for other edition subscriptions. " name="ThisEditionIsUsedAsAnExpiringEdition" />
     <text value="This field is required." name="ThisFieldIsRequired" />
     <text value="This invoice is not yours!" name="ThisInvoiceIsNotYours" />
     <text value="This language already exists!" name="ThisLanguageAlreadyExists" />
     <text value="This month" name="ThisMonth" />
-    <text value="This notification doesn't belong to you." name="ThisNotificationDoesntBelongToYou" />
+    <text value="This notification does not belong to you." name="ThisNotificationDoesntBelongToYou" />
     <text value="Web site root address" name="ThisWebSiteRootAddress" />
     <text value="It will be used when building links to this web site. It's needed for some tasks like building password reset links. Ex: http://mydomain.com/" name="ThisWebSiteRootAddress_Hint" />
     <text value="This week" name="ThisWeek" />
@@ -3096,10 +3152,11 @@
     <text value="Traffic compensation" name="TrafficCompensation" />
     <text value="Transfer" name="TransferAccounts" />
     <text value="Has been turned positive" name="Transfered" />
+    <text value="translate a file" name="translateAFile" />
     <text value="Trial" name="Trial" />
     <text value="Trial days" name="TrialDayCount" />
-    <text value="Your trial period will expire in {0} day(s)." name="TrialExpireNotification" />
-    <text value="You are in Trial period for {0} edition, {1} to purchase." name="TrialSubscriptionNotification" />
+    <text value="Your trial period will expire in {0} days." name="TrialExpireNotification" />
+    <text value="You are in {0} trial period, {1} purchase." name="TrialSubscriptionNotification" />
     <text value="Try it" name="TryIt" />
     <text value="Enable two-step authentication login" name="TwoFactorEnabled" />
     <text value="Two Factor Login" name="TwoFactorLogin" />
@@ -3122,7 +3179,7 @@
     <text value="Fixed header" name="UiCustomization_DesktopFixedHeader" />
     <text value="Disabled" name="UiCustomization_Disabled" />
     <text value="Display header menu" name="UiCustomization_DisplayHeaderMenu" />
-    <text name="UiCustomization_DisplaySubmenuArrowDesktop" />
+    <text value="Show submenu arrows" name="UiCustomization_DisplaySubmenuArrowDesktop" />
     <text value="Dropdown skin" name="UiCustomization_DropdownSkin" />
     <text value="Dropdown submenu skin" name="UiCustomization_DropdownSubmenuSkin" />
     <text value="Fixed" name="UiCustomization_Fixed" />
@@ -3140,9 +3197,9 @@
     <text value="Skin" name="UiCustomization_HeaderSkin" />
     <text value="Hide" name="UiCustomization_Hide" />
     <text value="Inherit" name="UiCustomization_Inherit" />
-    <text value="Layout" name="UiCustomization_Layout" />
-    <text value="Fixed content (Desktop)" name="UiCustomization_LayoutFixedContent" />
-    <text value="Fixed content (Mobile)" name="UiCustomization_LayoutMobileFixedContent" />
+    <text value="layout" name="UiCustomization_Layout" />
+    <text value="Fixed content (desktop)" name="UiCustomization_LayoutFixedContent" />
+    <text value="Fixed content (mobile)" name="UiCustomization_LayoutMobileFixedContent" />
     <text value="Layout type" name="UiCustomization_LayoutType" />
     <text value="Left" name="UiCustomization_Left" />
     <text value="Light" name="UiCustomization_Light" />
@@ -3177,6 +3234,7 @@
     <text value="Unblock" name="UnblockUser" />
     <text value="Unclaimed" name="Unclaimed" />
     <text value="Cancel completion" name="UncompletedState" />
+    <text value="Participated Unconfirmed Task" name="UnconfirmedTask" />
     <text value="Contractor" name="UndertakeLawyer" />
     <text value="unfilled" name="UnFilled" />
     <text value="Unfinished debt amount" name="UnfinishedDebtAmount" />
@@ -3186,6 +3244,7 @@
     <text value="(dollars / hour)" name="UnitDollarsPerHour" />
     <text value="company name" name="UnitName" />
     <text value="unit price" name="UnitPrice" />
+    <text value="Universal" name="Universal" />
     <text value="An unknown error has occurred" name="UnknownError" />
     <text value="Unknown tenant id: {0}" name="UnknownTenantId{0}" />
     <text value="Unlimited" name="Unlimited" />
@@ -3270,6 +3329,7 @@
     <text value="Use SSL" name="UseSsl" />
     <text value="Use system defaults" name="UseSystemDefaults" />
     <text value="Use billing" name="UseTheBill" />
+    <text value="Using electronic seal" name="UsingElectronicSeal" />
     <text value="Use the subject" name="UsingTheStandard" />
     <text value="Value added" name="ValueAdded" />
     <text value="Verification code" name="VerificationCode" />
@@ -3277,12 +3337,12 @@
     <text value="Verify Security Code" name="VerifySecurityCode" />
     <text value="Please enter the verification code sent to you." name="VerifySecurityCode_Information" />
     <text value="You should be logged in first, in order to verify yourself! Probably, your login has been timed out. Please go to the login page and re-try it." name="VerifySecurityCodeNotLoggedInErrorMessage" />
-    <text value="Verify Your Code" name="VerifyYourCode" />
+    <text value="Verify your verification code" name="VerifyYourCode" />
     <text value="video" name="Video" />
     <text value="View" name="View" />
-    <text value="See all tasks" name="ViewAllTasks" />
+    <text value="View " name="ViewAllTasks" />
     <text value="See conflict retrieving content" name="ViewConflictRetrievalContent" />
-    <text value="View phase task details" name="ViewDetailsOfStage" />
+    <text value="View Details" name="ViewDetailsOfStage" />
     <text value="Views" name="Viewed" />
     <text value="see more" name="ViewMore" />
     <text value="See more discussion messages" name="ViewMoreDiscussionMessages" />
@@ -3318,14 +3378,16 @@
     <text value="Warning" name="Warning" />
     <text value="Watch the post-conference report" name="WatchThePostConferenceReport" />
     <text value="Communication method" name="WayToCommunicate" />
-    <text value="Web conference information" name="WebConferenceInformation" />
-    <text value="Web conference recording file" name="WebConferenceRecordingFile" />
+    <text value="Weather forecast" name="WeatherForecast" />
+    <text value="Web Meeting Information" name="WebConferenceInformation" />
+    <text value="Web Meeting Record" name="WebConferenceRecordingFile" />
     <text value="Website Logs" name="WebSiteLogs" />
     <text value="You can see latest logs in this page or download all logs in a single zip file." name="WebSiteLogsHeaderInfo" />
     <text value="We can not find the page you're looking for." name="WeCanNotFindThePage" />
     <text value="WeChat min app" name="WeChatMina" />
     <text value="WeChat official accounts" name="WechatOfficialAccounts" />
     <text value="Weekly" name="Weekly" />
+    <text value="Weekly To Do" name="WeeklyToDo" />
     <text value="week" name="Weeks" />
     <text value="Welcome to the application. You can use the menu to start using the application. If you don't see any menu item, probably you don't have permission to see any page. Consider asking a system administrator for permissions." name="WelcomePage_Info" />
     <text value="Welcome!" name="WelcomePage_Title" />
@@ -3348,13 +3410,14 @@
     <text value="Whether privacy" name="WhetherPrivacy" />
     <text value="Whether foreign-related" name="WhetherRelatedForegin" />
     <text value="Whether word segmentation" name="WhetherSplitWord" />
-    <text value="Whether the task dispatcher" name="WhetherTaskAssigner" />
+    <text value="Task dispatcher ?" name="WhetherTaskAssigner" />
     <text value="Whether to accept" name="WhetherToAccept" />
     <text value="Activate now" name="WhetherToActivate" />
     <text value="Whether to publish column display" name="WhetherToDisplayInTheBulletinBorad" />
     <text value="Whether to pre-register" name="WhetherToFileACase" />
     <text value="Recommended" name="WhetherToRecommend" />
     <text value="Whether to remind" name="WhetherToRemind" />
+    <text value="Whether to allow repeated application of stamps" name="WhetherToRepeatedStamps" />
     <text value="Are you sure to send an audit?" name="WhetherToSendAnAudit" />
     <text value="Is it sent to financial audit" name="WhetherToSendToFinancialAudit" />
     <text value="Are you sure to change the selected schedule status?" name="WillChangesSelectedOnScheduledState" />
@@ -3388,7 +3451,7 @@
     <text value="Workflow" name="Workflow" />
     <text value="Working days" name="WorkingDays" />
     <text value="Working years" name="WorkingLife" />
-    <text value="Task item" name="WorkItem" />
+    <text value="Project" name="WorkItem" />
     <text value="Work log" name="WorkLog" />
     <text value="WorkLogAudit" name="WorkLogAudit" />
     <text value="Log category" name="WorkLogCategory" />
@@ -3405,6 +3468,7 @@
     <text value="office number" name="WorkPhone" />
     <text value="Work Phone 2" name="WorkPhone2" />
     <text value="operating hours" name="WorkTime" />
+    <text value="Write an article" name="WriteAnArticle" />
     <text value="Writing language" name="WritingLanguage" />
     <text value="According to written language statistics" name="WrittenLanguageStatistics" />
     <text value="Wrong verification code!" name="WrongSmsVerificationCode" />
@@ -3415,47 +3479,36 @@
     <text value="Yes" name="Yes" />
     <text value="Yes, delete!" name="YesDelete" />
     <text value="Yesterday" name="Yesterday" />
-    <text value="You" name="You" />
+    <text value="you" name="You" />
     <text value="You already added this user." name="YouAlreadySentAFriendshipRequestToThisUser" />
     <text value="The case you applied for [{0}] was returned for review and cannot be placed on file." name="YouApplicationForCaseIsReturnedCanNotFileCase" />
     <text value="The case you applied for [{0}] was returned for review. Please resubmit it after modifying the application." name="YouApplicationForCaseIsReturnedPleaseReviseAndSubmitItAgain" />
-    <text value="You are already logged in with user" name="YouAreAlreadyLoggedInWithUser" />
+    <text value="You are logged in as a user" name="YouAreAlreadyLoggedInWithUser" />
     <text value="You are not authorized to perform this operation." name="YouAreNotAuthorizedToPerformThisOperation" />
     <text value="You are not linked to any account" name="YouAreNotLinkedToAnyAccount" />
     <text value="You can back to your account here." name="YouCanBackToYourAccount" />
-    <text value="You can manage User's organization units From Organization Units page." name="YouCanManageUsersOrganizationUnitsFromOrganizationUnitsPage" />
+    <text value="You can manage users' organizational units from the Organizational Units page." name="YouCanManageUsersOrganizationUnitsFromOrganizationUnitsPage" />
     <text value="You can not be a friend with yourself." name="YouCannotBeFriendWithYourself" />
     <text value="You can not delete own user account!" name="YouCanNotDeleteOwnAccount" />
     <text value="You can not link to same account!" name="YouCannotLinkToSameAccount" />
-    <text value="You can not remove User/Role permission editing from the admin role" name="YouCannotRemoveUserRolePermissionsFromAdminRole" />
-    <text value="You can not remove User/Role permission editing from the admin user" name="YouCannotRemoveUserRolePermissionsFromAdminUser" />
+    <text value="You cannot remove user / role editing permissions from an administrative role" name="YouCannotRemoveUserRolePermissionsFromAdminRole" />
+    <text value="You cannot remove user / role editing permissions from the administrator" name="YouCannotRemoveUserRolePermissionsFromAdminUser" />
     <text value="You don't have any blocked users. In order to block a friend, select a friend and select block from actions dropdown." name="YouDontHaveAnyBlockedFriend" />
     <text value="You don't have any friends. Write a username to above input box and click &quot;Add Friend&quot; button." name="YouDontHaveAnyFriend" />
-    <text value="Your email address" name="Your email address" />
-    <text value="Your phone number" name="Your phone number" />
-    <text value="Your postal address" name="Your postal address" />
-    <text value="Your user identifier" name="Your user identifier" />
-    <text value="Your user profile information (first name, last name, etc.)" name="Your user profile information (first name, last name, etc.)" />
+    <text value="your email address" name="Your email address" />
+    <text value="your phone number" name="Your phone number" />
+    <text value="Your contact address" name="Your postal address" />
+    <text value="Your user ID" name="Your user identifier" />
+    <text value="Your profile information (name, etc.)" name="Your user profile information (first name, last name, etc.)" />
     <text value="Your account is waiting to be activated by system admin." name="YourAccountIsWaitingToBeActivatedByAdmin" />
     <text value="The case you applied for [{0}] was returned for review. Please change the contract information." name="YourApplicationForCaseIsCheckedAndReturnedPleaseAmendContractInfo" />
-    <text value="Your Code" name="YourCode" />
+    <text value="Your verification code" name="YourCode" />
     <text value="Your email address is successfully confirmed." name="YourEmailIsConfirmedMessage" />
     <text value="Your password has changed successfully." name="YourPasswordHasChangedSuccessfully" />
     <text value="Your phone number is not verified" name="YourPhoneNumberIsNotVerified" />
-    <text value="Your phone number is verified" name="YourPhoneNumberIsVerified" />
+    <text value="Your phone number has been verified" name="YourPhoneNumberIsVerified" />
     <text value="The case you filed for filing [[0}] is pending archiving." name="YourRequestForSettlementIsWaitingForArchiving" />
     <text value="You have other {0}" name="YouStillHaveOtherCnt" />
     <text value="yuan" name="Yuan" />
-    <text value="Weekly Task" name="本周待办" />
-    <text value="Assigned Task" name="分配给我的" />
-    <text value="All" name="全部" />
-    <text value="Ongoing Project" name="我参与进行中" />
-    <text value="Unconfirmed Task" name="我参与未确认 " />
-    <text value="Completed Task" name="我参与已完成 " />
-    <text value="Overdue Task" name="我参与已逾期" />
-    <text value="My Task" name="我的项目" />
-    <text value="Assign Task" name="我分配的" />
-    <text value="Assign Unconfirmed Task" name="我分配未确认 " />
-    <text value="Assign Uncompleted Task" name="我分配未完成" />
   </texts>
 </localizationDictionary>

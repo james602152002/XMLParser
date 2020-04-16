@@ -62,7 +62,6 @@
     <text value="No legal aid" name="NoLegalAid" />
     <text value="Normal charge:" name="NormalChargeWithColon" />
     <text value="The expenses for handling cases under the case are:" name="PaidPartyTitle" />
-    <text value="Charge information" />
     <text value="Please enter the content of the case brief" name="PleaseInputCaseBrief" />
     <text value="Please enter the name of the case" name="PleaseInputCaseName" />
     <text value="Please enter relevant case information" name="PleaseInputCaseRelationInfo" />
@@ -341,7 +340,6 @@
     <text value="Invoice claim" name="InvoiceClaim" />
     <text value="Fee details" name="FeeDetail" />
     <text value="Select order material" name="SelectRollMaterial" />
-    <text value="Required" />
     <text value="Lawyer Fee" name="LawyerFee" />
     <text value="Upload invoice" name="InvoiceUpload" />
     <text value="Invalid Successfully" name="InvalidSuccessfully" />
@@ -380,7 +378,6 @@
     <text value="No search data yet!" name="NoSearchData" />
     <text value="Word count" name="WordCount" />
     <text value="word" name="word" />
-    <text value="Free" />
     <text value="yuan" name="Yuan" />
     <text value="French angel contract library" name="Pages.CommonTools.FaTianShi" />
     <text value="use" name="Use" />
@@ -891,7 +888,6 @@
     <text value="You already added this user." name="YouAlreadySentAFriendshipRequestToThisUser" />
     <text value="You can not be a friend with yourself." name="YouCannotBeFriendWithYourself" />
     <text value="Message Details" name="NewChatMessageEmail_Title" />
-    <text name="NewChatMessageEmail_SubTitle" />
     <text value="You have a new chat message" name="NewChatMessageEmail_Subject" />
     <text value="Sender" name="Sender" />
     <text value="Message" name="Message" />
@@ -1486,7 +1482,6 @@
     <text value="Increase intranet information" name="AddIntranet" />
     <text value="Add a new phase after this" name="AddNewStageAfterThat" />
     <text value="New task" name="AddNewTask" />
-    <text value="address" />
     <text value="Add the root node" name="AddRootNode" />
     <text value="Add phase" name="AddStage" />
     <text value="add tag" name="AddTags" />
@@ -1519,7 +1514,6 @@
     <text value="Sealed" name="AlreadySealed" />
     <text value="Already arrived" name="AlreadyToAccount" />
     <text value="Replaceable text is as follows" name="AlternativeTextIsAsFollows" />
-    <text value="Amount" />
     <text value="Payment amount" name="AmountOfPayment" />
     <text value="The amount of the subject" name="AmountOfStandard" />
     <text value="Amount to credit" name="AmountReceived" />
@@ -1687,7 +1681,6 @@
     <text value="Billing template" name="BillTemplate" />
     <text value="Billing template upload" name="BillTemplateUpload" />
     <text value="Binding" name="Bind" />
-    <text value="blue" />
     <text value="Borrowing records" name="BorrowedRecord" />
     <text value="Prosecution and defense" name="BothSidesOfTheArgument" />
     <text value="Box shape" name="Boxed" />
@@ -1947,7 +1940,6 @@
     <text value="black" name="Dark" />
     <text value="loading" name="DataLoading" />
     <text value="data permission" name="DataPermissions" />
-    <text value="date" />
     <text value="date of birth" name="DateOfBirth" />
     <text value="Forward date" name="DateOfCorrection" />
     <text value="Lawyer relationship deposit date" name="DateOfDepositingLawyersRelations" />
@@ -1996,7 +1988,6 @@
     <text value="To avoid mistakes, do not delete multiple files or folders at the same time!" name="DoNotDeleteMultipleFilesOrFoldersAtTheSameTime" />
     <text value="Do not use bills" name="DonotUseBills" />
     <text value="Did not pass" name="DonTAllowSeal" />
-    <text value="download" />
     <text value="Download minutes" name="DownloadMinutes" />
     <text value="Edit or improve the converted logbook?" name="DoYouEditOrImproveConvertedWorkLog" />
     <text value="Groupable dragable sort" name="DragSortInGroups" />
@@ -2007,7 +1998,6 @@
     <text value="Edit the closing application" name="EditTheClosingApplication" />
     <text value="Education" name="Education" />
     <text value="Education background" name="EducationalBackground" />
-    <text value="mailbox" />
     <text value="Conference host" name="Emcee" />
     <text value="emergency contact" name="EmergencyContact" />
     <text value="Emergency contact address" name="EmergencyContactAddress" />
@@ -2035,7 +2025,6 @@
     <text value="Within the proportion of money within the division, the excess part is no longer split." name="ExceededPartNoLongerSplit" />
     <text value="exchange rate" name="ExchangeRage" />
     <text value="In the similar customer list, the corresponding customer information is retrieved according to the conditions. Currently, the customer in the list has not been selected to replace the current case customer. Is it confirmed to be correct?" name="ExisitsSimilarReplaceableCustomersWhetherConfirmPositive" />
-    <text value="Expand more settings" />
     <text value="Task time-consuming" name="ExpenditureOfTime" />
     <text value="Cost information" name="ExpenseInfomration" />
     <text value="Cost information table" name="ExpenseInformationSheet" />
@@ -2051,7 +2040,6 @@
     <text value="Ethnic" name="FamilyName" />
     <text value="Fax" name="Fax" />
     <text value="Charges and contract attachments" name="FeesAndContractAccessories" />
-    <text value="Documents" />
     <text value="File Directory" name="FileDirectory" />
     <text value="file does not exist" name="FileDoesNotExist" />
     <text value="File generation failed: {0}" name="FileGenerationFailure" />
@@ -2059,7 +2047,6 @@
     <text value="File information table" name="FileInformationTable" />
     <text value="file name" name="FileName" />
     <text value="The file size does not exceed {0}MB." name="FileSizeIsLessThanMb" />
-    <text value="File Upload" />
     <text value="Can be formally filed" name="FilingACase" />
     <text value="Apply for filing" name="FilingCase" />
     <text value="Fill in the closing report" name="FillInTheClosingCaseReport" />
@@ -2105,7 +2092,6 @@
     <text value="good morning" name="GoodMorning" />
     <text value="Good weekend" name="GoodWeekend" />
     <text value="graduated school" name="GraduateSchool" />
-    <text value="green" />
     <text value="gray" name="Grey" />
     <text value="Chart" name="GridRangesMap" />
     <text value="Grouping" name="GroupBy" />
@@ -2154,7 +2140,6 @@
     <text value="Invalid" name="Invalid" />
     <text value="Reversal" name="Inverse" />
     <text value="Conference invites guests" name="InvitedGuests" />
-    <text value="invoice" />
     <text value="Invoice amount" name="InvoiceAmount" />
     <text value="Invoice [{0}] was cancelled." name="InvoiceCanceled" />
     <text value="Invoice [{0}] has been claimed." name="InvoiceClaimed" />
@@ -2299,7 +2284,6 @@
     <text value="Modify the task phase" name="ModifyTaskStage" />
     <text value="Modify the application content of the case" name="ModifyTheApplicationContentOfTheCase" />
     <text value="month" name="Month" />
-    <text value="Monthly" />
     <text value="Successful move" name="MoveSucceeded" />
     <text value="My log" name="MyLog" />
     <text value="My components" name="MyWidgets" />
@@ -2315,7 +2299,6 @@
     <text value="news" name="News" />
     <text value="News and announcements do not allow deletion" name="NewsBulletinAreNotAllowedToBeDeleted" />
     <text value="New task stage" name="NewTaskStage" />
-    <text value="The next step" />
     <text value="Next page" name="NextPage" />
     <text value="nickname" name="Nickname" />
     <text value="no" name="Nihility" />
@@ -2518,7 +2501,6 @@
     <text value="Personal phone 2" name="PersonPhone2" />
     <text value="Homepage" name="PersonWebSite" />
     <text value="image" name="Picture" />
-    <text value="Pink" />
     <text value="Top" name="PlacedAtTheTop" />
     <text value="Lawyer relationship depository" name="PlaceOfLawyerRelations" />
     <text value="Personnel file storage place" name="PlaceOfPersonnelFiles" />
@@ -2637,7 +2619,6 @@
     <text value="Rename" name="Rename" />
     <text value="Rename folder" name="ReNameDocumentFolder" />
     <text value="Rename folder" name="RenamingFolders" />
-    <text value="Reply" />
     <text value="Agency results" name="RepresentativeResults" />
     <text value="Leave application" name="RequestForLeave" />
     <text value="Resend" name="Resend" />
@@ -2712,7 +2693,6 @@
     <text value="The seal cannot be empty!" name="SealerCanTBeEmpty" />
     <text value="Seal status" name="SealState" />
     <text value="Seal type" name="SealType" />
-    <text value="search for" />
     <text value="seat" name="Seat" />
     <text value="Secretary telephone" name="SecretarialTelephone" />
     <text value="Selection result" name="SelectTheResults" />
@@ -2885,7 +2865,6 @@
     <text value="Processing failed" name="ToDealWithFailure" />
     <text value="Receive invoice" name="ToReceiveTheInvoice" />
     <text value="Type of review" name="ToSubmitForApprovalTheType" />
-    <text value="total" />
     <text value="Annual revenue" name="TotalAnnualRevenue" />
     <text value="Billing hours total" name="TotalBillHours" />
     <text value="Total business hours" name="TotalBusinessHours" />
@@ -2918,7 +2897,6 @@
     <text value="No match" name="UnmatchedResults" />
     <text value="Not related" name="Unrelated" />
     <text value="Unrelated cases." name="UnRelatedCase" />
-    <text value="Upload" />
     <text value="re-upload" name="UploadAgain" />
     <text value="Failed to upload attachment: {0}" name="UploadAttachmentFailure" />
     <text value="Upload Attachment" name="UploadAttachments" />
@@ -2996,7 +2974,6 @@
     <text value="operating hours" name="WorkTime" />
     <text value="Writing language" name="WritingLanguage" />
     <text value="year" name="Year" />
-    <text value="yellow" />
     <text value="The case you applied for [{0}] was returned for review and cannot be placed on file." name="YouApplicationForCaseIsReturnedCanNotFileCase" />
     <text value="The case you applied for [{0}] was returned for review. Please resubmit it after modifying the application." name="YouApplicationForCaseIsReturnedPleaseReviseAndSubmitItAgain" />
     <text value="The case you applied for [{0}] was returned for review. Please change the contract information." name="YourApplicationForCaseIsCheckedAndReturnedPleaseAmendContractInfo" />
@@ -3256,7 +3233,6 @@
     <text value="Password must contain at least one special character" name="PasswordComplexity_UsePunctuations_Hint" />
     <text value="Password must be at least {0} characters" name="PasswordComplexity_MinLength_Hint" />
     <text value="Password must contain at least 1 uppercase letter" name="PasswordComplexity_UseUpperCaseLetters_Hint" />
-    <text name="UiCustomization_DisplaySubmenuArrowDesktop" />
     <text value="Please select the person in charge of the case" name="PlzSelectCasePrincipal" />
     <text value="New password check is inconsistent" name="NewPasswordCheckIncorrect" />
     <text value="Schedule center" name="Pages.Executive.Schedule" />

@@ -4,6 +4,7 @@
     <text value="「{}」は無効です" name="{0}IsInvalid" />
     <text value="{0を削除できません}ユーザー。" name="{0}UserCannotBeDeleted" />
     <text value="裁判所の省略" name="AbbreviationOfCourt" />
+    <text value="出発しようとしています" name="AboutToLeave" />
     <text value="私たちについて" name="AboutUs" />
     <text value="組織単位" name="Abp.Organizations.OrganizationUnit" />
     <text value="アプリケーション設定キャッシュ" name="AbpApplicationSettingsCache" />
@@ -45,6 +46,7 @@
     <text value="このケースに関連付けられた連絡先を追加する" name="AddCaseContact" />
     <text value="上記の方法で契約書を追加してください｡契約がない場合、ケースのステータスはアップロードされる契約段階に残ります。" name="AddCaseContractModalTips" />
     <text value="課金方法が正常な場合、弁護士費用を0にすることはできません。課金情報を追加してください。" name="AddChargingInformation" />
+    <text value="連絡先を追加" name="AddContact" />
     <text value="裁判所リマインダーを追加" name="AddCourtRemind" />
     <text value="{0}を押すか、ブラウザウィンドウの上部にある[ブックマーク]をクリックして、ドロップダウンメニューから[ブックマークを追加...]を選択してください。" name="AddCurrentPageToBookmark" />
     <text value="顧客の住所録を追加する" name="AddCustomerAddressBook" />
@@ -70,11 +72,12 @@
     <text value="子ノードを追加する" name="AddSubUnit" />
     <text value="タグを追加" name="AddTags" />
     <text value="タスクを追加" name="AddTask" />
-    <text value="ケースはまだ追加されていません。プロジェクトを追加した後にタスクを追加してください！" name="AddTaskWithOutProjectWarning " />
+    <text value="このケースにはアイテムが追加されていません。タスクを追加する前にタスクを追加してください！" name="AddTaskWithOutProjectWarning " />
     <text value="プロジェクトはまだ追加されていません。ステージを追加した後にタスクを追加してください！" name="AddTaskWithOutStageWarning" />
     <text value="テンプレートを追加する" name="AddTemplate" />
     <text value="お気に入りに追加" name="AddToBookMark" />
     <text value="ユーザーを追加する" name="AddUser" />
+    <text value="訪問を追加" name="AddVisit" />
     <text value="訪問記録を追加する" name="AddVisitRecord" />
     <text value="位置を調整する" name="AdjustPosition" />
     <text value="検索条件を調整するか、以前のレベルに戻ってください" name="AdjustSearchCriteriaOrReturnToThePreviousLevel" />
@@ -83,6 +86,7 @@
     <text value="管理ガイドライン" name="AdministrativeGuide" />
     <text value="管理人材" name="AdministrativeHR" />
     <text value="行政処罰" name="Administrativepenalties" />
+    <text value="行政印鑑" name="AdministrativeSeal" />
     <text value="管理章管理情報テーブル" name="AdministrativeSealManagementInformationTable" />
     <text value="あなたのレビューを待っている行政シール要求があります。" name="AdministrativeSealReview" />
     <text value="管理者ガイド" name="AdministratorGuide" />
@@ -201,6 +205,7 @@
     <text value="アプリケーション" name="Apply" />
     <text value="ペーパーレビュー" name="ApplyDocumentReview" />
     <text value="アプリケーション終了時刻" name="ApplyEndTime" />
+    <text value="トライアルに申し込む" name="ApplyForTrial" />
     <text value="申請用紙スタンプ" name="ApplyPaperStamp" />
     <text value="アプリケーション開始時刻" name="ApplyStartTime" />
     <text value="適用時間" name="ApplyTime" />
@@ -210,8 +215,8 @@
     <text value="レビュー" name="ApprovalLevel" />
     <text value="申し訳ありませんが、承認の返却には返品の理由を記入する必要があります。" name="ApprovalReturnNeedsToFillInReasonOfReturn" />
     <text value="{0}レビューはまだありません" name="ApprovedByAuditorCnt" />
-    <text value="返品オプションの承認" name="ApproveTheReturnOption" />
-    <text value="選択による承認" name="ApproveTheSelectionOfItems" />
+    <text value="返品オプションを承認する" name="ApproveTheReturnOption" />
+    <text value="選考承認" name="ApproveTheSelectionOfItems" />
     <text value="4月" name="April" />
     <text value="仲裁手数料" name="ArbitrationFee" />
     <text value="建築図" name="ArchitectureDiagram" />
@@ -231,7 +236,7 @@
     <text value="現在のコードのステータスを変更しますか？" name="AreYouSureChangeCurrentCodeState" />
     <text value="選択した会議のステータスを変更してもよろしいですか？" name="AreYouSureTheChangeSelectedSessionState" />
     <text value="現在のフォルダを削除してもよろしいですか？" name="AreYouSureToDeleteTheCurrentFolder" />
-    <text value="このテンプレートでタスクプロジェクトを作成してもよろしいですか？" name="AreYouSureYouCreationWithTemplate" />
+    <text value="このテンプレートからプロジェクトを作成してもよろしいですか？" name="AreYouSureYouCreationWithTemplate" />
     <text value="削除してもよろしいですか？" name="AreYouSureYouWantToDelete" />
     <text value="削除してもよろしいですか？" name="AreYouSureYouWantToRemoveItCompletely" />
     <text value="復元してもよろしいですか？" name="AreYouSureYouWantToRestore" />
@@ -239,9 +244,13 @@
     <text value="逆時間" name="AscendingOfTime" />
     <text value="逆の名前" name="AscendingOfTitle" />
     <text value="時間の昇順" name="AscendingOrderOfTime" />
-    <text value="私の割り当ては完了しました" name="AssignCompletedTask" />
     <text value="割り当てられた" name="Assigned" />
-    <text value="私の割り当ては期限切れです" name="AssignOverdueTask" />
+    <text value="私の割り当ては完了しました" name="AssignedCompletedTask" />
+    <text value="私の割り当ては期限切れです" name="AssignedExpiredTask" />
+    <text value="私が割り当てた" name="AssignedTask" />
+    <text value="私に割り当てられた" name="AssignedTaskToMe" />
+    <text value="私の割り当ては不完全です" name="AssignedUncompletedTask" />
+    <text value="私は未確認です" name="AssignedUnconfirmedTask" />
     <text value="別のバージョンに割り当てる" name="AssignToAnotherEdition" />
     <text value="アシスタント電話" name="AssistantPhone" />
     <text value="関連する課金情報" name="AssociatedBillingInfo" />
@@ -316,6 +325,7 @@
     <text value="請求時間：" name="BillHoursWithColon" />
     <text value="ビル" name="Billing" />
     <text value="請求額" name="BillingAmount" />
+    <text value="請求金額" name="BillingAmountCap" />
     <text value="請求関連付け" name="BillingAssociation" />
     <text value="請求サイクル" name="BillingCycle" />
     <text value="請求サイクル：" name="BillingCycleWithColon" />
@@ -370,6 +380,7 @@
     <text value="事業の状況" name="Businessstatus" />
     <text value="営業時間" name="BusinessTime" />
     <text value="ビジネスタイプ" name="BusinessType" />
+    <text value="業務ログ" name="BusinessWorkLog" />
     <text value="ボタン配置" name="ButtonAlign" />
     <text value="今すぐ購入" name="BuyNow" />
     <text value="{0}バージョン" name="BuyNow_Edition_Description" />
@@ -476,11 +487,13 @@
     <text value="ケースのキャンセル" name="CaseRemove" />
     <text value="ケースの結果と分析" name="CaseResultsAndAnalysis" />
     <text value="ケースの情報を元に戻す" name="CaseReversalInformation" />
+    <text value="ケースレビュー" name="CaseReview" />
     <text value="あなたのケースを提出するために提出されたケース[{0}]は、ケース担当者によって返されました。終了情報を変更してください。" name="CaseReviewReturned" />
     <text value="ケースのシリアル番号のフォーマット" name="CaseSerialIdFormat" />
     <text value="ケースのシリアル番号規則" name="CaseSerialIdRule" />
     <text value="ケースステージ" name="CasesOfStage" />
     <text value="ケース開始時間" name="CaseStartTime" />
+    <text value="ケースステータス年次データ統計" name="CaseStatusAnnualStatistics" />
     <text value="前年度の症例の状況" name="CaseStatusYearonYear" />
     <text value="補助的なケース" name="CaseSupplement" />
     <text value="ケースクライアントとパートナー情報" name="CaseTheDelegateTheOtherPartyInformation" />
@@ -565,7 +578,7 @@
     <text value="キャッシュ" name="ClearCache" />
     <text value="正常にクリアされました" name="ClearedSuccessfully" />
     <text value="申し訳ありませんが、このステージリストを削除する前に、このステージリストのタスクをクリアしてください！" name="ClearTasklistInStage" />
-    <text value="このアイテムを削除する前に、このアイテムのすべてのステージとタスクをクリアしてください。" name="ClearTaskProject" />
+    <text value="このアイテムを削除する前に、このタスクアイテムのすべてのタスクをクリアしてください！" name="ClearTaskProject" />
     <text value="クリックして電話番号の確認コードを取得する" name="ClickforVerificationCode" />
     <text value="ここをクリック" name="ClickHere" />
     <text value="右側のリンクをクリックすると、操作前の情報が表示されます。" name="ClickOnTheRightLinkToViewTheFrontActionInfo" />
@@ -655,6 +668,7 @@
     <text value="コンピュータ番号" name="ComputerNumbering" />
     <text value="会議パスワード" name="ConferencePassword" />
     <text value="機密保持契約" name="ConfidentialityAgreement" />
+    <text value="構成" name="Configuration" />
     <text value="確認" name="Confirm" />
     <text value="承認情報を確認しますか？" name="ConfirmApprovalInformation" />
     <text value="あなたの{0}メールにメールが送信されました。あなたのメールアドレスを確認するには、メールのリンクをクリックしてください。" name="ConfirmationMailSentPleaseClickLinkInTheEmail" />
@@ -685,6 +699,7 @@
     <text value="コンテンツ情報" name="ContentInformation" />
     <text value="コンテンツの長さが上限を超えました" name="ContentLengthExceedingLimit" />
     <text value="コンテンツ設定" name="ContentSetting" />
+    <text value="訪問し続ける" name="ContinueToVisit" />
     <text value="契約" name="Contract" />
     <text value="契約額" name="ContractAmount" />
     <text value="契約添付" name="ContractAttachments" />
@@ -700,7 +715,7 @@
     <text value="ログへの変換の参加" name="ConvertWorkLogOfParticipation" />
     <text value="Cookieに同意する" name="CookieConsent" />
     <text name="CookieConsent_Dismiss" />
-    <text name="CookieConsent_Message" />
+    <text value="このWebサイトではCookieを使用して、当社のWebサイトで最高の体験を得ることができます。" name="CookieConsent_Message" />
     <text value="コラボレーションを確認する" name="CoordinateToBeConfirmed" />
     <text value="部数" name="Copies" />
     <text value="コピー" name="Copy" />
@@ -730,6 +745,7 @@
     <text value="裁判所/裁判所の時間情報" name="CourtOrCourtTimeInformation" />
     <text value="裁判所は情報を思い出させる" name="CourtReminder" />
     <text value="コート" name="Courts" />
+    <text value="現在の流行中、フルタイムのWeb会議は無料です！" name="COVID19FullTimeipsConferencingFreeTips" />
     <text value="ケースを作成する" name="CreateACase" />
     <text value="カテゴリを作成する" name="CreateAClassification" />
     <text value="顧客を作成する" name="CreateACustomer" />
@@ -799,6 +815,7 @@
     <text value="顧客" name="Customer" />
     <text value="お客様の住所" name="CustomerAddress" />
     <text value="お客様の基本情報" name="CustomerBasicInfo" />
+    <text value="カスタマーコミュニケーション" name="CustomerCommunications" />
     <text value="顧客の連絡先" name="CustomerContact" />
     <text value="顧客開発" name="CustomerDevelopment" />
     <text value="顧客ドキュメント" name="CustomerDocuments" />
@@ -896,7 +913,7 @@
     <text value="こんにちは、これはテストメッセージです。異なるブラウザで自分のアカウントを使用してログインし、チャット機能の仕組みを見てください。" name="Demo_SampleChatMessage" />
     <text name="DemoPayPalAccount" />
     <text name="DemoUiComponents" />
-    <text name="DemoUiComponents_Info" />
+    <text value="このページには、アプリケーションで使用できるいくつかのUIコンポーネントが表示されます。" name="DemoUiComponents_Info" />
     <text name="DemoUiComponents_Info_Metronic_Link_Text" />
     <text value="部署" name="Department" />
     <text value="オフィスおよび部署文書" name="DepartmentalDocuments" />
@@ -934,6 +951,7 @@
     <text value="離婚" name="Divorce" />
     <text value="ドキュメントの合計%s" name="DocCounts" />
     <text value="ドキュメントタイプ" name="DocType" />
+    <text value="文書分析" name="DocumentAnalysis" />
     <text value="文書承認情報フォーム" name="DocumentApprovalInformationSheet" />
     <text value="ドキュメントセンター" name="DocumentCenter" />
     <text value="ドキュメントの詳細" name="DocumentDetail" />
@@ -963,6 +981,7 @@
     <text value="分をダウンロードする" name="DownloadMinutes" />
     <text value="会議後レポートのダウンロード" name="DownloadPostConferenceReport" />
     <text value="変換したログブックを編集または改善しますか？" name="DoYouEditOrImproveConvertedWorkLog" />
+    <text value="起草文書と修正" name="DraftingDocumentsAndAmendments" />
     <text value="グループ化可能なドラッグ可能なソート" name="DragSortInGroups" />
     <text value="メールボックス{0}はすでに占有されています" name="DuplicateEmail" />
     <text value="期間" name="Duration" />
@@ -999,6 +1018,9 @@
     <text value="教育" name="Education" />
     <text value="教育的背景" name="EducationalBackground" />
     <text value="効果的な義務" name="Effectiveobligation" />
+    <text value="このプロンプトは、現在ログインしているアカウントに、電子署名プラットフォームに対応する印鑑権限がないことを示しています。印鑑権限を持つ人が電子印鑑を完了するまで待つか、システム管理者に連絡して、印鑑権限を開いてください！" name="ElectronicSealNoSignAuthorityTips" />
+    <text value="このドキュメントは電子シールに適用されています。シールボタンをクリックして、署名アクションを完了してください！" name="ElectronicSealSignActionTips" />
+    <text value="このドキュメントは電子印鑑に応募しました。押印者が印鑑当局を完了するまでお待ちください！" name="ElectronicSealWaitSignCompleteTips" />
     <text value="電子署名情報" name="ElectronicSignatureInfo" />
     <text value="Eメール" name="Email" />
     <text value="メール確認" name="EmailActivation" />
@@ -1010,7 +1032,7 @@
     <text value="電子メールアドレスの確認" name="EmailConfirm" />
     <text value="ログインするには、電子メールアドレスを確認する必要があります。" name="EmailConfirmationRequiredForLogin" />
     <text value="上のボタンが機能しない場合は、ブラウザに貼り付けてください：" name="EmailMessage_CopyTheLinkBelowToYourBrowser" />
-    <text name="EmailSecurityCodeBody" />
+    <text value="セキュリティコードは次のとおりです：{0}" name="EmailSecurityCodeBody" />
     <text name="EmailSecurityCodeSubject" />
     <text value="メールボックス（SMTP）" name="EmailSmtp" />
     <text value="会議主催者" name="Emcee" />
@@ -1035,6 +1057,7 @@
     <text value="英語" name="English" />
     <text value="検索キーワード（英語）" name="EnglishKeywordsSearch" />
     <text value="英語名" name="EnglishName" />
+    <text value="英語名" name="EnName" />
     <text value="ビジネス登録名" name="EnterpriseBusinessRegistrationNameOfEnterprise" />
     <text value="エンタープライズキー" name="EnterpriseKey" />
     <text value="法人登録番号" name="EnterpriseRegistrationNumber" />
@@ -1079,6 +1102,7 @@
     <text value="経費精査" name="ExpenseReview" />
     <text value="支払期日" name="ExpirationDate" />
     <text value="期限切れ" name="Expired" />
+    <text value="参加期限が切れました" name="ExpiredTask" />
     <text value="すぐに失効する" name="Expiring" />
     <text name="ExpiringEdition" />
     <text name="ExpiringEditionMustBeAFreeEdition" />
@@ -1094,7 +1118,7 @@
     <text value="失敗" name="Failed" />
     <text value="フランス語のエンジェルファイルを取得できませんでした！" name="FailedFTSFile" />
     <text value="企業のWeChatトークンを取得できませんでした！" name="FailedQYWeChatToken" />
-    <text name="FailedSubscriptionTerminations_Email_Body" />
+    <text value="テナント{1}の{0}サブスクリプションの終了に失敗しました。" name="FailedSubscriptionTerminations_Email_Body" />
     <text name="FailedSubscriptionTerminations_Email_Subject" />
     <text name="FailedSubscriptionTerminations_SubTitle" />
     <text name="FailedSubscriptionTerminations_Title" />
@@ -1123,6 +1147,7 @@
     <text name="FileCantBeConvertedToUserList" />
     <text value="ファイルディレクトリ" name="FileDirectory" />
     <text value="ファイルが存在しません" name="FileDoesNotExist" />
+    <text value="ファイルは次の形式に準拠している必要があります：{0}" name="FileFormatLimitation" />
     <text value="ファイルの生成に失敗しました：{0}" name="FileGenerationFailure" />
     <text value="ファイル情報テーブルの送信" name="FileInformationSheet" />
     <text value="ファイル情報テーブル" name="FileInformationTable" />
@@ -1150,12 +1175,14 @@
     <text value="財務運用ガイドライン" name="FinancialGuide" />
     <text value="財務情報" name="FinancialInformation" />
     <text value="財務運用記録" name="FinancialOperationRecord" />
+    <text value="財務概要" name="FinancialOverview" />
     <text value="財務レビュー" name="FinancialReview" />
     <text value="お申し込みいただいた終了ファイル[{0}]は財務部から返却されました。終了情報を変更してください。" name="FinancialReviewReturned" />
     <text value="現在のケースの金融閉鎖見直し申請が処理されました！" name="FinancialSettlementAuditOfCaseHasBeenProcessed" />
     <text value="財務レビューが返されました" name="FinanciaReviewReturned" />
     <text value="ケースを見つける" name="FindACase" />
     <text value="顧客を見つける" name="FindACustomer" />
+    <text value="規制、情報を見つける" name="FindRegulations,Information" />
     <text value="ビジネスログ" name="FirmLog" />
     <text value="ビジネス文書" name="FirmOperationDocuments" />
     <text value="最初" name="First" />
@@ -1192,6 +1219,7 @@
     <text value="例えば" name="ForExample" />
     <text value="パスワードを忘れた" name="ForgetPassword" />
     <text value="パスワードを覚えていない？" name="ForgotPassword" />
+    <text value="製図/修正を記録するのを忘れました" name="ForgotToRecordDrafting/Modification" />
     <text value="フォーマルケース" name="FormalCase" />
     <text value="正式な顧客" name="FormalCustomer" />
     <text value="公式のVIP顧客" name="FormalVipCustomers" />
@@ -1214,8 +1242,8 @@
     <text value="機能" name="Functions" />
     <text value="涨幅" name="Gains" />
     <text name="Gateway" />
-    <text name="GdprDataPreparedNotificationMessage" />
-    <text name="GdprDataPrepareStartedNotification" />
+    <text value="データの準備ができました。ここをクリックしてダウンロードしてください。" name="GdprDataPreparedNotificationMessage" />
+    <text value="データを準備しています。" name="GdprDataPrepareStartedNotification" />
     <text value="セックス" name="Gender" />
     <text value="基本情報" name="General" />
     <text value="生成された" name="Generate" />
@@ -1231,8 +1259,8 @@
     <text value="おはよう" name="GoodEvening" />
     <text value="おはよう" name="GoodMorning" />
     <text value="良い週末" name="GoodWeekend" />
-    <text name="GoogleAuthenticatorIsNotEnabled" />
-    <text name="GoogleAuthenticatorReferrerLink" />
+    <text value="お使いのアカウントではGoogleアカウントが有効になっていません。" name="GoogleAuthenticatorIsNotEnabled" />
+    <text value="このページの意味がわかりませんか？" name="GoogleAuthenticatorReferrerLink" />
     <text value="ログインシステム" name="GoToApplication" />
     <text value="保存されたテンプレートの編集や改善に行く？" name="GotoEditOrImproveConvertedTemplate" />
     <text name="GoToSubscriptionManagement" />
@@ -1252,7 +1280,7 @@
     <text value="完了しました" name="HasBeenCompleted" />
     <text value="あなたの割り当てられたスケジュール[{1}]に参加することを確認した{0}" name="HasBeenConfirmedToParticipateInYourAssignedSchedule" />
     <text value="返された" name="HasBeenReturned" />
-    <text value="このコンテンツには、あなたのケースと1つの利益相反情報がある場合があります" name="HasConflictHint" />
+    <text value="このコンテンツには、ケースとの利益相反情報が含まれている可能性があります" name="HasConflictHint" />
     <text value="拒否" name="HasDeclined" />
     <text value="エラーが発生しました" name="HasError" />
     <text value="法的援助" name="HasLegalAid" />
@@ -1290,6 +1318,7 @@
     <text value="人事運用ガイド" name="HumanGuide" />
     <text value="主キー番号に関連する情報を照合できません！" name="IdHasNotBeenFound" />
     <text name="Image" />
+    <text value="画像の最小ピクセル：{0}、スケール：{1}" name="ImgSizeScaleLimitation" />
     <text value="偽のトークンが無効または期限切れです。" name="ImpersonationTokenErrorMessage" />
     <text value="重要で緊急な" name="ImportantAndInstancy" />
     <text value="重要だが緊急ではない" name="ImportantButNotInstancy" />
@@ -1350,8 +1379,9 @@
     <text value="無効なユーザー名またはパスワード" name="InvalidUserNameOrPassword" />
     <text value="発明者" name="Inventor" />
     <text value="逆転" name="Inverse" />
+    <text value="調査と証拠" name="Investigation" />
     <text value="投資額" name="Investmentamount" />
-    <text value="会議はゲストを招待する" name="InvitedGuests" />
+    <text value="参加者" name="InvitedGuests" />
     <text value="言語コードが無効です。" name="InvlalidLanguageCode" />
     <text value="請求書" name="Invoice" />
     <text value="請求額" name="InvoiceAmount" />
@@ -1377,6 +1407,7 @@
     <text value="請求書[{0}] {1}。" name="InvoiceNotify" />
     <text value="請求書番号" name="InvoiceNumber" />
     <text value="請求書[{0}]が返されました。" name="InvoiceReturned" />
+    <text value="請求書レビュー" name="InvoiceReview" />
     <text value="請求書のステータスが変更されました。" name="InvoiceStatusHasBeenChanged" />
     <text value="請求書ヘッダ" name="InvoiceTitle" />
     <text name="InvoiceTo" />
@@ -1390,7 +1421,7 @@
     <text name="IsEnabled" />
     <text value="外国関連" name="IsForeign" />
     <text name="IsGoogleAuthenticatorEnabled" />
-    <text name="IsInTrialPeriod" />
+    <text value="試用期間中ですか？" name="IsInTrialPeriod" />
     <text value="現在最新バージョン" name="IsLatestVersion" />
     <text name="IsLockoutEnabled" />
     <text name="IsLockoutEnabled_Hint" />
@@ -1458,6 +1489,7 @@
     <text value="弁護士" name="Lawyer" />
     <text value="パラリーガル" name="LawyerAssistant" />
     <text value="{0} 弁護士" name="LawyerCnt" />
+    <text value="弁護士討論" name="LawyerDiscussion" />
     <text value="弁護士費用" name="LawyerFee" />
     <text value="弁護士手数料情報" name="LawyerFeeInfo" />
     <text value="返された弁護士の手紙" name="LawyerLetterReturned" />
@@ -1483,6 +1515,7 @@
     <text value="時間を残す" name="LeaveTime" />
     <text value="離れるタイプ" name="LeaveType" />
     <text name="LeftMenu" />
+    <text value="法的アドバイス" name="LegalAdvice" />
     <text value="法的援助" name="LegalAid" />
     <text value="法律コンサルタント契約の更新" name="LegalCounselContractRenewalSituation" />
     <text value="法律コンサルタントのサービス内容" name="LegalCounselServiceContent" />
@@ -1508,6 +1541,7 @@
     <text value="清算損害" name="LiquidatedDamages" />
     <text value="債権一覧" name="ListOfReceivables" />
     <text value="リストビュー" name="ListView" />
+    <text value="訴訟/仲裁/ヒアリング" name="Litigation/Arbitration/Hearing" />
     <text value="訴訟費用" name="LitigationCosts" />
     <text value="ライティング・ソーダ" name="LitigationPhase" />
     <text value="データを読み込んでいます。お待ちください..." name="LoadingMessage" />
@@ -1526,6 +1560,7 @@
     <text value="ログ" name="Log" />
     <text value="ログ分析" name="LogAnalysis" />
     <text value="ログ解析チャート" name="LogAnalysisChart" />
+    <text value="ログの承認" name="LogApproval" />
     <text value="ログの承認に失敗しました。承認を再送信してください" name="LogApprovalFailedRemind" />
     <text value="ログの承認に成功しました" name="LogApprovalSuccess" />
     <text value="ログの内容/メモ" name="LogContentOrRemarks" />
@@ -1598,7 +1633,7 @@
     <text value="会議の詳細" name="MeetingDetail" />
     <text value="ミーティング期間" name="MeetingDuration" />
     <text value="Meeting hostフィールドは必須です" name="MeetingEmceeIsRequired" />
-    <text value="メッシュルーム" name="MeetingHasBeenCompleted" />
+    <text value="会議が完了しました" name="MeetingHasBeenCompleted" />
     <text value="会議レベル" name="MeetingLevel" />
     <text value="会議の議事録" name="MeetingMinutes" />
     <text value="会議の変更" name="MeetingModification" />
@@ -1615,16 +1650,16 @@
     <text value="現在の会議室には既に予約されている会議室があります。会議室を予約または変更する別の時間を選択してください！" name="MeetingRoomHasBeenOccupied" />
     <text value="会議室情報テーブル" name="MeetingRoomInformationSheet" />
     <text value="会議室のフィールドは必須です" name="MeetingRoomIsRequired" />
-    <text value="会議室レベル" name="MeetingRoomLevel" />
+    <text value="会議室カテゴリー" name="MeetingRoomLevel" />
     <text value="会議室管理" name="MeetingRoomManagement" />
     <text value="会議室マネージャー" name="MeetingRoomManager" />
-    <text value="会議室の変更" name="MeetingRoomModification" />
+    <text value="会議室の改造" name="MeetingRoomModification" />
     <text value="会議室名" name="MeetingRoomName" />
-    <text value="会議室の名前/説明" name="MeetingRoomNameOrDescription" />
+    <text value="会議室名" name="MeetingRoomNameOrDescription" />
     <text value="会議室番号" name="MeetingRoomNumber" />
     <text value="会議室の大きさ" name="MeetingRoomScale" />
     <text value="会議室の選択" name="MeetingRoomSelection" />
-    <text value="会議室のスタイル" name="MeetingRoomStyle" />
+    <text value="会議室スタイルの説明" name="MeetingRoomStyle" />
     <text value="会議のソース" name="MeetingSource" />
     <text value="会議のステータス" name="MeetingState" />
     <text value="会合時間" name="MeetingTime" />
@@ -1667,18 +1702,28 @@
     <text value="テナントを別のバージョンに移行する" name="MoveTenantsOfEdition" />
     <text value="{0}テナントが移行されます" name="MoveTenantsOfEditionDescription" />
     <text value="テナントを別のエディションに移動する" name="MoveTenantsToAnotherEdition" />
-    <text name="MoveTenantsToAnotherEditionStartedNotification" />
+    <text value="選択したバージョンにテナントを移行しています。" name="MoveTenantsToAnotherEditionStartedNotification" />
     <text value="複数の部門で、+記号をクリックしてすべてを表示します" name="MultipleOrganizationUnit" />
     <text value="{0}に相手の情報を入力してください。" name="MustHasConflictInfo" />
+    <text value="私の請求書" name="MyBill" />
+    <text value="私のビジネス数" name="MyBusinessCount" />
+    <text value="症例数統計" name="MyCaseCountStatistics" />
     <text value="私のコレクション" name="MyCollection" />
     <text name="MyCompanyName.AbpZeroTemplate.Authorization.Roles.Role" />
     <text name="MyCompanyName.AbpZeroTemplate.MultiTenancy.Tenant" />
+    <text value="参加が完了しました" name="MyCompletedTask" />
     <text value="私のコンポーネント" name="MyComponents" />
+    <text value="私の経費" name="MyExpenses" />
     <text value="私のファイル" name="MyFile" />
+    <text value="私の財務統計" name="MyFinancialStatistics" />
+    <text value="私の請求書" name="MyInvoice" />
     <text value="私のログ" name="MyLog" />
+    <text value="私のログ統計" name="MyLogStatistics" />
+    <text value="私の支払い" name="MyPayment" />
     <text value="私のプロジェクト" name="MyProject" />
     <text value="私の履歴書" name="MyResume" />
     <text value="私" name="MySettings" />
+    <text value="私の仕事" name="MyTask" />
     <text value="私のコンポーネント" name="MyWidgets" />
     <text value="私のログ" name="MyWorkLog" />
     <text value="名" name="Name" />
@@ -1742,7 +1787,7 @@
     <text name="NoData" />
     <text value="ページにデータがありません" name="NoDataOnThePage" />
     <text value="関連情報が見つかりません" name="NoInformationWasFound" />
-    <text name="NoInternetConnection" />
+    <text value="現在インターネットに接続していません" name="NoInternetConnection" />
     <text value="イントラネット分類情報なし" name="NoIntranetClassificationInformation" />
     <text value="請求されていない" name="NoInvoiced" />
     <text value="法的援助なし" name="NoLegalAid" />
@@ -1784,6 +1829,7 @@
     <text value="サブタスクは追加されていません" name="NoSubtaskAdded" />
     <text value="受け入れられたファイルタイプではありません" name="NotAcceptedFileType" />
     <text value="活性化していない" name="NotActivated" />
+    <text value="システムは{0}サービスをアクティブにしていないことを検出しました。データへのアクセスが制限されている可能性があります！" name="NotActivatedServiceAccessLimitedTips" />
     <text value="公証料" name="NotarialFee" />
     <text value="割り当てなし" name="NotAssigned" />
     <text value="収集されない" name="NotCollected" />
@@ -1815,14 +1861,14 @@
     <text value="コメント数" name="NumberOfComments" />
     <text value="完了したタスクの数" name="Numberofcompletedtasks" />
     <text value="請求書の数" name="NumberOfInvoices" />
-    <text value="弁護士の任務の数" name="Numberoflawyerstasks" />
+    <text value="弁護士の仕事の数" name="Numberoflawyerstasks" />
     <text value="同年弁護士の人数" name="NumberofLawyersYearonYear" />
     <text value="組織別の統計数" name="NumberofLogByorganization" />
     <text value="ログの数" name="NumberOfLogs" />
-    <text value="会議の予約番号" name="NumberOfMeetings" />
-    <text value="新しいタスクの数と完了したタスクの数" name="Numberofnewandcompletedtasks" />
+    <text value="予定された会議の数" name="NumberOfMeetings" />
+    <text value="新規および完了したタスク" name="Numberofnewandcompletedtasks" />
     <text value="新しいタスクの数" name="Numberofnewtasks" />
-    <text value="残りのタスク数" name="Numberofremainingtasks" />
+    <text value="残りのタスクの数" name="Numberofremainingtasks" />
     <text value="組織別のユーザー数" name="NumberofusersbyOrganization" />
     <text value="訪問者" name="NumberOfVisitors" />
     <text name="Object" />
@@ -1893,7 +1939,7 @@
     <text value="その他" name="Others" />
     <text value="その他の設定" name="OtherSettings" />
     <text value="他の{0}未読メッセージがあります" name="OtherUnreadMessages" />
-    <text value="このプロジェクト" name="OurProject" />
+    <text value="私たちのプロジェクト" name="OurProject" />
     <text value="おでかけ時間" name="OutingTime" />
     <text value="到着していない" name="OutOfAccount" />
     <text value="期限切れ" name="Overdue" />
@@ -2022,11 +2068,11 @@
     <text value="私のスケジュール" name="Pages.Works.Schedule.MySchedule" />
     <text value="スケジュールセンター" name="Pages.Works.Schedule.ScheduleCenter" />
     <text value="スケジュールセンター" name="Pages.Works.ScheduleCenter" />
-    <text value="タスクプロセス" name="Pages.Works.Task" />
+    <text value="プロジェクトの進捗状況" name="Pages.Works.Task" />
     <text value="タスクワークベンチ" name="Pages.Works.Task.Dashboard" />
-    <text value="タスク項目" name="Pages.Works.Task.Project" />
-    <text value="タスク統計" name="Pages.Works.Task.Statistics" />
-    <text value="タスクテンプレート" name="Pages.Works.Task.Templates" />
+    <text value="アイテム" name="Pages.Works.Task.Project" />
+    <text value="プロジェクト統計" name="Pages.Works.Task.Statistics" />
+    <text value="プロジェクトテンプレート" name="Pages.Works.Task.Templates" />
     <text value="ページ表示データ数" name="PageSize" />
     <text value="デフォルトの表示は10です。表示可能な項目の範囲は5〜100に設定できます。" name="PageSizeTips" />
     <text name="Paid" />
@@ -2038,12 +2084,14 @@
     <text value="参加者" name="Participants" />
     <text value="参加者が見える" name="ParticipantsVisible" />
     <text value="参加を確認する" name="ParticipateConfirm" />
+    <text value="交渉に参加する" name="ParticipateInNegotiations" />
     <text value="参加の役割" name="ParticipateInRole" />
     <text value="スケジュールへの参加を確認する" name="ParticipateInSchedule" />
     <text value="タスクに参加する" name="ParticipateInTasks" />
     <text value="プロジェクトに参加する" name="ParticipateProject" />
     <text value="パーティー" name="ParticipatingLawyer" />
     <text value="変換される参加ログ" name="ParticipatingLogsToBeTransformed" />
+    <text value="参加しています" name="ParticipatingTask" />
     <text value="社会的集団への参加とアルバイト" name="ParticipationInSocialGroupsAndPart" />
     <text value="参加リンク" name="ParticipationLink" />
     <text value="パートナー" name="Partner" />
@@ -2057,15 +2105,15 @@
     <text value="パスワードは最大{0}文字でなければなりません" name="PasswordComplexity_MaxLength_Hint" />
     <text value="パスワードは少なくとも{0}文字でなければなりません" name="PasswordComplexity_MinLength_Hint" />
     <text value="パスワードに数字を使用する" name="PasswordComplexity_RequireDigit" />
-    <text name="PasswordComplexity_RequireDigit_Hint" />
+    <text value="パスワードには少なくとも1つの数字（ '0'-'9'）が必要です。" name="PasswordComplexity_RequireDigit_Hint" />
     <text value="最小パスワード長" name="PasswordComplexity_RequiredLength" />
-    <text name="PasswordComplexity_RequiredLength_Hint" />
-    <text value="" name="PasswordComplexity_RequireLowercase" />
-    <text name="PasswordComplexity_RequireLowercase_Hint" />
+    <text value="パスワードは{0}文字以上にする必要があります。" name="PasswordComplexity_RequiredLength_Hint" />
+    <text value="パスワードに小文字を使用する" name="PasswordComplexity_RequireLowercase" />
+    <text value="パスワードには少なくとも1つの小文字（ 'a'-'z'）が必要です。" name="PasswordComplexity_RequireLowercase_Hint" />
     <text value="パスワードに特殊文字を使用する" name="PasswordComplexity_RequireNonAlphanumeric" />
-    <text name="PasswordComplexity_RequireNonAlphanumeric_Hint" />
+    <text value="パスワードに少なくとも1つの特殊文字が含まれています。" name="PasswordComplexity_RequireNonAlphanumeric_Hint" />
     <text value="パスワードに大文字を使用する" name="PasswordComplexity_RequireUppercase" />
-    <text name="PasswordComplexity_RequireUppercase_Hint" />
+    <text value="パスワードには少なくとも1つの大文字（ 'A'-'Z'）が必要です。" name="PasswordComplexity_RequireUppercase_Hint" />
     <text value="パスワードは少なくとも1つの小文字を含む必要があります" name="PasswordComplexity_UseLowerCaseLetters_Hint" />
     <text value="パスワードは少なくとも1桁でなければなりません" name="PasswordComplexity_UseNumbers_Hint" />
     <text value="パスワードには少なくとも1つの特殊文字を含める必要があります" name="PasswordComplexity_UsePunctuations_Hint" />
@@ -2095,13 +2143,13 @@
     <text name="PaymentId" />
     <text value="料金情報" name="PaymentInfo" />
     <text value="お支払い方法" name="PaymentMethods" />
-    <text name="PaymentMightBeExpiredWarning" />
+    <text value="処理がタイムアウトする可能性があります。既に支払い済みの場合は、お問い合わせください。" name="PaymentMightBeExpiredWarning" />
     <text value="受領方法" name="PaymentMode" />
-    <text name="PaymentPeriodType" />
+    <text value="支払期間タイプ" name="PaymentPeriodType" />
     <text value="毎年" name="PaymentPeriodType_Annual" />
-    <text name="PaymentPeriodType_Monthly" />
+    <text value="毎月" name="PaymentPeriodType_Monthly" />
     <text value="罰則の内容" name="Penaltycontent" />
-    <text value="ペナルティアイテム" name="PenaltyItem" />
+    <text value="ペナルティ" name="PenaltyItem" />
     <text value="保留中の申し立て" name="PendingClaim" />
     <text value="保留中の財務レビュー" name="PendingFinancialReview" />
     <text value="パートナーによってレビューされる" name="PendingPartnerReview" />
@@ -2112,7 +2160,7 @@
     <text value="応募者" name="PepoleWhoUse" />
     <text value="パーセンテージ" name="Percentage" />
     <text value="パフォーマンス" name="Performance" />
-    <text name="Period" />
+    <text value="日付" name="Period" />
     <text value="当局" name="Permission" />
     <text value="この権限はユーザー組織から継承されます" name="PermissionInheritedFromOrganizationUnit" />
     <text value="当局" name="Permissions" />
@@ -2138,7 +2186,7 @@
     <text value="個人プロジェクト" name="PersonProject" />
     <text value="人事タイプ" name="PersonType" />
     <text value="個人ホームページ" name="PersonWebSite" />
-    <text name="PerYear" />
+    <text value="毎年" name="PerYear" />
     <text value="電話番号" name="PhoneNumber" />
     <text value="携帯電話番号が最大送信制限を超えています" name="PhoneNumberExceedsMaximum" />
     <text value="写真を撮る" name="Photograph" />
@@ -2152,7 +2200,7 @@
     <text value="弁護士関係保管所" name="PlaceOfLawyerRelations" />
     <text value="人員ファイル保管場所" name="PlaceOfPersonnelFiles" />
     <text value="原告" name="Plaintiff" />
-    <text value="" name="Platform.MultiTenancy.Tenant" />
+    <text value="入居者" name="Platform.MultiTenancy.Tenant" />
     <text value="オンラインで録画を再生する" name="PlaybackRecordingsOnline" />
     <text value="検索条件を調整してください" name="PleaseAdjustTheSearchCriteria" />
     <text value="スタッフを選んでください！" name="PleaseChooseAEmployee" />
@@ -2202,7 +2250,7 @@
     <text value="添付ファイルをアップロードしてください！" name="PleaseUploadTheAttachments" />
     <text value="テンプレートファイルをアップロードしてください！" name="PleaseUploadTheTemplateFile" />
     <text value="交換する必要があるものを含めるには、＃$と$＃というタグを使用してください。" name="PleaseUseLabelReplaceTheContent" />
-    <text name="PleaseWaitToConfirmYourEmailMessage" />
+    <text value="メールアドレスを確認しています。お待ちください..." name="PleaseWaitToConfirmYourEmailMessage" />
     <text value="質権者" name="Pledgee" />
     <text value="プレドゴール" name="Pledgor" />
     <text value="判例ライブラリ" name="PluginGroup.CaseLaw" />
@@ -2284,10 +2332,11 @@
     <text value="1MB以内のJPG / JPEG画像のみを選択してください。アバターファイルを再選択してください。" name="ProfilePicture_Warn_FileType" />
     <text value="1MB以内のJPG / JPEG画像のみを選択してください。アバターファイルを再選択してください。" name="ProfilePicture_Warn_SizeLimit" />
     <text value="ルート組織を削除することはできません。" name="ProhibitDeleteRootOrganizationUnit" />
+    <text value="アイテム" name="Project" />
     <text value="プロジェクトバーンアウトチャート" name="ProjectBurnoutChart" />
     <text value="明細カテゴリ" name="ProjectCategory" />
     <text value="プロジェクトの内容" name="ProjectContent" />
-    <text value="プロジェクトのカバー" name="ProjectCover" />
+    <text value="プロジェクトカバー" name="ProjectCover" />
     <text value="プロジェクトデータリンク" name="ProjectDataLink" />
     <text value="プロジェクトの説明" name="ProjectDescription" />
     <text value="プロジェクトのドキュメント" name="ProjectDocuments" />
@@ -2298,15 +2347,16 @@
     <text value="プロジェクト名" name="ProjectName" />
     <text value="品目番号" name="ProjectNumber" />
     <text value="プロジェクトのプライバシー" name="ProjectPrivacy" />
-    <text value="プロジェクトプロセスフェーズ" name="ProjectProcessPhase" />
+    <text value="プロジェクト段階" name="ProjectProcessPhase" />
     <text value="プロジェクトソース" name="ProjectSource" />
     <text value="プロジェクトのステータス" name="ProjectStatus" />
+    <text value="プロジェクトテンプレート" name="ProjectTemplate" />
     <text value="プロジェクトの時間" name="ProjectTime" />
     <text name="Property" />
     <text value="プロパティのセグメンテーション" name="PropertySegmentation" />
     <text value="比例配分" name="ProportionateDistribution" />
     <text value="積立基金ローン" name="ProvidentFundLoans" />
-    <text value="プロジェクトを開く" name="PublicProject" />
+    <text value="公共プロジェクト" name="PublicProject" />
     <text value="公開済み" name="Published" />
     <text value="延期記録ログ" name="PunctualLog" />
     <text value="処罰機関" name="PunishmentMechanism" />
@@ -2323,6 +2373,8 @@
     <text value="季節" name="Quarterly" />
     <text value="単語セグメンテーション結果によるクエリ" name="QueryByParticiples" />
     <text value="クイックアジェンダ" name="QuickAgendaView" />
+    <text value="迅速な予約" name="QuickAppointment" />
+    <text value="クイックナビゲーション" name="QuickNavigation" />
     <text value="テーマの迅速な選択" name="QuickThemeSelection" />
     <text value="上陸を退く" name="QuitLanding" />
     <text value="クォータ基準" name="Quotastandard" />
@@ -2341,6 +2393,7 @@
     <text value="領収書情報" name="ReceiptInformation" />
     <text value="領収書情報テーブル" name="ReceiptInformationTable" />
     <text value="請求書の領収書" name="ReceiptOfInvoice" />
+    <text value="領収書レビュー" name="ReceiptReview" />
     <text value="領収書" name="Receipts" />
     <text value="領収書ステータスが変更されました。" name="ReceiptStateHasBeenChanged" />
     <text value="{0} {1}の現金領収書があります。" name="ReceiptWaitForClaimed" />
@@ -2359,7 +2412,7 @@
     <text value="録音時間" name="RecordingTime" />
     <text value="運用記録" name="Records" />
     <text value="合計{0}レコード" name="RecordsCount" />
-    <text name="RecurringSubscriptionUpgradeNote" />
+    <text value="現在のバージョンとアップグレードされるバージョンの価格差がアカウントに請求されます。" name="RecurringSubscriptionUpgradeNote" />
     <text value="ごみ箱" name="RecycleBin" />
     <text value="レッド" name="Red" />
     <text value="再送信" name="Redo" />
@@ -2436,7 +2489,7 @@
     <text value="代理店の結果" name="RepresentativeResults" />
     <text value="要求されたファイルは存在しません！" name="RequestedFileDoesNotExists" />
     <text value="去る" name="RequestForLeave" />
-    <text name="RequestTimedOut" />
+    <text value="リクエストがタイムアウトしました。しばらくしてからもう一度お試しください。" name="RequestTimedOut" />
     <text value="必須" name="Required" />
     <text name="RequiredField" />
     <text value="パスワードを変更する必要があります" name="RequiresPasswordChange" />
@@ -2537,7 +2590,7 @@
     <text value="保存..." name="SavingWithThreeDot" />
     <text value="コードのダウンロードをスキャンしてネイティブアプリをインストールする" name="ScanDownloadNativeApp" />
     <text value="QRコードをスキャンして連絡先情報を電話帳に追加する" name="ScanQrCodeToAddContact" />
-    <text name="ScanQrCodeWithYourMobileApp" />
+    <text value="アプリケーションでこのQRコードをスキャンしてください" name="ScanQrCodeWithYourMobileApp" />
     <text value="小さなプログラムを使ってコードをスキャンするOpen WeChat" name="ScanUseWeChatMina" />
     <text value="WeChatがコードをスキャンしたり検索を検索する" name="ScanUseWechatOfficialAccounts" />
     <text value="アジェンダ" name="Schedule" />
@@ -2570,6 +2623,7 @@
     <text value="スタンパー" name="Sealer" />
     <text value="シールは空ではありません！" name="SealerCanTBeEmpty" />
     <text value="スタンプの数は少なくとも1です" name="SealNumberMustPositiveInteger" />
+    <text value="シールの選択" name="SealSelection" />
     <text value="印鑑ステータス" name="SealState" />
     <text value="シールタイプ" name="SealType" />
     <text value="シール方法" name="Sealway" />
@@ -2701,11 +2755,11 @@
     <text value="設定をスキップして直接ログインする" name="SkipSetting" />
     <text value="単語セグメンテーション検索" name="SliptWordSearch" />
     <text name="Sms" />
-    <text name="SmsSecurityCodeMessage" />
+    <text value="セキュリティコードは次のとおりです：{0}" name="SmsSecurityCodeMessage" />
     <text value="SMS確認コードが携帯電話に送信されました。確認してください（10分間有効）" name="SMSverificationCodehasbeenSent" />
     <text value="SMS認証コードの送信に失敗しました。再送信してください" name="SMSverificationCodeSentFailed" />
     <text name="SmsVerificationEnabled" />
-    <text name="SmsVerificationMessage" />
+    <text value="確認コード：{0}" name="SmsVerificationMessage" />
     <text value="SMTPサーバー" name="SmtpHost" />
     <text value="SMTPポート" name="SmtpPort" />
     <text value="社会保険基金" name="SocialInsuranceBase" />
@@ -2786,17 +2840,17 @@
     <text value="所属事務所" name="SubordinationOffice" />
     <text value="所属エリア" name="SubRegion" />
     <text name="Subscription" />
-    <text name="SubscriptionAssignedToAnother_Email_Body" />
+    <text value="プラットフォームのサブスクリプションは{1}に有効期限が切れました。" name="SubscriptionAssignedToAnother_Email_Body" />
     <text name="SubscriptionEndDate" />
     <text name="SubscriptionEndDateUtc" />
-    <text name="SubscriptionExpire_Email_Body" />
-    <text name="SubscriptionExpire_Email_Subject" />
-    <text name="SubscriptionExpire_SubTitle" />
+    <text value="プラットフォームのサブスクリプションは{0}に有効期限が切れました。" name="SubscriptionExpire_Email_Body" />
+    <text value="プラットフォームのサブスクリプションが期限切れです" name="SubscriptionExpire_Email_Subject" />
+    <text value="このメールは、サブスクリプションの有効期限について通知します" name="SubscriptionExpire_SubTitle" />
     <text name="SubscriptionExpire_Title" />
-    <text name="SubscriptionExpireNotification" />
-    <text name="SubscriptionExpiringSoon_Email_Body" />
-    <text name="SubscriptionExpiringSoon_Email_Subject" />
-    <text name="SubscriptionExpiringSoon_SubTitle" />
+    <text value="サブスクリプションは{0}日後に期限切れになります。" name="SubscriptionExpireNotification" />
+    <text value="プラットフォームのサブスクリプションは{0}に期限切れになります。" name="SubscriptionExpiringSoon_Email_Body" />
+    <text value="プラットフォームサブスクリプションの有効期限通知" name="SubscriptionExpiringSoon_Email_Subject" />
+    <text value="このメールは、サブスクリプションの有効期限について通知します。" name="SubscriptionExpiringSoon_SubTitle" />
     <text name="SubscriptionExpiringSoon_Title" />
     <text name="SubscriptionExpiringTenants" />
     <text name="SubscriptionInformation" />
@@ -2869,10 +2923,10 @@
     <text value="タスクアサイナ" name="TaskAssigner" />
     <text value="タスクボード" name="Taskboard" />
     <text value="タスクチェック項目" name="TaskCheckItem" />
-    <text value="タスクの完了" name="TaskCompletion" />
+    <text value="タスク完了" name="TaskCompletion" />
     <text value="{0}タスク" name="TaskCount" />
     <text value="タスクの作成" name="TaskCreate" />
-    <text value="タスクプロジェクトの作成" name="TaskCreation" />
+    <text value="プロジェクトの作成" name="TaskCreation" />
     <text value="タスクサイクル" name="TaskCycle" />
     <text value="タスクの詳細の編集" name="TaskDetailEditor" />
     <text value="タスクの詳細の変更" name="TaskDetailModification" />
@@ -2885,24 +2939,25 @@
     <text value="プロジェクトメンバーチャート" name="TaskMembersChart" />
     <text value="タスクメンバー統計" name="TaskMemberstatistics" />
     <text value="タスクプロジェクトの変更" name="TaskModification" />
-    <text value="タスク項目番号" name="TaskNumber" />
-    <text value="タスクの概要" name="TaskOverview" />
+    <text value="アイテム番号" name="TaskNumber" />
+    <text value="ミッションの概要" name="TaskOverview" />
     <text value="タスク参加者" name="TaskParticipant" />
     <text value="タスク参加者は空ではありません。" name="TaskParticipantCannotBeEmpty" />
     <text value="タスク参加者フィールドは必須です" name="TaskParticipantRequired" />
     <text value="確認するタスク情報[{0}]があります。" name="TaskPendingConfirmation" />
     <text value="タスク要員完了統計" name="Taskpersonnelcompletionstatistics" />
-    <text value="簡単な紹介" name="TaskPlannerView" />
+    <text value="簡単な問題" name="TaskPlannerView" />
     <text value="タスク優先度統計" name="Taskpriority" />
     <text value="プロジェクトメンバーのタスク統計" name="TaskProjectstatistics" />
     <text value="タスクフェーズ" name="TaskStage" />
     <text value="タスクフェーズの作成" name="TaskStageCreation" />
-    <text value="タスクフェーズの変更" name="TaskStageModification" />
+    <text value="タスクを変更" name="TaskStageModification" />
     <text value="タスクフェーズ番号" name="TaskStageNumber" />
-    <text value="タスクフェーズのフィールドが必要です" name="TaskStageRequired" />
-    <text value="タスクテンプレート" name="TaskTemplate" />
+    <text value="タスクフィールドは必須です" name="TaskStageRequired" />
+    <text value="プロジェクトテンプレート" name="TaskTemplate" />
     <text value="タスク時間" name="TaskTime" />
     <text value="タスクタイプ" name="TaskType" />
+    <text value="タスクワークベンチ" name="TaskWorkbench" />
     <text name="Tax/VatNo" />
     <text value="納税者番号" name="TaxIdentificationNumber" />
     <text value="税率" name="TaxRate" />
@@ -2960,6 +3015,7 @@
     <text value="テナントは他のテナントとのチャットを有効にしません。" name="TenantToTenantChatFeatureIsNotEnabledForReceiver" />
     <text value="他のテナントとチャットを有効にしていません。" name="TenantToTenantChatFeatureIsNotEnabledForSender" />
     <text value="終了" name="Termination" />
+    <text value="テストする" name="test" />
     <text name="TestCheckFeature" />
     <text name="TestCheckFeature2" />
     <text value="これはテストメールです。" name="TestEmail_Body" />
@@ -3032,12 +3088,12 @@
     <text value="第三者のアカウント" name="ThirdPartyAccount" />
     <text value="第3に上陸する" name="ThirdPartyLanding" />
     <text value="アカウント設定を同期する" name="ThirdPartySyncSettings" />
-    <text name="ThisEditionIsUsedAsAnExpiringEdition" />
+    <text value="このバージョンは、他のエディションのサブスクリプションの有効期限バージョンとして使用されます。" name="ThisEditionIsUsedAsAnExpiringEdition" />
     <text name="ThisFieldIsRequired" />
-    <text name="ThisInvoiceIsNotYours" />
+    <text value="この請求書はあなたのものではありません！" name="ThisInvoiceIsNotYours" />
     <text value="この言語は既に存在します！" name="ThisLanguageAlreadyExists" />
     <text value="今月" name="ThisMonth" />
-    <text name="ThisNotificationDoesntBelongToYou" />
+    <text value="この通知はあなたのものではありません。" name="ThisNotificationDoesntBelongToYou" />
     <text value="ウェブサイトのhttpルートパス" name="ThisWebSiteRootAddress" />
     <text value="例：このシステムへの外部リンクのためのhttp://mydomain.com/（パスワードリセットリンクなど）" name="ThisWebSiteRootAddress_Hint" />
     <text value="スリップ" name="ThisWeek" />
@@ -3096,10 +3152,11 @@
     <text value="交通補償" name="TrafficCompensation" />
     <text value="転送" name="TransferAccounts" />
     <text value="ポジティブになった" name="Transfered" />
+    <text value="ファイルを翻訳する" name="translateAFile" />
     <text name="Trial" />
     <text value="試用日" name="TrialDayCount" />
-    <text name="TrialExpireNotification" />
-    <text name="TrialSubscriptionNotification" />
+    <text value="試用期間は{0}日で期限切れになります。" name="TrialExpireNotification" />
+    <text value="{0}試用期間中です。購入は{1}です。" name="TrialSubscriptionNotification" />
     <text name="TryIt" />
     <text value="2段階認証ログインを有効にする" name="TwoFactorEnabled" />
     <text value="ダブルログインの確認" name="TwoFactorLogin" />
@@ -3122,7 +3179,7 @@
     <text name="UiCustomization_DesktopFixedHeader" />
     <text name="UiCustomization_Disabled" />
     <text name="UiCustomization_DisplayHeaderMenu" />
-    <text name="UiCustomization_DisplaySubmenuArrowDesktop" />
+    <text value="サブメニューの矢印を表示する" name="UiCustomization_DisplaySubmenuArrowDesktop" />
     <text name="UiCustomization_DropdownSkin" />
     <text name="UiCustomization_DropdownSubmenuSkin" />
     <text name="UiCustomization_Fixed" />
@@ -3140,10 +3197,10 @@
     <text name="UiCustomization_HeaderSkin" />
     <text name="UiCustomization_Hide" />
     <text name="UiCustomization_Inherit" />
-    <text name="UiCustomization_Layout" />
-    <text name="UiCustomization_LayoutFixedContent" />
-    <text name="UiCustomization_LayoutMobileFixedContent" />
-    <text name="UiCustomization_LayoutType" />
+    <text value="レイアウト" name="UiCustomization_Layout" />
+    <text value="フィックスコンテンツ（デスクトップ）" name="UiCustomization_LayoutFixedContent" />
+    <text value="フィックスコンテンツ（モバイル）" name="UiCustomization_LayoutMobileFixedContent" />
+    <text value="レイアウトタイプ" name="UiCustomization_LayoutType" />
     <text name="UiCustomization_Left" />
     <text name="UiCustomization_Light" />
     <text name="UiCustomization_LightGrey" />
@@ -3177,6 +3234,7 @@
     <text value="ブロック解除する" name="UnblockUser" />
     <text value="未請求" name="Unclaimed" />
     <text value="完了をキャンセルする" name="UncompletedState" />
+    <text value="参加が確認されていません" name="UnconfirmedTask" />
     <text value="請負業者" name="UndertakeLawyer" />
     <text value="満たされていない" name="UnFilled" />
     <text value="未完債務額" name="UnfinishedDebtAmount" />
@@ -3186,6 +3244,7 @@
     <text value="（元 / 時間）" name="UnitDollarsPerHour" />
     <text value="組織名" name="UnitName" />
     <text value="単価" name="UnitPrice" />
+    <text value="ユニバーサル" name="Universal" />
     <text value="不明なエラーが発生しました" name="UnknownError" />
     <text name="UnknownTenantId{0}" />
     <text name="Unlimited" />
@@ -3270,6 +3329,7 @@
     <text value="SSLを使用する" name="UseSsl" />
     <text name="UseSystemDefaults" />
     <text value="請求を使用する" name="UseTheBill" />
+    <text value="電子シールの使用" name="UsingElectronicSeal" />
     <text value="件名を使用する" name="UsingTheStandard" />
     <text value="付加価値" name="ValueAdded" />
     <text value="確認コード" name="VerificationCode" />
@@ -3277,7 +3337,7 @@
     <text value="セキュリティコードを確認する" name="VerifySecurityCode" />
     <text value="送信された確認コードを入力してください。" name="VerifySecurityCode_Information" />
     <text value="あなた自身を確認するには、ログインする必要があります！" name="VerifySecurityCodeNotLoggedInErrorMessage" />
-    <text name="VerifyYourCode" />
+    <text value="確認コードを確認する" name="VerifyYourCode" />
     <text value="ビデオ" name="Video" />
     <text value="ビュー" name="View" />
     <text value="すべてのタスクを表示" name="ViewAllTasks" />
@@ -3318,6 +3378,7 @@
     <text name="Warning" />
     <text value="会議後のレポートを見る" name="WatchThePostConferenceReport" />
     <text value="通信方式" name="WayToCommunicate" />
+    <text value="天気予報" name="WeatherForecast" />
     <text value="Web会議情報" name="WebConferenceInformation" />
     <text value="Web会議記録ファイル" name="WebConferenceRecordingFile" />
     <text value="ウェブログ" name="WebSiteLogs" />
@@ -3326,6 +3387,7 @@
     <text value="WeChatアプレット" name="WeChatMina" />
     <text value="微信公衆号" name="WechatOfficialAccounts" />
     <text name="Weekly" />
+    <text value="今週は" name="WeeklyToDo" />
     <text value="週" name="Weeks" />
     <text value="このアプリケーションにようこそ。左側のメニューから、使用したい機能を起動することができます。" name="WelcomePage_Info" />
     <text value="ようこそ！" name="WelcomePage_Title" />
@@ -3348,13 +3410,14 @@
     <text value="プライバシーの有無" name="WhetherPrivacy" />
     <text value="外国関係にかかわらず" name="WhetherRelatedForegin" />
     <text value="単語セグメンテーション" name="WhetherSplitWord" />
-    <text value="タスクディスパッチャ" name="WhetherTaskAssigner" />
+    <text value="タスクディスパッチャーかどうか" name="WhetherTaskAssigner" />
     <text value="受け入れられた" name="WhetherToAccept" />
     <text value="アクティブ化するかどうか" name="WhetherToActivate" />
     <text value="列表示を発行するかどうか" name="WhetherToDisplayInTheBulletinBorad" />
     <text value="事前登録するかどうか" name="WhetherToFileACase" />
     <text value="おすすめ" name="WhetherToRecommend" />
     <text value="思い出させるかどうか" name="WhetherToRemind" />
+    <text value="スタンプの繰り返し適用を許可するかどうか" name="WhetherToRepeatedStamps" />
     <text value="監査を送信してもよろしいですか？" name="WhetherToSendAnAudit" />
     <text value="財務監査に送られますか？" name="WhetherToSendToFinancialAudit" />
     <text value="選択したスケジュールのステータスを変更してもよろしいですか？" name="WillChangesSelectedOnScheduledState" />
@@ -3388,7 +3451,7 @@
     <text value="ワークフロー" name="Workflow" />
     <text value="作業日数" name="WorkingDays" />
     <text value="勤続年数" name="WorkingLife" />
-    <text value="タスク項目" name="WorkItem" />
+    <text value="アイテム" name="WorkItem" />
     <text value="作業ログ" name="WorkLog" />
     <text value="ログ監査" name="WorkLogAudit" />
     <text value="ログカテゴリ" name="WorkLogCategory" />
@@ -3405,6 +3468,7 @@
     <text value="職場の電話" name="WorkPhone" />
     <text value="仕事用電話2" name="WorkPhone2" />
     <text value="作業時間" name="WorkTime" />
+    <text value="記事を書く" name="WriteAnArticle" />
     <text value="言語を書く" name="WritingLanguage" />
     <text value="文章の統計によると" name="WrittenLanguageStatistics" />
     <text name="WrongSmsVerificationCode" />
@@ -3415,47 +3479,36 @@
     <text value="は" name="Yes" />
     <text value="はい、削除してください！" name="YesDelete" />
     <text value="昨日" name="Yesterday" />
-    <text name="You" />
+    <text value="あなた" name="You" />
     <text value="あなたはすでにこのユーザーを追加しています。" name="YouAlreadySentAFriendshipRequestToThisUser" />
     <text value="[{0}]に申し込んだ案件が審査のために返され、ファイルに配置することはできません。" name="YouApplicationForCaseIsReturnedCanNotFileCase" />
     <text value="[{0}]を申請したケースが確認のために返されました。アプリケーションの内容を変更した後に再送信してください。" name="YouApplicationForCaseIsReturnedPleaseReviseAndSubmitItAgain" />
-    <text name="YouAreAlreadyLoggedInWithUser" />
-    <text name="YouAreNotAuthorizedToPerformThisOperation" />
-    <text name="YouAreNotLinkedToAnyAccount" />
+    <text value="ユーザーとしてログインしています" name="YouAreAlreadyLoggedInWithUser" />
+    <text value="この操作を実行する権限がありません。" name="YouAreNotAuthorizedToPerformThisOperation" />
+    <text value="あなたはどのアカウントにもリンクされていません" name="YouAreNotLinkedToAnyAccount" />
     <text value="ここにあなたのアカウントに戻ることができます。" name="YouCanBackToYourAccount" />
-    <text name="YouCanManageUsersOrganizationUnitsFromOrganizationUnitsPage" />
+    <text value="ユーザーの組織単位は、[組織単位]ページから管理できます。" name="YouCanManageUsersOrganizationUnitsFromOrganizationUnitsPage" />
     <text value="自分の友達を追加することはできません。" name="YouCannotBeFriendWithYourself" />
     <text value="自分のユーザーアカウントを削除することはできません！" name="YouCanNotDeleteOwnAccount" />
     <text value="同じアカウントにリンクすることはできません！" name="YouCannotLinkToSameAccount" />
-    <text name="YouCannotRemoveUserRolePermissionsFromAdminRole" />
-    <text name="YouCannotRemoveUserRolePermissionsFromAdminUser" />
+    <text value="管理ロールからユーザー/ロール編集権限を削除することはできません" name="YouCannotRemoveUserRolePermissionsFromAdminRole" />
+    <text value="管理者からユーザー/ロール編集権限を削除することはできません" name="YouCannotRemoveUserRolePermissionsFromAdminUser" />
     <text value="ブロックされたユーザーはいません。" name="YouDontHaveAnyBlockedFriend" />
     <text value="あなたは友達がいません。" name="YouDontHaveAnyFriend" />
-    <text name="Your email address" />
-    <text name="Your phone number" />
-    <text name="Your postal address" />
-    <text name="Your user identifier" />
-    <text name="Your user profile information (first name, last name, etc.)" />
+    <text value="あなたのメールアドレス" name="Your email address" />
+    <text value="あなたの電話番号" name="Your phone number" />
+    <text value="あなたの連絡先" name="Your postal address" />
+    <text value="あなたのユーザーID" name="Your user identifier" />
+    <text value="あなたのプロフィール情報（名前など）" name="Your user profile information (first name, last name, etc.)" />
     <text value="ユーザーアカウントはアクティブ化されていません。システム管理者がアクティブ化するまでシステムにログインできます。" name="YourAccountIsWaitingToBeActivatedByAdmin" />
     <text value="[{0}]を申請したケースが審査のために返されました。契約情報を変更してください。" name="YourApplicationForCaseIsCheckedAndReturnedPleaseAmendContractInfo" />
-    <text name="YourCode" />
+    <text value="確認コード" name="YourCode" />
     <text value="あなたの電子メールは確認済みです。" name="YourEmailIsConfirmedMessage" />
     <text value="パスワードの変更に成功しました。" name="YourPasswordHasChangedSuccessfully" />
-    <text name="YourPhoneNumberIsNotVerified" />
-    <text name="YourPhoneNumberIsVerified" />
+    <text value="電話番号が確認されていません" name="YourPhoneNumberIsNotVerified" />
+    <text value="電話番号が確認されました" name="YourPhoneNumberIsVerified" />
     <text value="[[0]]提出のために提出したケースは、保留中です。" name="YourRequestForSettlementIsWaitingForArchiving" />
     <text value="他に {0} がいます" name="YouStillHaveOtherCnt" />
     <text value="元" name="Yuan" />
-    <text value="" name="本周待办" />
-    <text value="" name="分配给我的" />
-    <text value="" name="全部" />
-    <text value="" name="我参与进行中" />
-    <text value="" name="我参与未确认 " />
-    <text value="" name="我参与已完成 " />
-    <text value="" name="我参与已逾期" />
-    <text value="" name="我的项目" />
-    <text value="" name="我分配的" />
-    <text value="" name="我分配未确认 " />
-    <text value="" name="我分配未完成" />
   </texts>
 </localizationDictionary>

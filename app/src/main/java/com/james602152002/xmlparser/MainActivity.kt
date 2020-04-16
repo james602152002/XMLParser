@@ -60,7 +60,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
                         }
                         //                        value = value.replaceAll("'", "&apos;");
                         name = name.replace("\\(".toRegex(), "").replace("\\)".toRegex(), "")
-                        name = name.replace(".", "_")
+                        name = name.replace(".", "_").replace(",", "")
 
                         if (!name.contains("{0}") && !name.contains(" ") && !name.contains("/") && name != "ChatUserSearch_Hint")
                             builder.append("    <string name=\"").append(name.trim { it <= ' ' }).append("\">")

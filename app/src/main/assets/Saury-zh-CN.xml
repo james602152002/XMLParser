@@ -4,6 +4,7 @@
     <text value="&quot;{}&quot;是无效的" name="{0}IsInvalid" />
     <text value="{不能删除0}用户." name="{0}UserCannotBeDeleted" />
     <text value="法院简称" name="AbbreviationOfCourt" />
+    <text value="即将离开" name="AboutToLeave" />
     <text value="关于我们" name="AboutUs" />
     <text value="组织单位" name="Abp.Organizations.OrganizationUnit" />
     <text value="应用程序设置缓存" name="AbpApplicationSettingsCache" />
@@ -45,6 +46,7 @@
     <text value="添加本案关联联系人" name="AddCaseContact" />
     <text value="请从下述方式中添加合同文件，若无合同，案件状态将一直处于待上传合同阶段！" name="AddCaseContractModalTips" />
     <text value="收费方式为正常收费时，律师费用不能为0，请添加收费信息!" name="AddChargingInformation" />
+    <text value="添加联系人" name="AddContact" />
     <text value="添加开庭提醒" name="AddCourtRemind" />
     <text value="按{0}或单击浏览器窗口顶部的“书签”，然后从下拉菜单中选择“添加书签...”。" name="AddCurrentPageToBookmark" />
     <text value="添加客户通讯录" name="AddCustomerAddressBook" />
@@ -75,6 +77,7 @@
     <text value="添加模板" name="AddTemplate" />
     <text value="添加到收藏夹" name="AddToBookMark" />
     <text value="添加用户" name="AddUser" />
+    <text value="添加拜访" name="AddVisit" />
     <text value="添加拜访记录" name="AddVisitRecord" />
     <text value="调整位置" name="AdjustPosition" />
     <text value="请调整检索条件或返回上一级" name="AdjustSearchCriteriaOrReturnToThePreviousLevel" />
@@ -83,6 +86,7 @@
     <text value="行政操作指引" name="AdministrativeGuide" />
     <text value="行政人力" name="AdministrativeHR" />
     <text value="行政处罚" name="Administrativepenalties" />
+    <text value="行政用章" name="AdministrativeSeal" />
     <text value="行政用章管理信息表" name="AdministrativeSealManagementInformationTable" />
     <text value="有一条行政盖章请求，等待您的审核." name="AdministrativeSealReview" />
     <text value="管理员操作指引" name="AdministratorGuide" />
@@ -201,6 +205,7 @@
     <text value="应用" name="Apply" />
     <text value="文书报审" name="ApplyDocumentReview" />
     <text value="申请结束时间" name="ApplyEndTime" />
+    <text value="申请试用" name="ApplyForTrial" />
     <text value="申请文书盖章" name="ApplyPaperStamp" />
     <text value="申请开始时间" name="ApplyStartTime" />
     <text value="申请时间" name="ApplyTime" />
@@ -231,7 +236,7 @@
     <text value="是否确定变更当前代码的状态？" name="AreYouSureChangeCurrentCodeState" />
     <text value="是否确定变更选中的会议状态？" name="AreYouSureTheChangeSelectedSessionState" />
     <text value="是否确认删除当前文件夹?" name="AreYouSureToDeleteTheCurrentFolder" />
-    <text value="是否确认按该模板创建任务项目？确认后不可更换模板！" name="AreYouSureYouCreationWithTemplate" />
+    <text value="是否确认按该模板创建项目？确认后不可更换模板！" name="AreYouSureYouCreationWithTemplate" />
     <text value="确定要删除吗？" name="AreYouSureYouWantToDelete" />
     <text value="确定要彻底删除吗？" name="AreYouSureYouWantToRemoveItCompletely" />
     <text value="确定要还原吗？" name="AreYouSureYouWantToRestore" />
@@ -239,9 +244,13 @@
     <text value="时间倒序" name="AscendingOfTime" />
     <text value="名称倒序" name="AscendingOfTitle" />
     <text value="按时间升序" name="AscendingOrderOfTime" />
-    <text value="我分配已完成 " name="AssignCompletedTask" />
     <text value="已分配" name="Assigned" />
-    <text value="我分配已逾期 " name="AssignOverdueTask" />
+    <text value="我分配已完成 " name="AssignedCompletedTask" />
+    <text value="我分配已逾期 " name="AssignedExpiredTask" />
+    <text value="我分配的" name="AssignedTask" />
+    <text value="分配给我的" name="AssignedTaskToMe" />
+    <text value="我分配未完成" name="AssignedUncompletedTask" />
+    <text value="我分配未确认 " name="AssignedUnconfirmedTask" />
     <text value="分配到另一个版本" name="AssignToAnotherEdition" />
     <text value="助理电话" name="AssistantPhone" />
     <text value="关联账单信息" name="AssociatedBillingInfo" />
@@ -316,6 +325,7 @@
     <text value="账单小时：" name="BillHoursWithColon" />
     <text value="账单" name="Billing" />
     <text value="开票金额" name="BillingAmount" />
+    <text value="账单上限金额" name="BillingAmountCap" />
     <text value="账单关联" name="BillingAssociation" />
     <text value="账单周期" name="BillingCycle" />
     <text value="账单周期：" name="BillingCycleWithColon" />
@@ -370,6 +380,7 @@
     <text value="经营状态" name="Businessstatus" />
     <text value="业务时长" name="BusinessTime" />
     <text value="业务类型" name="BusinessType" />
+    <text value="业务工作日志" name="BusinessWorkLog" />
     <text value="按钮对齐方式" name="ButtonAlign" />
     <text value="现在购买" name="BuyNow" />
     <text value="{0}版本" name="BuyNow_Edition_Description" />
@@ -476,11 +487,13 @@
     <text value="案件取消" name="CaseRemove" />
     <text value="案件结果及分析" name="CaseResultsAndAnalysis" />
     <text value="案件扭转信息" name="CaseReversalInformation" />
+    <text value="案件审核" name="CaseReview" />
     <text value="您申请的结案归档案件[{0}],已被案件负责人退回,请修改结案信息." name="CaseReviewReturned" />
     <text value="案件流水号规则格式化" name="CaseSerialIdFormat" />
     <text value="案件流水号规则" name="CaseSerialIdRule" />
     <text value="案件阶段" name="CasesOfStage" />
     <text value="案件开始时间" name="CaseStartTime" />
+    <text value="案件状态年度数据统计" name="CaseStatusAnnualStatistics" />
     <text value="案件状态同比" name="CaseStatusYearonYear" />
     <text value="补充案由" name="CaseSupplement" />
     <text value="案件委托方、对方当事人信息" name="CaseTheDelegateTheOtherPartyInformation" />
@@ -565,7 +578,7 @@
     <text value="清除缓存" name="ClearCache" />
     <text value="已成功清除" name="ClearedSuccessfully" />
     <text value="对不起，请先清空此阶段列表上的任务，然后再删除这个阶段列表！" name="ClearTasklistInStage" />
-    <text value="对不起，请先清空此任务项目上的所有阶段及任务，然后再删除这个项目！" name="ClearTaskProject" />
+    <text value="对不起，请先清空此任务项目上的所有任务，然后再删除这个项目！" name="ClearTaskProject" />
     <text value="点击获取手机验证码" name="ClickforVerificationCode" />
     <text value="点击这里" name="ClickHere" />
     <text value="点击右侧链接可查看前置操作信息" name="ClickOnTheRightLinkToViewTheFrontActionInfo" />
@@ -655,6 +668,7 @@
     <text value="电脑编号" name="ComputerNumbering" />
     <text value="参会密码" name="ConferencePassword" />
     <text value="保密协议" name="ConfidentialityAgreement" />
+    <text value="配置" name="Configuration" />
     <text value="确认" name="Confirm" />
     <text value="确认审批信息？" name="ConfirmApprovalInformation" />
     <text value="已往您的{0}邮箱发送了一封邮件，请点击邮件中的链接，验证您的邮箱地址." name="ConfirmationMailSentPleaseClickLinkInTheEmail" />
@@ -685,6 +699,7 @@
     <text value="内容信息" name="ContentInformation" />
     <text value="内容长度超过限制" name="ContentLengthExceedingLimit" />
     <text value="内容设置" name="ContentSetting" />
+    <text value="继续访问" name="ContinueToVisit" />
     <text value="合同" name="Contract" />
     <text value="合同金额" name="ContractAmount" />
     <text value="合同附件" name="ContractAttachments" />
@@ -700,7 +715,7 @@
     <text value="转化参与的工作日志" name="ConvertWorkLogOfParticipation" />
     <text value="同意Cookie" name="CookieConsent" />
     <text name="CookieConsent_Dismiss" />
-    <text name="CookieConsent_Message" />
+    <text value="本网站使用cookie来确保您在我们的网站上获得最佳体验。" name="CookieConsent_Message" />
     <text value="协同待确认" name="CoordinateToBeConfirmed" />
     <text value="份数" name="Copies" />
     <text value="复制" name="Copy" />
@@ -730,6 +745,7 @@
     <text value="法院/法庭时间信息" name="CourtOrCourtTimeInformation" />
     <text value="法院提醒信息" name="CourtReminder" />
     <text value="法院" name="Courts" />
+    <text value="当前疫情期间，全时网络会议免费使用！" name="COVID19FullTimeipsConferencingFreeTips" />
     <text value="创建案件" name="CreateACase" />
     <text value="创建分类" name="CreateAClassification" />
     <text value="创建客户" name="CreateACustomer" />
@@ -799,6 +815,7 @@
     <text value="客户" name="Customer" />
     <text value="客户地址" name="CustomerAddress" />
     <text value="客户基本信息" name="CustomerBasicInfo" />
+    <text value="客户交流" name="CustomerCommunications" />
     <text value="客户联系人" name="CustomerContact" />
     <text value="客户开发" name="CustomerDevelopment" />
     <text value="客户文档" name="CustomerDocuments" />
@@ -896,7 +913,7 @@
     <text value="您好，这是一个测试消息。请在不同的浏览器中登录和退出来测试聊天功能。" name="Demo_SampleChatMessage" />
     <text value="演示PayPal帐户" name="DemoPayPalAccount" />
     <text value="演示UI组件" name="DemoUiComponents" />
-    <text value="&#xA;      此页面显示了一些可在您的应用程序中使用的UI组件。&#xA;            此页面中的组件实现为全栈（包括服务器端）。&#xA;    " name="DemoUiComponents_Info" />
+    <text value="      此页面显示了一些可在您的应用程序中使用的UI组件。            此页面中的组件实现为全栈（包括服务器端）。    " name="DemoUiComponents_Info" />
     <text value="检查Metronic主题以获取更多UI组件" name="DemoUiComponents_Info_Metronic_Link_Text" />
     <text value="部门" name="Department" />
     <text value="所和部门文档" name="DepartmentalDocuments" />
@@ -934,6 +951,7 @@
     <text value="离婚时" name="Divorce" />
     <text value="共 %s 份文档" name="DocCounts" />
     <text value="文书类型" name="DocType" />
+    <text value="文档分析" name="DocumentAnalysis" />
     <text value="文书审批信息表" name="DocumentApprovalInformationSheet" />
     <text value="文档中心" name="DocumentCenter" />
     <text value="文书详情" name="DocumentDetail" />
@@ -963,6 +981,7 @@
     <text value="下载纪要" name="DownloadMinutes" />
     <text value="下载会后报告" name="DownloadPostConferenceReport" />
     <text value="是否编辑或完善转化后的工作日志？" name="DoYouEditOrImproveConvertedWorkLog" />
+    <text value="起草文件及修改" name="DraftingDocumentsAndAmendments" />
     <text value="分组内可拖动排序" name="DragSortInGroups" />
     <text value="邮箱{0}已被占用" name="DuplicateEmail" />
     <text value="持续时间" name="Duration" />
@@ -999,6 +1018,9 @@
     <text value="学历" name="Education" />
     <text value="教育背景" name="EducationalBackground" />
     <text value="生效义务" name="Effectiveobligation" />
+    <text value="出现该提示表示您当前登陆的账号在电子签章平台无相应的盖章权限，请耐心等待有盖章权限人完成电子签章或联系系统管理员以帮助开通盖章权限！" name="ElectronicSealNoSignAuthorityTips" />
+    <text value="该文档已申请使用电子签章盖章，请点击 盖章 按钮完成签署动作！" name="ElectronicSealSignActionTips" />
+    <text value="该文档已申请使用电子签章盖章，请等待盖章人完成盖章权限！" name="ElectronicSealWaitSignCompleteTips" />
     <text value="电子签章信息" name="ElectronicSignatureInfo" />
     <text value="电子邮件" name="Email" />
     <text value="邮箱验证" name="EmailActivation" />
@@ -1035,6 +1057,7 @@
     <text value="英语" name="English" />
     <text value="检索关键字（英文）" name="EnglishKeywordsSearch" />
     <text value="英文名" name="EnglishName" />
+    <text value="英文名称" name="EnName" />
     <text value="企业工商注册名称" name="EnterpriseBusinessRegistrationNameOfEnterprise" />
     <text value="企业密钥" name="EnterpriseKey" />
     <text value="企业公司注册号" name="EnterpriseRegistrationNumber" />
@@ -1079,6 +1102,7 @@
     <text value="费用审核" name="ExpenseReview" />
     <text value="到期日期" name="ExpirationDate" />
     <text value="已到期" name="Expired" />
+    <text value="我参与已逾期" name="ExpiredTask" />
     <text value="即将到期" name="Expiring" />
     <text name="ExpiringEdition" />
     <text value="到期后强制转为免费版" name="ExpiringEditionMustBeAFreeEdition" />
@@ -1123,6 +1147,7 @@
     <text name="FileCantBeConvertedToUserList" />
     <text value="文件目录" name="FileDirectory" />
     <text value="文件不存在" name="FileDoesNotExist" />
+    <text value="文件需符合以下格式：{0}" name="FileFormatLimitation" />
     <text value="文件生成失败:{0}" name="FileGenerationFailure" />
     <text value="报审文件信息表" name="FileInformationSheet" />
     <text value="档案信息表" name="FileInformationTable" />
@@ -1150,13 +1175,15 @@
     <text value="财务操作指引" name="FinancialGuide" />
     <text value="财务信息" name="FinancialInformation" />
     <text value="财务操作记录" name="FinancialOperationRecord" />
+    <text value="财务概览" name="FinancialOverview" />
     <text value="财务审核" name="FinancialReview" />
     <text value="您申请的结案归档案件[{0}],已被财务退回,请修改结案信息." name="FinancialReviewReturned" />
     <text value="当前案件的财务结案审核申请已经被处理！" name="FinancialSettlementAuditOfCaseHasBeenProcessed" />
     <text value="财务审核退回" name="FinanciaReviewReturned" />
     <text value="查找案件" name="FindACase" />
     <text value="查找客户" name="FindACustomer" />
-    <text value="所务日志" name="FirmLog" />
+    <text value="查找法规，资料" name="FindRegulations,Information" />
+    <text value="所务工作日志" name="FirmLog" />
     <text value="所务文档" name="FirmOperationDocuments" />
     <text value="首" name="First" />
     <text value="财政季" name="FiscalQuarter" />
@@ -1192,6 +1219,7 @@
     <text value="例如" name="ForExample" />
     <text value="忘记密码" name="ForgetPassword" />
     <text value="不记得密码了?" name="ForgotPassword" />
+    <text value="忘备录起草/修改" name="ForgotToRecordDrafting/Modification" />
     <text value="正式案件" name="FormalCase" />
     <text value="正式客户" name="FormalCustomer" />
     <text value="正式VIP客户" name="FormalVipCustomers" />
@@ -1214,8 +1242,8 @@
     <text value="功能" name="Functions" />
     <text value="涨幅" name="Gains" />
     <text value="网关" name="Gateway" />
-    <text name="GdprDataPreparedNotificationMessage" />
-    <text name="GdprDataPrepareStartedNotification" />
+    <text value="您的数据已准备好，请单击此处下载。" name="GdprDataPreparedNotificationMessage" />
+    <text value="我们正在准备您的数据。 数据准备就绪时，您会收到通知。" name="GdprDataPrepareStartedNotification" />
     <text value="性别" name="Gender" />
     <text value="基本信息" name="General" />
     <text value="生成" name="Generate" />
@@ -1252,7 +1280,7 @@
     <text value="已完成" name="HasBeenCompleted" />
     <text value="{0}已确认参与您分配的日程[{1}]" name="HasBeenConfirmedToParticipateInYourAssignedSchedule" />
     <text value="已退回" name="HasBeenReturned" />
-    <text value="此内容可能与您的案件有1条利益冲突信息" name="HasConflictHint" />
+    <text value="此内容可能与您的案件有利益冲突信息" name="HasConflictHint" />
     <text value="已拒绝" name="HasDeclined" />
     <text value="出现错误" name="HasError" />
     <text value="法律援助" name="HasLegalAid" />
@@ -1290,6 +1318,7 @@
     <text value="人力资源操作指引" name="HumanGuide" />
     <text value="无法匹配与主键编号相关的信息！" name="IdHasNotBeenFound" />
     <text value="图像" name="Image" />
+    <text value="图片最小像素：{0}，比例：{1}" name="ImgSizeScaleLimitation" />
     <text value="模拟认证无效或过期" name="ImpersonationTokenErrorMessage" />
     <text value="重要且紧急" name="ImportantAndInstancy" />
     <text value="重要但不紧急" name="ImportantButNotInstancy" />
@@ -1350,8 +1379,9 @@
     <text value="用户名或密码无效" name="InvalidUserNameOrPassword" />
     <text value="发明人" name="Inventor" />
     <text value="反转" name="Inverse" />
+    <text value="调查取证" name="Investigation" />
     <text value="投资金额" name="Investmentamount" />
-    <text value="会议邀请嘉宾" name="InvitedGuests" />
+    <text value="参会嘉宾" name="InvitedGuests" />
     <text value="无效的语言代码." name="InvlalidLanguageCode" />
     <text value="发票" name="Invoice" />
     <text value="发票金额" name="InvoiceAmount" />
@@ -1377,6 +1407,7 @@
     <text value="发票[{0}]{1}." name="InvoiceNotify" />
     <text value="发票编号" name="InvoiceNumber" />
     <text value="发票[{0}]已退回." name="InvoiceReturned" />
+    <text value="发票审核" name="InvoiceReview" />
     <text value="发票状态已更改." name="InvoiceStatusHasBeenChanged" />
     <text value="发票抬头" name="InvoiceTitle" />
     <text value="发票给" name="InvoiceTo" />
@@ -1458,6 +1489,7 @@
     <text value="律师" name="Lawyer" />
     <text value="律师助理" name="LawyerAssistant" />
     <text value="{0} 位律师" name="LawyerCnt" />
+    <text value="律师间讨论" name="LawyerDiscussion" />
     <text value="律师费" name="LawyerFee" />
     <text value="律师费信息" name="LawyerFeeInfo" />
     <text value="律师函退回" name="LawyerLetterReturned" />
@@ -1483,6 +1515,7 @@
     <text value="请假时间" name="LeaveTime" />
     <text value="请假类型" name="LeaveType" />
     <text value="左侧菜单" name="LeftMenu" />
+    <text value="法律咨询" name="LegalAdvice" />
     <text value="是否法律援助" name="LegalAid" />
     <text value="法律顾问合同续签情况" name="LegalCounselContractRenewalSituation" />
     <text value="法律顾问服务内容" name="LegalCounselServiceContent" />
@@ -1508,6 +1541,7 @@
     <text value="违约金" name="LiquidatedDamages" />
     <text value="应收款列表" name="ListOfReceivables" />
     <text value="列表视图" name="ListView" />
+    <text value="诉讼/仲裁/开庭" name="Litigation/Arbitration/Hearing" />
     <text value="诉讼费" name="LitigationCosts" />
     <text value="诉讼阶段同比" name="LitigationPhase" />
     <text value="正在努力地加载数据中，请稍候……" name="LoadingMessage" />
@@ -1526,6 +1560,7 @@
     <text value="日志" name="Log" />
     <text value="日志分析" name="LogAnalysis" />
     <text value="日志分析图表" name="LogAnalysisChart" />
+    <text value="日志审批" name="LogApproval" />
     <text value="日志审批失败，请尝试重新提交审批" name="LogApprovalFailedRemind" />
     <text value="日志审批成功" name="LogApprovalSuccess" />
     <text value="日志内容/备注" name="LogContentOrRemarks" />
@@ -1615,16 +1650,16 @@
     <text value="当前时段该会议室已存在预订过的会议，请您选择其他时段预订或更换会议室！" name="MeetingRoomHasBeenOccupied" />
     <text value="会议室信息表" name="MeetingRoomInformationSheet" />
     <text value="会议室字段是必需的" name="MeetingRoomIsRequired" />
-    <text value="会议室级别" name="MeetingRoomLevel" />
+    <text value="会议室类别" name="MeetingRoomLevel" />
     <text value="会议室管理" name="MeetingRoomManagement" />
     <text value="会议室管理人" name="MeetingRoomManager" />
     <text value="会议室修改" name="MeetingRoomModification" />
     <text value="会议室名称" name="MeetingRoomName" />
-    <text value="会议室名称/描述" name="MeetingRoomNameOrDescription" />
+    <text value="会议室名称" name="MeetingRoomNameOrDescription" />
     <text value="会议室编号" name="MeetingRoomNumber" />
     <text value="会议室规模" name="MeetingRoomScale" />
     <text value="选择会议室" name="MeetingRoomSelection" />
-    <text value="会议室风格" name="MeetingRoomStyle" />
+    <text value="会议室风格描述" name="MeetingRoomStyle" />
     <text value="会议来源" name="MeetingSource" />
     <text value="会议状态" name="MeetingState" />
     <text value="会议时间" name="MeetingTime" />
@@ -1667,18 +1702,28 @@
     <text value="将租户迁移至另一个版本" name="MoveTenantsOfEdition" />
     <text value="{0} 租户将被迁移" name="MoveTenantsOfEditionDescription" />
     <text value="将租户迁移至另一个版本" name="MoveTenantsToAnotherEdition" />
-    <text name="MoveTenantsToAnotherEditionStartedNotification" />
+    <text value="我们正在将租户迁移到选定的版本。 操作完成时将通知您。" name="MoveTenantsToAnotherEditionStartedNotification" />
     <text value="所属多个部门，点击+号显示所有" name="MultipleOrganizationUnit" />
     <text value="请在{0}中录入对方当事人信息。" name="MustHasConflictInfo" />
+    <text value="我的账单" name="MyBill" />
+    <text value="我的业务计数" name="MyBusinessCount" />
+    <text value="我的案件计数统计" name="MyCaseCountStatistics" />
     <text value="我的收藏" name="MyCollection" />
     <text name="MyCompanyName.AbpZeroTemplate.Authorization.Roles.Role" />
     <text name="MyCompanyName.AbpZeroTemplate.MultiTenancy.Tenant" />
+    <text value="我参与已完成 " name="MyCompletedTask" />
     <text value="我的组件" name="MyComponents" />
+    <text value="我的费用" name="MyExpenses" />
     <text value="我的文件" name="MyFile" />
+    <text value="我的财务统计" name="MyFinancialStatistics" />
+    <text value="我的发票" name="MyInvoice" />
     <text value="我的日志" name="MyLog" />
+    <text value="我的日志统计" name="MyLogStatistics" />
+    <text value="我的收款" name="MyPayment" />
     <text value="我的项目" name="MyProject" />
     <text value="我的履历" name="MyResume" />
     <text value="我" name="MySettings" />
+    <text value="我的任务" name="MyTask" />
     <text value="我的组件" name="MyWidgets" />
     <text value="我的工作日志" name="MyWorkLog" />
     <text value="名字" name="Name" />
@@ -1784,6 +1829,7 @@
     <text value="未添加子任务" name="NoSubtaskAdded" />
     <text value="文件类型不匹配！" name="NotAcceptedFileType" />
     <text value="未激活" name="NotActivated" />
+    <text value="系统检测到您当前尚未激活 {0} 服务,您本次的访问可能会有数据受限的情况！" name="NotActivatedServiceAccessLimitedTips" />
     <text value="公证费" name="NotarialFee" />
     <text value="没有分配" name="NotAssigned" />
     <text value="未收集" name="NotCollected" />
@@ -1819,7 +1865,7 @@
     <text value="律师案件数同比" name="NumberofLawyersYearonYear" />
     <text value="按组织机构统计日志数量" name="NumberofLogByorganization" />
     <text value="日志数量" name="NumberOfLogs" />
-    <text value="会议预订数量" name="NumberOfMeetings" />
+    <text value="预订会议数量" name="NumberOfMeetings" />
     <text value="新增任务数和完成任务数" name="Numberofnewandcompletedtasks" />
     <text value="新增任务数" name="Numberofnewtasks" />
     <text value="剩余任务数" name="Numberofremainingtasks" />
@@ -2022,11 +2068,11 @@
     <text value="我的日程" name="Pages.Works.Schedule.MySchedule" />
     <text value="日程中心" name="Pages.Works.Schedule.ScheduleCenter" />
     <text value="日程中心" name="Pages.Works.ScheduleCenter" />
-    <text value="任务进程" name="Pages.Works.Task" />
+    <text value="项目进程" name="Pages.Works.Task" />
     <text value="任务工作台" name="Pages.Works.Task.Dashboard" />
-    <text value="任务项目" name="Pages.Works.Task.Project" />
-    <text value="任务统计" name="Pages.Works.Task.Statistics" />
-    <text value="任务模板" name="Pages.Works.Task.Templates" />
+    <text value="项目" name="Pages.Works.Task.Project" />
+    <text value="项目统计" name="Pages.Works.Task.Statistics" />
+    <text value="项目模板" name="Pages.Works.Task.Templates" />
     <text value="页展示数据条数" name="PageSize" />
     <text value="默认展示10条，可设置的展示条数范围：5-100条" name="PageSizeTips" />
     <text value="付费" name="Paid" />
@@ -2038,12 +2084,14 @@
     <text value="参与人" name="Participants" />
     <text value="参会人可见" name="ParticipantsVisible" />
     <text value="确认参与" name="ParticipateConfirm" />
+    <text value="参加谈判" name="ParticipateInNegotiations" />
     <text value="参案角色" name="ParticipateInRole" />
     <text value="确认是否参与日程" name="ParticipateInSchedule" />
     <text value="参与任务" name="ParticipateInTasks" />
     <text value="参与项目" name="ParticipateProject" />
     <text value="参案律师" name="ParticipatingLawyer" />
     <text value="待转化的参与日志" name="ParticipatingLogsToBeTransformed" />
+    <text value="我参与进行中" name="ParticipatingTask" />
     <text value="参加社会团体及兼职情况" name="ParticipationInSocialGroupsAndPart" />
     <text value="参会链接" name="ParticipationLink" />
     <text value="合伙人" name="Partner" />
@@ -2284,6 +2332,7 @@
     <text value="只能选择1mb内的JPG/JPEG图片，请重新选择头像文件." name="ProfilePicture_Warn_FileType" />
     <text value="只能选择{0}mb内的JPG/JPEG图片，请重新选择头像文件." name="ProfilePicture_Warn_SizeLimit" />
     <text value="不允许删除根组织." name="ProhibitDeleteRootOrganizationUnit" />
+    <text value="项目" name="Project" />
     <text value="项目燃尽图" name="ProjectBurnoutChart" />
     <text value="项目类别" name="ProjectCategory" />
     <text value="项目内容" name="ProjectContent" />
@@ -2298,9 +2347,10 @@
     <text value="项目名称" name="ProjectName" />
     <text value="项目编号" name="ProjectNumber" />
     <text value="项目隐私性" name="ProjectPrivacy" />
-    <text value="项目进程阶段" name="ProjectProcessPhase" />
+    <text value="项目阶段" name="ProjectProcessPhase" />
     <text value="项目来源" name="ProjectSource" />
     <text value="项目状态" name="ProjectStatus" />
+    <text value="项目模版" name="ProjectTemplate" />
     <text value="项目时间" name="ProjectTime" />
     <text value="属性" name="Property" />
     <text value="房产分割" name="PropertySegmentation" />
@@ -2323,6 +2373,8 @@
     <text value="季" name="Quarterly" />
     <text value="按分词结果查询" name="QueryByParticiples" />
     <text value="快速事项" name="QuickAgendaView" />
+    <text value="快速预约" name="QuickAppointment" />
+    <text value="快捷导航" name="QuickNavigation" />
     <text value="主题快速选择" name="QuickThemeSelection" />
     <text value="退出登陆" name="QuitLanding" />
     <text value="分配额度标准" name="Quotastandard" />
@@ -2341,6 +2393,7 @@
     <text value="收款信息" name="ReceiptInformation" />
     <text value="收款信息表" name="ReceiptInformationTable" />
     <text value="发票领用" name="ReceiptOfInvoice" />
+    <text value="收款审核" name="ReceiptReview" />
     <text value="收款数" name="Receipts" />
     <text value="收款状态已更改." name="ReceiptStateHasBeenChanged" />
     <text value="有一笔金额为{0}{1}的收款待领取." name="ReceiptWaitForClaimed" />
@@ -2359,7 +2412,7 @@
     <text value="录制时间" name="RecordingTime" />
     <text value="操作记录" name="Records" />
     <text value="共{0}条记录" name="RecordsCount" />
-    <text name="RecurringSubscriptionUpgradeNote" />
+    <text value="当前版本和要升级的版本之间的价格差将通过您的帐户收取。" name="RecurringSubscriptionUpgradeNote" />
     <text value="回收站" name="RecycleBin" />
     <text value="红色" name="Red" />
     <text value="重新提交" name="Redo" />
@@ -2570,6 +2623,7 @@
     <text value="盖章人" name="Sealer" />
     <text value="盖章人不能为空！" name="SealerCanTBeEmpty" />
     <text value="盖章份数至少为1" name="SealNumberMustPositiveInteger" />
+    <text value="印章选择" name="SealSelection" />
     <text value="盖章状态" name="SealState" />
     <text value="盖章类型" name="SealType" />
     <text value="盖章方式" name="Sealway" />
@@ -2872,7 +2926,7 @@
     <text value="任务完成情况" name="TaskCompletion" />
     <text value="共  {0} 条任务" name="TaskCount" />
     <text value="创建任务" name="TaskCreate" />
-    <text value="任务项目创建" name="TaskCreation" />
+    <text value="项目创建" name="TaskCreation" />
     <text value="任务周期" name="TaskCycle" />
     <text value="任务详情编辑" name="TaskDetailEditor" />
     <text value="任务详情修改" name="TaskDetailModification" />
@@ -2885,7 +2939,7 @@
     <text value="项目成员图表" name="TaskMembersChart" />
     <text value="任务成员统计" name="TaskMemberstatistics" />
     <text value="任务项目修改" name="TaskModification" />
-    <text value="任务项目编号" name="TaskNumber" />
+    <text value="项目编号" name="TaskNumber" />
     <text value="任务概览" name="TaskOverview" />
     <text value="任务参与人" name="TaskParticipant" />
     <text value="任务参与人不能为空." name="TaskParticipantCannotBeEmpty" />
@@ -2897,12 +2951,13 @@
     <text value="项目成员任务统计" name="TaskProjectstatistics" />
     <text value="任务阶段" name="TaskStage" />
     <text value="任务阶段创建" name="TaskStageCreation" />
-    <text value="任务阶段修改" name="TaskStageModification" />
+    <text value="修改任务" name="TaskStageModification" />
     <text value="任务阶段编号" name="TaskStageNumber" />
-    <text value="任务阶段字段是必需的" name="TaskStageRequired" />
-    <text value="任务模板" name="TaskTemplate" />
+    <text value="任务字段是必需的" name="TaskStageRequired" />
+    <text value="项目模板" name="TaskTemplate" />
     <text value="任务时间" name="TaskTime" />
     <text value="任务类型" name="TaskType" />
+    <text value="任务工作台" name="TaskWorkbench" />
     <text value="税务代码" name="Tax/VatNo" />
     <text value="税号" name="TaxIdentificationNumber" />
     <text value="税率" name="TaxRate" />
@@ -2960,6 +3015,7 @@
     <text value="当前租户没有启用与其他租户聊天功能。" name="TenantToTenantChatFeatureIsNotEnabledForReceiver" />
     <text value="您没有启用与其他租户聊天的功能。" name="TenantToTenantChatFeatureIsNotEnabledForSender" />
     <text value="终止" name="Termination" />
+    <text value="测试" name="test" />
     <text value="测试功能" name="TestCheckFeature" />
     <text value="测试功能2" name="TestCheckFeature2" />
     <text value="这是一个测试邮件。" name="TestEmail_Body" />
@@ -3037,7 +3093,7 @@
     <text value="这张发票不是你的！" name="ThisInvoiceIsNotYours" />
     <text value="这种语言已经存在!" name="ThisLanguageAlreadyExists" />
     <text value="这个月" name="ThisMonth" />
-    <text name="ThisNotificationDoesntBelongToYou" />
+    <text value="此通知不属于您。" name="ThisNotificationDoesntBelongToYou" />
     <text value="网站http根路径" name="ThisWebSiteRootAddress" />
     <text value="示例： http://mydomain.com/ ，用于外部链接本系统，如密码重置链接" name="ThisWebSiteRootAddress_Hint" />
     <text value="本周" name="ThisWeek" />
@@ -3096,10 +3152,11 @@
     <text value="交通赔偿" name="TrafficCompensation" />
     <text value="转账" name="TransferAccounts" />
     <text value="已转正" name="Transfered" />
+    <text value="翻译文件" name="translateAFile" />
     <text value="试用" name="Trial" />
     <text value="试用天数" name="TrialDayCount" />
     <text value="您的试用期将在{0}天后到期。" name="TrialExpireNotification" />
-    <text value="您正处于{0}版试用期，{1}购买。" name="TrialSubscriptionNotification" />
+    <text value="您正处于{0}试用期，{1}购买。" name="TrialSubscriptionNotification" />
     <text value="试试吧" name="TryIt" />
     <text value="启用两步认证登录" name="TwoFactorEnabled" />
     <text value="两步认证登录" name="TwoFactorLogin" />
@@ -3141,8 +3198,8 @@
     <text value="隐藏" name="UiCustomization_Hide" />
     <text value="继承" name="UiCustomization_Inherit" />
     <text value="布局" name="UiCustomization_Layout" />
-    <text name="UiCustomization_LayoutFixedContent" />
-    <text name="UiCustomization_LayoutMobileFixedContent" />
+    <text value="固定内容（桌面）" name="UiCustomization_LayoutFixedContent" />
+    <text value="固定内容（移动）" name="UiCustomization_LayoutMobileFixedContent" />
     <text value="布局类型" name="UiCustomization_LayoutType" />
     <text value="左" name="UiCustomization_Left" />
     <text value="明亮" name="UiCustomization_Light" />
@@ -3177,6 +3234,7 @@
     <text value="解锁用户" name="UnblockUser" />
     <text value="未认领" name="Unclaimed" />
     <text value="取消完成状态" name="UncompletedState" />
+    <text value="我参与未确认 " name="UnconfirmedTask" />
     <text value="承办律师" name="UndertakeLawyer" />
     <text value="未填写" name="UnFilled" />
     <text value="尚未履行的债务金额" name="UnfinishedDebtAmount" />
@@ -3186,6 +3244,7 @@
     <text value="（元 / 小时）" name="UnitDollarsPerHour" />
     <text value="单位名称" name="UnitName" />
     <text value="单价" name="UnitPrice" />
+    <text value="通用" name="Universal" />
     <text value="发生未知错误" name="UnknownError" />
     <text value="未知租户ID：{0}" name="UnknownTenantId{0}" />
     <text value="无限" name="Unlimited" />
@@ -3270,6 +3329,7 @@
     <text value="使用SSL" name="UseSsl" />
     <text value="使用系统默认值" name="UseSystemDefaults" />
     <text value="使用账单" name="UseTheBill" />
+    <text value="使用电子印章" name="UsingElectronicSeal" />
     <text value="使用标的" name="UsingTheStandard" />
     <text value="增值金额" name="ValueAdded" />
     <text value="验证码" name="VerificationCode" />
@@ -3318,6 +3378,7 @@
     <text value="等待中" name="Warning" />
     <text value="观看会后报告" name="WatchThePostConferenceReport" />
     <text value="沟通方式" name="WayToCommunicate" />
+    <text value="天气预报" name="WeatherForecast" />
     <text value="网络会议信息" name="WebConferenceInformation" />
     <text value="网络会议录音文件" name="WebConferenceRecordingFile" />
     <text value="网站日志" name="WebSiteLogs" />
@@ -3326,6 +3387,7 @@
     <text value="微信小程序" name="WeChatMina" />
     <text value="微信公众号" name="WechatOfficialAccounts" />
     <text value="每周" name="Weekly" />
+    <text value="本周待办" name="WeeklyToDo" />
     <text value="周" name="Weeks" />
     <text value="欢迎使用本应用，您可以从左边的菜单启动要使用的功能。如果您没有看到任何菜单，可能是因为您没有获得任何一项授权，您可以联系您的系统管理员获得授权. " name="WelcomePage_Info" />
     <text value="欢迎!" name="WelcomePage_Title" />
@@ -3348,13 +3410,14 @@
     <text value="是否隐私" name="WhetherPrivacy" />
     <text value="是否涉外" name="WhetherRelatedForegin" />
     <text value="是否分词" name="WhetherSplitWord" />
-    <text value="是否任务分派人" name="WhetherTaskAssigner" />
+    <text value="是否是任务分派人" name="WhetherTaskAssigner" />
     <text value="是否接受" name="WhetherToAccept" />
     <text value="是否激活" name="WhetherToActivate" />
     <text value="是否公布栏展示" name="WhetherToDisplayInTheBulletinBorad" />
     <text value="是否预立案" name="WhetherToFileACase" />
     <text value="是否推荐" name="WhetherToRecommend" />
     <text value="是否提醒" name="WhetherToRemind" />
+    <text value="是否允许重复申请盖章" name="WhetherToRepeatedStamps" />
     <text value="是否确认发送审核？" name="WhetherToSendAnAudit" />
     <text value="是否发送给财务审核" name="WhetherToSendToFinancialAudit" />
     <text value="是否确定变更选中的日程状态？" name="WillChangesSelectedOnScheduledState" />
@@ -3388,7 +3451,7 @@
     <text value="工作流" name="Workflow" />
     <text value="应工作天数" name="WorkingDays" />
     <text value="工作年限" name="WorkingLife" />
-    <text value="任务项目" name="WorkItem" />
+    <text value="项目" name="WorkItem" />
     <text value="工作日志" name="WorkLog" />
     <text value="日志审核" name="WorkLogAudit" />
     <text value="日志类别" name="WorkLogCategory" />
@@ -3405,6 +3468,7 @@
     <text value="工作电话" name="WorkPhone" />
     <text value="工作电话2" name="WorkPhone2" />
     <text value="工作时间" name="WorkTime" />
+    <text value="撰写文章" name="WriteAnArticle" />
     <text value="书写语言" name="WritingLanguage" />
     <text value="按书写语言统计" name="WrittenLanguageStatistics" />
     <text value="错误的验证码！" name="WrongSmsVerificationCode" />
@@ -3415,13 +3479,13 @@
     <text value="是" name="Yes" />
     <text value="是, 执行删除!" name="YesDelete" />
     <text value="昨天" name="Yesterday" />
-    <text name="You" />
+    <text value="您" name="You" />
     <text value="您已经添加了这个用户。" name="YouAlreadySentAFriendshipRequestToThisUser" />
     <text value="您申请的案件[{0}]审核退回，不可以立案." name="YouApplicationForCaseIsReturnedCanNotFileCase" />
     <text value="您申请的案件[{0}]审核退回,请修改申请内容后重新提交." name="YouApplicationForCaseIsReturnedPleaseReviseAndSubmitItAgain" />
-    <text name="YouAreAlreadyLoggedInWithUser" />
-    <text name="YouAreNotAuthorizedToPerformThisOperation" />
-    <text name="YouAreNotLinkedToAnyAccount" />
+    <text value="您已经以用户身份登录" name="YouAreAlreadyLoggedInWithUser" />
+    <text value="您无权执行此操作。" name="YouAreNotAuthorizedToPerformThisOperation" />
+    <text value="您没有链接到任何帐户" name="YouAreNotLinkedToAnyAccount" />
     <text value="点击此返回我的账户." name="YouCanBackToYourAccount" />
     <text value="您可以从“组织单位”页面管理用户的组织单位。" name="YouCanManageUsersOrganizationUnitsFromOrganizationUnitsPage" />
     <text value="您不能邀请自己做朋友" name="YouCannotBeFriendWithYourself" />
@@ -3446,16 +3510,5 @@
     <text value="您申请的结案归档案件[{0}]等待归档." name="YourRequestForSettlementIsWaitingForArchiving" />
     <text value="您还有其他 {0} 条" name="YouStillHaveOtherCnt" />
     <text value="元" name="Yuan" />
-    <text value="" name="本周待办" />
-    <text value="" name="分配给我的" />
-    <text value="" name="全部" />
-    <text value="" name="我参与进行中" />
-    <text value="" name="我参与未确认 " />
-    <text value="" name="我参与已完成 " />
-    <text value="" name="我参与已逾期" />
-    <text value="" name="我的项目" />
-    <text value="" name="我分配的" />
-    <text value="" name="我分配未确认 " />
-    <text value="" name="我分配未完成" />
   </texts>
 </localizationDictionary>
