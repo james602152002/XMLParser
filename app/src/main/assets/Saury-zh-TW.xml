@@ -310,7 +310,9 @@
     <text value="財政年度開始月份" name="BeginningOfTheFiscalYear" />
     <text value="被借出" name="BeLent" />
     <text value="所屬人" name="Belonger" />
+    <text value="投標案件[{0}]等待您進行沖突檢索." name="BidCaseWaitingForYouToPerformConflictRetrieval" />
     <text value="招投標" name="Bidding" />
+    <text value="投標轉立案" name="BidToCase" />
     <text value="賬單" name="Bill" />
     <text value="可開賬單" name="Billable" />
     <text value="賬單金額" name="BillAmount" />
@@ -407,6 +409,7 @@
     <text value="不能為空." name="CannotBeEmpty" />
     <text value="已完善，不可修改" name="CannotBeModified" />
     <text value="管理用戶，不能修改用戶名." name="CanNotChangeAdminUserName" />
+    <text value="案件中無法同時選擇預立案和投標!" name="CannotChoosePreopeningAndBiddingInTheCase" />
     <text value="不允許刪除該案件!" name="CannotDeleteCase" />
     <text value="對不起，您不能在該目錄下直接創建或編輯文件夾，請選擇其他目錄！" name="CannotEditDirectlyUnderThisDirectory" />
     <text value="不能刪除默認語言.只能刪除或者修改自己增加的語言. 但可以改變所有語言的文本信息." name="CanNotEditOrDeleteDefaultLanguages" />
@@ -686,6 +689,7 @@
     <text value="確認是否參與任務" name="ConfirmWhetherParticipateTask" />
     <text value="共{0}條衝突信息" name="ConflictCounts" />
     <text value="利益衝突信息" name="ConflictOfInterestInformation" />
+    <text value="利益衝突檢索規避條件" name="ConflictOfInterestRetrievalAvoidanceConditions" />
     <text value="{0} 條衝突記錄" name="ConflictRecordsCnt" />
     <text value="衝突檢索退回" name="ConflictRetrievalReturn" />
     <text value="待衝突檢索" name="ConflictSearch" />
@@ -1018,6 +1022,7 @@
     <text value="學歷" name="Education" />
     <text value="教育背景" name="EducationalBackground" />
     <text value="生效義務" name="Effectiveobligation" />
+    <text value="電子發票" name="ElectronicInvoice" />
     <text value="出現該提示表示您當前登陸的賬號在電子簽章平台無相應的蓋章權限，請耐心等待有蓋章權限人完成電子簽章或聯繫系統管理員以幫助開通蓋章權限！" name="ElectronicSealNoSignAuthorityTips" />
     <text value="該文檔已申請使用電子簽章蓋章，請點擊 蓋章 按鈕完成簽署動作！" name="ElectronicSealSignActionTips" />
     <text value="該文檔已申請使用電子簽章蓋章，請等待蓋章人完成蓋章權限！" name="ElectronicSealWaitSignCompleteTips" />
@@ -1285,7 +1290,7 @@
     <text value="出現錯誤" name="HasError" />
     <text value="法律援助" name="HasLegalAid" />
     <text value="尚未接受" name="HasNotAccepted" />
-    <text value="是否包含組織架構" name="HasOrganization" />
+    <text value="是否包含組織機構" name="HasOrganization" />
     <text value="自有庫" name="HasOwnDatabase" />
     <text value="會議[{0}]已將您設置為會議主持人." name="HasSetYouAsEmceeOfMeeting" />
     <text value="會議[{0}]已將您設置為會議聯繫人." name="HasSetYouAsMeetingContact" />
@@ -1612,6 +1617,7 @@
     <text value="婚否" name="MarriageStatus" />
     <text value="材料名稱" name="MaterialName" />
     <text value="鎖定帳戶之前失敗的登錄嘗試次數的最大值" name="MaxFailedAccessAttemptsBeforeLockout" />
+    <text value="您最多可上傳{0}張圖片" name="MaximumUploadPictures" />
     <text value="最大用戶數" name="MaximumUserCount" />
     <text name="MaximumUserCount_Description" />
     <text value="允許此租戶最多擁有{0}名用戶。" name="MaximumUserCount_Error_Detail" />
@@ -1709,8 +1715,6 @@
     <text value="我的業務計數" name="MyBusinessCount" />
     <text value="我的案件計數統計" name="MyCaseCountStatistics" />
     <text value="我的收藏" name="MyCollection" />
-    <text name="MyCompanyName.AbpZeroTemplate.Authorization.Roles.Role" />
-    <text name="MyCompanyName.AbpZeroTemplate.MultiTenancy.Tenant" />
     <text value="我參與已完成" name="MyCompletedTask" />
     <text value="我的組件" name="MyComponents" />
     <text value="我的費用" name="MyExpenses" />
@@ -2206,6 +2210,7 @@
     <text value="請選擇一個職員!" name="PleaseChooseAEmployee" />
     <text value="請選擇一個職員!" name="PleasechooseAStaffMember" />
     <text value="請選擇帶出時間!" name="PleaseChooseToBringOutTime" />
+    <text value="上傳與刪除背景圖片後請點擊頁面右上角的保存全部按鈕！" name="PleaseClickSaveAllAfterOperation" />
     <text value="請完善會議紀要內容" name="PleaseCompleteMinutesOfMeeting" />
     <text name="PleaseEnterAtLeastNCharacter" />
     <text value="請在{0}秒內輸入驗證碼" name="PleaseEnterCodeWithinSeconds" />
@@ -2294,8 +2299,10 @@
     <text value="相關利益的潛在第三方" name="PotentialThirdPartiesOfInterest" />
     <text value="執業證號" name="PracticeNumber" />
     <text value="預開賬單" name="PreBilling" />
+    <text value="預立案件[{0}]等待您進行沖突檢索." name="PreCaseWaitingForYouToPerformConflictRetrieval" />
     <text value="偏好設置" name="Preferences" />
     <text value="前置字段" name="PreField" />
+    <text value="預立案轉立案" name="PreFiled" />
     <text value="預立案標識代字" name="PreFilingWord" />
     <text value="該代字只在預立案專案有效，非預立案專案不顯示" name="PreFilingWord_Hint" />
     <text value="預開賬單" name="PreOpeningBill" />
@@ -2444,6 +2451,8 @@
     <text value="相關案件" name="RelatedCases" />
     <text value="關聯客戶" name="RelatedCustomers" />
     <text value="關聯信息" name="RelatedInfo" />
+    <text value="案件申請過程相關參數配置" name="RelatedParameterConfigurationOfCaseApplicationProcess" />
+    <text value="案件審核過程相關參數配置" name="RelatedParameterConfigurationOfCaseReviewProcess" />
     <text value="與其關係" name="RelatedPartiesRelationship" />
     <text value="共 %s 個關聯案件" name="RelatedProjectCnt" />
     <text value="關聯項目信息" name="RelatedProjects" />
@@ -2575,6 +2584,8 @@
     <text value="運行中的計時器" name="RunningTimer" />
     <text value="薪酬級別" name="SalaryLevel" />
     <text value="同比" name="SameAs" />
+    <text value="同負責人" name="SamePersonInCharge" />
+    <text value="同負責人同客戶" name="SamePersonInChargeAndSameClient" />
     <text value="相同聯繫人" name="SameSourceContacts" />
     <text value="樣本文檔" name="SampleDocuments" />
     <text value="樣本預覽" name="Samplepreview" />
@@ -2731,7 +2742,9 @@
     <text value="律智薈 - 法律圈智能匯聚平台" name="ShareTitle" />
     <text value="快捷操作" name="Shortcuts" />
     <text value="下次登錄需要修改密碼." name="ShouldChangePasswordOnNextLogin" />
+    <text value="顯示預立案" name="ShowAdvanceCase" />
     <text value="顯示高級過濾" name="ShowAdvancedFilters" />
+    <text value="顯示投標" name="ShowBid" />
     <text value="顯示辦案費稅率" name="Showcaserate" />
     <text value="顯示已刪除用戶" name="ShowDeletedUser" />
     <text name="ShowInvoice" />
@@ -2846,12 +2859,12 @@
     <text value="您的平台訂閱已於{0}過期。" name="SubscriptionExpire_Email_Body" />
     <text value="您的平台訂閱已過期" name="SubscriptionExpire_Email_Subject" />
     <text value="此電子郵件將通知您有關訂閱到期的通知" name="SubscriptionExpire_SubTitle" />
-    <text name="SubscriptionExpire_Title" />
+    <text value="平台訂閱到期" name="SubscriptionExpire_Title" />
     <text value="您的訂閱將在{0}天后到期。" name="SubscriptionExpireNotification" />
     <text value="您的平台訂閱將在{0}到期。" name="SubscriptionExpiringSoon_Email_Body" />
     <text value="您的平台訂閱到期通知" name="SubscriptionExpiringSoon_Email_Subject" />
     <text value="此電子郵件將通知您有關訂閱到期的通知。" name="SubscriptionExpiringSoon_SubTitle" />
-    <text name="SubscriptionExpiringSoon_Title" />
+    <text value="平台訂閱到期通知" name="SubscriptionExpiringSoon_Title" />
     <text name="SubscriptionExpiringTenants" />
     <text name="SubscriptionInformation" />
     <text name="SubscriptionPaymentGatewayType_Paypal" />
@@ -2868,6 +2881,7 @@
     <text value="小計金額" name="Subtotal" />
     <text value="抄送單位" name="SubUnit" />
     <text value="成功" name="Success" />
+    <text value="投標立案成功" name="SuccessfulBidding" />
     <text value="添加成功" name="SuccessfullyAdded" />
     <text value="複製參會邀請信息成功" name="SuccessfullyCopiedTheInvitationInformation" />
     <text value="刪除成功." name="SuccessfullyDeleted" />
@@ -2877,6 +2891,7 @@
     <text value="移除成功" name="SuccessfullyRemoved" />
     <text value="保存成功." name="SuccessfullySaved" />
     <text value="成功取消關聯" name="SuccessfullyUnlinked" />
+    <text value="預立案成功" name="SuccessfulPreFiling" />
     <text value="郵箱後綴" name="Suffix" />
     <text value="摘要" name="Summary" />
     <text value="督辦律師" name="SupervisionLawyer" />
@@ -3019,7 +3034,7 @@
     <text name="TestCheckFeature" />
     <text name="TestCheckFeature2" />
     <text value="這是一封測試郵件." name="TestEmail_Body" />
-    <text value="律智薈測試郵件" name="TestEmail_Subject" />
+    <text value="測試電子郵件" name="TestEmail_Subject" />
     <text value="測試郵件發送成功" name="TestEmailSentSuccessfully" />
     <text value="測試郵箱設置" name="TestEmailSettingsHeader" />
     <text value="文本" name="Text" />
@@ -3040,6 +3055,7 @@
     <text value="當前目錄為系統目錄，無法刪除!" name="TheCurrentDirectoryIsAsystemDirectoryAndCannotBeDeleted" />
     <text value="當前檔案已被借出" name="TheCurrentFileHasBeenLoaned" />
     <text value="當前檔案已被歸還" name="TheCurrentFileHasBeenReturned" />
+    <text value="當前發票已處理！" name="TheCurrentInvoiceHasBeenProcessed" />
     <text value="收案日期" name="TheDateOfAcceptance" />
     <text value="刪除文件夾會同時移除子文件夾及文件，該刪除可通過回收站找回" name="TheDeletionCanBeRetrievedByTheRecycleBin" />
     <text value="元以內按比例分賬，超出部分不再分賬。" name="TheExcessIsNoLongerSplit" />
@@ -3151,6 +3167,7 @@
     <text value="繁體中文" name="TraditionalChinese" />
     <text value="交通賠償" name="TrafficCompensation" />
     <text value="轉賬" name="TransferAccounts" />
+    <text value="轉立案" name="TransferCase" />
     <text value="已轉正" name="Transfered" />
     <text value="翻譯文件" name="translateAFile" />
     <text name="Trial" />
@@ -3420,7 +3437,10 @@
     <text value="是否允許重複申請蓋章" name="WhetherToRepeatedStamps" />
     <text value="是否確認發送審核？" name="WhetherToSendAnAudit" />
     <text value="是否發送給財務審核" name="WhetherToSendToFinancialAudit" />
+    <text value="是否開啟錄音" name="WhetherToStartRecording" />
+    <text value="是否使用全時網絡會議" name="WhetherUsingWebConferencing" />
     <text value="是否確定變更選中的日程狀態？" name="WillChangesSelectedOnScheduledState" />
+    <text value="無任何條件" name="WithoutAnyCondition" />
     <text value="當前目錄下已存在同名的文件夾" name="WithTheSameNameAlreadyExistsUnderTheCurrentDirectory" />
     <text value="立案-待衝突檢索" name="WN.Business.CaseCheck.Created" />
     <text value="結案-負責人審核" name="WN.Business.CaseClose.Created" />

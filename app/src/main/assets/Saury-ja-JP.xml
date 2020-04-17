@@ -310,7 +310,9 @@
     <text value="会計年度の開始月" name="BeginningOfTheFiscalYear" />
     <text value="借りた" name="BeLent" />
     <text value="所有者" name="Belonger" />
+    <text value="入札ケース[{0}]は競合検索を待っています。" name="BidCaseWaitingForYouToPerformConflictRetrieval" />
     <text value="入札" name="Bidding" />
+    <text value="入札する" name="BidToCase" />
     <text value="ビル" name="Bill" />
     <text value="請求可能な明細書" name="Billable" />
     <text value="請求額" name="BillAmount" />
@@ -407,6 +409,7 @@
     <text value="暇にならない" name="CannotBeEmpty" />
     <text value="完了し、変更不可能" name="CannotBeModified" />
     <text value="ユーザーを管理し、ユーザー名を変更することはできません。" name="CanNotChangeAdminUserName" />
+    <text value="ケースのプレオープン、入札は選べません!" name="CannotChoosePreopeningAndBiddingInTheCase" />
     <text value="このケースは削除できません！" name="CannotDeleteCase" />
     <text value="申し訳ありませんが、このディレクトリの下に直接フォルダを作成または編集することはできません。別のディレクトリを選択してください！" name="CannotEditDirectlyUnderThisDirectory" />
     <text value="あなたは自分の言語を削除したり変更したりすることができますが、すべての言語のテキスト情報を変更することができます。" name="CanNotEditOrDeleteDefaultLanguages" />
@@ -686,6 +689,7 @@
     <text value="タスクへの参加を確認する" name="ConfirmWhetherParticipateTask" />
     <text value="合計{0}競合情報" name="ConflictCounts" />
     <text value="利害情報の衝突" name="ConflictOfInterestInformation" />
+    <text value="利益相反の取得回避条件" name="ConflictOfInterestRetrievalAvoidanceConditions" />
     <text value="{0} 競合レコード" name="ConflictRecordsCnt" />
     <text value="競合検索戻り" name="ConflictRetrievalReturn" />
     <text value="保留中の競合の取得" name="ConflictSearch" />
@@ -1018,6 +1022,7 @@
     <text value="教育" name="Education" />
     <text value="教育的背景" name="EducationalBackground" />
     <text value="効果的な義務" name="Effectiveobligation" />
+    <text value="電子請求書" name="ElectronicInvoice" />
     <text value="このプロンプトは、現在ログインしているアカウントに、電子署名プラットフォームに対応する印鑑権限がないことを示しています。印鑑権限を持つ人が電子印鑑を完了するまで待つか、システム管理者に連絡して、印鑑権限を開いてください！" name="ElectronicSealNoSignAuthorityTips" />
     <text value="このドキュメントは電子シールに適用されています。シールボタンをクリックして、署名アクションを完了してください！" name="ElectronicSealSignActionTips" />
     <text value="このドキュメントは電子印鑑に応募しました。押印者が印鑑当局を完了するまでお待ちください！" name="ElectronicSealWaitSignCompleteTips" />
@@ -1025,9 +1030,9 @@
     <text value="Eメール" name="Email" />
     <text value="メール確認" name="EmailActivation" />
     <text value="下のリンクをクリックしてメールアドレスを確認し、ユーザーアカウントを有効にしてください：" name="EmailActivation_ClickTheLinkBelowToVerifyYourEmail" />
-    <text value="ユーザーアカウントを有効にする" name="EmailActivation_Subject" />
+    <text value="ユーザーアカウントをアクティブ化する" name="EmailActivation_Subject" />
     <text value="システムはこの電子メールを送信して、電子メールアドレスを確認し、ユーザーアカウントを有効にします。" name="EmailActivation_SubTitle" />
-    <text value="システムの使用を歓迎します。" name="EmailActivation_Title" />
+    <text value="システムへようこそ。" name="EmailActivation_Title" />
     <text value="メールアドレス" name="EmailAddress" />
     <text value="電子メールアドレスの確認" name="EmailConfirm" />
     <text value="ログインするには、電子メールアドレスを確認する必要があります。" name="EmailConfirmationRequiredForLogin" />
@@ -1285,7 +1290,7 @@
     <text value="エラーが発生しました" name="HasError" />
     <text value="法的援助" name="HasLegalAid" />
     <text value="まだ受け入れられていない" name="HasNotAccepted" />
-    <text value="組織構造を含めるかどうか" name="HasOrganization" />
+    <text value="組織を含めるかどうか" name="HasOrganization" />
     <text value="自分の図書館" name="HasOwnDatabase" />
     <text value="会議[{0}]があなたを会議のホストとして設定しました。" name="HasSetYouAsEmceeOfMeeting" />
     <text value="会議[{0}]はあなたを会議の連絡先として設定しました。" name="HasSetYouAsMeetingContact" />
@@ -1612,6 +1617,7 @@
     <text value="結婚" name="MarriageStatus" />
     <text value="品名" name="MaterialName" />
     <text value="アカウントをロックするまでに失敗したログイン試行の最大回数" name="MaxFailedAccessAttemptsBeforeLockout" />
+    <text value="最大{0}枚の写真をアップロードできます" name="MaximumUploadPictures" />
     <text value="ユーザーの最大数" name="MaximumUserCount" />
     <text name="MaximumUserCount_Description" />
     <text value="このテナントには、最大{0}人のユーザーを含めることができます。" name="MaximumUserCount_Error_Detail" />
@@ -1709,8 +1715,6 @@
     <text value="私のビジネス数" name="MyBusinessCount" />
     <text value="症例数統計" name="MyCaseCountStatistics" />
     <text value="私のコレクション" name="MyCollection" />
-    <text name="MyCompanyName.AbpZeroTemplate.Authorization.Roles.Role" />
-    <text name="MyCompanyName.AbpZeroTemplate.MultiTenancy.Tenant" />
     <text value="参加が完了しました" name="MyCompletedTask" />
     <text value="私のコンポーネント" name="MyComponents" />
     <text value="私の経費" name="MyExpenses" />
@@ -2206,6 +2210,7 @@
     <text value="スタッフを選んでください！" name="PleaseChooseAEmployee" />
     <text value="スタッフを選んでください！" name="PleasechooseAStaffMember" />
     <text value="時間を持って来てください！" name="PleaseChooseToBringOutTime" />
+    <text value="背景画像をアップロードして削除したら、ページの右上隅にある[すべて保存]ボタンをクリックしてください。" name="PleaseClickSaveAllAfterOperation" />
     <text value="会議の議事録を完了してください" name="PleaseCompleteMinutesOfMeeting" />
     <text name="PleaseEnterAtLeastNCharacter" />
     <text value="{0}秒以内に確認コードを入力してください" name="PleaseEnterCodeWithinSeconds" />
@@ -2294,8 +2299,10 @@
     <text value="関連する利害関係者の潜在的第三者" name="PotentialThirdPartiesOfInterest" />
     <text value="ライセンス番号" name="PracticeNumber" />
     <text value="事前請求" name="PreBilling" />
+    <text value="事前に確立されたケース[{0}]が競合検索を待っています。" name="PreCaseWaitingForYouToPerformConflictRetrieval" />
     <text value="設定" name="Preferences" />
     <text value="事前フィールド" name="PreField" />
+    <text value="事前に提出" name="PreFiled" />
     <text value="文字の事前ファイリングと識別" name="PreFilingWord" />
     <text value="この手紙は事前に提出されたプロジェクトではなく、事前にプロジェクトでのみ有効です。" name="PreFilingWord_Hint" />
     <text value="事前請求" name="PreOpeningBill" />
@@ -2444,6 +2451,8 @@
     <text value="関連するケース" name="RelatedCases" />
     <text value="関連するお客様" name="RelatedCustomers" />
     <text value="関連情報" name="RelatedInfo" />
+    <text value="ケース申請プロセスの関連パラメータ設定" name="RelatedParameterConfigurationOfCaseApplicationProcess" />
+    <text value="ケースレビュープロセスの関連パラメーター構成" name="RelatedParameterConfigurationOfCaseReviewProcess" />
     <text value="それとの関係" name="RelatedPartiesRelationship" />
     <text value="%s関連のケース" name="RelatedProjectCnt" />
     <text value="関連プロジェクトの情報" name="RelatedProjects" />
@@ -2575,6 +2584,8 @@
     <text value="ランニングタイマー" name="RunningTimer" />
     <text value="支払レベル" name="SalaryLevel" />
     <text value="同じ" name="SameAs" />
+    <text value="同じ担当者" name="SamePersonInCharge" />
+    <text value="同じ担当者と同じクライアント" name="SamePersonInChargeAndSameClient" />
     <text value="同じ連絡先" name="SameSourceContacts" />
     <text value="サンプルドキュメント" name="SampleDocuments" />
     <text value="サンプルプレビュー" name="Samplepreview" />
@@ -2731,7 +2742,9 @@
     <text value="リーガルインテリジェンス - リーガルサークルインテリジェントコンバージェンスプラットフォーム" name="ShareTitle" />
     <text value="クイック操作" name="Shortcuts" />
     <text value="次のログインにはパスワードの変更が必要です。" name="ShouldChangePasswordOnNextLogin" />
+    <text value="事前のケースを表示" name="ShowAdvanceCase" />
     <text value="高度なフィルタリングを表示する" name="ShowAdvancedFilters" />
+    <text value="入札を表示" name="ShowBid" />
     <text value="ディスプレイケース率" name="Showcaserate" />
     <text value="削除したユーザーを表示" name="ShowDeletedUser" />
     <text name="ShowInvoice" />
@@ -2846,12 +2859,12 @@
     <text value="プラットフォームのサブスクリプションは{0}に有効期限が切れました。" name="SubscriptionExpire_Email_Body" />
     <text value="プラットフォームのサブスクリプションが期限切れです" name="SubscriptionExpire_Email_Subject" />
     <text value="このメールは、サブスクリプションの有効期限について通知します" name="SubscriptionExpire_SubTitle" />
-    <text name="SubscriptionExpire_Title" />
+    <text value="プラットフォームのサブスクリプションが期限切れ" name="SubscriptionExpire_Title" />
     <text value="サブスクリプションは{0}日後に期限切れになります。" name="SubscriptionExpireNotification" />
     <text value="プラットフォームのサブスクリプションは{0}に期限切れになります。" name="SubscriptionExpiringSoon_Email_Body" />
     <text value="プラットフォームサブスクリプションの有効期限通知" name="SubscriptionExpiringSoon_Email_Subject" />
     <text value="このメールは、サブスクリプションの有効期限について通知します。" name="SubscriptionExpiringSoon_SubTitle" />
-    <text name="SubscriptionExpiringSoon_Title" />
+    <text value="プラットフォームサブスクリプションの有効期限通知" name="SubscriptionExpiringSoon_Title" />
     <text name="SubscriptionExpiringTenants" />
     <text name="SubscriptionInformation" />
     <text name="SubscriptionPaymentGatewayType_Paypal" />
@@ -2868,6 +2881,7 @@
     <text value="小計額" name="Subtotal" />
     <text value="CCユニット" name="SubUnit" />
     <text value="成功" name="Success" />
+    <text value="落札" name="SuccessfulBidding" />
     <text value="追加されました" name="SuccessfullyAdded" />
     <text value="招待情報をコピーしました" name="SuccessfullyCopiedTheInvitationInformation" />
     <text value="正常に削除されました。" name="SuccessfullyDeleted" />
@@ -2877,6 +2891,7 @@
     <text value="削除されました" name="SuccessfullyRemoved" />
     <text value="成功裏に保存されました。" name="SuccessfullySaved" />
     <text value="正常にリンク解除されました" name="SuccessfullyUnlinked" />
+    <text value="成功したプレファイリング" name="SuccessfulPreFiling" />
     <text value="メールボックスのサフィックス" name="Suffix" />
     <text value="要約" name="Summary" />
     <text value="弁護士を監督する" name="SupervisionLawyer" />
@@ -3019,7 +3034,7 @@
     <text name="TestCheckFeature" />
     <text name="TestCheckFeature2" />
     <text value="これはテストメールです。" name="TestEmail_Body" />
-    <text value="AbpZeroTemplateテストメール" name="TestEmail_Subject" />
+    <text value="メールをテストする" name="TestEmail_Subject" />
     <text value="電子メールを正常に送信しました" name="TestEmailSentSuccessfully" />
     <text value="メールボックスの設定をテストする" name="TestEmailSettingsHeader" />
     <text value="テキスト" name="Text" />
@@ -3040,6 +3055,7 @@
     <text value="現在のディレクトリはシステムディレクトリであり、削除することはできません！" name="TheCurrentDirectoryIsAsystemDirectoryAndCannotBeDeleted" />
     <text value="現在のファイルは貸し出されました" name="TheCurrentFileHasBeenLoaned" />
     <text value="現在のファイルが返されました" name="TheCurrentFileHasBeenReturned" />
+    <text value="現在の請求書は処理されました！" name="TheCurrentInvoiceHasBeenProcessed" />
     <text value="受領日" name="TheDateOfAcceptance" />
     <text value="フォルダを削除すると、サブフォルダとファイルも削除され、ごみ箱から取り出すことができます" name="TheDeletionCanBeRetrievedByTheRecycleBin" />
     <text value="部門内の元の割合の範囲内で、余分な部分はもはや分割されません。" name="TheExcessIsNoLongerSplit" />
@@ -3151,6 +3167,7 @@
     <text value="繁体字中国語" name="TraditionalChinese" />
     <text value="交通補償" name="TrafficCompensation" />
     <text value="転送" name="TransferAccounts" />
+    <text value="トランスファーケース" name="TransferCase" />
     <text value="ポジティブになった" name="Transfered" />
     <text value="ファイルを翻訳する" name="translateAFile" />
     <text name="Trial" />
@@ -3391,7 +3408,7 @@
     <text value="週" name="Weeks" />
     <text value="このアプリケーションにようこそ。左側のメニューから、使用したい機能を起動することができます。" name="WelcomePage_Info" />
     <text value="ようこそ！" name="WelcomePage_Title" />
-    <text value="AbpZeroTemplateへようこそ！" name="WelcomeToTheApplicationNotificationMessage" />
+    <text value="Ailinkedlaw へようこそ！" name="WelcomeToTheApplicationNotificationMessage" />
     <text value="こんにちは{0}、法律を使用することを歓迎します" name="WelcomeToUseAilinkedlaw" />
     <text name="WhatWillDoneAfterSubscriptionExpiry" />
     <text value="かどうか" name="whether" />
@@ -3420,7 +3437,10 @@
     <text value="スタンプの繰り返し適用を許可するかどうか" name="WhetherToRepeatedStamps" />
     <text value="監査を送信してもよろしいですか？" name="WhetherToSendAnAudit" />
     <text value="財務監査に送られますか？" name="WhetherToSendToFinancialAudit" />
+    <text value="録音を開始するかどうか" name="WhetherToStartRecording" />
+    <text value="フルタイムのWeb会議を使用するかどうか" name="WhetherUsingWebConferencing" />
     <text value="選択したスケジュールのステータスを変更してもよろしいですか？" name="WillChangesSelectedOnScheduledState" />
+    <text value="条件なし" name="WithoutAnyCondition" />
     <text value="同じ名前のフォルダがカレントディレクトリに既に存在します" name="WithTheSameNameAlreadyExistsUnderTheCurrentDirectory" />
     <text value="提起中の競合検索" name="WN.Business.CaseCheck.Created" />
     <text value="閉鎖ケース - 担当者のレビュー" name="WN.Business.CaseClose.Created" />

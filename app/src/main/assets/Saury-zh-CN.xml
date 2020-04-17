@@ -310,7 +310,9 @@
     <text value="财政年度开始月份" name="BeginningOfTheFiscalYear" />
     <text value="被借出" name="BeLent" />
     <text value="所属人" name="Belonger" />
+    <text value="投标案件[{0}]等待您进行冲突检索." name="BidCaseWaitingForYouToPerformConflictRetrieval" />
     <text value="招投标" name="Bidding" />
+    <text value="投标转立案" name="BidToCase" />
     <text value="账单" name="Bill" />
     <text value="可开账单" name="Billable" />
     <text value="账单金额" name="BillAmount" />
@@ -407,6 +409,7 @@
     <text value="不能为空." name="CannotBeEmpty" />
     <text value="已完善，不可修改" name="CannotBeModified" />
     <text value="管理用户，不能修改用户名." name="CanNotChangeAdminUserName" />
+    <text value="案件中无法同时选择预立案和投标!" name="CannotChoosePreopeningAndBiddingInTheCase" />
     <text value="不允许删除该案件!" name="CannotDeleteCase" />
     <text value="对不起，您不能在该目录下直接创建或编辑文件夹，请选择其他目录！" name="CannotEditDirectlyUnderThisDirectory" />
     <text value="不能删除默认语言.只能删除或者修改自己增加的语言. 但可以改变所有语言的文本信息." name="CanNotEditOrDeleteDefaultLanguages" />
@@ -686,6 +689,7 @@
     <text value="确认是否参与任务" name="ConfirmWhetherParticipateTask" />
     <text value="共{0}条冲突信息" name="ConflictCounts" />
     <text value="利益冲突信息" name="ConflictOfInterestInformation" />
+    <text value="利益冲突检索规避条件" name="ConflictOfInterestRetrievalAvoidanceConditions" />
     <text value="{0} 条冲突记录" name="ConflictRecordsCnt" />
     <text value="冲突检索退回" name="ConflictRetrievalReturn" />
     <text value="待冲突检索" name="ConflictSearch" />
@@ -1018,6 +1022,7 @@
     <text value="学历" name="Education" />
     <text value="教育背景" name="EducationalBackground" />
     <text value="生效义务" name="Effectiveobligation" />
+    <text value="电子发票" name="ElectronicInvoice" />
     <text value="出现该提示表示您当前登陆的账号在电子签章平台无相应的盖章权限，请耐心等待有盖章权限人完成电子签章或联系系统管理员以帮助开通盖章权限！" name="ElectronicSealNoSignAuthorityTips" />
     <text value="该文档已申请使用电子签章盖章，请点击 盖章 按钮完成签署动作！" name="ElectronicSealSignActionTips" />
     <text value="该文档已申请使用电子签章盖章，请等待盖章人完成盖章权限！" name="ElectronicSealWaitSignCompleteTips" />
@@ -1285,7 +1290,7 @@
     <text value="出现错误" name="HasError" />
     <text value="法律援助" name="HasLegalAid" />
     <text value="尚未接受" name="HasNotAccepted" />
-    <text value="是否包含组织架构" name="HasOrganization" />
+    <text value="是否包含组织机构" name="HasOrganization" />
     <text value="使用自己的数据库" name="HasOwnDatabase" />
     <text value="会议[{0}]已将您设置为会议主持人." name="HasSetYouAsEmceeOfMeeting" />
     <text value="会议[{0}]已将您设置为会议联系人." name="HasSetYouAsMeetingContact" />
@@ -1612,6 +1617,7 @@
     <text value="婚否" name="MarriageStatus" />
     <text value="材料名称" name="MaterialName" />
     <text value="在锁定帐户之前的累计登录失败的最大数量" name="MaxFailedAccessAttemptsBeforeLockout" />
+    <text value="您最多可上传{0}张图片" name="MaximumUploadPictures" />
     <text value="最大用户数" name="MaximumUserCount" />
     <text value="0 = 无限制" name="MaximumUserCount_Description" />
     <text value="允许此租户最多拥有{0}名用户。" name="MaximumUserCount_Error_Detail" />
@@ -1709,8 +1715,6 @@
     <text value="我的业务计数" name="MyBusinessCount" />
     <text value="我的案件计数统计" name="MyCaseCountStatistics" />
     <text value="我的收藏" name="MyCollection" />
-    <text name="MyCompanyName.AbpZeroTemplate.Authorization.Roles.Role" />
-    <text name="MyCompanyName.AbpZeroTemplate.MultiTenancy.Tenant" />
     <text value="我参与已完成 " name="MyCompletedTask" />
     <text value="我的组件" name="MyComponents" />
     <text value="我的费用" name="MyExpenses" />
@@ -2206,6 +2210,7 @@
     <text value="请选择一个职员!" name="PleaseChooseAEmployee" />
     <text value="请选择一个职员!" name="PleasechooseAStaffMember" />
     <text value="请选择带出时间!" name="PleaseChooseToBringOutTime" />
+    <text value="上传与删除背景图片后请点击页面右上角的保存全部按钮！" name="PleaseClickSaveAllAfterOperation" />
     <text value="请完善会议纪要内容" name="PleaseCompleteMinutesOfMeeting" />
     <text value="请输入至少{0}个字符。" name="PleaseEnterAtLeastNCharacter" />
     <text value="请在{0}秒内输入验证码" name="PleaseEnterCodeWithinSeconds" />
@@ -2294,8 +2299,10 @@
     <text value="相关利益的潜在第三方" name="PotentialThirdPartiesOfInterest" />
     <text value="执业证号" name="PracticeNumber" />
     <text value="预开账单" name="PreBilling" />
+    <text value="预立案件[{0}]等待您进行冲突检索." name="PreCaseWaitingForYouToPerformConflictRetrieval" />
     <text value="偏好设置" name="Preferences" />
     <text value="前置字段" name="PreField" />
+    <text value="预立案转立案" name="PreFiled" />
     <text value="预立案标识代字" name="PreFilingWord" />
     <text value="该代字只在预立案项目有效，非预立案项目不显示" name="PreFilingWord_Hint" />
     <text value="预开账单" name="PreOpeningBill" />
@@ -2444,6 +2451,8 @@
     <text value="相关案件" name="RelatedCases" />
     <text value="关联客户" name="RelatedCustomers" />
     <text value="关联信息" name="RelatedInfo" />
+    <text value="案件申请过程相关参数配置" name="RelatedParameterConfigurationOfCaseApplicationProcess" />
+    <text value="案件审核过程相关参数配置" name="RelatedParameterConfigurationOfCaseReviewProcess" />
     <text value="与其关系" name="RelatedPartiesRelationship" />
     <text value="共 %s 个关联案件" name="RelatedProjectCnt" />
     <text value="关联项目信息" name="RelatedProjects" />
@@ -2575,6 +2584,8 @@
     <text value="运行中的计时器" name="RunningTimer" />
     <text value="薪酬级别" name="SalaryLevel" />
     <text value="同比" name="SameAs" />
+    <text value="同负责人" name="SamePersonInCharge" />
+    <text value="同负责人同客户" name="SamePersonInChargeAndSameClient" />
     <text value="相同联系人" name="SameSourceContacts" />
     <text value="样本文档" name="SampleDocuments" />
     <text value="样本预览" name="Samplepreview" />
@@ -2731,7 +2742,9 @@
     <text value="律智荟 - 法律圈智能汇聚平台" name="ShareTitle" />
     <text value="快捷操作" name="Shortcuts" />
     <text value="下次登录需要修改密码." name="ShouldChangePasswordOnNextLogin" />
+    <text value="显示预立案" name="ShowAdvanceCase" />
     <text value="显示高级过滤" name="ShowAdvancedFilters" />
+    <text value="显示投标" name="ShowBid" />
     <text value="显示办案费税率" name="Showcaserate" />
     <text value="显示已删除用户" name="ShowDeletedUser" />
     <text value="查看发票" name="ShowInvoice" />
@@ -2868,6 +2881,7 @@
     <text value="小计金额" name="Subtotal" />
     <text value="抄送单位" name="SubUnit" />
     <text value="成功" name="Success" />
+    <text value="投标立案成功" name="SuccessfulBidding" />
     <text value="添加成功" name="SuccessfullyAdded" />
     <text value="复制参会邀请信息成功" name="SuccessfullyCopiedTheInvitationInformation" />
     <text value="删除成功." name="SuccessfullyDeleted" />
@@ -2877,6 +2891,7 @@
     <text value="删除成功" name="SuccessfullyRemoved" />
     <text value="保存成功." name="SuccessfullySaved" />
     <text value="关联成功" name="SuccessfullyUnlinked" />
+    <text value="预立案成功" name="SuccessfulPreFiling" />
     <text value="邮箱后缀" name="Suffix" />
     <text value="摘要" name="Summary" />
     <text value="督办律师" name="SupervisionLawyer" />
@@ -3040,6 +3055,7 @@
     <text value="当前目录为系统目录，无法删除!" name="TheCurrentDirectoryIsAsystemDirectoryAndCannotBeDeleted" />
     <text value="当前档案已被借出" name="TheCurrentFileHasBeenLoaned" />
     <text value="当前档案已被归还" name="TheCurrentFileHasBeenReturned" />
+    <text value="当前发票已处理！" name="TheCurrentInvoiceHasBeenProcessed" />
     <text value="收案日期" name="TheDateOfAcceptance" />
     <text value="删除文件夹会同时移除子文件夹及文件，该删除可通过回收站找回" name="TheDeletionCanBeRetrievedByTheRecycleBin" />
     <text value="元以内按比例分账，超出部分不再分账。" name="TheExcessIsNoLongerSplit" />
@@ -3151,6 +3167,7 @@
     <text value="繁体中文" name="TraditionalChinese" />
     <text value="交通赔偿" name="TrafficCompensation" />
     <text value="转账" name="TransferAccounts" />
+    <text value="转立案" name="TransferCase" />
     <text value="已转正" name="Transfered" />
     <text value="翻译文件" name="translateAFile" />
     <text value="试用" name="Trial" />
@@ -3420,7 +3437,10 @@
     <text value="是否允许重复申请盖章" name="WhetherToRepeatedStamps" />
     <text value="是否确认发送审核？" name="WhetherToSendAnAudit" />
     <text value="是否发送给财务审核" name="WhetherToSendToFinancialAudit" />
+    <text value="是否开启录音" name="WhetherToStartRecording" />
+    <text value="是否使用全时网络会议" name="WhetherUsingWebConferencing" />
     <text value="是否确定变更选中的日程状态？" name="WillChangesSelectedOnScheduledState" />
+    <text value="无任何条件" name="WithoutAnyCondition" />
     <text value="当前目录下已存在同名的文件夹" name="WithTheSameNameAlreadyExistsUnderTheCurrentDirectory" />
     <text value="立案-待冲突检索" name="WN.Business.CaseCheck.Created" />
     <text value="结案-负责人审核" name="WN.Business.CaseClose.Created" />

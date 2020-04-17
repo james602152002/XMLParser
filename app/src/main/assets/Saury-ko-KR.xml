@@ -310,7 +310,9 @@
     <text value="회계 연도의 시작 달" name="BeginningOfTheFiscalYear" />
     <text value="사순절" name="BeLent" />
     <text value="소유자" name="Belonger" />
+    <text value="입찰 사례 [{0}]이 (가) 충돌 검색을 기다리고 있습니다." name="BidCaseWaitingForYouToPerformConflictRetrieval" />
     <text value="입찰" name="Bidding" />
+    <text value="파일에 입찰" name="BidToCase" />
     <text value="빌" name="Bill" />
     <text value="청구 가능" name="Billable" />
     <text value="청구 금액" name="BillAmount" />
@@ -407,6 +409,7 @@
     <text value="텅 비어서는 안 된다." name="CannotBeEmpty" />
     <text value="완료, 변경 불가능" name="CannotBeModified" />
     <text value="사용자를 관리하고 사용자 이름을 수정할 수 없습니다." name="CanNotChangeAdminUserName" />
+    <text value="경우에 사전 개설 및 입찰을 선택할 수 없습니다!" name="CannotChoosePreopeningAndBiddingInTheCase" />
     <text value="이 사례는 삭제할 수 없습니다!" name="CannotDeleteCase" />
     <text value="죄송합니다.이 디렉토리 바로 아래에 폴더를 만들거나 편집 할 수 없습니다. 다른 디렉토리를 선택하십시오!" name="CannotEditDirectlyUnderThisDirectory" />
     <text value="기본 언어는 삭제할 수 없으며 자신의 언어 만 삭제하거나 수정할 수 있지만 모든 언어의 텍스트 정보를 변경할 수 있습니다." name="CanNotEditOrDeleteDefaultLanguages" />
@@ -686,6 +689,7 @@
     <text value="과제 참여 확인" name="ConfirmWhetherParticipateTask" />
     <text value="총 {0} 충돌 정보" name="ConflictCounts" />
     <text value="관심 분야 정보 충돌" name="ConflictOfInterestInformation" />
+    <text value="이해 상충 검색 회피 조건" name="ConflictOfInterestRetrievalAvoidanceConditions" />
     <text value="{0} 충돌 레코드" name="ConflictRecordsCnt" />
     <text value="충돌 검색 반환" name="ConflictRetrievalReturn" />
     <text value="대기중인 충돌 검색" name="ConflictSearch" />
@@ -1018,6 +1022,7 @@
     <text value="교육" name="Education" />
     <text value="교육 배경" name="EducationalBackground" />
     <text value="효과적인 의무" name="Effectiveobligation" />
+    <text value="전자 송장" name="ElectronicInvoice" />
     <text value="이 프롬프트는 현재 로그인 한 계정에 전자 서명 플랫폼에 해당하는 인감 권한이 없음을 나타냅니다. 인감 권한을 가진 사람이 전자 인감을 완료 할 때까지 기다리거나 인감 권한을 여는 데 도움이되도록 시스템 관리자에게 문의하십시오!" name="ElectronicSealNoSignAuthorityTips" />
     <text value="이 문서는 전자 도장에 적용되었습니다. 도장 버튼을 클릭하여 서명 작업을 완료하십시오!" name="ElectronicSealSignActionTips" />
     <text value="이 문서는 전자 도장 스탬핑을 신청했습니다. 실러가 도장 기관을 완료 할 때까지 기다리십시오!" name="ElectronicSealWaitSignCompleteTips" />
@@ -1027,7 +1032,7 @@
     <text value="아래 링크를 클릭하여 이메일 주소를 확인하고 사용자 계정을 활성화하십시오." name="EmailActivation_ClickTheLinkBelowToVerifyYourEmail" />
     <text value="사용자 계정 활성화" name="EmailActivation_Subject" />
     <text value="시스템이이 전자 메일을 보내 전자 메일 주소를 확인하고 사용자 계정을 활성화합니다." name="EmailActivation_SubTitle" />
-    <text value="시스템 사용을 환영합니다." name="EmailActivation_Title" />
+    <text value="시스템에 오신 것을 환영합니다." name="EmailActivation_Title" />
     <text value="이메일 주소" name="EmailAddress" />
     <text value="전자 메일 주소 확인" name="EmailConfirm" />
     <text value="로그인하려면 이메일 주소를 확인해야합니다." name="EmailConfirmationRequiredForLogin" />
@@ -1285,7 +1290,7 @@
     <text value="오류가 발생했습니다." name="HasError" />
     <text value="법률 원조" name="HasLegalAid" />
     <text value="아직 허용되지 않음" name="HasNotAccepted" />
-    <text value="조직 구조 포함 여부" name="HasOrganization" />
+    <text value="조직 포함 여부" name="HasOrganization" />
     <text value="자신의 도서관" name="HasOwnDatabase" />
     <text value="회의 [{0}]이 (가) 당신을 회의 주최자로 설정했습니다." name="HasSetYouAsEmceeOfMeeting" />
     <text value="회의 [{0}]이 (가) 당신을 회의 연락처로 설정했습니다." name="HasSetYouAsMeetingContact" />
@@ -1612,6 +1617,7 @@
     <text value="결혼" name="MarriageStatus" />
     <text value="물질 이름" name="MaterialName" />
     <text value="계정을 잠그기 전에 실패한 로그인 시도의 최대 횟수" name="MaxFailedAccessAttemptsBeforeLockout" />
+    <text value="최대 {0} 장의 사진을 업로드 할 수 있습니다" name="MaximumUploadPictures" />
     <text value="최대 사용자 수" name="MaximumUserCount" />
     <text name="MaximumUserCount_Description" />
     <text value="이 테넌트는 최대 {0} 명의 사용자를 보유 할 수 있습니다." name="MaximumUserCount_Error_Detail" />
@@ -1709,8 +1715,6 @@
     <text value="내 사업 수" name="MyBusinessCount" />
     <text value="내 사건 수 통계" name="MyCaseCountStatistics" />
     <text value="내 컬렉션" name="MyCollection" />
-    <text name="MyCompanyName.AbpZeroTemplate.Authorization.Roles.Role" />
-    <text name="MyCompanyName.AbpZeroTemplate.MultiTenancy.Tenant" />
     <text value="참여가 완료되었습니다" name="MyCompletedTask" />
     <text value="내 구성 요소" name="MyComponents" />
     <text value="내 경비" name="MyExpenses" />
@@ -2206,6 +2210,7 @@
     <text value="직원을 선택하십시오!" name="PleaseChooseAEmployee" />
     <text value="직원을 선택하십시오!" name="PleasechooseAStaffMember" />
     <text value="시간을 가지고 선택하십시오!" name="PleaseChooseToBringOutTime" />
+    <text value="배경 이미지를 업로드하고 삭제 한 후 페이지 오른쪽 상단에있는 모두 저장 버튼을 클릭하십시오!" name="PleaseClickSaveAllAfterOperation" />
     <text value="회의록을 작성하십시오." name="PleaseCompleteMinutesOfMeeting" />
     <text name="PleaseEnterAtLeastNCharacter" />
     <text value="{0} 초 내에 인증 코드를 입력하십시오." name="PleaseEnterCodeWithinSeconds" />
@@ -2294,8 +2299,10 @@
     <text value="관련 이해 관계가있는 잠재적 인 제 3 자" name="PotentialThirdPartiesOfInterest" />
     <text value="면허 번호" name="PracticeNumber" />
     <text value="선불 결제" name="PreBilling" />
+    <text value="사전 설정된 사례 [{0}]이 (가) 충돌 검색을 기다리고 있습니다." name="PreCaseWaitingForYouToPerformConflictRetrieval" />
     <text value="환경 설정" name="Preferences" />
     <text value="프리 필드" name="PreField" />
+    <text value="사전 출원" name="PreFiled" />
     <text name="PreFilingWord" />
     <text name="PreFilingWord_Hint" />
     <text value="선불 결제" name="PreOpeningBill" />
@@ -2444,6 +2451,8 @@
     <text value="관련 사례" name="RelatedCases" />
     <text value="관련 고객" name="RelatedCustomers" />
     <text value="관련 정보" name="RelatedInfo" />
+    <text value="사례 적용 프로세스의 관련 매개 변수 구성" name="RelatedParameterConfigurationOfCaseApplicationProcess" />
+    <text value="사례 검토 프로세스의 관련 매개 변수 구성" name="RelatedParameterConfigurationOfCaseReviewProcess" />
     <text value="그것과의 관계" name="RelatedPartiesRelationship" />
     <text value="%s 관련 사례" name="RelatedProjectCnt" />
     <text value="관련 프로젝트 정보" name="RelatedProjects" />
@@ -2575,6 +2584,8 @@
     <text value="타이머 실행 중" name="RunningTimer" />
     <text value="급여 수준" name="SalaryLevel" />
     <text value="같은" name="SameAs" />
+    <text value="동일한 담당자" name="SamePersonInCharge" />
+    <text value="동일한 담당자 및 동일한 클라이언트" name="SamePersonInChargeAndSameClient" />
     <text value="같은 연락처" name="SameSourceContacts" />
     <text value="샘플 문서" name="SampleDocuments" />
     <text value="샘플 미리보기" name="Samplepreview" />
@@ -2731,7 +2742,9 @@
     <text value="법률 정보원 - 법률 서클 지능형 컨버전스 플랫폼" name="ShareTitle" />
     <text value="빠른 작동" name="Shortcuts" />
     <text value="다음 로그인에는 암호 변경이 필요합니다." name="ShouldChangePasswordOnNextLogin" />
+    <text value="사전 사례 표시" name="ShowAdvanceCase" />
     <text value="고급 필터링 표시" name="ShowAdvancedFilters" />
+    <text value="입찰 표시" name="ShowBid" />
     <text value="표시 비율" name="Showcaserate" />
     <text value="삭제 된 사용자 표시" name="ShowDeletedUser" />
     <text name="ShowInvoice" />
@@ -2846,12 +2859,12 @@
     <text value="플랫폼 구독이 {0}에 만료되었습니다." name="SubscriptionExpire_Email_Body" />
     <text value="플랫폼 구독이 만료되었습니다" name="SubscriptionExpire_Email_Subject" />
     <text value="이 이메일은 구독 만료에 대해 알려줍니다" name="SubscriptionExpire_SubTitle" />
-    <text name="SubscriptionExpire_Title" />
+    <text value="플랫폼 구독이 만료됩니다" name="SubscriptionExpire_Title" />
     <text value="구독은 {0} 일 후에 만료됩니다." name="SubscriptionExpireNotification" />
     <text value="플랫폼 구독은 {0}에 만료됩니다." name="SubscriptionExpiringSoon_Email_Body" />
     <text value="플랫폼 구독 만료 알림" name="SubscriptionExpiringSoon_Email_Subject" />
     <text value="이 이메일은 구독 만료에 대해 알려줍니다." name="SubscriptionExpiringSoon_SubTitle" />
-    <text name="SubscriptionExpiringSoon_Title" />
+    <text value="플랫폼 구독 만료 알림" name="SubscriptionExpiringSoon_Title" />
     <text name="SubscriptionExpiringTenants" />
     <text name="SubscriptionInformation" />
     <text name="SubscriptionPaymentGatewayType_Paypal" />
@@ -2868,6 +2881,7 @@
     <text value="소계 금액" name="Subtotal" />
     <text value="CC 장치" name="SubUnit" />
     <text value="성공" name="Success" />
+    <text value="성공적인 입찰" name="SuccessfulBidding" />
     <text value="추가 완료" name="SuccessfullyAdded" />
     <text value="초대 정보를 성공적으로 복사했습니다" name="SuccessfullyCopiedTheInvitationInformation" />
     <text value="성공적으로 삭제되었습니다." name="SuccessfullyDeleted" />
@@ -2877,6 +2891,7 @@
     <text value="성공적으로 제거되었습니다." name="SuccessfullyRemoved" />
     <text value="성공적으로 저장되었습니다." name="SuccessfullySaved" />
     <text value="성공적으로 연결 해제 됨" name="SuccessfullyUnlinked" />
+    <text value="성공적인 사전 제출" name="SuccessfulPreFiling" />
     <text value="사서함 접미사" name="Suffix" />
     <text value="요약" name="Summary" />
     <text value="변호사 감독" name="SupervisionLawyer" />
@@ -3019,7 +3034,7 @@
     <text name="TestCheckFeature" />
     <text name="TestCheckFeature2" />
     <text value="이것은 테스트 메일입니다." name="TestEmail_Body" />
-    <text value="AbpZeroTemplate 테스트 메일" name="TestEmail_Subject" />
+    <text value="이메일 테스트" name="TestEmail_Subject" />
     <text value="테스트 이메일이 성공적으로 전송되었습니다." name="TestEmailSentSuccessfully" />
     <text value="사서함 설정 테스트" name="TestEmailSettingsHeader" />
     <text value="텍스트" name="Text" />
@@ -3040,6 +3055,7 @@
     <text value="현재 디렉토리는 시스템 디렉토리이므로 삭제할 수 없습니다!" name="TheCurrentDirectoryIsAsystemDirectoryAndCannotBeDeleted" />
     <text value="현재 파일이 대여되었습니다." name="TheCurrentFileHasBeenLoaned" />
     <text value="현재 파일이 반환되었습니다." name="TheCurrentFileHasBeenReturned" />
+    <text value="현재 송장이 처리되었습니다!" name="TheCurrentInvoiceHasBeenProcessed" />
     <text value="수령 일자" name="TheDateOfAcceptance" />
     <text value="폴더를 삭제하면 휴지통을 통해 검색 할 수있는 하위 폴더와 파일도 제거됩니다." name="TheDeletionCanBeRetrievedByTheRecycleBin" />
     <text value="부문 내의 위안화 비율 내에서 초과 부분은 더 이상 분할되지 않습니다." name="TheExcessIsNoLongerSplit" />
@@ -3151,6 +3167,7 @@
     <text value="중국어 번체" name="TraditionalChinese" />
     <text value="교통 보상" name="TrafficCompensation" />
     <text value="전송" name="TransferAccounts" />
+    <text value="전송 사례" name="TransferCase" />
     <text value="긍정적으로 변했다." name="Transfered" />
     <text value="파일 번역" name="translateAFile" />
     <text name="Trial" />
@@ -3391,7 +3408,7 @@
     <text value="주" name="Weeks" />
     <text value="이 응용 프로그램에 오신 것을 환영합니다. 왼쪽 메뉴에서 사용할 기능을 시작할 수 있습니다. " name="WelcomePage_Info" />
     <text value="환영합니다!" name="WelcomePage_Title" />
-    <text value="AbpZeroTemplate에 오신 것을 환영합니다! " name="WelcomeToTheApplicationNotificationMessage" />
+    <text value="Ailinkedlaw 에 오신 것을 환영합니다! " name="WelcomeToTheApplicationNotificationMessage" />
     <text value="안녕하세요 {0}, 사용법에 오신 것을 환영합니다." name="WelcomeToUseAilinkedlaw" />
     <text name="WhatWillDoneAfterSubscriptionExpiry" />
     <text value="여부" name="whether" />
@@ -3420,7 +3437,10 @@
     <text value="스탬프 반복 적용 여부" name="WhetherToRepeatedStamps" />
     <text value="감사를 보내시겠습니까?" name="WhetherToSendAnAudit" />
     <text value="재무 감사로 전송됩니까?" name="WhetherToSendToFinancialAudit" />
+    <text value="녹화 시작 여부" name="WhetherToStartRecording" />
+    <text value="풀 타임 웹 회의 사용 여부" name="WhetherUsingWebConferencing" />
     <text value="선택한 일정 상태를 변경 하시겠습니까?" name="WillChangesSelectedOnScheduledState" />
+    <text value="조건없이" name="WithoutAnyCondition" />
     <text value="같은 이름을 가진 폴더가 이미 현재 디렉토리에 있습니다." name="WithTheSameNameAlreadyExistsUnderTheCurrentDirectory" />
     <text value="제기 - 보류중인 충돌 검색" name="WN.Business.CaseCheck.Created" />
     <text value="폐문 사건 - 책임자 검토" name="WN.Business.CaseClose.Created" />

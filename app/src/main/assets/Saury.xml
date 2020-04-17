@@ -310,7 +310,9 @@
     <text value="Starting month of fiscal year" name="BeginningOfTheFiscalYear" />
     <text value="Lent" name="BeLent" />
     <text value="Owner" name="Belonger" />
+    <text value="The bidding case [{0}] is waiting for your conflict search." name="BidCaseWaitingForYouToPerformConflictRetrieval" />
     <text value="Bidding" name="Bidding" />
+    <text value="Bid to file" name="BidToCase" />
     <text value="Bill" name="Bill" />
     <text value="Billable statement" name="Billable" />
     <text value="Billing amount" name="BillAmount" />
@@ -407,6 +409,7 @@
     <text value="Can't be empty." name="CannotBeEmpty" />
     <text value="Completed, unmodifiable" name="CannotBeModified" />
     <text value="Can not change username of the admin." name="CanNotChangeAdminUserName" />
+    <text value="Cannot choose pre-opening and bidding in the case!" name="CannotChoosePreopeningAndBiddingInTheCase" />
     <text value="This case is not allowed to be deleted!" name="CannotDeleteCase" />
     <text value="Sorry, you cannot create or edit a folder directly under this directory. Please select another directory!" name="CannotEditDirectlyUnderThisDirectory" />
     <text value="Can not edit or delete default languages. You can only edit or delete the languages you added. But you can change texts of all languages." name="CanNotEditOrDeleteDefaultLanguages" />
@@ -686,6 +689,7 @@
     <text value="Confirm participation in the task" name="ConfirmWhetherParticipateTask" />
     <text value="Total {0} conflict information" name="ConflictCounts" />
     <text value="Conflict of interest information" name="ConflictOfInterestInformation" />
+    <text value="Conflict of interest retrieval avoidance conditions" name="ConflictOfInterestRetrievalAvoidanceConditions" />
     <text value="{0} conflict records" name="ConflictRecordsCnt" />
     <text value="Conflict retrieval return" name="ConflictRetrievalReturn" />
     <text value="Pending conflict retrieval" name="ConflictSearch" />
@@ -1018,6 +1022,7 @@
     <text value="Education" name="Education" />
     <text value="Education background" name="EducationalBackground" />
     <text value="Effective obligation" name="Effectiveobligation" />
+    <text value="Electronic invoice" name="ElectronicInvoice" />
     <text value="This prompt indicates that your currently logged in account does not have the corresponding seal authority on the electronic signature platform. Please wait patiently for the person with the seal authority to complete the electronic seal or contact the system administrator to help open the seal authority!" name="ElectronicSealNoSignAuthorityTips" />
     <text value="This document has been applied for electronic seal, please click the seal button to complete the signing action!" name="ElectronicSealSignActionTips" />
     <text value="This document has applied for electronic seal stamping, please wait for the sealer to complete the stamping authority!" name="ElectronicSealWaitSignCompleteTips" />
@@ -1025,9 +1030,9 @@
     <text value="Email" name="Email" />
     <text value="Email activation" name="EmailActivation" />
     <text value="Please click the link below to verify your email address:" name="EmailActivation_ClickTheLinkBelowToVerifyYourEmail" />
-    <text value="AbpZeroTemplate account email activation" name="EmailActivation_Subject" />
+    <text value="Activate your Ailinkedlaw user account" name="EmailActivation_Subject" />
     <text value="This email is sent you to verify your email." name="EmailActivation_SubTitle" />
-    <text value="Welcome to AbpZeroTemplate." name="EmailActivation_Title" />
+    <text value="Welcome to the Ailinkedlaw." name="EmailActivation_Title" />
     <text value="Email address" name="EmailAddress" />
     <text value="Email confirm" name="EmailConfirm" />
     <text value="Email confirmation required for login." name="EmailConfirmationRequiredForLogin" />
@@ -1285,7 +1290,7 @@
     <text value="Has error" name="HasError" />
     <text value="Legal aid" name="HasLegalAid" />
     <text value="Not yet accepted" name="HasNotAccepted" />
-    <text value="Whether to include organizational structure" name="HasOrganization" />
+    <text value="Whether to include organization" name="HasOrganization" />
     <text value="Has own database" name="HasOwnDatabase" />
     <text value="Meeting [{0}] has set you up as the meeting host." name="HasSetYouAsEmceeOfMeeting" />
     <text value="Meeting [{0}] has set you up as a meeting contact." name="HasSetYouAsMeetingContact" />
@@ -1612,6 +1617,7 @@
     <text value="Marriage" name="MarriageStatus" />
     <text value="Material name" name="MaterialName" />
     <text value="Maximum number of failed login attempt count before locking the account" name="MaxFailedAccessAttemptsBeforeLockout" />
+    <text value="You can upload up to {0} pictures" name="MaximumUploadPictures" />
     <text value="Maximum user count" name="MaximumUserCount" />
     <text value="0 = unlimited" name="MaximumUserCount_Description" />
     <text value="This tenant is allowed to have a maximum of {0} users." name="MaximumUserCount_Error_Detail" />
@@ -1709,8 +1715,6 @@
     <text value="My business count" name="MyBusinessCount" />
     <text value="My case count statistics" name="MyCaseCountStatistics" />
     <text value="my collection" name="MyCollection" />
-    <text value="Role" name="MyCompanyName.AbpZeroTemplate.Authorization.Roles.Role" />
-    <text value="Tenant" name="MyCompanyName.AbpZeroTemplate.MultiTenancy.Tenant" />
     <text value="Participated Completed Task" name="MyCompletedTask" />
     <text value="My component" name="MyComponents" />
     <text value="My expenses" name="MyExpenses" />
@@ -2122,9 +2126,9 @@
     <text value="Password (repeat)" name="PasswordRepeat" />
     <text value="Password reset" name="PasswordReset" />
     <text value="Please click the link below to reset your password:" name="PasswordResetEmail_ClickTheLinkBelowToResetYourPassword" />
-    <text value="AbpZeroTemplate password reset" name="PasswordResetEmail_Subject" />
+    <text value="Ailinkedlaw password reset" name="PasswordResetEmail_Subject" />
     <text value="This email is sent you to reset and re-create your password." name="PasswordResetEmail_SubTitle" />
-    <text value="AbpZeroTemplate password reset." name="PasswordResetEmail_Title" />
+    <text value="Ailinkedlaw password reset." name="PasswordResetEmail_Title" />
     <text value="A password reset link sent to your e-mail address. Please check your emails." name="PasswordResetMailSentMessage" />
     <text value="Passwords do not match!" name="PasswordsDontMatch" />
     <text value="patent" name="Patent" />
@@ -2206,6 +2210,7 @@
     <text value="Please select a staff member!" name="PleaseChooseAEmployee" />
     <text value="Please select a staff member!" name="PleasechooseAStaffMember" />
     <text value="Please choose to bring time!" name="PleaseChooseToBringOutTime" />
+    <text value="After uploading and deleting background images, please click the Save All button in the upper right corner of the page!" name="PleaseClickSaveAllAfterOperation" />
     <text value="Please complete the meeting minutes" name="PleaseCompleteMinutesOfMeeting" />
     <text value="Please enter at least {0} characters." name="PleaseEnterAtLeastNCharacter" />
     <text value="Please enter the verification code within {0} seconds" name="PleaseEnterCodeWithinSeconds" />
@@ -2294,8 +2299,10 @@
     <text value="Potential third parties of related interests" name="PotentialThirdPartiesOfInterest" />
     <text value="License number" name="PracticeNumber" />
     <text value="Pre-billing" name="PreBilling" />
+    <text value="Pre-established case [{0}] is waiting for your conflict search." name="PreCaseWaitingForYouToPerformConflictRetrieval" />
     <text value="Preferences" name="Preferences" />
     <text value="Pre-field" name="PreField" />
+    <text value="Pre-filed" name="PreFiled" />
     <text value="Pre-filing Character identification" name="PreFilingWord" />
     <text value="The letter is valid only in the pre-filing project and not in the pre-project." name="PreFilingWord_Hint" />
     <text value="Pre-billing" name="PreOpeningBill" />
@@ -2444,6 +2451,8 @@
     <text value="Related Cases" name="RelatedCases" />
     <text value="Related customers" name="RelatedCustomers" />
     <text value="Related information" name="RelatedInfo" />
+    <text value="Related parameter configuration of case application process" name="RelatedParameterConfigurationOfCaseApplicationProcess" />
+    <text value="Related parameter configuration of case review process" name="RelatedParameterConfigurationOfCaseReviewProcess" />
     <text value="Relationship with it" name="RelatedPartiesRelationship" />
     <text value="%s related cases" name="RelatedProjectCnt" />
     <text value="Related Project information" name="RelatedProjects" />
@@ -2575,6 +2584,8 @@
     <text value="Running timer" name="RunningTimer" />
     <text value="Pay level" name="SalaryLevel" />
     <text value="Same as" name="SameAs" />
+    <text value="Same person in charge" name="SamePersonInCharge" />
+    <text value="Same person in charge and same client" name="SamePersonInChargeAndSameClient" />
     <text value="Same contact" name="SameSourceContacts" />
     <text value="Sample document" name="SampleDocuments" />
     <text value="Sample preview" name="Samplepreview" />
@@ -2731,7 +2742,9 @@
     <text value="AiLinkedLaw - Legal Circle Intelligent Convergence Platform" name="ShareTitle" />
     <text value="Quick operation" name="Shortcuts" />
     <text value="Should change password on next login." name="ShouldChangePasswordOnNextLogin" />
+    <text value="Show advance case" name="ShowAdvanceCase" />
     <text value="Show advanced filters" name="ShowAdvancedFilters" />
+    <text value="Show bid" name="ShowBid" />
     <text value="Display case rate" name="Showcaserate" />
     <text value="Show deleted users" name="ShowDeletedUser" />
     <text value="Show Invoice" name="ShowInvoice" />
@@ -2846,12 +2859,12 @@
     <text value="Your platform subscription has expired on {0}." name="SubscriptionExpire_Email_Body" />
     <text value="Your platform subscription has expired" name="SubscriptionExpire_Email_Subject" />
     <text value="This email will notify you about your subscription expiration" name="SubscriptionExpire_SubTitle" />
-    <text value="AbpZeroTemplate subscription expire" name="SubscriptionExpire_Title" />
+    <text value="Platform subscription expires" name="SubscriptionExpire_Title" />
     <text value="Your subscription will expire in {0} days." name="SubscriptionExpireNotification" />
     <text value="Your platform subscription will expire on {0}." name="SubscriptionExpiringSoon_Email_Body" />
     <text value="Your platform subscription expiration notice" name="SubscriptionExpiringSoon_Email_Subject" />
     <text value="This email will notify you about your subscription expiration." name="SubscriptionExpiringSoon_SubTitle" />
-    <text value="AbpZeroTemplate subscription expiration notice" name="SubscriptionExpiringSoon_Title" />
+    <text value="Platform subscription expiration notice" name="SubscriptionExpiringSoon_Title" />
     <text value="Subscription expiring tenants" name="SubscriptionExpiringTenants" />
     <text value="Subscription information" name="SubscriptionInformation" />
     <text value="Paypal" name="SubscriptionPaymentGatewayType_Paypal" />
@@ -2868,6 +2881,7 @@
     <text value="Subtotal amount" name="Subtotal" />
     <text value="CC unit" name="SubUnit" />
     <text value="Success" name="Success" />
+    <text value="Successful bidding" name="SuccessfulBidding" />
     <text value="Successfully added" name="SuccessfullyAdded" />
     <text value="Successfully copied the invitation information" name="SuccessfullyCopiedTheInvitationInformation" />
     <text value="Successfully deleted." name="SuccessfullyDeleted" />
@@ -2877,6 +2891,7 @@
     <text value="Successfully removed" name="SuccessfullyRemoved" />
     <text value="Successfully saved." name="SuccessfullySaved" />
     <text value="Successfully unlinked" name="SuccessfullyUnlinked" />
+    <text value="Successful pre-filing" name="SuccessfulPreFiling" />
     <text value="Mailbox suffix" name="Suffix" />
     <text value="Summary" name="Summary" />
     <text value="Supervising lawyers" name="SupervisionLawyer" />
@@ -3019,7 +3034,7 @@
     <text value="Test check feature" name="TestCheckFeature" />
     <text value="Test check feature 2" name="TestCheckFeature2" />
     <text value="This is a test email." name="TestEmail_Body" />
-    <text value="AbpZeroTemplate test email" name="TestEmail_Subject" />
+    <text value="Test email" name="TestEmail_Subject" />
     <text value="Test e-mail sent successfully." name="TestEmailSentSuccessfully" />
     <text value="Test Email Settings" name="TestEmailSettingsHeader" />
     <text value="text" name="Text" />
@@ -3040,6 +3055,7 @@
     <text value="The current directory is a system directory and cannot be deleted!" name="TheCurrentDirectoryIsAsystemDirectoryAndCannotBeDeleted" />
     <text value="The current file has been loaned" name="TheCurrentFileHasBeenLoaned" />
     <text value="The current file has been returned" name="TheCurrentFileHasBeenReturned" />
+    <text value="The current invoice has been processed!" name="TheCurrentInvoiceHasBeenProcessed" />
     <text value="Date of receipt" name="TheDateOfAcceptance" />
     <text value="Deleting a folder will also remove subfolders and files, which can be retrieved through the recycle bin" name="TheDeletionCanBeRetrievedByTheRecycleBin" />
     <text value="Within the proportion of the yuan within the division, the excess part is no longer divided." name="TheExcessIsNoLongerSplit" />
@@ -3151,6 +3167,7 @@
     <text value="traditional Chinese" name="TraditionalChinese" />
     <text value="Traffic compensation" name="TrafficCompensation" />
     <text value="Transfer" name="TransferAccounts" />
+    <text value="Transfer case" name="TransferCase" />
     <text value="Has been turned positive" name="Transfered" />
     <text value="translate a file" name="translateAFile" />
     <text value="Trial" name="Trial" />
@@ -3391,7 +3408,7 @@
     <text value="week" name="Weeks" />
     <text value="Welcome to the application. You can use the menu to start using the application. If you don't see any menu item, probably you don't have permission to see any page. Consider asking a system administrator for permissions." name="WelcomePage_Info" />
     <text value="Welcome!" name="WelcomePage_Title" />
-    <text value="Welcome to AbpZeroTemplate! Notification system is used to inform you for intended events. You can select which type of notifications you want to receive from the notification settings." name="WelcomeToTheApplicationNotificationMessage" />
+    <text value="Welcome to Ailinkedlaw! Notification system is used to inform you for intended events. You can select which type of notifications you want to receive from the notification settings." name="WelcomeToTheApplicationNotificationMessage" />
     <text value="Hello {0}, welcome to use the ailinkedlaw" name="WelcomeToUseAilinkedlaw" />
     <text value="What will be done after subscription expiry" name="WhatWillDoneAfterSubscriptionExpiry" />
     <text value="whether" name="whether" />
@@ -3420,7 +3437,10 @@
     <text value="Whether to allow repeated application of stamps" name="WhetherToRepeatedStamps" />
     <text value="Are you sure to send an audit?" name="WhetherToSendAnAudit" />
     <text value="Is it sent to financial audit" name="WhetherToSendToFinancialAudit" />
+    <text value="Whether to start recording" name="WhetherToStartRecording" />
+    <text value="Whether to use full-time web conferencing" name="WhetherUsingWebConferencing" />
     <text value="Are you sure to change the selected schedule status?" name="WillChangesSelectedOnScheduledState" />
+    <text value="Without any condition" name="WithoutAnyCondition" />
     <text value="A folder with the same name already exists in the current directory" name="WithTheSameNameAlreadyExistsUnderTheCurrentDirectory" />
     <text value="Filing - pending conflict search" name="WN.Business.CaseCheck.Created" />
     <text value="Closing case - responsible person review" name="WN.Business.CaseClose.Created" />
