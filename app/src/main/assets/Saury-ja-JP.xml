@@ -61,6 +61,7 @@
     <text value="イントラネット情報を増やす" name="AddIntranet" />
     <text value="弁護士のポップアップウィンドウをデフォルトで追加すると、頻繁に助言を受ける弁護士が表示されます。ポップアップウィンドウの検索ボックスからより多くの弁護士を検索することができます。" name="AddLawyerSelectiveModalTips" />
     <text value="メンバーを追加" name="AddMember" />
+    <text value="注：新しく追加されたナビゲーションは個人専用ではなく、デフォルトではすべての場所（チーム）に表示されます" name="AddNewLegalNavigationNote" />
     <text value="この後に新しいフェーズを追加する" name="AddNewStageAfterThat" />
     <text value="新しいタスク" name="AddNewTask" />
     <text value="住所" name="Address" />
@@ -489,7 +490,7 @@
     <text value="ケースプロジェクト" name="CaseProject" />
     <text value="ケースのキャンセル" name="CaseRemove" />
     <text value="ケースの結果と分析" name="CaseResultsAndAnalysis" />
-    <text value="ケースの情報を元に戻す" name="CaseReversalInformation" />
+    <text value="ケース転送情報" name="CaseReversalInformation" />
     <text value="ケースレビュー" name="CaseReview" />
     <text value="あなたのケースを提出するために提出されたケース[{0}]は、ケース担当者によって返されました。終了情報を変更してください。" name="CaseReviewReturned" />
     <text value="ケースのシリアル番号のフォーマット" name="CaseSerialIdFormat" />
@@ -1056,6 +1057,8 @@
     <text name="EnableRecurringPayments" />
     <text value="アカウントのデュアルログイン認証を有効にします。" name="EnableTwoFactorLogin" />
     <text value="失敗したログイン試行でユーザーアカウントロックを有効にする" name="EnableUserAccountLockingOnFailedLoginAttemts" />
+    <text value="エンドケース" name="EndCase" />
+    <text value="参加したケース[{0}]は終了しました。" name="EndCaseMessage" />
     <text value="終了時刻" name="EndTime" />
     <text value="終了時間は空ではありません！" name="EndTimeCannotBeEmpty" />
     <text value="単語の終わり" name="EndWordOfSerialNumber" />
@@ -1313,6 +1316,8 @@
     <text name="HostDashboardHeaderInfo" />
     <text value="弁護士弁護士" name="HostLawyer" />
     <text value="ホストリンク" name="HostLink" />
+    <text value="ホストリンク：" name="HostLinkTitle" />
+    <text value="ホストパスワード：" name="HostPasswordTItle" />
     <text value="人気のあるコンテンツ" name="HotContent" />
     <text value="時間別料金" name="HourlyPay" />
     <text value="時間別料金" name="HourlyRate" />
@@ -1334,6 +1339,7 @@
     <text value="{0}インポートテンプレートファイルをダウンロードします。" name="ImportToExcelTemplateFileDownloadInfo" />
     <text value="ユーザーのインポートプロセスが開始されました。" name="ImportUsersProcessStart" />
     <text value="ユーザーのインポートプロセスが失敗しました。" name="ImportUsersUploadFailed" />
+    <text value="ケースファイリング情報を改善する" name="ImproveCaseFilingInformation" />
     <text value="コレクションボックス" name="Inbox" />
     <text value="包含日" name="Inclusiondate" />
     <text value="包含理由" name="Inclusionreason" />
@@ -1744,6 +1750,7 @@
     <text value="ナビゲーションバーのスキン" name="NavbarSkins" />
     <text value="ナビゲーションバータイプ" name="NavbarType" />
     <text value="ナビゲーション" name="Navigation" />
+    <text value="ナビゲーションカテゴリ" name="NavigationCategory" />
     <text value="詳細な場所を取得できませんでした。場所を入力してください" name="NeedLocation" />
     <text value="ネットワークが失われました。クリックしてもう一度やり直してください〜" name="NetworkLost" />
     <text value="新しい" name="new" />
@@ -1894,6 +1901,7 @@
     <text value="ワンクリック" name="OneKey" />
     <text value="進行中のプロジェクト" name="OngoingProjects" />
     <text name="Online" />
+    <text value="オンライン検索" name="OnlineSearch" />
     <text value="申し訳ありませんが、あなたは1つのファイルの名前を変更することができます！" name="OnlyIndividualFilesCanBeRenamed" />
     <text name="OnlyLockedUsers" />
     <text value="働く状態" name="OnTheJobStatus" />
@@ -2093,6 +2101,7 @@
     <text value="スケジュールへの参加を確認する" name="ParticipateInSchedule" />
     <text value="タスクに参加する" name="ParticipateInTasks" />
     <text value="プロジェクトに参加する" name="ParticipateProject" />
+    <text value="ウェブ会議に参加するために行きます" name="ParticipateWebConference" />
     <text value="パーティー" name="ParticipatingLawyer" />
     <text value="変換される参加ログ" name="ParticipatingLogsToBeTransformed" />
     <text value="参加しています" name="ParticipatingTask" />
@@ -2738,6 +2747,7 @@
     <text value="AiLinkedLawは、プロフェッショナル企業向けのプロフェッショナルでプロフェッショナルなサービスを提供するという理念を遵守し、オープンな協力の重要性を十分に考慮し、多くのテクノロジー企業やデータコンテンツのプロフェッショナル企業と協力してより豊富なアプリケーションシナリオとリソースを法律事務所や弁護士に提供します。" name="ShareContent" />
     <text value="株主" name="Shareholder" />
     <text value="株主情報" name="ShareholderInformation" />
+    <text value="会議情報を共有する" name="ShareMeetingInfo" />
     <text value="株式比率" name="Shareratio" />
     <text value="リーガルインテリジェンス - リーガルサークルインテリジェントコンバージェンスプラットフォーム" name="ShareTitle" />
     <text value="クイック操作" name="Shortcuts" />

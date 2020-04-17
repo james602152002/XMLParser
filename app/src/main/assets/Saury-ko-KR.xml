@@ -61,6 +61,7 @@
     <text value="인트라넷 정보 증가" name="AddIntranet" />
     <text value="변호사의 팝업 창을 추가하면 기본적으로 빈번한 변호사 변호사가 표시됩니다. 변호사가 추가되지 않으면 동일한 부서의 변호사를 6 명까지만 표시합니다. 팝업 창에서 검색 창을 통해 더 많은 변호사를 검색 할 수 있습니다!" name="AddLawyerSelectiveModalTips" />
     <text value="회원 추가" name="AddMember" />
+    <text value="참고 : 새로 추가 된 내비게이션은 개인 전용이 아니며 기본적으로 모든 장소 (팀)에 표시됩니다." name="AddNewLegalNavigationNote" />
     <text value="이 후에 새로운 단계 추가" name="AddNewStageAfterThat" />
     <text value="새로운 작업" name="AddNewTask" />
     <text value="주소" name="Address" />
@@ -489,7 +490,7 @@
     <text value="사례 프로젝트" name="CaseProject" />
     <text value="케이스 취소" name="CaseRemove" />
     <text value="사례 결과 및 분석" name="CaseResultsAndAnalysis" />
-    <text value="사례가 정보를 뒤집습니다." name="CaseReversalInformation" />
+    <text value="사례 이전 정보" name="CaseReversalInformation" />
     <text value="사례 검토" name="CaseReview" />
     <text value="사례를 제출하기 위해 제기 된 사례 [{0}]이 사례 담당자가 반환했습니다. 종료 정보를 수정하십시오." name="CaseReviewReturned" />
     <text value="케이스 일련 번호 형식" name="CaseSerialIdFormat" />
@@ -1056,6 +1057,8 @@
     <text name="EnableRecurringPayments" />
     <text value="계정 이중 로그인 확인을 사용합니다." name="EnableTwoFactorLogin" />
     <text value="실패한 로그인 시도에 대해 사용자 계정 잠금 사용" name="EnableUserAccountLockingOnFailedLoginAttemts" />
+    <text value="최종 사례" name="EndCase" />
+    <text value="참여한 사례 [{0}]이 (가) 종료되었습니다." name="EndCaseMessage" />
     <text value="종료 시간" name="EndTime" />
     <text value="종료 시간은 비워 둘 수 없습니다!" name="EndTimeCannotBeEmpty" />
     <text name="EndWordOfSerialNumber" />
@@ -1313,6 +1316,8 @@
     <text name="HostDashboardHeaderInfo" />
     <text value="후원 변호사" name="HostLawyer" />
     <text value="호스트 링크" name="HostLink" />
+    <text value="호스트 링크 :" name="HostLinkTitle" />
+    <text value="호스트 비밀번호 :" name="HostPasswordTItle" />
     <text value="인기있는 콘텐츠" name="HotContent" />
     <text value="시간당 요금" name="HourlyPay" />
     <text value="시간당 요금" name="HourlyRate" />
@@ -1334,6 +1339,7 @@
     <text value="{0} 가져 오기 템플리트 파일을 다운로드하십시오." name="ImportToExcelTemplateFileDownloadInfo" />
     <text value="사용자 가져 오기 프로세스가 시작되었습니다." name="ImportUsersProcessStart" />
     <text value="사용자 가져 오기 프로세스가 실패했습니다." name="ImportUsersUploadFailed" />
+    <text value="사례 신고 정보 개선" name="ImproveCaseFilingInformation" />
     <text value="수집 상자" name="Inbox" />
     <text value="포함 날짜" name="Inclusiondate" />
     <text value="포함 이유" name="Inclusionreason" />
@@ -1744,6 +1750,7 @@
     <text value="탐색 모음 스킨" name="NavbarSkins" />
     <text value="탐색 모음 유형" name="NavbarType" />
     <text value="내비게이션" name="Navigation" />
+    <text value="탐색 카테고리" name="NavigationCategory" />
     <text value="자세한 위치를 가져 오지 못했습니다. 위치를 입력하십시오." name="NeedLocation" />
     <text value="네트워크가 손실되었습니다. 다시 시도하려면 클릭하십시오 ~" name="NetworkLost" />
     <text value="새로운" name="new" />
@@ -1894,6 +1901,7 @@
     <text value="한 번의 클릭" name="OneKey" />
     <text value="진행중인 프로젝트" name="OngoingProjects" />
     <text name="Online" />
+    <text value="온라인 검색" name="OnlineSearch" />
     <text value="죄송합니다. 하나의 파일 이름 만 바꿀 수 있습니다!" name="OnlyIndividualFilesCanBeRenamed" />
     <text name="OnlyLockedUsers" />
     <text value="근무 상태" name="OnTheJobStatus" />
@@ -2093,6 +2101,7 @@
     <text value="일정에 참여 확인" name="ParticipateInSchedule" />
     <text value="과제에 참여하기" name="ParticipateInTasks" />
     <text value="프로젝트에 참여" name="ParticipateProject" />
+    <text value="웹 컨퍼런스에 참여" name="ParticipateWebConference" />
     <text value="참여 변호사" name="ParticipatingLawyer" />
     <text value="참여 로그를 변환해야합니다." name="ParticipatingLogsToBeTransformed" />
     <text value="참여하고 있습니다" name="ParticipatingTask" />
@@ -2738,6 +2747,7 @@
     <text value="AiLinkedLaw는 전문 회사에 전문적이고 전문적인 서비스를 제공한다는 철학을 준수하며 개방 된 협력의 중요성을 충분히 고려하고 많은 기술 회사 및 데이터 컨텐츠 전문 회사와 협력하여 법률 회사 및 변호사를위한 풍부한 응용 프로그램 시나리오 및 리소스를 제공합니다. " name="ShareContent" />
     <text value="주주" name="Shareholder" />
     <text value="주주 정보" name="ShareholderInformation" />
+    <text value="회의 정보 공유" name="ShareMeetingInfo" />
     <text value="공유 비율" name="Shareratio" />
     <text value="법률 정보원 - 법률 서클 지능형 컨버전스 플랫폼" name="ShareTitle" />
     <text value="빠른 작동" name="Shortcuts" />

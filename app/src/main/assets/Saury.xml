@@ -61,6 +61,7 @@
     <text value="Increase intranet information" name="AddIntranet" />
     <text value="Adding a lawyer's pop-up window by default shows frequent co-counsel lawyers. If no cases have been added, only up to 6 lawyers under the same department will be displayed. You can retrieve more lawyers through the search box in the pop-up layer!" name="AddLawyerSelectiveModalTips" />
     <text value="Add member" name="AddMember" />
+    <text value="Note: The newly added navigation is not exclusive to individuals, by default it is visible to all places (teams)" name="AddNewLegalNavigationNote" />
     <text value="Add a new phase after this" name="AddNewStageAfterThat" />
     <text value="Add New task" name="AddNewTask" />
     <text value="Address" name="Address" />
@@ -489,7 +490,7 @@
     <text value="Case Project" name="CaseProject" />
     <text value="Cancellation of case" name="CaseRemove" />
     <text value="Case results and analysis" name="CaseResultsAndAnalysis" />
-    <text value="Case reverses information" name="CaseReversalInformation" />
+    <text value="Case transfer information" name="CaseReversalInformation" />
     <text value="Case Review" name="CaseReview" />
     <text value="The case [{0}] filed for filing of your case has been returned by the person in charge of the case. Please modify the closing information." name="CaseReviewReturned" />
     <text value="Case serial number formatting" name="CaseSerialIdFormat" />
@@ -1056,6 +1057,8 @@
     <text value="Bill my account automatically" name="EnableRecurringPayments" />
     <text value="Enable two factor user login." name="EnableTwoFactorLogin" />
     <text value="Enable user account locking on failed login attempts" name="EnableUserAccountLockingOnFailedLoginAttemts" />
+    <text value="End case" name="EndCase" />
+    <text value="The case [{0}] you participated in has been terminated." name="EndCaseMessage" />
     <text value="End Time" name="EndTime" />
     <text value="The end time cannot be empty!" name="EndTimeCannotBeEmpty" />
     <text value="End of the word" name="EndWordOfSerialNumber" />
@@ -1313,6 +1316,8 @@
     <text value="General statistics and recent activities" name="HostDashboardHeaderInfo" />
     <text value="Sponsored lawyers" name="HostLawyer" />
     <text value="Host link" name="HostLink" />
+    <text value="Host link:" name="HostLinkTitle" />
+    <text value="Host password:" name="HostPasswordTItle" />
     <text value="Popular content" name="HotContent" />
     <text value="Hourly charge" name="HourlyPay" />
     <text value="Hourly rate" name="HourlyRate" />
@@ -1334,6 +1339,7 @@
     <text value="{0}Download the import template file." name="ImportToExcelTemplateFileDownloadInfo" />
     <text value="The user import process has begun." name="ImportUsersProcessStart" />
     <text value="The user import process failed." name="ImportUsersUploadFailed" />
+    <text value="Improve case filing information" name="ImproveCaseFilingInformation" />
     <text value="collection box" name="Inbox" />
     <text value="Inclusion date" name="Inclusiondate" />
     <text value="Inclusion reason" name="Inclusionreason" />
@@ -1744,6 +1750,7 @@
     <text value="Navigation bar skin" name="NavbarSkins" />
     <text value="Navigation bar type" name="NavbarType" />
     <text value="navigation" name="Navigation" />
+    <text value="Navigation category" name="NavigationCategory" />
     <text value="Failed to get detailed location, please enter location" name="NeedLocation" />
     <text value="Your network has been lost, please click to try again~" name="NetworkLost" />
     <text value="new" name="new" />
@@ -1894,6 +1901,7 @@
     <text value="One Key" name="OneKey" />
     <text value="Processing project" name="OngoingProjects" />
     <text value="Online" name="Online" />
+    <text value="Online search" name="OnlineSearch" />
     <text value="Sorry, you can only rename a single file!" name="OnlyIndividualFilesCanBeRenamed" />
     <text value="Only locked users" name="OnlyLockedUsers" />
     <text value="Working status" name="OnTheJobStatus" />
@@ -1953,7 +1961,7 @@
     <text value="Document settings" name="Pages.Administration.Tenant.DocumentSettings" />
     <text value="Third party settings" name="Pages.Administration.Tenant.ThirdPartySettings" />
     <text value="Workflow" name="Pages.Administration.Workflow" />
-    <text value="BM" name="Pages.Business" />
+    <text value="Business Management" name="Pages.Business" />
     <text value="Filing management" name="Pages.Business.CaseApplications" />
     <text value="Filing an application" name="Pages.Business.CaseApplications.Apply" />
     <text value="Case approval" name="Pages.Business.CaseApplications.Approve" />
@@ -1998,7 +2006,7 @@
     <text value="My customers" name="Pages.Customers.MyCustomers.Manage" />
     <text value="Customer visit record" name="Pages.Customers.MyCustomers.Visit" />
     <text value="DM" name="Pages.Documents" />
-    <text value="DM" name="Pages.Documents.DocumentCenter" />
+    <text value="Document Center" name="Pages.Documents.DocumentCenter" />
     <text value="Administrative" name="Pages.Executive" />
     <text value="Intranet management" name="Pages.Executive.Intranet" />
     <text value="Classification management" name="Pages.Executive.Intranet.Classify" />
@@ -2067,7 +2075,7 @@
     <text value="Meeting Reservation" name="Pages.Works.Meeting" />
     <text value="Meeting Room Management" name="Pages.Works.Meeting.ManageMeetingRoom" />
     <text value="My Meeting" name="Pages.Works.Meeting.MyMeeting" />
-    <text value="Schedule" name="Pages.Works.Schedule" />
+    <text value="Work Schedule" name="Pages.Works.Schedule" />
     <text value="Opening information" name="Pages.Works.Schedule.CourtInformations" />
     <text value="My schedule" name="Pages.Works.Schedule.MySchedule" />
     <text value="Schedule center" name="Pages.Works.Schedule.ScheduleCenter" />
@@ -2093,6 +2101,7 @@
     <text value="Confirm participation in the schedule" name="ParticipateInSchedule" />
     <text value="Participate " name="ParticipateInTasks" />
     <text value="Participated Project" name="ParticipateProject" />
+    <text value="Go to participate in the web conference" name="ParticipateWebConference" />
     <text value="Participating Lawyer" name="ParticipatingLawyer" />
     <text value="Participation log to be converted" name="ParticipatingLogsToBeTransformed" />
     <text value="Participated Task" name="ParticipatingTask" />
@@ -2738,6 +2747,7 @@
     <text value="AiLinkedLaw adheres to the philosophy of providing professional and professional services to professional companies. It fully considers the importance of open cooperation and cooperates with many technology companies and data content professional companies to provide richer application scenarios and resources for law firms and lawyers. " name="ShareContent" />
     <text value="shareholder" name="Shareholder" />
     <text value="Shareholder information" name="ShareholderInformation" />
+    <text value="Share meeting information" name="ShareMeetingInfo" />
     <text value="Share ratio" name="Shareratio" />
     <text value="AiLinkedLaw - Legal Circle Intelligent Convergence Platform" name="ShareTitle" />
     <text value="Quick operation" name="Shortcuts" />

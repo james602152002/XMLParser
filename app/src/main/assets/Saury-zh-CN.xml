@@ -61,6 +61,7 @@
     <text value="增加内网信息" name="AddIntranet" />
     <text value="添加律师弹窗默认显示经常合作律师，如未添加过案件，则只显示同部门下的至多6位律师。" name="AddLawyerSelectiveModalTips" />
     <text value="添加成员" name="AddMember" />
+    <text value="注意：新添加的导航非个人独享，默认为全所（团队）可见" name="AddNewLegalNavigationNote" />
     <text value="在此后添加新阶段" name="AddNewStageAfterThat" />
     <text value="新增任务" name="AddNewTask" />
     <text value="地址" name="Address" />
@@ -489,7 +490,7 @@
     <text value="案件项目" name="CaseProject" />
     <text value="案件取消" name="CaseRemove" />
     <text value="案件结果及分析" name="CaseResultsAndAnalysis" />
-    <text value="案件扭转信息" name="CaseReversalInformation" />
+    <text value="案件流转信息" name="CaseReversalInformation" />
     <text value="案件审核" name="CaseReview" />
     <text value="您申请的结案归档案件[{0}],已被案件负责人退回,请修改结案信息." name="CaseReviewReturned" />
     <text value="案件流水号规则格式化" name="CaseSerialIdFormat" />
@@ -1056,6 +1057,8 @@
     <text name="EnableRecurringPayments" />
     <text value="启用两步认证登录" name="EnableTwoFactorLogin" />
     <text value="登录失败后启用用户的帐户锁定" name="EnableUserAccountLockingOnFailedLoginAttemts" />
+    <text value="终止案件" name="EndCase" />
+    <text value="您参与的案件[{0}]，已被终止。" name="EndCaseMessage" />
     <text value="结束时间" name="EndTime" />
     <text value="结束时间不能为空！" name="EndTimeCannotBeEmpty" />
     <text value="结束尾字" name="EndWordOfSerialNumber" />
@@ -1313,6 +1316,8 @@
     <text value="一般统计和最近的活动" name="HostDashboardHeaderInfo" />
     <text value="主办律师" name="HostLawyer" />
     <text value="主持链接" name="HostLink" />
+    <text value="主持链接：" name="HostLinkTitle" />
+    <text value="主持密码：" name="HostPasswordTItle" />
     <text value="热门内容" name="HotContent" />
     <text value="小时收费" name="HourlyPay" />
     <text value="按小时收费费率" name="HourlyRate" />
@@ -1334,6 +1339,7 @@
     <text value="{0}下载导入模板文件。" name="ImportToExcelTemplateFileDownloadInfo" />
     <text value="用户导入过程已经开始。" name="ImportUsersProcessStart" />
     <text value="用户导入过程失败。" name="ImportUsersUploadFailed" />
+    <text value="完善立案信息" name="ImproveCaseFilingInformation" />
     <text value="收集箱" name="Inbox" />
     <text value="列入日期" name="Inclusiondate" />
     <text value="列入原因" name="Inclusionreason" />
@@ -1744,6 +1750,7 @@
     <text value="导航栏皮肤" name="NavbarSkins" />
     <text value="导航栏类型" name="NavbarType" />
     <text value="导航" name="Navigation" />
+    <text value="导航分类" name="NavigationCategory" />
     <text value="未获取到详细位置，请输入位置" name="NeedLocation" />
     <text value="您的网络已走失，请点击重试~" name="NetworkLost" />
     <text value="新" name="new" />
@@ -1894,6 +1901,7 @@
     <text value="一键" name="OneKey" />
     <text value="进行中的项目" name="OngoingProjects" />
     <text name="Online" />
+    <text value="在线检索" name="OnlineSearch" />
     <text value="对不起，您只能对单个文件重命名！" name="OnlyIndividualFilesCanBeRenamed" />
     <text value="仅已锁定用户" name="OnlyLockedUsers" />
     <text value="在职状态" name="OnTheJobStatus" />
@@ -2093,6 +2101,7 @@
     <text value="确认是否参与日程" name="ParticipateInSchedule" />
     <text value="参与任务" name="ParticipateInTasks" />
     <text value="参与项目" name="ParticipateProject" />
+    <text value="前往参与网络会议" name="ParticipateWebConference" />
     <text value="参案律师" name="ParticipatingLawyer" />
     <text value="待转化的参与日志" name="ParticipatingLogsToBeTransformed" />
     <text value="我参与进行中" name="ParticipatingTask" />
@@ -2738,6 +2747,7 @@
     <text value="律智荟秉承专业的公司提供专业极致服务的理念，充分考虑到了开放合作的重要性，与众多科技公司、数据内容专业公司合作，为律师事务所及律师提供更丰富的应用场景与资源，全面提升平台的使用价值。" name="ShareContent" />
     <text value="股东" name="Shareholder" />
     <text value="股东信息" name="ShareholderInformation" />
+    <text value="分享会议信息" name="ShareMeetingInfo" />
     <text value="占股比例" name="Shareratio" />
     <text value="律智荟 - 法律圈智能汇聚平台" name="ShareTitle" />
     <text value="快捷操作" name="Shortcuts" />
