@@ -568,6 +568,7 @@
     <text value="中国の名前" name="ChineseName" />
     <text value="組織部門を選択する" name="ChooseAnOrganizationUnit" />
     <text value="選択済み" name="chosen" />
+    <text value="迂回" name="Circumvention" />
     <text value="請求" name="Claim" />
     <text value="申立人" name="Claimant" />
     <text value="請求された" name="Claimed" />
@@ -583,12 +584,15 @@
     <text value="正常にクリアされました" name="ClearedSuccessfully" />
     <text value="申し訳ありませんが、このステージリストを削除する前に、このステージリストのタスクをクリアしてください！" name="ClearTasklistInStage" />
     <text value="このアイテムを削除する前に、このタスクアイテムのすべてのタスクをクリアしてください！" name="ClearTaskProject" />
+    <text value="下のサイトボタンをクリックして、サイトの検索結果を表示します" name="ClickButtonToViewSearchResults" />
     <text value="クリックして電話番号の確認コードを取得する" name="ClickforVerificationCode" />
     <text value="ここをクリック" name="ClickHere" />
     <text value="右側のリンクをクリックすると、操作前の情報が表示されます。" name="ClickOnTheRightLinkToViewTheFrontActionInfo" />
     <text value="クリックしてサンプルをダウンロードする" name="ClickTheDownloadExample" />
     <text value="右側の[+]記号をクリックして、課金情報を追加します" name="ClickToAddChargingInformation" />
+    <text value="クリックして検索キーワードを入力し、Enterキーを押して検索します" name="ClickToEnterSearchPageTips" />
     <text value="ユーザーインポートプロセスが完了し、無効なデータがいくつかあります。クリックして、無効なユーザーインポートを表示します。" name="ClickToSeeInvalidUsers" />
+    <text value="クリックして個人情報とシステム設定を表示" name="ClickToViewPreferencesTips" />
     <text value="顧客" name="Client" />
     <text value="クライアントのケース連絡先" name="ClientCaseContact" />
     <text value="クライアントのケース連絡先情報" name="ClientCaseContactInformation" />
@@ -771,7 +775,7 @@
     <text value="新しい汎用コードを作成する" name="CreateNewGeneralCode" />
     <text value="新しい言語を作成する" name="CreateNewLanguage" />
     <text value="役割を追加する" name="CreateNewRole" />
-    <text value="テナントコード" name="CreateNewTenant" />
+    <text value="テナントを追加" name="CreateNewTenant" />
     <text value="ユーザーを追加する" name="CreateNewUser" />
     <text value="プロセスを作成する" name="CreateProcess" />
     <text value="スケジュールを作成する" name="CreateSchedule" />
@@ -1228,7 +1232,7 @@
     <text value="パスワードを忘れた" name="ForgetPassword" />
     <text value="パスワードを覚えていない？" name="ForgotPassword" />
     <text value="製図/修正を記録するのを忘れました" name="ForgotToRecordDrafting/Modification" />
-    <text value="フォーマルケース" name="FormalCase" />
+    <text value="進行中" name="FormalCase" />
     <text value="正式な顧客" name="FormalCustomer" />
     <text value="公式のVIP顧客" name="FormalVipCustomers" />
     <text value="フォームベースの認証" name="FormBasedRegistration" />
@@ -1317,7 +1321,7 @@
     <text value="弁護士弁護士" name="HostLawyer" />
     <text value="ホストリンク" name="HostLink" />
     <text value="ホストリンク：" name="HostLinkTitle" />
-    <text value="ホストパスワード：" name="HostPasswordTItle" />
+    <text value="ホストパスワード：" name="HostPasswordTitle" />
     <text value="人気のあるコンテンツ" name="HotContent" />
     <text value="時間別料金" name="HourlyPay" />
     <text value="時間別料金" name="HourlyRate" />
@@ -1709,6 +1713,7 @@
     <text value="月" name="Month" />
     <text value="毎月" name="Monthly" />
     <text name="MonthlyPrice" />
+    <text value="その他のタブ" name="MoreTabs" />
     <text value="住宅ローン" name="Mortgage" />
     <text value="成功した移動" name="MoveSucceeded" />
     <text value="テナントを別のバージョンに移行する" name="MoveTenantsOfEdition" />
@@ -1846,6 +1851,7 @@
     <text value="収集されない" name="NotCollected" />
     <text value="未完成の" name="NotCompleted" />
     <text value="許可を変更する場合は、許可の変更を有効にするためにページ（F5）を更新する必要があります。" name="Note_RefreshPageForPermissionChanges" />
+    <text value="一時的に対処するものはありません！" name="NothingToDealWithTemporarily" />
     <text value="[{0}]が提出され、あなたは{1}の役割のケースに参加します。" name="NoticeCaseParticipants" />
     <text name="Notification" />
     <text name="NotificationDeleteWarningMessage" />
@@ -2311,6 +2317,7 @@
     <text value="事前に確立されたケース[{0}]が競合検索を待っています。" name="PreCaseWaitingForYouToPerformConflictRetrieval" />
     <text value="設定" name="Preferences" />
     <text value="事前フィールド" name="PreField" />
+    <text value="事前のケース" name="PreFileCase" />
     <text value="事前に提出" name="PreFiled" />
     <text value="文字の事前ファイリングと識別" name="PreFilingWord" />
     <text value="この手紙は事前に提出されたプロジェクトではなく、事前にプロジェクトでのみ有効です。" name="PreFilingWord_Hint" />
@@ -2324,6 +2331,7 @@
     <text value="フォワード" name="Previous" />
     <text value="前のページ" name="PreviousPage" />
     <text value="過去のプロジェクト経験" name="PreviousProjectExperience" />
+    <text value="前のステップ" name="PreviousStep" />
     <text name="Price" />
     <text name="Pricing" />
     <text value="テーマスキン" name="Primary" />
@@ -2593,6 +2601,7 @@
     <text value="ランニングタイマー" name="RunningTimer" />
     <text value="支払レベル" name="SalaryLevel" />
     <text value="同じ" name="SameAs" />
+    <text value="同じ顧客" name="SameCustomer" />
     <text value="同じ担当者" name="SamePersonInCharge" />
     <text value="同じ担当者と同じクライアント" name="SamePersonInChargeAndSameClient" />
     <text value="同じ連絡先" name="SameSourceContacts" />
@@ -2775,6 +2784,7 @@
     <text value="ウェブサイトの検索" name="SiteSearch" />
     <text value="状況" name="Situation" />
     <text value="皮膚を入れ替える" name="SkinReplacement" />
+    <text value="スキップする" name="Skip" />
     <text value="設定をスキップして直接ログインする" name="SkipSetting" />
     <text value="単語セグメンテーション検索" name="SliptWordSearch" />
     <text name="Sms" />
@@ -2911,6 +2921,7 @@
     <text value="休暇情報を削除してもよろしいですか？" name="SureToDeleteTheLeaveInformation" />
     <text value="姓" name="Surname" />
     <text value="スイッチング" name="Switch" />
+    <text value="クリックして全画面モードと非全画面モードを切り替えます" name="SwitchFullScreenTips" />
     <text value="言語を切り替える" name="SwitchLanguage" />
     <text value="私のログに回す" name="SwitchMyLog" />
     <text value="ヒストグラムに切り替える" name="SwitchToAHistogram" />
@@ -3106,6 +3117,7 @@
     <text value="法律事務所ID {0}は存在しません" name="ThereIsNoTenantDefinedWithName" />
     <text value="一人だけを選ぶ" name="ThereIsOnlyOnePlace" />
     <text value="返却日は持ち出し日よりも長くなければなりません。" name="TheReturnDateMustBeGreaterThanTheTakeOutDate" />
+    <text value="同じクライアントに相手が含まれていない" name="TheSameClientDoesNotIncludeTheOtherParty" />
     <text value="顧客名はすでに存在します。既存の顧客情報を修正または選択して確認してください。" name="TheSameCustomerNameHasAlreadyExisted" />
     <text value="検索条件には、上位20の取引相手の情報のみがリストされていましたが、キーワードを追加する必要がある場合は、単語分割モードでキーワード情報を手動で入力できます。" name="TheSearchConditionsOnlyListedTheInformationOfTheTop20Counterparties" />
     <text value="出身者" name="TheSourceOfPeople" />
@@ -3143,6 +3155,7 @@
     <text value="今日の使命" name="TodayMission" />
     <text value="今日行なわれる" name="TodayToBeDone" />
     <text value="処理に失敗しました" name="ToDealWithFailure" />
+    <text value="やること" name="ToDo" />
     <text name="Toggle" />
     <text value="明日" name="Tomorrow" />
     <text value="現在のタイミング時間が短すぎて、タイミング単位にまだ到達していません（{0}分はタイミング単位です）。タイミングを完了してもよろしいですか？" name="TooShortTimerNotifyTips" />
@@ -3300,6 +3313,7 @@
     <text value="添付ファイルのアップロードに失敗しました：{0}" name="UploadAttachmentFailure" />
     <text value="添付ファイルをアップロードする" name="UploadAttachments" />
     <text value="ケース契約をアップロード" name="UploadCaseContract" />
+    <text value="現在のケースのケース契約がアップロードされていません。この操作を実行する前に契約をアップロードしてください！" name="UploadCaseContractMessage" />
     <text value="案件提出書類のアップロード" name="UploadCaseFile" />
     <text value="アップロード契約" name="UploadContract" />
     <text name="UploadCSS_Info" />
@@ -3537,7 +3551,7 @@
     <text value="パスワードの変更に成功しました。" name="YourPasswordHasChangedSuccessfully" />
     <text value="電話番号が確認されていません" name="YourPhoneNumberIsNotVerified" />
     <text value="電話番号が確認されました" name="YourPhoneNumberIsVerified" />
-    <text value="[[0]]提出のために提出したケースは、保留中です。" name="YourRequestForSettlementIsWaitingForArchiving" />
+    <text value="あなたが申請したクロージングケース[{0}]は申請保留中です。" name="YourRequestForSettlementIsWaitingForArchiving" />
     <text value="他に {0} がいます" name="YouStillHaveOtherCnt" />
     <text value="元" name="Yuan" />
   </texts>

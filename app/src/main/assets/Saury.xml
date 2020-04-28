@@ -568,6 +568,7 @@
     <text value="Chinese name" name="ChineseName" />
     <text value="Select an organizational unit" name="ChooseAnOrganizationUnit" />
     <text value="chosen" name="chosen" />
+    <text value="Circumvention" name="Circumvention" />
     <text value="claim" name="Claim" />
     <text value="Claimant" name="Claimant" />
     <text value="Claimed" name="Claimed" />
@@ -583,12 +584,15 @@
     <text value="Cleared successfully" name="ClearedSuccessfully" />
     <text value="Sorry, please clear the tasks on this stage list before deleting this stage list!" name="ClearTasklistInStage" />
     <text value="Delect project before you should deleted all the tasks. " name="ClearTaskProject" />
+    <text value="Click the site button below to go to view the site search results" name="ClickButtonToViewSearchResults" />
     <text value="Click for phone verification code" name="ClickforVerificationCode" />
     <text value="click here" name="ClickHere" />
     <text value="Click on the link on the right to view the pre-operation information" name="ClickOnTheRightLinkToViewTheFrontActionInfo" />
     <text value="Click to download sample" name="ClickTheDownloadExample" />
     <text value="Click the + sign on the right to add charging information" name="ClickToAddChargingInformation" />
+    <text value="Click to enter search keywords and press Enter to search" name="ClickToEnterSearchPageTips" />
     <text value="User import process has been completed. There are some invalid data. Click to see Invalid user imports." name="ClickToSeeInvalidUsers" />
+    <text value="Click to view personal information and system preferences" name="ClickToViewPreferencesTips" />
     <text value="Client" name="Client" />
     <text value="Client's case contact" name="ClientCaseContact" />
     <text value="Client's case contact information" name="ClientCaseContactInformation" />
@@ -1228,7 +1232,7 @@
     <text value="forget password" name="ForgetPassword" />
     <text value="Forgot password?" name="ForgotPassword" />
     <text value="Forgot to record drafting / modification" name="ForgotToRecordDrafting/Modification" />
-    <text value="Formal case" name="FormalCase" />
+    <text value="In progress" name="FormalCase" />
     <text value="Formal customer" name="FormalCustomer" />
     <text value="Official VIP customer" name="FormalVipCustomers" />
     <text value="Form-Based Registration" name="FormBasedRegistration" />
@@ -1317,7 +1321,7 @@
     <text value="Sponsored lawyers" name="HostLawyer" />
     <text value="Host link" name="HostLink" />
     <text value="Host link:" name="HostLinkTitle" />
-    <text value="Host password:" name="HostPasswordTItle" />
+    <text value="Host password:" name="HostPasswordTitle" />
     <text value="Popular content" name="HotContent" />
     <text value="Hourly charge" name="HourlyPay" />
     <text value="Hourly rate" name="HourlyRate" />
@@ -1709,6 +1713,7 @@
     <text value="month" name="Month" />
     <text value="Monthly" name="Monthly" />
     <text value="Monthly price" name="MonthlyPrice" />
+    <text value="More tabs" name="MoreTabs" />
     <text value="Mortgage" name="Mortgage" />
     <text value="Successful move" name="MoveSucceeded" />
     <text value="Move Tenants to Another Edition" name="MoveTenantsOfEdition" />
@@ -1846,6 +1851,7 @@
     <text value="Not collected" name="NotCollected" />
     <text value="undone" name="NotCompleted" />
     <text value="If you are changing your own permissions, you may need to refresh page (F5) to take effect of permission changes on your own screen!" name="Note_RefreshPageForPermissionChanges" />
+    <text value="Nothing to deal with temporarily!" name="NothingToDealWithTemporarily" />
     <text value="[{0}] has been filed and you will be participating in the case in the role of {1}." name="NoticeCaseParticipants" />
     <text value="Notification" name="Notification" />
     <text value="This notification will be deleted" name="NotificationDeleteWarningMessage" />
@@ -2311,6 +2317,7 @@
     <text value="Pre-established case [{0}] is waiting for your conflict search." name="PreCaseWaitingForYouToPerformConflictRetrieval" />
     <text value="Preferences" name="Preferences" />
     <text value="Pre-field" name="PreField" />
+    <text value="Advance case" name="PreFileCase" />
     <text value="Pre-filed" name="PreFiled" />
     <text value="Pre-filing Character identification" name="PreFilingWord" />
     <text value="The letter is valid only in the pre-filing project and not in the pre-project." name="PreFilingWord_Hint" />
@@ -2324,6 +2331,7 @@
     <text value="Previous" name="Previous" />
     <text value="Previous page" name="PreviousPage" />
     <text value="Previous Project Experience" name="PreviousProjectExperience" />
+    <text value="Previous" name="PreviousStep" />
     <text value="Price" name="Price" />
     <text value="Pricing" name="Pricing" />
     <text value="Theme skin" name="Primary" />
@@ -2593,6 +2601,7 @@
     <text value="Running timer" name="RunningTimer" />
     <text value="Pay level" name="SalaryLevel" />
     <text value="Same as" name="SameAs" />
+    <text value="Same customer" name="SameCustomer" />
     <text value="Same person in charge" name="SamePersonInCharge" />
     <text value="Same person in charge and same client" name="SamePersonInChargeAndSameClient" />
     <text value="Same contact" name="SameSourceContacts" />
@@ -2775,6 +2784,7 @@
     <text value="Website search" name="SiteSearch" />
     <text value="Situation" name="Situation" />
     <text value="Skin Replacement" name="SkinReplacement" />
+    <text value="Skip" name="Skip" />
     <text value="Skip settings, log in directly" name="SkipSetting" />
     <text value="Word segmentation search" name="SliptWordSearch" />
     <text value="Sms" name="Sms" />
@@ -2911,6 +2921,7 @@
     <text value="Is it OK to delete the leave information?" name="SureToDeleteTheLeaveInformation" />
     <text value="Surname" name="Surname" />
     <text value="Switching" name="Switch" />
+    <text value="Click to switch between full-screen and non-full-screen modes" name="SwitchFullScreenTips" />
     <text value="Switch language" name="SwitchLanguage" />
     <text value="Turn to my log" name="SwitchMyLog" />
     <text value="Switch to histogram" name="SwitchToAHistogram" />
@@ -3106,6 +3117,7 @@
     <text value="Law firm ID {0} does not exist" name="ThereIsNoTenantDefinedWithName" />
     <text value="Only one person can choose one" name="ThereIsOnlyOnePlace" />
     <text value="The return date must be greater than the take-out date!" name="TheReturnDateMustBeGreaterThanTheTakeOutDate" />
+    <text value="The same client does not include the other party" name="TheSameClientDoesNotIncludeTheOtherParty" />
     <text value="The customer name already exists. Please check to correct or select existing customer information." name="TheSameCustomerNameHasAlreadyExisted" />
     <text value="The search conditions only listed the information of the top 20 counterparties. If you need to add keywords, you can manually enter the keyword information in the word segmentation mode!" name="TheSearchConditionsOnlyListedTheInformationOfTheTop20Counterparties" />
     <text value="Source person" name="TheSourceOfPeople" />
@@ -3143,6 +3155,7 @@
     <text value="Today's mission" name="TodayMission" />
     <text value="To be done today" name="TodayToBeDone" />
     <text value="Processing failed" name="ToDealWithFailure" />
+    <text value="To-do" name="ToDo" />
     <text value="Toggle" name="Toggle" />
     <text value="tomorrow" name="Tomorrow" />
     <text value="The current timing time is too short and has not yet reached a timing unit ({0} minutes is a timing unit). Are you sure you are finished timing?" name="TooShortTimerNotifyTips" />
@@ -3300,6 +3313,7 @@
     <text value="Failed to upload attachment: {0}" name="UploadAttachmentFailure" />
     <text value="Upload Attachment" name="UploadAttachments" />
     <text value="Upload case contract" name="UploadCaseContract" />
+    <text value="The case contract has not been uploaded for the current case. Please upload the contract before performing this operation!" name="UploadCaseContractMessage" />
     <text value="Uploaded case filing document" name="UploadCaseFile" />
     <text value="Upload contract" name="UploadContract" />
     <text value="Select a .css file with a maximum of 1MB size." name="UploadCSS_Info" />
@@ -3537,7 +3551,7 @@
     <text value="Your password has changed successfully." name="YourPasswordHasChangedSuccessfully" />
     <text value="Your phone number is not verified" name="YourPhoneNumberIsNotVerified" />
     <text value="Your phone number has been verified" name="YourPhoneNumberIsVerified" />
-    <text value="The case you filed for filing [[0}] is pending archiving." name="YourRequestForSettlementIsWaitingForArchiving" />
+    <text value="The closing case [{0}] you applied for is pending filing." name="YourRequestForSettlementIsWaitingForArchiving" />
     <text value="You have other {0}" name="YouStillHaveOtherCnt" />
     <text value="yuan" name="Yuan" />
   </texts>

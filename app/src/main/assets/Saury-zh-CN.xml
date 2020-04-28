@@ -568,6 +568,7 @@
     <text value="中文名称" name="ChineseName" />
     <text value="选择一个组织单位" name="ChooseAnOrganizationUnit" />
     <text value="已选择" name="chosen" />
+    <text value="规避方式" name="Circumvention" />
     <text value="认领" name="Claim" />
     <text value="认领人" name="Claimant" />
     <text value="已认领" name="Claimed" />
@@ -583,12 +584,15 @@
     <text value="已成功清除" name="ClearedSuccessfully" />
     <text value="对不起，请先清空此阶段列表上的任务，然后再删除这个阶段列表！" name="ClearTasklistInStage" />
     <text value="对不起，请先清空此任务项目上的所有任务，然后再删除这个项目！" name="ClearTaskProject" />
+    <text value="点击下方的站点按钮，前往查看该站点检索结果" name="ClickButtonToViewSearchResults" />
     <text value="点击获取手机验证码" name="ClickforVerificationCode" />
     <text value="点击这里" name="ClickHere" />
     <text value="点击右侧链接可查看前置操作信息" name="ClickOnTheRightLinkToViewTheFrontActionInfo" />
     <text value="点击下载范例" name="ClickTheDownloadExample" />
     <text value="点击右侧+号，添加收费信息" name="ClickToAddChargingInformation" />
+    <text value="点击可输入检索关键字并回车键进行检索" name="ClickToEnterSearchPageTips" />
     <text value="用户导入过程已完成， 有一些无效的数据， 单击以查看无效的用户导入。" name="ClickToSeeInvalidUsers" />
+    <text value="点击可查看个人信息和系统偏好设置" name="ClickToViewPreferencesTips" />
     <text value="客户" name="Client" />
     <text value="客户方本案联系人" name="ClientCaseContact" />
     <text value="客户方本案联系人信息" name="ClientCaseContactInformation" />
@@ -1228,7 +1232,7 @@
     <text value="忘记密码" name="ForgetPassword" />
     <text value="不记得密码了?" name="ForgotPassword" />
     <text value="忘备录起草/修改" name="ForgotToRecordDrafting/Modification" />
-    <text value="正式案件" name="FormalCase" />
+    <text value="在办中" name="FormalCase" />
     <text value="正式客户" name="FormalCustomer" />
     <text value="正式VIP客户" name="FormalVipCustomers" />
     <text value="基于表单身份验证" name="FormBasedRegistration" />
@@ -1317,7 +1321,7 @@
     <text value="主办律师" name="HostLawyer" />
     <text value="主持链接" name="HostLink" />
     <text value="主持链接：" name="HostLinkTitle" />
-    <text value="主持密码：" name="HostPasswordTItle" />
+    <text value="主持密码：" name="HostPasswordTitle" />
     <text value="热门内容" name="HotContent" />
     <text value="小时收费" name="HourlyPay" />
     <text value="按小时收费费率" name="HourlyRate" />
@@ -1709,6 +1713,7 @@
     <text value="月" name="Month" />
     <text value="每月" name="Monthly" />
     <text value="每月价格" name="MonthlyPrice" />
+    <text value="更多选项卡" name="MoreTabs" />
     <text value="按揭成数" name="Mortgage" />
     <text value="移动成功" name="MoveSucceeded" />
     <text value="将租户迁移至另一个版本" name="MoveTenantsOfEdition" />
@@ -1846,6 +1851,7 @@
     <text value="未收集" name="NotCollected" />
     <text value="未完成" name="NotCompleted" />
     <text value="如果您正在更改自己的权限，则可能需要刷新页面（F5），以在您所做的权限更改生效！" name="Note_RefreshPageForPermissionChanges" />
+    <text value="暂无任何处理事项！" name="NothingToDealWithTemporarily" />
     <text value="[{0}]已立案，您将以{1}的角色参与到该案件中。" name="NoticeCaseParticipants" />
     <text value="通知" name="Notification" />
     <text value="此通知将被删除" name="NotificationDeleteWarningMessage" />
@@ -2311,6 +2317,7 @@
     <text value="预立案件[{0}]等待您进行冲突检索." name="PreCaseWaitingForYouToPerformConflictRetrieval" />
     <text value="偏好设置" name="Preferences" />
     <text value="前置字段" name="PreField" />
+    <text value="预立案" name="PreFileCase" />
     <text value="预立案转立案" name="PreFiled" />
     <text value="预立案标识代字" name="PreFilingWord" />
     <text value="该代字只在预立案项目有效，非预立案项目不显示" name="PreFilingWord_Hint" />
@@ -2324,6 +2331,7 @@
     <text value="向前" name="Previous" />
     <text value="上一页" name="PreviousPage" />
     <text value="以往项目经验" name="PreviousProjectExperience" />
+    <text value="上一步" name="PreviousStep" />
     <text name="Price" />
     <text value="价格" name="Pricing" />
     <text value="主题皮肤" name="Primary" />
@@ -2593,6 +2601,7 @@
     <text value="运行中的计时器" name="RunningTimer" />
     <text value="薪酬级别" name="SalaryLevel" />
     <text value="同比" name="SameAs" />
+    <text value="同客户" name="SameCustomer" />
     <text value="同负责人" name="SamePersonInCharge" />
     <text value="同负责人同客户" name="SamePersonInChargeAndSameClient" />
     <text value="相同联系人" name="SameSourceContacts" />
@@ -2775,6 +2784,7 @@
     <text value="网站检索" name="SiteSearch" />
     <text value="情境" name="Situation" />
     <text value="更换皮肤" name="SkinReplacement" />
+    <text value="跳过" name="Skip" />
     <text value="跳过设置，直接登录" name="SkipSetting" />
     <text value="分词搜索" name="SliptWordSearch" />
     <text value="短信" name="Sms" />
@@ -2911,6 +2921,7 @@
     <text value="是否确认删除请假信息？" name="SureToDeleteTheLeaveInformation" />
     <text value="姓氏" name="Surname" />
     <text value="切换" name="Switch" />
+    <text value="点击可在全屏和非全屏模式切换" name="SwitchFullScreenTips" />
     <text value="切换语言" name="SwitchLanguage" />
     <text value="转为我的日志" name="SwitchMyLog" />
     <text value="切换为柱状图" name="SwitchToAHistogram" />
@@ -3106,6 +3117,7 @@
     <text value="律所标识 {0}不存在" name="ThereIsNoTenantDefinedWithName" />
     <text value="只能选择一个人" name="ThereIsOnlyOnePlace" />
     <text value="归还日期必须大于带出日期！" name="TheReturnDateMustBeGreaterThanTheTakeOutDate" />
+    <text value="同客户中不包含对方当事人" name="TheSameClientDoesNotIncludeTheOtherParty" />
     <text value="该客户名称已存在，请检查后更正或选择已有客户信息" name="TheSameCustomerNameHasAlreadyExisted" />
     <text value="检索条件中只列出了前20位对方当事人信息，如需增加关键字，可以在分词模式下手动录入关键字信息！" name="TheSearchConditionsOnlyListedTheInformationOfTheTop20Counterparties" />
     <text value="案源人" name="TheSourceOfPeople" />
@@ -3143,6 +3155,7 @@
     <text value="今日任务" name="TodayMission" />
     <text value="今日待办" name="TodayToBeDone" />
     <text value="处理失败" name="ToDealWithFailure" />
+    <text value="待处理事项" name="ToDo" />
     <text value="切换" name="Toggle" />
     <text value="明天" name="Tomorrow" />
     <text value="当前计时时间过短，尚未达到一个计时单位（{0}分钟为一个计时单位），是否确定完成计时？" name="TooShortTimerNotifyTips" />
@@ -3300,6 +3313,7 @@
     <text value="上传附件失败：{0}" name="UploadAttachmentFailure" />
     <text value="上传附件" name="UploadAttachments" />
     <text value="上传案件合同" name="UploadCaseContract" />
+    <text value="当前案件尚未上传案件合同，请上传合同后再进行此操作！" name="UploadCaseContractMessage" />
     <text value="上传的案件报审文档" name="UploadCaseFile" />
     <text value="上传合同" name="UploadContract" />
     <text value="选择一个不超过1MB的.css样式表文件。" name="UploadCSS_Info" />
