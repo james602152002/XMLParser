@@ -437,6 +437,7 @@
     <text value="案件類別年度數據統計" name="CaseCategoryAnnualStatistics" />
     <text value="案件類別代字輔字" name="CaseCategoryAuxiliaryWord" />
     <text value="類型代字是案件類型的簡稱，例如民事案件代字為民字" name="CaseCategoryAuxiliaryWord_Hint" />
+    <text value="案件類別不存在！" name="CaseCategoryNotExist" />
     <text value="案件類別統計" name="CaseCategoryStatistics" />
     <text value="案件客戶" name="CaseClient" />
     <text value="結案報審" name="CaseClose" />
@@ -592,6 +593,7 @@
     <text value="點擊右側+號，添加收費信息" name="ClickToAddChargingInformation" />
     <text value="點擊可輸入檢索關鍵字並回車鍵進行檢索" name="ClickToEnterSearchPageTips" />
     <text value="用戶導入過程已完成， 有一些無效的數據， 單擊以查看無效的用戶導入。" name="ClickToSeeInvalidUsers" />
+    <text value="點擊前往使用說明文檔" name="ClicktoUserManualDocs" />
     <text value="點擊可查看個人信息和系統偏好設置" name="ClickToViewPreferencesTips" />
     <text value="客戶" name="Client" />
     <text value="客戶方本案聯繫人" name="ClientCaseContact" />
@@ -846,6 +848,7 @@
     <text value="客戶類型" name="CustomerType" />
     <text value="客戶拜訪信息表" name="CustomerVisitInformationTable" />
     <text value="客戶拜訪記錄" name="CustomerVisitRecord" />
+    <text value="律智薈" name="CustomizeTitle" />
     <text value="自定義登陸頁Banner圖" name="CustomLoginBanner" />
     <text value="自定義範圍" name="CustomRange" />
     <text value="青色" name="Cyan" />
@@ -1722,6 +1725,7 @@
     <text value="我們正在將租戶遷移到選定的版本。" name="MoveTenantsToAnotherEditionStartedNotification" />
     <text value="所屬多個部門，點擊+號顯示所有" name="MultipleOrganizationUnit" />
     <text value="請在{0}中錄入對方當事人信息。" name="MustHasConflictInfo" />
+    <text value="請錄入關聯客戶信息！" name="MustHaveClients" />
     <text value="我的賬單" name="MyBill" />
     <text value="我的業務計數" name="MyBusinessCount" />
     <text value="我的案件計數統計" name="MyCaseCountStatistics" />
@@ -2267,6 +2271,7 @@
     <text value="對不起，請先選擇您要徹底刪除的文件！" name="PleaseSelectTheFileYouWantToDeleteCompletely" />
     <text value="對不起，請先選擇您要還原的文件！" name="PleaseSelectTheFileYouWantToRestoreFirst" />
     <text value="請選擇時間" name="PleaseSelectTime" />
+    <text value="請設置案件類別" name="PleaseSetTheCaseType" />
     <text value="請上傳附件！" name="PleaseUploadTheAttachments" />
     <text value="請上傳模板文件!" name="PleaseUploadTheTemplateFile" />
     <text value="請使用標籤#$和$#包含需要替換的內容。" name="PleaseUseLabelReplaceTheContent" />
@@ -2276,6 +2281,7 @@
     <text value="案例法規庫" name="PluginGroup.CaseLaw" />
     <text value="電子簽約" name="PluginGroup.ElectronicSignature" />
     <text value="사서함 서비스" name="PluginGroup.Email" />
+    <text value="企業工商信息" name="PluginGroup.EnterpriseBusiness" />
     <text value="기본 서비스" name="PluginGroup.LegalDta" />
     <text value="其他服務" name="PluginGroup.Other" />
     <text value="網盤服務" name="PluginGroup.SkyDrive" />
@@ -2739,7 +2745,9 @@
     <text value="全部設置為已讀" name="SetAllAsRead" />
     <text value="設置當前語言為默認語言" name="SetAsDefaultLanguage" />
     <text value="設為已讀" name="SetAsRead" />
+    <text value="設置案件基本信息" name="SetCaseBaseInfo" />
     <text value="設置案件費用" name="SetCaseCost" />
+    <text value="設置客戶" name="SetClientInfo" />
     <text value="設置顯示列" name="SetDisplayColumn" />
     <text value="設置首目錄" name="SetDocumentCenterHome" />
     <text value="設為收藏" name="SetFavorite" />
@@ -3018,7 +3026,9 @@
     <text value="模板類型" name="TemplateType" />
     <text value="模板上傳幫助信息" name="TemplateUploadHelpInformation" />
     <text value="模板上傳信息" name="TemplateUploadingInformation" />
+    <text value="暫無客戶聯繫人" name="TemporarilyNoCustomerContact" />
     <text value="暫無客戶聯繫人，" name="TemporarilyNoCustomerContactWithComma" />
+    <text value="暫無拜訪記錄" name="TemporarilyNoVisitRecords" />
     <text value="暫無拜訪記錄，" name="TemporarilyNoVisitRecordsWithComma" />
     <text value="租戶名稱" name="TenancyCodeName" />
     <text value="律所標識" name="TenancyName" />
@@ -3051,6 +3061,7 @@
     <text value="租戶沒有啟用與其他租戶聊天功能." name="TenantToTenantChatFeatureIsNotEnabledForReceiver" />
     <text value="您沒有啟用與其他租戶聊天功能." name="TenantToTenantChatFeatureIsNotEnabledForSender" />
     <text value="해지" name="Termination" />
+    <text value="服務條款" name="TermsOfService" />
     <text value="測試" name="test" />
     <text name="TestCheckFeature" />
     <text name="TestCheckFeature2" />

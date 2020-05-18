@@ -437,6 +437,7 @@
     <text value="案件类别年度数据统计" name="CaseCategoryAnnualStatistics" />
     <text value="案件类别代字辅字" name="CaseCategoryAuxiliaryWord" />
     <text value="类型代字是案件类型的简称，例如民事案件代字为民字" name="CaseCategoryAuxiliaryWord_Hint" />
+    <text value="案件类别不存在！" name="CaseCategoryNotExist" />
     <text value="案件类别统计" name="CaseCategoryStatistics" />
     <text value="案件客户" name="CaseClient" />
     <text value="结案报审" name="CaseClose" />
@@ -592,6 +593,7 @@
     <text value="点击右侧+号，添加收费信息" name="ClickToAddChargingInformation" />
     <text value="点击可输入检索关键字并回车键进行检索" name="ClickToEnterSearchPageTips" />
     <text value="用户导入过程已完成， 有一些无效的数据， 单击以查看无效的用户导入。" name="ClickToSeeInvalidUsers" />
+    <text value="点击前往使用说明文档" name="ClicktoUserManualDocs" />
     <text value="点击可查看个人信息和系统偏好设置" name="ClickToViewPreferencesTips" />
     <text value="客户" name="Client" />
     <text value="客户方本案联系人" name="ClientCaseContact" />
@@ -846,6 +848,7 @@
     <text value="客户类型" name="CustomerType" />
     <text value="客户拜访信息表" name="CustomerVisitInformationTable" />
     <text value="客户拜访记录" name="CustomerVisitRecord" />
+    <text value="律智荟" name="CustomizeTitle" />
     <text value="自定义登陆页Banner图" name="CustomLoginBanner" />
     <text value="自定义范围" name="CustomRange" />
     <text value="青色" name="Cyan" />
@@ -1722,6 +1725,7 @@
     <text value="我们正在将租户迁移到选定的版本。 操作完成时将通知您。" name="MoveTenantsToAnotherEditionStartedNotification" />
     <text value="所属多个部门，点击+号显示所有" name="MultipleOrganizationUnit" />
     <text value="请在{0}中录入对方当事人信息。" name="MustHasConflictInfo" />
+    <text value="请录入关联客户信息！" name="MustHaveClients" />
     <text value="我的账单" name="MyBill" />
     <text value="我的业务计数" name="MyBusinessCount" />
     <text value="我的案件计数统计" name="MyCaseCountStatistics" />
@@ -2267,6 +2271,7 @@
     <text value="对不起，请先选择您要彻底删除的文件！" name="PleaseSelectTheFileYouWantToDeleteCompletely" />
     <text value="对不起，请先选择您要还原的文件！" name="PleaseSelectTheFileYouWantToRestoreFirst" />
     <text value="请选择时间" name="PleaseSelectTime" />
+    <text value="请设置案件类别" name="PleaseSetTheCaseType" />
     <text value="请上传附件！" name="PleaseUploadTheAttachments" />
     <text value="请上传模板文件!" name="PleaseUploadTheTemplateFile" />
     <text value="请使用标签#$和$#包含需要替换的内容。" name="PleaseUseLabelReplaceTheContent" />
@@ -2276,6 +2281,7 @@
     <text value="案例法规库" name="PluginGroup.CaseLaw" />
     <text value="电子签约" name="PluginGroup.ElectronicSignature" />
     <text value="邮箱服务" name="PluginGroup.Email" />
+    <text value="企业工商信息" name="PluginGroup.EnterpriseBusiness" />
     <text value="基础服务" name="PluginGroup.LegalDta" />
     <text value="其他服务" name="PluginGroup.Other" />
     <text value="网盘服务" name="PluginGroup.SkyDrive" />
@@ -2739,7 +2745,9 @@
     <text value="设置所有为已读" name="SetAllAsRead" />
     <text value="设置当前语言为默认语言" name="SetAsDefaultLanguage" />
     <text value="设为已读" name="SetAsRead" />
+    <text value="设置案件基本信息" name="SetCaseBaseInfo" />
     <text value="设置案件费用" name="SetCaseCost" />
+    <text value="设置客户" name="SetClientInfo" />
     <text value="设置显示列" name="SetDisplayColumn" />
     <text value="设置首目录" name="SetDocumentCenterHome" />
     <text value="设为收藏" name="SetFavorite" />
@@ -3018,7 +3026,9 @@
     <text value="模板类型" name="TemplateType" />
     <text value="模板上传帮助信息" name="TemplateUploadHelpInformation" />
     <text value="模板上传信息" name="TemplateUploadingInformation" />
+    <text value="暂无客户联系人" name="TemporarilyNoCustomerContact" />
     <text value="暂无客户联系人，" name="TemporarilyNoCustomerContactWithComma" />
+    <text value="暂无拜访记录" name="TemporarilyNoVisitRecords" />
     <text value="暂无拜访记录，" name="TemporarilyNoVisitRecordsWithComma" />
     <text value="租户编码" name="TenancyCodeName" />
     <text value="律所标识" name="TenancyName" />
@@ -3051,6 +3061,7 @@
     <text value="当前租户没有启用与其他租户聊天功能。" name="TenantToTenantChatFeatureIsNotEnabledForReceiver" />
     <text value="您没有启用与其他租户聊天的功能。" name="TenantToTenantChatFeatureIsNotEnabledForSender" />
     <text value="终止" name="Termination" />
+    <text value="服务条款" name="TermsOfService" />
     <text value="测试" name="test" />
     <text value="测试功能" name="TestCheckFeature" />
     <text value="测试功能2" name="TestCheckFeature2" />

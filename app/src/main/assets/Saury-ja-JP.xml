@@ -437,6 +437,7 @@
     <text value="ケースカテゴリの年間統計" name="CaseCategoryAnnualStatistics" />
     <text value="格型代名詞" name="CaseCategoryAuxiliaryWord" />
     <text value="タイプ代名詞は、ケースタイプの略語です。たとえば、民事代名詞は民俗文字です。" name="CaseCategoryAuxiliaryWord_Hint" />
+    <text value="ケースカテゴリが存在しません！" name="CaseCategoryNotExist" />
     <text value="ケースカテゴリ統計" name="CaseCategoryStatistics" />
     <text value="ケースクライアント" name="CaseClient" />
     <text value="ケースレビュー" name="CaseClose" />
@@ -592,6 +593,7 @@
     <text value="右側の[+]記号をクリックして、課金情報を追加します" name="ClickToAddChargingInformation" />
     <text value="クリックして検索キーワードを入力し、Enterキーを押して検索します" name="ClickToEnterSearchPageTips" />
     <text value="ユーザーインポートプロセスが完了し、無効なデータがいくつかあります。クリックして、無効なユーザーインポートを表示します。" name="ClickToSeeInvalidUsers" />
+    <text value="クリックして説明ドキュメントに移動" name="ClicktoUserManualDocs" />
     <text value="クリックして個人情報とシステム設定を表示" name="ClickToViewPreferencesTips" />
     <text value="顧客" name="Client" />
     <text value="クライアントのケース連絡先" name="ClientCaseContact" />
@@ -846,6 +848,7 @@
     <text value="顧客タイプ" name="CustomerType" />
     <text value="顧客訪問情報テーブル" name="CustomerVisitInformationTable" />
     <text value="顧客訪問記録" name="CustomerVisitRecord" />
+    <text value="ヴジフイ" name="CustomizeTitle" />
     <text value="カスタムランディングページバナー" name="CustomLoginBanner" />
     <text value="カスタムレンジ" name="CustomRange" />
     <text value="シアン" name="Cyan" />
@@ -1722,6 +1725,7 @@
     <text value="選択したバージョンにテナントを移行しています。" name="MoveTenantsToAnotherEditionStartedNotification" />
     <text value="複数の部門で、+記号をクリックしてすべてを表示します" name="MultipleOrganizationUnit" />
     <text value="{0}に相手の情報を入力してください。" name="MustHasConflictInfo" />
+    <text value="関連する顧客情報を入力してください！" name="MustHaveClients" />
     <text value="私の請求書" name="MyBill" />
     <text value="私のビジネス数" name="MyBusinessCount" />
     <text value="症例数統計" name="MyCaseCountStatistics" />
@@ -2267,6 +2271,7 @@
     <text value="申し訳ありませんが、完全に削除したいファイルを選択してください！" name="PleaseSelectTheFileYouWantToDeleteCompletely" />
     <text value="申し訳ありません、復元するファイルを選択してください！" name="PleaseSelectTheFileYouWantToRestoreFirst" />
     <text value="時間を選択してください" name="PleaseSelectTime" />
+    <text value="ケースタイプを設定してください" name="PleaseSetTheCaseType" />
     <text value="添付ファイルをアップロードしてください！" name="PleaseUploadTheAttachments" />
     <text value="テンプレートファイルをアップロードしてください！" name="PleaseUploadTheTemplateFile" />
     <text value="交換する必要があるものを含めるには、＃$と$＃というタグを使用してください。" name="PleaseUseLabelReplaceTheContent" />
@@ -2276,6 +2281,7 @@
     <text value="判例ライブラリ" name="PluginGroup.CaseLaw" />
     <text value="電子契約" name="PluginGroup.ElectronicSignature" />
     <text value="メールボックスサービス" name="PluginGroup.Email" />
+    <text value="ビジネス情報" name="PluginGroup.EnterpriseBusiness" />
     <text value="基本サービス" name="PluginGroup.LegalDta" />
     <text value="その他のサービス" name="PluginGroup.Other" />
     <text value="網盤服務" name="PluginGroup.SkyDrive" />
@@ -2739,7 +2745,9 @@
     <text value="すべて読んで設定" name="SetAllAsRead" />
     <text value="現在の言語をデフォルト言語として設定する" name="SetAsDefaultLanguage" />
     <text value="読む" name="SetAsRead" />
+    <text value="基本的なケース情報を設定する" name="SetCaseBaseInfo" />
     <text value="セットケース費用" name="SetCaseCost" />
+    <text value="顧客を設定する" name="SetClientInfo" />
     <text value="表示列を設定する" name="SetDisplayColumn" />
     <text value="最初のディレクトリを設定する" name="SetDocumentCenterHome" />
     <text value="お気に入りに設定" name="SetFavorite" />
@@ -3018,7 +3026,9 @@
     <text value="テンプレートの種類" name="TemplateType" />
     <text value="テンプレートアップロードのヘルプ情報" name="TemplateUploadHelpInformation" />
     <text value="テンプレートアップロード情報" name="TemplateUploadingInformation" />
+    <text value="顧客からの連絡がない" name="TemporarilyNoCustomerContact" />
     <text value="顧客との接触がなく、" name="TemporarilyNoCustomerContactWithComma" />
+    <text value="訪問履歴なし" name="TemporarilyNoVisitRecords" />
     <text value="訪問記録はありませんが、" name="TemporarilyNoVisitRecordsWithComma" />
     <text value="テナント名" name="TenancyCodeName" />
     <text value="法律事務所のロゴ" name="TenancyName" />
@@ -3051,6 +3061,7 @@
     <text value="テナントは他のテナントとのチャットを有効にしません。" name="TenantToTenantChatFeatureIsNotEnabledForReceiver" />
     <text value="他のテナントとチャットを有効にしていません。" name="TenantToTenantChatFeatureIsNotEnabledForSender" />
     <text value="終了" name="Termination" />
+    <text value="利用規約" name="TermsOfService" />
     <text value="テストする" name="test" />
     <text name="TestCheckFeature" />
     <text name="TestCheckFeature2" />

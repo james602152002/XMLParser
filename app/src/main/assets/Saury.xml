@@ -437,6 +437,7 @@
     <text value="Case category annual statistics" name="CaseCategoryAnnualStatistics" />
     <text value="Case category word auxiliary word" name="CaseCategoryAuxiliaryWord" />
     <text value="The type genre is the abbreviation of the case type. For example, the cipher word in the civil case is the civic character." name="CaseCategoryAuxiliaryWord_Hint" />
+    <text value="Case category does not exist!" name="CaseCategoryNotExist" />
     <text value="Case category statistics" name="CaseCategoryStatistics" />
     <text value="Case client" name="CaseClient" />
     <text value="Case review" name="CaseClose" />
@@ -592,6 +593,7 @@
     <text value="Click the + sign on the right to add charging information" name="ClickToAddChargingInformation" />
     <text value="Click to enter search keywords and press Enter to search" name="ClickToEnterSearchPageTips" />
     <text value="User import process has been completed. There are some invalid data. Click to see Invalid user imports." name="ClickToSeeInvalidUsers" />
+    <text value="Click to go to the instruction document" name="ClicktoUserManualDocs" />
     <text value="Click to view personal information and system preferences" name="ClickToViewPreferencesTips" />
     <text value="Client" name="Client" />
     <text value="Client's case contact" name="ClientCaseContact" />
@@ -846,6 +848,7 @@
     <text value="Customer type" name="CustomerType" />
     <text value="Customer visit information table" name="CustomerVisitInformationTable" />
     <text value="Customer visit record" name="CustomerVisitRecord" />
+    <text value="AIlinkedlaw" name="CustomizeTitle" />
     <text value="Custom Login Page Banner" name="CustomLoginBanner" />
     <text value="Custom range" name="CustomRange" />
     <text value="blue" name="Cyan" />
@@ -1722,6 +1725,7 @@
     <text value="We are migrating tenants to the selected version. " name="MoveTenantsToAnotherEditionStartedNotification" />
     <text value="In multiple departments, click the + sign to display all" name="MultipleOrganizationUnit" />
     <text value="Please enter the other party's information in {0}." name="MustHasConflictInfo" />
+    <text value="Please enter the relevant customer information!" name="MustHaveClients" />
     <text value="My bill" name="MyBill" />
     <text value="My business count" name="MyBusinessCount" />
     <text value="My case count statistics" name="MyCaseCountStatistics" />
@@ -2267,6 +2271,7 @@
     <text value="Sorry, please select the file you want to delete completely!" name="PleaseSelectTheFileYouWantToDeleteCompletely" />
     <text value="Sorry, please select the file you want to restore!" name="PleaseSelectTheFileYouWantToRestoreFirst" />
     <text value="Please select time" name="PleaseSelectTime" />
+    <text value="Please set the case type" name="PleaseSetTheCaseType" />
     <text value="Please upload attachments!" name="PleaseUploadTheAttachments" />
     <text value="Please upload template file!" name="PleaseUploadTheTemplateFile" />
     <text value="Please use the tags #$ and $# to include what needs to be replaced." name="PleaseUseLabelReplaceTheContent" />
@@ -2276,6 +2281,7 @@
     <text value="Case Law Library" name="PluginGroup.CaseLaw" />
     <text value="Electronic contract" name="PluginGroup.ElectronicSignature" />
     <text value="Mailbox service" name="PluginGroup.Email" />
+    <text value="Business Information" name="PluginGroup.EnterpriseBusiness" />
     <text value="Basic services" name="PluginGroup.LegalDta" />
     <text value="other service" name="PluginGroup.Other" />
     <text value="Network disk service" name="PluginGroup.SkyDrive" />
@@ -2739,7 +2745,9 @@
     <text value="Set all as read" name="SetAllAsRead" />
     <text value="Set as default language" name="SetAsDefaultLanguage" />
     <text value="Make read" name="SetAsRead" />
+    <text value="Set basic case information" name="SetCaseBaseInfo" />
     <text value="Set case cost" name="SetCaseCost" />
+    <text value="Set up customers" name="SetClientInfo" />
     <text value="Set display columns" name="SetDisplayColumn" />
     <text value="Set the first directory" name="SetDocumentCenterHome" />
     <text value="Set as favorite" name="SetFavorite" />
@@ -3018,7 +3026,9 @@
     <text value="Template type" name="TemplateType" />
     <text value="Template upload help information" name="TemplateUploadHelpInformation" />
     <text value="Template upload information" name="TemplateUploadingInformation" />
+    <text value="No customer contact" name="TemporarilyNoCustomerContact" />
     <text value="No customer contact," name="TemporarilyNoCustomerContactWithComma" />
+    <text value="No visit history" name="TemporarilyNoVisitRecords" />
     <text value="No visit records," name="TemporarilyNoVisitRecordsWithComma" />
     <text value="Tenancy code name" name="TenancyCodeName" />
     <text value="Law firm code" name="TenancyName" />
@@ -3051,6 +3061,7 @@
     <text value="Chat with other tenants is not enabled for tenant." name="TenantToTenantChatFeatureIsNotEnabledForReceiver" />
     <text value="Chat with other tenants is not enabled for you." name="TenantToTenantChatFeatureIsNotEnabledForSender" />
     <text value="termination" name="Termination" />
+    <text value="Terms of Service" name="TermsOfService" />
     <text value="test" name="test" />
     <text value="Test check feature" name="TestCheckFeature" />
     <text value="Test check feature 2" name="TestCheckFeature2" />

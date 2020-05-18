@@ -437,6 +437,7 @@
     <text value="사례 카테고리 연간 통계" name="CaseCategoryAnnualStatistics" />
     <text value="케이스 타입 대명사" name="CaseCategoryAuxiliaryWord" />
     <text value="유형 대명사는 대소 문자 유형의 약어입니다. 예를 들어 민사 대명사는 민속 문자입니다" name="CaseCategoryAuxiliaryWord_Hint" />
+    <text value="사례 카테고리가 없습니다!" name="CaseCategoryNotExist" />
     <text value="사례 카테고리 통계" name="CaseCategoryStatistics" />
     <text value="사례 클라이언트" name="CaseClient" />
     <text value="사례 검토" name="CaseClose" />
@@ -592,6 +593,7 @@
     <text value="충전 정보를 추가하려면 오른쪽의 + 표시를 클릭하십시오" name="ClickToAddChargingInformation" />
     <text value="검색 키워드를 입력하려면 클릭하고 검색하려면 Enter를 누르십시오" name="ClickToEnterSearchPageTips" />
     <text value="사용자 가져 오기 프로세스가 완료되었으며 일부 유효하지 않은 데이터가 있습니다. 잘못된 사용자 가져 오기를 보려면 클릭하십시오." name="ClickToSeeInvalidUsers" />
+    <text value="지침 문서로 이동하려면 클릭하십시오" name="ClicktoUserManualDocs" />
     <text value="개인 정보 및 시스템 환경 설정을 보려면 클릭하십시오" name="ClickToViewPreferencesTips" />
     <text value="고객" name="Client" />
     <text value="고객의 케이스 연락처" name="ClientCaseContact" />
@@ -846,6 +848,7 @@
     <text value="고객 유형" name="CustomerType" />
     <text value="고객 방문 정보 테이블" name="CustomerVisitInformationTable" />
     <text value="고객 방문 기록" name="CustomerVisitRecord" />
+    <text value="Lvzhihui" name="CustomizeTitle" />
     <text value="맞춤 방문 페이지 배너" name="CustomLoginBanner" />
     <text value="맞춤 범위" name="CustomRange" />
     <text value="시안" name="Cyan" />
@@ -1722,6 +1725,7 @@
     <text value="테넌트를 선택한 버전으로 마이그레이션하고 있습니다. " name="MoveTenantsToAnotherEditionStartedNotification" />
     <text value="여러 부서에서 + 표시를 클릭하여 모두 표시" name="MultipleOrganizationUnit" />
     <text value="{0}에 상대방의 정보를 입력하십시오." name="MustHasConflictInfo" />
+    <text value="관련 고객 정보를 입력하십시오!" name="MustHaveClients" />
     <text value="내 청구서" name="MyBill" />
     <text value="내 사업 수" name="MyBusinessCount" />
     <text value="내 사건 수 통계" name="MyCaseCountStatistics" />
@@ -2267,6 +2271,7 @@
     <text value="죄송합니다. 완전히 삭제할 파일을 선택하십시오!" name="PleaseSelectTheFileYouWantToDeleteCompletely" />
     <text value="죄송합니다. 복원 할 파일을 선택하십시오!" name="PleaseSelectTheFileYouWantToRestoreFirst" />
     <text value="시간을 선택하십시오." name="PleaseSelectTime" />
+    <text value="케이스 유형을 설정하십시오" name="PleaseSetTheCaseType" />
     <text value="첨부 파일을 업로드하십시오!" name="PleaseUploadTheAttachments" />
     <text value="템플릿 파일을 업로드하십시오!" name="PleaseUploadTheTemplateFile" />
     <text value="교체해야 할 내용을 포함하려면 # $ 및 $ # 태그를 사용하십시오." name="PleaseUseLabelReplaceTheContent" />
@@ -2276,6 +2281,7 @@
     <text value="판례법 도서관" name="PluginGroup.CaseLaw" />
     <text value="전자 계약" name="PluginGroup.ElectronicSignature" />
     <text value="사서함 서비스" name="PluginGroup.Email" />
+    <text value="사업 정보" name="PluginGroup.EnterpriseBusiness" />
     <text value="기본 서비스" name="PluginGroup.LegalDta" />
     <text value="다른 서비스" name="PluginGroup.Other" />
     <text value="網盤服務" name="PluginGroup.SkyDrive" />
@@ -2739,7 +2745,9 @@
     <text value="모두 읽도록 설정" name="SetAllAsRead" />
     <text value="현재 언어를 기본 언어로 설정" name="SetAsDefaultLanguage" />
     <text value="읽다" name="SetAsRead" />
+    <text value="기본 사례 정보 설정" name="SetCaseBaseInfo" />
     <text value="케이스 비용 설정" name="SetCaseCost" />
+    <text value="고객 설정" name="SetClientInfo" />
     <text value="표시 열 설정" name="SetDisplayColumn" />
     <text value="첫 번째 디렉토리 설정" name="SetDocumentCenterHome" />
     <text value="즐겨 찾기로 설정" name="SetFavorite" />
@@ -3018,7 +3026,9 @@
     <text value="템플릿 유형" name="TemplateType" />
     <text value="템플릿 업로드 도움말 정보" name="TemplateUploadHelpInformation" />
     <text value="템플릿 업로드 정보" name="TemplateUploadingInformation" />
+    <text value="고객 연락처가 없습니다" name="TemporarilyNoCustomerContact" />
     <text value="고객 접촉 없음," name="TemporarilyNoCustomerContactWithComma" />
+    <text value="방문 기록이 없습니다." name="TemporarilyNoVisitRecords" />
     <text value="방문 기록 없음," name="TemporarilyNoVisitRecordsWithComma" />
     <text value="임차인 이름" name="TenancyCodeName" />
     <text value="법률 사무소 로고" name="TenancyName" />
@@ -3051,6 +3061,7 @@
     <text value="임차인은 다른 임차인과 대화 할 수 없습니다." name="TenantToTenantChatFeatureIsNotEnabledForReceiver" />
     <text value="다른 임차인과 채팅을 사용하도록 설정하지 않았습니다." name="TenantToTenantChatFeatureIsNotEnabledForSender" />
     <text value="終止" name="Termination" />
+    <text value="서비스 약관" name="TermsOfService" />
     <text value="테스트" name="test" />
     <text name="TestCheckFeature" />
     <text name="TestCheckFeature2" />
