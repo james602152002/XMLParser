@@ -23,6 +23,7 @@
     <text value="访问" name="Access" />
     <text value="即使您处于脱机状态，也可以访问您的应用程序和资源" name="Access to your applications and resources, even when you are offline" />
     <text value="门禁卡编号" name="AccessCardNumber" />
+    <text value="访问令牌无效或过期！" name="AccessTokenInvalidOrExpired" />
     <text value="账号绑定" name="AccountBinding" />
     <text value="账号管理" name="AccountManagement" />
     <text value="账号" name="AccountNumber" />
@@ -814,6 +815,7 @@
     <text value="暂无数据" name="CurrentNoData" />
     <text value="当前页" name="CurrentPage" />
     <text value="当前密码" name="CurrentPassword" />
+    <text value="当前阶段" name="CurrentStage" />
     <text value="当前行政用章申请已存在处理结果！" name="CurrentStampIsAlreadyExistsResult" />
     <text value="当前行政盖章申请已存在处理结果！" name="CurrentStampIsAlreadyExistsToDealWithResult" />
     <text value="当前租户" name="CurrentTenant" />
@@ -1075,6 +1077,7 @@
     <text value="英文名称" name="EnName" />
     <text value="企业工商注册名称" name="EnterpriseBusinessRegistrationNameOfEnterprise" />
     <text value="企业密钥" name="EnterpriseKey" />
+    <text value="企业查询" name="EnterpriseQuery" />
     <text value="企业公司注册号" name="EnterpriseRegistrationNumber" />
     <text value="请在{0}中输入{1}的原因!" name="EnterReason" />
     <text name="EnterTenancyName" />
@@ -1436,6 +1439,7 @@
     <text value="已同意启用Cookie信息" name="IsCookieConsentEnabled" />
     <text value="已禁用" name="IsDisabled" />
     <text value="启用电子邮件验证。" name="IsEmailVerificationEnabled" />
+    <text value="是否开启App独立授权" name="IsEnableAppIndependentAuth" />
     <text value="是否已启用" name="IsEnabled" />
     <text value="涉外" name="IsForeign" />
     <text value="启用Google身份验证器" name="IsGoogleAuthenticatorEnabled" />
@@ -2944,7 +2948,9 @@
     <text value="此账号属于Admin账号下所绑定的第三方同步账号，主要用于同步设置操作，一旦解绑将无法进行同步操作，请谨慎操作！" name="SyncAccountUnbindSarning" />
     <text value="请谨慎选择同步设置，一旦更改之前所有的案件只会读取本地信息。" name="SyncChangeSettingsSarning" />
     <text value="是否确认更改当前同步设置，若改成第三方同步，此时会在Admin账号所绑定的第三方账号下生成同步文件夹和文件。" name="SyncChangeSettingsWarning" />
+    <text value="同步" name="Synchronize" />
     <text value="同步设置" name="SyncSetting" />
+    <text value="同步成功" name="SyncSuccess" />
     <text value="系统客户" name="SystemCustomer" />
     <text value="系统帮助" name="SystemHelper" />
     <text value="系统登陆信息" name="SystemLoginInformation" />

@@ -23,6 +23,7 @@
     <text value="訪問" name="Access" />
     <text value="即使您處於脫機狀態，也可以訪問您的應用程序和資源" name="Access to your applications and resources, even when you are offline" />
     <text value="門禁卡編號" name="AccessCardNumber" />
+    <text value="訪問令牌無效或過期！" name="AccessTokenInvalidOrExpired" />
     <text value="賬號綁定" name="AccountBinding" />
     <text value="賬號管理" name="AccountManagement" />
     <text value="賬號" name="AccountNumber" />
@@ -814,6 +815,7 @@
     <text value="暫無數據" name="CurrentNoData" />
     <text value="當前頁" name="CurrentPage" />
     <text value="當前密碼" name="CurrentPassword" />
+    <text value="當前階段" name="CurrentStage" />
     <text value="當前行政用章申請已存在處理結果！" name="CurrentStampIsAlreadyExistsResult" />
     <text value="當前行政蓋章申請已存在處理結果！" name="CurrentStampIsAlreadyExistsToDealWithResult" />
     <text value="當前租戶" name="CurrentTenant" />
@@ -1075,6 +1077,7 @@
     <text value="英文名稱" name="EnName" />
     <text value="企業工商註冊名稱" name="EnterpriseBusinessRegistrationNameOfEnterprise" />
     <text value="企業密鑰" name="EnterpriseKey" />
+    <text value="企業查詢" name="EnterpriseQuery" />
     <text value="企業公司註冊號" name="EnterpriseRegistrationNumber" />
     <text value="請在{0}中輸入{1}的原因!" name="EnterReason" />
     <text name="EnterTenancyName" />
@@ -1436,6 +1439,7 @@
     <text value="已同意啟用Cookie信息" name="IsCookieConsentEnabled" />
     <text name="IsDisabled" />
     <text value="啟用郵箱驗證." name="IsEmailVerificationEnabled" />
+    <text value="是否開啟App獨立授權" name="IsEnableAppIndependentAuth" />
     <text name="IsEnabled" />
     <text value="涉外" name="IsForeign" />
     <text name="IsGoogleAuthenticatorEnabled" />
@@ -2944,7 +2948,9 @@
     <text value="此賬號屬於Admin賬號下所綁定的第三方同步賬號，主要用於同步設置操作，一旦解綁將無法進行同步操作，請謹慎操作！" name="SyncAccountUnbindSarning" />
     <text value="請謹慎選擇同步設置，一旦更改之前所有的案件只會讀取本地信息。" name="SyncChangeSettingsSarning" />
     <text value="是否確認更改當前同步設置，若改成第三方同步，此時會在管理員賬號所綁定的第三方賬號下生成同步文件夾和文件。" name="SyncChangeSettingsWarning" />
+    <text value="同步" name="Synchronize" />
     <text value="同步設置" name="SyncSetting" />
+    <text value="同步成功" name="SyncSuccess" />
     <text value="系統客戶" name="SystemCustomer" />
     <text value="系統幫助" name="SystemHelper" />
     <text value="系統登陸信息" name="SystemLoginInformation" />

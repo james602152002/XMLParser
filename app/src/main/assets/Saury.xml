@@ -23,6 +23,7 @@
     <text value="access" name="Access" />
     <text value="Access your applications and resources even if you are offline" name="Access to your applications and resources, even when you are offline" />
     <text value="Access card number" name="AccessCardNumber" />
+    <text value="The access token is invalid or expired!" name="AccessTokenInvalidOrExpired" />
     <text value="Account binding" name="AccountBinding" />
     <text value="Account Management" name="AccountManagement" />
     <text value="account number" name="AccountNumber" />
@@ -814,6 +815,7 @@
     <text value="No data" name="CurrentNoData" />
     <text value="current page" name="CurrentPage" />
     <text value="Current password" name="CurrentPassword" />
+    <text value="current stage" name="CurrentStage" />
     <text value="The current administrative chapter application already has processing results!" name="CurrentStampIsAlreadyExistsResult" />
     <text value="The current administrative seal application has been processed!" name="CurrentStampIsAlreadyExistsToDealWithResult" />
     <text value="Current tenant" name="CurrentTenant" />
@@ -1075,6 +1077,7 @@
     <text value="English name" name="EnName" />
     <text value="Business registration name" name="EnterpriseBusinessRegistrationNameOfEnterprise" />
     <text value="Enterprise key" name="EnterpriseKey" />
+    <text value="Enterprise inquiry" name="EnterpriseQuery" />
     <text value="Corporate company registration number" name="EnterpriseRegistrationNumber" />
     <text value="Please enter the reason for {1} in {0}!" name="EnterReason" />
     <text value="Enter tenancy name..." name="EnterTenancyName" />
@@ -1436,6 +1439,7 @@
     <text value="Cookie consent enabled" name="IsCookieConsentEnabled" />
     <text value="Is disabled" name="IsDisabled" />
     <text value="Enable email verification." name="IsEmailVerificationEnabled" />
+    <text value="Whether to enable App independent authorization" name="IsEnableAppIndependentAuth" />
     <text value="Is enabled" name="IsEnabled" />
     <text value="Foreign-related" name="IsForeign" />
     <text value="Enable Google Authenticator" name="IsGoogleAuthenticatorEnabled" />
@@ -2944,7 +2948,9 @@
     <text value="This account belongs to the third-party synchronization account bound to the Admin account. It is mainly used for synchronization setting operations. Once unbind, it cannot be synchronized. Please be cautious!" name="SyncAccountUnbindSarning" />
     <text value="Please choose the synchronization settings carefully and only read local information once all the cases have been changed." name="SyncChangeSettingsSarning" />
     <text value="Whether to confirm the change of the current synchronization settings, if it is changed to a third-party synchronization, the synchronization folder and files will be generated under the third-party account bound to the Admin account." name="SyncChangeSettingsWarning" />
+    <text value="Synchronize" name="Synchronize" />
     <text value="Sync settings" name="SyncSetting" />
+    <text value="Synchronized successfully" name="SyncSuccess" />
     <text value="System customer" name="SystemCustomer" />
     <text value="System help" name="SystemHelper" />
     <text value="System login information" name="SystemLoginInformation" />

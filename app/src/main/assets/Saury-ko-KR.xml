@@ -23,6 +23,7 @@
     <text value="액세스" name="Access" />
     <text value="오프라인 상태에서도 응용 프로그램 및 리소스에 액세스" name="Access to your applications and resources, even when you are offline" />
     <text value="액세스 카드 번호" name="AccessCardNumber" />
+    <text value="액세스 토큰이 유효하지 않거나 만료되었습니다!" name="AccessTokenInvalidOrExpired" />
     <text value="계정 바인딩" name="AccountBinding" />
     <text value="계좌 번호 관리" name="AccountManagement" />
     <text value="계좌 번호" name="AccountNumber" />
@@ -814,6 +815,7 @@
     <text value="데이터가 없습니다" name="CurrentNoData" />
     <text value="현재 페이지" name="CurrentPage" />
     <text value="현재 비밀번호" name="CurrentPassword" />
+    <text value="현재 단계" name="CurrentStage" />
     <text value="현재 관리 챕터 응용 프로그램에는 이미 처리 결과가 있습니다!" name="CurrentStampIsAlreadyExistsResult" />
     <text value="현재의 행정 도장 신청이 처리되었습니다!" name="CurrentStampIsAlreadyExistsToDealWithResult" />
     <text value="현재 임차인" name="CurrentTenant" />
@@ -1075,6 +1077,7 @@
     <text value="영어 이름" name="EnName" />
     <text value="사업자 등록 이름" name="EnterpriseBusinessRegistrationNameOfEnterprise" />
     <text value="엔터프라이즈 키" name="EnterpriseKey" />
+    <text value="기업 문의" name="EnterpriseQuery" />
     <text value="회사 등록 번호" name="EnterpriseRegistrationNumber" />
     <text value="{0}에 {1}의 이유를 입력하십시오!" name="EnterReason" />
     <text name="EnterTenancyName" />
@@ -1436,6 +1439,7 @@
     <text value="쿠키 정보 사용에 동의" name="IsCookieConsentEnabled" />
     <text name="IsDisabled" />
     <text value="이메일 확인을 사용합니다." name="IsEmailVerificationEnabled" />
+    <text value="앱 독립적 인증 활성화 여부" name="IsEnableAppIndependentAuth" />
     <text name="IsEnabled" />
     <text value="외국 관련" name="IsForeign" />
     <text name="IsGoogleAuthenticatorEnabled" />
@@ -2944,7 +2948,9 @@
     <text value="이 계정은 Admin 계정에 바인딩 된 타사 동기화 계정에 속하며 주로 동기화 설정 작업에 사용됩니다. 일단 바인딩을 해제하면 동기화 할 수 없습니다.주의하십시오." name="SyncAccountUnbindSarning" />
     <text value="동기화 설정을 신중하게 선택하고 모든 사례가 변경된 경우에만 지역 정보를 읽으십시오." name="SyncChangeSettingsSarning" />
     <text value="귀하의 동의를 얻지 못하면 귀하는 귀하의 동의를 얻지 못하게됩니다." name="SyncChangeSettingsWarning" />
+    <text value="동기화" name="Synchronize" />
     <text value="동기화 설정" name="SyncSetting" />
+    <text value="성공적으로 동기화" name="SyncSuccess" />
     <text value="시스템 고객" name="SystemCustomer" />
     <text value="시스템 도움말" name="SystemHelper" />
     <text value="시스템 로그인 정보" name="SystemLoginInformation" />

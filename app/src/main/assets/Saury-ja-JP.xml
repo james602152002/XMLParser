@@ -23,6 +23,7 @@
     <text value="アクセス" name="Access" />
     <text value="オフラインであってもアプリケーションとリソースにアクセスする" name="Access to your applications and resources, even when you are offline" />
     <text value="アクセスカード番号" name="AccessCardNumber" />
+    <text value="アクセストークンが無効または期限切れです！" name="AccessTokenInvalidOrExpired" />
     <text value="アカウントのバインド" name="AccountBinding" />
     <text value="アカウント管理" name="AccountManagement" />
     <text value="口座番号" name="AccountNumber" />
@@ -814,6 +815,7 @@
     <text value="データなし" name="CurrentNoData" />
     <text value="現在のページ" name="CurrentPage" />
     <text value="現在のパスワード" name="CurrentPassword" />
+    <text value="現在の段階" name="CurrentStage" />
     <text value="現在の管理チャプターアプリケーションにはすでに処理結果があります！" name="CurrentStampIsAlreadyExistsResult" />
     <text value="現在の行政印鑑申請が処理されました！" name="CurrentStampIsAlreadyExistsToDealWithResult" />
     <text value="現在のテナント" name="CurrentTenant" />
@@ -1075,6 +1077,7 @@
     <text value="英語名" name="EnName" />
     <text value="ビジネス登録名" name="EnterpriseBusinessRegistrationNameOfEnterprise" />
     <text value="エンタープライズキー" name="EnterpriseKey" />
+    <text value="企業の問い合わせ" name="EnterpriseQuery" />
     <text value="法人登録番号" name="EnterpriseRegistrationNumber" />
     <text value="{1}の理由を{0}に入力してください！" name="EnterReason" />
     <text name="EnterTenancyName" />
@@ -1436,6 +1439,7 @@
     <text value="Cookie情報を有効にすることに同意する" name="IsCookieConsentEnabled" />
     <text name="IsDisabled" />
     <text value="電子メールの検証を有効にします。" name="IsEmailVerificationEnabled" />
+    <text value="アプリに依存しない認証を有効にするかどうか" name="IsEnableAppIndependentAuth" />
     <text name="IsEnabled" />
     <text value="外国関連" name="IsForeign" />
     <text name="IsGoogleAuthenticatorEnabled" />
@@ -2944,7 +2948,9 @@
     <text value="このアカウントは、管理者アカウントにバインドされているサードパーティの同期アカウントに属しており、主に同期設定操作に使用されます。一度バインド解除すると、同期することができなくなります。" name="SyncAccountUnbindSarning" />
     <text value="同期設定を慎重に選択し、すべてのケースが変更されたら、ローカル情報のみを読んでください。" name="SyncChangeSettingsSarning" />
     <text value="現在の設定が変更されたことを確認したかどうかにかかわらず、サードパーティを変更する場合は、アドミニストレーターで設定されたサードパーティのコードを使用して、次のようにすることができます。" name="SyncChangeSettingsWarning" />
+    <text value="同期する" name="Synchronize" />
     <text value="同期設定" name="SyncSetting" />
+    <text value="同期しました" name="SyncSuccess" />
     <text value="システム顧客" name="SystemCustomer" />
     <text value="システムヘルプ" name="SystemHelper" />
     <text value="システムのログイン情報" name="SystemLoginInformation" />
