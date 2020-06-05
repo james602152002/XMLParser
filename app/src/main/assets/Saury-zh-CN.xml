@@ -288,6 +288,7 @@
     <text value="授权用户" name="AuthorizationUser" />
     <text value="启用定期付款" name="AutomaticallyBillMyAccount" />
     <text value="自动生成的案件材料" name="AutomaticallyGeneratedCaseMaterial" />
+    <text value="自动同步日程" name="AutoSyncSchedule" />
     <text value="平均值" name="AverageValue" />
     <text value="返回" name="Back" />
     <text value="返回我的账户" name="BackToMyAccount" />
@@ -697,6 +698,7 @@
     <text value="确认是否参与任务" name="ConfirmWhetherParticipateTask" />
     <text value="共{0}条冲突信息" name="ConflictCounts" />
     <text value="利益冲突信息" name="ConflictOfInterestInformation" />
+    <text value="利益冲突信息可以批量导入" name="ConflictOfInterestInformationCanBeImportedInBatches" />
     <text value="利益冲突检索规避条件" name="ConflictOfInterestRetrievalAvoidanceConditions" />
     <text value="{0} 条冲突记录" name="ConflictRecordsCnt" />
     <text value="冲突检索退回" name="ConflictRetrievalReturn" />
@@ -1077,6 +1079,7 @@
     <text value="英文名称" name="EnName" />
     <text value="企业工商注册名称" name="EnterpriseBusinessRegistrationNameOfEnterprise" />
     <text value="企业密钥" name="EnterpriseKey" />
+    <text value="当前尚未配置企业工商信息" name="EnterpriseNotSetting" />
     <text value="企业查询" name="EnterpriseQuery" />
     <text value="企业公司注册号" name="EnterpriseRegistrationNumber" />
     <text value="请在{0}中输入{1}的原因!" name="EnterReason" />
@@ -1345,6 +1348,8 @@
     <text value="重要级别" name="ImportantLevel" />
     <text value="重要级别：" name="ImportantLevelTitle" />
     <text value="是否重要" name="ImportantOrNot" />
+    <text value="利冲信息导入过程已经开始。" name="ImportClientRelationProcessStart" />
+    <text value="利冲信息导入过程失败。" name="ImportClientRelationUploadFailed" />
     <text value="从Excel导入" name="ImportFromExcel" />
     <text value="{0}下载导入模板文件。" name="ImportToExcelTemplateFileDownloadInfo" />
     <text value="用户导入过程已经开始。" name="ImportUsersProcessStart" />

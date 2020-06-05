@@ -288,6 +288,7 @@
     <text value="승인 된 사용자" name="AuthorizationUser" />
     <text value="반복 결제 사용" name="AutomaticallyBillMyAccount" />
     <text value="사례 자료 자동 생성" name="AutomaticallyGeneratedCaseMaterial" />
+    <text value="스케줄 자동 동기화" name="AutoSyncSchedule" />
     <text value="평균값" name="AverageValue" />
     <text value="돌아 가기" name="Back" />
     <text value="내 계정으로 돌아 가기" name="BackToMyAccount" />
@@ -697,6 +698,7 @@
     <text value="과제 참여 확인" name="ConfirmWhetherParticipateTask" />
     <text value="총 {0} 충돌 정보" name="ConflictCounts" />
     <text value="관심 분야 정보 충돌" name="ConflictOfInterestInformation" />
+    <text value="이해 상충 정보를 일괄 적으로 가져올 수 있습니다" name="ConflictOfInterestInformationCanBeImportedInBatches" />
     <text value="이해 상충 검색 회피 조건" name="ConflictOfInterestRetrievalAvoidanceConditions" />
     <text value="{0} 충돌 레코드" name="ConflictRecordsCnt" />
     <text value="충돌 검색 반환" name="ConflictRetrievalReturn" />
@@ -1077,6 +1079,7 @@
     <text value="영어 이름" name="EnName" />
     <text value="사업자 등록 이름" name="EnterpriseBusinessRegistrationNameOfEnterprise" />
     <text value="엔터프라이즈 키" name="EnterpriseKey" />
+    <text value="현재 구성된 엔터프라이즈 비즈니스 정보가 없습니다" name="EnterpriseNotSetting" />
     <text value="기업 문의" name="EnterpriseQuery" />
     <text value="회사 등록 번호" name="EnterpriseRegistrationNumber" />
     <text value="{0}에 {1}의 이유를 입력하십시오!" name="EnterReason" />
@@ -1345,6 +1348,8 @@
     <text value="중요도" name="ImportantLevel" />
     <text value="중요도 :" name="ImportantLevelTitle" />
     <text value="그것은 중요합니까?" name="ImportantOrNot" />
+    <text value="이익 정보를 가져 오는 과정은 이미 시작되었습니다." name="ImportClientRelationProcessStart" />
+    <text value="이익 정보를 가져 오는 프로세스가 실패했습니다." name="ImportClientRelationUploadFailed" />
     <text value="Excel에서 가져 오기" name="ImportFromExcel" />
     <text value="{0} 가져 오기 템플리트 파일을 다운로드하십시오." name="ImportToExcelTemplateFileDownloadInfo" />
     <text value="사용자 가져 오기 프로세스가 시작되었습니다." name="ImportUsersProcessStart" />

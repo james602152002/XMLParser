@@ -288,6 +288,7 @@
     <text value="Authorized user" name="AuthorizationUser" />
     <text value="Enable recurring payments" name="AutomaticallyBillMyAccount" />
     <text value="Automatically generated case materials" name="AutomaticallyGeneratedCaseMaterial" />
+    <text value="Automatically synchronize schedules" name="AutoSyncSchedule" />
     <text value="average value" name="AverageValue" />
     <text value="Back" name="Back" />
     <text value="Back to my account" name="BackToMyAccount" />
@@ -697,6 +698,7 @@
     <text value="Confirm participation in the task" name="ConfirmWhetherParticipateTask" />
     <text value="Total {0} conflict information" name="ConflictCounts" />
     <text value="Conflict of interest information" name="ConflictOfInterestInformation" />
+    <text value="Conflict of interest information can be imported in batches" name="ConflictOfInterestInformationCanBeImportedInBatches" />
     <text value="Conflict of interest retrieval avoidance conditions" name="ConflictOfInterestRetrievalAvoidanceConditions" />
     <text value="{0} conflict records" name="ConflictRecordsCnt" />
     <text value="Conflict retrieval return" name="ConflictRetrievalReturn" />
@@ -1077,6 +1079,7 @@
     <text value="English name" name="EnName" />
     <text value="Business registration name" name="EnterpriseBusinessRegistrationNameOfEnterprise" />
     <text value="Enterprise key" name="EnterpriseKey" />
+    <text value="There is currently no enterprise business information configured" name="EnterpriseNotSetting" />
     <text value="Enterprise inquiry" name="EnterpriseQuery" />
     <text value="Corporate company registration number" name="EnterpriseRegistrationNumber" />
     <text value="Please enter the reason for {1} in {0}!" name="EnterReason" />
@@ -1345,6 +1348,8 @@
     <text value="Important level" name="ImportantLevel" />
     <text value="Important level:" name="ImportantLevelTitle" />
     <text value="Is it important?" name="ImportantOrNot" />
+    <text value="The process of importing profit information has already begun." name="ImportClientRelationProcessStart" />
+    <text value="The process of importing profit information failed." name="ImportClientRelationUploadFailed" />
     <text value="Import from Excel" name="ImportFromExcel" />
     <text value="{0}Download the import template file." name="ImportToExcelTemplateFileDownloadInfo" />
     <text value="The user import process has begun." name="ImportUsersProcessStart" />

@@ -288,6 +288,7 @@
     <text value="授權用戶" name="AuthorizationUser" />
     <text value="啟用定期付款" name="AutomaticallyBillMyAccount" />
     <text value="自動生成的案件材料" name="AutomaticallyGeneratedCaseMaterial" />
+    <text value="自動同步日程" name="AutoSyncSchedule" />
     <text value="平均值" name="AverageValue" />
     <text value="返回" name="Back" />
     <text value="回到我的帳戶" name="BackToMyAccount" />
@@ -697,6 +698,7 @@
     <text value="確認是否參與任務" name="ConfirmWhetherParticipateTask" />
     <text value="共{0}條衝突信息" name="ConflictCounts" />
     <text value="利益衝突信息" name="ConflictOfInterestInformation" />
+    <text value="利益衝突信息可以批量導入" name="ConflictOfInterestInformationCanBeImportedInBatches" />
     <text value="利益衝突檢索規避條件" name="ConflictOfInterestRetrievalAvoidanceConditions" />
     <text value="{0} 條衝突記錄" name="ConflictRecordsCnt" />
     <text value="衝突檢索退回" name="ConflictRetrievalReturn" />
@@ -1077,6 +1079,7 @@
     <text value="英文名稱" name="EnName" />
     <text value="企業工商註冊名稱" name="EnterpriseBusinessRegistrationNameOfEnterprise" />
     <text value="企業密鑰" name="EnterpriseKey" />
+    <text value="當前尚未配置企業工商信息" name="EnterpriseNotSetting" />
     <text value="企業查詢" name="EnterpriseQuery" />
     <text value="企業公司註冊號" name="EnterpriseRegistrationNumber" />
     <text value="請在{0}中輸入{1}的原因!" name="EnterReason" />
@@ -1345,6 +1348,8 @@
     <text value="重要級別" name="ImportantLevel" />
     <text value="重要級別：" name="ImportantLevelTitle" />
     <text value="是否重要" name="ImportantOrNot" />
+    <text value="利衝信息導入過程已經開始。" name="ImportClientRelationProcessStart" />
+    <text value="利衝信息導入過程失敗。" name="ImportClientRelationUploadFailed" />
     <text value="從Excel導入" name="ImportFromExcel" />
     <text value="{0}下載導入模板文件。" name="ImportToExcelTemplateFileDownloadInfo" />
     <text value="用戶導入過程已經開始。" name="ImportUsersProcessStart" />

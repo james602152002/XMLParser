@@ -288,6 +288,7 @@
     <text value="許可ユーザー" name="AuthorizationUser" />
     <text value="定期的な支払いを有効にする" name="AutomaticallyBillMyAccount" />
     <text value="ケース材料の自動生成" name="AutomaticallyGeneratedCaseMaterial" />
+    <text value="スケジュールを自動的に同期する" name="AutoSyncSchedule" />
     <text value="平均値" name="AverageValue" />
     <text value="に戻る" name="Back" />
     <text value="私のアカウントに戻る" name="BackToMyAccount" />
@@ -697,6 +698,7 @@
     <text value="タスクへの参加を確認する" name="ConfirmWhetherParticipateTask" />
     <text value="合計{0}競合情報" name="ConflictCounts" />
     <text value="利害情報の衝突" name="ConflictOfInterestInformation" />
+    <text value="利益相反情報をバッチでインポートできます" name="ConflictOfInterestInformationCanBeImportedInBatches" />
     <text value="利益相反の取得回避条件" name="ConflictOfInterestRetrievalAvoidanceConditions" />
     <text value="{0} 競合レコード" name="ConflictRecordsCnt" />
     <text value="競合検索戻り" name="ConflictRetrievalReturn" />
@@ -1077,6 +1079,7 @@
     <text value="英語名" name="EnName" />
     <text value="ビジネス登録名" name="EnterpriseBusinessRegistrationNameOfEnterprise" />
     <text value="エンタープライズキー" name="EnterpriseKey" />
+    <text value="現在、企業のビジネス情報は設定されていません" name="EnterpriseNotSetting" />
     <text value="企業の問い合わせ" name="EnterpriseQuery" />
     <text value="法人登録番号" name="EnterpriseRegistrationNumber" />
     <text value="{1}の理由を{0}に入力してください！" name="EnterReason" />
@@ -1345,6 +1348,8 @@
     <text value="重要なレベル" name="ImportantLevel" />
     <text value="重要レベル" name="ImportantLevelTitle" />
     <text value="それは重要ですか？" name="ImportantOrNot" />
+    <text value="利益情報のインポートはすでに始まっています。" name="ImportClientRelationProcessStart" />
+    <text value="利益情報のインポートに失敗しました。" name="ImportClientRelationUploadFailed" />
     <text value="Excelからインポート" name="ImportFromExcel" />
     <text value="{0}インポートテンプレートファイルをダウンロードします。" name="ImportToExcelTemplateFileDownloadInfo" />
     <text value="ユーザーのインポートプロセスが開始されました。" name="ImportUsersProcessStart" />
