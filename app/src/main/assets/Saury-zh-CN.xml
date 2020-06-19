@@ -19,6 +19,8 @@
     <text value="用户权限" name="AbpZeroUserPermissions" />
     <text value="摘要描述" name="AbstractDescription" />
     <text value="学位" name="AcademicDegree" />
+    <text value="受理机构" name="AcceptingAgency" />
+    <text value="受理案号" name="AcceptNo" />
     <text value="接受时间" name="AcceptTime" />
     <text value="访问" name="Access" />
     <text value="即使您处于脱机状态，也可以访问您的应用程序和资源" name="Access to your applications and resources, even when you are offline" />
@@ -48,6 +50,7 @@
     <text value="请从下述方式中添加合同文件，若无合同，案件状态将一直处于待上传合同阶段！" name="AddCaseContractModalTips" />
     <text value="收费方式为正常收费时，律师费用不能为0，请添加收费信息!" name="AddChargingInformation" />
     <text value="添加联系人" name="AddContact" />
+    <text value="从客户库添加联系人" name="AddContactFromCustomerLibrary" />
     <text value="添加开庭提醒" name="AddCourtRemind" />
     <text value="按{0}或单击浏览器窗口顶部的“书签”，然后从下拉菜单中选择“添加书签...”。" name="AddCurrentPageToBookmark" />
     <text value="添加客户通讯录" name="AddCustomerAddressBook" />
@@ -58,6 +61,7 @@
     <text value="添加收费及合同" name="AddFeesAndContracts" />
     <text value="文件-命名" name="AddFileName" />
     <text value="添加朋友" name="AddFriend" />
+    <text value="从客户库添加" name="AddFromCustomerLibrary" />
     <text value="马上添加" name="AddInstantly" />
     <text value="增加内网信息" name="AddIntranet" />
     <text value="添加律师弹窗默认显示经常合作律师，如未添加过案件，则只显示同部门下的至多6位律师。" name="AddLawyerSelectiveModalTips" />
@@ -367,6 +371,7 @@
     <text value="您的浏览器不支持地理位置" name="BrowserNoSupportLocation" />
     <text value="用章信息浏览" name="BrowseWithChapterInformation" />
     <text value="如勾选文件较多且单文件较大，批量下载会耗时较长！" name="BulkDownloadsTakeLonger" />
+    <text value="批量操作" name="BulkOperations" />
     <text value="司法局案件类别细分" name="BureauofJusticeClassification" />
     <text value="企业账号" name="BusinessAccount" />
     <text value="业务领域" name="BusinessArea" />
@@ -606,6 +611,7 @@
     <text value="客户尚无联系人信息，点击右上角" name="ClientHasNoContact" />
     <text value="客户尚无联系人信息，点击右上角 加 号 添加本案关联联系人" name="ClientHasNoContactAndClickToAddCaseContacts" />
     <text value="{0}正在请求您的许可" name="ClientIsRequestingYourPermission" />
+    <text value="客户不存在！" name="ClientNotExist" />
     <text value="客户项目" name="ClientProject" />
     <text value="客户地区" name="ClientRegion" />
     <text value="当前客户已关联案件，无法删除！" name="ClientRelatedCases" />
@@ -749,6 +755,7 @@
     <text value="费用数" name="Costs" />
     <text value="无法完成登录操作。" name="CouldNotCompleteLoginOperation" />
     <text value="无法验证外部用户登录" name="CouldNotValidateExternalUser" />
+    <text value="对方/第三方当事人" name="CounterpartyThirdParty" />
     <text value="按组织机构统计账单时长" name="CountingBillsByorganization" />
     <text value="国家" name="Country" />
     <text value="统计自报小时总时长" name="CountTheTotalHoursOfSelfReportedHours" />
@@ -760,6 +767,7 @@
     <text value="法院提醒信息" name="CourtReminder" />
     <text value="法院" name="Courts" />
     <text value="当前疫情期间，全时网络会议免费使用！" name="COVID19FullTimeipsConferencingFreeTips" />
+    <text value="创建" name="Create" />
     <text value="创建案件" name="CreateACase" />
     <text value="创建分类" name="CreateAClassification" />
     <text value="创建客户" name="CreateACustomer" />
@@ -829,11 +837,13 @@
     <text value="自定义数据" name="CustomData" />
     <text value="客户" name="Customer" />
     <text value="客户地址" name="CustomerAddress" />
+    <text value="客户年度统计" name="CustomerAnnualStatistics" />
     <text value="客户基本信息" name="CustomerBasicInfo" />
     <text value="客户交流" name="CustomerCommunications" />
     <text value="客户联系人" name="CustomerContact" />
     <text value="客户开发" name="CustomerDevelopment" />
     <text value="客户文档" name="CustomerDocuments" />
+    <text value="客户增长统计" name="CustomerGrowthStatistics" />
     <text value="客户关系操作指引" name="CustomerGuide" />
     <text value="客户行业" name="CustomerIndustry" />
     <text value="客户信息" name="CustomerInformation" />
@@ -1065,6 +1075,7 @@
     <text value="启用" name="Enable" />
     <text value="法天使下载服务暂未启用，请联系管理员开启该服务!" name="EnableFaTianShi" />
     <text value="启用轻量目录访问协议(LDAP)认证." name="EnableLdapAuthentication" />
+    <text value="启用多客户" name="EnableMultiClient" />
     <text name="EnableRecurringPayments" />
     <text value="启用两步认证登录" name="EnableTwoFactorLogin" />
     <text value="登录失败后启用用户的帐户锁定" name="EnableUserAccountLockingOnFailedLoginAttemts" />
@@ -1370,6 +1381,7 @@
     <text value="行业" name="Industry" />
     <text value="推算方向" name="InferredDirection" />
     <text value="个人中心" name="InfoCenter" />
+    <text value="信息" name="Information" />
     <text value="会议中……" name="InMeeting" />
     <text value="未确定录入内容时可填入缺省值（如：暂无）或随机数" name="InputValueNullOrUnknownReminder" />
     <text value="在职状态变更为{0}后，将无法登录系统，是否确定？" name="InserviceStatusChangeWarning" />
@@ -1477,6 +1489,7 @@
     <text value="七月" name="July" />
     <text value="六月" name="June" />
     <text value="刚刚" name="JustNow" />
+    <text value="继续创建另一个" name="KeepCreatingAnother" />
     <text value="键值" name="Key" />
     <text value="要点" name="KeyPoints" />
     <text value="关键字" name="KeyWord" />
@@ -1638,6 +1651,7 @@
     <text value="结婚时" name="Marriage" />
     <text value="婚否" name="MarriageStatus" />
     <text value="材料名称" name="MaterialName" />
+    <text value="允许最大客户数量" name="MaxCaseClient" />
     <text value="在锁定帐户之前的累计登录失败的最大数量" name="MaxFailedAccessAttemptsBeforeLockout" />
     <text value="您最多可上传{0}张图片" name="MaximumUploadPictures" />
     <text value="最大用户数" name="MaximumUserCount" />
@@ -2486,6 +2500,7 @@
     <text value="案件申请过程相关参数配置" name="RelatedParameterConfigurationOfCaseApplicationProcess" />
     <text value="案件审核过程相关参数配置" name="RelatedParameterConfigurationOfCaseReviewProcess" />
     <text value="与其关系" name="RelatedPartiesRelationship" />
+    <text value="关联方" name="RelatedParty" />
     <text value="共 %s 个关联案件" name="RelatedProjectCnt" />
     <text value="关联项目信息" name="RelatedProjects" />
     <text value="关联项目" name="RelatedProjectsTitle" />
@@ -2872,6 +2887,7 @@
     <text value="统计概要" name="StatisticalSummary" />
     <text value="统计年度" name="StatisticalYear" />
     <text value="统计" name="Statistics" />
+    <text value="统计类别" name="StatisticsCategory" />
     <text value="按组织机构统计案件数量" name="StatisticsnumberofCasesbyOrganization" />
     <text value="按组织机构统计客户数量" name="StatisticsnumberofcustomersbyOrganization" />
     <text value="所属部门人员考勤排名统计" name="StatisticsOfPersonnelInTheDepartment" />

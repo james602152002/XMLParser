@@ -19,6 +19,8 @@
     <text value="ユーザー権利" name="AbpZeroUserPermissions" />
     <text value="要約の説明" name="AbstractDescription" />
     <text value="度" name="AcademicDegree" />
+    <text value="受理機関" name="AcceptingAgency" />
+    <text value="ケース番号を受け入れる" name="AcceptNo" />
     <text value="許容時間" name="AcceptTime" />
     <text value="アクセス" name="Access" />
     <text value="オフラインであってもアプリケーションとリソースにアクセスする" name="Access to your applications and resources, even when you are offline" />
@@ -48,6 +50,7 @@
     <text value="上記の方法で契約書を追加してください｡契約がない場合、ケースのステータスはアップロードされる契約段階に残ります。" name="AddCaseContractModalTips" />
     <text value="課金方法が正常な場合、弁護士費用を0にすることはできません。課金情報を追加してください。" name="AddChargingInformation" />
     <text value="連絡先を追加" name="AddContact" />
+    <text value="顧客ライブラリから連絡先を追加します" name="AddContactFromCustomerLibrary" />
     <text value="裁判所リマインダーを追加" name="AddCourtRemind" />
     <text value="{0}を押すか、ブラウザウィンドウの上部にある[ブックマーク]をクリックして、ドロップダウンメニューから[ブックマークを追加...]を選択してください。" name="AddCurrentPageToBookmark" />
     <text value="顧客の住所録を追加する" name="AddCustomerAddressBook" />
@@ -58,6 +61,7 @@
     <text value="手数料と契約を追加する" name="AddFeesAndContracts" />
     <text value="ファイル名" name="AddFileName" />
     <text value="友達を追加" name="AddFriend" />
+    <text value="顧客ライブラリから追加" name="AddFromCustomerLibrary" />
     <text value="今すぐ追加" name="AddInstantly" />
     <text value="イントラネット情報を増やす" name="AddIntranet" />
     <text value="弁護士のポップアップウィンドウをデフォルトで追加すると、頻繁に助言を受ける弁護士が表示されます。ポップアップウィンドウの検索ボックスからより多くの弁護士を検索することができます。" name="AddLawyerSelectiveModalTips" />
@@ -367,6 +371,7 @@
     <text value="あなたのブラウザは地理的な場所をサポートしていません" name="BrowserNoSupportLocation" />
     <text value="章情報で参照する" name="BrowseWithChapterInformation" />
     <text value="より多くのファイルを選択し、単一のファイルが大きい場合は、バッチダウンロードに時間がかかります！" name="BulkDownloadsTakeLonger" />
+    <text value="一括操作" name="BulkOperations" />
     <text value="法務省分類" name="BureauofJusticeClassification" />
     <text value="ビジネスアカウント" name="BusinessAccount" />
     <text value="事業エリア" name="BusinessArea" />
@@ -606,6 +611,7 @@
     <text value="顧客の連絡先情報はありません。右上のをクリックしてください" name="ClientHasNoContact" />
     <text value="この場合、担当者を追加するには、右上のプラス記号をクリックします。" name="ClientHasNoContactAndClickToAddCaseContacts" />
     <text value="{0}許可をリクエストしています" name="ClientIsRequestingYourPermission" />
+    <text value="顧客は存在しません！" name="ClientNotExist" />
     <text value="顧客プロジェクト" name="ClientProject" />
     <text value="顧客エリア" name="ClientRegion" />
     <text value="現在の顧客はケースに接続されており、削除できません！" name="ClientRelatedCases" />
@@ -749,6 +755,7 @@
     <text value="コード" name="Costs" />
     <text value="ログイン操作を完了できません。" name="CouldNotCompleteLoginOperation" />
     <text value="外部ユーザーのログインを確認できません" name="CouldNotValidateExternalUser" />
+    <text value="カウンターパーティ/サードパーティ" name="CounterpartyThirdParty" />
     <text value="団体別に法案を数える" name="CountingBillsByorganization" />
     <text value="国" name="Country" />
     <text value="合計自己報告時間" name="CountTheTotalHoursOfSelfReportedHours" />
@@ -760,6 +767,7 @@
     <text value="裁判所は情報を思い出させる" name="CourtReminder" />
     <text value="コート" name="Courts" />
     <text value="現在の流行中、フルタイムのWeb会議は無料です！" name="COVID19FullTimeipsConferencingFreeTips" />
+    <text value="つくる" name="Create" />
     <text value="ケースを作成する" name="CreateACase" />
     <text value="カテゴリを作成する" name="CreateAClassification" />
     <text value="顧客を作成する" name="CreateACustomer" />
@@ -829,11 +837,13 @@
     <text value="カスタムデータ" name="CustomData" />
     <text value="顧客" name="Customer" />
     <text value="お客様の住所" name="CustomerAddress" />
+    <text value="顧客の年間統計" name="CustomerAnnualStatistics" />
     <text value="お客様の基本情報" name="CustomerBasicInfo" />
     <text value="カスタマーコミュニケーション" name="CustomerCommunications" />
     <text value="顧客の連絡先" name="CustomerContact" />
     <text value="顧客開発" name="CustomerDevelopment" />
     <text value="顧客ドキュメント" name="CustomerDocuments" />
+    <text value="顧客成長統計" name="CustomerGrowthStatistics" />
     <text value="カスタマーリレーションシップ運営ガイドライン" name="CustomerGuide" />
     <text value="顧客業界" name="CustomerIndustry" />
     <text value="顧客情報" name="CustomerInformation" />
@@ -1065,6 +1075,7 @@
     <text name="Enable" />
     <text value="ローエンジェルダウンロードサービスはまだ有効化されていません。管理者に連絡してサービスを開始してください。" name="EnableFaTianShi" />
     <text value="ライトウェイトディレクトリアクセスプロトコル（LDAP）認証を有効にします。" name="EnableLdapAuthentication" />
+    <text value="マルチクライアントを有効にする" name="EnableMultiClient" />
     <text name="EnableRecurringPayments" />
     <text value="アカウントのデュアルログイン認証を有効にします。" name="EnableTwoFactorLogin" />
     <text value="失敗したログイン試行でユーザーアカウントロックを有効にする" name="EnableUserAccountLockingOnFailedLoginAttemts" />
@@ -1370,6 +1381,7 @@
     <text value="産業" name="Industry" />
     <text value="推定方向" name="InferredDirection" />
     <text value="パーソナルセンター" name="InfoCenter" />
+    <text value="情報" name="Information" />
     <text value="会議中に..." name="InMeeting" />
     <text value="何を入力すべきかわからない場合は、デフォルト値（時間なしなど）または乱数を入力できます。" name="InputValueNullOrUnknownReminder" />
     <text value="現在のステータスが{0}に変更された後、システムにログインできなくなります。大丈夫ですか？" name="InserviceStatusChangeWarning" />
@@ -1477,6 +1489,7 @@
     <text value="7月" name="July" />
     <text value="6月" name="June" />
     <text value="ちょうど" name="JustNow" />
+    <text value="別のものを作成し続けます" name="KeepCreatingAnother" />
     <text value="キー値" name="Key" />
     <text value="キーポイント" name="KeyPoints" />
     <text value="キーワード" name="KeyWord" />
@@ -1638,6 +1651,7 @@
     <text value="結婚するとき" name="Marriage" />
     <text value="結婚" name="MarriageStatus" />
     <text value="品名" name="MaterialName" />
+    <text value="許可される最大顧客数" name="MaxCaseClient" />
     <text value="アカウントをロックするまでに失敗したログイン試行の最大回数" name="MaxFailedAccessAttemptsBeforeLockout" />
     <text value="最大{0}枚の写真をアップロードできます" name="MaximumUploadPictures" />
     <text value="ユーザーの最大数" name="MaximumUserCount" />
@@ -2486,6 +2500,7 @@
     <text value="ケース申請プロセスの関連パラメータ設定" name="RelatedParameterConfigurationOfCaseApplicationProcess" />
     <text value="ケースレビュープロセスの関連パラメーター構成" name="RelatedParameterConfigurationOfCaseReviewProcess" />
     <text value="それとの関係" name="RelatedPartiesRelationship" />
+    <text value="関連当事者" name="RelatedParty" />
     <text value="%s関連のケース" name="RelatedProjectCnt" />
     <text value="関連プロジェクトの情報" name="RelatedProjects" />
     <text value="関連プロジェクト" name="RelatedProjectsTitle" />
@@ -2872,6 +2887,7 @@
     <text value="ステーション" name="StatisticalSummary" />
     <text value="スケジュール" name="StatisticalYear" />
     <text value="統計" name="Statistics" />
+    <text value="統計カテゴリ" name="StatisticsCategory" />
     <text value="スケジュール" name="StatisticsnumberofCasesbyOrganization" />
     <text value="組織別の顧客数に関する統計" name="StatisticsnumberofcustomersbyOrganization" />
     <text value="部門内の人員の出席順位統計" name="StatisticsOfPersonnelInTheDepartment" />

@@ -19,6 +19,8 @@
     <text value="User Permissions" name="AbpZeroUserPermissions" />
     <text value="Summary description" name="AbstractDescription" />
     <text value="Bachelor of Science" name="AcademicDegree" />
+    <text value="Accepting agency" name="AcceptingAgency" />
+    <text value="Accept case number" name="AcceptNo" />
     <text value="Accepted time" name="AcceptTime" />
     <text value="access" name="Access" />
     <text value="Access your applications and resources even if you are offline" name="Access to your applications and resources, even when you are offline" />
@@ -48,6 +50,7 @@
     <text value="Please add the contract document from the above method. If there is no contract, the status of the case will remain in the contract stage to be uploaded!" name="AddCaseContractModalTips" />
     <text value="When the charging method is normal, the lawyer's fee cannot be 0, please add charging information!" name="AddChargingInformation" />
     <text value="add contact" name="AddContact" />
+    <text value="Add a contact from the customer library" name="AddContactFromCustomerLibrary" />
     <text value="Add court reminder" name="AddCourtRemind" />
     <text value="Press {0} or click &quot;Bookmarks&quot; at the top of the browser window and select &quot;Add Bookmark...&quot; from the drop-down menu." name="AddCurrentPageToBookmark" />
     <text value="Add customer address book" name="AddCustomerAddressBook" />
@@ -58,6 +61,7 @@
     <text value="Add fees and contracts" name="AddFeesAndContracts" />
     <text value="File-name" name="AddFileName" />
     <text value="Add friend" name="AddFriend" />
+    <text value="Add from customer library" name="AddFromCustomerLibrary" />
     <text value="Add now" name="AddInstantly" />
     <text value="Increase intranet information" name="AddIntranet" />
     <text value="Adding a lawyer's pop-up window by default shows frequent co-counsel lawyers. If no cases have been added, only up to 6 lawyers under the same department will be displayed. You can retrieve more lawyers through the search box in the pop-up layer!" name="AddLawyerSelectiveModalTips" />
@@ -367,6 +371,7 @@
     <text value="Your browser does not support geographic location" name="BrowserNoSupportLocation" />
     <text value="Browse with chapter information" name="BrowseWithChapterInformation" />
     <text value="If you select more files and the single file is larger, batch downloading will take longer!" name="BulkDownloadsTakeLonger" />
+    <text value="Bulk operations" name="BulkOperations" />
     <text value="Bureau of Justice classification" name="BureauofJusticeClassification" />
     <text value="Business account" name="BusinessAccount" />
     <text value="Business area" name="BusinessArea" />
@@ -606,6 +611,7 @@
     <text value="There is no contact information for the customer, click on the upper right corner" name="ClientHasNoContact" />
     <text value="There is no contact information for the customer. Click the plus sign in the upper right corner to add the contact person in the case." name="ClientHasNoContactAndClickToAddCaseContacts" />
     <text value="{0} requesting your permission" name="ClientIsRequestingYourPermission" />
+    <text value="The customer does not exist!" name="ClientNotExist" />
     <text value="Customer Project" name="ClientProject" />
     <text value="Customer area" name="ClientRegion" />
     <text value="The current customer is connected to the case and cannot be deleted!" name="ClientRelatedCases" />
@@ -749,6 +755,7 @@
     <text value="Costs" name="Costs" />
     <text value="Could not complete the login operation." name="CouldNotCompleteLoginOperation" />
     <text value="Could not validate external user login" name="CouldNotValidateExternalUser" />
+    <text value="Counterparty/third party" name="CounterpartyThirdParty" />
     <text value="Counting bills by organization" name="CountingBillsByorganization" />
     <text value="country" name="Country" />
     <text value="Total self-reported hours" name="CountTheTotalHoursOfSelfReportedHours" />
@@ -760,6 +767,7 @@
     <text value="Court reminds information" name="CourtReminder" />
     <text value="Court" name="Courts" />
     <text value="During the current epidemic, full-time web conferencing is free!" name="COVID19FullTimeipsConferencingFreeTips" />
+    <text value="create" name="Create" />
     <text value="Create a case" name="CreateACase" />
     <text value="Create a category" name="CreateAClassification" />
     <text value="Create customer" name="CreateACustomer" />
@@ -829,11 +837,13 @@
     <text value="Custom data" name="CustomData" />
     <text value="client" name="Customer" />
     <text value="customer address" name="CustomerAddress" />
+    <text value="Customer annual statistics" name="CustomerAnnualStatistics" />
     <text value="Customer basic information" name="CustomerBasicInfo" />
     <text value="Customer communications" name="CustomerCommunications" />
     <text value="Customer contact" name="CustomerContact" />
     <text value="Customer Development" name="CustomerDevelopment" />
     <text value="Customer documentation" name="CustomerDocuments" />
+    <text value="Customer growth statistics" name="CustomerGrowthStatistics" />
     <text value="Customer Relationship Operating Guidelines" name="CustomerGuide" />
     <text value="Customer industry" name="CustomerIndustry" />
     <text value="Customer Information" name="CustomerInformation" />
@@ -1065,6 +1075,7 @@
     <text value="Enable" name="Enable" />
     <text value="The law angel download service has not been activated yet, please contact the administrator to open the service!" name="EnableFaTianShi" />
     <text value="Enable LDAP Authentication." name="EnableLdapAuthentication" />
+    <text value="Enable multi-client" name="EnableMultiClient" />
     <text value="Bill my account automatically" name="EnableRecurringPayments" />
     <text value="Enable two factor user login." name="EnableTwoFactorLogin" />
     <text value="Enable user account locking on failed login attempts" name="EnableUserAccountLockingOnFailedLoginAttemts" />
@@ -1370,6 +1381,7 @@
     <text value="industry" name="Industry" />
     <text value="Inferred direction" name="InferredDirection" />
     <text value="Personal center" name="InfoCenter" />
+    <text value="information" name="Information" />
     <text value="In the meeting……" name="InMeeting" />
     <text value="You can fill in the default value (such as: no time) or random number when you are not sure what to enter" name="InputValueNullOrUnknownReminder" />
     <text value="After the incumbent status is changed to {0}, the system cannot be logged in. Is it OK?" name="InserviceStatusChangeWarning" />
@@ -1477,6 +1489,7 @@
     <text value="July" name="July" />
     <text value="June" name="June" />
     <text value="Just Now" name="JustNow" />
+    <text value="Keep creating another" name="KeepCreatingAnother" />
     <text value="Key" name="Key" />
     <text value="Key points" name="KeyPoints" />
     <text value="Keywords" name="KeyWord" />
@@ -1638,6 +1651,7 @@
     <text value="Marriage" name="Marriage" />
     <text value="Marriage" name="MarriageStatus" />
     <text value="Material name" name="MaterialName" />
+    <text value="Maximum number of customers allowed" name="MaxCaseClient" />
     <text value="Maximum number of failed login attempt count before locking the account" name="MaxFailedAccessAttemptsBeforeLockout" />
     <text value="You can upload up to {0} pictures" name="MaximumUploadPictures" />
     <text value="Maximum user count" name="MaximumUserCount" />
@@ -2486,6 +2500,7 @@
     <text value="Related parameter configuration of case application process" name="RelatedParameterConfigurationOfCaseApplicationProcess" />
     <text value="Related parameter configuration of case review process" name="RelatedParameterConfigurationOfCaseReviewProcess" />
     <text value="Relationship with it" name="RelatedPartiesRelationship" />
+    <text value="Related party" name="RelatedParty" />
     <text value="%s related cases" name="RelatedProjectCnt" />
     <text value="Related Project information" name="RelatedProjects" />
     <text value="Associated Project" name="RelatedProjectsTitle" />
@@ -2872,6 +2887,7 @@
     <text value="Statistical summary" name="StatisticalSummary" />
     <text value="Statistical year" name="StatisticalYear" />
     <text value="Statistics" name="Statistics" />
+    <text value="Statistics category" name="StatisticsCategory" />
     <text value="Statistics on the number of cases by organization" name="StatisticsnumberofCasesbyOrganization" />
     <text value="Statistics on the number of customers by organization" name="StatisticsnumberofcustomersbyOrganization" />
     <text value="Attendance ranking statistics of personnel in the department" name="StatisticsOfPersonnelInTheDepartment" />

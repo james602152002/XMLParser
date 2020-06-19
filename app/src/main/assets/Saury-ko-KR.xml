@@ -19,6 +19,8 @@
     <text value="사용자 권리" name="AbpZeroUserPermissions" />
     <text value="요약 설명" name="AbstractDescription" />
     <text value="도" name="AcademicDegree" />
+    <text value="수락 기관" name="AcceptingAgency" />
+    <text value="사례 번호 수락" name="AcceptNo" />
     <text value="허용 시간" name="AcceptTime" />
     <text value="액세스" name="Access" />
     <text value="오프라인 상태에서도 응용 프로그램 및 리소스에 액세스" name="Access to your applications and resources, even when you are offline" />
@@ -48,6 +50,7 @@
     <text value="위의 방법으로 계약 문서를 추가하십시오. 계약이 없으면 케이스의 상태가 계약 단계에 남아 업로드됩니다!" name="AddCaseContractModalTips" />
     <text value="청구 방법이 정상이면 변호사 비용이 0이 될 수 없습니다. 청구 정보를 추가하십시오!" name="AddChargingInformation" />
     <text value="연락처 추가" name="AddContact" />
+    <text value="고객 라이브러리에서 연락처 추가" name="AddContactFromCustomerLibrary" />
     <text value="법원 알림 추가" name="AddCourtRemind" />
     <text value="브라우저 창 상단에서 {0}을 (를) 누르거나 &quot;책갈피&quot;를 클릭하고 드롭 다운 메뉴에서 &quot;책갈피 추가 ...&quot;를 선택하십시오." name="AddCurrentPageToBookmark" />
     <text value="고객 주소록 추가" name="AddCustomerAddressBook" />
@@ -58,6 +61,7 @@
     <text value="수수료 및 계약 추가" name="AddFeesAndContracts" />
     <text value="파일 이름" name="AddFileName" />
     <text value="친구 추가" name="AddFriend" />
+    <text value="고객 라이브러리에서 추가" name="AddFromCustomerLibrary" />
     <text value="지금 추가" name="AddInstantly" />
     <text value="인트라넷 정보 증가" name="AddIntranet" />
     <text value="변호사의 팝업 창을 추가하면 기본적으로 빈번한 변호사 변호사가 표시됩니다. 변호사가 추가되지 않으면 동일한 부서의 변호사를 6 명까지만 표시합니다. 팝업 창에서 검색 창을 통해 더 많은 변호사를 검색 할 수 있습니다!" name="AddLawyerSelectiveModalTips" />
@@ -367,6 +371,7 @@
     <text value="브라우저가 지리적 위치를 지원하지 않습니다." name="BrowserNoSupportLocation" />
     <text value="장 정보로 찾아보기" name="BrowseWithChapterInformation" />
     <text value="더 많은 파일을 선택하고 단일 파일이 더 크면 일괄 다운로드 시간이 오래 걸립니다!" name="BulkDownloadsTakeLonger" />
+    <text value="대량 작업" name="BulkOperations" />
     <text value="법무부 분류" name="BureauofJusticeClassification" />
     <text value="비즈니스 계정" name="BusinessAccount" />
     <text value="사업 영역" name="BusinessArea" />
@@ -606,6 +611,7 @@
     <text value="고객의 연락처 정보가 없습니다. 오른쪽 상단 모서리를 클릭하십시오." name="ClientHasNoContact" />
     <text value="고객의 연락처 정보가 없습니다 오른쪽 상단의 더하기 기호를 클릭하여 담당자를 담당자에게 추가하십시오." name="ClientHasNoContactAndClickToAddCaseContacts" />
     <text value="{0}에게 권한 요청" name="ClientIsRequestingYourPermission" />
+    <text value="고객이 존재하지 않습니다!" name="ClientNotExist" />
     <text value="고객 프로젝트" name="ClientProject" />
     <text value="고객 지역" name="ClientRegion" />
     <text value="현재 고객이 사례에 연결되어 있으며 삭제할 수 없습니다!" name="ClientRelatedCases" />
@@ -749,6 +755,7 @@
     <text value="비용" name="Costs" />
     <text value="로그인 조작을 완료 할 수 없습니다." name="CouldNotCompleteLoginOperation" />
     <text value="외부 사용자 로그인을 확인할 수 없습니다" name="CouldNotValidateExternalUser" />
+    <text value="상대방 / 타사" name="CounterpartyThirdParty" />
     <text value="조직 별 청구서 계산" name="CountingBillsByorganization" />
     <text value="국가" name="Country" />
     <text value="총 자기보고 시간" name="CountTheTotalHoursOfSelfReportedHours" />
@@ -760,6 +767,7 @@
     <text value="법원 정보를 상기시킵니다" name="CourtReminder" />
     <text value="법원" name="Courts" />
     <text value="현재 전염병 동안 풀 타임 웹 회의는 무료입니다!" name="COVID19FullTimeipsConferencingFreeTips" />
+    <text value="창조하다" name="Create" />
     <text value="사례 만들기" name="CreateACase" />
     <text value="카테고리 만들기" name="CreateAClassification" />
     <text value="고객 생성" name="CreateACustomer" />
@@ -829,11 +837,13 @@
     <text value="맞춤 데이터" name="CustomData" />
     <text value="고객" name="Customer" />
     <text value="고객 주소" name="CustomerAddress" />
+    <text value="고객 연간 통계" name="CustomerAnnualStatistics" />
     <text value="고객 기본 정보" name="CustomerBasicInfo" />
     <text value="고객 커뮤니케이션" name="CustomerCommunications" />
     <text value="고객 연락" name="CustomerContact" />
     <text value="고객 개발" name="CustomerDevelopment" />
     <text value="고객 문서" name="CustomerDocuments" />
+    <text value="고객 성장 통계" name="CustomerGrowthStatistics" />
     <text value="고객 관계 운영 지침" name="CustomerGuide" />
     <text value="고객 산업" name="CustomerIndustry" />
     <text value="고객 정보" name="CustomerInformation" />
@@ -1065,6 +1075,7 @@
     <text name="Enable" />
     <text value="법률 천사 다운로드 서비스가 아직 활성화되지 않았습니다. 서비스를 열려면 관리자에게 문의하십시오!" name="EnableFaTianShi" />
     <text value="LDAP (Lightweight Directory Access Protocol) 인증을 사용합니다." name="EnableLdapAuthentication" />
+    <text value="멀티 클라이언트 사용" name="EnableMultiClient" />
     <text name="EnableRecurringPayments" />
     <text value="계정 이중 로그인 확인을 사용합니다." name="EnableTwoFactorLogin" />
     <text value="실패한 로그인 시도에 대해 사용자 계정 잠금 사용" name="EnableUserAccountLockingOnFailedLoginAttemts" />
@@ -1370,6 +1381,7 @@
     <text value="산업 분야" name="Industry" />
     <text value="추론 된 방향" name="InferredDirection" />
     <text value="개인 센터" name="InfoCenter" />
+    <text value="정보" name="Information" />
     <text value="회의 도중 ..." name="InMeeting" />
     <text value="입력 할 내용이 확실하지 않은 경우 기본값 (예 : 시간 없음) 또는 임의의 숫자를 채울 수 있습니다." name="InputValueNullOrUnknownReminder" />
     <text value="기존 상태가 {0}으로 변경되면 시스템에 로그인 할 수 없습니다. 정상입니까?" name="InserviceStatusChangeWarning" />
@@ -1477,6 +1489,7 @@
     <text value="7 월" name="July" />
     <text value="6 월" name="June" />
     <text value="그냥" name="JustNow" />
+    <text value="다른 것을 계속 만들어라" name="KeepCreatingAnother" />
     <text value="주요 가치" name="Key" />
     <text value="요점" name="KeyPoints" />
     <text value="키워드" name="KeyWord" />
@@ -1638,6 +1651,7 @@
     <text value="결혼 할 때" name="Marriage" />
     <text value="결혼" name="MarriageStatus" />
     <text value="물질 이름" name="MaterialName" />
+    <text value="허용되는 최대 고객 수" name="MaxCaseClient" />
     <text value="계정을 잠그기 전에 실패한 로그인 시도의 최대 횟수" name="MaxFailedAccessAttemptsBeforeLockout" />
     <text value="최대 {0} 장의 사진을 업로드 할 수 있습니다" name="MaximumUploadPictures" />
     <text value="최대 사용자 수" name="MaximumUserCount" />
@@ -2486,6 +2500,7 @@
     <text value="사례 적용 프로세스의 관련 매개 변수 구성" name="RelatedParameterConfigurationOfCaseApplicationProcess" />
     <text value="사례 검토 프로세스의 관련 매개 변수 구성" name="RelatedParameterConfigurationOfCaseReviewProcess" />
     <text value="그것과의 관계" name="RelatedPartiesRelationship" />
+    <text value="관련 당사자" name="RelatedParty" />
     <text value="%s 관련 사례" name="RelatedProjectCnt" />
     <text value="관련 프로젝트 정보" name="RelatedProjects" />
     <text value="관련 프로젝트" name="RelatedProjectsTitle" />
@@ -2872,6 +2887,7 @@
     <text value="통계 요약" name="StatisticalSummary" />
     <text value="통계 연도" name="StatisticalYear" />
     <text value="통계" name="Statistics" />
+    <text value="통계 카테고리" name="StatisticsCategory" />
     <text value="조직 별 사례 수 통계" name="StatisticsnumberofCasesbyOrganization" />
     <text value="조직 별 고객 수 통계" name="StatisticsnumberofcustomersbyOrganization" />
     <text value="부서 직원 통계 출석 랭킹" name="StatisticsOfPersonnelInTheDepartment" />
