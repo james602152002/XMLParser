@@ -3321,6 +3321,7 @@
     <text value="ユニットアドレス帳" name="UnitAddressBook" />
     <text value="（元 / 時間）" name="UnitDollarsPerHour" />
     <text value="組織名" name="UnitName" />
+    <text value="人" name="UnitPerson" />
     <text value="単価" name="UnitPrice" />
     <text value="ユニバーサル" name="Universal" />
     <text value="不明なエラーが発生しました" name="UnknownError" />

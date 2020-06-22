@@ -3321,6 +3321,7 @@
     <text value="单位通讯录" name="UnitAddressBook" />
     <text value="（元 / 小时）" name="UnitDollarsPerHour" />
     <text value="单位名称" name="UnitName" />
+    <text value="人" name="UnitPerson" />
     <text value="单价" name="UnitPrice" />
     <text value="通用" name="Universal" />
     <text value="发生未知错误" name="UnknownError" />

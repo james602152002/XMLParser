@@ -3321,6 +3321,7 @@
     <text value="Unit address book" name="UnitAddressBook" />
     <text value="(dollars / hour)" name="UnitDollarsPerHour" />
     <text value="company name" name="UnitName" />
+    <text value="person" name="UnitPerson" />
     <text value="unit price" name="UnitPrice" />
     <text value="Universal" name="Universal" />
     <text value="An unknown error has occurred" name="UnknownError" />

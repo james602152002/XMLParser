@@ -3321,6 +3321,7 @@
     <text value="장치 주소록" name="UnitAddressBook" />
     <text value="( 원  /  시간 )" name="UnitDollarsPerHour" />
     <text value="조직 이름" name="UnitName" />
+    <text value="사람들" name="UnitPerson" />
     <text value="단가" name="UnitPrice" />
     <text value="유니버설" name="Universal" />
     <text value="알 수없는 오류가 발생했습니다." name="UnknownError" />
