@@ -555,6 +555,7 @@
     <text value="手数料が返還されました。" name="ChargeReturned" />
     <text value="見直す手数料があります。" name="ChargeWaitForApproved" />
     <text value="%m/%d/%Y" name="ChartDateFormat" />
+    <text value="チャートタイプ" name="ChartType" />
     <text value="チャット" name="Chat" />
     <text value="チャット機能" name="ChatFeature" />
     <text value="テナントはチャットを否定しなかった。" name="ChatFeatureIsNotEnabledForReceiver" />
@@ -1572,6 +1573,7 @@
     <text value="ホワイト" name="Light" />
     <text value="事件手数料の限度額" name="LimitOfHandlingExpenses" />
     <text value="事件処理手数料の上限：" name="LimitOfHandlingExpensesTitle" />
+    <text value="折れ線グラフ" name="LineChart" />
     <text name="Link" />
     <text value="既存の連絡先を関連付ける" name="LinkContacts" />
     <text value="リンクされたアカウント" name="LinkedAccounts" />
@@ -2786,6 +2788,7 @@
     <text value="{0}作業ログ[{1}]のログ参加者を設定します。クリックすると、ログ情報をコピーするかどうかをチェックして判断できます" name="SetYouInLogParticipantRemind" />
     <text value="共有する" name="Share" />
     <text value="AiLinkedLawは、プロフェッショナル企業向けのプロフェッショナルでプロフェッショナルなサービスを提供するという理念を遵守し、オープンな協力の重要性を十分に考慮し、多くのテクノロジー企業やデータコンテンツのプロフェッショナル企業と協力してより豊富なアプリケーションシナリオとリソースを法律事務所や弁護士に提供します。" name="ShareContent" />
+    <text value="共有した" name="Shared" />
     <text value="株主" name="Shareholder" />
     <text value="株主情報" name="ShareholderInformation" />
     <text value="会議情報を共有する" name="ShareMeetingInfo" />
@@ -2842,6 +2845,7 @@
     <text value="具体的な方法" name="SpecificMethod" />
     <text value="特定の範囲" name="SpecificRange" />
     <text value="スプレッドシート" name="Spreadsheet" />
+    <text value="積み上げグラフ" name="StackChart" />
     <text value="従業員" name="Staff" />
     <text value="フェーズ" name="Stage" />
     <text value="ケースの段階で複数の選択肢を許可" name="StageIsMultipleSelection" />

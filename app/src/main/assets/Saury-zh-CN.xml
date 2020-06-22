@@ -555,6 +555,7 @@
     <text value="费用已退回." name="ChargeReturned" />
     <text value="有一笔费用待审核." name="ChargeWaitForApproved" />
     <text value="%Y/%m/%d" name="ChartDateFormat" />
+    <text value="图表类型" name="ChartType" />
     <text value="聊天" name="Chat" />
     <text value="聊天" name="ChatFeature" />
     <text value="租户没有启用聊天功能。" name="ChatFeatureIsNotEnabledForReceiver" />
@@ -1572,6 +1573,7 @@
     <text value="白色" name="Light" />
     <text value="办案费限额" name="LimitOfHandlingExpenses" />
     <text value="办案费限额：" name="LimitOfHandlingExpensesTitle" />
+    <text value="折线图" name="LineChart" />
     <text value="链接" name="Link" />
     <text value="关联已有联系人" name="LinkContacts" />
     <text value="关联账户" name="LinkedAccounts" />
@@ -2786,6 +2788,7 @@
     <text value="{0}在工作日志[{1}]中将您设置为了日志参与人，您可点击查看并确定是否复制日志信息" name="SetYouInLogParticipantRemind" />
     <text value="分享" name="Share" />
     <text value="律智荟秉承专业的公司提供专业极致服务的理念，充分考虑到了开放合作的重要性，与众多科技公司、数据内容专业公司合作，为律师事务所及律师提供更丰富的应用场景与资源，全面提升平台的使用价值。" name="ShareContent" />
+    <text value="共享" name="Shared" />
     <text value="股东" name="Shareholder" />
     <text value="股东信息" name="ShareholderInformation" />
     <text value="分享会议信息" name="ShareMeetingInfo" />
@@ -2842,6 +2845,7 @@
     <text value="具体方式" name="SpecificMethod" />
     <text value="具体范围" name="SpecificRange" />
     <text value="电子表格" name="Spreadsheet" />
+    <text value="堆叠图" name="StackChart" />
     <text value="职员" name="Staff" />
     <text value="阶段" name="Stage" />
     <text value="案件阶段允许多选" name="StageIsMultipleSelection" />

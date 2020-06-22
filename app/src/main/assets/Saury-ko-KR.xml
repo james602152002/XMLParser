@@ -555,6 +555,7 @@
     <text value="수수료가 반환되었습니다." name="ChargeReturned" />
     <text value="검토 할 수수료가 있습니다." name="ChargeWaitForApproved" />
     <text value="%m/%d/%Y" name="ChartDateFormat" />
+    <text value="차트 종류" name="ChartType" />
     <text value="채팅" name="Chat" />
     <text value="채팅 기능" name="ChatFeature" />
     <text value="세입자가 채팅을 거부하지 않았습니다." name="ChatFeatureIsNotEnabledForReceiver" />
@@ -1572,6 +1573,7 @@
     <text value="화이트" name="Light" />
     <text value="사례 수수료 한도" name="LimitOfHandlingExpenses" />
     <text value="사례 처리 수수료 한도 :" name="LimitOfHandlingExpensesTitle" />
+    <text value="꺾은 선형 차트" name="LineChart" />
     <text name="Link" />
     <text value="기존 연락처 연결" name="LinkContacts" />
     <text value="연결된 계정" name="LinkedAccounts" />
@@ -2786,6 +2788,7 @@
     <text value="{0} 로그 [{1}]에 로그 참여자로 설정하면 클릭하여 로그 정보를 복사할지 여부를 확인할 수 있습니다" name="SetYouInLogParticipantRemind" />
     <text value="공유" name="Share" />
     <text value="AiLinkedLaw는 전문 회사에 전문적이고 전문적인 서비스를 제공한다는 철학을 준수하며 개방 된 협력의 중요성을 충분히 고려하고 많은 기술 회사 및 데이터 컨텐츠 전문 회사와 협력하여 법률 회사 및 변호사를위한 풍부한 응용 프로그램 시나리오 및 리소스를 제공합니다. " name="ShareContent" />
+    <text value="공유" name="Shared" />
     <text value="주주" name="Shareholder" />
     <text value="주주 정보" name="ShareholderInformation" />
     <text value="회의 정보 공유" name="ShareMeetingInfo" />
@@ -2842,6 +2845,7 @@
     <text value="구체적인 방법" name="SpecificMethod" />
     <text value="특정 범위" name="SpecificRange" />
     <text value="스프레드 시트" name="Spreadsheet" />
+    <text value="누적 그래프" name="StackChart" />
     <text value="직원" name="Staff" />
     <text value="위상" name="Stage" />
     <text value="사례 단계에서 여러 선택 가능" name="StageIsMultipleSelection" />

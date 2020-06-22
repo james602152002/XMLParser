@@ -555,6 +555,7 @@
     <text value="The fee has been returned." name="ChargeReturned" />
     <text value="There is a fee to review." name="ChargeWaitForApproved" />
     <text value="%m/%d/%Y" name="ChartDateFormat" />
+    <text value="Chart type" name="ChartType" />
     <text value="Chat" name="Chat" />
     <text value="Chat" name="ChatFeature" />
     <text value="Chat is not enabled for tenant." name="ChatFeatureIsNotEnabledForReceiver" />
@@ -1572,6 +1573,7 @@
     <text value="white" name="Light" />
     <text value="Limit of case fees" name="LimitOfHandlingExpenses" />
     <text value="Case handling fee limit:" name="LimitOfHandlingExpensesTitle" />
+    <text value="line chart" name="LineChart" />
     <text value="Link" name="Link" />
     <text value="Associate existing contacts" name="LinkContacts" />
     <text value="Linked accounts" name="LinkedAccounts" />
@@ -2786,6 +2788,7 @@
     <text value="{0}Set you as the log participant in the work log [{1}], you can click to check and determine whether to copy the log information" name="SetYouInLogParticipantRemind" />
     <text value="share it" name="Share" />
     <text value="AiLinkedLaw adheres to the philosophy of providing professional and professional services to professional companies. It fully considers the importance of open cooperation and cooperates with many technology companies and data content professional companies to provide richer application scenarios and resources for law firms and lawyers. " name="ShareContent" />
+    <text value="Shared" name="Shared" />
     <text value="shareholder" name="Shareholder" />
     <text value="Shareholder information" name="ShareholderInformation" />
     <text value="Share meeting information" name="ShareMeetingInfo" />
@@ -2842,6 +2845,7 @@
     <text value="Specific Method" name="SpecificMethod" />
     <text value="Specific range" name="SpecificRange" />
     <text value="Spreadsheets" name="Spreadsheet" />
+    <text value="Stacked Chart" name="StackChart" />
     <text value="Employee" name="Staff" />
     <text value="stage" name="Stage" />
     <text value="Multiple choices allowed at the case stage" name="StageIsMultipleSelection" />
