@@ -180,6 +180,7 @@
     <text value="제출" name="App.Business.CaseCreation" />
     <text value="계기" name="App.Business.CaseFile" />
     <text value="스탬프" name="App.Business.StampFiles" />
+    <text value="창고" name="App.Customers.Storage" />
     <text value="챕터 사용" name="App.Executive.OfficeSeal" />
     <text value="빌" name="App.Financial.Billings" />
     <text value="비용" name="App.Financial.Charges" />
@@ -594,6 +595,7 @@
     <text value="죄송합니다.이 단계 목록을 삭제하기 전에이 단계 목록의 작업을 삭제하십시오!" name="ClearTasklistInStage" />
     <text value="이 항목을 삭제하기 전에이 작업 항목의 모든 작업을 지우십시오!" name="ClearTaskProject" />
     <text value="사이트 검색 결과를 보려면 아래 사이트 버튼을 클릭하십시오" name="ClickButtonToViewSearchResults" />
+    <text value="오른쪽 상단에있는 다운로드 버튼을 클릭하십시오" name="ClickDownloadButtonRight" />
     <text value="전화 확인 코드를 보려면 클릭하십시오." name="ClickforVerificationCode" />
     <text value="여기를 클릭하십시오." name="ClickHere" />
     <text value="오른쪽 링크를 클릭하면 운영 전 정보를 볼 수 있습니다." name="ClickOnTheRightLinkToViewTheFrontActionInfo" />
@@ -609,10 +611,13 @@
     <text value="고객 문의" name="ClientContact" />
     <text value="고객 연락처 기본 정보" name="ClientContactBasicInfo" />
     <text value="고객 설명" name="ClientDescription" />
+    <text value="검토를 기다리는 인바운드 고객 {0}을 (를) 검색했습니다." name="ClientHasBeenRetrievedAndIsAwaitingYourReview" />
     <text value="고객의 연락처 정보가 없습니다. 오른쪽 상단 모서리를 클릭하십시오." name="ClientHasNoContact" />
     <text value="고객의 연락처 정보가 없습니다 오른쪽 상단의 더하기 기호를 클릭하여 담당자를 담당자에게 추가하십시오." name="ClientHasNoContactAndClickToAddCaseContacts" />
+    <text value="인바운드 고객 {0}을 (를) 검토하고 리턴하여 충돌을 다시 검색 할 때까지 기다리십시오." name="ClientIsCheckedAndReturnedWaitingForYouToReconflict" />
     <text value="{0}에게 권한 요청" name="ClientIsRequestingYourPermission" />
     <text value="고객이 존재하지 않습니다!" name="ClientNotExist" />
+    <text value="신청 한웨어 하우징 고객 {0}이 (가) 검색 및 반품되었습니다. 애플리케이션 컨텐츠를 수정하고 충돌 검색을 다시 시도하십시오." name="ClientOfYouApplicationIsReturnedPleaseModifyAndResumeConflict" />
     <text value="고객 프로젝트" name="ClientProject" />
     <text value="고객 지역" name="ClientRegion" />
     <text value="현재 고객이 사례에 연결되어 있으며 삭제할 수 없습니다!" name="ClientRelatedCases" />
@@ -620,6 +625,8 @@
     <text value="기업 보고서는 시간에 민감하므로 클릭하여 최신 보고서를 다운로드하십시오." name="ClientReportTip" />
     <text value="고객" name="ClientSide" />
     <text value="고객 통계" name="ClientStatistics" />
+    <text value="인바운드 고객 {0}이 (가) 충돌 검색을 기다리고 있습니다" name="ClientWaitingForYouConflictSearch" />
+    <text value="신청 한웨어 하우징 고객 {0}이 (가)웨어 하우징을 확인했습니다." name="ClientYouAppliedHasBeenCorrected" />
     <text value="휴무일" name="Close" />
     <text value="알림 닫기" name="CloseToRemind" />
     <text value="응용 프로그램 도움말 정보 닫기" name="ClosingApplicationHelpsInformation" />
@@ -647,6 +654,7 @@
     <text value="세부 정보 수집" name="CollectionDetails" />
     <text value="컬렉션 기록" name="CollectionHistory" />
     <text value="열" name="Columns" />
+    <text value="저장 확인" name="ComfirmStorage" />
     <text value="시간 초과 예정입니다." name="ComingOutOfTime" />
     <text value="곧 출시 될 예정입니다." name="ComingSoon" />
     <text value="댓글" name="Comment" />
@@ -826,6 +834,7 @@
     <text value="데이터가 없습니다" name="CurrentNoData" />
     <text value="현재 페이지" name="CurrentPage" />
     <text value="현재 비밀번호" name="CurrentPassword" />
+    <text value="집행위원회의 검토 결과는 이미 존재합니다!" name="CurrentResultsOfTheReviewByTheExecutiveCommitteeAlreadyExist" />
     <text value="현재 단계" name="CurrentStage" />
     <text value="현재 관리 챕터 응용 프로그램에는 이미 처리 결과가 있습니다!" name="CurrentStampIsAlreadyExistsResult" />
     <text value="현재의 행정 도장 신청이 처리되었습니다!" name="CurrentStampIsAlreadyExistsToDealWithResult" />
@@ -846,6 +855,7 @@
     <text value="고객 문서" name="CustomerDocuments" />
     <text value="고객 성장 통계" name="CustomerGrowthStatistics" />
     <text value="고객 관계 운영 지침" name="CustomerGuide" />
+    <text value="현재 고객은 스토리지 레코드를 가지고 있습니다!" name="CustomerHasStorageRecord" />
     <text value="고객 산업" name="CustomerIndustry" />
     <text value="고객 정보" name="CustomerInformation" />
     <text value="고객 정보 테이블" name="CustomerInformationTable" />
@@ -956,6 +966,7 @@
     <text value="문서 검토 세부 정보" name="DetailsOfApplicatingDocument" />
     <text value="카테고리 정보 {0}을 (를) 삭제 하시겠습니까?" name="DetermineToDeleteClassifiedInfo" />
     <text value="장비" name="Device" />
+    <text value="입찰에서 이기지 못했습니다" name="DidNotWinTheBid" />
     <text value="다른 요율" name="DifferentRate" />
     <text value="다른 임차인의 사용자를 시뮬레이트 할 수 없습니다!" name="DifferentTenantImpersonationErrorMessage" />
     <text value="디렉토리" name="Directory" />
@@ -1075,6 +1086,7 @@
     <text value="Null 값" name="EmptyOnes" />
     <text name="Enable" />
     <text value="법률 천사 다운로드 서비스가 아직 활성화되지 않았습니다. 서비스를 열려면 관리자에게 문의하십시오!" name="EnableFaTianShi" />
+    <text value="인바운드 고객 검색 사용" name="EnableInboundCustomerSearch" />
     <text value="LDAP (Lightweight Directory Access Protocol) 인증을 사용합니다." name="EnableLdapAuthentication" />
     <text value="멀티 클라이언트 사용" name="EnableMultiClient" />
     <text name="EnableRecurringPayments" />
@@ -1191,6 +1203,7 @@
     <text value="정식으로 신청할 수있다." name="FilingACase" />
     <text value="리뷰 제출" name="FilingAudit" />
     <text value="신청 신청" name="FilingCase" />
+    <text value="제출 방법" name="FilingMethod" />
     <text value="제출 프로세스 상태" name="FilingProcessStatus" />
     <text value="마감 보고서 작성" name="FillInTheClosingCaseReport" />
     <text value="{0}은 작업 로그에 기입하고 귀하의 승인을 기다렸습니다." name="FillInWorkLogForYourApproval" />
@@ -1333,6 +1346,7 @@
     <text value="도움말을 보려면 클릭하십시오." name="HelpTitle" />
     <text value="고급 필터 숨기기" name="HideAdvancedFilters" />
     <text value="QR 코드 숨기기" name="HideQRCode" />
+    <text value="캐시를 지우면 다운로드 한 파일과 사진이 삭제되므로주의하여 진행하십시오." name="HintClearCache" />
     <text value="(고객 생성 또는 기존 고객 선택)" name="HintCreateOrSelectClient" />
     <text value="친절한 팁" name="Hints" />
     <text name="History" />
@@ -1351,6 +1365,7 @@
     <text value="시간 (H)" name="HourUnit" />
     <text value="주택 융자" name="HousingLoans" />
     <text value="인적 자원 운영 가이드" name="HumanGuide" />
+    <text value="ID 카드 / 균일 사회 신용 코드" name="IDCardOrUSCC" />
     <text value="기본 키 번호와 관련된 정보를 일치시킬 수 없습니다!" name="IdHasNotBeenFound" />
     <text name="Image" />
     <text value="이미지 최소 픽셀 : {0}, 배율 : {1}" name="ImgSizeScaleLimitation" />
@@ -1363,10 +1378,13 @@
     <text value="이익 정보를 가져 오는 과정은 이미 시작되었습니다." name="ImportClientRelationProcessStart" />
     <text value="이익 정보를 가져 오는 프로세스가 실패했습니다." name="ImportClientRelationUploadFailed" />
     <text value="Excel에서 가져 오기" name="ImportFromExcel" />
+    <text value="템플릿에 따라 유효한 데이터를 가져 오십시오!" name="ImportTemplateDataWarning" />
     <text value="{0} 가져 오기 템플리트 파일을 다운로드하십시오." name="ImportToExcelTemplateFileDownloadInfo" />
     <text value="사용자 가져 오기 프로세스가 시작되었습니다." name="ImportUsersProcessStart" />
     <text value="사용자 가져 오기 프로세스가 실패했습니다." name="ImportUsersUploadFailed" />
     <text value="사례 신고 정보 개선" name="ImproveCaseFilingInformation" />
+    <text value="스토리지 정보 개선" name="ImproveStorageInformation" />
+    <text value="인바운드 고객" name="InboundCustomers" />
     <text value="수집 상자" name="Inbox" />
     <text value="포함 날짜" name="Inclusiondate" />
     <text value="포함 이유" name="Inclusionreason" />
@@ -1397,6 +1415,7 @@
     <text value="이 간격의 휴일 일 수" name="IntervalHolidayDays" />
     <text value="면접 정보" name="IntervieweeInformation" />
     <text value="인트라넷 정보 검색" name="Intranetsearch" />
+    <text value="소개" name="Introduction" />
     <text value="무효" name="Invalid" />
     <text value="인증 코드가 일치하지 않습니다. 다시 입력하십시오." name="InvalidCodeNotMatch" />
     <text value="인증 코드가 유효하지 않으면 재 취득하십시오." name="InvalidCodeReacquire" />
@@ -1570,6 +1589,7 @@
     <text value="문자 객체" name="LetterObject" />
     <text value="%s  비트 전송 오브젝트가 있습니다" name="LetterObjectCnt" />
     <text value="개인 정보 보호 수준" name="LevelOfConfidentiality" />
+    <text value="리총" name="LiChong" />
     <text value="화이트" name="Light" />
     <text value="사례 수수료 한도" name="LimitOfHandlingExpenses" />
     <text value="사례 처리 수수료 한도 :" name="LimitOfHandlingExpensesTitle" />
@@ -2034,6 +2054,11 @@
     <text value="법인 탐색" name="Pages.CommonTools.Navigation" />
     <text value="풀 타임 웹 컨퍼런스" name="Pages.CommonTools.QuanShi" />
     <text value="고객 관계" name="Pages.Customers" />
+    <text value="고객 저장" name="Pages.Customers.CustomerStorage" />
+    <text value="창고 선언" name="Pages.Customers.CustomerStorage.Apply" />
+    <text value="창고 감사" name="Pages.Customers.CustomerStorage.Audit" />
+    <text value="스토리지 관리" name="Pages.Customers.CustomerStorage.Manage" />
+    <text value="내 저장 공간" name="Pages.Customers.CustomerStorage.MyStorage" />
     <text value="고객 관리" name="Pages.Customers.Manage" />
     <text value="고객 관리" name="Pages.Customers.MyCustomers" />
     <text value="고객 주소록" name="Pages.Customers.MyCustomers.Contacts" />
@@ -2199,6 +2224,7 @@
     <text value="처벌 내용" name="Penaltycontent" />
     <text value="페널티" name="PenaltyItem" />
     <text value="대기중인 소유권 주장" name="PendingClaim" />
+    <text value="집행위원회에서 검토" name="PendingExecutiveCommitteeReview" />
     <text value="대기중인 재무 검토" name="PendingFinancialReview" />
     <text value="파트너가 검토" name="PendingPartnerReview" />
     <text value="검토 대기 중" name="PendingReview" />
@@ -2207,6 +2233,7 @@
     <text value="{0} 관련된 사람들" name="PepoleParticipants" />
     <text value="신청자" name="PepoleWhoUse" />
     <text value="백분율" name="Percentage" />
+    <text value="완벽한 보관" name="PerfectStorage" />
     <text value="실적" name="Performance" />
     <text value="날짜" name="Period" />
     <text value="권한" name="Permission" />
@@ -2896,11 +2923,16 @@
     <text value="조직 별 고객 수 통계" name="StatisticsnumberofcustomersbyOrganization" />
     <text value="부서 직원 통계 출석 랭킹" name="StatisticsOfPersonnelInTheDepartment" />
     <text name="Status" />
+    <text value="원판" name="Stencil" />
     <text value="중지" name="Stop" />
     <text value="오류가 발생하면 중지하십시오." name="StopWhenAMistakeIsMade" />
     <text value="단어 중지" name="StopWords" />
+    <text value="저장 파일" name="StorageFile" />
+    <text value="저장 정보" name="StorageInformation" />
     <text value="저장 위치" name="StorageLocation" />
     <text value="저장 위치는 비워 둘 수 없습니다!" name="StorageLocationCannotBeEmpty" />
+    <text value="저장 재료" name="StorageMaterials" />
+    <text value="보관 기간" name="StoragePeriod" />
     <text value="{0} 필드는 최소 길이는 {1}이고 최대 길이는 {2}이어야합니다." name="StringLengthDoesntMatch" />
     <text value="조직도" name="StructureTree" />
     <text value="사례 비즈니스 하위 클래스" name="SubclassOfCaseBusiness" />
@@ -3459,6 +3491,8 @@
     <text value="긍정적 인 방향으로 나아 가기 위해서" name="WaitingTransfer" />
     <text value="확인하려면" name="WaitngForConfirmed" />
     <text value="만" name="Wan" />
+    <text value="창고 직원" name="WarehousingPersonnel" />
+    <text value="창고 결과" name="WarehousingResults" />
     <text name="Warning" />
     <text value="회의 후 보고서보기" name="WatchThePostConferenceReport" />
     <text value="통신 방법" name="WayToCommunicate" />
@@ -3507,6 +3541,7 @@
     <text value="녹화 시작 여부" name="WhetherToStartRecording" />
     <text value="풀 타임 웹 회의 사용 여부" name="WhetherUsingWebConferencing" />
     <text value="선택한 일정 상태를 변경 하시겠습니까?" name="WillChangesSelectedOnScheduledState" />
+    <text value="승리" name="Winning" />
     <text value="조건없이" name="WithoutAnyCondition" />
     <text value="같은 이름을 가진 폴더가 이미 현재 디렉토리에 있습니다." name="WithTheSameNameAlreadyExistsUnderTheCurrentDirectory" />
     <text value="제기 - 보류중인 충돌 검색" name="WN.Business.CaseCheck.Created" />

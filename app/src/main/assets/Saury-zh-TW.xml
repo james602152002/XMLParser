@@ -180,6 +180,7 @@
     <text value="立案" name="App.Business.CaseCreation" />
     <text value="文書" name="App.Business.CaseFile" />
     <text value="蓋章" name="App.Business.StampFiles" />
+    <text value="入庫" name="App.Customers.Storage" />
     <text value="用章" name="App.Executive.OfficeSeal" />
     <text value="賬單" name="App.Financial.Billings" />
     <text value="費用" name="App.Financial.Charges" />
@@ -594,6 +595,7 @@
     <text value="對不起，請先清空此階段列表上的任務，然後再刪除這個階段列表！" name="ClearTasklistInStage" />
     <text value="對不起，請先清空此任務項目上的所有任務，然後再刪除這個項目！" name="ClearTaskProject" />
     <text value="點擊下方的站點按鈕，前往查看該站點檢索結果" name="ClickButtonToViewSearchResults" />
+    <text value="點擊右上方下載按鈕" name="ClickDownloadButtonRight" />
     <text value="點擊獲取手機驗證碼" name="ClickforVerificationCode" />
     <text value="點擊這裡" name="ClickHere" />
     <text value="點擊右側鏈接可查看前置操作信息" name="ClickOnTheRightLinkToViewTheFrontActionInfo" />
@@ -609,10 +611,13 @@
     <text value="客戶聯繫人聯繫方式" name="ClientContact" />
     <text value="客戶聯繫人基本信息" name="ClientContactBasicInfo" />
     <text value="客戶描述" name="ClientDescription" />
+    <text value="入庫客戶{0}已檢索完成，等待您進行審核" name="ClientHasBeenRetrievedAndIsAwaitingYourReview" />
     <text value="客戶尚無聯繫人信息，點擊右上角" name="ClientHasNoContact" />
     <text value="客戶尚無聯繫人信息，點擊右上角 加 號 添加本案關聯聯繫人" name="ClientHasNoContactAndClickToAddCaseContacts" />
+    <text value="入庫客戶{0}被審核退回，等待您重新進行沖突檢索。" name="ClientIsCheckedAndReturnedWaitingForYouToReconflict" />
     <text value="{0}正在請求您的許可" name="ClientIsRequestingYourPermission" />
     <text value="客戶不存在！" name="ClientNotExist" />
+    <text value="您申請的入庫客戶{0}被檢索退回，請修改申請內容後重新進行沖突檢索" name="ClientOfYouApplicationIsReturnedPleaseModifyAndResumeConflict" />
     <text value="客戶項目" name="ClientProject" />
     <text value="客戶地區" name="ClientRegion" />
     <text value="當前客戶已關聯案件，無法刪除！" name="ClientRelatedCases" />
@@ -620,6 +625,8 @@
     <text value="企業報告具有時效性,點擊下載最新可下載最新報告" name="ClientReportTip" />
     <text value="客戶端" name="ClientSide" />
     <text value="客戶統計" name="ClientStatistics" />
+    <text value="入庫客戶{0}等待您進行沖突檢索" name="ClientWaitingForYouConflictSearch" />
+    <text value="您申請的入庫客戶{0}已確認入庫。" name="ClientYouAppliedHasBeenCorrected" />
     <text value="關閉" name="Close" />
     <text value="關閉提醒" name="CloseToRemind" />
     <text value="結案申請幫助信息" name="ClosingApplicationHelpsInformation" />
@@ -647,6 +654,7 @@
     <text value="收款詳情" name="CollectionDetails" />
     <text value="收款歷史" name="CollectionHistory" />
     <text value="列" name="Columns" />
+    <text value="確認入庫" name="ComfirmStorage" />
     <text value="即將超時" name="ComingOutOfTime" />
     <text value="即將上線，敬請期待" name="ComingSoon" />
     <text value="評論" name="Comment" />
@@ -826,6 +834,7 @@
     <text value="暫無數據" name="CurrentNoData" />
     <text value="當前頁" name="CurrentPage" />
     <text value="當前密碼" name="CurrentPassword" />
+    <text value="當前執委審核已存在處理結果!" name="CurrentResultsOfTheReviewByTheExecutiveCommitteeAlreadyExist" />
     <text value="當前階段" name="CurrentStage" />
     <text value="當前行政用章申請已存在處理結果！" name="CurrentStampIsAlreadyExistsResult" />
     <text value="當前行政蓋章申請已存在處理結果！" name="CurrentStampIsAlreadyExistsToDealWithResult" />
@@ -846,6 +855,7 @@
     <text value="客戶文檔" name="CustomerDocuments" />
     <text value="客戶增長統計" name="CustomerGrowthStatistics" />
     <text value="客戶關係操作指引" name="CustomerGuide" />
+    <text value="當前客戶已存在入庫記錄！" name="CustomerHasStorageRecord" />
     <text value="客戶行業" name="CustomerIndustry" />
     <text value="客戶信息" name="CustomerInformation" />
     <text value="客戶信息表" name="CustomerInformationTable" />
@@ -956,6 +966,7 @@
     <text value="文書報審詳細信息" name="DetailsOfApplicatingDocument" />
     <text value="確定要刪除分類信息 {0}?" name="DetermineToDeleteClassifiedInfo" />
     <text value="設備" name="Device" />
+    <text value="未中標" name="DidNotWinTheBid" />
     <text value="不同費率" name="DifferentRate" />
     <text value="無法模擬不同租戶的用戶！" name="DifferentTenantImpersonationErrorMessage" />
     <text value="目錄" name="Directory" />
@@ -1075,6 +1086,7 @@
     <text value="空值" name="EmptyOnes" />
     <text name="Enable" />
     <text value="法天使下載服務暫未啟用，請聯繫管理員開啟該服務!" name="EnableFaTianShi" />
+    <text value="啟用入庫客戶檢索" name="EnableInboundCustomerSearch" />
     <text value="啟用輕量目錄訪問協議(LDAP)認證." name="EnableLdapAuthentication" />
     <text value="啟用多客戶" name="EnableMultiClient" />
     <text name="EnableRecurringPayments" />
@@ -1191,6 +1203,7 @@
     <text value="可以正式立案" name="FilingACase" />
     <text value="立案審核" name="FilingAudit" />
     <text value="申請立案" name="FilingCase" />
+    <text value="立案方式" name="FilingMethod" />
     <text value="立案流程狀態" name="FilingProcessStatus" />
     <text value="填寫結案報告" name="FillInTheClosingCaseReport" />
     <text value="{0}填寫了一條工作日誌，等待您的審批" name="FillInWorkLogForYourApproval" />
@@ -1333,6 +1346,7 @@
     <text value="點擊查看幫助文檔" name="HelpTitle" />
     <text value="隱藏高級過濾" name="HideAdvancedFilters" />
     <text value="隱藏二維碼" name="HideQRCode" />
+    <text value="清除緩存後，您下載的文件和圖片將刪除，請謹慎操作。" name="HintClearCache" />
     <text value="( 創建客戶或選擇已有客戶 )" name="HintCreateOrSelectClient" />
     <text value="友情提示" name="Hints" />
     <text name="History" />
@@ -1351,6 +1365,7 @@
     <text value="小時（H）" name="HourUnit" />
     <text value="房屋貸款" name="HousingLoans" />
     <text value="人力資源操作指引" name="HumanGuide" />
+    <text value="身份證/統一社會信用代碼" name="IDCardOrUSCC" />
     <text value="無法匹配與主鍵編號相關的信息！" name="IdHasNotBeenFound" />
     <text name="Image" />
     <text value="圖片最小像素：{0}，比例：{1}" name="ImgSizeScaleLimitation" />
@@ -1363,10 +1378,13 @@
     <text value="利衝信息導入過程已經開始。" name="ImportClientRelationProcessStart" />
     <text value="利衝信息導入過程失敗。" name="ImportClientRelationUploadFailed" />
     <text value="從Excel導入" name="ImportFromExcel" />
+    <text value="請按照模版導入有效數據!" name="ImportTemplateDataWarning" />
     <text value="{0}下載導入模板文件。" name="ImportToExcelTemplateFileDownloadInfo" />
     <text value="用戶導入過程已經開始。" name="ImportUsersProcessStart" />
     <text value="用戶導入過程失敗。" name="ImportUsersUploadFailed" />
     <text value="完善立案信息" name="ImproveCaseFilingInformation" />
+    <text value="完善入庫信息" name="ImproveStorageInformation" />
+    <text value="入庫客戶" name="InboundCustomers" />
     <text value="收集箱" name="Inbox" />
     <text value="列入日期" name="Inclusiondate" />
     <text value="列入原因" name="Inclusionreason" />
@@ -1397,6 +1415,7 @@
     <text value="此區間節假日天數" name="IntervalHolidayDays" />
     <text value="受訪人信息" name="IntervieweeInformation" />
     <text value="內網信息搜索" name="Intranetsearch" />
+    <text value="入庫簡介" name="Introduction" />
     <text value="作廢" name="Invalid" />
     <text value="驗證碼不匹配請重新輸入" name="InvalidCodeNotMatch" />
     <text value="驗證碼失效請重新獲取" name="InvalidCodeReacquire" />
@@ -1570,6 +1589,7 @@
     <text value="發函對象" name="LetterObject" />
     <text value="您有 %s 位發函對象" name="LetterObjectCnt" />
     <text value="保密級別" name="LevelOfConfidentiality" />
+    <text value="利衝" name="LiChong" />
     <text value="白色" name="Light" />
     <text value="辦案費限額" name="LimitOfHandlingExpenses" />
     <text value="辦案費限額：" name="LimitOfHandlingExpensesTitle" />
@@ -2034,6 +2054,11 @@
     <text value="法律人導航" name="Pages.CommonTools.Navigation" />
     <text value="全時網絡會議" name="Pages.CommonTools.QuanShi" />
     <text value="客戶關係" name="Pages.Customers" />
+    <text value="客戶入庫" name="Pages.Customers.CustomerStorage" />
+    <text value="入庫申報" name="Pages.Customers.CustomerStorage.Apply" />
+    <text value="入庫審核" name="Pages.Customers.CustomerStorage.Audit" />
+    <text value="入庫管理" name="Pages.Customers.CustomerStorage.Manage" />
+    <text value="我的入庫" name="Pages.Customers.CustomerStorage.MyStorage" />
     <text value="客戶管理" name="Pages.Customers.Manage" />
     <text value="客戶管理" name="Pages.Customers.MyCustomers" />
     <text value="客戶通訊錄" name="Pages.Customers.MyCustomers.Contacts" />
@@ -2199,6 +2224,7 @@
     <text value="處罰內容" name="Penaltycontent" />
     <text value="處罰項" name="PenaltyItem" />
     <text value="待認領" name="PendingClaim" />
+    <text value="待執委審核" name="PendingExecutiveCommitteeReview" />
     <text value="待財務重新審核" name="PendingFinancialReview" />
     <text value="待合夥人審核" name="PendingPartnerReview" />
     <text value="待結案審核" name="PendingReview" />
@@ -2207,6 +2233,7 @@
     <text value="{0}人參與" name="PepoleParticipants" />
     <text value="領用人" name="PepoleWhoUse" />
     <text value="百分比" name="Percentage" />
+    <text value="完善入庫" name="PerfectStorage" />
     <text value="履行情況" name="Performance" />
     <text value="日期" name="Period" />
     <text value="權限" name="Permission" />
@@ -2896,11 +2923,16 @@
     <text value="按組織機構統計客戶數量" name="StatisticsnumberofcustomersbyOrganization" />
     <text value="所屬部門人員考勤排名統計" name="StatisticsOfPersonnelInTheDepartment" />
     <text name="Status" />
+    <text value="模版" name="Stencil" />
     <text value="停止" name="Stop" />
     <text value="發生錯誤時停止" name="StopWhenAMistakeIsMade" />
     <text value="停用詞" name="StopWords" />
+    <text value="入庫文件" name="StorageFile" />
+    <text value="入庫信息" name="StorageInformation" />
     <text value="存放位置" name="StorageLocation" />
     <text value="存放位置不能為空!" name="StorageLocationCannotBeEmpty" />
+    <text value="入庫材料" name="StorageMaterials" />
+    <text value="入庫期限" name="StoragePeriod" />
     <text value="{0}的最小長度必須為{1}，最大長度必須為{2}。" name="StringLengthDoesntMatch" />
     <text value="組織機構樹" name="StructureTree" />
     <text value="案件業務子類" name="SubclassOfCaseBusiness" />
@@ -3459,6 +3491,8 @@
     <text value="待轉正" name="WaitingTransfer" />
     <text value="待確認" name="WaitngForConfirmed" />
     <text value="萬" name="Wan" />
+    <text value="入庫人員" name="WarehousingPersonnel" />
+    <text value="入庫結果" name="WarehousingResults" />
     <text name="Warning" />
     <text value="觀看會後報告" name="WatchThePostConferenceReport" />
     <text value="溝通方式" name="WayToCommunicate" />
@@ -3507,6 +3541,7 @@
     <text value="是否開啟錄音" name="WhetherToStartRecording" />
     <text value="是否使用全時網絡會議" name="WhetherUsingWebConferencing" />
     <text value="是否確定變更選中的日程狀態？" name="WillChangesSelectedOnScheduledState" />
+    <text value="中標" name="Winning" />
     <text value="無任何條件" name="WithoutAnyCondition" />
     <text value="當前目錄下已存在同名的文件夾" name="WithTheSameNameAlreadyExistsUnderTheCurrentDirectory" />
     <text value="立案-待衝突檢索" name="WN.Business.CaseCheck.Created" />

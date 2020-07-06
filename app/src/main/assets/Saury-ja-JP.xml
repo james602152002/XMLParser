@@ -180,6 +180,7 @@
     <text value="ファイリング" name="App.Business.CaseCreation" />
     <text value="楽器" name="App.Business.CaseFile" />
     <text value="切手" name="App.Business.StampFiles" />
+    <text value="倉庫" name="App.Customers.Storage" />
     <text value="使用章" name="App.Executive.OfficeSeal" />
     <text value="ビル" name="App.Financial.Billings" />
     <text value="費用" name="App.Financial.Charges" />
@@ -594,6 +595,7 @@
     <text value="申し訳ありませんが、このステージリストを削除する前に、このステージリストのタスクをクリアしてください！" name="ClearTasklistInStage" />
     <text value="このアイテムを削除する前に、このタスクアイテムのすべてのタスクをクリアしてください！" name="ClearTaskProject" />
     <text value="下のサイトボタンをクリックして、サイトの検索結果を表示します" name="ClickButtonToViewSearchResults" />
+    <text value="右上のダウンロードボタンをクリックします" name="ClickDownloadButtonRight" />
     <text value="クリックして電話番号の確認コードを取得する" name="ClickforVerificationCode" />
     <text value="ここをクリック" name="ClickHere" />
     <text value="右側のリンクをクリックすると、操作前の情報が表示されます。" name="ClickOnTheRightLinkToViewTheFrontActionInfo" />
@@ -609,10 +611,13 @@
     <text value="顧客連絡先" name="ClientContact" />
     <text value="顧客連絡先の基本情報" name="ClientContactBasicInfo" />
     <text value="顧客の説明" name="ClientDescription" />
+    <text value="インバウンド顧客{0}が取得され、レビューを待っています" name="ClientHasBeenRetrievedAndIsAwaitingYourReview" />
     <text value="顧客の連絡先情報はありません。右上のをクリックしてください" name="ClientHasNoContact" />
     <text value="この場合、担当者を追加するには、右上のプラス記号をクリックします。" name="ClientHasNoContactAndClickToAddCaseContacts" />
+    <text value="インバウンド顧客{0}は確認されて返送され、競合を再度取得するのを待っています。" name="ClientIsCheckedAndReturnedWaitingForYouToReconflict" />
     <text value="{0}許可をリクエストしています" name="ClientIsRequestingYourPermission" />
     <text value="顧客は存在しません！" name="ClientNotExist" />
+    <text value="あなたが申請した倉庫保管顧客{0}は取得されて返されました。アプリケーションの内容を変更して、競合検索を再試行してください" name="ClientOfYouApplicationIsReturnedPleaseModifyAndResumeConflict" />
     <text value="顧客プロジェクト" name="ClientProject" />
     <text value="顧客エリア" name="ClientRegion" />
     <text value="現在の顧客はケースに接続されており、削除できません！" name="ClientRelatedCases" />
@@ -620,6 +625,8 @@
     <text value="エンタープライズレポートは時間に敏感です。最新のレポートをダウンロードするには最新をクリックしてダウンロードしてください。" name="ClientReportTip" />
     <text value="クライアント" name="ClientSide" />
     <text value="顧客統計" name="ClientStatistics" />
+    <text value="インバウンド顧客{0}が競合検索を待っています" name="ClientWaitingForYouConflictSearch" />
+    <text value="申し込んだ倉庫​​保管顧客{0}が倉庫保管を確認しました。" name="ClientYouAppliedHasBeenCorrected" />
     <text value="クローズド" name="Close" />
     <text value="リマインダを閉じる" name="CloseToRemind" />
     <text value="アプリケーションヘルプ情報を閉じる" name="ClosingApplicationHelpsInformation" />
@@ -647,6 +654,7 @@
     <text value="コレクションの詳細" name="CollectionDetails" />
     <text value="コレクションの履歴" name="CollectionHistory" />
     <text value="列" name="Columns" />
+    <text value="ストレージを確認" name="ComfirmStorage" />
     <text value="タイムアウトしようとしています" name="ComingOutOfTime" />
     <text value="もうすぐ、お楽しみに" name="ComingSoon" />
     <text value="コメント" name="Comment" />
@@ -826,6 +834,7 @@
     <text value="データなし" name="CurrentNoData" />
     <text value="現在のページ" name="CurrentPage" />
     <text value="現在のパスワード" name="CurrentPassword" />
+    <text value="実行委員会によるレビューの現在の結果はすでに存在しています！" name="CurrentResultsOfTheReviewByTheExecutiveCommitteeAlreadyExist" />
     <text value="現在の段階" name="CurrentStage" />
     <text value="現在の管理チャプターアプリケーションにはすでに処理結果があります！" name="CurrentStampIsAlreadyExistsResult" />
     <text value="現在の行政印鑑申請が処理されました！" name="CurrentStampIsAlreadyExistsToDealWithResult" />
@@ -846,6 +855,7 @@
     <text value="顧客ドキュメント" name="CustomerDocuments" />
     <text value="顧客成長統計" name="CustomerGrowthStatistics" />
     <text value="カスタマーリレーションシップ運営ガイドライン" name="CustomerGuide" />
+    <text value="現在の顧客には保管記録があります！" name="CustomerHasStorageRecord" />
     <text value="顧客業界" name="CustomerIndustry" />
     <text value="顧客情報" name="CustomerInformation" />
     <text value="顧客情報テーブル" name="CustomerInformationTable" />
@@ -956,6 +966,7 @@
     <text value="ドキュメントレビューの詳細" name="DetailsOfApplicatingDocument" />
     <text value="カテゴリ情報{0}を削除してもよろしいですか？" name="DetermineToDeleteClassifiedInfo" />
     <text value="装備品" name="Device" />
+    <text value="落札できなかった" name="DidNotWinTheBid" />
     <text value="異なる料金" name="DifferentRate" />
     <text value="異なるテナントのユーザーをシミュレートすることはできません！" name="DifferentTenantImpersonationErrorMessage" />
     <text value="ディレクトリ" name="Directory" />
@@ -1075,6 +1086,7 @@
     <text value="ヌル値" name="EmptyOnes" />
     <text name="Enable" />
     <text value="ローエンジェルダウンロードサービスはまだ有効化されていません。管理者に連絡してサービスを開始してください。" name="EnableFaTianShi" />
+    <text value="インバウンド顧客検索を有効にする" name="EnableInboundCustomerSearch" />
     <text value="ライトウェイトディレクトリアクセスプロトコル（LDAP）認証を有効にします。" name="EnableLdapAuthentication" />
     <text value="マルチクライアントを有効にする" name="EnableMultiClient" />
     <text name="EnableRecurringPayments" />
@@ -1191,6 +1203,7 @@
     <text value="正式に提出できる" name="FilingACase" />
     <text value="レビューを提出する" name="FilingAudit" />
     <text value="申請を申請する" name="FilingCase" />
+    <text value="ファイリング方法" name="FilingMethod" />
     <text value="ファイリング処理ステータス" name="FilingProcessStatus" />
     <text value="終了報告書を記入してください" name="FillInTheClosingCaseReport" />
     <text value="{0}は作業ログに記入し、あなたの承認を待っていました" name="FillInWorkLogForYourApproval" />
@@ -1333,6 +1346,7 @@
     <text value="クリックしてヘルプドキュメントを参照してください。" name="HelpTitle" />
     <text value="高度なフィルタを非表示にする" name="HideAdvancedFilters" />
     <text value="QRコードを隠す" name="HideQRCode" />
+    <text value="キャッシュをクリアすると、ダウンロードしたファイルや画像は削除されますので、ご注意ください。" name="HintClearCache" />
     <text value="（顧客を作成するか既存の顧客を選択する）" name="HintCreateOrSelectClient" />
     <text value="フレンドリーなヒント" name="Hints" />
     <text name="History" />
@@ -1351,6 +1365,7 @@
     <text value="時間（H）" name="HourUnit" />
     <text value="住宅ローン" name="HousingLoans" />
     <text value="人事運用ガイド" name="HumanGuide" />
+    <text value="IDカード/統一社会信用コード" name="IDCardOrUSCC" />
     <text value="主キー番号に関連する情報を照合できません！" name="IdHasNotBeenFound" />
     <text name="Image" />
     <text value="画像の最小ピクセル：{0}、スケール：{1}" name="ImgSizeScaleLimitation" />
@@ -1363,10 +1378,13 @@
     <text value="利益情報のインポートはすでに始まっています。" name="ImportClientRelationProcessStart" />
     <text value="利益情報のインポートに失敗しました。" name="ImportClientRelationUploadFailed" />
     <text value="Excelからインポート" name="ImportFromExcel" />
+    <text value="テンプレートに従って有効なデータをインポートしてください！" name="ImportTemplateDataWarning" />
     <text value="{0}インポートテンプレートファイルをダウンロードします。" name="ImportToExcelTemplateFileDownloadInfo" />
     <text value="ユーザーのインポートプロセスが開始されました。" name="ImportUsersProcessStart" />
     <text value="ユーザーのインポートプロセスが失敗しました。" name="ImportUsersUploadFailed" />
     <text value="ケースファイリング情報を改善する" name="ImproveCaseFilingInformation" />
+    <text value="ストレージ情報を改善する" name="ImproveStorageInformation" />
+    <text value="インバウンド顧客" name="InboundCustomers" />
     <text value="コレクションボックス" name="Inbox" />
     <text value="包含日" name="Inclusiondate" />
     <text value="包含理由" name="Inclusionreason" />
@@ -1397,6 +1415,7 @@
     <text value="この間隔での休日の日数" name="IntervalHolidayDays" />
     <text value="面接者の情報" name="IntervieweeInformation" />
     <text value="イントラネット情報検索" name="Intranetsearch" />
+    <text value="前書き" name="Introduction" />
     <text value="無効です" name="Invalid" />
     <text value="確認コードが一致しないため、再入力してください" name="InvalidCodeNotMatch" />
     <text value="確認コードが無効な場合は、再取得してください" name="InvalidCodeReacquire" />
@@ -1570,6 +1589,7 @@
     <text value="レターオブジェクト" name="LetterObject" />
     <text value="%s ビット送信オブジェクトがあります" name="LetterObjectCnt" />
     <text value="プライバシーレベル" name="LevelOfConfidentiality" />
+    <text value="リチョン" name="LiChong" />
     <text value="ホワイト" name="Light" />
     <text value="事件手数料の限度額" name="LimitOfHandlingExpenses" />
     <text value="事件処理手数料の上限：" name="LimitOfHandlingExpensesTitle" />
@@ -2034,6 +2054,11 @@
     <text value="法人ナビゲーション" name="Pages.CommonTools.Navigation" />
     <text value="フルタイムのWeb会議" name="Pages.CommonTools.QuanShi" />
     <text value="顧客関係" name="Pages.Customers" />
+    <text value="カスタマーストレージ" name="Pages.Customers.CustomerStorage" />
+    <text value="倉庫申告" name="Pages.Customers.CustomerStorage.Apply" />
+    <text value="倉庫監査" name="Pages.Customers.CustomerStorage.Audit" />
+    <text value="ストレージ管理" name="Pages.Customers.CustomerStorage.Manage" />
+    <text value="私のストレージ" name="Pages.Customers.CustomerStorage.MyStorage" />
     <text value="顧客管理" name="Pages.Customers.Manage" />
     <text value="顧客管理" name="Pages.Customers.MyCustomers" />
     <text value="顧客アドレス帳" name="Pages.Customers.MyCustomers.Contacts" />
@@ -2199,6 +2224,7 @@
     <text value="罰則の内容" name="Penaltycontent" />
     <text value="ペナルティ" name="PenaltyItem" />
     <text value="保留中の申し立て" name="PendingClaim" />
+    <text value="実行委員会によるレビュー" name="PendingExecutiveCommitteeReview" />
     <text value="保留中の財務レビュー" name="PendingFinancialReview" />
     <text value="パートナーによってレビューされる" name="PendingPartnerReview" />
     <text value="レビュー待ち" name="PendingReview" />
@@ -2207,6 +2233,7 @@
     <text value="{0}関係者" name="PepoleParticipants" />
     <text value="応募者" name="PepoleWhoUse" />
     <text value="パーセンテージ" name="Percentage" />
+    <text value="完璧な収納" name="PerfectStorage" />
     <text value="パフォーマンス" name="Performance" />
     <text value="日付" name="Period" />
     <text value="当局" name="Permission" />
@@ -2896,11 +2923,16 @@
     <text value="組織別の顧客数に関する統計" name="StatisticsnumberofcustomersbyOrganization" />
     <text value="部門内の人員の出席順位統計" name="StatisticsOfPersonnelInTheDepartment" />
     <text name="Status" />
+    <text value="ステンシル" name="Stencil" />
     <text value="やめる" name="Stop" />
     <text value="エラー発生時に停止する" name="StopWhenAMistakeIsMade" />
     <text value="ストップワード" name="StopWords" />
+    <text value="保存ファイル" name="StorageFile" />
+    <text value="ストレージ情報" name="StorageInformation" />
     <text value="保管場所" name="StorageLocation" />
     <text value="保管場所を空にすることはできません！" name="StorageLocationCannotBeEmpty" />
+    <text value="保存資材" name="StorageMaterials" />
+    <text value="保管期間" name="StoragePeriod" />
     <text value="フィールド{0}の最小長は{1}、最大長は{2}でなければなりません。" name="StringLengthDoesntMatch" />
     <text value="組織ツリー" name="StructureTree" />
     <text value="ケースビジネスサブクラス" name="SubclassOfCaseBusiness" />
@@ -3459,6 +3491,8 @@
     <text value="ポジティブになるには" name="WaitingTransfer" />
     <text value="確認する" name="WaitngForConfirmed" />
     <text value="万" name="Wan" />
+    <text value="倉庫要員" name="WarehousingPersonnel" />
+    <text value="倉庫保管の結果" name="WarehousingResults" />
     <text name="Warning" />
     <text value="会議後のレポートを見る" name="WatchThePostConferenceReport" />
     <text value="通信方式" name="WayToCommunicate" />
@@ -3507,6 +3541,7 @@
     <text value="録音を開始するかどうか" name="WhetherToStartRecording" />
     <text value="フルタイムのWeb会議を使用するかどうか" name="WhetherUsingWebConferencing" />
     <text value="選択したスケジュールのステータスを変更してもよろしいですか？" name="WillChangesSelectedOnScheduledState" />
+    <text value="勝つ" name="Winning" />
     <text value="条件なし" name="WithoutAnyCondition" />
     <text value="同じ名前のフォルダがカレントディレクトリに既に存在します" name="WithTheSameNameAlreadyExistsUnderTheCurrentDirectory" />
     <text value="提起中の競合検索" name="WN.Business.CaseCheck.Created" />

@@ -180,6 +180,7 @@
     <text value="Filing" name="App.Business.CaseCreation" />
     <text value="Instrument" name="App.Business.CaseFile" />
     <text value="Stamp" name="App.Business.StampFiles" />
+    <text value="Warehousing" name="App.Customers.Storage" />
     <text value="Use chapter" name="App.Executive.OfficeSeal" />
     <text value="Bill" name="App.Financial.Billings" />
     <text value="Cost" name="App.Financial.Charges" />
@@ -594,6 +595,7 @@
     <text value="Sorry, please clear the tasks on this stage list before deleting this stage list!" name="ClearTasklistInStage" />
     <text value="Delect project before you should deleted all the tasks. " name="ClearTaskProject" />
     <text value="Click the site button below to go to view the site search results" name="ClickButtonToViewSearchResults" />
+    <text value="Click the download button at the top right" name="ClickDownloadButtonRight" />
     <text value="Click for phone verification code" name="ClickforVerificationCode" />
     <text value="click here" name="ClickHere" />
     <text value="Click on the link on the right to view the pre-operation information" name="ClickOnTheRightLinkToViewTheFrontActionInfo" />
@@ -609,10 +611,13 @@
     <text value="Customer Contact Contact" name="ClientContact" />
     <text value="Customer Contact Basic Information" name="ClientContactBasicInfo" />
     <text value="Client Description" name="ClientDescription" />
+    <text value="Inbound customer {0} has been retrieved, waiting for your review" name="ClientHasBeenRetrievedAndIsAwaitingYourReview" />
     <text value="There is no contact information for the customer, click on the upper right corner" name="ClientHasNoContact" />
     <text value="There is no contact information for the customer. Click the plus sign in the upper right corner to add the contact person in the case." name="ClientHasNoContactAndClickToAddCaseContacts" />
+    <text value="The inbound customer {0} has been reviewed and returned, waiting for you to retrieve the conflict again." name="ClientIsCheckedAndReturnedWaitingForYouToReconflict" />
     <text value="{0} requesting your permission" name="ClientIsRequestingYourPermission" />
     <text value="The customer does not exist!" name="ClientNotExist" />
+    <text value="The warehousing customer {0} you applied for has been retrieved and returned. Please modify the content of the application and retry the conflict search" name="ClientOfYouApplicationIsReturnedPleaseModifyAndResumeConflict" />
     <text value="Customer Project" name="ClientProject" />
     <text value="Customer area" name="ClientRegion" />
     <text value="The current customer is connected to the case and cannot be deleted!" name="ClientRelatedCases" />
@@ -620,6 +625,8 @@
     <text value="Enterprise reports are time-sensitive, click to download the latest to download the latest report" name="ClientReportTip" />
     <text value="Clients" name="ClientSide" />
     <text value="Customer statistics" name="ClientStatistics" />
+    <text value="Inbound customer {0} is waiting for your conflict search" name="ClientWaitingForYouConflictSearch" />
+    <text value="The warehousing customer {0} you applied for has confirmed warehousing." name="ClientYouAppliedHasBeenCorrected" />
     <text value="Close" name="Close" />
     <text value="Close reminder" name="CloseToRemind" />
     <text value="Closing application help information" name="ClosingApplicationHelpsInformation" />
@@ -647,6 +654,7 @@
     <text value="Collection details" name="CollectionDetails" />
     <text value="Collection history" name="CollectionHistory" />
     <text value="Columns" name="Columns" />
+    <text value="Confirm storage" name="ComfirmStorage" />
     <text value="Is about to timeout" name="ComingOutOfTime" />
     <text value="Coming soon, stay tuned" name="ComingSoon" />
     <text value="comment" name="Comment" />
@@ -826,6 +834,7 @@
     <text value="No data" name="CurrentNoData" />
     <text value="current page" name="CurrentPage" />
     <text value="Current password" name="CurrentPassword" />
+    <text value="The current results of the review by the Executive Committee already exist!" name="CurrentResultsOfTheReviewByTheExecutiveCommitteeAlreadyExist" />
     <text value="current stage" name="CurrentStage" />
     <text value="The current administrative chapter application already has processing results!" name="CurrentStampIsAlreadyExistsResult" />
     <text value="The current administrative seal application has been processed!" name="CurrentStampIsAlreadyExistsToDealWithResult" />
@@ -846,6 +855,7 @@
     <text value="Customer documentation" name="CustomerDocuments" />
     <text value="Customer growth statistics" name="CustomerGrowthStatistics" />
     <text value="Customer Relationship Operating Guidelines" name="CustomerGuide" />
+    <text value="The current customer has a storage record!" name="CustomerHasStorageRecord" />
     <text value="Customer industry" name="CustomerIndustry" />
     <text value="Customer Information" name="CustomerInformation" />
     <text value="Customer information table" name="CustomerInformationTable" />
@@ -956,6 +966,7 @@
     <text value="Document review details" name="DetailsOfApplicatingDocument" />
     <text value="Are you sure you want to delete the category information {0}?" name="DetermineToDeleteClassifiedInfo" />
     <text value="Device" name="Device" />
+    <text value="Did not win the bid" name="DidNotWinTheBid" />
     <text value="Different rates" name="DifferentRate" />
     <text value="Can not impersonate a user of a different tenant!" name="DifferentTenantImpersonationErrorMessage" />
     <text value="table of Contents" name="Directory" />
@@ -1075,6 +1086,7 @@
     <text value="Empty ones" name="EmptyOnes" />
     <text value="Enable" name="Enable" />
     <text value="The law angel download service has not been activated yet, please contact the administrator to open the service!" name="EnableFaTianShi" />
+    <text value="Enable inbound customer search" name="EnableInboundCustomerSearch" />
     <text value="Enable LDAP Authentication." name="EnableLdapAuthentication" />
     <text value="Enable multi-client" name="EnableMultiClient" />
     <text value="Bill my account automatically" name="EnableRecurringPayments" />
@@ -1191,6 +1203,7 @@
     <text value="Can be formally filed" name="FilingACase" />
     <text value="Filing review" name="FilingAudit" />
     <text value="Apply for filing" name="FilingCase" />
+    <text value="Filing method" name="FilingMethod" />
     <text value="Filing process status" name="FilingProcessStatus" />
     <text value="Fill in the closing report" name="FillInTheClosingCaseReport" />
     <text value="{0} filled in a working log and waited for your approval" name="FillInWorkLogForYourApproval" />
@@ -1333,6 +1346,7 @@
     <text value="Click to view help documentation" name="HelpTitle" />
     <text value="Hide advanced filters" name="HideAdvancedFilters" />
     <text value="Hide QR code" name="HideQRCode" />
+    <text value="After clearing the cache, the files and pictures you download will be deleted. Please proceed with caution." name="HintClearCache" />
     <text value="(Create a customer or select an existing customer)" name="HintCreateOrSelectClient" />
     <text value="friendly reminder" name="Hints" />
     <text value="History" name="History" />
@@ -1351,6 +1365,7 @@
     <text value="Hour (H)" name="HourUnit" />
     <text value="Housing Loans" name="HousingLoans" />
     <text value="Human Resources Operation Guide" name="HumanGuide" />
+    <text value="ID Card/Uniform Social Credit Code" name="IDCardOrUSCC" />
     <text value="Unable to match information related to primary key number!" name="IdHasNotBeenFound" />
     <text value="Image" name="Image" />
     <text value="Image minimum pixels: {0}, scale: {1}" name="ImgSizeScaleLimitation" />
@@ -1363,10 +1378,13 @@
     <text value="The process of importing profit information has already begun." name="ImportClientRelationProcessStart" />
     <text value="The process of importing profit information failed." name="ImportClientRelationUploadFailed" />
     <text value="Import from Excel" name="ImportFromExcel" />
+    <text value="Please import valid data according to the template!" name="ImportTemplateDataWarning" />
     <text value="{0}Download the import template file." name="ImportToExcelTemplateFileDownloadInfo" />
     <text value="The user import process has begun." name="ImportUsersProcessStart" />
     <text value="The user import process failed." name="ImportUsersUploadFailed" />
     <text value="Improve case filing information" name="ImproveCaseFilingInformation" />
+    <text value="Improve storage information" name="ImproveStorageInformation" />
+    <text value="Inbound customers" name="InboundCustomers" />
     <text value="collection box" name="Inbox" />
     <text value="Inclusion date" name="Inclusiondate" />
     <text value="Inclusion reason" name="Inclusionreason" />
@@ -1397,6 +1415,7 @@
     <text value="The number of holiday days in this interval" name="IntervalHolidayDays" />
     <text value="Interviewee information" name="IntervieweeInformation" />
     <text value="Intranet information search" name="Intranetsearch" />
+    <text value="Introduction" name="Introduction" />
     <text value="Invalid" name="Invalid" />
     <text value="The verification code does not match, please re-enter" name="InvalidCodeNotMatch" />
     <text value="If the verification code is invalid, please re-acquire" name="InvalidCodeReacquire" />
@@ -1570,6 +1589,7 @@
     <text value="Letter object" name="LetterObject" />
     <text value="You have a %s bit letter object" name="LetterObjectCnt" />
     <text value="Privacy level" name="LevelOfConfidentiality" />
+    <text value="Li Chong" name="LiChong" />
     <text value="white" name="Light" />
     <text value="Limit of case fees" name="LimitOfHandlingExpenses" />
     <text value="Case handling fee limit:" name="LimitOfHandlingExpensesTitle" />
@@ -2034,6 +2054,11 @@
     <text value="Legal navigation" name="Pages.CommonTools.Navigation" />
     <text value="Full-time web conference" name="Pages.CommonTools.QuanShi" />
     <text value="CRM" name="Pages.Customers" />
+    <text value="Customer storage" name="Pages.Customers.CustomerStorage" />
+    <text value="Warehousing declaration" name="Pages.Customers.CustomerStorage.Apply" />
+    <text value="Warehousing audit" name="Pages.Customers.CustomerStorage.Audit" />
+    <text value="Storage management" name="Pages.Customers.CustomerStorage.Manage" />
+    <text value="My storage" name="Pages.Customers.CustomerStorage.MyStorage" />
     <text value="Customer management" name="Pages.Customers.Manage" />
     <text value="Customer management" name="Pages.Customers.MyCustomers" />
     <text value="Customer Address Book" name="Pages.Customers.MyCustomers.Contacts" />
@@ -2199,6 +2224,7 @@
     <text value="Penalty content" name="Penaltycontent" />
     <text value="Penalties" name="PenaltyItem" />
     <text value="Pending claim" name="PendingClaim" />
+    <text value="To be reviewed by the Executive Committee" name="PendingExecutiveCommitteeReview" />
     <text value="Pending financial review" name="PendingFinancialReview" />
     <text value="To be reviewed by partners" name="PendingPartnerReview" />
     <text value="Pending review" name="PendingReview" />
@@ -2207,6 +2233,7 @@
     <text value="{0} people involved" name="PepoleParticipants" />
     <text value="Applicant" name="PepoleWhoUse" />
     <text value="percentage" name="Percentage" />
+    <text value="Perfect storage" name="PerfectStorage" />
     <text value="Performance" name="Performance" />
     <text value="date" name="Period" />
     <text value="Permission" name="Permission" />
@@ -2896,11 +2923,16 @@
     <text value="Statistics on the number of customers by organization" name="StatisticsnumberofcustomersbyOrganization" />
     <text value="Attendance ranking statistics of personnel in the department" name="StatisticsOfPersonnelInTheDepartment" />
     <text value="Status" name="Status" />
+    <text value="stencil" name="Stencil" />
     <text value="Stop" name="Stop" />
     <text value="Stop when an error occurs" name="StopWhenAMistakeIsMade" />
     <text value="Stop words" name="StopWords" />
+    <text value="Storage file" name="StorageFile" />
+    <text value="Storage information" name="StorageInformation" />
     <text value="Storage location" name="StorageLocation" />
     <text value="Storage location cannot be empty!" name="StorageLocationCannotBeEmpty" />
+    <text value="Storage materials" name="StorageMaterials" />
+    <text value="Storage period" name="StoragePeriod" />
     <text value="The field {0} must be a minimum length of {1} and a maximum length of {2}." name="StringLengthDoesntMatch" />
     <text value="Organization tree" name="StructureTree" />
     <text value="Case business subclass" name="SubclassOfCaseBusiness" />
@@ -3459,6 +3491,8 @@
     <text value="To be turned positive" name="WaitingTransfer" />
     <text value="to be confirmed" name="WaitngForConfirmed" />
     <text value="myriad" name="Wan" />
+    <text value="Warehousing personnel" name="WarehousingPersonnel" />
+    <text value="Warehousing results" name="WarehousingResults" />
     <text value="Warning" name="Warning" />
     <text value="Watch the post-conference report" name="WatchThePostConferenceReport" />
     <text value="Communication method" name="WayToCommunicate" />
@@ -3507,6 +3541,7 @@
     <text value="Whether to start recording" name="WhetherToStartRecording" />
     <text value="Whether to use full-time web conferencing" name="WhetherUsingWebConferencing" />
     <text value="Are you sure to change the selected schedule status?" name="WillChangesSelectedOnScheduledState" />
+    <text value="Winning" name="Winning" />
     <text value="Without any condition" name="WithoutAnyCondition" />
     <text value="A folder with the same name already exists in the current directory" name="WithTheSameNameAlreadyExistsUnderTheCurrentDirectory" />
     <text value="Filing - pending conflict search" name="WN.Business.CaseCheck.Created" />

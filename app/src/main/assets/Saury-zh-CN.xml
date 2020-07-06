@@ -180,6 +180,7 @@
     <text value="立案" name="App.Business.CaseCreation" />
     <text value="文书" name="App.Business.CaseFile" />
     <text value="盖章" name="App.Business.StampFiles" />
+    <text value="入库" name="App.Customers.Storage" />
     <text value="用章" name="App.Executive.OfficeSeal" />
     <text value="账单" name="App.Financial.Billings" />
     <text value="费用" name="App.Financial.Charges" />
@@ -594,6 +595,7 @@
     <text value="对不起，请先清空此阶段列表上的任务，然后再删除这个阶段列表！" name="ClearTasklistInStage" />
     <text value="对不起，请先清空此任务项目上的所有任务，然后再删除这个项目！" name="ClearTaskProject" />
     <text value="点击下方的站点按钮，前往查看该站点检索结果" name="ClickButtonToViewSearchResults" />
+    <text value="点击右上方下载按钮" name="ClickDownloadButtonRight" />
     <text value="点击获取手机验证码" name="ClickforVerificationCode" />
     <text value="点击这里" name="ClickHere" />
     <text value="点击右侧链接可查看前置操作信息" name="ClickOnTheRightLinkToViewTheFrontActionInfo" />
@@ -609,10 +611,13 @@
     <text value="客户联系人联系方式" name="ClientContact" />
     <text value="客户联系人基本信息" name="ClientContactBasicInfo" />
     <text value="客户描述" name="ClientDescription" />
+    <text value="入库客户{0}已检索完成，等待您进行审核" name="ClientHasBeenRetrievedAndIsAwaitingYourReview" />
     <text value="客户尚无联系人信息，点击右上角" name="ClientHasNoContact" />
     <text value="客户尚无联系人信息，点击右上角 加 号 添加本案关联联系人" name="ClientHasNoContactAndClickToAddCaseContacts" />
+    <text value="入库客户{0}被审核退回，等待您重新进行冲突检索。" name="ClientIsCheckedAndReturnedWaitingForYouToReconflict" />
     <text value="{0}正在请求您的许可" name="ClientIsRequestingYourPermission" />
     <text value="客户不存在！" name="ClientNotExist" />
+    <text value="您申请的入库客户{0}被检索退回，请修改申请内容后重新进行冲突检索" name="ClientOfYouApplicationIsReturnedPleaseModifyAndResumeConflict" />
     <text value="客户项目" name="ClientProject" />
     <text value="客户地区" name="ClientRegion" />
     <text value="当前客户已关联案件，无法删除！" name="ClientRelatedCases" />
@@ -620,6 +625,8 @@
     <text value="企业报告具有时效性,点击下载最新可下载最新报告" name="ClientReportTip" />
     <text value="客户端" name="ClientSide" />
     <text value="客户统计" name="ClientStatistics" />
+    <text value="入库客户{0}等待您进行冲突检索" name="ClientWaitingForYouConflictSearch" />
+    <text value="您申请的入库客户{0}已确认入库。" name="ClientYouAppliedHasBeenCorrected" />
     <text value="关闭" name="Close" />
     <text value="关闭提醒" name="CloseToRemind" />
     <text value="结案申请帮助信息" name="ClosingApplicationHelpsInformation" />
@@ -647,6 +654,7 @@
     <text value="收款详情" name="CollectionDetails" />
     <text value="收款历史" name="CollectionHistory" />
     <text value="列" name="Columns" />
+    <text value="确认入库" name="ComfirmStorage" />
     <text value="即将超时" name="ComingOutOfTime" />
     <text value="即将上线，敬请期待" name="ComingSoon" />
     <text value="评论" name="Comment" />
@@ -826,6 +834,7 @@
     <text value="暂无数据" name="CurrentNoData" />
     <text value="当前页" name="CurrentPage" />
     <text value="当前密码" name="CurrentPassword" />
+    <text value="当前执委审核已存在处理结果!" name="CurrentResultsOfTheReviewByTheExecutiveCommitteeAlreadyExist" />
     <text value="当前阶段" name="CurrentStage" />
     <text value="当前行政用章申请已存在处理结果！" name="CurrentStampIsAlreadyExistsResult" />
     <text value="当前行政盖章申请已存在处理结果！" name="CurrentStampIsAlreadyExistsToDealWithResult" />
@@ -846,6 +855,7 @@
     <text value="客户文档" name="CustomerDocuments" />
     <text value="客户增长统计" name="CustomerGrowthStatistics" />
     <text value="客户关系操作指引" name="CustomerGuide" />
+    <text value="当前客户已存在入库记录！" name="CustomerHasStorageRecord" />
     <text value="客户行业" name="CustomerIndustry" />
     <text value="客户信息" name="CustomerInformation" />
     <text value="客户信息表" name="CustomerInformationTable" />
@@ -956,6 +966,7 @@
     <text value="文书报审详细信息" name="DetailsOfApplicatingDocument" />
     <text value="确定要删除分类信息 {0}?" name="DetermineToDeleteClassifiedInfo" />
     <text value="设备" name="Device" />
+    <text value="未中标" name="DidNotWinTheBid" />
     <text value="不同费率" name="DifferentRate" />
     <text value="不能模拟不同租户的用户!" name="DifferentTenantImpersonationErrorMessage" />
     <text value="目录" name="Directory" />
@@ -1075,6 +1086,7 @@
     <text value="空值" name="EmptyOnes" />
     <text value="启用" name="Enable" />
     <text value="法天使下载服务暂未启用，请联系管理员开启该服务!" name="EnableFaTianShi" />
+    <text value="启用入库客户检索" name="EnableInboundCustomerSearch" />
     <text value="启用轻量目录访问协议(LDAP)认证." name="EnableLdapAuthentication" />
     <text value="启用多客户" name="EnableMultiClient" />
     <text name="EnableRecurringPayments" />
@@ -1191,6 +1203,7 @@
     <text value="可以正式立案" name="FilingACase" />
     <text value="立案审核" name="FilingAudit" />
     <text value="申请立案" name="FilingCase" />
+    <text value="立案方式" name="FilingMethod" />
     <text value="立案流程状态" name="FilingProcessStatus" />
     <text value="填写结案报告" name="FillInTheClosingCaseReport" />
     <text value="{0}填写了一条工作日志，等待您的审批" name="FillInWorkLogForYourApproval" />
@@ -1333,6 +1346,7 @@
     <text value="点击查看帮助文档" name="HelpTitle" />
     <text value="隐藏高级过滤" name="HideAdvancedFilters" />
     <text value="隐藏二维码" name="HideQRCode" />
+    <text value="清除缓存后，您下载的文件和图片将删除，请谨慎操作。" name="HintClearCache" />
     <text value="( 创建客户或选择已有客户 )" name="HintCreateOrSelectClient" />
     <text value="友情提示" name="Hints" />
     <text name="History" />
@@ -1351,6 +1365,7 @@
     <text value="小时（H）" name="HourUnit" />
     <text value="房屋贷款" name="HousingLoans" />
     <text value="人力资源操作指引" name="HumanGuide" />
+    <text value="身份证/统一社会信用代码" name="IDCardOrUSCC" />
     <text value="无法匹配与主键编号相关的信息！" name="IdHasNotBeenFound" />
     <text value="图像" name="Image" />
     <text value="图片最小像素：{0}，比例：{1}" name="ImgSizeScaleLimitation" />
@@ -1363,10 +1378,13 @@
     <text value="利冲信息导入过程已经开始。" name="ImportClientRelationProcessStart" />
     <text value="利冲信息导入过程失败。" name="ImportClientRelationUploadFailed" />
     <text value="从Excel导入" name="ImportFromExcel" />
+    <text value="请按照模版导入有效数据!" name="ImportTemplateDataWarning" />
     <text value="{0}下载导入模板文件。" name="ImportToExcelTemplateFileDownloadInfo" />
     <text value="用户导入过程已经开始。" name="ImportUsersProcessStart" />
     <text value="用户导入过程失败。" name="ImportUsersUploadFailed" />
     <text value="完善立案信息" name="ImproveCaseFilingInformation" />
+    <text value="完善入库信息" name="ImproveStorageInformation" />
+    <text value="入库客户" name="InboundCustomers" />
     <text value="收集箱" name="Inbox" />
     <text value="列入日期" name="Inclusiondate" />
     <text value="列入原因" name="Inclusionreason" />
@@ -1397,6 +1415,7 @@
     <text value="此区间节假日天数" name="IntervalHolidayDays" />
     <text value="受访人信息" name="IntervieweeInformation" />
     <text value="内网信息搜索" name="Intranetsearch" />
+    <text value="入库简介" name="Introduction" />
     <text value="作废" name="Invalid" />
     <text value="验证码不匹配请重新输入" name="InvalidCodeNotMatch" />
     <text value="验证码失效请重新获取" name="InvalidCodeReacquire" />
@@ -1570,6 +1589,7 @@
     <text value="发函对象" name="LetterObject" />
     <text value="您有 %s 位发函对象" name="LetterObjectCnt" />
     <text value="保密级别" name="LevelOfConfidentiality" />
+    <text value="利冲" name="LiChong" />
     <text value="白色" name="Light" />
     <text value="办案费限额" name="LimitOfHandlingExpenses" />
     <text value="办案费限额：" name="LimitOfHandlingExpensesTitle" />
@@ -2034,6 +2054,11 @@
     <text value="法律人导航" name="Pages.CommonTools.Navigation" />
     <text value="全时网络会议" name="Pages.CommonTools.QuanShi" />
     <text value="客户关系" name="Pages.Customers" />
+    <text value="客户入库" name="Pages.Customers.CustomerStorage" />
+    <text value="入库申报" name="Pages.Customers.CustomerStorage.Apply" />
+    <text value="入库审核" name="Pages.Customers.CustomerStorage.Audit" />
+    <text value="入库管理" name="Pages.Customers.CustomerStorage.Manage" />
+    <text value="我的入库" name="Pages.Customers.CustomerStorage.MyStorage" />
     <text value="客户管理" name="Pages.Customers.Manage" />
     <text value="客户管理" name="Pages.Customers.MyCustomers" />
     <text value="客户通讯录" name="Pages.Customers.MyCustomers.Contacts" />
@@ -2199,6 +2224,7 @@
     <text value="处罚内容" name="Penaltycontent" />
     <text value="处罚项" name="PenaltyItem" />
     <text value="待认领" name="PendingClaim" />
+    <text value="待执委审核" name="PendingExecutiveCommitteeReview" />
     <text value="待财务重新审核" name="PendingFinancialReview" />
     <text value="待合伙人审核" name="PendingPartnerReview" />
     <text value="结案审核" name="PendingReview" />
@@ -2207,6 +2233,7 @@
     <text value="{0}人参与" name="PepoleParticipants" />
     <text value="领用人" name="PepoleWhoUse" />
     <text value="百分比" name="Percentage" />
+    <text value="完善入库" name="PerfectStorage" />
     <text value="履行情况" name="Performance" />
     <text value="日期" name="Period" />
     <text value="许可" name="Permission" />
@@ -2896,11 +2923,16 @@
     <text value="按组织机构统计客户数量" name="StatisticsnumberofcustomersbyOrganization" />
     <text value="所属部门人员考勤排名统计" name="StatisticsOfPersonnelInTheDepartment" />
     <text value="状态" name="Status" />
+    <text value="模版" name="Stencil" />
     <text value="暂停" name="Stop" />
     <text value="发生错误时停止" name="StopWhenAMistakeIsMade" />
     <text value="停用词" name="StopWords" />
+    <text value="入库文件" name="StorageFile" />
+    <text value="入库信息" name="StorageInformation" />
     <text value="存放位置" name="StorageLocation" />
     <text value="存放位置不能为空!" name="StorageLocationCannotBeEmpty" />
+    <text value="入库材料" name="StorageMaterials" />
+    <text value="入库期限" name="StoragePeriod" />
     <text value="{0}的最小长度为{1}，最大长度为{2}。" name="StringLengthDoesntMatch" />
     <text value="组织机构树" name="StructureTree" />
     <text value="案件业务子类" name="SubclassOfCaseBusiness" />
@@ -3459,6 +3491,8 @@
     <text value="待转正" name="WaitingTransfer" />
     <text value="待确认" name="WaitngForConfirmed" />
     <text value="万" name="Wan" />
+    <text value="入库人员" name="WarehousingPersonnel" />
+    <text value="入库结果" name="WarehousingResults" />
     <text value="等待中" name="Warning" />
     <text value="观看会后报告" name="WatchThePostConferenceReport" />
     <text value="沟通方式" name="WayToCommunicate" />
@@ -3507,6 +3541,7 @@
     <text value="是否开启录音" name="WhetherToStartRecording" />
     <text value="是否使用全时网络会议" name="WhetherUsingWebConferencing" />
     <text value="是否确定变更选中的日程状态？" name="WillChangesSelectedOnScheduledState" />
+    <text value="中标" name="Winning" />
     <text value="无任何条件" name="WithoutAnyCondition" />
     <text value="当前目录下已存在同名的文件夹" name="WithTheSameNameAlreadyExistsUnderTheCurrentDirectory" />
     <text value="立案-待冲突检索" name="WN.Business.CaseCheck.Created" />
