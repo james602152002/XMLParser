@@ -608,6 +608,7 @@
     <text value="顧客" name="Client" />
     <text value="クライアントのケース連絡先" name="ClientCaseContact" />
     <text value="クライアントのケース連絡先情報" name="ClientCaseContactInformation" />
+    <text value="%sのお客様" name="ClientCnt" />
     <text value="顧客連絡先" name="ClientContact" />
     <text value="顧客連絡先の基本情報" name="ClientContactBasicInfo" />
     <text value="顧客の説明" name="ClientDescription" />
@@ -771,10 +772,12 @@
     <text value="法廷" name="Court" />
     <text value="コート" name="CourtDay" />
     <text value="裁判所通知" name="CourtDayReminder" />
+    <text value="裁判所の終了時間" name="CourtEndTime" />
     <text value="裁判所通知" name="CourtNotice" />
     <text value="裁判所/裁判所の時間情報" name="CourtOrCourtTimeInformation" />
     <text value="裁判所は情報を思い出させる" name="CourtReminder" />
     <text value="コート" name="Courts" />
+    <text value="コート開始時間" name="CourtStartTime" />
     <text value="現在の流行中、フルタイムのWeb会議は無料です！" name="COVID19FullTimeipsConferencingFreeTips" />
     <text value="つくる" name="Create" />
     <text value="ケースを作成する" name="CreateACase" />

@@ -608,6 +608,7 @@
     <text value="客户" name="Client" />
     <text value="客户方本案联系人" name="ClientCaseContact" />
     <text value="客户方本案联系人信息" name="ClientCaseContactInformation" />
+    <text value="共%s位客户" name="ClientCnt" />
     <text value="客户联系人联系方式" name="ClientContact" />
     <text value="客户联系人基本信息" name="ClientContactBasicInfo" />
     <text value="客户描述" name="ClientDescription" />
@@ -771,10 +772,12 @@
     <text value="法庭" name="Court" />
     <text value="开庭" name="CourtDay" />
     <text value="开庭提醒" name="CourtDayReminder" />
+    <text value="开庭结束时间" name="CourtEndTime" />
     <text value="法院公告" name="CourtNotice" />
     <text value="法院/法庭时间信息" name="CourtOrCourtTimeInformation" />
     <text value="法院提醒信息" name="CourtReminder" />
     <text value="法院" name="Courts" />
+    <text value="开庭开始时间" name="CourtStartTime" />
     <text value="当前疫情期间，全时网络会议免费使用！" name="COVID19FullTimeipsConferencingFreeTips" />
     <text value="创建" name="Create" />
     <text value="创建案件" name="CreateACase" />

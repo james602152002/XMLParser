@@ -608,6 +608,7 @@
     <text value="Client" name="Client" />
     <text value="Client's case contact" name="ClientCaseContact" />
     <text value="Client's case contact information" name="ClientCaseContactInformation" />
+    <text value="%s customers" name="ClientCnt" />
     <text value="Customer Contact Contact" name="ClientContact" />
     <text value="Customer Contact Basic Information" name="ClientContactBasicInfo" />
     <text value="Client Description" name="ClientDescription" />
@@ -771,10 +772,12 @@
     <text value="court" name="Court" />
     <text value="Court" name="CourtDay" />
     <text value="Court reminder" name="CourtDayReminder" />
+    <text value="Court end time" name="CourtEndTime" />
     <text value="Court Notice" name="CourtNotice" />
     <text value="Court/court time information" name="CourtOrCourtTimeInformation" />
     <text value="Court reminds information" name="CourtReminder" />
     <text value="Court" name="Courts" />
+    <text value="Court start time" name="CourtStartTime" />
     <text value="During the current epidemic, full-time web conferencing is free!" name="COVID19FullTimeipsConferencingFreeTips" />
     <text value="create" name="Create" />
     <text value="Create a case" name="CreateACase" />

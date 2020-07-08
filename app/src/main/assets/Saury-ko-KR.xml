@@ -608,6 +608,7 @@
     <text value="고객" name="Client" />
     <text value="고객의 케이스 연락처" name="ClientCaseContact" />
     <text value="고객의 케이스 연락처 정보" name="ClientCaseContactInformation" />
+    <text value="%s 고객" name="ClientCnt" />
     <text value="고객 문의" name="ClientContact" />
     <text value="고객 연락처 기본 정보" name="ClientContactBasicInfo" />
     <text value="고객 설명" name="ClientDescription" />
@@ -771,10 +772,12 @@
     <text value="법원" name="Court" />
     <text value="법원" name="CourtDay" />
     <text value="법원 알림" name="CourtDayReminder" />
+    <text value="법원 종료 시간" name="CourtEndTime" />
     <text value="법원 통지" name="CourtNotice" />
     <text value="법원 / 재판 시간 정보" name="CourtOrCourtTimeInformation" />
     <text value="법원 정보를 상기시킵니다" name="CourtReminder" />
     <text value="법원" name="Courts" />
+    <text value="법원 시작 시간" name="CourtStartTime" />
     <text value="현재 전염병 동안 풀 타임 웹 회의는 무료입니다!" name="COVID19FullTimeipsConferencingFreeTips" />
     <text value="창조하다" name="Create" />
     <text value="사례 만들기" name="CreateACase" />
