@@ -26,6 +26,7 @@
     <text value="オフラインであってもアプリケーションとリソースにアクセスする" name="Access to your applications and resources, even when you are offline" />
     <text value="アクセスカード番号" name="AccessCardNumber" />
     <text value="アクセストークンが無効または期限切れです！" name="AccessTokenInvalidOrExpired" />
+    <text value="口座銀行" name="AccountBank" />
     <text value="アカウントのバインド" name="AccountBinding" />
     <text value="アカウント管理" name="AccountManagement" />
     <text value="口座番号" name="AccountNumber" />
@@ -51,6 +52,7 @@
     <text value="課金方法が正常な場合、弁護士費用を0にすることはできません。課金情報を追加してください。" name="AddChargingInformation" />
     <text value="連絡先を追加" name="AddContact" />
     <text value="顧客ライブラリから連絡先を追加します" name="AddContactFromCustomerLibrary" />
+    <text value="裁判所情報を追加" name="AddCourtInfo" />
     <text value="裁判所リマインダーを追加" name="AddCourtRemind" />
     <text value="{0}を押すか、ブラウザウィンドウの上部にある[ブックマーク]をクリックして、ドロップダウンメニューから[ブックマークを追加...]を選択してください。" name="AddCurrentPageToBookmark" />
     <text value="顧客の住所録を追加する" name="AddCustomerAddressBook" />
@@ -319,7 +321,9 @@
     <text value="借りた" name="BeLent" />
     <text value="所有者" name="Belonger" />
     <text value="入札ケース[{0}]は競合検索を待っています。" name="BidCaseWaitingForYouToPerformConflictRetrieval" />
+    <text value="入札日" name="BidDate" />
     <text value="入札" name="Bidding" />
+    <text value="入札開始日" name="BidOpeningDate" />
     <text value="入札する" name="BidToCase" />
     <text value="ビル" name="Bill" />
     <text value="請求可能な明細書" name="Billable" />
@@ -663,6 +667,7 @@
     <text value="合計{0}件のレビュー" name="CommentsCount" />
     <text value="成功したコメント" name="CommentSuccessful" />
     <text value="商業ローン" name="CommercialLoans" />
+    <text value="コミットメント条項" name="CommitmentClause" />
     <text value="共通の機能" name="CommonFunctions" />
     <text value="よく使われる" name="CommonlyUsed" />
     <text value="通信時間" name="CommunicationTime" />
@@ -761,6 +766,7 @@
     <text value="金額：" name="CostAmountsTitle" />
     <text value="コストカテゴリ" name="CostCategory" />
     <text value="コード" name="CostCategorys" />
+    <text value="入札申込時に費用情報が表示されない" name="CostInformationIsNotDisplayedWhenBiddingApplication" />
     <text value="コスト{0}。" name="CostNotify" />
     <text value="コード" name="Costs" />
     <text value="ログイン操作を完了できません。" name="CouldNotCompleteLoginOperation" />
@@ -938,6 +944,7 @@
     <text name="DefaultFromSenderEmailAddress" />
     <text name="DefaultLanguage" />
     <text value="新規ユーザーは、デフォルトでこの役割を持ちます。" name="DefaultRole_Description" />
+    <text value="デフォルトのソート" name="DefaultSorting" />
     <text value="遅延パフォーマンス時間" name="DelayedPerformanceTime" />
     <text value="遅延レコードログ" name="DelayLog" />
     <text value="削除する" name="Delete" />
@@ -979,6 +986,7 @@
     <text value="弁護士費用割引率" name="DiscountsOfAttorneyFee" />
     <text value="弁護士報酬の割引率 %" name="DiscountsOfAttorneyFeeWithPercentSign" />
     <text value="ディスカッション" name="Discussion" />
+    <text value="表示" name="Display" />
     <text name="DisplayOrder" />
     <text value="QRコードを表示する" name="DisplayQRCode" />
     <text value="表示設定" name="DisplaySettings" />
@@ -1247,8 +1255,8 @@
     <text value="フォーカス" name="Focusing" />
     <text value="紛争の焦点" name="FocusOfControversy" />
     <text value="折りたたみ" name="Fold" />
-    <text value="下位ディレクトリ-新規" name="Folder.Create" />
-    <text value="下位ディレクトリ-削除" name="Folder.Delete" />
+    <text value="ディレクトリ-新しい" name="Folder.Create" />
+    <text value="ディレクトリ削除" name="Folder.Delete" />
     <text value="ファイルの削除" name="Folder.Document.Delete" />
     <text value="ファイルダウンロード" name="Folder.Document.Download" />
     <text value="ファイル名の変更" name="Folder.Document.ReName" />
@@ -1256,9 +1264,9 @@
     <text value="ファイル表示" name="Folder.Document.Show" />
     <text value="ファイルアップロード" name="Folder.Document.Upload" />
     <text value="ファイルビュー" name="Folder.Document.View" />
-    <text value="下位ディレクトリ-名前の変更" name="Folder.ReName" />
-    <text value="現在のディレクトリ-表示" name="Folder.Show" />
-    <text value="下位ディレクトリ-表示" name="Folder.View" />
+    <text value="ディレクトリ名の変更" name="Folder.ReName" />
+    <text value="ディレクトリ表示" name="Folder.Show" />
+    <text value="ディレクトリビュー" name="Folder.View" />
     <text value="フォルダを空にすることはできません" name="FolderCanNotEmpty" />
     <text value="フォルダレベル" name="FolderLevel" />
     <text value="フォローアップスタッフ" name="FolowUpPersonnel" />
@@ -1497,6 +1505,7 @@
     <text value="問題の理由" name="IssuedByReason" />
     <text value="発行権限" name="IssuingAgency" />
     <text value="現在のディレクトリが最初のディレクトリに設定されていますか？" name="IsTheCurrentDirectorySettotheFirstDirectory" />
+    <text value="アカウント情報はありますか" name="IsThereAccountInformation" />
     <text name="IsTrialActive" />
     <text name="IsTwoFactorEnabled" />
     <text name="Item" />
@@ -1932,6 +1941,7 @@
     <text value="請求書の数" name="NumberOfInvoices" />
     <text value="弁護士の仕事の数" name="Numberoflawyerstasks" />
     <text value="同年弁護士の人数" name="NumberofLawyersYearonYear" />
+    <text value="行数" name="NumberOfLines" />
     <text value="組織別の統計数" name="NumberofLogByorganization" />
     <text value="ログの数" name="NumberOfLogs" />
     <text value="予定された会議の数" name="NumberOfMeetings" />
@@ -2602,6 +2612,7 @@
     <text value="正常に復元されました" name="RestoreSucceeded" />
     <text value="申し訳ありませんが、アップロードされた添付ファイルの種類がアップロード可能な種類のリストにありません。" name="RestrictedAttachmentType" />
     <text value="再送信" name="Resubmit" />
+    <text value="結果日" name="ResultDate" />
     <text value="監査結果" name="Results" />
     <text value="添付ファイルを再開する" name="ResumeAttachments" />
     <text value="検索" name="Retrieval" />
@@ -2755,6 +2766,7 @@
     <text value="アルバムから" name="SelectFromTheAlbum" />
     <text value="ケースの役割に応じて参加者を選んでください！" name="SelectPeopleByCaseRole" />
     <text value="ガントチャートを表示する人を選択" name="SelectPeopletoViewGanttCharts" />
+    <text value="%sを選択" name="SelectPersonCnt" />
     <text value="注文品目を選択" name="SelectRollMaterial" />
     <text value="サンプルファイルを選択" name="SelectSampleFile" />
     <text value="スタッフの選択" name="SelectStaff" />
@@ -2831,6 +2843,7 @@
     <text value="入札を表示" name="ShowBid" />
     <text value="ディスプレイケース率" name="Showcaserate" />
     <text value="削除したユーザーを表示" name="ShowDeletedUser" />
+    <text value="クイックファイリングガイドを表示" name="ShowFilingQuickGuide" />
     <text name="ShowInvoice" />
     <text value="弁護士税率を表示する" name="Showlawyerrate" />
     <text value="ファイルのみを表示する" name="ShowOnlyFiles" />
@@ -3126,6 +3139,8 @@
     <text value="他のテナントとチャット" name="TenantToTenantChatFeature" />
     <text value="テナントは他のテナントとのチャットを有効にしません。" name="TenantToTenantChatFeatureIsNotEnabledForReceiver" />
     <text value="他のテナントとチャットを有効にしていません。" name="TenantToTenantChatFeatureIsNotEnabledForSender" />
+    <text value="入札者名" name="TenderName" />
+    <text value="入札者の名前は、入札書類の名前でなければなりません" name="TenderNamePrompt" />
     <text value="終了" name="Termination" />
     <text value="利用規約" name="TermsOfService" />
     <text value="テストする" name="test" />
@@ -3477,6 +3492,7 @@
     <text value="訪問時間" name="VisitTime" />
     <text name="VisualSettings" />
     <text value="賃金" name="Wages" />
+    <text value="待つ" name="Wait" />
     <text name="WaitAfterSubscriptionExpireDate" />
     <text value="レビュー待ち" name="WaitForAudit" />
     <text value="保留中の申し立て" name="WaitForClaim" />
@@ -3516,6 +3532,7 @@
     <text value="こんにちは{0}、法律を使用することを歓迎します" name="WelcomeToUseAilinkedlaw" />
     <text name="WhatWillDoneAfterSubscriptionExpiry" />
     <text value="かどうか" name="whether" />
+    <text value="アカウント情報の有無" name="WhetherAccountInformation" />
     <text value="終日ですか？" name="WhetherAllDay" />
     <text value="アーカイブするかどうか" name="WhetherArchive" />
     <text value="それは一括ダウンロードですか？" name="WhetherBatchDownload" />

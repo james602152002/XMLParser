@@ -26,6 +26,7 @@
     <text value="即使您处于脱机状态，也可以访问您的应用程序和资源" name="Access to your applications and resources, even when you are offline" />
     <text value="门禁卡编号" name="AccessCardNumber" />
     <text value="访问令牌无效或过期！" name="AccessTokenInvalidOrExpired" />
+    <text value="开户行" name="AccountBank" />
     <text value="账号绑定" name="AccountBinding" />
     <text value="账号管理" name="AccountManagement" />
     <text value="账号" name="AccountNumber" />
@@ -51,6 +52,7 @@
     <text value="收费方式为正常收费时，律师费用不能为0，请添加收费信息!" name="AddChargingInformation" />
     <text value="添加联系人" name="AddContact" />
     <text value="从客户库添加联系人" name="AddContactFromCustomerLibrary" />
+    <text value="添加开庭信息" name="AddCourtInfo" />
     <text value="添加开庭提醒" name="AddCourtRemind" />
     <text value="按{0}或单击浏览器窗口顶部的“书签”，然后从下拉菜单中选择“添加书签...”。" name="AddCurrentPageToBookmark" />
     <text value="添加客户通讯录" name="AddCustomerAddressBook" />
@@ -209,7 +211,7 @@
     <text value="应用文书盖章" name="ApplicationPaperStamp" />
     <text value="申请公布日" name="ApplicationPublishdate" />
     <text value="报审时间" name="ApplicationTime" />
-    <text value="应用" name="Apply" />
+    <text value="申请" name="Apply" />
     <text value="文书报审" name="ApplyDocumentReview" />
     <text value="申请结束时间" name="ApplyEndTime" />
     <text value="申请试用" name="ApplyForTrial" />
@@ -319,7 +321,9 @@
     <text value="被借出" name="BeLent" />
     <text value="所属人" name="Belonger" />
     <text value="投标案件[{0}]等待您进行冲突检索." name="BidCaseWaitingForYouToPerformConflictRetrieval" />
+    <text value="投标日期" name="BidDate" />
     <text value="招投标" name="Bidding" />
+    <text value="开标日期" name="BidOpeningDate" />
     <text value="投标转立案" name="BidToCase" />
     <text value="账单" name="Bill" />
     <text value="可开账单" name="Billable" />
@@ -663,6 +667,7 @@
     <text value="共有{0}条评论" name="CommentsCount" />
     <text value="评论成功" name="CommentSuccessful" />
     <text value="商业贷款" name="CommercialLoans" />
+    <text value="承诺条款" name="CommitmentClause" />
     <text value="常用功能" name="CommonFunctions" />
     <text value="常用" name="CommonlyUsed" />
     <text value="沟通时间" name="CommunicationTime" />
@@ -761,6 +766,7 @@
     <text value="费用金额：" name="CostAmountsTitle" />
     <text value="费用类别" name="CostCategory" />
     <text value="费用类别占比" name="CostCategorys" />
+    <text value="招投标申请时不显示费用信息" name="CostInformationIsNotDisplayedWhenBiddingApplication" />
     <text value="费用{0}." name="CostNotify" />
     <text value="费用数" name="Costs" />
     <text value="无法完成登录操作。" name="CouldNotCompleteLoginOperation" />
@@ -938,6 +944,7 @@
     <text value="默认电子邮件地址" name="DefaultFromSenderEmailAddress" />
     <text value="默认语言" name="DefaultLanguage" />
     <text value="新用户将默认拥有此角色." name="DefaultRole_Description" />
+    <text value="默认排序方式" name="DefaultSorting" />
     <text value="延迟履行时间" name="DelayedPerformanceTime" />
     <text value="延期记录日志" name="DelayLog" />
     <text value="删除" name="Delete" />
@@ -979,6 +986,7 @@
     <text value="律师费折扣率" name="DiscountsOfAttorneyFee" />
     <text value="律师费折扣率 %" name="DiscountsOfAttorneyFeeWithPercentSign" />
     <text value="讨论" name="Discussion" />
+    <text value="显示" name="Display" />
     <text value="显示顺序" name="DisplayOrder" />
     <text value="显示二维码" name="DisplayQRCode" />
     <text value="显示设置" name="DisplaySettings" />
@@ -1247,8 +1255,8 @@
     <text value="聚焦" name="Focusing" />
     <text value="争议焦点" name="FocusOfControversy" />
     <text value="折叠" name="Fold" />
-    <text value="下级目录-新建" name="Folder.Create" />
-    <text value="下级目录-删除" name="Folder.Delete" />
+    <text value="目录-新建" name="Folder.Create" />
+    <text value="目录-删除" name="Folder.Delete" />
     <text value="文件-删除" name="Folder.Document.Delete" />
     <text value="文件-下载" name="Folder.Document.Download" />
     <text value="文件-重命名" name="Folder.Document.ReName" />
@@ -1256,9 +1264,9 @@
     <text value="文件-显示" name="Folder.Document.Show" />
     <text value="文件-上传" name="Folder.Document.Upload" />
     <text value="文件-查看" name="Folder.Document.View" />
-    <text value="下级目录-重命名" name="Folder.ReName" />
-    <text value="当前目录-显示" name="Folder.Show" />
-    <text value="下级目录-查看" name="Folder.View" />
+    <text value="目录-重命名" name="Folder.ReName" />
+    <text value="目录-显示" name="Folder.Show" />
+    <text value="目录-查看" name="Folder.View" />
     <text value="文件夹不能为空" name="FolderCanNotEmpty" />
     <text value="文件夹层级" name="FolderLevel" />
     <text value="随访人员" name="FolowUpPersonnel" />
@@ -1497,6 +1505,7 @@
     <text value="出具事由" name="IssuedByReason" />
     <text value="颁发机构" name="IssuingAgency" />
     <text value="是否设置当前目录为首目录？" name="IsTheCurrentDirectorySettotheFirstDirectory" />
+    <text value="是否有账户信息" name="IsThereAccountInformation" />
     <text value="是否是试用" name="IsTrialActive" />
     <text value="是否启用双因素身份验证？" name="IsTwoFactorEnabled" />
     <text name="Item" />
@@ -1932,6 +1941,7 @@
     <text value="发票数" name="NumberOfInvoices" />
     <text value="律师任务数同比" name="Numberoflawyerstasks" />
     <text value="律师案件数同比" name="NumberofLawyersYearonYear" />
+    <text value="行数" name="NumberOfLines" />
     <text value="按组织机构统计日志数量" name="NumberofLogByorganization" />
     <text value="日志数量" name="NumberOfLogs" />
     <text value="预订会议数量" name="NumberOfMeetings" />
@@ -2602,6 +2612,7 @@
     <text value="还原成功" name="RestoreSucceeded" />
     <text value="对不起，上传的附件类型不在可上传类型列表中！" name="RestrictedAttachmentType" />
     <text value="重新提交" name="Resubmit" />
+    <text value="结果日期" name="ResultDate" />
     <text value="审核结果" name="Results" />
     <text value="简历附件" name="ResumeAttachments" />
     <text value="检索" name="Retrieval" />
@@ -2755,6 +2766,7 @@
     <text value="从相册中选择" name="SelectFromTheAlbum" />
     <text value="请根据案件角色选择参与人员!" name="SelectPeopleByCaseRole" />
     <text value="选择人员查看甘特图" name="SelectPeopletoViewGanttCharts" />
+    <text value="已选择 %s 人" name="SelectPersonCnt" />
     <text value="选择订卷材料" name="SelectRollMaterial" />
     <text value="选择样本文件" name="SelectSampleFile" />
     <text value="选择人员" name="SelectStaff" />
@@ -2831,6 +2843,7 @@
     <text value="显示投标" name="ShowBid" />
     <text value="显示办案费税率" name="Showcaserate" />
     <text value="显示已删除用户" name="ShowDeletedUser" />
+    <text value="显示快速立案引导" name="ShowFilingQuickGuide" />
     <text value="查看发票" name="ShowInvoice" />
     <text value="显示律师费税率" name="Showlawyerrate" />
     <text value="只显示文件" name="ShowOnlyFiles" />
@@ -3126,6 +3139,8 @@
     <text value="与其他租户聊天" name="TenantToTenantChatFeature" />
     <text value="当前租户没有启用与其他租户聊天功能。" name="TenantToTenantChatFeatureIsNotEnabledForReceiver" />
     <text value="您没有启用与其他租户聊天的功能。" name="TenantToTenantChatFeatureIsNotEnabledForSender" />
+    <text value="招标名称" name="TenderName" />
+    <text value="招标名称必须为招标文件名称" name="TenderNamePrompt" />
     <text value="终止" name="Termination" />
     <text value="服务条款" name="TermsOfService" />
     <text value="测试" name="test" />
@@ -3477,6 +3492,7 @@
     <text value="拜访时间" name="VisitTime" />
     <text value="视觉设置" name="VisualSettings" />
     <text value="工资" name="Wages" />
+    <text value="待" name="Wait" />
     <text value="订阅到期日期后协商" name="WaitAfterSubscriptionExpireDate" />
     <text value="等待审核" name="WaitForAudit" />
     <text value="待认领" name="WaitForClaim" />
@@ -3516,6 +3532,7 @@
     <text value="您好 {0}，欢迎您使用律智荟" name="WelcomeToUseAilinkedlaw" />
     <text value="订阅到期后会怎么做" name="WhatWillDoneAfterSubscriptionExpiry" />
     <text value="是否" name="whether" />
+    <text value="是否存在账户信息" name="WhetherAccountInformation" />
     <text value="是否全天" name="WhetherAllDay" />
     <text value="是否归档" name="WhetherArchive" />
     <text value="是否批量下载？" name="WhetherBatchDownload" />

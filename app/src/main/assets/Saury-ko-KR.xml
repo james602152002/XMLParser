@@ -26,6 +26,7 @@
     <text value="오프라인 상태에서도 응용 프로그램 및 리소스에 액세스" name="Access to your applications and resources, even when you are offline" />
     <text value="액세스 카드 번호" name="AccessCardNumber" />
     <text value="액세스 토큰이 유효하지 않거나 만료되었습니다!" name="AccessTokenInvalidOrExpired" />
+    <text value="계좌 은행" name="AccountBank" />
     <text value="계정 바인딩" name="AccountBinding" />
     <text value="계좌 번호 관리" name="AccountManagement" />
     <text value="계좌 번호" name="AccountNumber" />
@@ -51,6 +52,7 @@
     <text value="청구 방법이 정상이면 변호사 비용이 0이 될 수 없습니다. 청구 정보를 추가하십시오!" name="AddChargingInformation" />
     <text value="연락처 추가" name="AddContact" />
     <text value="고객 라이브러리에서 연락처 추가" name="AddContactFromCustomerLibrary" />
+    <text value="법원 정보 추가" name="AddCourtInfo" />
     <text value="법원 알림 추가" name="AddCourtRemind" />
     <text value="브라우저 창 상단에서 {0}을 (를) 누르거나 &quot;책갈피&quot;를 클릭하고 드롭 다운 메뉴에서 &quot;책갈피 추가 ...&quot;를 선택하십시오." name="AddCurrentPageToBookmark" />
     <text value="고객 주소록 추가" name="AddCustomerAddressBook" />
@@ -319,7 +321,9 @@
     <text value="사순절" name="BeLent" />
     <text value="소유자" name="Belonger" />
     <text value="입찰 사례 [{0}]이 (가) 충돌 검색을 기다리고 있습니다." name="BidCaseWaitingForYouToPerformConflictRetrieval" />
+    <text value="입찰 날짜" name="BidDate" />
     <text value="입찰" name="Bidding" />
+    <text value="입찰 개시일" name="BidOpeningDate" />
     <text value="파일에 입찰" name="BidToCase" />
     <text value="빌" name="Bill" />
     <text value="청구 가능" name="Billable" />
@@ -663,6 +667,7 @@
     <text value="총 {0} 리뷰" name="CommentsCount" />
     <text value="성공적인 댓글" name="CommentSuccessful" />
     <text value="상업용 대출" name="CommercialLoans" />
+    <text value="약속 조항" name="CommitmentClause" />
     <text value="공통 기능" name="CommonFunctions" />
     <text value="일반적으로 사용되는" name="CommonlyUsed" />
     <text value="통신 시간" name="CommunicationTime" />
@@ -761,6 +766,7 @@
     <text value="금액 :" name="CostAmountsTitle" />
     <text value="비용 카테고리" name="CostCategory" />
     <text value="비용 카테고리" name="CostCategorys" />
+    <text value="입찰 신청시 비용 정보가 표시되지 않습니다" name="CostInformationIsNotDisplayedWhenBiddingApplication" />
     <text value="비용 {0}." name="CostNotify" />
     <text value="비용" name="Costs" />
     <text value="로그인 조작을 완료 할 수 없습니다." name="CouldNotCompleteLoginOperation" />
@@ -938,6 +944,7 @@
     <text name="DefaultFromSenderEmailAddress" />
     <text name="DefaultLanguage" />
     <text value="새로운 사용자는 기본적으로이 역할을 갖습니다." name="DefaultRole_Description" />
+    <text value="기본 정렬" name="DefaultSorting" />
     <text value="지연된 성능 시간" name="DelayedPerformanceTime" />
     <text value="지연된 레코드 로그" name="DelayLog" />
     <text value="제거" name="Delete" />
@@ -979,6 +986,7 @@
     <text value="변호사 수수료 할인율" name="DiscountsOfAttorneyFee" />
     <text value="변호사 할인율 %" name="DiscountsOfAttorneyFeeWithPercentSign" />
     <text value="토론" name="Discussion" />
+    <text value="디스플레이" name="Display" />
     <text name="DisplayOrder" />
     <text value="QR 코드 표시" name="DisplayQRCode" />
     <text value="디스플레이 설정" name="DisplaySettings" />
@@ -1247,8 +1255,8 @@
     <text value="초점" name="Focusing" />
     <text value="분쟁의 초점" name="FocusOfControversy" />
     <text value="폴딩" name="Fold" />
-    <text value="하위 디렉토리-새로운" name="Folder.Create" />
-    <text value="하위 디렉토리-삭제" name="Folder.Delete" />
+    <text value="디렉토리-신규" name="Folder.Create" />
+    <text value="디렉토리 삭제" name="Folder.Delete" />
     <text value="파일 삭제" name="Folder.Document.Delete" />
     <text value="파일 다운로드" name="Folder.Document.Download" />
     <text value="파일 - 이름 바꾸기" name="Folder.Document.ReName" />
@@ -1256,9 +1264,9 @@
     <text value="파일 표시" name="Folder.Document.Show" />
     <text value="파일 업로드" name="Folder.Document.Upload" />
     <text value="파일 -보기" name="Folder.Document.View" />
-    <text value="하위 디렉토리-이름 바꾸기" name="Folder.ReName" />
-    <text value="현재 디렉토리-표시" name="Folder.Show" />
-    <text value="하위 디렉토리-보기" name="Folder.View" />
+    <text value="디렉토리 이름 바꾸기" name="Folder.ReName" />
+    <text value="디렉토리 표시" name="Folder.Show" />
+    <text value="디렉토리보기" name="Folder.View" />
     <text value="폴더는 비워 둘 수 없습니다." name="FolderCanNotEmpty" />
     <text value="폴더 수준" name="FolderLevel" />
     <text value="후속 스탭" name="FolowUpPersonnel" />
@@ -1497,6 +1505,7 @@
     <text value="문제의 원인" name="IssuedByReason" />
     <text value="발행 권한" name="IssuingAgency" />
     <text value="현재 디렉토리가 첫 번째 디렉토리로 설정되어 있습니까?" name="IsTheCurrentDirectorySettotheFirstDirectory" />
+    <text value="계정 정보가 있습니까" name="IsThereAccountInformation" />
     <text name="IsTrialActive" />
     <text name="IsTwoFactorEnabled" />
     <text name="Item" />
@@ -1932,6 +1941,7 @@
     <text value="송장 수" name="NumberOfInvoices" />
     <text value="변호사 업무 수" name="Numberoflawyerstasks" />
     <text value="같은 해 변호사 수" name="NumberofLawyersYearonYear" />
+    <text value="행 수" name="NumberOfLines" />
     <text value="조직 별 통계 수" name="NumberofLogByorganization" />
     <text value="로그 수" name="NumberOfLogs" />
     <text value="예정된 회의 수" name="NumberOfMeetings" />
@@ -2602,6 +2612,7 @@
     <text value="성공적으로 복원 됨" name="RestoreSucceeded" />
     <text value="죄송합니다. 업로드 된 첨부 파일 형식이 업로드 할 수있는 형식 목록에 없습니다!" name="RestrictedAttachmentType" />
     <text value="다시 제출" name="Resubmit" />
+    <text value="결과 날짜" name="ResultDate" />
     <text value="감사 결과" name="Results" />
     <text value="첨부 파일 다시 시작" name="ResumeAttachments" />
     <text value="검색" name="Retrieval" />
@@ -2755,6 +2766,7 @@
     <text value="앨범에서 선택" name="SelectFromTheAlbum" />
     <text value="사건의 역할에 따라 참가자를 선택하십시오!" name="SelectPeopleByCaseRole" />
     <text value="Gantt 차트를 볼 사람을 선택하십시오." name="SelectPeopletoViewGanttCharts" />
+    <text value="선택된 %s" name="SelectPersonCnt" />
     <text value="주문 자료 선택" name="SelectRollMaterial" />
     <text value="샘플 파일 선택" name="SelectSampleFile" />
     <text value="직원 선택" name="SelectStaff" />
@@ -2831,6 +2843,7 @@
     <text value="입찰 표시" name="ShowBid" />
     <text value="표시 비율" name="Showcaserate" />
     <text value="삭제 된 사용자 표시" name="ShowDeletedUser" />
+    <text value="빠른 신고 안내 표시" name="ShowFilingQuickGuide" />
     <text name="ShowInvoice" />
     <text value="변호사 세율 표시" name="Showlawyerrate" />
     <text value="파일 만 표시" name="ShowOnlyFiles" />
@@ -3126,6 +3139,8 @@
     <text value="다른 세입자와 대화" name="TenantToTenantChatFeature" />
     <text value="임차인은 다른 임차인과 대화 할 수 없습니다." name="TenantToTenantChatFeatureIsNotEnabledForReceiver" />
     <text value="다른 임차인과 채팅을 사용하도록 설정하지 않았습니다." name="TenantToTenantChatFeatureIsNotEnabledForSender" />
+    <text value="부드러운 이름" name="TenderName" />
+    <text value="입찰의 이름은 입찰 문서의 이름이어야합니다." name="TenderNamePrompt" />
     <text value="終止" name="Termination" />
     <text value="서비스 약관" name="TermsOfService" />
     <text value="테스트" name="test" />
@@ -3477,6 +3492,7 @@
     <text value="방문 시간" name="VisitTime" />
     <text name="VisualSettings" />
     <text value="임금" name="Wages" />
+    <text value="기다림" name="Wait" />
     <text name="WaitAfterSubscriptionExpireDate" />
     <text value="검토 대기 중" name="WaitForAudit" />
     <text value="대기중인 소유권 주장" name="WaitForClaim" />
@@ -3516,6 +3532,7 @@
     <text value="안녕하세요 {0}, 사용법에 오신 것을 환영합니다." name="WelcomeToUseAilinkedlaw" />
     <text name="WhatWillDoneAfterSubscriptionExpiry" />
     <text value="여부" name="whether" />
+    <text value="계정 정보가 있는지 여부" name="WhetherAccountInformation" />
     <text value="하루 종일입니까?" name="WhetherAllDay" />
     <text value="보관 여부" name="WhetherArchive" />
     <text value="대량으로 다운로드됩니까?" name="WhetherBatchDownload" />
