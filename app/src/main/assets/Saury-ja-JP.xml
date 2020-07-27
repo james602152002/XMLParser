@@ -805,6 +805,7 @@
     <text value="新しいフォルダ" name="CreateNewFolder" />
     <text value="新しい汎用コードを作成する" name="CreateNewGeneralCode" />
     <text value="新しい言語を作成する" name="CreateNewLanguage" />
+    <text value="新しいプロジェクトを作成する" name="CreateNewProject" />
     <text value="役割を追加する" name="CreateNewRole" />
     <text value="テナントを追加" name="CreateNewTenant" />
     <text value="ユーザーを追加する" name="CreateNewUser" />
@@ -1972,6 +1973,7 @@
     <text value="オンライン検索" name="OnlineSearch" />
     <text value="申し訳ありませんが、あなたは1つのファイルの名前を変更することができます！" name="OnlyIndividualFilesCanBeRenamed" />
     <text name="OnlyLockedUsers" />
+    <text value="選択できる顧客は1人だけです" name="OnlyOneCustomerCanBeSelected" />
     <text value="働く状態" name="OnTheJobStatus" />
     <text value="ああ、行方不明。" name="OopsYouAreLost" />
     <text value="オープン" name="Open" />
@@ -2748,6 +2750,7 @@
     <text value="詳細を表示するカテゴリを選択" name="SelectACategoryToViewTheDetails" />
     <text value="ディレクトリを選択してください" name="SelectADirectory" />
     <text value="すべて選択" name="SelectAll" />
+    <text value="既存のプロジェクトを選択" name="SelectAnExistingProject" />
     <text value="子供を選択する" name="SelectAnItem" />
     <text value="メンバーを表示するには組織ユニットを選択してください。" name="SelectAnOrganizationalUnitToViewMembers" />
     <text value="メンバーを表示する組織を選択します。" name="SelectAnOrganizationUnitToSeeMembers" />

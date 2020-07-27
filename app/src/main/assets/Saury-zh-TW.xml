@@ -805,6 +805,7 @@
     <text value="新建文件夾" name="CreateNewFolder" />
     <text value="創建新的通用代碼" name="CreateNewGeneralCode" />
     <text value="創建新的語言" name="CreateNewLanguage" />
+    <text value="創建新項目" name="CreateNewProject" />
     <text value="添加角色" name="CreateNewRole" />
     <text value="添加租戶" name="CreateNewTenant" />
     <text value="添加用戶" name="CreateNewUser" />
@@ -1972,6 +1973,7 @@
     <text value="在線檢索" name="OnlineSearch" />
     <text value="對不起，您只能對單個文件重命名！" name="OnlyIndividualFilesCanBeRenamed" />
     <text name="OnlyLockedUsers" />
+    <text value="只能選擇一位客戶" name="OnlyOneCustomerCanBeSelected" />
     <text value="在職狀態" name="OnTheJobStatus" />
     <text value="噢! 失踪了." name="OopsYouAreLost" />
     <text value="公開" name="Open" />
@@ -2748,6 +2750,7 @@
     <text value="選擇一個分類查看詳情" name="SelectACategoryToViewTheDetails" />
     <text value="請選擇一個目錄" name="SelectADirectory" />
     <text value="全選" name="SelectAll" />
+    <text value="選擇已有項目" name="SelectAnExistingProject" />
     <text value="選擇一個子項" name="SelectAnItem" />
     <text value=" 選擇組織單位查看成員。" name="SelectAnOrganizationalUnitToViewMembers" />
     <text value="選擇一個組織機構來查看成員." name="SelectAnOrganizationUnitToSeeMembers" />

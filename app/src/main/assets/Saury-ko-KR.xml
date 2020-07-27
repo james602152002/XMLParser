@@ -805,6 +805,7 @@
     <text value="새 폴더" name="CreateNewFolder" />
     <text value="새로운 일반 코드 생성" name="CreateNewGeneralCode" />
     <text value="새 언어 만들기" name="CreateNewLanguage" />
+    <text value="새로운 프로젝트 만들기" name="CreateNewProject" />
     <text value="역할 추가" name="CreateNewRole" />
     <text value="테넌트 추가" name="CreateNewTenant" />
     <text value="사용자 추가" name="CreateNewUser" />
@@ -1972,6 +1973,7 @@
     <text value="온라인 검색" name="OnlineSearch" />
     <text value="죄송합니다. 하나의 파일 이름 만 바꿀 수 있습니다!" name="OnlyIndividualFilesCanBeRenamed" />
     <text name="OnlyLockedUsers" />
+    <text value="한 명의 고객 만 선택할 수 있습니다" name="OnlyOneCustomerCanBeSelected" />
     <text value="근무 상태" name="OnTheJobStatus" />
     <text value="오!" name="OopsYouAreLost" />
     <text value="열기" name="Open" />
@@ -2748,6 +2750,7 @@
     <text value="세부 정보를 볼 카테고리 선택" name="SelectACategoryToViewTheDetails" />
     <text value="디렉토리를 선택하십시오." name="SelectADirectory" />
     <text value="모두 선택" name="SelectAll" />
+    <text value="기존 프로젝트를 선택하십시오" name="SelectAnExistingProject" />
     <text value="자녀 선택" name="SelectAnItem" />
     <text value="구성원을 보려면 조직 단위를 선택하십시오." name="SelectAnOrganizationalUnitToViewMembers" />
     <text value="구성원을 볼 조직을 선택하십시오." name="SelectAnOrganizationUnitToSeeMembers" />

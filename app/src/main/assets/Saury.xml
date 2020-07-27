@@ -805,6 +805,7 @@
     <text value="new folder" name="CreateNewFolder" />
     <text value="Create a new generic code" name="CreateNewGeneralCode" />
     <text value="Create new language" name="CreateNewLanguage" />
+    <text value="Create new project" name="CreateNewProject" />
     <text value="Create new role" name="CreateNewRole" />
     <text value="Create new tenant" name="CreateNewTenant" />
     <text value="Create new user" name="CreateNewUser" />
@@ -1972,6 +1973,7 @@
     <text value="Online search" name="OnlineSearch" />
     <text value="Sorry, you can only rename a single file!" name="OnlyIndividualFilesCanBeRenamed" />
     <text value="Only locked users" name="OnlyLockedUsers" />
+    <text value="Only one customer can be selected" name="OnlyOneCustomerCanBeSelected" />
     <text value="Working status" name="OnTheJobStatus" />
     <text value="Oops! You're lost." name="OopsYouAreLost" />
     <text value="public" name="Open" />
@@ -2748,6 +2750,7 @@
     <text value="Select a category to view details" name="SelectACategoryToViewTheDetails" />
     <text value="Please select a directory" name="SelectADirectory" />
     <text value="select all" name="SelectAll" />
+    <text value="Select an existing project" name="SelectAnExistingProject" />
     <text value="Select A Project" name="SelectAnItem" />
     <text value="Select organizational unit to view members." name="SelectAnOrganizationalUnitToViewMembers" />
     <text value="Select an organization unit to see members." name="SelectAnOrganizationUnitToSeeMembers" />
