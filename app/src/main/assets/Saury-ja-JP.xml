@@ -291,6 +291,7 @@
     <text value="8月" name="August" />
     <text value="著者" name="Author" />
     <text value="著者の重要度レベル" name="AuthorImportantLevel" />
+    <text value="認可" name="Authorization" />
     <text value="許可の役割" name="AuthorizationRole" />
     <text value="許可ユーザー" name="AuthorizationUser" />
     <text value="定期的な支払いを有効にする" name="AutomaticallyBillMyAccount" />
@@ -476,6 +477,7 @@
     <text value="ケースファイル[{0}]がスタンプされ、スタンプするのを待っています。" name="CaseFileSealReview" />
     <text value="[{0}]はケースファイルをアップロードし、あなたのレビューを待っていました。" name="CaseFileWaitingForReview" />
     <text value="財務レビュー" name="CaseFinanceCheck" />
+    <text value="ケースディレクトリに権限を設定してもよろしいですか？ケースディレクトリにカスタム権限がある場合は、このプロンプトを無視してください。ケースディレクトリにカスタム権限がない場合、この操作を確認すると、システムのデフォルトの権限は使用できなくなります！" name="CaseFolderPermissinAlert" />
     <text value="ケース操作ガイド" name="CaseGuide" />
     <text value="ケース処理ステータス" name="CaseHandlingStatus" />
     <text value="案件[{0}]が審査のために承認され、進捗を待っています。" name="CaseHasBeenPassedAndWaitingForFinalCheck" />
@@ -807,6 +809,7 @@
     <text value="新しい言語を作成する" name="CreateNewLanguage" />
     <text value="新しいプロジェクトを作成する" name="CreateNewProject" />
     <text value="役割を追加する" name="CreateNewRole" />
+    <text value="新しいステージを作成する" name="CreateNewStage" />
     <text value="テナントを追加" name="CreateNewTenant" />
     <text value="ユーザーを追加する" name="CreateNewUser" />
     <text value="プロセスを作成する" name="CreateProcess" />
@@ -1304,6 +1307,7 @@
     <text value="データを準備しています。" name="GdprDataPrepareStartedNotification" />
     <text value="セックス" name="Gender" />
     <text value="基本情報" name="General" />
+    <text value="一般的なコードのメンテナンス" name="GeneralCodeMaintenance" />
     <text value="生成された" name="Generate" />
     <text value="請求書の作成" name="GenerateBills" />
     <text value="タイマーに基づいて生成：" name="GeneratedBasedTimer" />
@@ -1360,6 +1364,8 @@
     <text value="QRコードを隠す" name="HideQRCode" />
     <text value="キャッシュをクリアすると、ダウンロードしたファイルや画像は削除されますので、ご注意ください。" name="HintClearCache" />
     <text value="（顧客を作成するか既存の顧客を選択する）" name="HintCreateOrSelectClient" />
+    <text value="（プロジェクトを作成するか、既存のプロジェクトを選択します）" name="HintCreateOrSelectProject" />
+    <text value="（ステージを作成するか、既存のステージを選択します）" name="HintCreateOrSelectStage" />
     <text value="フレンドリーなヒント" name="Hints" />
     <text name="History" />
     <text value="自宅住所" name="HomeAddress" />
@@ -2751,6 +2757,7 @@
     <text value="ディレクトリを選択してください" name="SelectADirectory" />
     <text value="すべて選択" name="SelectAll" />
     <text value="既存のプロジェクトを選択" name="SelectAnExistingProject" />
+    <text value="既存のステージを選択してください" name="SelectAnExistingStage" />
     <text value="子供を選択する" name="SelectAnItem" />
     <text value="メンバーを表示するには組織ユニットを選択してください。" name="SelectAnOrganizationalUnitToViewMembers" />
     <text value="メンバーを表示する組織を選択します。" name="SelectAnOrganizationUnitToSeeMembers" />
@@ -2894,6 +2901,7 @@
     <text value="積み上げグラフ" name="StackChart" />
     <text value="従業員" name="Staff" />
     <text value="フェーズ" name="Stage" />
+    <text value="ステージ情報" name="StageInfo" />
     <text value="ケースの段階で複数の選択肢を許可" name="StageIsMultipleSelection" />
     <text value="ステージ名" name="StageName" />
     <text value="タスクステージリスト名{0}は既に占有されています。" name="StageNameAlreadyExists" />

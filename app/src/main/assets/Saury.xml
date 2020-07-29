@@ -291,6 +291,7 @@
     <text value="August" name="August" />
     <text value="The author" name="Author" />
     <text value="Author importance level" name="AuthorImportantLevel" />
+    <text value="Authorization" name="Authorization" />
     <text value="Authorization Role" name="AuthorizationRole" />
     <text value="Authorized user" name="AuthorizationUser" />
     <text value="Enable recurring payments" name="AutomaticallyBillMyAccount" />
@@ -476,6 +477,7 @@
     <text value="There is a case file [{0}] stamped and is waiting for you to stamp." name="CaseFileSealReview" />
     <text value="[{0}] uploaded the case file and waited for your review." name="CaseFileWaitingForReview" />
     <text value="Financial review" name="CaseFinanceCheck" />
+    <text value="Are you sure to set permissions for the case directory? If the case directory has custom permissions, please ignore this prompt; if the case directory does not have custom permissions, the system default permissions will be useless after confirming this operation!" name="CaseFolderPermissinAlert" />
     <text value="Case operation guide" name="CaseGuide" />
     <text value="Case handling status" name="CaseHandlingStatus" />
     <text value="Case [{0}] has been approved for review and is waiting to go forward." name="CaseHasBeenPassedAndWaitingForFinalCheck" />
@@ -807,6 +809,7 @@
     <text value="Create new language" name="CreateNewLanguage" />
     <text value="Create new project" name="CreateNewProject" />
     <text value="Create new role" name="CreateNewRole" />
+    <text value="Create a new stage" name="CreateNewStage" />
     <text value="Create new tenant" name="CreateNewTenant" />
     <text value="Create new user" name="CreateNewUser" />
     <text value="Create a process" name="CreateProcess" />
@@ -1304,6 +1307,7 @@
     <text value="We are preparing your data. " name="GdprDataPrepareStartedNotification" />
     <text value="gender" name="Gender" />
     <text value="General" name="General" />
+    <text value="General code maintenance" name="GeneralCodeMaintenance" />
     <text value="generate" name="Generate" />
     <text value="Generate bills" name="GenerateBills" />
     <text value="Generated based on the timer:" name="GeneratedBasedTimer" />
@@ -1360,6 +1364,8 @@
     <text value="Hide QR code" name="HideQRCode" />
     <text value="After clearing the cache, the files and pictures you download will be deleted. Please proceed with caution." name="HintClearCache" />
     <text value="(Create a customer or select an existing customer)" name="HintCreateOrSelectClient" />
+    <text value="(Create project or select existing project)" name="HintCreateOrSelectProject" />
+    <text value="(Create stage or select existing stage)" name="HintCreateOrSelectStage" />
     <text value="friendly reminder" name="Hints" />
     <text value="History" name="History" />
     <text value="family address" name="HomeAddress" />
@@ -2751,6 +2757,7 @@
     <text value="Please select a directory" name="SelectADirectory" />
     <text value="select all" name="SelectAll" />
     <text value="Select an existing project" name="SelectAnExistingProject" />
+    <text value="Choose an existing stage" name="SelectAnExistingStage" />
     <text value="Select A Project" name="SelectAnItem" />
     <text value="Select organizational unit to view members." name="SelectAnOrganizationalUnitToViewMembers" />
     <text value="Select an organization unit to see members." name="SelectAnOrganizationUnitToSeeMembers" />
@@ -2894,6 +2901,7 @@
     <text value="Stacked Chart" name="StackChart" />
     <text value="Employee" name="Staff" />
     <text value="stage" name="Stage" />
+    <text value="Stage information" name="StageInfo" />
     <text value="Multiple choices allowed at the case stage" name="StageIsMultipleSelection" />
     <text value="Stage name" name="StageName" />
     <text value="The task stage list name {0} is already occupied." name="StageNameAlreadyExists" />

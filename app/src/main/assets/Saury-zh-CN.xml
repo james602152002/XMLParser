@@ -291,6 +291,7 @@
     <text value="八月" name="August" />
     <text value="作者" name="Author" />
     <text value="作者重要级别" name="AuthorImportantLevel" />
+    <text value="授权" name="Authorization" />
     <text value="授权角色" name="AuthorizationRole" />
     <text value="授权用户" name="AuthorizationUser" />
     <text value="启用定期付款" name="AutomaticallyBillMyAccount" />
@@ -476,6 +477,7 @@
     <text value="有一个案件文书[{0}]盖章申请,等待您进行盖章." name="CaseFileSealReview" />
     <text value="[{0}]上传了案件文书,等待您进行审核." name="CaseFileWaitingForReview" />
     <text value="财务报审" name="CaseFinanceCheck" />
+    <text value="是否确定为案件目录设置权限，如果案件目录已自定义权限，请忽略此提示；如果案件目录未自定义权限，确定此操作后系统默认权限将失去作用！" name="CaseFolderPermissinAlert" />
     <text value="案件操作指引" name="CaseGuide" />
     <text value="案件办理状态" name="CaseHandlingStatus" />
     <text value="案件[{0}]已审核通过，等待转正." name="CaseHasBeenPassedAndWaitingForFinalCheck" />
@@ -807,6 +809,7 @@
     <text value="创建新的语言" name="CreateNewLanguage" />
     <text value="创建新项目" name="CreateNewProject" />
     <text value="添加角色" name="CreateNewRole" />
+    <text value="创建新阶段" name="CreateNewStage" />
     <text value="添加租户" name="CreateNewTenant" />
     <text value="添加用户" name="CreateNewUser" />
     <text value="创建进程" name="CreateProcess" />
@@ -1304,6 +1307,7 @@
     <text value="我们正在准备您的数据。 数据准备就绪时，您会收到通知。" name="GdprDataPrepareStartedNotification" />
     <text value="性别" name="Gender" />
     <text value="基本信息" name="General" />
+    <text value="通用代码维护" name="GeneralCodeMaintenance" />
     <text value="生成" name="Generate" />
     <text value="生成账单" name="GenerateBills" />
     <text value="根据计时器生成：" name="GeneratedBasedTimer" />
@@ -1360,6 +1364,8 @@
     <text value="隐藏二维码" name="HideQRCode" />
     <text value="清除缓存后，您下载的文件和图片将删除，请谨慎操作。" name="HintClearCache" />
     <text value="( 创建客户或选择已有客户 )" name="HintCreateOrSelectClient" />
+    <text value="( 创建项目或选择已有项目 )" name="HintCreateOrSelectProject" />
+    <text value="( 创建阶段或选择已有阶段 )" name="HintCreateOrSelectStage" />
     <text value="友情提示" name="Hints" />
     <text name="History" />
     <text value="家庭地址" name="HomeAddress" />
@@ -2751,6 +2757,7 @@
     <text value="请选择一个目录" name="SelectADirectory" />
     <text value="全选" name="SelectAll" />
     <text value="选择已有项目" name="SelectAnExistingProject" />
+    <text value="选择已有阶段" name="SelectAnExistingStage" />
     <text value="选择一个项目" name="SelectAnItem" />
     <text value=" 选择组织单位查看成员。" name="SelectAnOrganizationalUnitToViewMembers" />
     <text value="选择一个组织机构来查看成员。" name="SelectAnOrganizationUnitToSeeMembers" />
@@ -2894,6 +2901,7 @@
     <text value="堆叠图" name="StackChart" />
     <text value="职员" name="Staff" />
     <text value="阶段" name="Stage" />
+    <text value="阶段信息" name="StageInfo" />
     <text value="案件阶段允许多选" name="StageIsMultipleSelection" />
     <text value="阶段名称" name="StageName" />
     <text value="任务阶段列表名称 {0} 已被占用." name="StageNameAlreadyExists" />

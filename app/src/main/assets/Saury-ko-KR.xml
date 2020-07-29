@@ -291,6 +291,7 @@
     <text value="8 월" name="August" />
     <text value="저자" name="Author" />
     <text value="저자 중요도 수준" name="AuthorImportantLevel" />
+    <text value="권한 부여" name="Authorization" />
     <text value="권한 부여 역할" name="AuthorizationRole" />
     <text value="승인 된 사용자" name="AuthorizationUser" />
     <text value="반복 결제 사용" name="AutomaticallyBillMyAccount" />
@@ -476,6 +477,7 @@
     <text value="사례 파일 [{0}]이 (가) 스탬프 처리되었으며 스탬프 처리를 기다리고 있습니다." name="CaseFileSealReview" />
     <text value="[{0}] 사례 파일을 업로드하고 귀하의 검토를 기다렸습니다." name="CaseFileWaitingForReview" />
     <text value="재무 검토" name="CaseFinanceCheck" />
+    <text value="사례 디렉토리에 대한 권한을 설정 하시겠습니까? 사례 디렉토리에 사용자 정의 권한이있는 경우이 프롬프트를 무시하십시오. 사례 디렉토리에 사용자 정의 권한이없는 경우이 작업을 확인한 후 시스템 기본 권한이 쓸모 없게됩니다!" name="CaseFolderPermissinAlert" />
     <text value="케이스 조작 가이드" name="CaseGuide" />
     <text value="케이스 처리 상태" name="CaseHandlingStatus" />
     <text value="사례 [{0}]이 (가) 검토 승인을 받았으며 앞으로 기다리고 있습니다." name="CaseHasBeenPassedAndWaitingForFinalCheck" />
@@ -807,6 +809,7 @@
     <text value="새 언어 만들기" name="CreateNewLanguage" />
     <text value="새로운 프로젝트 만들기" name="CreateNewProject" />
     <text value="역할 추가" name="CreateNewRole" />
+    <text value="새로운 무대 만들기" name="CreateNewStage" />
     <text value="테넌트 추가" name="CreateNewTenant" />
     <text value="사용자 추가" name="CreateNewUser" />
     <text value="프로세스 만들기" name="CreateProcess" />
@@ -1304,6 +1307,7 @@
     <text value="귀하의 데이터를 준비 중입니다. " name="GdprDataPrepareStartedNotification" />
     <text value="성별" name="Gender" />
     <text value="기본 정보" name="General" />
+    <text value="일반적인 코드 유지 보수" name="GeneralCodeMaintenance" />
     <text value="생성 된" name="Generate" />
     <text value="지폐 생성" name="GenerateBills" />
     <text value="타이머를 기반으로 생성 :" name="GeneratedBasedTimer" />
@@ -1360,6 +1364,8 @@
     <text value="QR 코드 숨기기" name="HideQRCode" />
     <text value="캐시를 지우면 다운로드 한 파일과 사진이 삭제되므로주의하여 진행하십시오." name="HintClearCache" />
     <text value="(고객 생성 또는 기존 고객 선택)" name="HintCreateOrSelectClient" />
+    <text value="(프로젝트 생성 또는 기존 프로젝트 선택)" name="HintCreateOrSelectProject" />
+    <text value="(스테이지 생성 또는 기존 스테이지 선택)" name="HintCreateOrSelectStage" />
     <text value="친절한 팁" name="Hints" />
     <text name="History" />
     <text value="집 주소" name="HomeAddress" />
@@ -2751,6 +2757,7 @@
     <text value="디렉토리를 선택하십시오." name="SelectADirectory" />
     <text value="모두 선택" name="SelectAll" />
     <text value="기존 프로젝트를 선택하십시오" name="SelectAnExistingProject" />
+    <text value="기존 단계를 선택하십시오" name="SelectAnExistingStage" />
     <text value="자녀 선택" name="SelectAnItem" />
     <text value="구성원을 보려면 조직 단위를 선택하십시오." name="SelectAnOrganizationalUnitToViewMembers" />
     <text value="구성원을 볼 조직을 선택하십시오." name="SelectAnOrganizationUnitToSeeMembers" />
@@ -2894,6 +2901,7 @@
     <text value="누적 그래프" name="StackChart" />
     <text value="직원" name="Staff" />
     <text value="위상" name="Stage" />
+    <text value="무대 정보" name="StageInfo" />
     <text value="사례 단계에서 여러 선택 가능" name="StageIsMultipleSelection" />
     <text value="무대 이름" name="StageName" />
     <text value="작업 단계 목록 이름 {0}이 (가) 이미 사용되었습니다." name="StageNameAlreadyExists" />

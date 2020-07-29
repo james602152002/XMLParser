@@ -291,6 +291,7 @@
     <text value="八月" name="August" />
     <text value="作者" name="Author" />
     <text value="作者重要級別" name="AuthorImportantLevel" />
+    <text value="授權" name="Authorization" />
     <text value="授權角色" name="AuthorizationRole" />
     <text value="授權用戶" name="AuthorizationUser" />
     <text value="啟用定期付款" name="AutomaticallyBillMyAccount" />
@@ -476,6 +477,7 @@
     <text value="有一個案件文書[{0}]蓋章申請,等待您進行蓋章." name="CaseFileSealReview" />
     <text value="[{0}]上傳了案件文書,等待您進行審核." name="CaseFileWaitingForReview" />
     <text value="財務報審" name="CaseFinanceCheck" />
+    <text value="是否確定為案件目錄設置權限，如果案件目錄已自定義權限，請忽略此提示；如果案件目錄未自定義權限，確定此操作後系統默認權限將失去作用！" name="CaseFolderPermissinAlert" />
     <text value="案件操作指引" name="CaseGuide" />
     <text value="案件辦理狀態" name="CaseHandlingStatus" />
     <text value="案件[{0}]已審核通過，等待轉正." name="CaseHasBeenPassedAndWaitingForFinalCheck" />
@@ -807,6 +809,7 @@
     <text value="創建新的語言" name="CreateNewLanguage" />
     <text value="創建新項目" name="CreateNewProject" />
     <text value="添加角色" name="CreateNewRole" />
+    <text value="創建新階段" name="CreateNewStage" />
     <text value="添加租戶" name="CreateNewTenant" />
     <text value="添加用戶" name="CreateNewUser" />
     <text value="創建進程" name="CreateProcess" />
@@ -1304,6 +1307,7 @@
     <text value="我們正在準備您的數據。" name="GdprDataPrepareStartedNotification" />
     <text value="性別" name="Gender" />
     <text value="基本信息" name="General" />
+    <text value="通用代碼維護" name="GeneralCodeMaintenance" />
     <text value="生成" name="Generate" />
     <text value="生成賬單" name="GenerateBills" />
     <text value="根據計時器生成：" name="GeneratedBasedTimer" />
@@ -1360,6 +1364,8 @@
     <text value="隱藏二維碼" name="HideQRCode" />
     <text value="清除緩存後，您下載的文件和圖片將刪除，請謹慎操作。" name="HintClearCache" />
     <text value="( 創建客戶或選擇已有客戶 )" name="HintCreateOrSelectClient" />
+    <text value="( 創建項目或選擇已有項目 )" name="HintCreateOrSelectProject" />
+    <text value="( 創建階段或選擇已有階段 )" name="HintCreateOrSelectStage" />
     <text value="友情提示" name="Hints" />
     <text name="History" />
     <text value="家庭地址" name="HomeAddress" />
@@ -2751,6 +2757,7 @@
     <text value="請選擇一個目錄" name="SelectADirectory" />
     <text value="全選" name="SelectAll" />
     <text value="選擇已有項目" name="SelectAnExistingProject" />
+    <text value="選擇已有階段" name="SelectAnExistingStage" />
     <text value="選擇一個子項" name="SelectAnItem" />
     <text value=" 選擇組織單位查看成員。" name="SelectAnOrganizationalUnitToViewMembers" />
     <text value="選擇一個組織機構來查看成員." name="SelectAnOrganizationUnitToSeeMembers" />
@@ -2894,6 +2901,7 @@
     <text value="堆疊圖" name="StackChart" />
     <text value="職員" name="Staff" />
     <text value="階段" name="Stage" />
+    <text value="階段信息" name="StageInfo" />
     <text value="案件階段允許多選" name="StageIsMultipleSelection" />
     <text value="階段名稱" name="StageName" />
     <text value="任務階段列表名稱 {0} 已被佔用." name="StageNameAlreadyExists" />
