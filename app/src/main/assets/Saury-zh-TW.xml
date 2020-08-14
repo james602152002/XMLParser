@@ -980,6 +980,7 @@
     <text value="文書報審詳細信息" name="DetailsOfApplicatingDocument" />
     <text value="確定要刪除分類信息 {0}?" name="DetermineToDeleteClassifiedInfo" />
     <text value="設備" name="Device" />
+    <text value="撥打電話" name="DialNum" />
     <text value="未中標" name="DidNotWinTheBid" />
     <text value="不同費率" name="DifferentRate" />
     <text value="無法模擬不同租戶的用戶！" name="DifferentTenantImpersonationErrorMessage" />
@@ -1977,6 +1978,7 @@
     <text value="進行中的項目" name="OngoingProjects" />
     <text name="Online" />
     <text value="在線檢索" name="OnlineSearch" />
+    <text value="只允許案件負責人審核相關案件日誌" name="OnlyCaseManagerAuditLog" />
     <text value="對不起，您只能對單個文件重命名！" name="OnlyIndividualFilesCanBeRenamed" />
     <text name="OnlyLockedUsers" />
     <text value="只能選擇一位客戶" name="OnlyOneCustomerCanBeSelected" />
@@ -2016,6 +2018,7 @@
     <text value="組織機構用戶統計" name="OrganizationUserStatistics" />
     <text value="原件" name="Original" />
     <text value="原文地址" name="Originaladdress" />
+    <text value="原" name="originalKey" />
     <text value="原執業律師事務所" name="OriginalPracticeLawFirm" />
     <text name="OriginalValue" />
     <text value="或者以其他用戶身份登錄" name="OrLogindifferentuser" />
@@ -2304,6 +2307,7 @@
     <text value="請選擇帶出時間!" name="PleaseChooseToBringOutTime" />
     <text value="上傳與刪除背景圖片後請點擊頁面右上角的保存全部按鈕！" name="PleaseClickSaveAllAfterOperation" />
     <text value="請完善會議紀要內容" name="PleaseCompleteMinutesOfMeeting" />
+    <text value="請完善用戶信息！" name="PleaseCompleteUserInformation" />
     <text name="PleaseEnterAtLeastNCharacter" />
     <text value="請在{0}秒內輸入驗證碼" name="PleaseEnterCodeWithinSeconds" />
     <text value="請輸入登錄信息" name="PleaseEnterLoginInformation" />
@@ -2796,6 +2800,7 @@
     <text value="發送" name="Send" />
     <text value="發送通知郵件." name="SendActivationEmail" />
     <text value="發送審核" name="SendAnAudit" />
+    <text value="發送郵件" name="SendEmail" />
     <text value="系統在幾十秒內向您發送一封郵件,用於激活您的用戶賬號，請接收並點擊郵件內容中的激活鏈接。" name="SendEmailActivationLink_Information" />
     <text value="發送人" name="Sender" />
     <text value="發送合夥人" name="SendPartner" />
@@ -2804,6 +2809,7 @@
     <text value="發送安全碼." name="SendSecurityCode" />
     <text value="您需要登錄驗證. 請選擇一種驗證類型. 代碼將根據選定的驗證類型發送." name="SendSecurityCode_Information" />
     <text value="安全碼無法發送！" name="SendSecurityCodeErrorMessage" />
+    <text value="發送短信" name="SendSMS" />
     <text value="發送測試郵件" name="SendTestEmail" />
     <text value="發送財務審核" name="SendToFinancialAudit" />
     <text value="已發送" name="Sent" />
@@ -2841,6 +2847,7 @@
     <text value="分享" name="Share" />
     <text value="律智薈秉承專業的公司提供專業極致服務的理念，充分考慮到了開放合作的重要性，與眾多科技公司、數據內容專業公司合作，為律師事務所及律師提供更豐富的應用場景與資源，全面" name="ShareContent" />
     <text value="共享" name="Shared" />
+    <text value="共享模板" name="SharedTemplate" />
     <text value="股東" name="Shareholder" />
     <text value="股東信息" name="ShareholderInformation" />
     <text value="分享會議信息" name="ShareMeetingInfo" />
@@ -2858,7 +2865,7 @@
     <text value="顯示律師費稅率" name="Showlawyerrate" />
     <text value="只顯示文件" name="ShowOnlyFiles" />
     <text value="顯示統計信息" name="ShowStatistics" />
-    <text value="側欄" name="Sidebar" />
+    <text value="側邊欄" name="Sidebar" />
     <text value="側欄皮膚" name="SidebarSkins" />
     <text value="簽署" name="sign" />
     <text value="簽署方" name="Signatories" />
@@ -2868,6 +2875,7 @@
     <text value="相似客戶列表" name="SimilarCustomerList" />
     <text value="簡體中文" name="SimplifiedChinese" />
     <text value="單一費率" name="SingleRate" />
+    <text value="只允許單個計時器開啟計時" name="SingleTimerStartOnly" />
     <text value="網站地圖" name="SiteMap" />
     <text value="網站檢索" name="SiteSearch" />
     <text value="情境" name="Situation" />

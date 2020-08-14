@@ -980,6 +980,7 @@
     <text value="ドキュメントレビューの詳細" name="DetailsOfApplicatingDocument" />
     <text value="カテゴリ情報{0}を削除してもよろしいですか？" name="DetermineToDeleteClassifiedInfo" />
     <text value="装備品" name="Device" />
+    <text value="番号をダイヤル" name="DialNum" />
     <text value="落札できなかった" name="DidNotWinTheBid" />
     <text value="異なる料金" name="DifferentRate" />
     <text value="異なるテナントのユーザーをシミュレートすることはできません！" name="DifferentTenantImpersonationErrorMessage" />
@@ -1977,6 +1978,7 @@
     <text value="進行中のプロジェクト" name="OngoingProjects" />
     <text name="Online" />
     <text value="オンライン検索" name="OnlineSearch" />
+    <text value="ケースの担当者のみが関連するケースのログを確認できます" name="OnlyCaseManagerAuditLog" />
     <text value="申し訳ありませんが、あなたは1つのファイルの名前を変更することができます！" name="OnlyIndividualFilesCanBeRenamed" />
     <text name="OnlyLockedUsers" />
     <text value="選択できる顧客は1人だけです" name="OnlyOneCustomerCanBeSelected" />
@@ -2016,6 +2018,7 @@
     <text value="組織のユーザー統計" name="OrganizationUserStatistics" />
     <text value="オリジナル" name="Original" />
     <text value="元の住所" name="Originaladdress" />
+    <text value="元の" name="originalKey" />
     <text value="元練習法律事務所" name="OriginalPracticeLawFirm" />
     <text name="OriginalValue" />
     <text value="または、別のユーザーとしてログインする" name="OrLogindifferentuser" />
@@ -2304,6 +2307,7 @@
     <text value="時間を持って来てください！" name="PleaseChooseToBringOutTime" />
     <text value="背景画像をアップロードして削除したら、ページの右上隅にある[すべて保存]ボタンをクリックしてください。" name="PleaseClickSaveAllAfterOperation" />
     <text value="会議の議事録を完了してください" name="PleaseCompleteMinutesOfMeeting" />
+    <text value="ユーザー情報を入力してください！" name="PleaseCompleteUserInformation" />
     <text name="PleaseEnterAtLeastNCharacter" />
     <text value="{0}秒以内に確認コードを入力してください" name="PleaseEnterCodeWithinSeconds" />
     <text value="ログイン情報を入力してください" name="PleaseEnterLoginInformation" />
@@ -2796,6 +2800,7 @@
     <text value="送信" name="Send" />
     <text value="通知メールを送信します。" name="SendActivationEmail" />
     <text value="監査を送信する" name="SendAnAudit" />
+    <text value="メールを送る" name="SendEmail" />
     <text value="システムは、数十秒以内にあなたのユーザーアカウントを有効にするための電子メールを送信します。電子メールコンテンツのアクティベーションリンクを受信して​​クリックしてください。 " name="SendEmailActivationLink_Information" />
     <text value="送信者" name="Sender" />
     <text value="送信パートナー" name="SendPartner" />
@@ -2804,6 +2809,7 @@
     <text value="セキュリティコードを送信します。" name="SendSecurityCode" />
     <text value="ログイン認証が必要です。確認タイプを選択してください。選択した確認タイプに従ってコードが送信されます。" name="SendSecurityCode_Information" />
     <text value="セキュリティコードを送信できません！" name="SendSecurityCodeErrorMessage" />
+    <text value="メッセージを送る" name="SendSMS" />
     <text value="テストメールを送信する" name="SendTestEmail" />
     <text value="財務レビューを送信する" name="SendToFinancialAudit" />
     <text value="送信済み" name="Sent" />
@@ -2841,6 +2847,7 @@
     <text value="共有する" name="Share" />
     <text value="AiLinkedLawは、プロフェッショナル企業向けのプロフェッショナルでプロフェッショナルなサービスを提供するという理念を遵守し、オープンな協力の重要性を十分に考慮し、多くのテクノロジー企業やデータコンテンツのプロフェッショナル企業と協力してより豊富なアプリケーションシナリオとリソースを法律事務所や弁護士に提供します。" name="ShareContent" />
     <text value="共有した" name="Shared" />
+    <text value="テンプレートを共有" name="SharedTemplate" />
     <text value="株主" name="Shareholder" />
     <text value="株主情報" name="ShareholderInformation" />
     <text value="会議情報を共有する" name="ShareMeetingInfo" />
@@ -2868,6 +2875,7 @@
     <text value="同様の顧客リスト" name="SimilarCustomerList" />
     <text value="簡体字中国語" name="SimplifiedChinese" />
     <text value="シングルレート" name="SingleRate" />
+    <text value="単一のタイマーのみが計時を開始できるようにする" name="SingleTimerStartOnly" />
     <text value="サイトマップ" name="SiteMap" />
     <text value="ウェブサイトの検索" name="SiteSearch" />
     <text value="状況" name="Situation" />

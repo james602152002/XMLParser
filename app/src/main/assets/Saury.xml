@@ -980,6 +980,7 @@
     <text value="Document review details" name="DetailsOfApplicatingDocument" />
     <text value="Are you sure you want to delete the category information {0}?" name="DetermineToDeleteClassifiedInfo" />
     <text value="Device" name="Device" />
+    <text value="dial number" name="DialNum" />
     <text value="Did not win the bid" name="DidNotWinTheBid" />
     <text value="Different rates" name="DifferentRate" />
     <text value="Can not impersonate a user of a different tenant!" name="DifferentTenantImpersonationErrorMessage" />
@@ -1977,6 +1978,7 @@
     <text value="Processing project" name="OngoingProjects" />
     <text value="Online" name="Online" />
     <text value="Online search" name="OnlineSearch" />
+    <text value="Only the person in charge of the case is allowed to review relevant case logs" name="OnlyCaseManagerAuditLog" />
     <text value="Sorry, you can only rename a single file!" name="OnlyIndividualFilesCanBeRenamed" />
     <text value="Only locked users" name="OnlyLockedUsers" />
     <text value="Only one customer can be selected" name="OnlyOneCustomerCanBeSelected" />
@@ -2016,6 +2018,7 @@
     <text value="Organization User Statistics" name="OrganizationUserStatistics" />
     <text value="Original" name="Original" />
     <text value="Original address" name="Originaladdress" />
+    <text value="original" name="originalKey" />
     <text value="Original practice law firm" name="OriginalPracticeLawFirm" />
     <text value="Original value" name="OriginalValue" />
     <text value="Or sign in as a different user" name="OrLogindifferentuser" />
@@ -2304,6 +2307,7 @@
     <text value="Please choose to bring time!" name="PleaseChooseToBringOutTime" />
     <text value="After uploading and deleting background images, please click the Save All button in the upper right corner of the page!" name="PleaseClickSaveAllAfterOperation" />
     <text value="Please complete the meeting minutes" name="PleaseCompleteMinutesOfMeeting" />
+    <text value="Please complete user information!" name="PleaseCompleteUserInformation" />
     <text value="Please enter at least {0} characters." name="PleaseEnterAtLeastNCharacter" />
     <text value="Please enter the verification code within {0} seconds" name="PleaseEnterCodeWithinSeconds" />
     <text value="Please enter login information" name="PleaseEnterLoginInformation" />
@@ -2796,6 +2800,7 @@
     <text value="Send" name="Send" />
     <text value="Send notification email." name="SendActivationEmail" />
     <text value="Send an audit" name="SendAnAudit" />
+    <text value="send email" name="SendEmail" />
     <text value="A link will be sent to your email to activate your email address. If you don't get an email within a few minutes, please re-try." name="SendEmailActivationLink_Information" />
     <text value="Sender" name="Sender" />
     <text value="Send partner" name="SendPartner" />
@@ -2804,6 +2809,7 @@
     <text value="Send security code." name="SendSecurityCode" />
     <text value="You should verify yourself to login. Please select a verification type. A code will be sent based on selected verification type." name="SendSecurityCode_Information" />
     <text value="Security code could not be sent!" name="SendSecurityCodeErrorMessage" />
+    <text value="send messages" name="SendSMS" />
     <text value="Send Test Email" name="SendTestEmail" />
     <text value="Send financial review" name="SendToFinancialAudit" />
     <text value="Sent" name="Sent" />
@@ -2841,6 +2847,7 @@
     <text value="share it" name="Share" />
     <text value="AiLinkedLaw adheres to the philosophy of providing professional and professional services to professional companies. It fully considers the importance of open cooperation and cooperates with many technology companies and data content professional companies to provide richer application scenarios and resources for law firms and lawyers. " name="ShareContent" />
     <text value="Shared" name="Shared" />
+    <text value="Share template" name="SharedTemplate" />
     <text value="shareholder" name="Shareholder" />
     <text value="Shareholder information" name="ShareholderInformation" />
     <text value="Share meeting information" name="ShareMeetingInfo" />
@@ -2868,6 +2875,7 @@
     <text value="Similar customer list" name="SimilarCustomerList" />
     <text value="Simplified Chinese" name="SimplifiedChinese" />
     <text value="Single rate" name="SingleRate" />
+    <text value="Only allow a single timer to start timing" name="SingleTimerStartOnly" />
     <text value="Sitemap" name="SiteMap" />
     <text value="Website search" name="SiteSearch" />
     <text value="Situation" name="Situation" />

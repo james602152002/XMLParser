@@ -980,6 +980,7 @@
     <text value="文书报审详细信息" name="DetailsOfApplicatingDocument" />
     <text value="确定要删除分类信息 {0}?" name="DetermineToDeleteClassifiedInfo" />
     <text value="设备" name="Device" />
+    <text value="拨打电话" name="DialNum" />
     <text value="未中标" name="DidNotWinTheBid" />
     <text value="不同费率" name="DifferentRate" />
     <text value="不能模拟不同租户的用户!" name="DifferentTenantImpersonationErrorMessage" />
@@ -1977,6 +1978,7 @@
     <text value="进行中的项目" name="OngoingProjects" />
     <text name="Online" />
     <text value="在线检索" name="OnlineSearch" />
+    <text value="只允许案件负责人审核相关案件日志" name="OnlyCaseManagerAuditLog" />
     <text value="对不起，您只能对单个文件重命名！" name="OnlyIndividualFilesCanBeRenamed" />
     <text value="仅已锁定用户" name="OnlyLockedUsers" />
     <text value="只能选择一位客户" name="OnlyOneCustomerCanBeSelected" />
@@ -2016,6 +2018,7 @@
     <text value="组织机构用户统计" name="OrganizationUserStatistics" />
     <text value="原件" name="Original" />
     <text value="原文地址" name="Originaladdress" />
+    <text value="原" name="originalKey" />
     <text value="原执业律师事务所" name="OriginalPracticeLawFirm" />
     <text value="原始值" name="OriginalValue" />
     <text value="或者以其他用户身份登录" name="OrLogindifferentuser" />
@@ -2304,6 +2307,7 @@
     <text value="请选择带出时间!" name="PleaseChooseToBringOutTime" />
     <text value="上传与删除背景图片后请点击页面右上角的保存全部按钮！" name="PleaseClickSaveAllAfterOperation" />
     <text value="请完善会议纪要内容" name="PleaseCompleteMinutesOfMeeting" />
+    <text value="请完善用户信息！" name="PleaseCompleteUserInformation" />
     <text value="请输入至少{0}个字符。" name="PleaseEnterAtLeastNCharacter" />
     <text value="请在{0}秒内输入验证码" name="PleaseEnterCodeWithinSeconds" />
     <text value="请输入登录信息" name="PleaseEnterLoginInformation" />
@@ -2796,6 +2800,7 @@
     <text value="发送" name="Send" />
     <text value="发送通知邮件." name="SendActivationEmail" />
     <text value="发送审核" name="SendAnAudit" />
+    <text value="发送邮件" name="SendEmail" />
     <text value="系统在几十秒内向您发送一封邮件,用于激活您的用户账号，请接收并点击邮件内容中的激活链接。如果在2分钟内还没收到这封邮件，请重试." name="SendEmailActivationLink_Information" />
     <text value="发送人" name="Sender" />
     <text value="发送合伙人" name="SendPartner" />
@@ -2804,6 +2809,7 @@
     <text value="发送安全代码。" name="SendSecurityCode" />
     <text value="您必须通过验证才能登录。请选择一个验证类型。根据选定的验证类型发送代码。" name="SendSecurityCode_Information" />
     <text value="无法发送安全代码！" name="SendSecurityCodeErrorMessage" />
+    <text value="发送短信" name="SendSMS" />
     <text value="发送测试邮件" name="SendTestEmail" />
     <text value="发送财务审核" name="SendToFinancialAudit" />
     <text value="已发送" name="Sent" />
@@ -2841,6 +2847,7 @@
     <text value="分享" name="Share" />
     <text value="律智荟秉承专业的公司提供专业极致服务的理念，充分考虑到了开放合作的重要性，与众多科技公司、数据内容专业公司合作，为律师事务所及律师提供更丰富的应用场景与资源，全面提升平台的使用价值。" name="ShareContent" />
     <text value="共享" name="Shared" />
+    <text value="共享模板" name="SharedTemplate" />
     <text value="股东" name="Shareholder" />
     <text value="股东信息" name="ShareholderInformation" />
     <text value="分享会议信息" name="ShareMeetingInfo" />
@@ -2858,7 +2865,7 @@
     <text value="显示律师费税率" name="Showlawyerrate" />
     <text value="只显示文件" name="ShowOnlyFiles" />
     <text value="显示统计信息" name="ShowStatistics" />
-    <text value="侧栏" name="Sidebar" />
+    <text value="侧边栏" name="Sidebar" />
     <text value="侧栏皮肤" name="SidebarSkins" />
     <text value="签署" name="sign" />
     <text value="签署方" name="Signatories" />
@@ -2868,6 +2875,7 @@
     <text value="相似客户列表" name="SimilarCustomerList" />
     <text value="简体中文" name="SimplifiedChinese" />
     <text value="单一费率" name="SingleRate" />
+    <text value="只允许单个计时器开启计时" name="SingleTimerStartOnly" />
     <text value="网站地图" name="SiteMap" />
     <text value="网站检索" name="SiteSearch" />
     <text value="情境" name="Situation" />
