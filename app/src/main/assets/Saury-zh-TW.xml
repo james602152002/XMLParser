@@ -472,7 +472,7 @@
     <text value="案件編輯" name="CaseEdit" />
     <text value="案件結束時間" name="CaseEndTime" />
     <text value="案件費用信息" name="CaseFeeInformation" />
-    <text value="您申請的案件文書已通過[{0}]的審核,正在等待蓋章人進行蓋章." name="CaseFileReviewPassed" />
+    <text value="您申請的案件文書已通過[{0}]的審核." name="CaseFileReviewPassed" />
     <text value="您申請的案件文書已被[{0}]退回,請修改申請內容後重新提交." name="CaseFileReviewReturned" />
     <text value="有一個案件文書[{0}]蓋章申請,等待您進行蓋章." name="CaseFileSealReview" />
     <text value="[{0}]上傳了案件文書,等待您進行審核." name="CaseFileWaitingForReview" />
@@ -560,6 +560,7 @@
     <text value="收費方式" name="ChargeModes" />
     <text value="收費方式：" name="ChargeModeTitle" />
     <text value="費用已退回." name="ChargeReturned" />
+    <text value="費用類別" name="ChargeType" />
     <text value="有一筆費用待審核." name="ChargeWaitForApproved" />
     <text value="%m/%d/%Y" name="ChartDateFormat" />
     <text value="圖表類型" name="ChartType" />
@@ -1513,6 +1514,7 @@
     <text value="出具事由" name="IssuedByReason" />
     <text value="頒發機構" name="IssuingAgency" />
     <text value="是否設置當前目錄為首目錄？" name="IsTheCurrentDirectorySettotheFirstDirectory" />
+    <text value="是否是最終合同" name="IsTheFinalFontract" />
     <text value="是否有賬戶信息" name="IsThereAccountInformation" />
     <text name="IsTrialActive" />
     <text name="IsTwoFactorEnabled" />
@@ -1987,6 +1989,7 @@
     <text value="公開" name="Open" />
     <text value="開啟錄音" name="OpenRecording" />
     <text value="操作人" name="Operater" />
+    <text value="共 %s 條操作記錄" name="OperationCnt" />
     <text name="OperationLogs" />
     <text value="操作提示" name="OperationTips" />
     <text value="蓋章意見" name="Opinion" />
@@ -2247,9 +2250,11 @@
     <text value="每月" name="PaymentPeriodType_Monthly" />
     <text value="處罰內容" name="Penaltycontent" />
     <text value="處罰項" name="PenaltyItem" />
+    <text value="待行政審核" name="PendingAdministrativeReview" />
     <text value="待認領" name="PendingClaim" />
     <text value="待執委審核" name="PendingExecutiveCommitteeReview" />
-    <text value="待財務重新審核" name="PendingFinancialReview" />
+    <text value="待財務審核" name="PendingFinancialReview" />
+    <text value="待主管審核" name="PendingManagerReview" />
     <text value="待合夥人審核" name="PendingPartnerReview" />
     <text value="待結案審核" name="PendingReview" />
     <text value="待提交(結案申請中)" name="PendingSubmissionInApplicationForClose" />
@@ -2342,6 +2347,7 @@
     <text value="請選擇目錄！" name="Pleaseselectadirectory" />
     <text value="請選擇法院" name="PleaseSelectCourt" />
     <text value="請選擇日期" name="PleaseSelectDate" />
+    <text value="上傳終稿中未發現原合同，請選擇一份原合同附件！" name="PleaseSelectOriginalContract" />
     <text value="請選擇其它案件，當前案件已存在結案申請！" name="PleaseSelectOtherCaseCurrentCaseHasAlreadyExisted" />
     <text value="請選擇歸還時間!" name="PleaseSelectReturnTime" />
     <text value="請選擇階段名稱！" name="PleaseSelectStageName" />
@@ -3194,6 +3200,8 @@
     <text value="辦案費支出由" name="TheExpensesOfHandling" />
     <text value="案件項下的辦案費支出由" name="TheExpensesOfHandlingTheCase" />
     <text value="本所項目經驗" name="TheExperienceOfTheProject" />
+    <text value="合同{0}已存在終稿！" name="TheFinalDraftOfContractAlreadyExists" />
+    <text value="當前案件中合同都已存在終稿！" name="TheFinalDraftOfTtheContractInTheCurrentCaseAlreadyExists" />
     <text value="最高學歷" name="TheHighestDegreeOfEducation" />
     <text value="該鍵值已存在，請變更後再提交！" name="TheKeyOfEntityAlreadyExists" />
     <text value="最新" name="TheLatest" />
@@ -3230,6 +3238,7 @@
     <text value="歸還日期必須大於帶出日期！" name="TheReturnDateMustBeGreaterThanTheTakeOutDate" />
     <text value="同客戶中不包含對方當事人" name="TheSameClientDoesNotIncludeTheOtherParty" />
     <text value="該客戶名稱已存在，請檢查後更正或選擇已有客戶信息" name="TheSameCustomerNameHasAlreadyExisted" />
+    <text value="上傳終稿中存在相同的原合同文檔！" name="TheSameOriginalContractDocumentExistsInTheFinalUpload" />
     <text value="檢索條件中只列出了前20位對方當事人信息，如需增加關鍵字，可以在分詞模式下手動錄入關鍵字信息！" name="TheSearchConditionsOnlyListedTheInformationOfTheTop20Counterparties" />
     <text value="案源人" name="TheSourceOfPeople" />
     <text value="方式" name="TheWay" />

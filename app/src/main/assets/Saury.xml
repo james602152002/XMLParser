@@ -472,7 +472,7 @@
     <text value="Case editing" name="CaseEdit" />
     <text value="Case end time" name="CaseEndTime" />
     <text value="Case fee information" name="CaseFeeInformation" />
-    <text value="The case file you applied for has passed the [{0}] review and is waiting for the sealer to stamp." name="CaseFileReviewPassed" />
+    <text value="The case document you applied for has been reviewed by [{0}]." name="CaseFileReviewPassed" />
     <text value="The case file you applied for has been returned by [{0}]. Please resubmit it after modifying the application." name="CaseFileReviewReturned" />
     <text value="There is a case file [{0}] stamped and is waiting for you to stamp." name="CaseFileSealReview" />
     <text value="[{0}] uploaded the case file and waited for your review." name="CaseFileWaitingForReview" />
@@ -560,6 +560,7 @@
     <text value="Charge method" name="ChargeModes" />
     <text value="Charge method:" name="ChargeModeTitle" />
     <text value="The fee has been returned." name="ChargeReturned" />
+    <text value="Cost Category" name="ChargeType" />
     <text value="There is a fee to review." name="ChargeWaitForApproved" />
     <text value="%m/%d/%Y" name="ChartDateFormat" />
     <text value="Chart type" name="ChartType" />
@@ -1513,6 +1514,7 @@
     <text value="The reason for the issue" name="IssuedByReason" />
     <text value="Issuing authority" name="IssuingAgency" />
     <text value="Is the current directory set to the first directory?" name="IsTheCurrentDirectorySettotheFirstDirectory" />
+    <text value="Is it the final contract" name="IsTheFinalFontract" />
     <text value="Is there account information" name="IsThereAccountInformation" />
     <text value="Is trial active" name="IsTrialActive" />
     <text value="Two factor authentication enabled" name="IsTwoFactorEnabled" />
@@ -1987,6 +1989,7 @@
     <text value="public" name="Open" />
     <text value="Open recording" name="OpenRecording" />
     <text value="Operator" name="Operater" />
+    <text value="A total of %s operation records" name="OperationCnt" />
     <text value="Operation logs" name="OperationLogs" />
     <text value="Operation tips" name="OperationTips" />
     <text value="Sealed comments" name="Opinion" />
@@ -2247,9 +2250,11 @@
     <text value="per month" name="PaymentPeriodType_Monthly" />
     <text value="Penalty content" name="Penaltycontent" />
     <text value="Penalties" name="PenaltyItem" />
+    <text value="Pending administrative review" name="PendingAdministrativeReview" />
     <text value="Pending claim" name="PendingClaim" />
     <text value="To be reviewed by the Executive Committee" name="PendingExecutiveCommitteeReview" />
     <text value="Pending financial review" name="PendingFinancialReview" />
+    <text value="Pending supervisor review" name="PendingManagerReview" />
     <text value="To be reviewed by partners" name="PendingPartnerReview" />
     <text value="Pending review" name="PendingReview" />
     <text value="Pending submission (in the case of closing the application)" name="PendingSubmissionInApplicationForClose" />
@@ -2342,6 +2347,7 @@
     <text value="Please select catalog!" name="Pleaseselectadirectory" />
     <text value="Please select the court" name="PleaseSelectCourt" />
     <text value="Please select a date" name="PleaseSelectDate" />
+    <text value="The original contract was not found in the final upload, please select an attachment to the original contract!" name="PleaseSelectOriginalContract" />
     <text value="Please select another case. The current case already has a closing application!" name="PleaseSelectOtherCaseCurrentCaseHasAlreadyExisted" />
     <text value="Please choose return time!" name="PleaseSelectReturnTime" />
     <text value="Please select the stage name!" name="PleaseSelectStageName" />
@@ -3194,6 +3200,8 @@
     <text value="The expenses for handling the case" name="TheExpensesOfHandling" />
     <text value="The expenses for casework under the case are" name="TheExpensesOfHandlingTheCase" />
     <text value="Project Experience" name="TheExperienceOfTheProject" />
+    <text value="The final draft of contract {0} already exists!" name="TheFinalDraftOfContractAlreadyExists" />
+    <text value="The final draft of the contract in the current case already exists!" name="TheFinalDraftOfTtheContractInTheCurrentCaseAlreadyExists" />
     <text value="highest education" name="TheHighestDegreeOfEducation" />
     <text value="The key value already exists. Please change it before submitting!" name="TheKeyOfEntityAlreadyExists" />
     <text value="up to date" name="TheLatest" />
@@ -3230,6 +3238,7 @@
     <text value="The return date must be greater than the take-out date!" name="TheReturnDateMustBeGreaterThanTheTakeOutDate" />
     <text value="The same client does not include the other party" name="TheSameClientDoesNotIncludeTheOtherParty" />
     <text value="The customer name already exists. Please check to correct or select existing customer information." name="TheSameCustomerNameHasAlreadyExisted" />
+    <text value="The same original contract document exists in the final upload!" name="TheSameOriginalContractDocumentExistsInTheFinalUpload" />
     <text value="The search conditions only listed the information of the top 20 counterparties. If you need to add keywords, you can manually enter the keyword information in the word segmentation mode!" name="TheSearchConditionsOnlyListedTheInformationOfTheTop20Counterparties" />
     <text value="Source person" name="TheSourceOfPeople" />
     <text value="The way" name="TheWay" />

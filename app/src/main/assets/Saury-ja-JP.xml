@@ -472,7 +472,7 @@
     <text value="ケース編集" name="CaseEdit" />
     <text value="終了時刻" name="CaseEndTime" />
     <text value="ケース手数料情報" name="CaseFeeInformation" />
-    <text value="申し込んだケースファイルが[{0}]レビューをパスし、シーラーがスタンプするのを待っています。" name="CaseFileReviewPassed" />
+    <text value="申請されたケースドキュメントは[{0}]によりレビューされました。" name="CaseFileReviewPassed" />
     <text value="あなたが申請したケースファイルが[{0}]によって返却されました。アプリケーションを変更した後に再提出してください。" name="CaseFileReviewReturned" />
     <text value="ケースファイル[{0}]がスタンプされ、スタンプするのを待っています。" name="CaseFileSealReview" />
     <text value="[{0}]はケースファイルをアップロードし、あなたのレビューを待っていました。" name="CaseFileWaitingForReview" />
@@ -560,6 +560,7 @@
     <text value="充電方法" name="ChargeModes" />
     <text value="充電方法：" name="ChargeModeTitle" />
     <text value="手数料が返還されました。" name="ChargeReturned" />
+    <text value="コストカテゴリ" name="ChargeType" />
     <text value="見直す手数料があります。" name="ChargeWaitForApproved" />
     <text value="%m/%d/%Y" name="ChartDateFormat" />
     <text value="チャートタイプ" name="ChartType" />
@@ -1513,6 +1514,7 @@
     <text value="問題の理由" name="IssuedByReason" />
     <text value="発行権限" name="IssuingAgency" />
     <text value="現在のディレクトリが最初のディレクトリに設定されていますか？" name="IsTheCurrentDirectorySettotheFirstDirectory" />
+    <text value="最終契約ですか" name="IsTheFinalFontract" />
     <text value="アカウント情報はありますか" name="IsThereAccountInformation" />
     <text name="IsTrialActive" />
     <text name="IsTwoFactorEnabled" />
@@ -1987,6 +1989,7 @@
     <text value="オープン" name="Open" />
     <text value="オープン録音" name="OpenRecording" />
     <text value="オペレーター" name="Operater" />
+    <text value="合計 %s の操作レコード" name="OperationCnt" />
     <text name="OperationLogs" />
     <text value="操作のヒント" name="OperationTips" />
     <text value="封印された意見" name="Opinion" />
@@ -2247,9 +2250,11 @@
     <text value="毎月" name="PaymentPeriodType_Monthly" />
     <text value="罰則の内容" name="Penaltycontent" />
     <text value="ペナルティ" name="PenaltyItem" />
+    <text value="行政審査待ち" name="PendingAdministrativeReview" />
     <text value="保留中の申し立て" name="PendingClaim" />
     <text value="実行委員会によるレビュー" name="PendingExecutiveCommitteeReview" />
     <text value="保留中の財務レビュー" name="PendingFinancialReview" />
+    <text value="監督者によるレビュー" name="PendingManagerReview" />
     <text value="パートナーによってレビューされる" name="PendingPartnerReview" />
     <text value="レビュー待ち" name="PendingReview" />
     <text value="保留中の申請（申請をクローズする場合）" name="PendingSubmissionInApplicationForClose" />
@@ -2342,6 +2347,7 @@
     <text value="カタログを選択してください！" name="Pleaseselectadirectory" />
     <text value="裁判所を選択してください" name="PleaseSelectCourt" />
     <text value="日付を選択してください" name="PleaseSelectDate" />
+    <text value="最終アップロードで元の契約が見つかりませんでした。元の契約の添付ファイルを選択してください！" name="PleaseSelectOriginalContract" />
     <text value="別のケースを選択してください。現在のケースにはすでにクローズアプリケーションがあります。" name="PleaseSelectOtherCaseCurrentCaseHasAlreadyExisted" />
     <text value="帰りの時間を選んでください！" name="PleaseSelectReturnTime" />
     <text value="ステージ名を選択してください！" name="PleaseSelectStageName" />
@@ -3194,6 +3200,8 @@
     <text value="ケースを処理するための経費" name="TheExpensesOfHandling" />
     <text value="このケースでのケースワーク費用は、" name="TheExpensesOfHandlingTheCase" />
     <text value="プロジェクトの経験" name="TheExperienceOfTheProject" />
+    <text value="契約{0}の最終ドラフトはすでに存在します！" name="TheFinalDraftOfContractAlreadyExists" />
+    <text value="現在のケースの契約の最終ドラフトはすでに存在しています！" name="TheFinalDraftOfTtheContractInTheCurrentCaseAlreadyExists" />
     <text value="最高度" name="TheHighestDegreeOfEducation" />
     <text value="キー値は既に存在します。送信する前に変更してください。" name="TheKeyOfEntityAlreadyExists" />
     <text value="最新" name="TheLatest" />
@@ -3230,6 +3238,7 @@
     <text value="返却日は持ち出し日よりも長くなければなりません。" name="TheReturnDateMustBeGreaterThanTheTakeOutDate" />
     <text value="同じクライアントに相手が含まれていない" name="TheSameClientDoesNotIncludeTheOtherParty" />
     <text value="顧客名はすでに存在します。既存の顧客情報を修正または選択して確認してください。" name="TheSameCustomerNameHasAlreadyExisted" />
+    <text value="同じオリジナルの契約書が最終アップロードに存在します！" name="TheSameOriginalContractDocumentExistsInTheFinalUpload" />
     <text value="検索条件には、上位20の取引相手の情報のみがリストされていましたが、キーワードを追加する必要がある場合は、単語分割モードでキーワード情報を手動で入力できます。" name="TheSearchConditionsOnlyListedTheInformationOfTheTop20Counterparties" />
     <text value="出身者" name="TheSourceOfPeople" />
     <text value="方法" name="TheWay" />

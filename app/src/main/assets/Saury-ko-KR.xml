@@ -472,7 +472,7 @@
     <text value="사례 편집" name="CaseEdit" />
     <text value="사례 종료 시간" name="CaseEndTime" />
     <text value="사례 수수료 정보" name="CaseFeeInformation" />
-    <text value="신청하신 케이스 파일이 [{0}] 리뷰를 통과했으며 스티커가 스탬프되기를 기다리고 있습니다." name="CaseFileReviewPassed" />
+    <text value="신청하신 사례 문서를 [{0}] 님이 검토했습니다." name="CaseFileReviewPassed" />
     <text value="신청하신 사례 파일이 [{0}] (으)로부터 반환되었습니다. 신청서를 수정 한 후 다시 제출하십시오." name="CaseFileReviewReturned" />
     <text value="사례 파일 [{0}]이 (가) 스탬프 처리되었으며 스탬프 처리를 기다리고 있습니다." name="CaseFileSealReview" />
     <text value="[{0}] 사례 파일을 업로드하고 귀하의 검토를 기다렸습니다." name="CaseFileWaitingForReview" />
@@ -560,6 +560,7 @@
     <text value="충전 방법" name="ChargeModes" />
     <text value="청구 방법 :" name="ChargeModeTitle" />
     <text value="수수료가 반환되었습니다." name="ChargeReturned" />
+    <text value="비용 범주" name="ChargeType" />
     <text value="검토 할 수수료가 있습니다." name="ChargeWaitForApproved" />
     <text value="%m/%d/%Y" name="ChartDateFormat" />
     <text value="차트 종류" name="ChartType" />
@@ -1513,6 +1514,7 @@
     <text value="문제의 원인" name="IssuedByReason" />
     <text value="발행 권한" name="IssuingAgency" />
     <text value="현재 디렉토리가 첫 번째 디렉토리로 설정되어 있습니까?" name="IsTheCurrentDirectorySettotheFirstDirectory" />
+    <text value="최종 계약입니까" name="IsTheFinalFontract" />
     <text value="계정 정보가 있습니까" name="IsThereAccountInformation" />
     <text name="IsTrialActive" />
     <text name="IsTwoFactorEnabled" />
@@ -1987,6 +1989,7 @@
     <text value="열기" name="Open" />
     <text value="녹음 열기" name="OpenRecording" />
     <text value="연산자" name="Operater" />
+    <text value="총 %s 작업 레코드" name="OperationCnt" />
     <text name="OperationLogs" />
     <text value="작동 팁" name="OperationTips" />
     <text value="봉인 된 댓글" name="Opinion" />
@@ -2247,9 +2250,11 @@
     <text value="매달" name="PaymentPeriodType_Monthly" />
     <text value="처벌 내용" name="Penaltycontent" />
     <text value="페널티" name="PenaltyItem" />
+    <text value="관리 검토 대기 중" name="PendingAdministrativeReview" />
     <text value="대기중인 소유권 주장" name="PendingClaim" />
     <text value="집행위원회에서 검토" name="PendingExecutiveCommitteeReview" />
-    <text value="대기중인 재무 검토" name="PendingFinancialReview" />
+    <text value="재무 검토 대기 중" name="PendingFinancialReview" />
+    <text value="감독자 검토" name="PendingManagerReview" />
     <text value="파트너가 검토" name="PendingPartnerReview" />
     <text value="검토 대기 중" name="PendingReview" />
     <text value="대기중인 제출 (신청 마감시)" name="PendingSubmissionInApplicationForClose" />
@@ -2342,6 +2347,7 @@
     <text value="카탈로그를 선택하십시오!" name="Pleaseselectadirectory" />
     <text value="법원을 선택하십시오." name="PleaseSelectCourt" />
     <text value="날짜를 선택하십시오." name="PleaseSelectDate" />
+    <text value="최종 업로드에서 원본 계약을 찾을 수 없습니다. 원본 계약에 대한 첨부 파일을 선택하십시오!" name="PleaseSelectOriginalContract" />
     <text value="다른 케이스를 선택하십시오. 현재 케이스에 이미 마감 어플리케이션이 있습니다!" name="PleaseSelectOtherCaseCurrentCaseHasAlreadyExisted" />
     <text value="반품 시간을 선택하십시오!" name="PleaseSelectReturnTime" />
     <text value="스테이지 이름을 선택하십시오!" name="PleaseSelectStageName" />
@@ -3194,6 +3200,8 @@
     <text value="케이스 처리 비용" name="TheExpensesOfHandling" />
     <text value="케이스 밑의 케이스 워크 비용은" name="TheExpensesOfHandlingTheCase" />
     <text value="프로젝트 경험" name="TheExperienceOfTheProject" />
+    <text value="{0} 계약의 최종 초안이 이미 있습니다!" name="TheFinalDraftOfContractAlreadyExists" />
+    <text value="현재 케이스의 최종 계약 초안이 이미 존재합니다!" name="TheFinalDraftOfTtheContractInTheCurrentCaseAlreadyExists" />
     <text value="최고 학위" name="TheHighestDegreeOfEducation" />
     <text value="키 값이 이미 있습니다. 제출하기 전에 변경하십시오!" name="TheKeyOfEntityAlreadyExists" />
     <text value="최신" name="TheLatest" />
@@ -3230,6 +3238,7 @@
     <text value="반환 날짜는 테이크 아웃 날짜보다 커야합니다!" name="TheReturnDateMustBeGreaterThanTheTakeOutDate" />
     <text value="동일한 고객은 상대방을 포함하지 않습니다" name="TheSameClientDoesNotIncludeTheOtherParty" />
     <text value="고객 이름이 이미 있습니다. 기존 고객 정보를 수정하거나 선택하십시오." name="TheSameCustomerNameHasAlreadyExisted" />
+    <text value="최종 업로드에 동일한 원본 계약 문서가 있습니다!" name="TheSameOriginalContractDocumentExistsInTheFinalUpload" />
     <text value="검색 조건에는 상위 20 개 상대방의 정보 만 나열되어 있으므로 키워드를 추가해야하는 경우 단어 분할 모드에서 키워드 정보를 수동으로 입력 할 수 있습니다!" name="TheSearchConditionsOnlyListedTheInformationOfTheTop20Counterparties" />
     <text value="출처 사람" name="TheSourceOfPeople" />
     <text value="방법" name="TheWay" />
