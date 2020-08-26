@@ -940,6 +940,7 @@
     <text value="十二月" name="December" />
     <text value="决定书文号" name="Decidedtextnumber" />
     <text value="决定机关" name="Decisionagency" />
+    <text value="扣减金额" name="DeductionAmount" />
     <text value="默认" name="Default" />
     <text value="默认（所有）API" name="Default (all) API" />
     <text value="帐户锁定持续时间（秒）" name="DefaultAccountLockoutDurationAsSeconds" />
@@ -1158,6 +1159,7 @@
     <text value="当前客户下已存在同名的联系人！" name="ExistsSameNameOnCLient" />
     <text value="退出全屏" name="ExitFullScreen" />
     <text value="扩展" name="Expand" />
+    <text value="支出信息表" name="ExpenditureInformationSheet" />
     <text value="任务耗时" name="ExpenditureOfTime" />
     <text value="费用信息" name="ExpenseInfomration" />
     <text value="费用信息表" name="ExpenseInformationSheet" />
@@ -2024,6 +2026,7 @@
     <text value="原" name="originalKey" />
     <text value="原执业律师事务所" name="OriginalPracticeLawFirm" />
     <text value="原始值" name="OriginalValue" />
+    <text value="原合同文档" name="OriginContractDoc" />
     <text value="或者以其他用户身份登录" name="OrLogindifferentuser" />
     <text value="其他" name="Other" />
     <text value="其他邮箱" name="OtherEmail" />
@@ -2232,6 +2235,7 @@
     <text value="专利号" name="PatentNo" />
     <text value="专利类型" name="PatentType" />
     <text value="支付" name="Pay" />
+    <text value="代付款单位" name="PayAgency" />
     <text value="收款人" name="Payee" />
     <text value="支付方" name="Payer" />
     <text value="支付方：" name="PayerTitle" />
@@ -3108,6 +3112,7 @@
     <text value="任务工作台" name="TaskWorkbench" />
     <text value="税务代码" name="Tax/VatNo" />
     <text value="税号" name="TaxIdentificationNumber" />
+    <text value="确认是否为一般纳税人?" name="TaxPayerConfirm" />
     <text value="税率" name="TaxRate" />
     <text value="办案费税率" name="TaxRateForCases" />
     <text value="办案费税率 %" name="TaxRateForCasesWithPercentSign" />
@@ -3291,6 +3296,7 @@
     <text value="收费总额" name="TotalCharge" />
     <text value="费用总金额" name="TotalChargeAmount" />
     <text value="共{0}条数据" name="TotalData" />
+    <text value="合计支出" name="TotalExpenditure" />
     <text value="合计小时" name="TotalHour" />
     <text value="发票总金额" name="TotalInvoiceAmount" />
     <text value="日志总耗时" name="TotalLogTime" />
@@ -3519,6 +3525,7 @@
     <text value="拜访开始时间" name="VisitStartTime" />
     <text value="拜访时间" name="VisitTime" />
     <text value="视觉设置" name="VisualSettings" />
+    <text value="凭证号" name="VoucherNumber" />
     <text value="工资" name="Wages" />
     <text value="待" name="Wait" />
     <text value="订阅到期日期后协商" name="WaitAfterSubscriptionExpireDate" />
@@ -3590,6 +3597,8 @@
     <text value="是否使用全时网络会议" name="WhetherUsingWebConferencing" />
     <text value="是否确定变更选中的日程状态？" name="WillChangesSelectedOnScheduledState" />
     <text value="中标" name="Winning" />
+    <text value="提款时间" name="WithdrawalTime" />
+    <text value="提款人" name="WithdrawalUser" />
     <text value="无任何条件" name="WithoutAnyCondition" />
     <text value="当前目录下已存在同名的文件夹" name="WithTheSameNameAlreadyExistsUnderTheCurrentDirectory" />
     <text value="立案-待冲突检索" name="WN.Business.CaseCheck.Created" />

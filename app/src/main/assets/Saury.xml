@@ -940,6 +940,7 @@
     <text value="December" name="December" />
     <text value="Decided text number" name="Decidedtextnumber" />
     <text value="Decision agency" name="Decisionagency" />
+    <text value="Deduction amount" name="DeductionAmount" />
     <text value="Default" name="Default" />
     <text value="Default (all) API" name="Default (all) API" />
     <text value="Account locking duration (as seconds)" name="DefaultAccountLockoutDurationAsSeconds" />
@@ -1158,6 +1159,7 @@
     <text value="A contact with the same name already exists under the current customer!" name="ExistsSameNameOnCLient" />
     <text value="Exit Full Screen" name="ExitFullScreen" />
     <text value="Expand" name="Expand" />
+    <text value="Expenditure Information Sheet" name="ExpenditureInformationSheet" />
     <text value="Task time-consuming" name="ExpenditureOfTime" />
     <text value="Cost information" name="ExpenseInfomration" />
     <text value="Cost information table" name="ExpenseInformationSheet" />
@@ -2024,6 +2026,7 @@
     <text value="original" name="originalKey" />
     <text value="Original practice law firm" name="OriginalPracticeLawFirm" />
     <text value="Original value" name="OriginalValue" />
+    <text value="Original contract document" name="OriginContractDoc" />
     <text value="Or sign in as a different user" name="OrLogindifferentuser" />
     <text value="other" name="Other" />
     <text value="other mailboxes" name="OtherEmail" />
@@ -2232,6 +2235,7 @@
     <text value="Patent No" name="PatentNo" />
     <text value="Patent type" name="PatentType" />
     <text value="Pay" name="Pay" />
+    <text value="Payment agency" name="PayAgency" />
     <text value="Payee" name="Payee" />
     <text value="Payer" name="Payer" />
     <text value="Payer:" name="PayerTitle" />
@@ -3108,6 +3112,7 @@
     <text value="Task Workbench" name="TaskWorkbench" />
     <text value="Tax/VatNo" name="Tax/VatNo" />
     <text value="Tax ID" name="TaxIdentificationNumber" />
+    <text value="Is it confirmed as a general taxpayer?" name="TaxPayerConfirm" />
     <text value="tax rate" name="TaxRate" />
     <text value="Case tax rate" name="TaxRateForCases" />
     <text value="Case charge rate %" name="TaxRateForCasesWithPercentSign" />
@@ -3291,6 +3296,7 @@
     <text value="Total charge" name="TotalCharge" />
     <text value="Total amount of fees" name="TotalChargeAmount" />
     <text value="Total {0} data" name="TotalData" />
+    <text value="Total expenditure" name="TotalExpenditure" />
     <text value="Total hours" name="TotalHour" />
     <text value="Total invoice amount" name="TotalInvoiceAmount" />
     <text value="Total log time" name="TotalLogTime" />
@@ -3519,6 +3525,7 @@
     <text value="Visit start time" name="VisitStartTime" />
     <text value="Visit time" name="VisitTime" />
     <text value="Visual Settings" name="VisualSettings" />
+    <text value="Voucher number" name="VoucherNumber" />
     <text value="wage" name="Wages" />
     <text value="Wait" name="Wait" />
     <text value="Wait after subscription expire date" name="WaitAfterSubscriptionExpireDate" />
@@ -3590,6 +3597,8 @@
     <text value="Whether to use full-time web conferencing" name="WhetherUsingWebConferencing" />
     <text value="Are you sure to change the selected schedule status?" name="WillChangesSelectedOnScheduledState" />
     <text value="Winning" name="Winning" />
+    <text value="Withdrawal time" name="WithdrawalTime" />
+    <text value="Withdrawal person" name="WithdrawalUser" />
     <text value="Without any condition" name="WithoutAnyCondition" />
     <text value="A folder with the same name already exists in the current directory" name="WithTheSameNameAlreadyExistsUnderTheCurrentDirectory" />
     <text value="Filing - pending conflict search" name="WN.Business.CaseCheck.Created" />

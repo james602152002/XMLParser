@@ -940,6 +940,7 @@
     <text value="12 월" name="December" />
     <text value="결정된 텍스트 번호" name="Decidedtextnumber" />
     <text value="결정 기관" name="Decisionagency" />
+    <text value="공제 금액" name="DeductionAmount" />
     <text value="기본값" name="Default" />
     <text name="Default (all) API" />
     <text value="계정 잠금 시간 (초)" name="DefaultAccountLockoutDurationAsSeconds" />
@@ -1158,6 +1159,7 @@
     <text value="현재 고객의 이름이 같은 연락처가 이미 있습니다!" name="ExistsSameNameOnCLient" />
     <text value="전체 화면 종료" name="ExitFullScreen" />
     <text value="더 많은 설정 펼치기" name="Expand" />
+    <text value="비용 정보 시트" name="ExpenditureInformationSheet" />
     <text value="작업에 많은 시간이 소요됨" name="ExpenditureOfTime" />
     <text value="비용 정보" name="ExpenseInfomration" />
     <text value="비용 정보 테이블" name="ExpenseInformationSheet" />
@@ -2024,6 +2026,7 @@
     <text value="실물" name="originalKey" />
     <text value="원본 법률 회사" name="OriginalPracticeLawFirm" />
     <text name="OriginalValue" />
+    <text value="원본 계약 문서" name="OriginContractDoc" />
     <text value="또는 다른 사용자로 로그인하십시오." name="OrLogindifferentuser" />
     <text value="기타" name="Other" />
     <text value="기타 우편함" name="OtherEmail" />
@@ -2232,6 +2235,7 @@
     <text value="특허 번호" name="PatentNo" />
     <text value="특허 유형" name="PatentType" />
     <text value="지불" name="Pay" />
+    <text value="결제 대행" name="PayAgency" />
     <text value="수취인" name="Payee" />
     <text value="지불 인" name="Payer" />
     <text value="지불 자 :" name="PayerTitle" />
@@ -3108,6 +3112,7 @@
     <text value="작업 워크 벤치" name="TaskWorkbench" />
     <text name="Tax/VatNo" />
     <text value="세금 ID" name="TaxIdentificationNumber" />
+    <text value="일반 납세자로 확인 되었습니까?" name="TaxPayerConfirm" />
     <text value="세율" name="TaxRate" />
     <text value="세율" name="TaxRateForCases" />
     <text value="사례 청구율 %" name="TaxRateForCasesWithPercentSign" />
@@ -3291,6 +3296,7 @@
     <text value="총 청구액" name="TotalCharge" />
     <text value="총 수수료 금액" name="TotalChargeAmount" />
     <text value="총 {0} 데이터" name="TotalData" />
+    <text value="총 지출" name="TotalExpenditure" />
     <text value="총 시간" name="TotalHour" />
     <text value="총 송장 금액" name="TotalInvoiceAmount" />
     <text value="총 로그 시간" name="TotalLogTime" />
@@ -3519,6 +3525,7 @@
     <text value="방문 시작 시간" name="VisitStartTime" />
     <text value="방문 시간" name="VisitTime" />
     <text name="VisualSettings" />
+    <text value="바우처 번호" name="VoucherNumber" />
     <text value="임금" name="Wages" />
     <text value="기다림" name="Wait" />
     <text name="WaitAfterSubscriptionExpireDate" />
@@ -3590,6 +3597,8 @@
     <text value="풀 타임 웹 회의 사용 여부" name="WhetherUsingWebConferencing" />
     <text value="선택한 일정 상태를 변경 하시겠습니까?" name="WillChangesSelectedOnScheduledState" />
     <text value="승리" name="Winning" />
+    <text value="출금 시간" name="WithdrawalTime" />
+    <text value="탈퇴자" name="WithdrawalUser" />
     <text value="조건없이" name="WithoutAnyCondition" />
     <text value="같은 이름을 가진 폴더가 이미 현재 디렉토리에 있습니다." name="WithTheSameNameAlreadyExistsUnderTheCurrentDirectory" />
     <text value="제기 - 보류중인 충돌 검색" name="WN.Business.CaseCheck.Created" />

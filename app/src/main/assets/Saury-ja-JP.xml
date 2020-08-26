@@ -940,6 +940,7 @@
     <text value="12月" name="December" />
     <text value="決定されたテキスト番号" name="Decidedtextnumber" />
     <text value="意思決定機関" name="Decisionagency" />
+    <text value="控除額" name="DeductionAmount" />
     <text value="デフォルト" name="Default" />
     <text name="Default (all) API" />
     <text value="アカウントのロックアウト時間（秒）" name="DefaultAccountLockoutDurationAsSeconds" />
@@ -1158,6 +1159,7 @@
     <text value="現在の顧客の下に同じ名前の連絡先が既に存在します！" name="ExistsSameNameOnCLient" />
     <text value="全画面を終了" name="ExitFullScreen" />
     <text value="その他の設定を展開する" name="Expand" />
+    <text value="経費情報シート" name="ExpenditureInformationSheet" />
     <text value="タスクに時間がかかる" name="ExpenditureOfTime" />
     <text value="費用情報" name="ExpenseInfomration" />
     <text value="コスト情報テーブル" name="ExpenseInformationSheet" />
@@ -2024,6 +2026,7 @@
     <text value="元の" name="originalKey" />
     <text value="元練習法律事務所" name="OriginalPracticeLawFirm" />
     <text name="OriginalValue" />
+    <text value="元の契約書" name="OriginContractDoc" />
     <text value="または、別のユーザーとしてログインする" name="OrLogindifferentuser" />
     <text value="その他" name="Other" />
     <text value="その他のメールボックス" name="OtherEmail" />
@@ -2232,6 +2235,7 @@
     <text value="特許番号" name="PatentNo" />
     <text value="特許型" name="PatentType" />
     <text value="支払う" name="Pay" />
+    <text value="決済代行" name="PayAgency" />
     <text value="受取人" name="Payee" />
     <text value="支払人" name="Payer" />
     <text value="支払人：" name="PayerTitle" />
@@ -3108,6 +3112,7 @@
     <text value="タスクワークベンチ" name="TaskWorkbench" />
     <text name="Tax/VatNo" />
     <text value="納税者番号" name="TaxIdentificationNumber" />
+    <text value="一般納税者として確認されていますか？" name="TaxPayerConfirm" />
     <text value="税率" name="TaxRate" />
     <text value="ケース税率" name="TaxRateForCases" />
     <text value="ケース課金率 ％" name="TaxRateForCasesWithPercentSign" />
@@ -3291,6 +3296,7 @@
     <text value="総料金" name="TotalCharge" />
     <text value="総手数料" name="TotalChargeAmount" />
     <text value="合計{0}データ" name="TotalData" />
+    <text value="総支出額" name="TotalExpenditure" />
     <text value="合計時間" name="TotalHour" />
     <text value="総請求額" name="TotalInvoiceAmount" />
     <text value="合計ログ時間" name="TotalLogTime" />
@@ -3519,6 +3525,7 @@
     <text value="訪問開始時間" name="VisitStartTime" />
     <text value="訪問時間" name="VisitTime" />
     <text name="VisualSettings" />
+    <text value="バウチャー番号" name="VoucherNumber" />
     <text value="賃金" name="Wages" />
     <text value="待つ" name="Wait" />
     <text name="WaitAfterSubscriptionExpireDate" />
@@ -3590,6 +3597,8 @@
     <text value="フルタイムのWeb会議を使用するかどうか" name="WhetherUsingWebConferencing" />
     <text value="選択したスケジュールのステータスを変更してもよろしいですか？" name="WillChangesSelectedOnScheduledState" />
     <text value="勝つ" name="Winning" />
+    <text value="引き出し時間" name="WithdrawalTime" />
+    <text value="出金者" name="WithdrawalUser" />
     <text value="条件なし" name="WithoutAnyCondition" />
     <text value="同じ名前のフォルダがカレントディレクトリに既に存在します" name="WithTheSameNameAlreadyExistsUnderTheCurrentDirectory" />
     <text value="提起中の競合検索" name="WN.Business.CaseCheck.Created" />
