@@ -415,6 +415,7 @@
     <text value="Calendar view" name="CalendarView" />
     <text value="Cancel" name="Cancel" />
     <text value="Cancel conversion tips" name="CancelConversionPrompt" />
+    <text value="Cancel final draft" name="CancelFinalDraft" />
     <text value="Abolished" name="Cancellation" />
     <text value="Unmerge" name="CancelMerge" />
     <text value="Are you sure you want to cancel the merged contact information!" name="CancelMergeWarningMessage" />
@@ -1159,6 +1160,7 @@
     <text value="A contact with the same name already exists under the current customer!" name="ExistsSameNameOnCLient" />
     <text value="Exit Full Screen" name="ExitFullScreen" />
     <text value="Expand" name="Expand" />
+    <text value="Expense entry" name="ExpenditureEntry" />
     <text value="Expenditure Information Sheet" name="ExpenditureInformationSheet" />
     <text value="Task time-consuming" name="ExpenditureOfTime" />
     <text value="Cost information" name="ExpenseInfomration" />
@@ -1372,6 +1374,7 @@
     <text value="(Create stage or select existing stage)" name="HintCreateOrSelectStage" />
     <text value="friendly reminder" name="Hints" />
     <text value="History" name="History" />
+    <text value="history record" name="HistoryRecord" />
     <text value="family address" name="HomeAddress" />
     <text value="Home" name="HomePage" />
     <text value="General statistics and recent activities" name="HostDashboardHeaderInfo" />
@@ -1471,6 +1474,7 @@
     <text value="Invoice [{0}] was cancelled." name="InvoiceCanceled" />
     <text value="Invoice claim" name="InvoiceClaim" />
     <text value="Invoice [{0}] has been claimed." name="InvoiceClaimed" />
+    <text value="Invoice code" name="InvoiceCode" />
     <text value="invoice content" name="InvoiceContent" />
     <text value="Invoiced" name="Invoiced" />
     <text value="Invoice date" name="InvoiceDate" />
@@ -1483,7 +1487,7 @@
     <text value="Invoice Information" name="InvoiceInformation" />
     <text value="Invoice information table" name="InvoiceInformationSheet" />
     <text value="Invoice invalidation" name="InvoiceInvalid" />
-    <text value="Invoice No" name="InvoiceNo" />
+    <text value="Invoice number" name="InvoiceNo" />
     <text value="Invoice [{0}] {1}." name="InvoiceNotify" />
     <text value="Invoice number" name="InvoiceNumber" />
     <text value="Invoice [{0}] has been returned." name="InvoiceReturned" />
@@ -1494,6 +1498,7 @@
     <text value="invoice type" name="InvoiceType" />
     <text value="There is an invoice with amount {0}{1} pending." name="InvoiceUnHandled" />
     <text value="Upload invoice" name="InvoiceUpload" />
+    <text value="use" name="InvoiceUse" />
     <text value="IP address" name="IpAddress" />
     <text value="Cookie consent enabled" name="IsCookieConsentEnabled" />
     <text value="Is disabled" name="IsDisabled" />
@@ -2025,6 +2030,7 @@
     <text value="Original address" name="Originaladdress" />
     <text value="original" name="originalKey" />
     <text value="Original practice law firm" name="OriginalPracticeLawFirm" />
+    <text value="Original stamped" name="OriginalStamped" />
     <text value="Original value" name="OriginalValue" />
     <text value="Original contract document" name="OriginContractDoc" />
     <text value="Or sign in as a different user" name="OrLogindifferentuser" />
@@ -2126,6 +2132,12 @@
     <text value="Contract management" name="Pages.Financial.Contracts" />
     <text value="Contract management" name="Pages.Financial.Contracts.Manage" />
     <text value="My contract" name="Pages.Financial.Contracts.MyContracts" />
+    <text value="Operating costs" name="Pages.Financial.Costs" />
+    <text value="Expenditure management" name="Pages.Financial.Costs.Expenditures.Manage" />
+    <text value="My expenses" name="Pages.Financial.Costs.Expenditures.MyExpenditures" />
+    <text value="Electronic invoice entry" name="Pages.Financial.ElectronicInvoices.Create" />
+    <text value="Electronic invoice management" name="Pages.Financial.ElectronicInvoices.Manage" />
+    <text value="My electronic invoice" name="Pages.Financial.ElectronicInvoices.MyElectronicInvoices" />
     <text value="Invoice management" name="Pages.Financial.Invoices" />
     <text value="Invoice application" name="Pages.Financial.Invoices.Apply" />
     <text value="Invoice review" name="Pages.Financial.Invoices.AuditInvoices" />
@@ -2237,6 +2249,7 @@
     <text value="Pay" name="Pay" />
     <text value="Payment agency" name="PayAgency" />
     <text value="Payee" name="Payee" />
+    <text value="Payee name" name="PayeeName" />
     <text value="Payer" name="Payer" />
     <text value="Payer:" name="PayerTitle" />
     <text value="Payment" name="Payment" />
@@ -2880,6 +2893,7 @@
     <text value="sign" name="sign" />
     <text value="Signatories" name="Signatories" />
     <text value="Signed" name="Signed" />
+    <text value="Signed attachment" name="SignedAttachment" />
     <text value="Sign up" name="SignUp" />
     <text value="If there are similar customers in the related list, the case has been entered. The customer information will be deleted and replaced." name="SimilarCustomerInAssociationListTheCaseHasBeenEnteredTheCustomerWillBeDeletedAndReplaced" />
     <text value="Similar customer list" name="SimilarCustomerList" />

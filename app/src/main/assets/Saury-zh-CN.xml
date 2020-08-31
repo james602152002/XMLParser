@@ -415,6 +415,7 @@
     <text value="日历视图" name="CalendarView" />
     <text value="取消" name="Cancel" />
     <text value="取消转化提示" name="CancelConversionPrompt" />
+    <text value="取消终稿" name="CancelFinalDraft" />
     <text value="已作废" name="Cancellation" />
     <text value="取消合并" name="CancelMerge" />
     <text value="是否确认取消已合并的联系人信息！" name="CancelMergeWarningMessage" />
@@ -1159,6 +1160,7 @@
     <text value="当前客户下已存在同名的联系人！" name="ExistsSameNameOnCLient" />
     <text value="退出全屏" name="ExitFullScreen" />
     <text value="扩展" name="Expand" />
+    <text value="支出录入" name="ExpenditureEntry" />
     <text value="支出信息表" name="ExpenditureInformationSheet" />
     <text value="任务耗时" name="ExpenditureOfTime" />
     <text value="费用信息" name="ExpenseInfomration" />
@@ -1372,6 +1374,7 @@
     <text value="( 创建阶段或选择已有阶段 )" name="HintCreateOrSelectStage" />
     <text value="友情提示" name="Hints" />
     <text name="History" />
+    <text value="历史记录" name="HistoryRecord" />
     <text value="家庭地址" name="HomeAddress" />
     <text value="主页" name="HomePage" />
     <text value="一般统计和最近的活动" name="HostDashboardHeaderInfo" />
@@ -1471,6 +1474,7 @@
     <text value="发票[{0}]已取消." name="InvoiceCanceled" />
     <text value="发票认领" name="InvoiceClaim" />
     <text value="发票[{0}]已领取." name="InvoiceClaimed" />
+    <text value="发票代码" name="InvoiceCode" />
     <text value="发票内容" name="InvoiceContent" />
     <text value="已开票" name="Invoiced" />
     <text value="发票日期" name="InvoiceDate" />
@@ -1483,7 +1487,7 @@
     <text value="发票信息" name="InvoiceInformation" />
     <text value="发票信息表" name="InvoiceInformationSheet" />
     <text value="发票作废" name="InvoiceInvalid" />
-    <text value="发票号" name="InvoiceNo" />
+    <text value="发票号码" name="InvoiceNo" />
     <text value="发票[{0}]{1}." name="InvoiceNotify" />
     <text value="发票编号" name="InvoiceNumber" />
     <text value="发票[{0}]已退回." name="InvoiceReturned" />
@@ -1494,6 +1498,7 @@
     <text value="发票类型" name="InvoiceType" />
     <text value="有一张金额为{0}{1}的发票待处理." name="InvoiceUnHandled" />
     <text value="上传发票" name="InvoiceUpload" />
+    <text value="用途" name="InvoiceUse" />
     <text value="IP地址" name="IpAddress" />
     <text value="已同意启用Cookie信息" name="IsCookieConsentEnabled" />
     <text value="已禁用" name="IsDisabled" />
@@ -2025,6 +2030,7 @@
     <text value="原文地址" name="Originaladdress" />
     <text value="原" name="originalKey" />
     <text value="原执业律师事务所" name="OriginalPracticeLawFirm" />
+    <text value="盖章原件" name="OriginalStamped" />
     <text value="原始值" name="OriginalValue" />
     <text value="原合同文档" name="OriginContractDoc" />
     <text value="或者以其他用户身份登录" name="OrLogindifferentuser" />
@@ -2126,6 +2132,12 @@
     <text value="合同管理" name="Pages.Financial.Contracts" />
     <text value="合同管理" name="Pages.Financial.Contracts.Manage" />
     <text value="我的合同" name="Pages.Financial.Contracts.MyContracts" />
+    <text value="运营成本" name="Pages.Financial.Costs" />
+    <text value="支出管理" name="Pages.Financial.Costs.Expenditures.Manage" />
+    <text value="我的支出" name="Pages.Financial.Costs.Expenditures.MyExpenditures" />
+    <text value="电子发票录入" name="Pages.Financial.ElectronicInvoices.Create" />
+    <text value="电子发票管理" name="Pages.Financial.ElectronicInvoices.Manage" />
+    <text value="我的电子发票" name="Pages.Financial.ElectronicInvoices.MyElectronicInvoices" />
     <text value="发票管理" name="Pages.Financial.Invoices" />
     <text value="发票申请" name="Pages.Financial.Invoices.Apply" />
     <text value="发票审核" name="Pages.Financial.Invoices.AuditInvoices" />
@@ -2237,6 +2249,7 @@
     <text value="支付" name="Pay" />
     <text value="代付款单位" name="PayAgency" />
     <text value="收款人" name="Payee" />
+    <text value="收款方名称" name="PayeeName" />
     <text value="支付方" name="Payer" />
     <text value="支付方：" name="PayerTitle" />
     <text value="付款" name="Payment" />
@@ -2880,6 +2893,7 @@
     <text value="签署" name="sign" />
     <text value="签署方" name="Signatories" />
     <text value="已签署" name="Signed" />
+    <text value="已签署附件" name="SignedAttachment" />
     <text value="登录" name="SignUp" />
     <text value="如关联列表中的相似客户，则该案件已录入客户信息将被删除并替换" name="SimilarCustomerInAssociationListTheCaseHasBeenEnteredTheCustomerWillBeDeletedAndReplaced" />
     <text value="相似客户列表" name="SimilarCustomerList" />

@@ -415,6 +415,7 @@
     <text value="캘린더보기" name="CalendarView" />
     <text value="취소" name="Cancel" />
     <text value="전환 도움말 취소" name="CancelConversionPrompt" />
+    <text value="최종 초안 취소" name="CancelFinalDraft" />
     <text value="취소되었습니다." name="Cancellation" />
     <text value="병합 해제" name="CancelMerge" />
     <text value="병합 된 연락처 정보를 취소 하시겠습니까?" name="CancelMergeWarningMessage" />
@@ -1159,6 +1160,7 @@
     <text value="현재 고객의 이름이 같은 연락처가 이미 있습니다!" name="ExistsSameNameOnCLient" />
     <text value="전체 화면 종료" name="ExitFullScreen" />
     <text value="더 많은 설정 펼치기" name="Expand" />
+    <text value="비용 입력" name="ExpenditureEntry" />
     <text value="비용 정보 시트" name="ExpenditureInformationSheet" />
     <text value="작업에 많은 시간이 소요됨" name="ExpenditureOfTime" />
     <text value="비용 정보" name="ExpenseInfomration" />
@@ -1372,6 +1374,7 @@
     <text value="(스테이지 생성 또는 기존 스테이지 선택)" name="HintCreateOrSelectStage" />
     <text value="친절한 팁" name="Hints" />
     <text name="History" />
+    <text value="역사 기록" name="HistoryRecord" />
     <text value="집 주소" name="HomeAddress" />
     <text value="홈페이지" name="HomePage" />
     <text name="HostDashboardHeaderInfo" />
@@ -1471,6 +1474,7 @@
     <text value="송장 [{0}]이 취소되었습니다." name="InvoiceCanceled" />
     <text value="송장 청구" name="InvoiceClaim" />
     <text value="송장 [{0}]이 (가) 청구되었습니다." name="InvoiceClaimed" />
+    <text value="송장 코드" name="InvoiceCode" />
     <text value="송장 내용" name="InvoiceContent" />
     <text value="인보이스 발행" name="Invoiced" />
     <text value="인보이스 발행일" name="InvoiceDate" />
@@ -1483,7 +1487,7 @@
     <text value="송장 정보" name="InvoiceInformation" />
     <text value="송장 정보 테이블" name="InvoiceInformationSheet" />
     <text value="송장 무효화" name="InvoiceInvalid" />
-    <text name="InvoiceNo" />
+    <text value="송장 번호" name="InvoiceNo" />
     <text value="송장 [{0}] {1}." name="InvoiceNotify" />
     <text value="송장 번호" name="InvoiceNumber" />
     <text value="송장 [{0}]이 (가) 반환되었습니다." name="InvoiceReturned" />
@@ -1494,6 +1498,7 @@
     <text value="송장 유형" name="InvoiceType" />
     <text value="보류중인 금액이 {0} {1} 인 송장이 있습니다." name="InvoiceUnHandled" />
     <text value="인보이스 업로드" name="InvoiceUpload" />
+    <text value="사용하다" name="InvoiceUse" />
     <text value="IP 주소" name="IpAddress" />
     <text value="쿠키 정보 사용에 동의" name="IsCookieConsentEnabled" />
     <text name="IsDisabled" />
@@ -2025,6 +2030,7 @@
     <text value="원래 주소" name="Originaladdress" />
     <text value="실물" name="originalKey" />
     <text value="원본 법률 회사" name="OriginalPracticeLawFirm" />
+    <text value="원본 스탬프" name="OriginalStamped" />
     <text name="OriginalValue" />
     <text value="원본 계약 문서" name="OriginContractDoc" />
     <text value="또는 다른 사용자로 로그인하십시오." name="OrLogindifferentuser" />
@@ -2126,6 +2132,12 @@
     <text value="계약 관리" name="Pages.Financial.Contracts" />
     <text value="계약 관리" name="Pages.Financial.Contracts.Manage" />
     <text value="내 계약" name="Pages.Financial.Contracts.MyContracts" />
+    <text value="운영 비용" name="Pages.Financial.Costs" />
+    <text value="지출 관리" name="Pages.Financial.Costs.Expenditures.Manage" />
+    <text value="내 비용" name="Pages.Financial.Costs.Expenditures.MyExpenditures" />
+    <text value="전자 송장 입력" name="Pages.Financial.ElectronicInvoices.Create" />
+    <text value="전자 송장 관리" name="Pages.Financial.ElectronicInvoices.Manage" />
+    <text value="내 전자 송장" name="Pages.Financial.ElectronicInvoices.MyElectronicInvoices" />
     <text value="인보이스 관리" name="Pages.Financial.Invoices" />
     <text value="송장 응용 프로그램" name="Pages.Financial.Invoices.Apply" />
     <text value="인보이스 검토" name="Pages.Financial.Invoices.AuditInvoices" />
@@ -2237,6 +2249,7 @@
     <text value="지불" name="Pay" />
     <text value="결제 대행" name="PayAgency" />
     <text value="수취인" name="Payee" />
+    <text value="수취인 이름" name="PayeeName" />
     <text value="지불 인" name="Payer" />
     <text value="지불 자 :" name="PayerTitle" />
     <text name="Payment" />
@@ -2880,6 +2893,7 @@
     <text value="서명" name="sign" />
     <text value="서명국" name="Signatories" />
     <text value="서명" name="Signed" />
+    <text value="서명 된 첨부 파일" name="SignedAttachment" />
     <text value="등록" name="SignUp" />
     <text value="관련 목록에 유사한 고객이있는 경우 해당 사례가 입력되고 고객 정보가 삭제되고 대체됩니다." name="SimilarCustomerInAssociationListTheCaseHasBeenEnteredTheCustomerWillBeDeletedAndReplaced" />
     <text value="유사한 고객 목록" name="SimilarCustomerList" />

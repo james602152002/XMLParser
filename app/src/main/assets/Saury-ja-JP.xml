@@ -415,6 +415,7 @@
     <text value="カレンダービュー" name="CalendarView" />
     <text value="キャンセル" name="Cancel" />
     <text value="コンバージョンのヒントをキャンセル" name="CancelConversionPrompt" />
+    <text value="最終ドラフトをキャンセル" name="CancelFinalDraft" />
     <text value="取り消されました" name="Cancellation" />
     <text value="マージ解除する" name="CancelMerge" />
     <text value="統合された連絡先情報をキャンセルしてもよろしいですか？" name="CancelMergeWarningMessage" />
@@ -1159,6 +1160,7 @@
     <text value="現在の顧客の下に同じ名前の連絡先が既に存在します！" name="ExistsSameNameOnCLient" />
     <text value="全画面を終了" name="ExitFullScreen" />
     <text value="その他の設定を展開する" name="Expand" />
+    <text value="経費入力" name="ExpenditureEntry" />
     <text value="経費情報シート" name="ExpenditureInformationSheet" />
     <text value="タスクに時間がかかる" name="ExpenditureOfTime" />
     <text value="費用情報" name="ExpenseInfomration" />
@@ -1372,6 +1374,7 @@
     <text value="（ステージを作成するか、既存のステージを選択します）" name="HintCreateOrSelectStage" />
     <text value="フレンドリーなヒント" name="Hints" />
     <text name="History" />
+    <text value="歴史記録" name="HistoryRecord" />
     <text value="自宅住所" name="HomeAddress" />
     <text value="ホームページ" name="HomePage" />
     <text name="HostDashboardHeaderInfo" />
@@ -1471,6 +1474,7 @@
     <text value="請求書[{0}]がキャンセルされました。" name="InvoiceCanceled" />
     <text value="請求書請求" name="InvoiceClaim" />
     <text value="請求書[{0}]が請求されています。" name="InvoiceClaimed" />
+    <text value="請求書コード" name="InvoiceCode" />
     <text value="請求書の内容" name="InvoiceContent" />
     <text value="請求された" name="Invoiced" />
     <text value="請求書日付" name="InvoiceDate" />
@@ -1483,7 +1487,7 @@
     <text value="請求書情報" name="InvoiceInformation" />
     <text value="請求書情報テーブル" name="InvoiceInformationSheet" />
     <text value="請求書の無効化" name="InvoiceInvalid" />
-    <text name="InvoiceNo" />
+    <text value="請求書番号" name="InvoiceNo" />
     <text value="請求書[{0}] {1}。" name="InvoiceNotify" />
     <text value="請求書番号" name="InvoiceNumber" />
     <text value="請求書[{0}]が返されました。" name="InvoiceReturned" />
@@ -1494,6 +1498,7 @@
     <text value="請求書タイプ" name="InvoiceType" />
     <text value="保留中の金額{0} {1}の請求書があります。" name="InvoiceUnHandled" />
     <text value="請求書のアップロード" name="InvoiceUpload" />
+    <text value="使用する" name="InvoiceUse" />
     <text value="IPアドレス" name="IpAddress" />
     <text value="Cookie情報を有効にすることに同意する" name="IsCookieConsentEnabled" />
     <text name="IsDisabled" />
@@ -2025,6 +2030,7 @@
     <text value="元の住所" name="Originaladdress" />
     <text value="元の" name="originalKey" />
     <text value="元練習法律事務所" name="OriginalPracticeLawFirm" />
+    <text value="オリジナル刻印" name="OriginalStamped" />
     <text name="OriginalValue" />
     <text value="元の契約書" name="OriginContractDoc" />
     <text value="または、別のユーザーとしてログインする" name="OrLogindifferentuser" />
@@ -2126,6 +2132,12 @@
     <text value="契約管理" name="Pages.Financial.Contracts" />
     <text value="契約管理" name="Pages.Financial.Contracts.Manage" />
     <text value="私の契約" name="Pages.Financial.Contracts.MyContracts" />
+    <text value="操業コスト" name="Pages.Financial.Costs" />
+    <text value="支出管理" name="Pages.Financial.Costs.Expenditures.Manage" />
+    <text value="私の経費" name="Pages.Financial.Costs.Expenditures.MyExpenditures" />
+    <text value="電子請求書エントリ" name="Pages.Financial.ElectronicInvoices.Create" />
+    <text value="電子請求書管理" name="Pages.Financial.ElectronicInvoices.Manage" />
+    <text value="電子請求書" name="Pages.Financial.ElectronicInvoices.MyElectronicInvoices" />
     <text value="請求書管理" name="Pages.Financial.Invoices" />
     <text value="請求書アプリケーション" name="Pages.Financial.Invoices.Apply" />
     <text value="請求書のレビュー" name="Pages.Financial.Invoices.AuditInvoices" />
@@ -2237,6 +2249,7 @@
     <text value="支払う" name="Pay" />
     <text value="決済代行" name="PayAgency" />
     <text value="受取人" name="Payee" />
+    <text value="支払者名" name="PayeeName" />
     <text value="支払人" name="Payer" />
     <text value="支払人：" name="PayerTitle" />
     <text name="Payment" />
@@ -2880,6 +2893,7 @@
     <text value="サイン" name="sign" />
     <text value="署名者" name="Signatories" />
     <text value="署名済み" name="Signed" />
+    <text value="署名付きの添付ファイル" name="SignedAttachment" />
     <text value="登録" name="SignUp" />
     <text value="関連リストに同様の顧客が存在する場合は、そのケースが入力されます。顧客情報は削除され、置き換えられます。" name="SimilarCustomerInAssociationListTheCaseHasBeenEnteredTheCustomerWillBeDeletedAndReplaced" />
     <text value="同様の顧客リスト" name="SimilarCustomerList" />
