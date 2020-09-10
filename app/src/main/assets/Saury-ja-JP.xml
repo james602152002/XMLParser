@@ -113,6 +113,7 @@
     <text value="問題は会議参加者（会議の連絡先：{0}）にのみ表示されます" name="AgendaOnlyVisibleToParticipants" />
     <text value="何をすべきか" name="AgendaView" />
     <text value="エージェント" name="Agent" />
+    <text value="同意する" name="Agree" />
     <text value="合意金利" name="AgreedInterestRate" />
     <text value="為替レート" name="AgreedRate" />
     <text value="ファイルに同意する" name="AgreeToArchive" />
@@ -214,6 +215,7 @@
     <text value="アプリケーション" name="Apply" />
     <text value="ペーパーレビュー" name="ApplyDocumentReview" />
     <text value="アプリケーション終了時刻" name="ApplyEndTime" />
+    <text value="延長を申請する" name="ApplyForAnExtension" />
     <text value="トライアルに申し込む" name="ApplyForTrial" />
     <text value="申請用紙スタンプ" name="ApplyPaperStamp" />
     <text value="アプリケーション開始時刻" name="ApplyStartTime" />
@@ -414,6 +416,7 @@
     <text value="カレンダーのソース" name="CalendarSource" />
     <text value="カレンダービュー" name="CalendarView" />
     <text value="キャンセル" name="Cancel" />
+    <text value="無効アプリケーション" name="CancelApply" />
     <text value="コンバージョンのヒントをキャンセル" name="CancelConversionPrompt" />
     <text value="最終ドラフトをキャンセル" name="CancelFinalDraft" />
     <text value="取り消されました" name="Cancellation" />
@@ -436,6 +439,7 @@
     <text value="現在の名前は既に使用されています。別の名前を使用してください。" name="CanNotUseName" />
     <text value="数字のみを許可する" name="CanOnlyEnterNumbers" />
     <text value="債権" name="CanReceivables" />
+    <text value="参照できる" name="CanReferTo" />
     <text value="確認コードを空にすることはできません。" name="CaptchaCanNotBeEmpty" />
     <text value="写真に確認コードを入力してください：" name="Captha_Hint" />
     <text value="カスケードシミュレーションを実行できません。これはすでにアナログログインです！" name="CascadeImpersonationErrorMessage" />
@@ -616,6 +620,7 @@
     <text value="顧客" name="Client" />
     <text value="クライアントのケース連絡先" name="ClientCaseContact" />
     <text value="クライアントのケース連絡先情報" name="ClientCaseContactInformation" />
+    <text value="お客様{0}は、レビュー待ちのリード拡張保護を必要としています" name="ClientClueExtensionProtect" />
     <text value="%sのお客様" name="ClientCnt" />
     <text value="顧客連絡先" name="ClientContact" />
     <text value="顧客連絡先の基本情報" name="ClientContactBasicInfo" />
@@ -831,6 +836,7 @@
     <text value="作成時間" name="CreationTime" />
     <text value="作成者：" name="Creator" />
     <text value="通貨" name="Currency" />
+    <text value="通貨コード" name="CurrencyCode" />
     <text value="通貨統計によると" name="CurrencyStatistics" />
     <text value="通貨の種類" name="CurrencyType" />
     <text value="現在の" name="Current" />
@@ -874,6 +880,8 @@
     <text value="顧客業界" name="CustomerIndustry" />
     <text value="顧客情報" name="CustomerInformation" />
     <text value="顧客情報テーブル" name="CustomerInformationTable" />
+    <text value="顧客リード情報" name="CustomerLeadInformation" />
+    <text value="顧客リード保護" name="CustomerLeadProtection" />
     <text value="代表的なタイプ" name="CustomerLegalType" />
     <text value="顧客名" name="CustomerName" />
     <text value="顧客名の略語" name="CustomerNameAbbreviation" />
@@ -990,6 +998,7 @@
     <text value="ディレクトリ" name="Directory" />
     <text value="無効にする" name="Disable" />
     <text name="DisableRecurringPayments" />
+    <text value="同意しない" name="DisAgree" />
     <text value="割引き" name="Discount" />
     <text value="弁護士費用割引率" name="DiscountsOfAttorneyFee" />
     <text value="弁護士報酬の割引率 %" name="DiscountsOfAttorneyFeeWithPercentSign" />
@@ -1104,11 +1113,13 @@
     <text value="従業員番号" name="EmployeeNumber" />
     <text value="ヌル値" name="EmptyOnes" />
     <text name="Enable" />
+    <text value="アドバイザリーケースの顧客の期限切れのリード保護を有効にする" name="EnableCustomerOverdueLeadProtectionForAdvisoryCases" />
     <text value="ローエンジェルダウンロードサービスはまだ有効化されていません。管理者に連絡してサービスを開始してください。" name="EnableFaTianShi" />
     <text value="インバウンド顧客検索を有効にする" name="EnableInboundCustomerSearch" />
     <text value="ライトウェイトディレクトリアクセスプロトコル（LDAP）認証を有効にします。" name="EnableLdapAuthentication" />
     <text value="マルチクライアントを有効にする" name="EnableMultiClient" />
     <text name="EnableRecurringPayments" />
+    <text value="事前に確立された顧客リードの遅延レビューを有効にします" name="EnableTheDelayedReviewOfPreEstablishedCustomerLeads" />
     <text value="アカウントのデュアルログイン認証を有効にします。" name="EnableTwoFactorLogin" />
     <text value="失敗したログイン試行でユーザーアカウントロックを有効にする" name="EnableUserAccountLockingOnFailedLoginAttemts" />
     <text value="エンドケース" name="EndCase" />
@@ -1154,6 +1165,7 @@
     <text name="Exception" />
     <text value="為替レート" name="ExchangeRage" />
     <text value="エグゼクティブコート" name="Executivecourt" />
+    <text value="管理返品" name="ExecutiveReturn" />
     <text value="エグゼクティブターゲット" name="Executivetarget" />
     <text value="実行者" name="Executor" />
     <text value="同様の顧客リストでは、条件に応じて対応する顧客情報が検索されるが、現時点では、その顧客が現在の顧客を置き換えるものとして選択されていない。" name="ExisitsSimilarReplaceableCustomersWhetherConfirmPositive" />
@@ -1168,6 +1180,7 @@
     <text value="経費精査" name="ExpenseReview" />
     <text value="支払期日" name="ExpirationDate" />
     <text value="期限切れ" name="Expired" />
+    <text value="コンサルティングケースにおけるクライアントの期限切れの鉛保護期間" name="ExpiredLeadProtectionPeriodForClientsInConsultingCases" />
     <text value="参加期限が切れました" name="ExpiredTask" />
     <text value="すぐに失効する" name="Expiring" />
     <text name="ExpiringEdition" />
@@ -1204,6 +1217,7 @@
     <text value="フィードバックの主な考え方を簡単に紹介してください:)" name="FeedbackTitlePlaceholder" />
     <text value="手数料の詳細" name="FeeDetail" />
     <text value="料金および契約添付書類" name="FeesAndContractAccessories" />
+    <text value="女性" name="Female" />
     <text value="コンサルティングクライアント" name="FGClient" />
     <text value="野原" name="Field" />
     <text value="ドキュメント" name="File" />
@@ -1236,6 +1250,7 @@
     <text value="デフォルトの文字をフィルター" name="FilterDefaultCharacters" />
     <text value="ユーザーのフィルター/追加" name="FilterOrAddUser" />
     <text value="財務" name="Finance" />
+    <text value="経済的利益" name="FinanceReturn" />
     <text value="財務分析" name="FinancialAnalysis" />
     <text value="財務レビュー閉鎖情報テーブル" name="FinancialAuditClosingInformationSheet" />
     <text value="財務監査情報" name="FinancialAuditInformation" />
@@ -1402,6 +1417,8 @@
     <text value="それは重要ですか？" name="ImportantOrNot" />
     <text value="利益情報のインポートはすでに始まっています。" name="ImportClientRelationProcessStart" />
     <text value="利益情報のインポートに失敗しました。" name="ImportClientRelationUploadFailed" />
+    <text value="支出の詳細をインポートするプロセスが開始されました" name="ImportExpenditureProcessStart" />
+    <text value="支出詳細のインポートプロセスが失敗しました。" name="ImportExpenditureUploadFailed" />
     <text value="Excelからインポート" name="ImportFromExcel" />
     <text value="テンプレートに従って有効なデータをインポートしてください！" name="ImportTemplateDataWarning" />
     <text value="{0}インポートテンプレートファイルをダウンロードします。" name="ImportToExcelTemplateFileDownloadInfo" />
@@ -1689,10 +1706,12 @@
     <text value="主な配達単位、発行理由、コピー枚数は空ではありません！" name="MainUnitIssuedByReasonCopiesNotallowedtobeEmpty" />
     <text value="学科" name="MajorStudied" />
     <text value="申し訳ございませんが、選択リストに承認を返す理由がすべて記入されていることを確認してください。そうでない場合、承認結果を提出できません。" name="MakeSureReasonsForApprovalInSelectionListAreFilledIn" />
+    <text value="男性" name="Male" />
     <text value="イントラネット分類情報を管理する" name="ManageIntranetClassificationInformation" />
     <text value="アカウント管理" name="ManageLinkedAccounts" />
     <text value="マネジメント" name="Management" />
     <text value="管理情報" name="ManagementInformation" />
+    <text value="返却された監督者" name="ManagerReturn" />
     <text value="管理メンバー" name="ManagingMembers" />
     <text value="管理組織ツリー" name="ManagingOrganizationTree" />
     <text value="管理役割" name="ManagingRoles" />
@@ -1929,6 +1948,7 @@
     <text value="収集されない" name="NotCollected" />
     <text value="未完成の" name="NotCompleted" />
     <text value="許可を変更する場合は、許可の変更を有効にするためにページ（F5）を更新する必要があります。" name="Note_RefreshPageForPermissionChanges" />
+    <text value="注意：" name="NoteTips" />
     <text value="一時的に対処するものはありません！" name="NothingToDealWithTemporarily" />
     <text value="[{0}]が提出され、あなたは{1}の役割のケースに参加します。" name="NoticeCaseParticipants" />
     <text name="Notification" />
@@ -2090,6 +2110,10 @@
     <text value="法人ナビゲーション" name="Pages.CommonTools.Navigation" />
     <text value="フルタイムのWeb会議" name="Pages.CommonTools.QuanShi" />
     <text value="顧客関係" name="Pages.Customers" />
+    <text value="顧客リード" name="Pages.Customers.CustomerClue" />
+    <text value="リードレビュー" name="Pages.Customers.CustomerClue.Audit" />
+    <text value="リード管理" name="Pages.Customers.CustomerClue.Manage" />
+    <text value="私の手がかり" name="Pages.Customers.CustomerClue.MyClue" />
     <text value="カスタマーストレージ" name="Pages.Customers.CustomerStorage" />
     <text value="倉庫申告" name="Pages.Customers.CustomerStorage.Apply" />
     <text value="倉庫監査" name="Pages.Customers.CustomerStorage.Audit" />
@@ -2330,6 +2354,7 @@
     <text value="背景画像をアップロードして削除したら、ページの右上隅にある[すべて保存]ボタンをクリックしてください。" name="PleaseClickSaveAllAfterOperation" />
     <text value="会議の議事録を完了してください" name="PleaseCompleteMinutesOfMeeting" />
     <text value="ユーザー情報を入力してください！" name="PleaseCompleteUserInformation" />
+    <text value="入力時にテンプレートのサンプルデータを削除してください、ありがとうございます！" name="PleaseDelSampleDataInTemplateWhenEntering" />
     <text name="PleaseEnterAtLeastNCharacter" />
     <text value="{0}秒以内に確認コードを入力してください" name="PleaseEnterCodeWithinSeconds" />
     <text value="ログイン情報を入力してください" name="PleaseEnterLoginInformation" />
@@ -2358,6 +2383,7 @@
     <text value="関連するケース情報を入力してください" name="PleaseInputCaseRelationInfo" />
     <text value="ファイル名を入力してください" name="PleaseInputFileName" />
     <text value="あなたのメールアドレスを入力してください" name="PleaseInputMail" />
+    <text value="支出タイプをデータディクショナリの支出タイプと一致させ、最小のサブセットと一致させてください" name="PleaseKeepExpenditureTypeRight" />
     <text value="チェックしたファイルキューにフォルダがある場合は、フォルダチェックオプションを削除してください" name="PleaseRemoveTheFolderCheckOption" />
     <text value="選択してください" name="PleaseSelect" />
     <text value="ケースを選んでください！" name="PleaseSelectACase" />
@@ -2485,6 +2511,7 @@
     <text name="Property" />
     <text value="プロパティのセグメンテーション" name="PropertySegmentation" />
     <text value="比例配分" name="ProportionateDistribution" />
+    <text value="顧客リードの保護期間" name="ProtectionPeriodForCustomerLeads" />
     <text value="積立基金ローン" name="ProvidentFundLoans" />
     <text value="公共プロジェクト" name="PublicProject" />
     <text value="公開済み" name="Published" />
@@ -2624,6 +2651,7 @@
     <text value="去る" name="RequestForLeave" />
     <text value="リクエストがタイムアウトしました。しばらくしてからもう一度お試しください。" name="RequestTimedOut" />
     <text value="必須" name="Required" />
+    <text value="*の列は必須です" name="RequiredColumnsSymbols" />
     <text name="RequiredField" />
     <text value="パスワードを変更する必要があります" name="RequiresPasswordChange" />
     <text name="RequiresTwoFactorAuth" />
@@ -2897,6 +2925,7 @@
     <text value="登録" name="SignUp" />
     <text value="関連リストに同様の顧客が存在する場合は、そのケースが入力されます。顧客情報は削除され、置き換えられます。" name="SimilarCustomerInAssociationListTheCaseHasBeenEnteredTheCustomerWillBeDeletedAndReplaced" />
     <text value="同様の顧客リスト" name="SimilarCustomerList" />
+    <text value="類似会社" name="SimiliarCompanies" />
     <text value="簡体字中国語" name="SimplifiedChinese" />
     <text value="シングルレート" name="SingleRate" />
     <text value="単一のタイマーのみが計時を開始できるようにする" name="SingleTimerStartOnly" />
@@ -3224,6 +3253,8 @@
     <text value="最高度" name="TheHighestDegreeOfEducation" />
     <text value="キー値は既に存在します。送信する前に変更してください。" name="TheKeyOfEntityAlreadyExists" />
     <text value="最新" name="TheLatest" />
+    <text value="申請した{0}のリード延長保護は承認されました" name="TheLeadExtensionProtectionForYouAppliedForHasBeenApproved" />
+    <text value="申請した{0}のリード拡張保護はレビューに合格していません" name="TheLeadExtensionProtectionForYouAppliedForHasNotPassedTheReview" />
     <text value="件名" name="Theme" />
     <text name="Theme_Default" />
     <text name="Theme_Theme1" />
@@ -3244,6 +3275,7 @@
     <text value="公式のケースデータは現在デフォルトで表示されています。さらに取得する必要がある場合は、高度な検索でステータス条件を変更してください。" name="TheOfficialCaseDataIsCurrentlyDisplayedByDefault" />
     <text value="現在、ケースの顧客はデフォルトで表示されています。さらに検索する必要がある場合は、詳細検索でステータス条件を変更してください" name="TheOfficialClientDataIsCurrentlyDisplayedByDefault" />
     <text value="前へ" name="ThePrevious" />
+    <text value="現在保留中の情報の処理結果があります！" name="ThereAreProcessingResultsForTheCurrentPendingInformation" />
     <text name="ThereAreTenantsSubscribedToThisEdition" />
     <text value="料金は{0}です。" name="ThereIsAFee" />
     <text value="金額{0} {1}の請求書{2}があります。" name="ThereIsAnInvoiceFor" />
@@ -3544,6 +3576,7 @@
     <text value="待つ" name="Wait" />
     <text name="WaitAfterSubscriptionExpireDate" />
     <text value="レビュー待ち" name="WaitForAudit" />
+    <text value="審査待ち" name="WaitForCancel" />
     <text value="保留中の申し立て" name="WaitForClaim" />
     <text value="保留中の請求書" name="WaitForRegister" />
     <text name="WaitingDayAfterExpire" />
@@ -3598,6 +3631,7 @@
     <text value="外国関係にかかわらず" name="WhetherRelatedForegin" />
     <text value="単語セグメンテーション" name="WhetherSplitWord" />
     <text value="タスクディスパッチャーかどうか" name="WhetherTaskAssigner" />
+    <text value="スレッド保護かどうか" name="WhetherThreadProtection" />
     <text value="受け入れられた" name="WhetherToAccept" />
     <text value="アクティブ化するかどうか" name="WhetherToActivate" />
     <text value="列表示を発行するかどうか" name="WhetherToDisplayInTheBulletinBorad" />

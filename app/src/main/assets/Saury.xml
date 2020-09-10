@@ -113,6 +113,7 @@
     <text value="Issues are only visible to meeting participants (Conference contacts: {0})" name="AgendaOnlyVisibleToParticipants" />
     <text value="Todo List" name="AgendaView" />
     <text value="Agent" name="Agent" />
+    <text value="agree" name="Agree" />
     <text value="Agreed interest rate" name="AgreedInterestRate" />
     <text value="Exchange rate" name="AgreedRate" />
     <text value="Agree to file" name="AgreeToArchive" />
@@ -214,6 +215,7 @@
     <text value="Apply" name="Apply" />
     <text value="Paper review" name="ApplyDocumentReview" />
     <text value="Application end time" name="ApplyEndTime" />
+    <text value="Apply for an extension" name="ApplyForAnExtension" />
     <text value="Apply for trial" name="ApplyForTrial" />
     <text value="Apply paper stamp" name="ApplyPaperStamp" />
     <text value="Application start time" name="ApplyStartTime" />
@@ -414,6 +416,7 @@
     <text value="Source of calendar" name="CalendarSource" />
     <text value="Calendar view" name="CalendarView" />
     <text value="Cancel" name="Cancel" />
+    <text value="Void application" name="CancelApply" />
     <text value="Cancel conversion tips" name="CancelConversionPrompt" />
     <text value="Cancel final draft" name="CancelFinalDraft" />
     <text value="Abolished" name="Cancellation" />
@@ -436,6 +439,7 @@
     <text value="The current name is already in use, please use a different name!" name="CanNotUseName" />
     <text value="Only allow numbers" name="CanOnlyEnterNumbers" />
     <text value="Receivables" name="CanReceivables" />
+    <text value="Can refer to" name="CanReferTo" />
     <text value="You must prove that you are not a robot." name="CaptchaCanNotBeEmpty" />
     <text value="Please prove you are not a robot" name="Captha_Hint" />
     <text value="Can not make cascade impersonation. This is already an impersonated login!" name="CascadeImpersonationErrorMessage" />
@@ -616,6 +620,7 @@
     <text value="Client" name="Client" />
     <text value="Client's case contact" name="ClientCaseContact" />
     <text value="Client's case contact information" name="ClientCaseContactInformation" />
+    <text value="Customer {0} needs lead extension protection, pending your review" name="ClientClueExtensionProtect" />
     <text value="%s customers" name="ClientCnt" />
     <text value="Customer Contact Contact" name="ClientContact" />
     <text value="Customer Contact Basic Information" name="ClientContactBasicInfo" />
@@ -831,6 +836,7 @@
     <text value="Creation time" name="CreationTime" />
     <text value="founder" name="Creator" />
     <text value="Currency" name="Currency" />
+    <text value="Currency code" name="CurrencyCode" />
     <text value="According to currency statistics" name="CurrencyStatistics" />
     <text value="Currency type" name="CurrencyType" />
     <text value="current" name="Current" />
@@ -874,6 +880,8 @@
     <text value="Customer industry" name="CustomerIndustry" />
     <text value="Customer Information" name="CustomerInformation" />
     <text value="Customer information table" name="CustomerInformationTable" />
+    <text value="Customer Lead Information" name="CustomerLeadInformation" />
+    <text value="Customer Lead Protection" name="CustomerLeadProtection" />
     <text value="Representative type" name="CustomerLegalType" />
     <text value="client's name" name="CustomerName" />
     <text value="Customer name abbreviation" name="CustomerNameAbbreviation" />
@@ -990,6 +998,7 @@
     <text value="table of Contents" name="Directory" />
     <text value="Disable" name="Disable" />
     <text value="Don't bill my account automatically" name="DisableRecurringPayments" />
+    <text value="disagree" name="DisAgree" />
     <text value="discount" name="Discount" />
     <text value="Attorney fee discount rate" name="DiscountsOfAttorneyFee" />
     <text value="Attorney fee discount rate %" name="DiscountsOfAttorneyFeeWithPercentSign" />
@@ -1104,11 +1113,13 @@
     <text value="personnel number" name="EmployeeNumber" />
     <text value="Empty ones" name="EmptyOnes" />
     <text value="Enable" name="Enable" />
+    <text value="Enable customer overdue lead protection for advisory cases" name="EnableCustomerOverdueLeadProtectionForAdvisoryCases" />
     <text value="The law angel download service has not been activated yet, please contact the administrator to open the service!" name="EnableFaTianShi" />
     <text value="Enable inbound customer search" name="EnableInboundCustomerSearch" />
     <text value="Enable LDAP Authentication." name="EnableLdapAuthentication" />
     <text value="Enable multi-client" name="EnableMultiClient" />
     <text value="Bill my account automatically" name="EnableRecurringPayments" />
+    <text value="Enable the delayed review of pre-established customer leads" name="EnableTheDelayedReviewOfPreEstablishedCustomerLeads" />
     <text value="Enable two factor user login." name="EnableTwoFactorLogin" />
     <text value="Enable user account locking on failed login attempts" name="EnableUserAccountLockingOnFailedLoginAttemts" />
     <text value="End case" name="EndCase" />
@@ -1154,6 +1165,7 @@
     <text value="Exception" name="Exception" />
     <text value="exchange rate" name="ExchangeRage" />
     <text value="Executive court" name="Executivecourt" />
+    <text value="Administrative return" name="ExecutiveReturn" />
     <text value="Executive target" name="Executivetarget" />
     <text value="Executor" name="Executor" />
     <text value="In the similar customer list, the corresponding customer information is retrieved according to the conditions. Currently, the customer in the list has not been selected to replace the current case customer. Is it confirmed to be correct?" name="ExisitsSimilarReplaceableCustomersWhetherConfirmPositive" />
@@ -1168,6 +1180,7 @@
     <text value="Expense review" name="ExpenseReview" />
     <text value="Date of Expiry" name="ExpirationDate" />
     <text value="be expired" name="Expired" />
+    <text value="Expired lead protection period for clients in consulting cases" name="ExpiredLeadProtectionPeriodForClientsInConsultingCases" />
     <text value="Participated Expired Task" name="ExpiredTask" />
     <text value="Expiring" name="Expiring" />
     <text value="Expiring edition" name="ExpiringEdition" />
@@ -1204,6 +1217,7 @@
     <text value="Please briefly introduce the main idea of ​​feedback:)" name="FeedbackTitlePlaceholder" />
     <text value="Fee details" name="FeeDetail" />
     <text value="Charges and contract attachments" name="FeesAndContractAccessories" />
+    <text value="Female" name="Female" />
     <text value="Consulting client" name="FGClient" />
     <text value="Field" name="Field" />
     <text value="File" name="File" />
@@ -1236,6 +1250,7 @@
     <text value="Filter default characters" name="FilterDefaultCharacters" />
     <text value="Filter/Add user" name="FilterOrAddUser" />
     <text value="Finance" name="Finance" />
+    <text value="Financial return" name="FinanceReturn" />
     <text value="financial analysis" name="FinancialAnalysis" />
     <text value="Financial review closing information table" name="FinancialAuditClosingInformationSheet" />
     <text value="Financial audit information" name="FinancialAuditInformation" />
@@ -1402,6 +1417,8 @@
     <text value="Is it important?" name="ImportantOrNot" />
     <text value="The process of importing profit information has already begun." name="ImportClientRelationProcessStart" />
     <text value="The process of importing profit information failed." name="ImportClientRelationUploadFailed" />
+    <text value="The process of importing expenditure details has started" name="ImportExpenditureProcessStart" />
+    <text value="The expenditure details import process failed." name="ImportExpenditureUploadFailed" />
     <text value="Import from Excel" name="ImportFromExcel" />
     <text value="Please import valid data according to the template!" name="ImportTemplateDataWarning" />
     <text value="{0}Download the import template file." name="ImportToExcelTemplateFileDownloadInfo" />
@@ -1689,10 +1706,12 @@
     <text value="The main delivery unit, the reason for the issue, and the number of copies are not allowed to be empty!" name="MainUnitIssuedByReasonCopiesNotallowedtobeEmpty" />
     <text value="Major Studied" name="MajorStudied" />
     <text value="I'm sorry, please make sure that the reasons for returning the approvals in the selection list are all already filled out. Otherwise, the approval result cannot be submitted." name="MakeSureReasonsForApprovalInSelectionListAreFilledIn" />
+    <text value="male" name="Male" />
     <text value="Manage intranet classification information" name="ManageIntranetClassificationInformation" />
     <text value="Manage linked accounts" name="ManageLinkedAccounts" />
     <text value="management" name="Management" />
     <text value="Management information" name="ManagementInformation" />
+    <text value="Supervisor returned" name="ManagerReturn" />
     <text value="Managing members" name="ManagingMembers" />
     <text value="Managing organization tree" name="ManagingOrganizationTree" />
     <text value="Management role" name="ManagingRoles" />
@@ -1929,6 +1948,7 @@
     <text value="Not collected" name="NotCollected" />
     <text value="undone" name="NotCompleted" />
     <text value="If you are changing your own permissions, you may need to refresh page (F5) to take effect of permission changes on your own screen!" name="Note_RefreshPageForPermissionChanges" />
+    <text value="note:" name="NoteTips" />
     <text value="Nothing to deal with temporarily!" name="NothingToDealWithTemporarily" />
     <text value="[{0}] has been filed and you will be participating in the case in the role of {1}." name="NoticeCaseParticipants" />
     <text value="Notification" name="Notification" />
@@ -2090,6 +2110,10 @@
     <text value="Legal navigation" name="Pages.CommonTools.Navigation" />
     <text value="Full-time web conference" name="Pages.CommonTools.QuanShi" />
     <text value="CRM" name="Pages.Customers" />
+    <text value="Customer leads" name="Pages.Customers.CustomerClue" />
+    <text value="Lead review" name="Pages.Customers.CustomerClue.Audit" />
+    <text value="Lead management" name="Pages.Customers.CustomerClue.Manage" />
+    <text value="My clue" name="Pages.Customers.CustomerClue.MyClue" />
     <text value="Customer storage" name="Pages.Customers.CustomerStorage" />
     <text value="Warehousing declaration" name="Pages.Customers.CustomerStorage.Apply" />
     <text value="Warehousing audit" name="Pages.Customers.CustomerStorage.Audit" />
@@ -2330,6 +2354,7 @@
     <text value="After uploading and deleting background images, please click the Save All button in the upper right corner of the page!" name="PleaseClickSaveAllAfterOperation" />
     <text value="Please complete the meeting minutes" name="PleaseCompleteMinutesOfMeeting" />
     <text value="Please complete user information!" name="PleaseCompleteUserInformation" />
+    <text value="Please delete the sample data in the template when entering, thank you!" name="PleaseDelSampleDataInTemplateWhenEntering" />
     <text value="Please enter at least {0} characters." name="PleaseEnterAtLeastNCharacter" />
     <text value="Please enter the verification code within {0} seconds" name="PleaseEnterCodeWithinSeconds" />
     <text value="Please enter login information" name="PleaseEnterLoginInformation" />
@@ -2358,6 +2383,7 @@
     <text value="Please enter relevant case information" name="PleaseInputCaseRelationInfo" />
     <text value="Please enter a file name" name="PleaseInputFileName" />
     <text value="please input your email" name="PleaseInputMail" />
+    <text value="Please keep the expenditure type consistent with the expenditure type in the data dictionary and match the smallest subset" name="PleaseKeepExpenditureTypeRight" />
     <text value="If there is a folder in the file queue you checked, please remove the folder check option" name="PleaseRemoveTheFolderCheckOption" />
     <text value="please choose" name="PleaseSelect" />
     <text value="Please choose a case!" name="PleaseSelectACase" />
@@ -2485,6 +2511,7 @@
     <text value="Property" name="Property" />
     <text value="Property segmentation" name="PropertySegmentation" />
     <text value="be divided in portion" name="ProportionateDistribution" />
+    <text value="Protection period for customer leads" name="ProtectionPeriodForCustomerLeads" />
     <text value="Provident fund loans" name="ProvidentFundLoans" />
     <text value="Public Project" name="PublicProject" />
     <text value="Published" name="Published" />
@@ -2624,6 +2651,7 @@
     <text value="Leave application" name="RequestForLeave" />
     <text value="Your request timed out. Please try again later." name="RequestTimedOut" />
     <text value="Required" name="Required" />
+    <text value="The columns with * are required" name="RequiredColumnsSymbols" />
     <text value="{0} field is required." name="RequiredField" />
     <text value="Requires password change" name="RequiresPasswordChange" />
     <text value="Requires two factor authentication" name="RequiresTwoFactorAuth" />
@@ -2897,6 +2925,7 @@
     <text value="Sign up" name="SignUp" />
     <text value="If there are similar customers in the related list, the case has been entered. The customer information will be deleted and replaced." name="SimilarCustomerInAssociationListTheCaseHasBeenEnteredTheCustomerWillBeDeletedAndReplaced" />
     <text value="Similar customer list" name="SimilarCustomerList" />
+    <text value="Similar companies" name="SimiliarCompanies" />
     <text value="Simplified Chinese" name="SimplifiedChinese" />
     <text value="Single rate" name="SingleRate" />
     <text value="Only allow a single timer to start timing" name="SingleTimerStartOnly" />
@@ -3224,6 +3253,8 @@
     <text value="highest education" name="TheHighestDegreeOfEducation" />
     <text value="The key value already exists. Please change it before submitting!" name="TheKeyOfEntityAlreadyExists" />
     <text value="up to date" name="TheLatest" />
+    <text value="The lead extension protection for {0} you applied for has been approved" name="TheLeadExtensionProtectionForYouAppliedForHasBeenApproved" />
+    <text value="The lead extension protection for {0} you applied for has not passed the review" name="TheLeadExtensionProtectionForYouAppliedForHasNotPassedTheReview" />
     <text value="theme" name="Theme" />
     <text value="Default" name="Theme_Default" />
     <text value="Theme 1" name="Theme_Theme1" />
@@ -3244,6 +3275,7 @@
     <text value="The official case data is currently displayed by default. If you need to retrieve more, please change the status condition in advanced search!" name="TheOfficialCaseDataIsCurrentlyDisplayedByDefault" />
     <text value="Case customers are currently displayed by default. If you need to retrieve more, please change the status criteria in advanced search!" name="TheOfficialClientDataIsCurrentlyDisplayedByDefault" />
     <text value="Previous" name="ThePrevious" />
+    <text value="There are processing results for the current pending information!" name="ThereAreProcessingResultsForTheCurrentPendingInformation" />
     <text value="There are tenants subscribed to this edition. Please assign a different edition to them and then delete this edition." name="ThereAreTenantsSubscribedToThisEdition" />
     <text value="There is a fee {0}." name="ThereIsAFee" />
     <text value="There is an invoice {2} with amount {0}{1}." name="ThereIsAnInvoiceFor" />
@@ -3544,6 +3576,7 @@
     <text value="Wait" name="Wait" />
     <text value="Wait after subscription expire date" name="WaitAfterSubscriptionExpireDate" />
     <text value="Moderated" name="WaitForAudit" />
+    <text value="Pending review" name="WaitForCancel" />
     <text value="Pending claim" name="WaitForClaim" />
     <text value="Pending invoice" name="WaitForRegister" />
     <text value="Waiting day after expire" name="WaitingDayAfterExpire" />
@@ -3598,6 +3631,7 @@
     <text value="Whether foreign-related" name="WhetherRelatedForegin" />
     <text value="Whether word segmentation" name="WhetherSplitWord" />
     <text value="Task dispatcher ?" name="WhetherTaskAssigner" />
+    <text value="Whether thread protection" name="WhetherThreadProtection" />
     <text value="Whether to accept" name="WhetherToAccept" />
     <text value="Activate now" name="WhetherToActivate" />
     <text value="Whether to publish column display" name="WhetherToDisplayInTheBulletinBorad" />
