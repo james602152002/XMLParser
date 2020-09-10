@@ -1113,7 +1113,7 @@
     <text value="従業員番号" name="EmployeeNumber" />
     <text value="ヌル値" name="EmptyOnes" />
     <text name="Enable" />
-    <text value="アドバイザリーケースの顧客の期限切れのリード保護を有効にする" name="EnableCustomerOverdueLeadProtectionForAdvisoryCases" />
+    <text value="アドバイザリーケースのお客様の期限切れのリード保護を有効にする（日）" name="EnableCustomerOverdueLeadProtectionForAdvisoryCases" />
     <text value="ローエンジェルダウンロードサービスはまだ有効化されていません。管理者に連絡してサービスを開始してください。" name="EnableFaTianShi" />
     <text value="インバウンド顧客検索を有効にする" name="EnableInboundCustomerSearch" />
     <text value="ライトウェイトディレクトリアクセスプロトコル（LDAP）認証を有効にします。" name="EnableLdapAuthentication" />
@@ -1721,7 +1721,7 @@
     <text value="結婚するとき" name="Marriage" />
     <text value="結婚" name="MarriageStatus" />
     <text value="品名" name="MaterialName" />
-    <text value="許可される最大顧客数" name="MaxCaseClient" />
+    <text value="許可される顧客の最大数（ビット）" name="MaxCaseClient" />
     <text value="アカウントをロックするまでに失敗したログイン試行の最大回数" name="MaxFailedAccessAttemptsBeforeLockout" />
     <text value="最大{0}枚の写真をアップロードできます" name="MaximumUploadPictures" />
     <text value="ユーザーの最大数" name="MaximumUserCount" />
@@ -2511,7 +2511,7 @@
     <text name="Property" />
     <text value="プロパティのセグメンテーション" name="PropertySegmentation" />
     <text value="比例配分" name="ProportionateDistribution" />
-    <text value="顧客リードの保護期間" name="ProtectionPeriodForCustomerLeads" />
+    <text value="プレオープンの顧客リードの保護期間（日）" name="ProtectionPeriodForCustomerLeads" />
     <text value="積立基金ローン" name="ProvidentFundLoans" />
     <text value="公共プロジェクト" name="PublicProject" />
     <text value="公開済み" name="Published" />
@@ -2923,9 +2923,9 @@
     <text value="署名済み" name="Signed" />
     <text value="署名付きの添付ファイル" name="SignedAttachment" />
     <text value="登録" name="SignUp" />
+    <text value="類似会社" name="SimilarCompanies" />
     <text value="関連リストに同様の顧客が存在する場合は、そのケースが入力されます。顧客情報は削除され、置き換えられます。" name="SimilarCustomerInAssociationListTheCaseHasBeenEnteredTheCustomerWillBeDeletedAndReplaced" />
     <text value="同様の顧客リスト" name="SimilarCustomerList" />
-    <text value="類似会社" name="SimiliarCompanies" />
     <text value="簡体字中国語" name="SimplifiedChinese" />
     <text value="シングルレート" name="SingleRate" />
     <text value="単一のタイマーのみが計時を開始できるようにする" name="SingleTimerStartOnly" />

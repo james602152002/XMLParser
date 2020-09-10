@@ -1113,7 +1113,7 @@
     <text value="personnel number" name="EmployeeNumber" />
     <text value="Empty ones" name="EmptyOnes" />
     <text value="Enable" name="Enable" />
-    <text value="Enable customer overdue lead protection for advisory cases" name="EnableCustomerOverdueLeadProtectionForAdvisoryCases" />
+    <text value="Enabling customer overdue lead protection for advisory cases (days)" name="EnableCustomerOverdueLeadProtectionForAdvisoryCases" />
     <text value="The law angel download service has not been activated yet, please contact the administrator to open the service!" name="EnableFaTianShi" />
     <text value="Enable inbound customer search" name="EnableInboundCustomerSearch" />
     <text value="Enable LDAP Authentication." name="EnableLdapAuthentication" />
@@ -1721,7 +1721,7 @@
     <text value="Marriage" name="Marriage" />
     <text value="Marriage" name="MarriageStatus" />
     <text value="Material name" name="MaterialName" />
-    <text value="Maximum number of customers allowed" name="MaxCaseClient" />
+    <text value="Maximum number of customers allowed (bit)" name="MaxCaseClient" />
     <text value="Maximum number of failed login attempt count before locking the account" name="MaxFailedAccessAttemptsBeforeLockout" />
     <text value="You can upload up to {0} pictures" name="MaximumUploadPictures" />
     <text value="Maximum user count" name="MaximumUserCount" />
@@ -2511,7 +2511,7 @@
     <text value="Property" name="Property" />
     <text value="Property segmentation" name="PropertySegmentation" />
     <text value="be divided in portion" name="ProportionateDistribution" />
-    <text value="Protection period for customer leads" name="ProtectionPeriodForCustomerLeads" />
+    <text value="Protection period for pre-opening customer leads (days)" name="ProtectionPeriodForCustomerLeads" />
     <text value="Provident fund loans" name="ProvidentFundLoans" />
     <text value="Public Project" name="PublicProject" />
     <text value="Published" name="Published" />
@@ -2923,9 +2923,9 @@
     <text value="Signed" name="Signed" />
     <text value="Signed attachment" name="SignedAttachment" />
     <text value="Sign up" name="SignUp" />
+    <text value="Similar companies" name="SimilarCompanies" />
     <text value="If there are similar customers in the related list, the case has been entered. The customer information will be deleted and replaced." name="SimilarCustomerInAssociationListTheCaseHasBeenEnteredTheCustomerWillBeDeletedAndReplaced" />
     <text value="Similar customer list" name="SimilarCustomerList" />
-    <text value="Similar companies" name="SimiliarCompanies" />
     <text value="Simplified Chinese" name="SimplifiedChinese" />
     <text value="Single rate" name="SingleRate" />
     <text value="Only allow a single timer to start timing" name="SingleTimerStartOnly" />

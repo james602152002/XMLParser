@@ -1113,7 +1113,7 @@
     <text value="人员编号" name="EmployeeNumber" />
     <text value="空值" name="EmptyOnes" />
     <text value="启用" name="Enable" />
-    <text value="启用顾问案件客户过期线索保护" name="EnableCustomerOverdueLeadProtectionForAdvisoryCases" />
+    <text value="启用顾问案件客户过期线索保护（天）" name="EnableCustomerOverdueLeadProtectionForAdvisoryCases" />
     <text value="法天使下载服务暂未启用，请联系管理员开启该服务!" name="EnableFaTianShi" />
     <text value="启用入库客户检索" name="EnableInboundCustomerSearch" />
     <text value="启用轻量目录访问协议(LDAP)认证." name="EnableLdapAuthentication" />
@@ -1721,7 +1721,7 @@
     <text value="结婚时" name="Marriage" />
     <text value="婚否" name="MarriageStatus" />
     <text value="材料名称" name="MaterialName" />
-    <text value="允许最大客户数量" name="MaxCaseClient" />
+    <text value="允许最大客户数量（位）" name="MaxCaseClient" />
     <text value="在锁定帐户之前的累计登录失败的最大数量" name="MaxFailedAccessAttemptsBeforeLockout" />
     <text value="您最多可上传{0}张图片" name="MaximumUploadPictures" />
     <text value="最大用户数" name="MaximumUserCount" />
@@ -2511,7 +2511,7 @@
     <text value="属性" name="Property" />
     <text value="房产分割" name="PropertySegmentation" />
     <text value="按比例分配" name="ProportionateDistribution" />
-    <text value="预立案客户线索保护期限" name="ProtectionPeriodForCustomerLeads" />
+    <text value="预立案客户线索保护期限(天)" name="ProtectionPeriodForCustomerLeads" />
     <text value="公积金贷款" name="ProvidentFundLoans" />
     <text value="公开项目" name="PublicProject" />
     <text value="已出版" name="Published" />
@@ -2923,9 +2923,9 @@
     <text value="已签署" name="Signed" />
     <text value="已签署附件" name="SignedAttachment" />
     <text value="登录" name="SignUp" />
+    <text value="类似公司" name="SimilarCompanies" />
     <text value="如关联列表中的相似客户，则该案件已录入客户信息将被删除并替换" name="SimilarCustomerInAssociationListTheCaseHasBeenEnteredTheCustomerWillBeDeletedAndReplaced" />
     <text value="相似客户列表" name="SimilarCustomerList" />
-    <text value="类似公司" name="SimiliarCompanies" />
     <text value="简体中文" name="SimplifiedChinese" />
     <text value="单一费率" name="SingleRate" />
     <text value="只允许单个计时器开启计时" name="SingleTimerStartOnly" />

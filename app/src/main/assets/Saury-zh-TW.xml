@@ -1113,7 +1113,7 @@
     <text value="人員編號" name="EmployeeNumber" />
     <text value="空值" name="EmptyOnes" />
     <text name="Enable" />
-    <text value="啟用顧問案件客戶過期線索保護" name="EnableCustomerOverdueLeadProtectionForAdvisoryCases" />
+    <text value="啟用顧問案件客戶過期線索保護（天）" name="EnableCustomerOverdueLeadProtectionForAdvisoryCases" />
     <text value="法天使下載服務暫未啟用，請聯繫管理員開啟該服務!" name="EnableFaTianShi" />
     <text value="啟用入庫客戶檢索" name="EnableInboundCustomerSearch" />
     <text value="啟用輕量目錄訪問協議(LDAP)認證." name="EnableLdapAuthentication" />
@@ -1721,7 +1721,7 @@
     <text value="結婚時" name="Marriage" />
     <text value="婚否" name="MarriageStatus" />
     <text value="材料名稱" name="MaterialName" />
-    <text value="允許最大客戶數量" name="MaxCaseClient" />
+    <text value="允許最大客戶數量（位）" name="MaxCaseClient" />
     <text value="鎖定帳戶之前失敗的登錄嘗試次數的最大值" name="MaxFailedAccessAttemptsBeforeLockout" />
     <text value="您最多可上傳{0}張圖片" name="MaximumUploadPictures" />
     <text value="最大用戶數" name="MaximumUserCount" />
@@ -2511,7 +2511,7 @@
     <text name="Property" />
     <text value="房產分割" name="PropertySegmentation" />
     <text value="按比例分配" name="ProportionateDistribution" />
-    <text value="預立案客戶線索保護期限" name="ProtectionPeriodForCustomerLeads" />
+    <text value="預立案客戶線索保護期限(天)" name="ProtectionPeriodForCustomerLeads" />
     <text value="公積金貸款" name="ProvidentFundLoans" />
     <text value="公開項目" name="PublicProject" />
     <text value="已出版" name="Published" />
@@ -2923,9 +2923,9 @@
     <text value="已簽署" name="Signed" />
     <text value="已簽署附件" name="SignedAttachment" />
     <text value="註冊" name="SignUp" />
+    <text value="類似公司" name="SimilarCompanies" />
     <text value="如關聯列表中的相似客戶，則該案件已錄入客戶信息將被刪除並替換" name="SimilarCustomerInAssociationListTheCaseHasBeenEnteredTheCustomerWillBeDeletedAndReplaced" />
     <text value="相似客戶列表" name="SimilarCustomerList" />
-    <text value="類似公司" name="SimiliarCompanies" />
     <text value="簡體中文" name="SimplifiedChinese" />
     <text value="單一費率" name="SingleRate" />
     <text value="只允許單個計時器開啟計時" name="SingleTimerStartOnly" />

@@ -1113,7 +1113,7 @@
     <text value="인사 번호" name="EmployeeNumber" />
     <text value="Null 값" name="EmptyOnes" />
     <text name="Enable" />
-    <text value="자문 사례에 대한 고객 연체 리드 보호 활성화" name="EnableCustomerOverdueLeadProtectionForAdvisoryCases" />
+    <text value="자문 사례에 대한 고객 연체 리드 보호 활성화 (일)" name="EnableCustomerOverdueLeadProtectionForAdvisoryCases" />
     <text value="법률 천사 다운로드 서비스가 아직 활성화되지 않았습니다. 서비스를 열려면 관리자에게 문의하십시오!" name="EnableFaTianShi" />
     <text value="인바운드 고객 검색 사용" name="EnableInboundCustomerSearch" />
     <text value="LDAP (Lightweight Directory Access Protocol) 인증을 사용합니다." name="EnableLdapAuthentication" />
@@ -1721,7 +1721,7 @@
     <text value="결혼 할 때" name="Marriage" />
     <text value="결혼" name="MarriageStatus" />
     <text value="물질 이름" name="MaterialName" />
-    <text value="허용되는 최대 고객 수" name="MaxCaseClient" />
+    <text value="허용되는 최대 고객 수 (비트)" name="MaxCaseClient" />
     <text value="계정을 잠그기 전에 실패한 로그인 시도의 최대 횟수" name="MaxFailedAccessAttemptsBeforeLockout" />
     <text value="최대 {0} 장의 사진을 업로드 할 수 있습니다" name="MaximumUploadPictures" />
     <text value="최대 사용자 수" name="MaximumUserCount" />
@@ -2511,7 +2511,7 @@
     <text name="Property" />
     <text value="속성 세분화" name="PropertySegmentation" />
     <text value="비례 배분" name="ProportionateDistribution" />
-    <text value="고객 리드 보호 기간" name="ProtectionPeriodForCustomerLeads" />
+    <text value="사전 개설 고객 리드에 대한 보호 기간 (일)" name="ProtectionPeriodForCustomerLeads" />
     <text value="프로 비 던트 자금 대출" name="ProvidentFundLoans" />
     <text value="공공 프로젝트" name="PublicProject" />
     <text value="게시" name="Published" />
@@ -2923,9 +2923,9 @@
     <text value="서명" name="Signed" />
     <text value="서명 된 첨부 파일" name="SignedAttachment" />
     <text value="등록" name="SignUp" />
+    <text value="유사한 회사" name="SimilarCompanies" />
     <text value="관련 목록에 유사한 고객이있는 경우 해당 사례가 입력되고 고객 정보가 삭제되고 대체됩니다." name="SimilarCustomerInAssociationListTheCaseHasBeenEnteredTheCustomerWillBeDeletedAndReplaced" />
     <text value="유사한 고객 목록" name="SimilarCustomerList" />
-    <text value="유사한 회사" name="SimiliarCompanies" />
     <text value="중국어 간체" name="SimplifiedChinese" />
     <text value="단일 요금" name="SingleRate" />
     <text value="단일 타이머 만 타이밍을 시작하도록 허용" name="SingleTimerStartOnly" />
