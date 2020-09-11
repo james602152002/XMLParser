@@ -40,6 +40,7 @@
     <text value="操作列の設定" name="ActionColumnPreference" />
     <text value="操作情報" name="ActionInformations" />
     <text value="オペレーション" name="Actions" />
+    <text value="活性化" name="Activated" />
     <text value="電子メールに電子メールの確認メールが送信されました。確認してください。" name="ActivationMailSentMessage" />
     <text value="活性化" name="Active" />
     <text value="積極的に財務レビューをキャンセルする" name="ActiveCancellationOfFinancialAudits" />
@@ -183,6 +184,7 @@
     <text value="ファイリング" name="App.Business.CaseCreation" />
     <text value="楽器" name="App.Business.CaseFile" />
     <text value="切手" name="App.Business.StampFiles" />
+    <text value="手がかり" name="App.Customers.Clue" />
     <text value="倉庫" name="App.Customers.Storage" />
     <text value="使用章" name="App.Executive.OfficeSeal" />
     <text value="ビル" name="App.Financial.Billings" />
@@ -1262,6 +1264,7 @@
     <text value="お申し込みいただいた終了ファイル[{0}]は財務部から返却されました。終了情報を変更してください。" name="FinancialReviewReturned" />
     <text value="現在のケースの金融閉鎖見直し申請が処理されました！" name="FinancialSettlementAuditOfCaseHasBeenProcessed" />
     <text value="財務レビューが返されました" name="FinanciaReviewReturned" />
+    <text value="探す" name="Find" />
     <text value="ケースを見つける" name="FindACase" />
     <text value="顧客を見つける" name="FindACustomer" />
     <text value="規制、情報を見つける" name="FindRegulations,Information" />
@@ -1444,6 +1447,7 @@
     <text value="パーソナルセンター" name="InfoCenter" />
     <text value="情報" name="Information" />
     <text value="会議中に..." name="InMeeting" />
+    <text value="進行中" name="InProgress" />
     <text value="何を入力すべきかわからない場合は、デフォルト値（時間なしなど）または乱数を入力できます。" name="InputValueNullOrUnknownReminder" />
     <text value="現在のステータスが{0}に変更された後、システムにログインできなくなります。大丈夫ですか？" name="InserviceStatusChangeWarning" />
     <text value="現在のステータスが{0}に変更された後、ログインを続行できますか？" name="InServiceStatusChangeWarning2" />
@@ -1948,6 +1952,7 @@
     <text value="収集されない" name="NotCollected" />
     <text value="未完成の" name="NotCompleted" />
     <text value="許可を変更する場合は、許可の変更を有効にするためにページ（F5）を更新する必要があります。" name="Note_RefreshPageForPermissionChanges" />
+    <text value="有効になっていません" name="NotEnabled" />
     <text value="注意：" name="NoteTips" />
     <text value="一時的に対処するものはありません！" name="NothingToDealWithTemporarily" />
     <text value="[{0}]が提出され、あなたは{1}の役割のケースに参加します。" name="NoticeCaseParticipants" />
@@ -3306,6 +3311,7 @@
     <text value="ウェブサイトのhttpルートパス" name="ThisWebSiteRootAddress" />
     <text value="例：このシステムへの外部リンクのためのhttp://mydomain.com/（パスワードリセットリンクなど）" name="ThisWebSiteRootAddress_Hint" />
     <text value="スリップ" name="ThisWeek" />
+    <text value="スレッド保護ステータス" name="ThreadProtectionStatus" />
     <text value="時間" name="Time" />
     <text value="タイムラインビュー" name="TimelineView" />
     <text value="タイムアウトを待って、もう一度クリックして支払いをダウンロードしてください！" name="TimeOutForPayment" />

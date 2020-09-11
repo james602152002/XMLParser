@@ -40,6 +40,7 @@
     <text value="操作列偏好" name="ActionColumnPreference" />
     <text value="操作信息" name="ActionInformations" />
     <text value="操作" name="Actions" />
+    <text value="已开启" name="Activated" />
     <text value="已向您的邮箱发送了一封邮箱地址验证邮件，请查收." name="ActivationMailSentMessage" />
     <text value="激活" name="Active" />
     <text value="主动取消财务审核" name="ActiveCancellationOfFinancialAudits" />
@@ -183,6 +184,7 @@
     <text value="立案" name="App.Business.CaseCreation" />
     <text value="文书" name="App.Business.CaseFile" />
     <text value="盖章" name="App.Business.StampFiles" />
+    <text value="线索" name="App.Customers.Clue" />
     <text value="入库" name="App.Customers.Storage" />
     <text value="用章" name="App.Executive.OfficeSeal" />
     <text value="账单" name="App.Financial.Billings" />
@@ -1262,6 +1264,7 @@
     <text value="您申请的结案归档案件[{0}],已被财务退回,请修改结案信息." name="FinancialReviewReturned" />
     <text value="当前案件的财务结案审核申请已经被处理！" name="FinancialSettlementAuditOfCaseHasBeenProcessed" />
     <text value="财务审核退回" name="FinanciaReviewReturned" />
+    <text value="查找" name="Find" />
     <text value="查找案件" name="FindACase" />
     <text value="查找客户" name="FindACustomer" />
     <text value="查找法规，资料" name="FindRegulations,Information" />
@@ -1444,6 +1447,7 @@
     <text value="个人中心" name="InfoCenter" />
     <text value="信息" name="Information" />
     <text value="会议中……" name="InMeeting" />
+    <text value="正在进行中" name="InProgress" />
     <text value="未确定录入内容时可填入缺省值（如：暂无）或随机数" name="InputValueNullOrUnknownReminder" />
     <text value="在职状态变更为{0}后，将无法登录系统，是否确定？" name="InserviceStatusChangeWarning" />
     <text value="在职状态变更为{0}后，是否允许该账号可以继续登录？" name="InServiceStatusChangeWarning2" />
@@ -1948,6 +1952,7 @@
     <text value="未收集" name="NotCollected" />
     <text value="未完成" name="NotCompleted" />
     <text value="如果您正在更改自己的权限，则可能需要刷新页面（F5），以在您所做的权限更改生效！" name="Note_RefreshPageForPermissionChanges" />
+    <text value="未启用" name="NotEnabled" />
     <text value="注意：" name="NoteTips" />
     <text value="暂无任何处理事项！" name="NothingToDealWithTemporarily" />
     <text value="[{0}]已立案，您将以{1}的角色参与到该案件中。" name="NoticeCaseParticipants" />
@@ -3306,6 +3311,7 @@
     <text value="网站http根路径" name="ThisWebSiteRootAddress" />
     <text value="示例： http://mydomain.com/ ，用于外部链接本系统，如密码重置链接" name="ThisWebSiteRootAddress_Hint" />
     <text value="本周" name="ThisWeek" />
+    <text value="线索保护状态" name="ThreadProtectionStatus" />
     <text value="时间" name="Time" />
     <text value="时间轴视图" name="TimelineView" />
     <text value="等待超时，请重新点击下载支付！" name="TimeOutForPayment" />

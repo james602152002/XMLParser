@@ -40,6 +40,7 @@
     <text value="작업 열 환경 설정" name="ActionColumnPreference" />
     <text value="운영 정보" name="ActionInformations" />
     <text value="운영" name="Actions" />
+    <text value="활성화" name="Activated" />
     <text value="이메일 확인 이메일이 귀하의 이메일로 발송되었습니다. 확인하십시오." name="ActivationMailSentMessage" />
     <text value="활성화 됨" name="Active" />
     <text value="사전에 재무 검토 취소" name="ActiveCancellationOfFinancialAudits" />
@@ -183,6 +184,7 @@
     <text value="제출" name="App.Business.CaseCreation" />
     <text value="계기" name="App.Business.CaseFile" />
     <text value="스탬프" name="App.Business.StampFiles" />
+    <text value="실마리" name="App.Customers.Clue" />
     <text value="창고" name="App.Customers.Storage" />
     <text value="챕터 사용" name="App.Executive.OfficeSeal" />
     <text value="빌" name="App.Financial.Billings" />
@@ -1262,6 +1264,7 @@
     <text value="귀하가 신청하신 닫는 파일 [{0}]이 재무 부서에서 반환되었습니다. 닫는 정보를 수정하십시오." name="FinancialReviewReturned" />
     <text value="현재 사례의 금융 종결 검토 신청서가 처리되었습니다!" name="FinancialSettlementAuditOfCaseHasBeenProcessed" />
     <text value="재무 검토가 반환 됨" name="FinanciaReviewReturned" />
+    <text value="찾기" name="Find" />
     <text value="사례 찾기" name="FindACase" />
     <text value="고객 찾기" name="FindACustomer" />
     <text value="규정, 정보 찾기" name="FindRegulations,Information" />
@@ -1444,6 +1447,7 @@
     <text value="개인 센터" name="InfoCenter" />
     <text value="정보" name="Information" />
     <text value="회의 도중 ..." name="InMeeting" />
+    <text value="진행 중" name="InProgress" />
     <text value="입력 할 내용이 확실하지 않은 경우 기본값 (예 : 시간 없음) 또는 임의의 숫자를 채울 수 있습니다." name="InputValueNullOrUnknownReminder" />
     <text value="기존 상태가 {0}으로 변경되면 시스템에 로그인 할 수 없습니다. 정상입니까?" name="InserviceStatusChangeWarning" />
     <text value="기존 상태가 {0} (으)로 변경된 후 계속 로그인 할 수 있습니까?" name="InServiceStatusChangeWarning2" />
@@ -1948,6 +1952,7 @@
     <text value="수집되지 않음" name="NotCollected" />
     <text value="미완성의" name="NotCompleted" />
     <text value="권한을 변경하는 경우 권한 변경 사항을 적용하려면 페이지 (F5)를 새로 고쳐야 할 수도 있습니다!" name="Note_RefreshPageForPermissionChanges" />
+    <text value="활성화되지 않음" name="NotEnabled" />
     <text value="노트:" name="NoteTips" />
     <text value="일시적으로 처리 할 사항이 없습니다!" name="NothingToDealWithTemporarily" />
     <text value="[{0}]이 (가) 제출되었으며 귀하는 {1} 역할에 해당 사례에 참여하게됩니다." name="NoticeCaseParticipants" />
@@ -3306,6 +3311,7 @@
     <text value="웹 사이트 http 루트 경로" name="ThisWebSiteRootAddress" />
     <text value="예 :이 시스템에 대한 외부 링크의 경우 http://mydomain.com/ (예 : 암호 재설정 링크)" name="ThisWebSiteRootAddress_Hint" />
     <text value="이번 주" name="ThisWeek" />
+    <text value="스레드 보호 상태" name="ThreadProtectionStatus" />
     <text value="시간" name="Time" />
     <text value="타임 라인보기" name="TimelineView" />
     <text value="시간 초과를 기다리는 중, 다시 클릭하여 결제를 다운로드하십시오!" name="TimeOutForPayment" />

@@ -40,6 +40,7 @@
     <text value="Operation column preference" name="ActionColumnPreference" />
     <text value="Action information" name="ActionInformations" />
     <text value="Actions" name="Actions" />
+    <text value="activated" name="Activated" />
     <text value="An e-mail activation link sent to your e-mail address. Please check your emails." name="ActivationMailSentMessage" />
     <text value="Active" name="Active" />
     <text value="Proactively cancel financial review" name="ActiveCancellationOfFinancialAudits" />
@@ -183,6 +184,7 @@
     <text value="Filing" name="App.Business.CaseCreation" />
     <text value="Instrument" name="App.Business.CaseFile" />
     <text value="Stamp" name="App.Business.StampFiles" />
+    <text value="clue" name="App.Customers.Clue" />
     <text value="Warehousing" name="App.Customers.Storage" />
     <text value="Use chapter" name="App.Executive.OfficeSeal" />
     <text value="Bill" name="App.Financial.Billings" />
@@ -1262,6 +1264,7 @@
     <text value="The closing file [{0}] you have applied for has been returned by the financial department. Please modify the closing information." name="FinancialReviewReturned" />
     <text value="The current case's financial closure review application has been processed!" name="FinancialSettlementAuditOfCaseHasBeenProcessed" />
     <text value="Financial review returned" name="FinanciaReviewReturned" />
+    <text value="Find" name="Find" />
     <text value="Finding a case" name="FindACase" />
     <text value="Finding customers" name="FindACustomer" />
     <text value="Find regulations, information" name="FindRegulations,Information" />
@@ -1444,6 +1447,7 @@
     <text value="Personal center" name="InfoCenter" />
     <text value="information" name="Information" />
     <text value="In the meeting……" name="InMeeting" />
+    <text value="In progress" name="InProgress" />
     <text value="You can fill in the default value (such as: no time) or random number when you are not sure what to enter" name="InputValueNullOrUnknownReminder" />
     <text value="After the incumbent status is changed to {0}, the system cannot be logged in. Is it OK?" name="InserviceStatusChangeWarning" />
     <text value="After the incumbent status is changed to {0}, is it allowed to continue logging in?" name="InServiceStatusChangeWarning2" />
@@ -1948,6 +1952,7 @@
     <text value="Not collected" name="NotCollected" />
     <text value="undone" name="NotCompleted" />
     <text value="If you are changing your own permissions, you may need to refresh page (F5) to take effect of permission changes on your own screen!" name="Note_RefreshPageForPermissionChanges" />
+    <text value="Not Enabled" name="NotEnabled" />
     <text value="note:" name="NoteTips" />
     <text value="Nothing to deal with temporarily!" name="NothingToDealWithTemporarily" />
     <text value="[{0}] has been filed and you will be participating in the case in the role of {1}." name="NoticeCaseParticipants" />
@@ -3306,6 +3311,7 @@
     <text value="Web site root address" name="ThisWebSiteRootAddress" />
     <text value="It will be used when building links to this web site. It's needed for some tasks like building password reset links. Ex: http://mydomain.com/" name="ThisWebSiteRootAddress_Hint" />
     <text value="This week" name="ThisWeek" />
+    <text value="Thread protection status" name="ThreadProtectionStatus" />
     <text value="Time" name="Time" />
     <text value="Timeline view" name="TimelineView" />
     <text value="Waiting for timeout, please click again to download the payment!" name="TimeOutForPayment" />
