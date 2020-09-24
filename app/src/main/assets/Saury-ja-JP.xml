@@ -260,6 +260,7 @@
     <text value="割り当てられた" name="Assigned" />
     <text value="私の割り当ては完了しました" name="AssignedCompletedTask" />
     <text value="私の割り当ては期限切れです" name="AssignedExpiredTask" />
+    <text value="ロール名については、システム管理下のロール機能を参照してください。システムに対応するロールがない場合は、最初に追加してください。追加しないと、インポート後に一致しません。" name="AssignedRoleNamesEnterTips" />
     <text value="私が割り当てた" name="AssignedTask" />
     <text value="私に割り当てられた" name="AssignedTaskToMe" />
     <text value="私の割り当ては不完全です" name="AssignedUncompletedTask" />
@@ -470,7 +471,7 @@
     <text value="ケースの内容" name="CaseContent" />
     <text value="プロジェクト契約書" name="CaseContractDocument" />
     <text value="ケース契約情報" name="CaseContractInformation" />
-    <text value="ケース契約はロックされています。ロックを解除して変更してください！" name="CaseContractLockedTip" />
+    <text value="ケースフィーがロックされています。ロックを解除して変更してください！" name="CaseContractLockedTip" />
     <text value="アイテム数" name="CaseCount" />
     <text value="レビューのためのファイル" name="CaseCreation" />
     <text value="ケースの詳細" name="CaseDetail" />
@@ -1033,6 +1034,8 @@
     <text value="ドキュメントテンプレート" name="DocumentTemplate" />
     <text value="ドキュメントタイプ" name="DocumentType" />
     <text value="選択したドキュメントが見つからないか、選択したドキュメントのプレビュー機能がサポートされていません。" name="DocumentWasNotFoundOrNotSupportedToPreview" />
+    <text value="現在のケースタイプに個別の契約ディレクトリは設定されていません。この時点で、アップロードされたファイルはルートディレクトリに保存されます。本当にアップロードしますか？" name="DoesNotIncludeContractFolder" />
+    <text value="現在のケースタイプに契約ディレクトリが設定されていないため、契約を変更するためのファイルがケースルートディレクトリに保存されます。確認しますか？" name="DoesNotIncludeContractFolder2" />
     <text value="ドメイン名" name="DomainName" />
     <text value="許可されていません" name="DoNotAllow" />
     <text value="間違いを避けるために、複数のファイルやフォルダを同時に削除しないでください！" name="DoNotDeleteMultipleFilesOrFoldersAtTheSameTime" />
@@ -1115,7 +1118,7 @@
     <text value="従業員番号" name="EmployeeNumber" />
     <text value="ヌル値" name="EmptyOnes" />
     <text name="Enable" />
-    <text value="アドバイザリーケースのお客様の期限切れのリード保護を有効にする（日）" name="EnableCustomerOverdueLeadProtectionForAdvisoryCases" />
+    <text value="アドバイザリーケースの顧客の期限切れのリード保護を有効にする" name="EnableCustomerOverdueLeadProtectionForAdvisoryCases" />
     <text value="ローエンジェルダウンロードサービスはまだ有効化されていません。管理者に連絡してサービスを開始してください。" name="EnableFaTianShi" />
     <text value="インバウンド顧客検索を有効にする" name="EnableInboundCustomerSearch" />
     <text value="ライトウェイトディレクトリアクセスプロトコル（LDAP）認証を有効にします。" name="EnableLdapAuthentication" />
@@ -1174,6 +1177,7 @@
     <text value="現在の顧客の下に同じ名前の連絡先が既に存在します！" name="ExistsSameNameOnCLient" />
     <text value="全画面を終了" name="ExitFullScreen" />
     <text value="その他の設定を展開する" name="Expand" />
+    <text value="支払い額" name="ExpendItureAmount" />
     <text value="経費入力" name="ExpenditureEntry" />
     <text value="経費情報シート" name="ExpenditureInformationSheet" />
     <text value="タスクに時間がかかる" name="ExpenditureOfTime" />
@@ -1182,7 +1186,7 @@
     <text value="経費精査" name="ExpenseReview" />
     <text value="支払期日" name="ExpirationDate" />
     <text value="期限切れ" name="Expired" />
-    <text value="コンサルティングケースにおけるクライアントの期限切れの鉛保護期間" name="ExpiredLeadProtectionPeriodForClientsInConsultingCases" />
+    <text value="コンサルティングケースにおけるクライアントの期限切れの鉛保護期間（日）" name="ExpiredLeadProtectionPeriodForClientsInConsultingCases" />
     <text value="参加期限が切れました" name="ExpiredTask" />
     <text value="すぐに失効する" name="Expiring" />
     <text name="ExpiringEdition" />
@@ -1251,6 +1255,7 @@
     <text value="ステータスでフィルタリング" name="FilterByState" />
     <text value="デフォルトの文字をフィルター" name="FilterDefaultCharacters" />
     <text value="ユーザーのフィルター/追加" name="FilterOrAddUser" />
+    <text value="最終草案" name="FinalDraft" />
     <text value="財務" name="Finance" />
     <text value="経済的利益" name="FinanceReturn" />
     <text value="財務分析" name="FinancialAnalysis" />
@@ -1338,6 +1343,7 @@
     <text value="請求書の生成" name="GenerateInvoice" />
     <text value="法律の言葉" name="GenerationWordsOfLawFirm" />
     <text value="訴訟代名詞は、法律事務所の法律の簡素化であり、漢字または英語で表現され、2?3文字が適切です。" name="GenerationWordsOfLawFirm_Hint" />
+    <text value="ケースを提出するときに、すべての顧客（リード保護の顧客を除く）を見つけることができます" name="GetAllClientForAddCase" />
     <text value="天気の場所を取得できませんでした：" name="GetWeatherLocationFailed" />
     <text value="午後" name="GoodAfternoon" />
     <text value="言語で良い" name="GoodAtLanguage" />
@@ -1425,6 +1431,9 @@
     <text value="Excelからインポート" name="ImportFromExcel" />
     <text value="テンプレートに従って有効なデータをインポートしてください！" name="ImportTemplateDataWarning" />
     <text value="{0}インポートテンプレートファイルをダウンロードします。" name="ImportToExcelTemplateFileDownloadInfo" />
+    <text value="電子メールアドレスは、サフィックス形式を統一することをお勧めします。電子メールは、アカウントのパスワードを取得するための重要な方法です。電子メールアドレスが有効であり、利用可能であることを確認してください" name="ImportUserEmaiAddressEnterTips" />
+    <text value="ユーザー名とメールアドレスはログイン認証情報であり、一意である必要があります。" name="ImportUserNameEnterTips" />
+    <text value="パスワードには、大文字と小文字、および数字を含めることをお勧めします。最小長は6桁以上です（システム管理下の設定のパスワード規則が更新されている場合は、規則に従ってパスワードを入力してください）。" name="ImportUserPasswordEnterTips" />
     <text value="ユーザーのインポートプロセスが開始されました。" name="ImportUsersProcessStart" />
     <text value="ユーザーのインポートプロセスが失敗しました。" name="ImportUsersUploadFailed" />
     <text value="ケースファイリング情報を改善する" name="ImproveCaseFilingInformation" />
@@ -2359,7 +2368,9 @@
     <text value="背景画像をアップロードして削除したら、ページの右上隅にある[すべて保存]ボタンをクリックしてください。" name="PleaseClickSaveAllAfterOperation" />
     <text value="会議の議事録を完了してください" name="PleaseCompleteMinutesOfMeeting" />
     <text value="ユーザー情報を入力してください！" name="PleaseCompleteUserInformation" />
+    <text value="現在のケースタイプの契約包含を設定するには、マネージャーに連絡してください！" name="PleaseContactManagerSetTheCurrentCaseTypeContractInclusion" />
     <text value="入力時にテンプレートのサンプルデータを削除してください、ありがとうございます！" name="PleaseDelSampleDataInTemplateWhenEntering" />
+    <text value="お支払い後、ファイルをダウンロードしてください！" name="PleaseDownloadFileAfterPaying" />
     <text name="PleaseEnterAtLeastNCharacter" />
     <text value="{0}秒以内に確認コードを入力してください" name="PleaseEnterCodeWithinSeconds" />
     <text value="ログイン情報を入力してください" name="PleaseEnterLoginInformation" />
@@ -2888,6 +2899,7 @@
     <text value="基本的なケース情報を設定する" name="SetCaseBaseInfo" />
     <text value="セットケース費用" name="SetCaseCost" />
     <text value="顧客を設定する" name="SetClientInfo" />
+    <text value="セットアップ契約ディレクトリに移動しますか？" name="SetContractFolder" />
     <text value="表示列を設定する" name="SetDisplayColumn" />
     <text value="最初のディレクトリを設定する" name="SetDocumentCenterHome" />
     <text value="お気に入りに設定" name="SetFavorite" />
@@ -3010,6 +3022,7 @@
     <text value="統計的方法" name="StatisticalMethods" />
     <text value="ステーション" name="StatisticalSummary" />
     <text value="スケジュール" name="StatisticalYear" />
+    <text value="統計チャート" name="StatisticCharts" />
     <text value="統計" name="Statistics" />
     <text value="統計カテゴリ" name="StatisticsCategory" />
     <text value="スケジュール" name="StatisticsnumberofCasesbyOrganization" />
@@ -3082,6 +3095,7 @@
     <text value="契約情報のロックを確認しますか？" name="SureToDeleteTheContractInformation" />
     <text value="休暇情報を削除してもよろしいですか？" name="SureToDeleteTheLeaveInformation" />
     <text value="姓" name="Surname" />
+    <text value="代理" name="Surrogate" />
     <text value="スイッチング" name="Switch" />
     <text value="クリックして全画面モードと非全画面モードを切り替えます" name="SwitchFullScreenTips" />
     <text value="言語を切り替える" name="SwitchLanguage" />

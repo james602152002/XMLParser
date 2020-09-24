@@ -260,6 +260,7 @@
     <text value="Assigned" name="Assigned" />
     <text value="Responsible Completed Task" name="AssignedCompletedTask" />
     <text value="Responsible Expired Task" name="AssignedExpiredTask" />
+    <text value="For the role name, please refer to the role function under system management. If there is no corresponding role in the system, please add it first, otherwise it will not match after importing!" name="AssignedRoleNamesEnterTips" />
     <text value="Responsible Task" name="AssignedTask" />
     <text value="Participated Task" name="AssignedTaskToMe" />
     <text value="Responsible Uncompleted Task" name="AssignedUncompletedTask" />
@@ -470,7 +471,7 @@
     <text value="Content of the case" name="CaseContent" />
     <text value="Project Contract Document" name="CaseContractDocument" />
     <text value="Case contract information" name="CaseContractInformation" />
-    <text value="The case contract has been locked. Please unlock it and modify it!" name="CaseContractLockedTip" />
+    <text value="The case fee has been locked, please unlock it to modify it!" name="CaseContractLockedTip" />
     <text value="Project Quantity" name="CaseCount" />
     <text value="File for review" name="CaseCreation" />
     <text value="Case details" name="CaseDetail" />
@@ -1033,6 +1034,8 @@
     <text value="Document Template" name="DocumentTemplate" />
     <text value="Document type" name="DocumentType" />
     <text value="Sorry, the selected document was not found or the preview function of the selected document is not supported!" name="DocumentWasNotFoundOrNotSupportedToPreview" />
+    <text value="There is no separate contract directory for the current case type. The uploaded file will be saved in the root directory at this time. Are you sure to upload?" name="DoesNotIncludeContractFolder" />
+    <text value="The contract directory has not been set for the current case type, and the file for changing the contract will be saved in the case root directory. Are you sure?" name="DoesNotIncludeContractFolder2" />
     <text value="Domain name" name="DomainName" />
     <text value="Do not allow" name="DoNotAllow" />
     <text value="To avoid mistakes, do not delete multiple files or folders at the same time!" name="DoNotDeleteMultipleFilesOrFoldersAtTheSameTime" />
@@ -1115,7 +1118,7 @@
     <text value="personnel number" name="EmployeeNumber" />
     <text value="Empty ones" name="EmptyOnes" />
     <text value="Enable" name="Enable" />
-    <text value="Enabling customer overdue lead protection for advisory cases (days)" name="EnableCustomerOverdueLeadProtectionForAdvisoryCases" />
+    <text value="Enable customer overdue lead protection for advisory cases" name="EnableCustomerOverdueLeadProtectionForAdvisoryCases" />
     <text value="The law angel download service has not been activated yet, please contact the administrator to open the service!" name="EnableFaTianShi" />
     <text value="Enable inbound customer search" name="EnableInboundCustomerSearch" />
     <text value="Enable LDAP Authentication." name="EnableLdapAuthentication" />
@@ -1174,6 +1177,7 @@
     <text value="A contact with the same name already exists under the current customer!" name="ExistsSameNameOnCLient" />
     <text value="Exit Full Screen" name="ExitFullScreen" />
     <text value="Expand" name="Expand" />
+    <text value="amount of payout" name="ExpendItureAmount" />
     <text value="Expense entry" name="ExpenditureEntry" />
     <text value="Expenditure Information Sheet" name="ExpenditureInformationSheet" />
     <text value="Task time-consuming" name="ExpenditureOfTime" />
@@ -1182,7 +1186,7 @@
     <text value="Expense review" name="ExpenseReview" />
     <text value="Date of Expiry" name="ExpirationDate" />
     <text value="be expired" name="Expired" />
-    <text value="Expired lead protection period for clients in consulting cases" name="ExpiredLeadProtectionPeriodForClientsInConsultingCases" />
+    <text value="Expired lead protection period for clients in consulting cases (days)" name="ExpiredLeadProtectionPeriodForClientsInConsultingCases" />
     <text value="Participated Expired Task" name="ExpiredTask" />
     <text value="Expiring" name="Expiring" />
     <text value="Expiring edition" name="ExpiringEdition" />
@@ -1251,6 +1255,7 @@
     <text value="Filter by status" name="FilterByState" />
     <text value="Filter default characters" name="FilterDefaultCharacters" />
     <text value="Filter/Add user" name="FilterOrAddUser" />
+    <text value="Final draft" name="FinalDraft" />
     <text value="Finance" name="Finance" />
     <text value="Financial return" name="FinanceReturn" />
     <text value="financial analysis" name="FinancialAnalysis" />
@@ -1338,6 +1343,7 @@
     <text value="Generate invoice" name="GenerateInvoice" />
     <text value="The words of the law firm" name="GenerationWordsOfLawFirm" />
     <text value="Lawsuit pronouns are simplifications of the law firm’s contractor’s law. They are expressed in Chinese characters or in English and two or three words are appropriate." name="GenerationWordsOfLawFirm_Hint" />
+    <text value="Allow to find all customers (except customers in lead protection) when filing a case" name="GetAllClientForAddCase" />
     <text value="Failed to get weather location:" name="GetWeatherLocationFailed" />
     <text value="good afternoon" name="GoodAfternoon" />
     <text value="Good at language" name="GoodAtLanguage" />
@@ -1425,6 +1431,9 @@
     <text value="Import from Excel" name="ImportFromExcel" />
     <text value="Please import valid data according to the template!" name="ImportTemplateDataWarning" />
     <text value="{0}Download the import template file." name="ImportToExcelTemplateFileDownloadInfo" />
+    <text value="E-mail addresses are recommended to have a unified suffix format. E-mail is an important way to retrieve the account password. Please ensure that the e-mail address is valid and available" name="ImportUserEmaiAddressEnterTips" />
+    <text value="The user name and email address are login credentials and must be unique. " name="ImportUserNameEnterTips" />
+    <text value="The password is recommended to contain uppercase and lowercase letters and numbers, and the minimum length is not less than 6 digits (if the password rules in the settings under system management are updated, please enter the password according to the rules)" name="ImportUserPasswordEnterTips" />
     <text value="The user import process has begun." name="ImportUsersProcessStart" />
     <text value="The user import process failed." name="ImportUsersUploadFailed" />
     <text value="Improve case filing information" name="ImproveCaseFilingInformation" />
@@ -2359,7 +2368,9 @@
     <text value="After uploading and deleting background images, please click the Save All button in the upper right corner of the page!" name="PleaseClickSaveAllAfterOperation" />
     <text value="Please complete the meeting minutes" name="PleaseCompleteMinutesOfMeeting" />
     <text value="Please complete user information!" name="PleaseCompleteUserInformation" />
+    <text value="Please contact the manager to set the current case type contract inclusion!" name="PleaseContactManagerSetTheCurrentCaseTypeContractInclusion" />
     <text value="Please delete the sample data in the template when entering, thank you!" name="PleaseDelSampleDataInTemplateWhenEntering" />
+    <text value="Please download the file after paying!" name="PleaseDownloadFileAfterPaying" />
     <text value="Please enter at least {0} characters." name="PleaseEnterAtLeastNCharacter" />
     <text value="Please enter the verification code within {0} seconds" name="PleaseEnterCodeWithinSeconds" />
     <text value="Please enter login information" name="PleaseEnterLoginInformation" />
@@ -2888,6 +2899,7 @@
     <text value="Set basic case information" name="SetCaseBaseInfo" />
     <text value="Set case cost" name="SetCaseCost" />
     <text value="Set up customers" name="SetClientInfo" />
+    <text value="Do you want to go to the setup contract directory?" name="SetContractFolder" />
     <text value="Set display columns" name="SetDisplayColumn" />
     <text value="Set the first directory" name="SetDocumentCenterHome" />
     <text value="Set as favorite" name="SetFavorite" />
@@ -3010,6 +3022,7 @@
     <text value="Statistical methods" name="StatisticalMethods" />
     <text value="Statistical summary" name="StatisticalSummary" />
     <text value="Statistical year" name="StatisticalYear" />
+    <text value="statistic chart" name="StatisticCharts" />
     <text value="Statistics" name="Statistics" />
     <text value="Statistics category" name="StatisticsCategory" />
     <text value="Statistics on the number of cases by organization" name="StatisticsnumberofCasesbyOrganization" />
@@ -3082,6 +3095,7 @@
     <text value="Do you confirm the locking of contract information?" name="SureToDeleteTheContractInformation" />
     <text value="Is it OK to delete the leave information?" name="SureToDeleteTheLeaveInformation" />
     <text value="Surname" name="Surname" />
+    <text value="Surrogate" name="Surrogate" />
     <text value="Switching" name="Switch" />
     <text value="Click to switch between full-screen and non-full-screen modes" name="SwitchFullScreenTips" />
     <text value="Switch language" name="SwitchLanguage" />

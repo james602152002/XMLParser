@@ -260,6 +260,7 @@
     <text value="할당 된" name="Assigned" />
     <text value="과제가 완료되었습니다" name="AssignedCompletedTask" />
     <text value="내 할당이 만료되었습니다" name="AssignedExpiredTask" />
+    <text value="역할 이름은 시스템 관리의 역할 기능을 참고하시기 바랍니다. 시스템에 해당 역할이없는 경우 먼저 추가 해주시기 바랍니다. 그렇지 않으면 가져 오기 후 일치하지 않습니다!" name="AssignedRoleNamesEnterTips" />
     <text value="내가 할당" name="AssignedTask" />
     <text value="나에게 할당" name="AssignedTaskToMe" />
     <text value="과제가 불완전합니다" name="AssignedUncompletedTask" />
@@ -470,7 +471,7 @@
     <text value="사건의 내용" name="CaseContent" />
     <text value="프로젝트 계약 문서" name="CaseContractDocument" />
     <text value="사례 계약 정보" name="CaseContractInformation" />
-    <text value="케이스 계약이 잠겨 있습니다. 잠금을 해제하고 수정하십시오!" name="CaseContractLockedTip" />
+    <text value="케이스 수수료가 잠겼습니다. 수정하려면 잠금을 해제하세요!" name="CaseContractLockedTip" />
     <text value="항목 수" name="CaseCount" />
     <text value="검토 용 파일" name="CaseCreation" />
     <text value="케이스 세부 정보" name="CaseDetail" />
@@ -1033,6 +1034,8 @@
     <text value="문서 템플릿" name="DocumentTemplate" />
     <text value="문서 유형" name="DocumentType" />
     <text value="죄송합니다. 선택한 문서가 없거나 선택한 문서의 미리보기 기능이 지원되지 않습니다!" name="DocumentWasNotFoundOrNotSupportedToPreview" />
+    <text value="현재 케이스 유형에 대해 별도의 계약 디렉토리가 설정되지 않았습니다. 업로드 된 파일은 현재 루트 디렉토리에 저장됩니다. 업로드 하시겠습니까?" name="DoesNotIncludeContractFolder" />
+    <text value="현재 케이스 유형에 대해 계약 디렉토리가 설정되지 않았으며 계약 변경 파일이 케이스 루트 디렉토리에 저장됩니다. 계속 하시겠습니까?" name="DoesNotIncludeContractFolder2" />
     <text value="도메인 이름" name="DomainName" />
     <text value="허용되지 않음" name="DoNotAllow" />
     <text value="실수를 피하려면 동시에 여러 파일이나 폴더를 삭제하지 마십시오!" name="DoNotDeleteMultipleFilesOrFoldersAtTheSameTime" />
@@ -1115,7 +1118,7 @@
     <text value="인사 번호" name="EmployeeNumber" />
     <text value="Null 값" name="EmptyOnes" />
     <text name="Enable" />
-    <text value="자문 사례에 대한 고객 연체 리드 보호 활성화 (일)" name="EnableCustomerOverdueLeadProtectionForAdvisoryCases" />
+    <text value="자문 사례에 대한 고객 연체 리드 보호 활성화" name="EnableCustomerOverdueLeadProtectionForAdvisoryCases" />
     <text value="법률 천사 다운로드 서비스가 아직 활성화되지 않았습니다. 서비스를 열려면 관리자에게 문의하십시오!" name="EnableFaTianShi" />
     <text value="인바운드 고객 검색 사용" name="EnableInboundCustomerSearch" />
     <text value="LDAP (Lightweight Directory Access Protocol) 인증을 사용합니다." name="EnableLdapAuthentication" />
@@ -1174,6 +1177,7 @@
     <text value="현재 고객의 이름이 같은 연락처가 이미 있습니다!" name="ExistsSameNameOnCLient" />
     <text value="전체 화면 종료" name="ExitFullScreen" />
     <text value="더 많은 설정 펼치기" name="Expand" />
+    <text value="지불 금액" name="ExpendItureAmount" />
     <text value="비용 입력" name="ExpenditureEntry" />
     <text value="비용 정보 시트" name="ExpenditureInformationSheet" />
     <text value="작업에 많은 시간이 소요됨" name="ExpenditureOfTime" />
@@ -1182,7 +1186,7 @@
     <text value="경비 검토" name="ExpenseReview" />
     <text value="기한" name="ExpirationDate" />
     <text value="만료 된" name="Expired" />
-    <text value="컨설팅 사례에서 고객의 리드 보호 기간 만료" name="ExpiredLeadProtectionPeriodForClientsInConsultingCases" />
+    <text value="컨설팅 사례에서 고객에 대한 납 보호 기간 만료 (일)" name="ExpiredLeadProtectionPeriodForClientsInConsultingCases" />
     <text value="참여가 만료되었습니다" name="ExpiredTask" />
     <text value="곧 만료 됨" name="Expiring" />
     <text name="ExpiringEdition" />
@@ -1251,6 +1255,7 @@
     <text value="상태 별 필터링" name="FilterByState" />
     <text value="기본 문자 필터링" name="FilterDefaultCharacters" />
     <text value="사용자 필터링 / 추가" name="FilterOrAddUser" />
+    <text value="최종 초안" name="FinalDraft" />
     <text value="금융" name="Finance" />
     <text value="재정적 수익" name="FinanceReturn" />
     <text value="재무 분석" name="FinancialAnalysis" />
@@ -1338,6 +1343,7 @@
     <text value="송장 생성" name="GenerateInvoice" />
     <text name="GenerationWordsOfLawFirm" />
     <text name="GenerationWordsOfLawFirm_Hint" />
+    <text value="케이스를 제출할 때 모든 고객 (납 보호 대상 고객 제외)을 찾을 수 있습니다." name="GetAllClientForAddCase" />
     <text value="날씨 위치를 가져 오지 못함 :" name="GetWeatherLocationFailed" />
     <text value="안녕하세요." name="GoodAfternoon" />
     <text value="언어에 능숙하다." name="GoodAtLanguage" />
@@ -1425,6 +1431,9 @@
     <text value="Excel에서 가져 오기" name="ImportFromExcel" />
     <text value="템플릿에 따라 유효한 데이터를 가져 오십시오!" name="ImportTemplateDataWarning" />
     <text value="{0} 가져 오기 템플리트 파일을 다운로드하십시오." name="ImportToExcelTemplateFileDownloadInfo" />
+    <text value="전자 메일 주소는 통합 접미사 형식을 사용하는 것이 좋습니다. 전자 메일은 계정 암호를 검색하는 중요한 방법입니다. 전자 메일 주소가 유효하고 사용 가능한지 확인하십시오." name="ImportUserEmaiAddressEnterTips" />
+    <text value="사용자 이름과 이메일 주소는 로그인 자격 증명이며 고유해야합니다. " name="ImportUserNameEnterTips" />
+    <text value="비밀번호는 대문자, 소문자, 숫자를 포함 할 것을 권장하며, 최소 길이는 6 자리 이상이어야합니다 (시스템 관리 설정의 비밀번호 규칙이 업데이트 된 경우 규칙에 따라 비밀번호를 입력하세요)" name="ImportUserPasswordEnterTips" />
     <text value="사용자 가져 오기 프로세스가 시작되었습니다." name="ImportUsersProcessStart" />
     <text value="사용자 가져 오기 프로세스가 실패했습니다." name="ImportUsersUploadFailed" />
     <text value="사례 신고 정보 개선" name="ImproveCaseFilingInformation" />
@@ -2359,7 +2368,9 @@
     <text value="배경 이미지를 업로드하고 삭제 한 후 페이지 오른쪽 상단에있는 모두 저장 버튼을 클릭하십시오!" name="PleaseClickSaveAllAfterOperation" />
     <text value="회의록을 작성하십시오." name="PleaseCompleteMinutesOfMeeting" />
     <text value="사용자 정보를 작성하십시오!" name="PleaseCompleteUserInformation" />
+    <text value="현재 케이스 유형 계약 포함을 설정하려면 관리자에게 문의하십시오!" name="PleaseContactManagerSetTheCurrentCaseTypeContractInclusion" />
     <text value="입력시 템플릿의 샘플 데이터를 삭제 해주세요. 감사합니다!" name="PleaseDelSampleDataInTemplateWhenEntering" />
+    <text value="결제 후 파일을 다운로드하세요!" name="PleaseDownloadFileAfterPaying" />
     <text name="PleaseEnterAtLeastNCharacter" />
     <text value="{0} 초 내에 인증 코드를 입력하십시오." name="PleaseEnterCodeWithinSeconds" />
     <text value="로그인 정보를 입력하십시오." name="PleaseEnterLoginInformation" />
@@ -2888,6 +2899,7 @@
     <text value="기본 사례 정보 설정" name="SetCaseBaseInfo" />
     <text value="케이스 비용 설정" name="SetCaseCost" />
     <text value="고객 설정" name="SetClientInfo" />
+    <text value="설정 계약 디렉토리로 이동 하시겠습니까?" name="SetContractFolder" />
     <text value="표시 열 설정" name="SetDisplayColumn" />
     <text value="첫 번째 디렉토리 설정" name="SetDocumentCenterHome" />
     <text value="즐겨 찾기로 설정" name="SetFavorite" />
@@ -3010,6 +3022,7 @@
     <text value="통계적 방법" name="StatisticalMethods" />
     <text value="통계 요약" name="StatisticalSummary" />
     <text value="통계 연도" name="StatisticalYear" />
+    <text value="통계 차트" name="StatisticCharts" />
     <text value="통계" name="Statistics" />
     <text value="통계 카테고리" name="StatisticsCategory" />
     <text value="조직 별 사례 수 통계" name="StatisticsnumberofCasesbyOrganization" />
@@ -3082,6 +3095,7 @@
     <text value="계약 정보가 잠겨 있는지 확인합니까?" name="SureToDeleteTheContractInformation" />
     <text value="휴가 정보를 삭제해도 괜찮습니까?" name="SureToDeleteTheLeaveInformation" />
     <text value="성" name="Surname" />
+    <text value="대리" name="Surrogate" />
     <text value="스위칭" name="Switch" />
     <text value="전체 화면 및 비 전체 화면 모드 간을 전환하려면 클릭" name="SwitchFullScreenTips" />
     <text value="언어 전환" name="SwitchLanguage" />

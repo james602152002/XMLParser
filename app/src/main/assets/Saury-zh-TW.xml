@@ -260,6 +260,7 @@
     <text value="已分配" name="Assigned" />
     <text value="我分配已完成" name="AssignedCompletedTask" />
     <text value="我分配已逾期" name="AssignedExpiredTask" />
+    <text value="角色名稱請參照系統管理下的角色功能，如係統中無對應角色，請先添加，否則導入後無法匹配！" name="AssignedRoleNamesEnterTips" />
     <text value="我分配的" name="AssignedTask" />
     <text value="分配給我的" name="AssignedTaskToMe" />
     <text value="我分配未完成" name="AssignedUncompletedTask" />
@@ -470,7 +471,7 @@
     <text value="案件內容" name="CaseContent" />
     <text value="項目合同文檔" name="CaseContractDocument" />
     <text value="案件合同信息" name="CaseContractInformation" />
-    <text value="案件合同已鎖定，請解鎖後進行修改操作！" name="CaseContractLockedTip" />
+    <text value="案件費用已鎖定，請解鎖後進行修改操作！" name="CaseContractLockedTip" />
     <text value="項目數" name="CaseCount" />
     <text value="立案報審" name="CaseCreation" />
     <text value="案件詳情" name="CaseDetail" />
@@ -1033,6 +1034,8 @@
     <text value="文書模板" name="DocumentTemplate" />
     <text value="文檔類型" name="DocumentType" />
     <text value="對不起，未找到所選文檔或暫不支持對所選文檔的預覽功能！" name="DocumentWasNotFoundOrNotSupportedToPreview" />
+    <text value="當前案件類型未設置單獨合同目錄，此時上傳的文件將保存在根目錄下，是否確認上傳？" name="DoesNotIncludeContractFolder" />
+    <text value="當前案件類型暫未設置合同目錄，變更合同的文件將保存到案件根目錄下，是否確認？" name="DoesNotIncludeContractFolder2" />
     <text value="域名" name="DomainName" />
     <text value="不允許" name="DoNotAllow" />
     <text value="為避免誤操作，請勿同時刪除多個文件或文件夾！" name="DoNotDeleteMultipleFilesOrFoldersAtTheSameTime" />
@@ -1115,7 +1118,7 @@
     <text value="人員編號" name="EmployeeNumber" />
     <text value="空值" name="EmptyOnes" />
     <text name="Enable" />
-    <text value="啟用顧問案件客戶過期線索保護（天）" name="EnableCustomerOverdueLeadProtectionForAdvisoryCases" />
+    <text value="啟用顧問案件客戶過期線索保護" name="EnableCustomerOverdueLeadProtectionForAdvisoryCases" />
     <text value="法天使下載服務暫未啟用，請聯繫管理員開啟該服務!" name="EnableFaTianShi" />
     <text value="啟用入庫客戶檢索" name="EnableInboundCustomerSearch" />
     <text value="啟用輕量目錄訪問協議(LDAP)認證." name="EnableLdapAuthentication" />
@@ -1174,6 +1177,7 @@
     <text value="當前客戶下已存在同名的聯繫人！" name="ExistsSameNameOnCLient" />
     <text value="退出全屏" name="ExitFullScreen" />
     <text value="展開更多設置" name="Expand" />
+    <text value="支出金額" name="ExpendItureAmount" />
     <text value="支出錄入" name="ExpenditureEntry" />
     <text value="支出信息表" name="ExpenditureInformationSheet" />
     <text value="任務耗時" name="ExpenditureOfTime" />
@@ -1182,7 +1186,7 @@
     <text value="費用審核" name="ExpenseReview" />
     <text value="到期日期" name="ExpirationDate" />
     <text value="已到期" name="Expired" />
-    <text value="顧問案件客戶過期線索保護期限" name="ExpiredLeadProtectionPeriodForClientsInConsultingCases" />
+    <text value="顧問案件客戶過期線索保護期限(天)" name="ExpiredLeadProtectionPeriodForClientsInConsultingCases" />
     <text value="我參與已逾期" name="ExpiredTask" />
     <text value="即將到期" name="Expiring" />
     <text name="ExpiringEdition" />
@@ -1251,6 +1255,7 @@
     <text value="按狀態過濾" name="FilterByState" />
     <text value="過濾缺省字符" name="FilterDefaultCharacters" />
     <text value="過濾/添加用戶" name="FilterOrAddUser" />
+    <text value="終稿" name="FinalDraft" />
     <text value="財務" name="Finance" />
     <text value="財務退回" name="FinanceReturn" />
     <text value="財務分析" name="FinancialAnalysis" />
@@ -1338,6 +1343,7 @@
     <text value="生成發票" name="GenerateInvoice" />
     <text value="律所代字" name="GenerationWordsOfLawFirm" />
     <text value="律所代字是案件承辦律所的簡化標識，用中文漢字或英文表示，兩到三字為宜" name="GenerationWordsOfLawFirm_Hint" />
+    <text value="立案時允許查找所有客戶(線索保護中的客戶除外)" name="GetAllClientForAddCase" />
     <text value="獲取天氣位置失敗:" name="GetWeatherLocationFailed" />
     <text value="下午好" name="GoodAfternoon" />
     <text value="擅長語言" name="GoodAtLanguage" />
@@ -1425,6 +1431,9 @@
     <text value="從Excel導入" name="ImportFromExcel" />
     <text value="請按照模版導入有效數據!" name="ImportTemplateDataWarning" />
     <text value="{0}下載導入模板文件。" name="ImportToExcelTemplateFileDownloadInfo" />
+    <text value="郵箱建議統一後綴格式，郵箱是賬號密碼找回的重要途徑，請務必保證郵箱地址有效可用" name="ImportUserEmaiAddressEnterTips" />
+    <text value="用戶名與郵箱為登錄憑證，需保證唯一性。" name="ImportUserNameEnterTips" />
+    <text value="密碼建議包含大小寫字母及數字，最小長度不低於6位（如更新了系統管理下設置裡的密碼規則，請按規則錄入密碼）" name="ImportUserPasswordEnterTips" />
     <text value="用戶導入過程已經開始。" name="ImportUsersProcessStart" />
     <text value="用戶導入過程失敗。" name="ImportUsersUploadFailed" />
     <text value="完善立案信息" name="ImproveCaseFilingInformation" />
@@ -2359,7 +2368,9 @@
     <text value="上傳與刪除背景圖片後請點擊頁面右上角的保存全部按鈕！" name="PleaseClickSaveAllAfterOperation" />
     <text value="請完善會議紀要內容" name="PleaseCompleteMinutesOfMeeting" />
     <text value="請完善用戶信息！" name="PleaseCompleteUserInformation" />
+    <text value="請聯繫管理人員，設置當前案件類型合同收錄！" name="PleaseContactManagerSetTheCurrentCaseTypeContractInclusion" />
     <text value="錄入時請先刪除模板中的示例數據，謝謝！" name="PleaseDelSampleDataInTemplateWhenEntering" />
+    <text value="請支付後，再下載該文件！" name="PleaseDownloadFileAfterPaying" />
     <text name="PleaseEnterAtLeastNCharacter" />
     <text value="請在{0}秒內輸入驗證碼" name="PleaseEnterCodeWithinSeconds" />
     <text value="請輸入登錄信息" name="PleaseEnterLoginInformation" />
@@ -2888,6 +2899,7 @@
     <text value="設置案件基本信息" name="SetCaseBaseInfo" />
     <text value="設置案件費用" name="SetCaseCost" />
     <text value="設置客戶" name="SetClientInfo" />
+    <text value="是否前往設置合同目錄？" name="SetContractFolder" />
     <text value="設置顯示列" name="SetDisplayColumn" />
     <text value="設置首目錄" name="SetDocumentCenterHome" />
     <text value="設為收藏" name="SetFavorite" />
@@ -3010,6 +3022,7 @@
     <text value="統計方式" name="StatisticalMethods" />
     <text value="統計概要" name="StatisticalSummary" />
     <text value="統計年度" name="StatisticalYear" />
+    <text value="統計圖表" name="StatisticCharts" />
     <text value="統計" name="Statistics" />
     <text value="統計類別" name="StatisticsCategory" />
     <text value="按組織機構統計案件數量" name="StatisticsnumberofCasesbyOrganization" />
@@ -3082,6 +3095,7 @@
     <text value="是否確認鎖定合同信息？" name="SureToDeleteTheContractInformation" />
     <text value="是否確認刪除請假信息？" name="SureToDeleteTheLeaveInformation" />
     <text value="姓氏" name="Surname" />
+    <text value="代領" name="Surrogate" />
     <text value="切換" name="Switch" />
     <text value="點擊可在全屏和非全屏模式切換" name="SwitchFullScreenTips" />
     <text value="切換語言" name="SwitchLanguage" />
