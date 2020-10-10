@@ -915,6 +915,10 @@
     <text name="DashboardSampleStatisticsHelpText" />
     <text value="データベース接続文字列" name="DatabaseConnectionString" />
     <text value="データ辞書" name="DataDictionary" />
+    <text value="辞書リストの単語に{0}がある場合は、そのアイテムが無効で非アクティブであることを意味します。" name="DataDictionaryOperationDeletedTips" />
+    <text value="詳細の名前の右側にある{0}アイコンをクリックして、表示名を変更します" name="DataDictionaryOperationEditTips" />
+    <text value="辞書リストの右側にある{0}アイコンをクリックしてドラッグし、リストを並べ替えます" name="DataDictionaryOperationSortableTips" />
+    <text value="辞書リストの左側にある{0}アイコンをクリックしてサブカテゴリのリストを展開します。それ以外の場合は、アイコン{1}をクリックしてサブカテゴリのリストを折りたたみます。" name="DataDictionaryOperationUnfoldTips" />
     <text value="データの読み込み" name="DataLoading" />
     <text value="データ権限" name="DataPermissions" />
     <text value="日付" name="Date" />
@@ -1530,6 +1534,7 @@
     <text value="請求書のアップロード" name="InvoiceUpload" />
     <text value="使用する" name="InvoiceUse" />
     <text value="IPアドレス" name="IpAddress" />
+    <text value="レビューが必要" name="IsAudit" />
     <text value="Cookie情報を有効にすることに同意する" name="IsCookieConsentEnabled" />
     <text name="IsDisabled" />
     <text value="電子メールの検証を有効にします。" name="IsEmailVerificationEnabled" />
@@ -1953,6 +1958,7 @@
     <text value="検索の競合はありません" name="NoSearchConflicts" />
     <text value="検索データはまだありません。" name="NoSearchData" />
     <text value="サブタスクは追加されていません" name="NoSubtaskAdded" />
+    <text value="アップロードファイルのタイプは違法であり、許容できるファイルサフィックスではありません！" name="NotAcceptedFileExtension" />
     <text value="受け入れられたファイルタイプではありません" name="NotAcceptedFileType" />
     <text value="活性化していない" name="NotActivated" />
     <text value="システムは{0}サービスをアクティブにしていないことを検出しました。データへのアクセスが制限されている可能性があります！" name="NotActivatedServiceAccessLimitedTips" />
@@ -2252,6 +2258,7 @@
     <text value="パートナーレビュー結果" name="PartnerReviewResults" />
     <text value="部分到着" name="PartToAccount" />
     <text value="締約国" name="Party" />
+    <text value="直接渡す" name="PassDirectly" />
     <text value="パスワード" name="Password" />
     <text value="パスワードを忘れましたか？ " name="PasswordChangeDontRememberMessage" />
     <text value="パスワードの複雑さ" name="PasswordComplexity" />
@@ -2428,6 +2435,7 @@
     <text value="その他のサービス" name="PluginGroup.Other" />
     <text value="網盤服務" name="PluginGroup.SkyDrive" />
     <text value="料金情報を追加してください" name="PlzAddChargeInfo" />
+    <text value="費用情報を追加してください" name="PlzAddCoseInfo" />
     <text value="レターオブジェクトを追加してください" name="PlzAddLetterObject" />
     <text value="利益相反情報を追加してください" name="PlzAddProfitConflictInfo" />
     <text value="料金および契約情報を確認してください" name="PlzConfirmChargeAndContractInfo" />
@@ -2489,6 +2497,7 @@
     <text name="Print" />
     <text value="優先度" name="Priority" />
     <text value="プライバシーポリシー" name="PrivacyPolicy" />
+    <text value="プライベート専用" name="PrivateExclusive" />
     <text value="賞" name="Prize" />
     <text value="処理中" name="Process" />
     <text value="処理済み" name="Processed" />
@@ -3039,6 +3048,7 @@
     <text value="保管場所を空にすることはできません！" name="StorageLocationCannotBeEmpty" />
     <text value="保存資材" name="StorageMaterials" />
     <text value="保管期間" name="StoragePeriod" />
+    <text value="ストライクスルー" name="Strikethrough" />
     <text value="フィールド{0}の最小長は{1}、最大長は{2}でなければなりません。" name="StringLengthDoesntMatch" />
     <text value="組織ツリー" name="StructureTree" />
     <text value="ケースビジネスサブクラス" name="SubclassOfCaseBusiness" />
@@ -3352,6 +3362,7 @@
     <text value="現在のタイミング時間が短すぎて、タイミング単位にまだ到達していません（{0}分はタイミング単位です）。タイミングを完了してもよろしいですか？" name="TooShortTimerNotifyTips" />
     <text name="TopMenu" />
     <text value="請求書を受け取る" name="ToReceiveTheInvoice" />
+    <text value="提出する" name="ToSubmit" />
     <text value="レビューの種類" name="ToSubmitForApprovalTheType" />
     <text value="合計" name="Total" />
     <text value="合計金額" name="TotalAmount" />
@@ -3477,6 +3488,7 @@
     <text value="組織名" name="UnitName" />
     <text value="人" name="UnitPerson" />
     <text value="単価" name="UnitPrice" />
+    <text value="支払われる単位" name="UnitToBePaid" />
     <text value="ユニバーサル" name="Universal" />
     <text value="不明なエラーが発生しました" name="UnknownError" />
     <text name="UnknownTenantId{0}" />

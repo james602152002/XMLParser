@@ -915,6 +915,10 @@
     <text value="Progress" name="DashboardSampleStatisticsHelpText" />
     <text value="Database connection string" name="DatabaseConnectionString" />
     <text value="Data Dictionary" name="DataDictionary" />
+    <text value="If there is {0} on a word in the dictionary list, it means that the item is invalid and inactive." name="DataDictionaryOperationDeletedTips" />
+    <text value="Click the {0} icon to the right of the name in the details to modify the display name" name="DataDictionaryOperationEditTips" />
+    <text value="Click and drag the {0} icon on the right side of the dictionary list to sort the list" name="DataDictionaryOperationSortableTips" />
+    <text value="Click the {0} icon on the left side of the dictionary list to expand the list of subcategories, otherwise click the icon {1} to collapse the list of subcategories" name="DataDictionaryOperationUnfoldTips" />
     <text value="loading" name="DataLoading" />
     <text value="data permission" name="DataPermissions" />
     <text value="Date" name="Date" />
@@ -1530,6 +1534,7 @@
     <text value="Upload invoice" name="InvoiceUpload" />
     <text value="use" name="InvoiceUse" />
     <text value="IP address" name="IpAddress" />
+    <text value="Needs review" name="IsAudit" />
     <text value="Cookie consent enabled" name="IsCookieConsentEnabled" />
     <text value="Is disabled" name="IsDisabled" />
     <text value="Enable email verification." name="IsEmailVerificationEnabled" />
@@ -1953,6 +1958,7 @@
     <text value="No search conflicts" name="NoSearchConflicts" />
     <text value="No search data yet!" name="NoSearchData" />
     <text value="No Added Subtasks " name="NoSubtaskAdded" />
+    <text value="The upload file type is illegal and not an acceptable file suffix!" name="NotAcceptedFileExtension" />
     <text value="Not an accepted file type" name="NotAcceptedFileType" />
     <text value="inactivated" name="NotActivated" />
     <text value="The system has detected that you have not activated the {0} service. Your access may be limited in data!" name="NotActivatedServiceAccessLimitedTips" />
@@ -2252,6 +2258,7 @@
     <text value="Partner review results" name="PartnerReviewResults" />
     <text value="Partial arrival" name="PartToAccount" />
     <text value="party" name="Party" />
+    <text value="Pass directly" name="PassDirectly" />
     <text value="Password" name="Password" />
     <text value="If you can not remember your password, {0}." name="PasswordChangeDontRememberMessage" />
     <text value="Password complexity" name="PasswordComplexity" />
@@ -2428,6 +2435,7 @@
     <text value="other service" name="PluginGroup.Other" />
     <text value="Network disk service" name="PluginGroup.SkyDrive" />
     <text value="Please add charge information" name="PlzAddChargeInfo" />
+    <text value="Please add cost information" name="PlzAddCoseInfo" />
     <text value="Please add a letter object" name="PlzAddLetterObject" />
     <text value="Please add conflict of interest information" name="PlzAddProfitConflictInfo" />
     <text value="Please confirm the charge and contract information" name="PlzConfirmChargeAndContractInfo" />
@@ -2489,6 +2497,7 @@
     <text value="Print" name="Print" />
     <text value="priority" name="Priority" />
     <text value="Privacy Policy" name="PrivacyPolicy" />
+    <text value="Private exclusive" name="PrivateExclusive" />
     <text value="Awards" name="Prize" />
     <text value="process" name="Process" />
     <text value="Processed" name="Processed" />
@@ -3039,6 +3048,7 @@
     <text value="Storage location cannot be empty!" name="StorageLocationCannotBeEmpty" />
     <text value="Storage materials" name="StorageMaterials" />
     <text value="Storage period" name="StoragePeriod" />
+    <text value="Strikethrough" name="Strikethrough" />
     <text value="The field {0} must be a minimum length of {1} and a maximum length of {2}." name="StringLengthDoesntMatch" />
     <text value="Organization tree" name="StructureTree" />
     <text value="Case business subclass" name="SubclassOfCaseBusiness" />
@@ -3352,6 +3362,7 @@
     <text value="The current timing time is too short and has not yet reached a timing unit ({0} minutes is a timing unit). Are you sure you are finished timing?" name="TooShortTimerNotifyTips" />
     <text value="Top menu" name="TopMenu" />
     <text value="Receive invoice" name="ToReceiveTheInvoice" />
+    <text value="To submit" name="ToSubmit" />
     <text value="Type of review" name="ToSubmitForApprovalTheType" />
     <text value="Total" name="Total" />
     <text value="Total Amount" name="TotalAmount" />
@@ -3477,6 +3488,7 @@
     <text value="company name" name="UnitName" />
     <text value="person" name="UnitPerson" />
     <text value="unit price" name="UnitPrice" />
+    <text value="Unit to be paid" name="UnitToBePaid" />
     <text value="Universal" name="Universal" />
     <text value="An unknown error has occurred" name="UnknownError" />
     <text value="Unknown tenant id: {0}" name="UnknownTenantId{0}" />

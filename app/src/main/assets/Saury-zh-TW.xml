@@ -915,6 +915,10 @@
     <text name="DashboardSampleStatisticsHelpText" />
     <text value="數據庫連接字符串" name="DatabaseConnectionString" />
     <text value="數據字典" name="DataDictionary" />
+    <text value="如字典列表中的某一項文字上有{0}，表示該項為作廢未激活啟用狀態。" name="DataDictionaryOperationDeletedTips" />
+    <text value="點擊詳細信息中名稱右側的{0}圖標可修改顯示名稱" name="DataDictionaryOperationEditTips" />
+    <text value="點擊拖動字典列表右側的{0}圖標可排序列表" name="DataDictionaryOperationSortableTips" />
+    <text value="點擊字典列表左側的{0}圖標可展開子類列表，反之點擊{1}圖標折疊子類列表" name="DataDictionaryOperationUnfoldTips" />
     <text value="數據加載中" name="DataLoading" />
     <text value="數據權限" name="DataPermissions" />
     <text value="日期" name="Date" />
@@ -1530,6 +1534,7 @@
     <text value="上傳發票" name="InvoiceUpload" />
     <text value="用途" name="InvoiceUse" />
     <text value="IP地址" name="IpAddress" />
+    <text value="需要審核" name="IsAudit" />
     <text value="已同意啟用Cookie信息" name="IsCookieConsentEnabled" />
     <text name="IsDisabled" />
     <text value="啟用郵箱驗證." name="IsEmailVerificationEnabled" />
@@ -1953,6 +1958,7 @@
     <text value="未檢索衝突" name="NoSearchConflicts" />
     <text value="暫無任何搜索數據！" name="NoSearchData" />
     <text value="未添加子任務" name="NoSubtaskAdded" />
+    <text value="上傳文件類型不合法，不是可接受的文件後綴！" name="NotAcceptedFileExtension" />
     <text value="受け入れられたファイルタイプではありません" name="NotAcceptedFileType" />
     <text value="未激活" name="NotActivated" />
     <text value="系統檢測到您當前尚未激活 {0} 服務,您本次的訪問可能會有數據受限的情況！" name="NotActivatedServiceAccessLimitedTips" />
@@ -2252,6 +2258,7 @@
     <text value="合夥人審核結果" name="PartnerReviewResults" />
     <text value="部分到賬" name="PartToAccount" />
     <text value="當事人" name="Party" />
+    <text value="直接通過" name="PassDirectly" />
     <text value="密碼" name="Password" />
     <text value="忘記密碼？ " name="PasswordChangeDontRememberMessage" />
     <text value="密碼複雜度" name="PasswordComplexity" />
@@ -2428,6 +2435,7 @@
     <text value="其他服務" name="PluginGroup.Other" />
     <text value="網盤服務" name="PluginGroup.SkyDrive" />
     <text value="請添加收費信息" name="PlzAddChargeInfo" />
+    <text value="請添加費用信息" name="PlzAddCoseInfo" />
     <text value="請添加發函對象" name="PlzAddLetterObject" />
     <text value="請添加利益衝突信息" name="PlzAddProfitConflictInfo" />
     <text value="請確認收費及合同信息" name="PlzConfirmChargeAndContractInfo" />
@@ -2489,6 +2497,7 @@
     <text name="Print" />
     <text value="優先級" name="Priority" />
     <text value="隱私政策" name="PrivacyPolicy" />
+    <text value="私有獨占" name="PrivateExclusive" />
     <text value="獎項" name="Prize" />
     <text value="處理" name="Process" />
     <text value="已處理" name="Processed" />
@@ -3039,6 +3048,7 @@
     <text value="存放位置不能為空!" name="StorageLocationCannotBeEmpty" />
     <text value="入庫材料" name="StorageMaterials" />
     <text value="入庫期限" name="StoragePeriod" />
+    <text value="刪除線" name="Strikethrough" />
     <text value="{0}的最小長度必須為{1}，最大長度必須為{2}。" name="StringLengthDoesntMatch" />
     <text value="組織機構樹" name="StructureTree" />
     <text value="案件業務子類" name="SubclassOfCaseBusiness" />
@@ -3352,6 +3362,7 @@
     <text value="當前計時時間過短，尚未達到一個計時單位（{0}分鐘為一個計時單位），是否確定完成計時？" name="TooShortTimerNotifyTips" />
     <text name="TopMenu" />
     <text value="領取發票" name="ToReceiveTheInvoice" />
+    <text value="待提交" name="ToSubmit" />
     <text value="報審類型" name="ToSubmitForApprovalTheType" />
     <text value="總計" name="Total" />
     <text value="合計數量" name="TotalAmount" />
@@ -3477,6 +3488,7 @@
     <text value="單位名稱" name="UnitName" />
     <text value="人" name="UnitPerson" />
     <text value="單價" name="UnitPrice" />
+    <text value="待付款單位" name="UnitToBePaid" />
     <text value="通用" name="Universal" />
     <text value="發生未知錯誤" name="UnknownError" />
     <text name="UnknownTenantId{0}" />
