@@ -364,6 +364,7 @@
     <text value="請求テンプレート" name="BillTemplate" />
     <text value="請求テンプレートのアップロード" name="BillTemplateUpload" />
     <text value="バインディング" name="Bind" />
+    <text value="公式アカウントに注意してください-詳細-アカウントのバインド、すぐにWeChatプッシュ通知を開いてください！" name="BindAccountOpenWechatPusherTips" />
     <text value="個人センターでバインドしてログインしてください！" name="Bindfirst" />
     <text value="ビット" name="Bit" />
     <text value="ブロックされたユーザー" name="BlockedUsers" />
@@ -508,6 +509,7 @@
     <text value="あなたが申請した[{0}]件のケースが検索によって返されました。アプリケーションの内容を改訂した後、競合を再確認してください。" name="CaseOfYouApplicationIsReturnedPleaseModifyAndResumeConflict" />
     <text value="ケースオリジナルの顧客情報" name="CaseOriginalInformation" />
     <text value="ケースの人事情報" name="CaseParticipantInformation" />
+    <text value="ケースパフォーマンスクエリ設定" name="CasePerformanceEnquirySettings" />
     <text value="ケースプロセス情報" name="CaseProcessInformation" />
     <text value="処理" name="CaseProcessing" />
     <text value="ケースプロジェクト" name="CaseProject" />
@@ -1390,6 +1392,7 @@
     <text value="提出されません" name="HaveNotBeenSubmitted" />
     <text value="読む" name="HaveRead" />
     <text value="ヘッド" name="Header" />
+    <text value="こんにちは、あなたのアカウントはバインドされています！" name="HelloYourAccountHasBeBindTips" />
     <text value="助け" name="Help" />
     <text value="助けとフィードバック" name="HelpAndFeedback" />
     <text value="ヘルプ文書" name="Helpdocument" />
@@ -1420,6 +1423,8 @@
     <text value="人事運用ガイド" name="HumanGuide" />
     <text value="IDカード/統一社会信用コード" name="IDCardOrUSCC" />
     <text value="主キー番号に関連する情報を照合できません！" name="IdHasNotBeenFound" />
+    <text value="データ権限フィルタリングを無視する" name="IgnoreDataPermissionFiltering" />
+    <text value="無視すると、パフォーマンスクエリの結果でデータのアクセス許可がフィルタリングされなくなります。" name="IgnoreDataPermissionFilteringTips" />
     <text name="Image" />
     <text value="画像の最小ピクセル：{0}、スケール：{1}" name="ImgSizeScaleLimitation" />
     <text value="偽のトークンが無効または期限切れです。" name="ImpersonationTokenErrorMessage" />
@@ -1599,6 +1604,7 @@
     <text value="先月" name="LastMonth" />
     <text value="先月の休暇日" name="Lastmonthleavedays" />
     <text value="前月の就業日数" name="LastMonthWorkDays" />
+    <text value="最後のオンライン時間" name="LastOnlineTime" />
     <text value="最後の支払い時期" name="Lastpaymenttime" />
     <text value="過去7日間" name="LastSevenDays" />
     <text value="先月の最後の就業日" name="Lastworkingdayslastmonth" />
@@ -2025,7 +2031,7 @@
     <text value="オンボーディング" name="Onboarding" />
     <text value="ワンクリック" name="OneKey" />
     <text value="進行中のプロジェクト" name="OngoingProjects" />
-    <text name="Online" />
+    <text value="オンライン" name="Online" />
     <text value="オンライン検索" name="OnlineSearch" />
     <text value="ケースの担当者のみが関連するケースのログを確認できます" name="OnlyCaseManagerAuditLog" />
     <text value="申し訳ありませんが、あなたは1つのファイルの名前を変更することができます！" name="OnlyIndividualFilesCanBeRenamed" />
@@ -2111,6 +2117,7 @@
     <text value="ケースセンター" name="Pages.Business.Cases.CaseCenter" />
     <text value="ケースセンター" name="Pages.Business.Cases.CaseOrders" />
     <text value="事例登録" name="Pages.Business.Cases.Create" />
+    <text value="パフォーマンスクエリ" name="Pages.Business.Cases.Enquiry" />
     <text value="ケースマネジメント" name="Pages.Business.Cases.Manage" />
     <text value="私の場合" name="Pages.Business.Cases.MyCases" />
     <text value="私のプロセス" name="Pages.Business.Cases.MyProcesses" />
@@ -2315,6 +2322,7 @@
     <text value="行政審査待ち" name="PendingAdministrativeReview" />
     <text value="保留中の申し立て" name="PendingClaim" />
     <text value="実行委員会によるレビュー" name="PendingExecutiveCommitteeReview" />
+    <text value="財務確認待ち" name="PendingFinanceConfirm" />
     <text value="保留中の財務レビュー" name="PendingFinancialReview" />
     <text value="監督者によるレビュー" name="PendingManagerReview" />
     <text value="パートナーによってレビューされる" name="PendingPartnerReview" />
@@ -2374,6 +2382,7 @@
     <text value="時間を持って来てください！" name="PleaseChooseToBringOutTime" />
     <text value="背景画像をアップロードして削除したら、ページの右上隅にある[すべて保存]ボタンをクリックしてください。" name="PleaseClickSaveAllAfterOperation" />
     <text value="会議の議事録を完了してください" name="PleaseCompleteMinutesOfMeeting" />
+    <text value="送信する前に、ターゲット情報を入力してください。" name="PleaseCompleteTheTargetInformationBeforeSubmitting" />
     <text value="ユーザー情報を入力してください！" name="PleaseCompleteUserInformation" />
     <text value="現在のケースタイプの契約包含を設定するには、マネージャーに連絡してください！" name="PleaseContactManagerSetTheCurrentCaseTypeContractInclusion" />
     <text value="入力時にテンプレートのサンプルデータを削除してください、ありがとうございます！" name="PleaseDelSampleDataInTemplateWhenEntering" />
@@ -2395,6 +2404,7 @@
     <text value="プロジェクトの名前を入力してください" name="PleaseEnterTheProjectName" />
     <text value="検索キーを入力してください" name="PleaseEnterTheSearchKey" />
     <text value="仕事の内容を入力してください" name="PleaseEnterTheWorkContent" />
+    <text value="アカウント情報を入力して、バインド操作を完了してください" name="PleaseEnterYourAccountToBindTips" />
     <text value="出身地を入力してください" name="PleaseEnterYourCountryOfOrigin" />
     <text value="英語名を入力してください" name="PleaseEnterYourEnglishName" />
     <text value="学科の専攻を入力してください" name="PleaseEnterYourMajor" />
@@ -2546,6 +2556,7 @@
     <text name="Purchase" />
     <text value="購入者" name="Purchaser" />
     <text value="パープル" name="Purple" />
+    <text value="デフォルトのデバイスとして設定した後、通知メッセージはこのデバイスにのみプッシュされます" name="PushDefaultDeviceTips" />
     <text value="コレクションを入れる" name="PutInCollectionLibrary" />
     <text value="QRコードを生成できませんでした" name="QRcodefail" />
     <text value="象限カテゴリ" name="QuadrantCategory" />
@@ -2615,6 +2626,7 @@
     <text value="登録番号" name="RegistrationNumber" />
     <text value="払い戻し額" name="Reimbursement" />
     <text value="補償者" name="ReimbursementApplicant" />
+    <text value="償還時間" name="ReimbursementTime" />
     <text value="カスタマーコミッショナーが返品" name="RejectedByConflictRetrieveSpecialist" />
     <text value="{0}はあなたの予約に参加した会議[{1}]を拒否しました。" name="RejectedParticipateMeeting" />
     <text value="ケースを閉じる" name="RejectedTheClosingCase" />
@@ -2962,6 +2974,7 @@
     <text value="スキップする" name="Skip" />
     <text value="設定をスキップして直接ログインする" name="SkipSetting" />
     <text value="単語セグメンテーション検索" name="SliptWordSearch" />
+    <text value="連接成就知恵法律事務所" name="Slogan" />
     <text name="Sms" />
     <text value="セキュリティコードは次のとおりです：{0}" name="SmsSecurityCodeMessage" />
     <text value="SMS確認コードが携帯電話に送信されました。確認してください（10分間有効）" name="SMSverificationCodehasbeenSent" />
@@ -3636,6 +3649,7 @@
     <text value="このページの最新のログを見ることができます。また、すべてのログをzipファイルにダウンロードすることもできます。" name="WebSiteLogsHeaderInfo" />
     <text value="訪問したいページを提供することはできません。" name="WeCanNotFindThePage" />
     <text value="WeChatアプレット" name="WeChatMina" />
+    <text value="WeChatニックネーム" name="WechatNickName" />
     <text value="微信公衆号" name="WechatOfficialAccounts" />
     <text name="Weekly" />
     <text value="今週は" name="WeeklyToDo" />

@@ -364,6 +364,7 @@
     <text value="Billing template" name="BillTemplate" />
     <text value="Billing template upload" name="BillTemplateUpload" />
     <text value="Binding" name="Bind" />
+    <text value="Pay attention to the official account-learn more-account binding, immediately open WeChat push notification!" name="BindAccountOpenWechatPusherTips" />
     <text value="Please login after binding in the personal center!" name="Bindfirst" />
     <text value="Bit" name="Bit" />
     <text value="Blocked Users" name="BlockedUsers" />
@@ -508,6 +509,7 @@
     <text value="The case [{0}] you applied for was returned by the search. Please revisit the conflict after revising the content of the application." name="CaseOfYouApplicationIsReturnedPleaseModifyAndResumeConflict" />
     <text value="Case original customer information" name="CaseOriginalInformation" />
     <text value="Case personnel information" name="CaseParticipantInformation" />
+    <text value="Case performance query settings" name="CasePerformanceEnquirySettings" />
     <text value="Case process information" name="CaseProcessInformation" />
     <text value="Processing" name="CaseProcessing" />
     <text value="Case Project" name="CaseProject" />
@@ -1390,6 +1392,7 @@
     <text value="Unsubmitted" name="HaveNotBeenSubmitted" />
     <text value="Have read" name="HaveRead" />
     <text value="head" name="Header" />
+    <text value="Hello, your account has been bound!" name="HelloYourAccountHasBeBindTips" />
     <text value="help" name="Help" />
     <text value="Help And Feedback" name="HelpAndFeedback" />
     <text value="Help document" name="Helpdocument" />
@@ -1420,6 +1423,8 @@
     <text value="Human Resources Operation Guide" name="HumanGuide" />
     <text value="ID Card/Uniform Social Credit Code" name="IDCardOrUSCC" />
     <text value="Unable to match information related to primary key number!" name="IdHasNotBeenFound" />
+    <text value="Ignore data permission filtering" name="IgnoreDataPermissionFiltering" />
+    <text value="After ignoring, the performance query results will no longer filter data permissions! " name="IgnoreDataPermissionFilteringTips" />
     <text value="Image" name="Image" />
     <text value="Image minimum pixels: {0}, scale: {1}" name="ImgSizeScaleLimitation" />
     <text value="Impersonation token is invalid or expired!" name="ImpersonationTokenErrorMessage" />
@@ -1599,6 +1604,7 @@
     <text value="Last month" name="LastMonth" />
     <text value="Last month's leave days" name="Lastmonthleavedays" />
     <text value="Working days in the previous month" name="LastMonthWorkDays" />
+    <text value="Last online time" name="LastOnlineTime" />
     <text value="Last payment time" name="Lastpaymenttime" />
     <text value="Last seven days" name="LastSevenDays" />
     <text value="Last working days last month" name="Lastworkingdayslastmonth" />
@@ -2111,6 +2117,7 @@
     <text value="Case center" name="Pages.Business.Cases.CaseCenter" />
     <text value="Case center" name="Pages.Business.Cases.CaseOrders" />
     <text value="Case registration" name="Pages.Business.Cases.Create" />
+    <text value="Enquiry" name="Pages.Business.Cases.Enquiry" />
     <text value="Case management" name="Pages.Business.Cases.Manage" />
     <text value="My case" name="Pages.Business.Cases.MyCases" />
     <text value="My process" name="Pages.Business.Cases.MyProcesses" />
@@ -2315,6 +2322,7 @@
     <text value="Pending administrative review" name="PendingAdministrativeReview" />
     <text value="Pending claim" name="PendingClaim" />
     <text value="To be reviewed by the Executive Committee" name="PendingExecutiveCommitteeReview" />
+    <text value="Pending financial confirmation" name="PendingFinanceConfirm" />
     <text value="Pending financial review" name="PendingFinancialReview" />
     <text value="Pending supervisor review" name="PendingManagerReview" />
     <text value="To be reviewed by partners" name="PendingPartnerReview" />
@@ -2374,6 +2382,7 @@
     <text value="Please choose to bring time!" name="PleaseChooseToBringOutTime" />
     <text value="After uploading and deleting background images, please click the Save All button in the upper right corner of the page!" name="PleaseClickSaveAllAfterOperation" />
     <text value="Please complete the meeting minutes" name="PleaseCompleteMinutesOfMeeting" />
+    <text value="Please complete the target information before submitting!" name="PleaseCompleteTheTargetInformationBeforeSubmitting" />
     <text value="Please complete user information!" name="PleaseCompleteUserInformation" />
     <text value="Please contact the manager to set the current case type contract inclusion!" name="PleaseContactManagerSetTheCurrentCaseTypeContractInclusion" />
     <text value="Please delete the sample data in the template when entering, thank you!" name="PleaseDelSampleDataInTemplateWhenEntering" />
@@ -2395,6 +2404,7 @@
     <text value="Please Enter The Project Name" name="PleaseEnterTheProjectName" />
     <text value="Please enter your search keywords" name="PleaseEnterTheSearchKey" />
     <text value="Please Enter The Work Content" name="PleaseEnterTheWorkContent" />
+    <text value="Please enter your account information to complete the binding operation" name="PleaseEnterYourAccountToBindTips" />
     <text value="Please Enter Your Country Of Origin" name="PleaseEnterYourCountryOfOrigin" />
     <text value="Please Enter Your English Name" name="PleaseEnterYourEnglishName" />
     <text value="Please Enter Your Major" name="PleaseEnterYourMajor" />
@@ -2546,6 +2556,7 @@
     <text value="Purchase" name="Purchase" />
     <text value="Purchaser" name="Purchaser" />
     <text value="purple" name="Purple" />
+    <text value="After setting as the default device, notification messages will only be pushed to this device" name="PushDefaultDeviceTips" />
     <text value="Put in collections" name="PutInCollectionLibrary" />
     <text value="Failed to generate QR code" name="QRcodefail" />
     <text value="Quadrant category" name="QuadrantCategory" />
@@ -2615,6 +2626,7 @@
     <text value="Registration Number" name="RegistrationNumber" />
     <text value="Reimbursement" name="Reimbursement" />
     <text value="Reimbursers" name="ReimbursementApplicant" />
+    <text value="Reimbursement time" name="ReimbursementTime" />
     <text value="Customer Commissioner returns" name="RejectedByConflictRetrieveSpecialist" />
     <text value="{0} rejected the meeting [{1}] that participated in your booking." name="RejectedParticipateMeeting" />
     <text value="Closing the case" name="RejectedTheClosingCase" />
@@ -2962,6 +2974,7 @@
     <text value="Skip" name="Skip" />
     <text value="Skip settings, log in directly" name="SkipSetting" />
     <text value="Word segmentation search" name="SliptWordSearch" />
+    <text value="Connected to smart law firm" name="Slogan" />
     <text value="Sms" name="Sms" />
     <text value="Your security code is: {0}" name="SmsSecurityCodeMessage" />
     <text value="SMS verification code has been sent to your mobile phone, please check it (valid for 10 minutes)" name="SMSverificationCodehasbeenSent" />
@@ -3636,6 +3649,7 @@
     <text value="You can see latest logs in this page or download all logs in a single zip file." name="WebSiteLogsHeaderInfo" />
     <text value="We can not find the page you're looking for." name="WeCanNotFindThePage" />
     <text value="WeChat min app" name="WeChatMina" />
+    <text value="WeChat nickname" name="WechatNickName" />
     <text value="WeChat official accounts" name="WechatOfficialAccounts" />
     <text value="Weekly" name="Weekly" />
     <text value="Weekly To Do" name="WeeklyToDo" />

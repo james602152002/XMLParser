@@ -364,6 +364,7 @@
     <text value="賬單模板" name="BillTemplate" />
     <text value="賬單模板上傳" name="BillTemplateUpload" />
     <text value="綁定" name="Bind" />
+    <text value="關注公眾號--了解更多--賬號綁定,即刻開啟微信推送通知!" name="BindAccountOpenWechatPusherTips" />
     <text value="請在個人中心綁定後登陸！" name="Bindfirst" />
     <text value="位" name="Bit" />
     <text value="屏蔽的用戶" name="BlockedUsers" />
@@ -508,6 +509,7 @@
     <text value="您申請的案件[{0}]被檢索退回，請修改申請內容後重新進行沖突檢索." name="CaseOfYouApplicationIsReturnedPleaseModifyAndResumeConflict" />
     <text value="案件原始客戶信息" name="CaseOriginalInformation" />
     <text value="案件人員信息" name="CaseParticipantInformation" />
+    <text value="案件業績查詢設置" name="CasePerformanceEnquirySettings" />
     <text value="案件進程信息" name="CaseProcessInformation" />
     <text value="辦理中" name="CaseProcessing" />
     <text value="案件項目" name="CaseProject" />
@@ -1390,6 +1392,7 @@
     <text value="未提交" name="HaveNotBeenSubmitted" />
     <text value="已讀" name="HaveRead" />
     <text value="頭部" name="Header" />
+    <text value="您好，您的賬號已綁定！" name="HelloYourAccountHasBeBindTips" />
     <text value="幫助" name="Help" />
     <text value="幫助與反饋" name="HelpAndFeedback" />
     <text value="幫助文檔" name="Helpdocument" />
@@ -1420,6 +1423,8 @@
     <text value="人力資源操作指引" name="HumanGuide" />
     <text value="身份證/統一社會信用代碼" name="IDCardOrUSCC" />
     <text value="無法匹配與主鍵編號相關的信息！" name="IdHasNotBeenFound" />
+    <text value="忽略數據權限過濾" name="IgnoreDataPermissionFiltering" />
+    <text value="忽略後，業績查詢結果將不再過濾數據權限！" name="IgnoreDataPermissionFilteringTips" />
     <text name="Image" />
     <text value="圖片最小像素：{0}，比例：{1}" name="ImgSizeScaleLimitation" />
     <text value="偽造令牌無效或過期！" name="ImpersonationTokenErrorMessage" />
@@ -1599,6 +1604,7 @@
     <text value="上個月" name="LastMonth" />
     <text value="上月請假天數" name="Lastmonthleavedays" />
     <text value="上月應工作天數" name="LastMonthWorkDays" />
+    <text value="最後在線時間" name="LastOnlineTime" />
     <text value="上次支付時間" name="Lastpaymenttime" />
     <text value="最近七天" name="LastSevenDays" />
     <text value="上月已工作天數" name="Lastworkingdayslastmonth" />
@@ -2025,7 +2031,7 @@
     <text value="操作指引" name="Onboarding" />
     <text value="一鍵" name="OneKey" />
     <text value="進行中的項目" name="OngoingProjects" />
-    <text name="Online" />
+    <text value="在線" name="Online" />
     <text value="在線檢索" name="OnlineSearch" />
     <text value="只允許案件負責人審核相關案件日誌" name="OnlyCaseManagerAuditLog" />
     <text value="對不起，您只能對單個文件重命名！" name="OnlyIndividualFilesCanBeRenamed" />
@@ -2111,6 +2117,7 @@
     <text value="案件中心" name="Pages.Business.Cases.CaseCenter" />
     <text value="案件中心" name="Pages.Business.Cases.CaseOrders" />
     <text value="案件登記" name="Pages.Business.Cases.Create" />
+    <text value="業績查詢" name="Pages.Business.Cases.Enquiry" />
     <text value="案件管理" name="Pages.Business.Cases.Manage" />
     <text value="我的案件" name="Pages.Business.Cases.MyCases" />
     <text value="我的進程" name="Pages.Business.Cases.MyProcesses" />
@@ -2315,6 +2322,7 @@
     <text value="待行政審核" name="PendingAdministrativeReview" />
     <text value="待認領" name="PendingClaim" />
     <text value="待執委審核" name="PendingExecutiveCommitteeReview" />
+    <text value="待財務確認" name="PendingFinanceConfirm" />
     <text value="待財務審核" name="PendingFinancialReview" />
     <text value="待主管審核" name="PendingManagerReview" />
     <text value="待合夥人審核" name="PendingPartnerReview" />
@@ -2374,6 +2382,7 @@
     <text value="請選擇帶出時間!" name="PleaseChooseToBringOutTime" />
     <text value="上傳與刪除背景圖片後請點擊頁面右上角的保存全部按鈕！" name="PleaseClickSaveAllAfterOperation" />
     <text value="請完善會議紀要內容" name="PleaseCompleteMinutesOfMeeting" />
+    <text value="請完善發函對象信息後，再進行提交操作！" name="PleaseCompleteTheTargetInformationBeforeSubmitting" />
     <text value="請完善用戶信息！" name="PleaseCompleteUserInformation" />
     <text value="請聯繫管理人員，設置當前案件類型合同收錄！" name="PleaseContactManagerSetTheCurrentCaseTypeContractInclusion" />
     <text value="錄入時請先刪除模板中的示例數據，謝謝！" name="PleaseDelSampleDataInTemplateWhenEntering" />
@@ -2395,6 +2404,7 @@
     <text value="請輸入項目名稱" name="PleaseEnterTheProjectName" />
     <text value="請輸入搜索關鍵字" name="PleaseEnterTheSearchKey" />
     <text value="請輸入工作內容" name="PleaseEnterTheWorkContent" />
+    <text value="請輸入您的賬號信息完成綁定操作" name="PleaseEnterYourAccountToBindTips" />
     <text value="請輸入籍貫" name="PleaseEnterYourCountryOfOrigin" />
     <text value="請輸入英文名" name="PleaseEnterYourEnglishName" />
     <text value="請輸入所學專業" name="PleaseEnterYourMajor" />
@@ -2546,6 +2556,7 @@
     <text name="Purchase" />
     <text value="採購人" name="Purchaser" />
     <text value="紫色" name="Purple" />
+    <text value="設為默認設備後，通知消息將只推送到該設備" name="PushDefaultDeviceTips" />
     <text value="放入收集箱" name="PutInCollectionLibrary" />
     <text value="生成二維碼失敗" name="QRcodefail" />
     <text value="象限類別" name="QuadrantCategory" />
@@ -2615,6 +2626,7 @@
     <text value="註冊號" name="RegistrationNumber" />
     <text value="報銷金額" name="Reimbursement" />
     <text value="報銷人" name="ReimbursementApplicant" />
+    <text value="報銷時間" name="ReimbursementTime" />
     <text value="客戶專員退回" name="RejectedByConflictRetrieveSpecialist" />
     <text value="{0}拒絕了參與您預訂的會議[{1}]." name="RejectedParticipateMeeting" />
     <text value="結案退回" name="RejectedTheClosingCase" />
@@ -2962,6 +2974,7 @@
     <text value="跳過" name="Skip" />
     <text value="跳過設置，直接登錄" name="SkipSetting" />
     <text value="分詞搜索" name="SliptWordSearch" />
+    <text value="連接成就智慧律所" name="Slogan" />
     <text name="Sms" />
     <text value="您的安全代碼是：{0}" name="SmsSecurityCodeMessage" />
     <text value="短信驗證碼已發到您的手機,請查收(10分鐘內有效)" name="SMSverificationCodehasbeenSent" />
@@ -3636,6 +3649,7 @@
     <text value="您可以在此頁面看到最新的日誌，或者將所有日誌下載到一個zip文件中." name="WebSiteLogsHeaderInfo" />
     <text value="我們無法提供您想要訪問的頁面." name="WeCanNotFindThePage" />
     <text value="微信小程序" name="WeChatMina" />
+    <text value="微信暱稱" name="WechatNickName" />
     <text value="微信公眾號" name="WechatOfficialAccounts" />
     <text name="Weekly" />
     <text value="本週待辦" name="WeeklyToDo" />

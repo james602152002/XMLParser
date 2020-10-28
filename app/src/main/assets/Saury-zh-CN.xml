@@ -364,6 +364,7 @@
     <text value="账单模板" name="BillTemplate" />
     <text value="账单模板上传" name="BillTemplateUpload" />
     <text value="绑定" name="Bind" />
+    <text value="关注公众号--了解更多--账号绑定,即刻开启微信推送通知!" name="BindAccountOpenWechatPusherTips" />
     <text value="请在个人中心绑定后登陆！" name="Bindfirst" />
     <text value="位" name="Bit" />
     <text value="锁定的用户" name="BlockedUsers" />
@@ -508,6 +509,7 @@
     <text value="您申请的案件[{0}]被检索退回，请修改申请内容后重新进行冲突检索." name="CaseOfYouApplicationIsReturnedPleaseModifyAndResumeConflict" />
     <text value="案件原始客户信息" name="CaseOriginalInformation" />
     <text value="案件人员信息" name="CaseParticipantInformation" />
+    <text value="案件业绩查询设置" name="CasePerformanceEnquirySettings" />
     <text value="案件进程信息" name="CaseProcessInformation" />
     <text value="办理中" name="CaseProcessing" />
     <text value="案件项目" name="CaseProject" />
@@ -1390,6 +1392,7 @@
     <text value="未提交" name="HaveNotBeenSubmitted" />
     <text value="已读" name="HaveRead" />
     <text value="头部" name="Header" />
+    <text value="您好，您的账号已绑定！" name="HelloYourAccountHasBeBindTips" />
     <text value="帮助" name="Help" />
     <text value="帮助与反馈" name="HelpAndFeedback" />
     <text value="帮助文档" name="Helpdocument" />
@@ -1420,6 +1423,8 @@
     <text value="人力资源操作指引" name="HumanGuide" />
     <text value="身份证/统一社会信用代码" name="IDCardOrUSCC" />
     <text value="无法匹配与主键编号相关的信息！" name="IdHasNotBeenFound" />
+    <text value="忽略数据权限过滤" name="IgnoreDataPermissionFiltering" />
+    <text value="忽略后，业绩查询结果将不再过滤数据权限！请谨慎选择，避免核心业务数据泄露风险！" name="IgnoreDataPermissionFilteringTips" />
     <text value="图像" name="Image" />
     <text value="图片最小像素：{0}，比例：{1}" name="ImgSizeScaleLimitation" />
     <text value="模拟认证无效或过期" name="ImpersonationTokenErrorMessage" />
@@ -1599,6 +1604,7 @@
     <text value="上个月" name="LastMonth" />
     <text value="上月请假天数" name="Lastmonthleavedays" />
     <text value="上月应工作天数" name="LastMonthWorkDays" />
+    <text value="最后在线时间" name="LastOnlineTime" />
     <text value="上次支付时间" name="Lastpaymenttime" />
     <text value="最近七天" name="LastSevenDays" />
     <text value="上月已工作天数" name="Lastworkingdayslastmonth" />
@@ -2025,7 +2031,7 @@
     <text value="操作指引" name="Onboarding" />
     <text value="一键" name="OneKey" />
     <text value="进行中的项目" name="OngoingProjects" />
-    <text name="Online" />
+    <text value="在线" name="Online" />
     <text value="在线检索" name="OnlineSearch" />
     <text value="只允许案件负责人审核相关案件日志" name="OnlyCaseManagerAuditLog" />
     <text value="对不起，您只能对单个文件重命名！" name="OnlyIndividualFilesCanBeRenamed" />
@@ -2111,6 +2117,7 @@
     <text value="案件中心" name="Pages.Business.Cases.CaseCenter" />
     <text value="案件中心" name="Pages.Business.Cases.CaseOrders" />
     <text value="案件登记" name="Pages.Business.Cases.Create" />
+    <text value="业绩查询" name="Pages.Business.Cases.Enquiry" />
     <text value="案件管理" name="Pages.Business.Cases.Manage" />
     <text value="我的案件" name="Pages.Business.Cases.MyCases" />
     <text value="我的进程" name="Pages.Business.Cases.MyProcesses" />
@@ -2315,6 +2322,7 @@
     <text value="待行政审核" name="PendingAdministrativeReview" />
     <text value="待认领" name="PendingClaim" />
     <text value="待执委审核" name="PendingExecutiveCommitteeReview" />
+    <text value="待财务确认" name="PendingFinanceConfirm" />
     <text value="待财务审核" name="PendingFinancialReview" />
     <text value="待主管审核" name="PendingManagerReview" />
     <text value="待合伙人审核" name="PendingPartnerReview" />
@@ -2374,6 +2382,7 @@
     <text value="请选择带出时间!" name="PleaseChooseToBringOutTime" />
     <text value="上传与删除背景图片后请点击页面右上角的保存全部按钮！" name="PleaseClickSaveAllAfterOperation" />
     <text value="请完善会议纪要内容" name="PleaseCompleteMinutesOfMeeting" />
+    <text value="请完善发函对象信息后，再进行提交操作！" name="PleaseCompleteTheTargetInformationBeforeSubmitting" />
     <text value="请完善用户信息！" name="PleaseCompleteUserInformation" />
     <text value="请联系管理人员，设置当前案件类型合同收录！" name="PleaseContactManagerSetTheCurrentCaseTypeContractInclusion" />
     <text value="录入时请先删除模板中的示例数据，谢谢！" name="PleaseDelSampleDataInTemplateWhenEntering" />
@@ -2395,6 +2404,7 @@
     <text value="请输入项目名称" name="PleaseEnterTheProjectName" />
     <text value="请输入搜索关键字" name="PleaseEnterTheSearchKey" />
     <text value="请输入工作内容" name="PleaseEnterTheWorkContent" />
+    <text value="请输入您的账号信息完成绑定操作" name="PleaseEnterYourAccountToBindTips" />
     <text value="请输入籍贯" name="PleaseEnterYourCountryOfOrigin" />
     <text value="请输入英文名" name="PleaseEnterYourEnglishName" />
     <text value="请输入所学专业" name="PleaseEnterYourMajor" />
@@ -2546,6 +2556,7 @@
     <text value="购买" name="Purchase" />
     <text value="采购人" name="Purchaser" />
     <text value="紫色" name="Purple" />
+    <text value="设为默认设备后，通知消息将只推送到该设备" name="PushDefaultDeviceTips" />
     <text value="放入收集箱" name="PutInCollectionLibrary" />
     <text value="生成二维码失败" name="QRcodefail" />
     <text value="象限类别" name="QuadrantCategory" />
@@ -2615,6 +2626,7 @@
     <text value="注册号" name="RegistrationNumber" />
     <text value="报销金额" name="Reimbursement" />
     <text value="报销人" name="ReimbursementApplicant" />
+    <text value="报销时间" name="ReimbursementTime" />
     <text value="客户专员退回" name="RejectedByConflictRetrieveSpecialist" />
     <text value="{0}拒绝了参与您预订的会议[{1}]." name="RejectedParticipateMeeting" />
     <text value="结案退回" name="RejectedTheClosingCase" />
@@ -2962,6 +2974,7 @@
     <text value="跳过" name="Skip" />
     <text value="跳过设置，直接登录" name="SkipSetting" />
     <text value="分词搜索" name="SliptWordSearch" />
+    <text value="连接成就智慧律所" name="Slogan" />
     <text value="短信" name="Sms" />
     <text value="您的安全代码是：{0}" name="SmsSecurityCodeMessage" />
     <text value="短信验证码已发到您的手机,请查收(10分钟内有效)" name="SMSverificationCodehasbeenSent" />
@@ -3636,6 +3649,7 @@
     <text value="您可以看到最新的日志，或下载所有日志的压缩文件。" name="WebSiteLogsHeaderInfo" />
     <text value="我们无法提供您想要访问的页面." name="WeCanNotFindThePage" />
     <text value="微信小程序" name="WeChatMina" />
+    <text value="微信昵称" name="WechatNickName" />
     <text value="微信公众号" name="WechatOfficialAccounts" />
     <text value="每周" name="Weekly" />
     <text value="本周待办" name="WeeklyToDo" />
