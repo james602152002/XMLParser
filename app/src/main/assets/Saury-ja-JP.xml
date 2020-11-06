@@ -2167,6 +2167,10 @@
     <text value="行政支部の監査" name="Pages.Executive.Stamp.Approve" />
     <text value="管理章管理" name="Pages.Executive.Stamp.Manage" />
     <text value="財務管理" name="Pages.Financial" />
+    <text value="割り当て管理" name="Pages.Financial.Allocations" />
+    <text value="割り当て管理" name="Pages.Financial.Allocations.Manage" />
+    <text value="私の収入" name="Pages.Financial.Allocations.MyAllocations" />
+    <text value="私の割り当て" name="Pages.Financial.Allocations.MyReceipts" />
     <text value="請求管理" name="Pages.Financial.Billings" />
     <text value="請求書レビュー" name="Pages.Financial.Billings.AuditBillings" />
     <text value="請求書入力" name="Pages.Financial.Billings.Create" />
@@ -2305,6 +2309,7 @@
     <text value="支払人" name="Payer" />
     <text value="支払人：" name="PayerTitle" />
     <text name="Payment" />
+    <text value="支払機関" name="PaymentAgency" />
     <text value="受取額" name="PaymentAmount" />
     <text name="PaymentCouldNotCompleted" />
     <text value="支払い通貨" name="PaymentCurrency" />
@@ -2451,6 +2456,7 @@
     <text value="料金および契約情報を確認してください" name="PlzConfirmChargeAndContractInfo" />
     <text value="顧客を作成または選択してください" name="PlzCreateOrSelectClient" />
     <text value="契約関連情報を記入してください" name="PlzFillContractRelatedInfo" />
+    <text value="関連情報を入力してください" name="PlzFillInTheRelevantInfo" />
     <text value="クロージングレポートに記入してください" name="PlzFillOutClosingReport" />
     <text value="入力してください" name="PlzInput" />
     <text value="料金と契約情報を入力してください" name="PlzInputChargeAndContractInfo" />
@@ -3501,7 +3507,6 @@
     <text value="組織名" name="UnitName" />
     <text value="人" name="UnitPerson" />
     <text value="単価" name="UnitPrice" />
-    <text value="支払われる単位" name="UnitToBePaid" />
     <text value="ユニバーサル" name="Universal" />
     <text value="不明なエラーが発生しました" name="UnknownError" />
     <text name="UnknownTenantId{0}" />

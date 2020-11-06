@@ -497,7 +497,7 @@
     <text value="案件信息表" name="CaseInformationTable" />
     <text value="您申請的案件文書[{0}]蓋章,已通過{1}的審核." name="CaseInstrumentsAllowStamp" />
     <text value="案件[{0}]審核退回，等待您重新進行沖突檢索." name="CaseIsCheckedAndReturnedWaitingForYouToReconflict" />
-    <text value="案件律師信息" name="CaseLawyerInformation" />
+    <text value="律師信息" name="CaseLawyerInformation" />
     <text value="案件日誌信息" name="CaseLogInformation" />
     <text value="案件管理統計" name="CaseManagementStatistics" />
     <text value="案件名稱" name="CaseName" />
@@ -2167,6 +2167,10 @@
     <text value="行政用章審核" name="Pages.Executive.Stamp.Approve" />
     <text value="行政用章管理" name="Pages.Executive.Stamp.Manage" />
     <text value="財務管理" name="Pages.Financial" />
+    <text value="分配管理" name="Pages.Financial.Allocations" />
+    <text value="分配管理" name="Pages.Financial.Allocations.Manage" />
+    <text value="我的創收" name="Pages.Financial.Allocations.MyAllocations" />
+    <text value="我的分配" name="Pages.Financial.Allocations.MyReceipts" />
     <text value="賬單管理" name="Pages.Financial.Billings" />
     <text value="賬單審核" name="Pages.Financial.Billings.AuditBillings" />
     <text value="賬單錄入" name="Pages.Financial.Billings.Create" />
@@ -2305,6 +2309,7 @@
     <text value="支付方" name="Payer" />
     <text value="支付方：" name="PayerTitle" />
     <text name="Payment" />
+    <text value="代付款單位" name="PaymentAgency" />
     <text value="收款金額" name="PaymentAmount" />
     <text name="PaymentCouldNotCompleted" />
     <text value="支付幣種" name="PaymentCurrency" />
@@ -2451,6 +2456,7 @@
     <text value="請確認收費及合同信息" name="PlzConfirmChargeAndContractInfo" />
     <text value="請創建或選擇客戶" name="PlzCreateOrSelectClient" />
     <text value="請填寫合同相關信息" name="PlzFillContractRelatedInfo" />
+    <text value="請填寫相關信息" name="PlzFillInTheRelevantInfo" />
     <text value="請填寫結案報告書" name="PlzFillOutClosingReport" />
     <text value="請輸入" name="PlzInput" />
     <text value="請輸入收費與合同信息" name="PlzInputChargeAndContractInfo" />
@@ -3501,7 +3507,6 @@
     <text value="單位名稱" name="UnitName" />
     <text value="人" name="UnitPerson" />
     <text value="單價" name="UnitPrice" />
-    <text value="待付款單位" name="UnitToBePaid" />
     <text value="通用" name="Universal" />
     <text value="發生未知錯誤" name="UnknownError" />
     <text name="UnknownTenantId{0}" />

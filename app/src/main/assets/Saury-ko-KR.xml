@@ -497,7 +497,7 @@
     <text value="사례 정보 테이블" name="CaseInformationTable" />
     <text value="신청하신 사례 파일 [{0}]에 스탬프가 찍혀서 {1}의 검토를 통과했습니다." name="CaseInstrumentsAllowStamp" />
     <text value="사례 [{0}]이 (가) 검토를 위해 반환되었으며 재 충돌을 기다리고 있습니다." name="CaseIsCheckedAndReturnedWaitingForYouToReconflict" />
-    <text value="사례 변호사 정보" name="CaseLawyerInformation" />
+    <text value="변호사 정보" name="CaseLawyerInformation" />
     <text value="케이스 로그 정보" name="CaseLogInformation" />
     <text value="사례 관리 통계" name="CaseManagementStatistics" />
     <text value="사례 이름" name="CaseName" />
@@ -2167,6 +2167,10 @@
     <text value="행정 장의 감사" name="Pages.Executive.Stamp.Approve" />
     <text value="관리 장 관리" name="Pages.Executive.Stamp.Manage" />
     <text value="재무 관리" name="Pages.Financial" />
+    <text value="할당 관리" name="Pages.Financial.Allocations" />
+    <text value="할당 관리" name="Pages.Financial.Allocations.Manage" />
+    <text value="내 수입" name="Pages.Financial.Allocations.MyAllocations" />
+    <text value="내 할당" name="Pages.Financial.Allocations.MyReceipts" />
     <text value="결제 관리" name="Pages.Financial.Billings" />
     <text value="청구서 검토" name="Pages.Financial.Billings.AuditBillings" />
     <text value="청구 항목" name="Pages.Financial.Billings.Create" />
@@ -2305,6 +2309,7 @@
     <text value="지불 인" name="Payer" />
     <text value="지불 자 :" name="PayerTitle" />
     <text name="Payment" />
+    <text value="결제 대행" name="PaymentAgency" />
     <text value="수령액" name="PaymentAmount" />
     <text name="PaymentCouldNotCompleted" />
     <text value="지불 통화" name="PaymentCurrency" />
@@ -2451,6 +2456,7 @@
     <text value="청구 및 계약 정보를 확인하십시오." name="PlzConfirmChargeAndContractInfo" />
     <text value="고객을 만들거나 선택하십시오." name="PlzCreateOrSelectClient" />
     <text value="계약 관련 정보를 입력하십시오." name="PlzFillContractRelatedInfo" />
+    <text value="관련 정보를 입력하십시오" name="PlzFillInTheRelevantInfo" />
     <text value="마감 보고서를 작성하십시오." name="PlzFillOutClosingReport" />
     <text value="입력하십시오." name="PlzInput" />
     <text value="청구 및 계약 정보를 입력하십시오." name="PlzInputChargeAndContractInfo" />
@@ -3501,7 +3507,6 @@
     <text value="조직 이름" name="UnitName" />
     <text value="사람들" name="UnitPerson" />
     <text value="단가" name="UnitPrice" />
-    <text value="지불 할 단위" name="UnitToBePaid" />
     <text value="유니버설" name="Universal" />
     <text value="알 수없는 오류가 발생했습니다." name="UnknownError" />
     <text name="UnknownTenantId{0}" />

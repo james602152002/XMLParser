@@ -497,7 +497,7 @@
     <text value="Case information table" name="CaseInformationTable" />
     <text value="The case document [{0}] you applied for has been stamped and has passed the review of {1}." name="CaseInstrumentsAllowStamp" />
     <text value="The case [{0}] was returned for review and is waiting for you to re-collision." name="CaseIsCheckedAndReturnedWaitingForYouToReconflict" />
-    <text value="Case Lawyer Information" name="CaseLawyerInformation" />
+    <text value="Lawyer Information" name="CaseLawyerInformation" />
     <text value="Case log information" name="CaseLogInformation" />
     <text value="Case management statistics" name="CaseManagementStatistics" />
     <text value="Case name" name="CaseName" />
@@ -2167,6 +2167,10 @@
     <text value="Audit of administrative chapter" name="Pages.Executive.Stamp.Approve" />
     <text value="Administrative Chapter Management" name="Pages.Executive.Stamp.Manage" />
     <text value="Financial" name="Pages.Financial" />
+    <text value="Assignment management" name="Pages.Financial.Allocations" />
+    <text value="Assignment management" name="Pages.Financial.Allocations.Manage" />
+    <text value="My income" name="Pages.Financial.Allocations.MyAllocations" />
+    <text value="My allocation" name="Pages.Financial.Allocations.MyReceipts" />
     <text value="Billing Management" name="Pages.Financial.Billings" />
     <text value="Bill review" name="Pages.Financial.Billings.AuditBillings" />
     <text value="Bill entry" name="Pages.Financial.Billings.Create" />
@@ -2305,6 +2309,7 @@
     <text value="Payer" name="Payer" />
     <text value="Payer:" name="PayerTitle" />
     <text value="Payment" name="Payment" />
+    <text value="Payment agency" name="PaymentAgency" />
     <text value="Receipt amount" name="PaymentAmount" />
     <text value="Payment couldn't complete" name="PaymentCouldNotCompleted" />
     <text value="Payment currency" name="PaymentCurrency" />
@@ -2451,6 +2456,7 @@
     <text value="Please confirm the charge and contract information" name="PlzConfirmChargeAndContractInfo" />
     <text value="Please create or select a customer" name="PlzCreateOrSelectClient" />
     <text value="Please fill in the contract related information" name="PlzFillContractRelatedInfo" />
+    <text value="Please fill in the relevant information" name="PlzFillInTheRelevantInfo" />
     <text value="Please fill out the closing report" name="PlzFillOutClosingReport" />
     <text value="please enter" name="PlzInput" />
     <text value="Please enter the charge and contract information" name="PlzInputChargeAndContractInfo" />
@@ -3501,7 +3507,6 @@
     <text value="company name" name="UnitName" />
     <text value="person" name="UnitPerson" />
     <text value="unit price" name="UnitPrice" />
-    <text value="Unit to be paid" name="UnitToBePaid" />
     <text value="Universal" name="Universal" />
     <text value="An unknown error has occurred" name="UnknownError" />
     <text value="Unknown tenant id: {0}" name="UnknownTenantId{0}" />
