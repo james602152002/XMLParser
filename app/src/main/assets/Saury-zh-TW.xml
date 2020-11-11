@@ -129,7 +129,12 @@
     <text value="所有客戶" name="AllCustomers" />
     <text value="全天" name="AllDay" />
     <text value="您在應用程序中擁有的所有功能" name="AllFunctionalityYouHaveInTheApplication" />
+    <text value="分配金額" name="AllocationAmount" />
+    <text value="分配日期" name="AllocationDate" />
+    <text value="分配信息" name="AllocationInfo" />
     <text value="限額按比例分配" name="AllocationQuotas" />
+    <text value="分配比例" name="AllocationRate" />
+    <text value="分配人" name="AllocationUser" />
     <text value="未授予所需權限，必須授予以下權限：{0}" name="AllOfThesePermissionsMustBeGranted" />
     <text value="允許" name="Allow" />
     <text value="允許在系統註冊租戶." name="AllowTenantsToRegisterThemselves" />
@@ -275,6 +280,7 @@
     <text value="連接" name="Attach" />
     <text value="附件信息" name="AttachmentInformation" />
     <text value="勞動合同附件" name="AttachmentOfLaborContract" />
+    <text value="入庫結果附件" name="AttachmentOfWareHousingResults" />
     <text value="附件" name="Attachments" />
     <text value="考勤率分析" name="AttendanceAnalysis" />
     <text value="出勤率" name="AttendanceRate" />
@@ -1351,6 +1357,7 @@
     <text value="律所代字是案件承辦律所的簡化標識，用中文漢字或英文表示，兩到三字為宜" name="GenerationWordsOfLawFirm_Hint" />
     <text value="立案時允許查找所有客戶(線索保護中的客戶除外)" name="GetAllClientForAddCase" />
     <text value="獲取天氣位置失敗:" name="GetWeatherLocationFailed" />
+    <text value="允許為每個用戶創建一個夠快賬號" name="GoKuaiAutoCreateMember" />
     <text value="下午好" name="GoodAfternoon" />
     <text value="擅長語言" name="GoodAtLanguage" />
     <text value="擅長專業" name="GoodAtProfessional" />
@@ -1447,6 +1454,7 @@
     <text value="用戶導入過程失敗。" name="ImportUsersUploadFailed" />
     <text value="完善立案信息" name="ImproveCaseFilingInformation" />
     <text value="完善入庫信息" name="ImproveStorageInformation" />
+    <text value="入庫客戶詳細信息" name="InboundCustomerDetail" />
     <text value="入庫客戶" name="InboundCustomers" />
     <text value="收集箱" name="Inbox" />
     <text value="列入日期" name="Inclusiondate" />
@@ -2325,6 +2333,7 @@
     <text value="處罰內容" name="Penaltycontent" />
     <text value="處罰項" name="PenaltyItem" />
     <text value="待行政審核" name="PendingAdministrativeReview" />
+    <text value="待分配" name="PendingAllocate" />
     <text value="待認領" name="PendingClaim" />
     <text value="待執委審核" name="PendingExecutiveCommitteeReview" />
     <text value="待財務確認" name="PendingFinanceConfirm" />
@@ -2380,6 +2389,7 @@
     <text value="人事檔案存放地" name="PlaceOfPersonnelFiles" />
     <text value="原告" name="Plaintiff" />
     <text value="租戶" name="Platform.MultiTenancy.Tenant" />
+    <text value="平台默認用戶" name="PlatformDefaultUser" />
     <text value="在線回放錄音" name="PlaybackRecordingsOnline" />
     <text value="請調整檢索條件" name="PleaseAdjustTheSearchCriteria" />
     <text value="請選擇一個職員!" name="PleaseChooseAEmployee" />
@@ -3299,6 +3309,7 @@
     <text value="合同{0}已存在終稿！" name="TheFinalDraftOfContractAlreadyExists" />
     <text value="當前案件中合同都已存在終稿！" name="TheFinalDraftOfTtheContractInTheCurrentCaseAlreadyExists" />
     <text value="最高學歷" name="TheHighestDegreeOfEducation" />
+    <text value="{0}已存在！" name="TheKeyAlreadyExists" />
     <text value="該鍵值已存在，請變更後再提交！" name="TheKeyOfEntityAlreadyExists" />
     <text value="最新" name="TheLatest" />
     <text value="您申請的{0}的線索延期保護，已審核通過" name="TheLeadExtensionProtectionForYouAppliedForHasBeenApproved" />

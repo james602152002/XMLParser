@@ -129,7 +129,12 @@
     <text value="모든 고객" name="AllCustomers" />
     <text value="하루 종일" name="AllDay" />
     <text value="응용 프로그램에있는 모든 기능" name="AllFunctionalityYouHaveInTheApplication" />
+    <text value="할당량" name="AllocationAmount" />
+    <text value="배정 날짜" name="AllocationDate" />
+    <text value="유통 정보" name="AllocationInfo" />
     <text value="할당량의 비례 할당" name="AllocationQuotas" />
+    <text value="할당 비율" name="AllocationRate" />
+    <text value="할당 자" name="AllocationUser" />
     <text value="필수 권한이 ​​부여되지 않았습니다. 다음 권한이 부여되어야합니다. {0}" name="AllOfThesePermissionsMustBeGranted" />
     <text value="허용" name="Allow" />
     <text value="임차인을 시스템에 등록 할 수 있습니다." name="AllowTenantsToRegisterThemselves" />
@@ -275,6 +280,7 @@
     <text value="연결" name="Attach" />
     <text value="첨부 파일 정보" name="AttachmentInformation" />
     <text value="노동 계약서 첨부" name="AttachmentOfLaborContract" />
+    <text value="입고 결과 첨부" name="AttachmentOfWareHousingResults" />
     <text value="액세서리" name="Attachments" />
     <text value="출석 분석" name="AttendanceAnalysis" />
     <text value="출석률" name="AttendanceRate" />
@@ -1351,6 +1357,7 @@
     <text name="GenerationWordsOfLawFirm_Hint" />
     <text value="케이스를 제출할 때 모든 고객 (납 보호 대상 고객 제외)을 찾을 수 있습니다." name="GetAllClientForAddCase" />
     <text value="날씨 위치를 가져 오지 못함 :" name="GetWeatherLocationFailed" />
+    <text value="각 사용자에 대해 충분히 빠른 계정을 만들 수 있습니다." name="GoKuaiAutoCreateMember" />
     <text value="안녕하세요." name="GoodAfternoon" />
     <text value="언어에 능숙하다." name="GoodAtLanguage" />
     <text value="전문적으로 잘했다." name="GoodAtProfessional" />
@@ -1447,6 +1454,7 @@
     <text value="사용자 가져 오기 프로세스가 실패했습니다." name="ImportUsersUploadFailed" />
     <text value="사례 신고 정보 개선" name="ImproveCaseFilingInformation" />
     <text value="스토리지 정보 개선" name="ImproveStorageInformation" />
+    <text value="인바운드 고객 세부 정보" name="InboundCustomerDetail" />
     <text value="인바운드 고객" name="InboundCustomers" />
     <text value="수집 상자" name="Inbox" />
     <text value="포함 날짜" name="Inclusiondate" />
@@ -2325,6 +2333,7 @@
     <text value="처벌 내용" name="Penaltycontent" />
     <text value="페널티" name="PenaltyItem" />
     <text value="관리 검토 대기 중" name="PendingAdministrativeReview" />
+    <text value="할당 예정" name="PendingAllocate" />
     <text value="대기중인 소유권 주장" name="PendingClaim" />
     <text value="집행위원회에서 검토" name="PendingExecutiveCommitteeReview" />
     <text value="보류중인 재무 확인" name="PendingFinanceConfirm" />
@@ -2380,6 +2389,7 @@
     <text value="인사 파일 저장 장소" name="PlaceOfPersonnelFiles" />
     <text value="원고" name="Plaintiff" />
     <text value="임차인" name="Platform.MultiTenancy.Tenant" />
+    <text value="플랫폼 기본 사용자" name="PlatformDefaultUser" />
     <text value="온라인 재생 녹화" name="PlaybackRecordingsOnline" />
     <text value="검색 조건을 조정하십시오." name="PleaseAdjustTheSearchCriteria" />
     <text value="직원을 선택하십시오!" name="PleaseChooseAEmployee" />
@@ -3299,6 +3309,7 @@
     <text value="{0} 계약의 최종 초안이 이미 있습니다!" name="TheFinalDraftOfContractAlreadyExists" />
     <text value="현재 케이스의 최종 계약 초안이 이미 존재합니다!" name="TheFinalDraftOfTtheContractInTheCurrentCaseAlreadyExists" />
     <text value="최고 학위" name="TheHighestDegreeOfEducation" />
+    <text value="{0} 존재했습니다!" name="TheKeyAlreadyExists" />
     <text value="키 값이 이미 있습니다. 제출하기 전에 변경하십시오!" name="TheKeyOfEntityAlreadyExists" />
     <text value="최신" name="TheLatest" />
     <text value="신청 한 {0}에 대한 리드 확장 보호가 승인되었습니다." name="TheLeadExtensionProtectionForYouAppliedForHasBeenApproved" />

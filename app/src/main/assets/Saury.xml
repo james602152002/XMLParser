@@ -129,7 +129,12 @@
     <text value="All customers" name="AllCustomers" />
     <text value="All day" name="AllDay" />
     <text value="All the features you have in your application" name="AllFunctionalityYouHaveInTheApplication" />
+    <text value="Allocated amount" name="AllocationAmount" />
+    <text value="Assignment date" name="AllocationDate" />
+    <text value="Distribution information" name="AllocationInfo" />
     <text value="Proportional allocation of quotas" name="AllocationQuotas" />
+    <text value="Allocation ratio" name="AllocationRate" />
+    <text value="Assignor" name="AllocationUser" />
     <text value="Required permissions are not granted. All of these permissions must be granted: {0}" name="AllOfThesePermissionsMustBeGranted" />
     <text value="allow" name="Allow" />
     <text value="Allow tenants to register to the system." name="AllowTenantsToRegisterThemselves" />
@@ -275,6 +280,7 @@
     <text value="Attach" name="Attach" />
     <text value="Attachment information" name="AttachmentInformation" />
     <text value="Labor contract attachment" name="AttachmentOfLaborContract" />
+    <text value="Attachment of warehousing results" name="AttachmentOfWareHousingResults" />
     <text value="annex" name="Attachments" />
     <text value="Attendance analysis" name="AttendanceAnalysis" />
     <text value="Attendance rate" name="AttendanceRate" />
@@ -1351,6 +1357,7 @@
     <text value="Lawsuit pronouns are simplifications of the law firm’s contractor’s law. They are expressed in Chinese characters or in English and two or three words are appropriate." name="GenerationWordsOfLawFirm_Hint" />
     <text value="Allow to find all customers (except customers in lead protection) when filing a case" name="GetAllClientForAddCase" />
     <text value="Failed to get weather location:" name="GetWeatherLocationFailed" />
+    <text value="Allows to create a fast enough account for each user" name="GoKuaiAutoCreateMember" />
     <text value="good afternoon" name="GoodAfternoon" />
     <text value="Good at language" name="GoodAtLanguage" />
     <text value="Good at professional" name="GoodAtProfessional" />
@@ -1447,6 +1454,7 @@
     <text value="The user import process failed." name="ImportUsersUploadFailed" />
     <text value="Improve case filing information" name="ImproveCaseFilingInformation" />
     <text value="Improve storage information" name="ImproveStorageInformation" />
+    <text value="Inbound customer details" name="InboundCustomerDetail" />
     <text value="Inbound customers" name="InboundCustomers" />
     <text value="collection box" name="Inbox" />
     <text value="Inclusion date" name="Inclusiondate" />
@@ -2325,6 +2333,7 @@
     <text value="Penalty content" name="Penaltycontent" />
     <text value="Penalties" name="PenaltyItem" />
     <text value="Pending administrative review" name="PendingAdministrativeReview" />
+    <text value="To be assigned" name="PendingAllocate" />
     <text value="Pending claim" name="PendingClaim" />
     <text value="To be reviewed by the Executive Committee" name="PendingExecutiveCommitteeReview" />
     <text value="Pending financial confirmation" name="PendingFinanceConfirm" />
@@ -2380,6 +2389,7 @@
     <text value="Personnel file storage place" name="PlaceOfPersonnelFiles" />
     <text value="plaintiff" name="Plaintiff" />
     <text value="Tenant" name="Platform.MultiTenancy.Tenant" />
+    <text value="Platform default user" name="PlatformDefaultUser" />
     <text value="Playback recordings online" name="PlaybackRecordingsOnline" />
     <text value="Please adjust the search conditions" name="PleaseAdjustTheSearchCriteria" />
     <text value="Please select a staff member!" name="PleaseChooseAEmployee" />
@@ -3299,6 +3309,7 @@
     <text value="The final draft of contract {0} already exists!" name="TheFinalDraftOfContractAlreadyExists" />
     <text value="The final draft of the contract in the current case already exists!" name="TheFinalDraftOfTtheContractInTheCurrentCaseAlreadyExists" />
     <text value="highest education" name="TheHighestDegreeOfEducation" />
+    <text value="{0} already exists!" name="TheKeyAlreadyExists" />
     <text value="The key value already exists. Please change it before submitting!" name="TheKeyOfEntityAlreadyExists" />
     <text value="up to date" name="TheLatest" />
     <text value="The lead extension protection for {0} you applied for has been approved" name="TheLeadExtensionProtectionForYouAppliedForHasBeenApproved" />

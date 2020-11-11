@@ -129,7 +129,12 @@
     <text value="すべてのお客様" name="AllCustomers" />
     <text value="一日中" name="AllDay" />
     <text value="アプリケーションにあるすべての機能" name="AllFunctionalityYouHaveInTheApplication" />
+    <text value="配賦額" name="AllocationAmount" />
+    <text value="割り当て日" name="AllocationDate" />
+    <text value="配布情報" name="AllocationInfo" />
     <text value="クォータの比例配分" name="AllocationQuotas" />
+    <text value="配分率" name="AllocationRate" />
+    <text value="譲渡人" name="AllocationUser" />
     <text value="必要な許可が付与されていません。次の許可を付与する必要があります：{0}" name="AllOfThesePermissionsMustBeGranted" />
     <text value="許可する" name="Allow" />
     <text value="テナントをシステムに登録できるようにします。" name="AllowTenantsToRegisterThemselves" />
@@ -275,6 +280,7 @@
     <text value="つなぐ" name="Attach" />
     <text value="添付情報" name="AttachmentInformation" />
     <text value="労働契約書" name="AttachmentOfLaborContract" />
+    <text value="倉庫保管結果の添付" name="AttachmentOfWareHousingResults" />
     <text value="アクセサリー" name="Attachments" />
     <text value="出席の分析" name="AttendanceAnalysis" />
     <text value="出席率" name="AttendanceRate" />
@@ -1351,6 +1357,7 @@
     <text value="訴訟代名詞は、法律事務所の法律の簡素化であり、漢字または英語で表現され、2?3文字が適切です。" name="GenerationWordsOfLawFirm_Hint" />
     <text value="ケースを提出するときに、すべての顧客（リード保護の顧客を除く）を見つけることができます" name="GetAllClientForAddCase" />
     <text value="天気の場所を取得できませんでした：" name="GetWeatherLocationFailed" />
+    <text value="ユーザーごとに十分な速度でアカウントを作成できます" name="GoKuaiAutoCreateMember" />
     <text value="午後" name="GoodAfternoon" />
     <text value="言語で良い" name="GoodAtLanguage" />
     <text value="プロフェッショナルで良い" name="GoodAtProfessional" />
@@ -1447,6 +1454,7 @@
     <text value="ユーザーのインポートプロセスが失敗しました。" name="ImportUsersUploadFailed" />
     <text value="ケースファイリング情報を改善する" name="ImproveCaseFilingInformation" />
     <text value="ストレージ情報を改善する" name="ImproveStorageInformation" />
+    <text value="インバウンド顧客の詳細" name="InboundCustomerDetail" />
     <text value="インバウンド顧客" name="InboundCustomers" />
     <text value="コレクションボックス" name="Inbox" />
     <text value="包含日" name="Inclusiondate" />
@@ -2325,6 +2333,7 @@
     <text value="罰則の内容" name="Penaltycontent" />
     <text value="ペナルティ" name="PenaltyItem" />
     <text value="行政審査待ち" name="PendingAdministrativeReview" />
+    <text value="割り当てられる" name="PendingAllocate" />
     <text value="保留中の申し立て" name="PendingClaim" />
     <text value="実行委員会によるレビュー" name="PendingExecutiveCommitteeReview" />
     <text value="財務確認待ち" name="PendingFinanceConfirm" />
@@ -2380,6 +2389,7 @@
     <text value="人員ファイル保管場所" name="PlaceOfPersonnelFiles" />
     <text value="原告" name="Plaintiff" />
     <text value="入居者" name="Platform.MultiTenancy.Tenant" />
+    <text value="プラットフォームのデフォルトユーザー" name="PlatformDefaultUser" />
     <text value="オンラインで録画を再生する" name="PlaybackRecordingsOnline" />
     <text value="検索条件を調整してください" name="PleaseAdjustTheSearchCriteria" />
     <text value="スタッフを選んでください！" name="PleaseChooseAEmployee" />
@@ -3299,6 +3309,7 @@
     <text value="契約{0}の最終ドラフトはすでに存在します！" name="TheFinalDraftOfContractAlreadyExists" />
     <text value="現在のケースの契約の最終ドラフトはすでに存在しています！" name="TheFinalDraftOfTtheContractInTheCurrentCaseAlreadyExists" />
     <text value="最高度" name="TheHighestDegreeOfEducation" />
+    <text value="0} 既存の!" name="TheKeyAlreadyExists" />
     <text value="キー値は既に存在します。送信する前に変更してください。" name="TheKeyOfEntityAlreadyExists" />
     <text value="最新" name="TheLatest" />
     <text value="申請した{0}のリード延長保護は承認されました" name="TheLeadExtensionProtectionForYouAppliedForHasBeenApproved" />
