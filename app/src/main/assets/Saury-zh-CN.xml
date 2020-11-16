@@ -1357,7 +1357,8 @@
     <text value="律所代字是案件承办律所的简化标识，用中文汉字或英文表示，两到三字为宜" name="GenerationWordsOfLawFirm_Hint" />
     <text value="立案时允许查找所有客户(线索保护中的客户除外)" name="GetAllClientForAddCase" />
     <text value="获取天气位置失败:" name="GetWeatherLocationFailed" />
-    <text value="允许为每个用户创建一个够快账号" name="GoKuaiAutoCreateMember" />
+    <text value="自动创建的够快账号，默认账号名称：当前登录人邮箱；默认初始密码格式为:租户标识(全部大写)+&quot;ac123456&quot;。" name="GoKuaiAutoCreateAccountSarning" />
+    <text value="允许为每个案件参与者创建一个够快账号" name="GoKuaiAutoCreateMember" />
     <text value="下午好" name="GoodAfternoon" />
     <text value="擅长语言" name="GoodAtLanguage" />
     <text value="擅长专业" name="GoodAtProfessional" />
@@ -1504,7 +1505,7 @@
     <text value="字段{0}无效。" name="InvalidRegularExpression" />
     <text value="无效的安全代码！" name="InvalidSecurityCode" />
     <text value="作废成功" name="InvalidSuccessfully" />
-    <text name="InvalidUserImports" />
+    <text value="无效的用户导入" name="InvalidUserImports" />
     <text value="用户名或Email地址无效" name="InvalidUserNameOrEmailAddress" />
     <text value="用户名或密码无效" name="InvalidUserNameOrPassword" />
     <text value="发明人" name="Inventor" />
@@ -1873,6 +1874,7 @@
     <text value="名字" name="Name" />
     <text value="名称(中)" name="Name(Chinese)" />
     <text value="名称(英)" name="Name(Eng)" />
+    <text value="名字/邮箱地址" name="NameOrEmaillAddr" />
     <text value="名称" name="Names" />
     <text value="姓名" name="NameSurname" />
     <text value="原生App" name="NativeApp" />
@@ -3285,6 +3287,7 @@
     <text value="文本格式一定要参照模板文件，具体请查看模板说明。" name="TextFormatMustReferToTheTemplateFile" />
     <text value="文本标签" name="TextLabel" />
     <text value="感谢您的支持，谢谢！" name="ThanksForSupport" />
+    <text value="默认使用Admin账户对应的账号" name="TheAccountCorrespondingToTheAdminAccountIsUsedByDefault" />
     <text value="年度" name="TheAnnual" />
     <text value="账单[{0}]{1}." name="TheBillNotify" />
     <text value="该公民身份信息已存在！您无需重复录入，请直接检索引用" name="TheCardNoHasAlreadyExisted" />
@@ -3555,6 +3558,7 @@
     <text value="已上传 {0} 个文档" name="UploadedDocCnt" />
     <text value="已上传文件" name="UploadedFile" />
     <text value="上传失败" name="UploadFailed" />
+    <text value="上传入库材料" name="UploadInboundMaterials" />
     <text value="上传订卷材料" name="UploadingRollMaterial" />
     <text value="发票上传" name="UploadInvoice" />
     <text value="选择一张最大像素为400x100且不超过30KB的JPG/JPEG/PNG/GIF的图片文件。" name="UploadLogo_Info" />

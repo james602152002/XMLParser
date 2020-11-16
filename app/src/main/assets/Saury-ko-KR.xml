@@ -1357,6 +1357,7 @@
     <text name="GenerationWordsOfLawFirm_Hint" />
     <text value="케이스를 제출할 때 모든 고객 (납 보호 대상 고객 제외)을 찾을 수 있습니다." name="GetAllClientForAddCase" />
     <text value="날씨 위치를 가져 오지 못함 :" name="GetWeatherLocationFailed" />
+    <text value="자동으로 생성 된 Kuaikui 계정, 기본 계정 이름 : 현재 로그인의 사서함, 기본 초기 암호 형식 : 테넌트 ID (모두 대문자) + &quot;ac123456&quot;." name="GoKuaiAutoCreateAccountSarning" />
     <text value="각 사용자에 대해 충분히 빠른 계정을 만들 수 있습니다." name="GoKuaiAutoCreateMember" />
     <text value="안녕하세요." name="GoodAfternoon" />
     <text value="언어에 능숙하다." name="GoodAtLanguage" />
@@ -1504,7 +1505,7 @@
     <text name="InvalidRegularExpression" />
     <text value="잘못된 보안 코드입니다!" name="InvalidSecurityCode" />
     <text value="잘못되었습니다." name="InvalidSuccessfully" />
-    <text name="InvalidUserImports" />
+    <text value="" name="InvalidUserImports" />
     <text value="사용자 이름 또는 이메일 주소가 잘못되었습니다." name="InvalidUserNameOrEmailAddress" />
     <text value="잘못된 사용자 이름 또는 비밀번호" name="InvalidUserNameOrPassword" />
     <text value="발명가" name="Inventor" />
@@ -1873,6 +1874,7 @@
     <text value="이름" name="Name" />
     <text value="이름 (in)" name="Name(Chinese)" />
     <text value="명칭 (영)" name="Name(Eng)" />
+    <text value="이름 / 이메일 주소" name="NameOrEmaillAddr" />
     <text value="이름" name="Names" />
     <text value="이름" name="NameSurname" />
     <text value="기본 앱" name="NativeApp" />
@@ -3285,6 +3287,7 @@
     <text value="텍스트 형식은 템플릿 파일을 참조해야합니다. 템플릿 설명을 확인하십시오." name="TextFormatMustReferToTheTemplateFile" />
     <text value="텍스트 레이블" name="TextLabel" />
     <text value="협조 해 주셔서 감사합니다." name="ThanksForSupport" />
+    <text value="기본적으로 Admin 계 정 에 해당 하 는 계 정 을 사용 합 니 다." name="TheAccountCorrespondingToTheAdminAccountIsUsedByDefault" />
     <text value="연간" name="TheAnnual" />
     <text value="Bill [{0}] {1}." name="TheBillNotify" />
     <text value="이 시민권 정보는 이미 존재합니다! " name="TheCardNoHasAlreadyExisted" />
@@ -3555,6 +3558,7 @@
     <text value="{0} 문서 업로드 됨" name="UploadedDocCnt" />
     <text name="UploadedFile" />
     <text value="업로드하지 못했습니다." name="UploadFailed" />
+    <text value="인바운드 자료 업로드" name="UploadInboundMaterials" />
     <text value="주문 자료 업로드" name="UploadingRollMaterial" />
     <text value="인보이스 업로드" name="UploadInvoice" />
     <text value="최대 픽셀 크기가 400x100이고 30KB 이하인 JPG / JPEG / PNG / GIF 이미지 파일을 선택하십시오." name="UploadLogo_Info" />

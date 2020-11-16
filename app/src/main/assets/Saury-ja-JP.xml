@@ -1357,6 +1357,7 @@
     <text value="訴訟代名詞は、法律事務所の法律の簡素化であり、漢字または英語で表現され、2?3文字が適切です。" name="GenerationWordsOfLawFirm_Hint" />
     <text value="ケースを提出するときに、すべての顧客（リード保護の顧客を除く）を見つけることができます" name="GetAllClientForAddCase" />
     <text value="天気の場所を取得できませんでした：" name="GetWeatherLocationFailed" />
+    <text value="自動的に作成されたKuaikuiアカウント、デフォルトのアカウント名：現在のログインのメールボックス。デフォルトの初期パスワード形式は、テナントID（すべて大文字）+ &quot;ac123456&quot;です。" name="GoKuaiAutoCreateAccountSarning" />
     <text value="ユーザーごとに十分な速度でアカウントを作成できます" name="GoKuaiAutoCreateMember" />
     <text value="午後" name="GoodAfternoon" />
     <text value="言語で良い" name="GoodAtLanguage" />
@@ -1504,7 +1505,7 @@
     <text name="InvalidRegularExpression" />
     <text value="無効なセキュリティコードです！" name="InvalidSecurityCode" />
     <text value="無効です" name="InvalidSuccessfully" />
-    <text name="InvalidUserImports" />
+    <text value="" name="InvalidUserImports" />
     <text value="無効なユーザー名または電子メールアドレス" name="InvalidUserNameOrEmailAddress" />
     <text value="無効なユーザー名またはパスワード" name="InvalidUserNameOrPassword" />
     <text value="発明者" name="Inventor" />
@@ -1873,6 +1874,7 @@
     <text value="名" name="Name" />
     <text value="名前（in）" name="Name(Chinese)" />
     <text value="名称(英)" name="Name(Eng)" />
+    <text value="名前/メールアドレス" name="NameOrEmaillAddr" />
     <text value="名前" name="Names" />
     <text value="名前" name="NameSurname" />
     <text value="ネイティブアプリ" name="NativeApp" />
@@ -3285,6 +3287,7 @@
     <text value="テキスト形式はテンプレートファイルを参照する必要があります。テンプレートの説明を確認してください。" name="TextFormatMustReferToTheTemplateFile" />
     <text value="テキストラベル" name="TextLabel" />
     <text value="あなたのサポートをありがとう、ありがとう！" name="ThanksForSupport" />
+    <text value="Adminアカウントに対応するアカウントをデフォルトで使用します。" name="TheAccountCorrespondingToTheAdminAccountIsUsedByDefault" />
     <text value="年次" name="TheAnnual" />
     <text value="ビル[{0}] {1}。" name="TheBillNotify" />
     <text value="この市民権情報は既に存在します！" name="TheCardNoHasAlreadyExisted" />
@@ -3555,6 +3558,7 @@
     <text value="{0}文書がアップロードされました" name="UploadedDocCnt" />
     <text name="UploadedFile" />
     <text value="アップロードに失敗しました" name="UploadFailed" />
+    <text value="インバウンド資料をアップロードする" name="UploadInboundMaterials" />
     <text value="注文資料のアップロード" name="UploadingRollMaterial" />
     <text value="請求書のアップロード" name="UploadInvoice" />
     <text value="最大ピクセルサイズが400x100で30KB以下のJPG / JPEG / PNG / GIF画像ファイルを選択します。" name="UploadLogo_Info" />

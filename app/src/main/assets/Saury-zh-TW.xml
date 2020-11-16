@@ -1357,6 +1357,7 @@
     <text value="律所代字是案件承辦律所的簡化標識，用中文漢字或英文表示，兩到三字為宜" name="GenerationWordsOfLawFirm_Hint" />
     <text value="立案時允許查找所有客戶(線索保護中的客戶除外)" name="GetAllClientForAddCase" />
     <text value="獲取天氣位置失敗:" name="GetWeatherLocationFailed" />
+    <text value="自動創建的 夠快賬號，默認賬號名稱：當前登錄人郵箱；默認初始密碼格式為:租戶標識(全部大寫)+&quot;ac123456&quot;。" name="GoKuaiAutoCreateAccountSarning" />
     <text value="允許為每個用戶創建一個夠快賬號" name="GoKuaiAutoCreateMember" />
     <text value="下午好" name="GoodAfternoon" />
     <text value="擅長語言" name="GoodAtLanguage" />
@@ -1504,7 +1505,7 @@
     <text name="InvalidRegularExpression" />
     <text value="無效的安全代碼！" name="InvalidSecurityCode" />
     <text value="作廢成功" name="InvalidSuccessfully" />
-    <text name="InvalidUserImports" />
+    <text value="" name="InvalidUserImports" />
     <text value="用戶名或Email地址無效" name="InvalidUserNameOrEmailAddress" />
     <text value="用戶名或密碼無效" name="InvalidUserNameOrPassword" />
     <text value="發明人" name="Inventor" />
@@ -1873,6 +1874,7 @@
     <text value="名字" name="Name" />
     <text value="名稱(中)" name="Name(Chinese)" />
     <text value="姓名（英文）" name="Name(Eng)" />
+    <text value="名字/郵箱地址" name="NameOrEmaillAddr" />
     <text value="名稱" name="Names" />
     <text value="姓名" name="NameSurname" />
     <text value="原生應用" name="NativeApp" />
@@ -3285,6 +3287,7 @@
     <text value="文本格式一定要參照模板文件，具體請查看模板說明。" name="TextFormatMustReferToTheTemplateFile" />
     <text value="文本標籤" name="TextLabel" />
     <text value="感謝您的支持，謝謝！" name="ThanksForSupport" />
+    <text value="默認使用Admin帳戶對應的帳號" name="TheAccountCorrespondingToTheAdminAccountIsUsedByDefault" />
     <text value="年度" name="TheAnnual" />
     <text value="賬單[{0}]{1}." name="TheBillNotify" />
     <text value="該公民身份信息已存在！" name="TheCardNoHasAlreadyExisted" />
@@ -3555,6 +3558,7 @@
     <text value="已上傳 {0} 個文檔" name="UploadedDocCnt" />
     <text name="UploadedFile" />
     <text value="上傳失敗" name="UploadFailed" />
+    <text value="上傳入庫材料" name="UploadInboundMaterials" />
     <text value="上傳訂卷材料" name="UploadingRollMaterial" />
     <text value="發票上傳" name="UploadInvoice" />
     <text value="選擇一張最大像素為400x100且不超過30KB的JPG/JPEG/PNG/GIF的圖片文件。" name="UploadLogo_Info" />

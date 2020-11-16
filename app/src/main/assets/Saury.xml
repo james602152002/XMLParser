@@ -1357,6 +1357,7 @@
     <text value="Lawsuit pronouns are simplifications of the law firm’s contractor’s law. They are expressed in Chinese characters or in English and two or three words are appropriate." name="GenerationWordsOfLawFirm_Hint" />
     <text value="Allow to find all customers (except customers in lead protection) when filing a case" name="GetAllClientForAddCase" />
     <text value="Failed to get weather location:" name="GetWeatherLocationFailed" />
+    <text value="The automatically created Kuaikui account, the default account name: the mailbox of the current login; the default initial password format is: tenant ID (all capitals) + &quot;ac123456&quot;." name="GoKuaiAutoCreateAccountSarning" />
     <text value="Allows to create a fast enough account for each user" name="GoKuaiAutoCreateMember" />
     <text value="good afternoon" name="GoodAfternoon" />
     <text value="Good at language" name="GoodAtLanguage" />
@@ -1873,6 +1874,7 @@
     <text value="Name" name="Name" />
     <text value="Name (in)" name="Name(Chinese)" />
     <text value="Name (English)" name="Name(Eng)" />
+    <text value="Name/email address" name="NameOrEmaillAddr" />
     <text value="name" name="Names" />
     <text value="Name surname" name="NameSurname" />
     <text value="Native App" name="NativeApp" />
@@ -3285,6 +3287,7 @@
     <text value="The text format must refer to the template file. Please check the template description." name="TextFormatMustReferToTheTemplateFile" />
     <text value="Text label" name="TextLabel" />
     <text value="Thank you for your support, thank you!" name="ThanksForSupport" />
+    <text value="The account corresponding to the admin account is used by default" name="TheAccountCorrespondingToTheAdminAccountIsUsedByDefault" />
     <text value="year" name="TheAnnual" />
     <text value="Bill [{0}]{1}." name="TheBillNotify" />
     <text value="This citizenship information already exists! " name="TheCardNoHasAlreadyExisted" />
@@ -3555,6 +3558,7 @@
     <text value="{0} documents uploaded" name="UploadedDocCnt" />
     <text value="Uploaded file" name="UploadedFile" />
     <text value="upload failed" name="UploadFailed" />
+    <text value="Upload inbound materials" name="UploadInboundMaterials" />
     <text value="Uploading order material" name="UploadingRollMaterial" />
     <text value="Invoice upload" name="UploadInvoice" />
     <text value="Select a JPG/JPEG/PNG/GIF image file with a maximum pixel size of 400x100 and no more than 30KB." name="UploadLogo_Info" />
