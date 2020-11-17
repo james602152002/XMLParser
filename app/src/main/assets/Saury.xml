@@ -1357,7 +1357,7 @@
     <text value="Lawsuit pronouns are simplifications of the law firm’s contractor’s law. They are expressed in Chinese characters or in English and two or three words are appropriate." name="GenerationWordsOfLawFirm_Hint" />
     <text value="Allow to find all customers (except customers in lead protection) when filing a case" name="GetAllClientForAddCase" />
     <text value="Failed to get weather location:" name="GetWeatherLocationFailed" />
-    <text value="The automatically created Kuaikui account, the default account name: the mailbox of the current login; the default initial password format is: tenant ID (all capitals) + &quot;ac123456&quot;." name="GoKuaiAutoCreateAccountSarning" />
+    <text value="Automatically created fast enough account, default account name: current login email; The default initial password is :&quot; AC123456 &quot;." name="GoKuaiAutoCreateAccountSarning" />
     <text value="Allows to create a fast enough account for each user" name="GoKuaiAutoCreateMember" />
     <text value="good afternoon" name="GoodAfternoon" />
     <text value="Good at language" name="GoodAtLanguage" />
@@ -1456,6 +1456,7 @@
     <text value="Improve case filing information" name="ImproveCaseFilingInformation" />
     <text value="Improve storage information" name="ImproveStorageInformation" />
     <text value="Inbound customer details" name="InboundCustomerDetail" />
+    <text value="Inbound customer retrieval, a total of %s data" name="InboundCustomerRetrievalCnt" />
     <text value="Inbound customers" name="InboundCustomers" />
     <text value="collection box" name="Inbox" />
     <text value="Inclusion date" name="Inclusiondate" />
@@ -1852,6 +1853,7 @@
     <text value="In multiple departments, click the + sign to display all" name="MultipleOrganizationUnit" />
     <text value="Please enter the other party's information in {0}." name="MustHasConflictInfo" />
     <text value="Please enter the relevant customer information!" name="MustHaveClients" />
+    <text value="The current case cost information and contract have not been entered, unable to enter the case approval process. Do you want to confirm the current operation?" name="MustIncludeCostAndContract" />
     <text value="My bill" name="MyBill" />
     <text value="My business count" name="MyBusinessCount" />
     <text value="My case count statistics" name="MyCaseCountStatistics" />
@@ -2540,6 +2542,7 @@
     <text value="You can select a JPG/JPEG/PNG file with a maximum {0}MB size." name="ProfilePicture_Change_Info" />
     <text value="You can only select JPG/JPEG file. Please select another file." name="ProfilePicture_Warn_FileType" />
     <text value="Picture size must be smaller than {0}MB. Please select another file." name="ProfilePicture_Warn_SizeLimit" />
+    <text value="Profit search, a total of %s data" name="ProfitConflictCnt" />
     <text value="It is not allowed to delete the root organization." name="ProhibitDeleteRootOrganizationUnit" />
     <text value="Project" name="Project" />
     <text value="Project Burnout Chart" name="ProjectBurnoutChart" />

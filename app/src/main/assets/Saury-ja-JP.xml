@@ -1357,7 +1357,7 @@
     <text value="訴訟代名詞は、法律事務所の法律の簡素化であり、漢字または英語で表現され、2?3文字が適切です。" name="GenerationWordsOfLawFirm_Hint" />
     <text value="ケースを提出するときに、すべての顧客（リード保護の顧客を除く）を見つけることができます" name="GetAllClientForAddCase" />
     <text value="天気の場所を取得できませんでした：" name="GetWeatherLocationFailed" />
-    <text value="自動的に作成されたKuaikuiアカウント、デフォルトのアカウント名：現在のログインのメールボックス。デフォルトの初期パスワード形式は、テナントID（すべて大文字）+ &quot;ac123456&quot;です。" name="GoKuaiAutoCreateAccountSarning" />
+    <text value="自働的に作成した速いアカウント、デフォルトアカウント名:現在登録人メールボックス;デフォルトのパスワードは「ac123456」。" name="GoKuaiAutoCreateAccountSarning" />
     <text value="ユーザーごとに十分な速度でアカウントを作成できます" name="GoKuaiAutoCreateMember" />
     <text value="午後" name="GoodAfternoon" />
     <text value="言語で良い" name="GoodAtLanguage" />
@@ -1456,6 +1456,7 @@
     <text value="ケースファイリング情報を改善する" name="ImproveCaseFilingInformation" />
     <text value="ストレージ情報を改善する" name="ImproveStorageInformation" />
     <text value="インバウンド顧客の詳細" name="InboundCustomerDetail" />
+    <text value="インバウンド顧客検索、合計%sデータ" name="InboundCustomerRetrievalCnt" />
     <text value="インバウンド顧客" name="InboundCustomers" />
     <text value="コレクションボックス" name="Inbox" />
     <text value="包含日" name="Inclusiondate" />
@@ -1852,6 +1853,7 @@
     <text value="複数の部門で、+記号をクリックしてすべてを表示します" name="MultipleOrganizationUnit" />
     <text value="{0}に相手の情報を入力してください。" name="MustHasConflictInfo" />
     <text value="関連する顧客情報を入力してください！" name="MustHaveClients" />
+    <text value="現在の案件の費用情報と契約はまだ入力されていません。案件の審査プロセスに入ることができません。現在の操作を確認しますか？" name="MustIncludeCostAndContract" />
     <text value="私の請求書" name="MyBill" />
     <text value="私のビジネス数" name="MyBusinessCount" />
     <text value="症例数統計" name="MyCaseCountStatistics" />
@@ -2540,6 +2542,7 @@
     <text value="{0} mb以内のJPG / JPEG / PNG画像のみを選択できます。" name="ProfilePicture_Change_Info" />
     <text value="1MB以内のJPG / JPEG画像のみを選択してください。アバターファイルを再選択してください。" name="ProfilePicture_Warn_FileType" />
     <text value="1MB以内のJPG / JPEG画像のみを選択してください。アバターファイルを再選択してください。" name="ProfilePicture_Warn_SizeLimit" />
+    <text value="利益検索、合計%sデータ" name="ProfitConflictCnt" />
     <text value="ルート組織を削除することはできません。" name="ProhibitDeleteRootOrganizationUnit" />
     <text value="アイテム" name="Project" />
     <text value="プロジェクトバーンアウトチャート" name="ProjectBurnoutChart" />

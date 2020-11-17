@@ -1357,7 +1357,7 @@
     <text name="GenerationWordsOfLawFirm_Hint" />
     <text value="케이스를 제출할 때 모든 고객 (납 보호 대상 고객 제외)을 찾을 수 있습니다." name="GetAllClientForAddCase" />
     <text value="날씨 위치를 가져 오지 못함 :" name="GetWeatherLocationFailed" />
-    <text value="자동으로 생성 된 Kuaikui 계정, 기본 계정 이름 : 현재 로그인의 사서함, 기본 초기 암호 형식 : 테넌트 ID (모두 대문자) + &quot;ac123456&quot;." name="GoKuaiAutoCreateAccountSarning" />
+    <text value="빠른 계정을 자동으로 만듭니다. 기본 계정 이름:현재 로그인인 메일박스;초기 암호는&quot;ac123456&quot;입니다." name="GoKuaiAutoCreateAccountSarning" />
     <text value="각 사용자에 대해 충분히 빠른 계정을 만들 수 있습니다." name="GoKuaiAutoCreateMember" />
     <text value="안녕하세요." name="GoodAfternoon" />
     <text value="언어에 능숙하다." name="GoodAtLanguage" />
@@ -1456,6 +1456,7 @@
     <text value="사례 신고 정보 개선" name="ImproveCaseFilingInformation" />
     <text value="스토리지 정보 개선" name="ImproveStorageInformation" />
     <text value="인바운드 고객 세부 정보" name="InboundCustomerDetail" />
+    <text value="인바운드 고객 검색, 총 %s 데이터" name="InboundCustomerRetrievalCnt" />
     <text value="인바운드 고객" name="InboundCustomers" />
     <text value="수집 상자" name="Inbox" />
     <text value="포함 날짜" name="Inclusiondate" />
@@ -1852,6 +1853,7 @@
     <text value="여러 부서에서 + 표시를 클릭하여 모두 표시" name="MultipleOrganizationUnit" />
     <text value="{0}에 상대방의 정보를 입력하십시오." name="MustHasConflictInfo" />
     <text value="관련 고객 정보를 입력하십시오!" name="MustHaveClients" />
+    <text value="현재 안건 의 비용 정보 와 계약 이 아직 입력 되 지 않 아 안건 심사 절차 에 들 어 갈 수 없고 현재 작업 을 확인 하 시 겠 습 니까?" name="MustIncludeCostAndContract" />
     <text value="내 청구서" name="MyBill" />
     <text value="내 사업 수" name="MyBusinessCount" />
     <text value="내 사건 수 통계" name="MyCaseCountStatistics" />
@@ -2540,6 +2542,7 @@
     <text value="{0} mb 내의 JPG / JPEG / PNG 사진 만 선택할 수 있습니다." name="ProfilePicture_Change_Info" />
     <text value="1MB 이내의 JPG / JPEG 이미지 만 선택하십시오. 아바타 파일을 다시 선택하십시오." name="ProfilePicture_Warn_FileType" />
     <text value="1MB 이내의 JPG / JPEG 이미지 만 선택하십시오. 아바타 파일을 다시 선택하십시오." name="ProfilePicture_Warn_SizeLimit" />
+    <text value="이익 검색, 총 %s 데이터" name="ProfitConflictCnt" />
     <text value="루트 조직을 삭제할 수 없습니다." name="ProhibitDeleteRootOrganizationUnit" />
     <text value="아이템" name="Project" />
     <text value="프로젝트 번 아웃 차트" name="ProjectBurnoutChart" />

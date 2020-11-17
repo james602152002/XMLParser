@@ -1357,7 +1357,7 @@
     <text value="律所代字是案件承辦律所的簡化標識，用中文漢字或英文表示，兩到三字為宜" name="GenerationWordsOfLawFirm_Hint" />
     <text value="立案時允許查找所有客戶(線索保護中的客戶除外)" name="GetAllClientForAddCase" />
     <text value="獲取天氣位置失敗:" name="GetWeatherLocationFailed" />
-    <text value="自動創建的 夠快賬號，默認賬號名稱：當前登錄人郵箱；默認初始密碼格式為:租戶標識(全部大寫)+&quot;ac123456&quot;。" name="GoKuaiAutoCreateAccountSarning" />
+    <text value="自動創建的 夠快賬號，默認賬號名稱：當前登錄人郵箱；默認初始密碼為:&quot;ac123456&quot;。" name="GoKuaiAutoCreateAccountSarning" />
     <text value="允許為每個用戶創建一個夠快賬號" name="GoKuaiAutoCreateMember" />
     <text value="下午好" name="GoodAfternoon" />
     <text value="擅長語言" name="GoodAtLanguage" />
@@ -1456,6 +1456,7 @@
     <text value="完善立案信息" name="ImproveCaseFilingInformation" />
     <text value="完善入庫信息" name="ImproveStorageInformation" />
     <text value="入庫客戶詳細信息" name="InboundCustomerDetail" />
+    <text value="入庫客戶檢索，共%s條數據" name="InboundCustomerRetrievalCnt" />
     <text value="入庫客戶" name="InboundCustomers" />
     <text value="收集箱" name="Inbox" />
     <text value="列入日期" name="Inclusiondate" />
@@ -1852,6 +1853,7 @@
     <text value="所屬多個部門，點擊+號顯示所有" name="MultipleOrganizationUnit" />
     <text value="請在{0}中錄入對方當事人信息。" name="MustHasConflictInfo" />
     <text value="請錄入關聯客戶信息！" name="MustHaveClients" />
+    <text value="當前案件費用資訊及契约暫未錄入，無法進入案件審批流程，是否確認當前操作？" name="MustIncludeCostAndContract" />
     <text value="我的賬單" name="MyBill" />
     <text value="我的業務計數" name="MyBusinessCount" />
     <text value="我的案件計數統計" name="MyCaseCountStatistics" />
@@ -2540,6 +2542,7 @@
     <text value="只能選擇{0}mb內的JPG/JPEG/PNG圖片." name="ProfilePicture_Change_Info" />
     <text value="只能選擇1mb內的JPG/JPEG圖片，請重新選擇頭像文件." name="ProfilePicture_Warn_FileType" />
     <text value="只能選擇1mb內的JPG/JPEG圖片，請重新選擇頭像文件." name="ProfilePicture_Warn_SizeLimit" />
+    <text value="利衝檢索，共%s條數據" name="ProfitConflictCnt" />
     <text value="不允許刪除根組織." name="ProhibitDeleteRootOrganizationUnit" />
     <text value="項目" name="Project" />
     <text value="項目燃盡圖" name="ProjectBurnoutChart" />
