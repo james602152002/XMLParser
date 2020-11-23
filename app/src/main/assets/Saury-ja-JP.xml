@@ -26,6 +26,7 @@
     <text value="オフラインであってもアプリケーションとリソースにアクセスする" name="Access to your applications and resources, even when you are offline" />
     <text value="アクセスカード番号" name="AccessCardNumber" />
     <text value="アクセストークンが無効または期限切れです！" name="AccessTokenInvalidOrExpired" />
+    <text value="" name="AccountAjustment" />
     <text value="口座銀行" name="AccountBank" />
     <text value="アカウントのバインド" name="AccountBinding" />
     <text value="アカウント管理" name="AccountManagement" />
@@ -130,11 +131,14 @@
     <text value="一日中" name="AllDay" />
     <text value="アプリケーションにあるすべての機能" name="AllFunctionalityYouHaveInTheApplication" />
     <text value="配賦額" name="AllocationAmount" />
+    <text value="" name="AllocationConfirmed" />
     <text value="割り当て日" name="AllocationDate" />
     <text value="配布情報" name="AllocationInfo" />
     <text value="クォータの比例配分" name="AllocationQuotas" />
     <text value="配分率" name="AllocationRate" />
+    <text value="" name="AllocationReturned" />
     <text value="譲渡人" name="AllocationUser" />
+    <text value="" name="AllocationWaitForConfirmed" />
     <text value="必要な許可が付与されていません。次の許可を付与する必要があります：{0}" name="AllOfThesePermissionsMustBeGranted" />
     <text value="許可する" name="Allow" />
     <text value="テナントをシステムに登録できるようにします。" name="AllowTenantsToRegisterThemselves" />
@@ -192,6 +196,7 @@
     <text value="手がかり" name="App.Customers.Clue" />
     <text value="倉庫" name="App.Customers.Storage" />
     <text value="使用章" name="App.Executive.OfficeSeal" />
+    <text value="" name="App.Financial.Allocations" />
     <text value="ビル" name="App.Financial.Billings" />
     <text value="費用" name="App.Financial.Charges" />
     <text value="請求書" name="App.Financial.Invoices" />
@@ -308,6 +313,7 @@
     <text value="定期的な支払いを有効にする" name="AutomaticallyBillMyAccount" />
     <text value="ケース材料の自動生成" name="AutomaticallyGeneratedCaseMaterial" />
     <text value="スケジュールを自動的に同期する" name="AutoSyncSchedule" />
+    <text value="" name="AvailableForDistribution" />
     <text value="平均値" name="AverageValue" />
     <text value="に戻る" name="Back" />
     <text value="私のアカウントに戻る" name="BackToMyAccount" />
@@ -376,6 +382,7 @@
     <text value="ブロックされたユーザー" name="BlockedUsers" />
     <text value="ユーザーをブロックする" name="BlockUser" />
     <text value="青" name="Blue" />
+    <text value="" name="BookBalance" />
     <text value="借り入れの記録" name="BorrowedRecord" />
     <text value="登録を借りる" name="BorrowRegistration" />
     <text value="検察と防衛" name="BothSidesOfTheArgument" />
@@ -1292,6 +1299,7 @@
     <text value="会計年度" name="FiscalYear" />
     <text value="固定金額" name="FixedAmount" />
     <text value="固定料金カテゴリ" name="FixedChargeCategory" />
+    <text value="" name="FixedCost" />
     <text value="注文品目添付の合計%s" name="FixedMaterialAttachmentsCnt" />
     <text value="固定電話" name="FixedTelephone" />
     <text value="固定フィールド" name="FixedText" />
@@ -1411,6 +1419,7 @@
     <text value="（顧客を作成するか既存の顧客を選択する）" name="HintCreateOrSelectClient" />
     <text value="（プロジェクトを作成するか、既存のプロジェクトを選択します）" name="HintCreateOrSelectProject" />
     <text value="（ステージを作成するか、既存のステージを選択します）" name="HintCreateOrSelectStage" />
+    <text value="請求額は、選択した支払い額を超えることはできません" name="HintInvoiceAmountReceiptCondition" />
     <text value="フレンドリーなヒント" name="Hints" />
     <text name="History" />
     <text value="歴史記録" name="HistoryRecord" />
@@ -1458,11 +1467,13 @@
     <text value="インバウンド顧客の詳細" name="InboundCustomerDetail" />
     <text value="インバウンド顧客検索、合計%sデータ" name="InboundCustomerRetrievalCnt" />
     <text value="インバウンド顧客" name="InboundCustomers" />
+    <text value="インバウンドステータス" name="InboundStatus" />
     <text value="コレクションボックス" name="Inbox" />
     <text value="包含日" name="Inclusiondate" />
     <text value="包含理由" name="Inclusionreason" />
     <text name="Income" />
     <text value="収支比" name="IncomeandExpenditureRatio" />
+    <text value="収入創出" name="IncomeGeneration" />
     <text name="IncomeStatistics" />
     <text value="収入タイプ" name="IncomeType" />
     <text name="IncomeWithAmount" />
@@ -1619,6 +1630,8 @@
     <text value="過去7日間" name="LastSevenDays" />
     <text value="先月の最後の就業日" name="Lastworkingdayslastmonth" />
     <text value="昨年" name="LastYear" />
+    <text value="" name="LastYearAllocation" />
+    <text value="" name="LastYearBalance" />
     <text value="最新ニュース" name="LatestNews" />
     <text name="LatestPaymentAmount" />
     <text value="最新のアップロード" name="LatestUploaded" />
@@ -1654,6 +1667,7 @@
     <text value="スタッフを離れる" name="LeaveStaff" />
     <text value="時間を残す" name="LeaveTime" />
     <text value="離れるタイプ" name="LeaveType" />
+    <text value="" name="LedgerSummary" />
     <text name="LeftMenu" />
     <text value="法的アドバイス" name="LegalAdvice" />
     <text value="法的援助" name="LegalAid" />
@@ -1853,6 +1867,7 @@
     <text value="複数の部門で、+記号をクリックしてすべてを表示します" name="MultipleOrganizationUnit" />
     <text value="{0}に相手の情報を入力してください。" name="MustHasConflictInfo" />
     <text value="関連する顧客情報を入力してください！" name="MustHaveClients" />
+    <text value="現在の案件の費用情報はまだ入力されていません。案件の審査プロセスに入ることができません。現在の操作を確認しますか？" name="MustIncludeCost" />
     <text value="現在の案件の費用情報と契約はまだ入力されていません。案件の審査プロセスに入ることができません。現在の操作を確認しますか？" name="MustIncludeCostAndContract" />
     <text value="私の請求書" name="MyBill" />
     <text value="私のビジネス数" name="MyBusinessCount" />
@@ -2180,6 +2195,7 @@
     <text value="管理章管理" name="Pages.Executive.Stamp.Manage" />
     <text value="財務管理" name="Pages.Financial" />
     <text value="割り当て管理" name="Pages.Financial.Allocations" />
+    <text value="" name="Pages.Financial.Allocations.AuditAllocations" />
     <text value="割り当て管理" name="Pages.Financial.Allocations.Manage" />
     <text value="私の収入" name="Pages.Financial.Allocations.MyAllocations" />
     <text value="私の割り当て" name="Pages.Financial.Allocations.MyReceipts" />
@@ -2210,6 +2226,11 @@
     <text value="請求書のレビュー" name="Pages.Financial.Invoices.AuditInvoices" />
     <text value="請求書管理" name="Pages.Financial.Invoices.Manage" />
     <text value="私の請求書" name="Pages.Financial.Invoices.MyApplyInvoices" />
+    <text value="元帳管理" name="Pages.Financial.Ledgers" />
+    <text value="原価管理" name="Pages.Financial.Ledgers.Costs" />
+    <text value="元帳管理" name="Pages.Financial.Ledgers.Manage" />
+    <text value="マイアカウント" name="Pages.Financial.Ledgers.MyLedger" />
+    <text value="元帳設定" name="Pages.Financial.Ledgers.Settings" />
     <text value="コレクション管理" name="Pages.Financial.Receipts" />
     <text value="コレクションレビュー" name="Pages.Financial.Receipts.AuditReceipts" />
     <text value="コレクション登録" name="Pages.Financial.Receipts.Create" />
@@ -2507,6 +2528,8 @@
     <text value="事前に提出" name="PreFiled" />
     <text value="文字の事前ファイリングと識別" name="PreFilingWord" />
     <text value="この手紙は事前に提出されたプロジェクトではなく、事前にプロジェクトでのみ有効です。" name="PreFilingWord_Hint" />
+    <text value="" name="PreInvoicing" />
+    <text value="" name="PreInvoicingCollection" />
     <text value="事前請求" name="PreOpeningBill" />
     <text value="裁判長/指定仲裁人" name="PresidingJudgeOrAppointedArbitrator" />
     <text value="複数行のテキストを入力したい場合は、Shift + Enterを押して折り返します。" name="PressCtrlAndEnterToWrapLines" />
@@ -2736,6 +2759,7 @@
     <text value="結果日" name="ResultDate" />
     <text value="監査結果" name="Results" />
     <text value="添付ファイルを再開する" name="ResumeAttachments" />
+    <text value="" name="RetentionIncome" />
     <text value="検索" name="Retrieval" />
     <text value="検索条件" name="RetrievalCondition" />
     <text value="検索に失敗しました" name="RetrievalFailed" />
@@ -2952,6 +2976,7 @@
     <text value="設定" name="Settings" />
     <text value="プログラムの設定を表示および変更します。" name="SettingsHeaderInfo" />
     <text value="ケース参加者を設定する" name="SettingUpCaseParticipants" />
+    <text value="" name="SettlementDeposit" />
     <text value="こんにちは{0}" name="SetToParticipateInWorkLogRemind" />
     <text value="{0}作業ログ[{1}]のログ参加者を設定します。クリックすると、ログ情報をコピーするかどうかをチェックして判断できます" name="SetYouInLogParticipantRemind" />
     <text value="共有する" name="Share" />
@@ -3410,6 +3435,7 @@
     <text value="総手数料" name="TotalChargeAmount" />
     <text value="合計{0}データ" name="TotalData" />
     <text value="総支出額" name="TotalExpenditure" />
+    <text value="" name="TotalFixedCosts" />
     <text value="合計時間" name="TotalHour" />
     <text value="総請求額" name="TotalInvoiceAmount" />
     <text value="合計ログ時間" name="TotalLogTime" />
@@ -3419,12 +3445,17 @@
     <text value="審査のために提出された論文の総数" name="TotalNumberOfDocumentsSubmitted" />
     <text value="アプリケーションスタンプの総数" name="TotalNumberOfSeals" />
     <text value="合計支払額" name="TotalPayment" />
+    <text value="" name="TotalPersonalAccountAdjustment" />
+    <text value="" name="TotalPreInvoicingDeductions" />
+    <text value="" name="TotalPriceTax" />
     <text value="受け取った総額" name="TotalReceiptAmount" />
     <text name="TotalRecordsCount" />
+    <text value="" name="TotalReimbursed" />
     <text value="自己申告時間合計" name="TotalSelfReportedHours" />
     <text value="統計的訪問の合計時間" name="TotalTimeOfStatisticalVisits" />
     <text value="会議に費やされた合計時間" name="TotalTimeSpentInTheMeeting" />
     <text value="スケジュールに費やされた合計時間" name="TotalTimeSpentInTheSchedule" />
+    <text value="" name="TotalWithdrawal" />
     <text value="この離脱リクエストをキャンセルしてもよろしいですか？" name="ToVoidLeaveInformation" />
     <text value="繁体字中国語" name="TraditionalChinese" />
     <text value="交通補償" name="TrafficCompensation" />
@@ -3570,6 +3601,7 @@
     <text value="写真をアップロードする" name="UploadPictures" />
     <text value="アップロードの成功" name="UploadSuccess" />
     <text value="アップロードは成功しました。" name="UploadSuccessfully" />
+    <text value="" name="UrbanConstructionAndSurcharge" />
     <text value="使用する" name="Use" />
     <text value="ユーザーは登録時にキャプチャを使用します。" name="UseCaptchaOnRegistration" />
     <text value="現在のデフォルトアカウントを使用" name="UseDefaultAccount" />
@@ -3614,6 +3646,7 @@
     <text value="電子シールの使用" name="UsingElectronicSeal" />
     <text value="件名を使用する" name="UsingTheStandard" />
     <text value="付加価値" name="ValueAdded" />
+    <text value="" name="VAT" />
     <text value="確認コード" name="VerificationCode" />
     <text name="Verify" />
     <text value="セキュリティコードを確認する" name="VerifySecurityCode" />
@@ -3714,6 +3747,7 @@
     <text value="フルタイムのWeb会議を使用するかどうか" name="WhetherUsingWebConferencing" />
     <text value="選択したスケジュールのステータスを変更してもよろしいですか？" name="WillChangesSelectedOnScheduledState" />
     <text value="勝つ" name="Winning" />
+    <text value="" name="Withdrawal" />
     <text value="引き出し時間" name="WithdrawalTime" />
     <text value="出金者" name="WithdrawalUser" />
     <text value="条件なし" name="WithoutAnyCondition" />

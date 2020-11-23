@@ -26,6 +26,7 @@
     <text value="Access your applications and resources even if you are offline" name="Access to your applications and resources, even when you are offline" />
     <text value="Access card number" name="AccessCardNumber" />
     <text value="The access token is invalid or expired!" name="AccessTokenInvalidOrExpired" />
+    <text value="Account ajustment" name="AccountAjustment" />
     <text value="Account Bank" name="AccountBank" />
     <text value="Account binding" name="AccountBinding" />
     <text value="Account Management" name="AccountManagement" />
@@ -130,11 +131,14 @@
     <text value="All day" name="AllDay" />
     <text value="All the features you have in your application" name="AllFunctionalityYouHaveInTheApplication" />
     <text value="Allocated amount" name="AllocationAmount" />
+    <text value="" name="AllocationConfirmed" />
     <text value="Assignment date" name="AllocationDate" />
     <text value="Distribution information" name="AllocationInfo" />
     <text value="Proportional allocation of quotas" name="AllocationQuotas" />
     <text value="Allocation ratio" name="AllocationRate" />
+    <text value="" name="AllocationReturned" />
     <text value="Assignor" name="AllocationUser" />
+    <text value="" name="AllocationWaitForConfirmed" />
     <text value="Required permissions are not granted. All of these permissions must be granted: {0}" name="AllOfThesePermissionsMustBeGranted" />
     <text value="allow" name="Allow" />
     <text value="Allow tenants to register to the system." name="AllowTenantsToRegisterThemselves" />
@@ -192,6 +196,7 @@
     <text value="clue" name="App.Customers.Clue" />
     <text value="Warehousing" name="App.Customers.Storage" />
     <text value="Use chapter" name="App.Executive.OfficeSeal" />
+    <text value="" name="App.Financial.Allocations" />
     <text value="Bill" name="App.Financial.Billings" />
     <text value="Cost" name="App.Financial.Charges" />
     <text value="Invoice" name="App.Financial.Invoices" />
@@ -308,6 +313,7 @@
     <text value="Enable recurring payments" name="AutomaticallyBillMyAccount" />
     <text value="Automatically generated case materials" name="AutomaticallyGeneratedCaseMaterial" />
     <text value="Automatically synchronize schedules" name="AutoSyncSchedule" />
+    <text value="Available for distribution" name="AvailableForDistribution" />
     <text value="average value" name="AverageValue" />
     <text value="Back" name="Back" />
     <text value="Back to my account" name="BackToMyAccount" />
@@ -376,6 +382,7 @@
     <text value="Blocked Users" name="BlockedUsers" />
     <text value="Block user" name="BlockUser" />
     <text value="Blue" name="Blue" />
+    <text value="Book balance" name="BookBalance" />
     <text value="Borrowing records" name="BorrowedRecord" />
     <text value="Borrow registration" name="BorrowRegistration" />
     <text value="Prosecution and defense" name="BothSidesOfTheArgument" />
@@ -1292,6 +1299,7 @@
     <text value="Fiscal year" name="FiscalYear" />
     <text value="Fixed amount" name="FixedAmount" />
     <text value="Fixed charges category" name="FixedChargeCategory" />
+    <text value="Fixed cost" name="FixedCost" />
     <text value="A total of %s of order material attachments" name="FixedMaterialAttachmentsCnt" />
     <text value="Fixed telephone" name="FixedTelephone" />
     <text value="Fixed field" name="FixedText" />
@@ -1411,6 +1419,7 @@
     <text value="(Create a customer or select an existing customer)" name="HintCreateOrSelectClient" />
     <text value="(Create project or select existing project)" name="HintCreateOrSelectProject" />
     <text value="(Create stage or select existing stage)" name="HintCreateOrSelectStage" />
+    <text value="The invoiced amount cannot be greater than the selected payment amount" name="HintInvoiceAmountReceiptCondition" />
     <text value="friendly reminder" name="Hints" />
     <text value="History" name="History" />
     <text value="history record" name="HistoryRecord" />
@@ -1458,11 +1467,13 @@
     <text value="Inbound customer details" name="InboundCustomerDetail" />
     <text value="Inbound customer retrieval, a total of %s data" name="InboundCustomerRetrievalCnt" />
     <text value="Inbound customers" name="InboundCustomers" />
+    <text value="Inbound status" name="InboundStatus" />
     <text value="collection box" name="Inbox" />
     <text value="Inclusion date" name="Inclusiondate" />
     <text value="Inclusion reason" name="Inclusionreason" />
     <text value="Income" name="Income" />
     <text value="Income and expenditure ratio" name="IncomeandExpenditureRatio" />
+    <text value="Income generation" name="IncomeGeneration" />
     <text value="Income statistics" name="IncomeStatistics" />
     <text value="Income type" name="IncomeType" />
     <text value="Income: {0}" name="IncomeWithAmount" />
@@ -1619,6 +1630,8 @@
     <text value="Last seven days" name="LastSevenDays" />
     <text value="Last working days last month" name="Lastworkingdayslastmonth" />
     <text value="last year" name="LastYear" />
+    <text value="Last year allocation" name="LastYearAllocation" />
+    <text value="Last year balance" name="LastYearBalance" />
     <text value="latest news" name="LatestNews" />
     <text value="Latest payment amount" name="LatestPaymentAmount" />
     <text value="Latest upload" name="LatestUploaded" />
@@ -1654,6 +1667,7 @@
     <text value="Leave staff" name="LeaveStaff" />
     <text value="Leave time" name="LeaveTime" />
     <text value="Leave type" name="LeaveType" />
+    <text value="Ledger summary" name="LedgerSummary" />
     <text value="Left menu" name="LeftMenu" />
     <text value="Legal advice" name="LegalAdvice" />
     <text value="Whether legal aid" name="LegalAid" />
@@ -1853,6 +1867,7 @@
     <text value="In multiple departments, click the + sign to display all" name="MultipleOrganizationUnit" />
     <text value="Please enter the other party's information in {0}." name="MustHasConflictInfo" />
     <text value="Please enter the relevant customer information!" name="MustHaveClients" />
+    <text value="The current case cost information has not been entered and cannot enter the case approval process. Do you want to confirm the current operation?" name="MustIncludeCost" />
     <text value="The current case cost information and contract have not been entered, unable to enter the case approval process. Do you want to confirm the current operation?" name="MustIncludeCostAndContract" />
     <text value="My bill" name="MyBill" />
     <text value="My business count" name="MyBusinessCount" />
@@ -2180,6 +2195,7 @@
     <text value="Administrative Chapter Management" name="Pages.Executive.Stamp.Manage" />
     <text value="Financial" name="Pages.Financial" />
     <text value="Assignment management" name="Pages.Financial.Allocations" />
+    <text value="" name="Pages.Financial.Allocations.AuditAllocations" />
     <text value="Assignment management" name="Pages.Financial.Allocations.Manage" />
     <text value="My income" name="Pages.Financial.Allocations.MyAllocations" />
     <text value="My allocation" name="Pages.Financial.Allocations.MyReceipts" />
@@ -2210,6 +2226,11 @@
     <text value="Invoice review" name="Pages.Financial.Invoices.AuditInvoices" />
     <text value="Invoice management" name="Pages.Financial.Invoices.Manage" />
     <text value="My invoice" name="Pages.Financial.Invoices.MyApplyInvoices" />
+    <text value="Ledger management" name="Pages.Financial.Ledgers" />
+    <text value="Cost management" name="Pages.Financial.Ledgers.Costs" />
+    <text value="Ledger management" name="Pages.Financial.Ledgers.Manage" />
+    <text value="My account" name="Pages.Financial.Ledgers.MyLedger" />
+    <text value="Ledger settings" name="Pages.Financial.Ledgers.Settings" />
     <text value="Collection management" name="Pages.Financial.Receipts" />
     <text value="Collection review" name="Pages.Financial.Receipts.AuditReceipts" />
     <text value="Collection registration" name="Pages.Financial.Receipts.Create" />
@@ -2507,6 +2528,8 @@
     <text value="Pre-filed" name="PreFiled" />
     <text value="Pre-filing Character identification" name="PreFilingWord" />
     <text value="The letter is valid only in the pre-filing project and not in the pre-project." name="PreFilingWord_Hint" />
+    <text value="Pre-invoicing" name="PreInvoicing" />
+    <text value="Pre-invoicing collection" name="PreInvoicingCollection" />
     <text value="Pre-billing" name="PreOpeningBill" />
     <text value="Presiding judge/designated arbitrator" name="PresidingJudgeOrAppointedArbitrator" />
     <text value="Want to enter multiple lines of text, press Shift+Enter to wrap" name="PressCtrlAndEnterToWrapLines" />
@@ -2736,6 +2759,7 @@
     <text value="Result date" name="ResultDate" />
     <text value="Audit results" name="Results" />
     <text value="Resume attachment" name="ResumeAttachments" />
+    <text value="Retention income" name="RetentionIncome" />
     <text value="Retrieval" name="Retrieval" />
     <text value="Search condition" name="RetrievalCondition" />
     <text value="Search failed" name="RetrievalFailed" />
@@ -2952,6 +2976,7 @@
     <text value="Settings" name="Settings" />
     <text value="Show and change application settings." name="SettingsHeaderInfo" />
     <text value="Set up case participants" name="SettingUpCaseParticipants" />
+    <text value="Settlement deposit" name="SettlementDeposit" />
     <text value="Hello {0} " name="SetToParticipateInWorkLogRemind" />
     <text value="{0}Set you as the log participant in the work log [{1}], you can click to check and determine whether to copy the log information" name="SetYouInLogParticipantRemind" />
     <text value="share it" name="Share" />
@@ -3410,6 +3435,7 @@
     <text value="Total amount of fees" name="TotalChargeAmount" />
     <text value="Total {0} data" name="TotalData" />
     <text value="Total expenditure" name="TotalExpenditure" />
+    <text value="Total fixed costs" name="TotalFixedCosts" />
     <text value="Total hours" name="TotalHour" />
     <text value="Total invoice amount" name="TotalInvoiceAmount" />
     <text value="Total log time" name="TotalLogTime" />
@@ -3419,12 +3445,17 @@
     <text value="Total number of papers submitted for review" name="TotalNumberOfDocumentsSubmitted" />
     <text value="Total number of application stamps" name="TotalNumberOfSeals" />
     <text value="Total payment" name="TotalPayment" />
+    <text value="Total personal account adjustment" name="TotalPersonalAccountAdjustment" />
+    <text value="Total pre-invoicing deductions" name="TotalPreInvoicingDeductions" />
+    <text value="Total price tax" name="TotalPriceTax" />
     <text value="Total amount received" name="TotalReceiptAmount" />
     <text value="Total: {0}" name="TotalRecordsCount" />
+    <text value="Total reimbursed" name="TotalReimbursed" />
     <text value="Self-reported hours total" name="TotalSelfReportedHours" />
     <text value="Total time of statistical visits" name="TotalTimeOfStatisticalVisits" />
     <text value="Total time spent in the meeting" name="TotalTimeSpentInTheMeeting" />
     <text value="Total time spent on the schedule" name="TotalTimeSpentInTheSchedule" />
+    <text value="Total withdrawal" name="TotalWithdrawal" />
     <text value="Are you sure you want to cancel this leave request?" name="ToVoidLeaveInformation" />
     <text value="traditional Chinese" name="TraditionalChinese" />
     <text value="Traffic compensation" name="TrafficCompensation" />
@@ -3570,6 +3601,7 @@
     <text value="upload image" name="UploadPictures" />
     <text value="Successful upload" name="UploadSuccess" />
     <text value="Upload successful." name="UploadSuccessfully" />
+    <text value="Urban construction and surcharge" name="UrbanConstructionAndSurcharge" />
     <text value="use" name="Use" />
     <text value="Use security image question (captcha) on registration." name="UseCaptchaOnRegistration" />
     <text value="Use current default account" name="UseDefaultAccount" />
@@ -3614,6 +3646,7 @@
     <text value="Using electronic seal" name="UsingElectronicSeal" />
     <text value="Use the subject" name="UsingTheStandard" />
     <text value="Value added" name="ValueAdded" />
+    <text value="VAT" name="VAT" />
     <text value="Verification code" name="VerificationCode" />
     <text value="Verify" name="Verify" />
     <text value="Verify Security Code" name="VerifySecurityCode" />
@@ -3714,6 +3747,7 @@
     <text value="Whether to use full-time web conferencing" name="WhetherUsingWebConferencing" />
     <text value="Are you sure to change the selected schedule status?" name="WillChangesSelectedOnScheduledState" />
     <text value="Winning" name="Winning" />
+    <text value="Withdrawal" name="Withdrawal" />
     <text value="Withdrawal time" name="WithdrawalTime" />
     <text value="Withdrawal person" name="WithdrawalUser" />
     <text value="Without any condition" name="WithoutAnyCondition" />

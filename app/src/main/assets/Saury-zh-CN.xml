@@ -26,6 +26,7 @@
     <text value="即使您处于脱机状态，也可以访问您的应用程序和资源" name="Access to your applications and resources, even when you are offline" />
     <text value="门禁卡编号" name="AccessCardNumber" />
     <text value="访问令牌无效或过期！" name="AccessTokenInvalidOrExpired" />
+    <text value="个账调整" name="AccountAjustment" />
     <text value="开户行" name="AccountBank" />
     <text value="账号绑定" name="AccountBinding" />
     <text value="账号管理" name="AccountManagement" />
@@ -130,11 +131,14 @@
     <text value="全天" name="AllDay" />
     <text value="您在应用程序中拥有的所有功能" name="AllFunctionalityYouHaveInTheApplication" />
     <text value="分配金额" name="AllocationAmount" />
+    <text value="收款分配已确认" name="AllocationConfirmed" />
     <text value="分配日期" name="AllocationDate" />
     <text value="分配信息" name="AllocationInfo" />
     <text value="限额按比例分配" name="AllocationQuotas" />
     <text value="分配比例" name="AllocationRate" />
+    <text value="收款分配已退回" name="AllocationReturned" />
     <text value="分配人" name="AllocationUser" />
+    <text value="有一笔收款分配待确认" name="AllocationWaitForConfirmed" />
     <text value="未授予所需权限，必须授予以下权限：{0}" name="AllOfThesePermissionsMustBeGranted" />
     <text value="允许" name="Allow" />
     <text value="允许租户注册到系统。" name="AllowTenantsToRegisterThemselves" />
@@ -192,6 +196,7 @@
     <text value="线索" name="App.Customers.Clue" />
     <text value="入库" name="App.Customers.Storage" />
     <text value="用章" name="App.Executive.OfficeSeal" />
+    <text value="分配" name="App.Financial.Allocations" />
     <text value="账单" name="App.Financial.Billings" />
     <text value="费用" name="App.Financial.Charges" />
     <text value="发票" name="App.Financial.Invoices" />
@@ -308,6 +313,7 @@
     <text value="启用定期付款" name="AutomaticallyBillMyAccount" />
     <text value="自动生成的案件材料" name="AutomaticallyGeneratedCaseMaterial" />
     <text value="自动同步日程" name="AutoSyncSchedule" />
+    <text value="可供分配款" name="AvailableForDistribution" />
     <text value="平均值" name="AverageValue" />
     <text value="返回" name="Back" />
     <text value="返回我的账户" name="BackToMyAccount" />
@@ -376,6 +382,7 @@
     <text value="锁定的用户" name="BlockedUsers" />
     <text value="锁定用户" name="BlockUser" />
     <text value="蓝色" name="Blue" />
+    <text value="账面余额" name="BookBalance" />
     <text value="借阅记录" name="BorrowedRecord" />
     <text value="借阅登记" name="BorrowRegistration" />
     <text value="控辩双方观点" name="BothSidesOfTheArgument" />
@@ -957,7 +964,7 @@
     <text value="请假天数" name="DaysToLeave" />
     <text value="日" name="DayView" />
     <text value="不活跃的租户" name="DeactiveTenant" />
-    <text value="截止" name="Deadline" />
+    <text value="截止日期" name="Deadline" />
     <text value="{0} 截止" name="DeadlineDate" />
     <text value="{0} 天内 截止" name="DeadlineInDaysCnt" />
     <text value="{0} 小时内 截止" name="DeadlineInHoursCnt" />
@@ -1292,6 +1299,7 @@
     <text value="财政年" name="FiscalYear" />
     <text value="按固定金额" name="FixedAmount" />
     <text value="定额收费类别" name="FixedChargeCategory" />
+    <text value="固定成本" name="FixedCost" />
     <text value="共 %s 份订卷材料附件" name="FixedMaterialAttachmentsCnt" />
     <text value="固定电话" name="FixedTelephone" />
     <text value="固定字段" name="FixedText" />
@@ -1411,6 +1419,7 @@
     <text value="( 创建客户或选择已有客户 )" name="HintCreateOrSelectClient" />
     <text value="( 创建项目或选择已有项目 )" name="HintCreateOrSelectProject" />
     <text value="( 创建阶段或选择已有阶段 )" name="HintCreateOrSelectStage" />
+    <text value="开票金额不能大于已选收款金额" name="HintInvoiceAmountReceiptCondition" />
     <text value="友情提示" name="Hints" />
     <text name="History" />
     <text value="历史记录" name="HistoryRecord" />
@@ -1458,11 +1467,13 @@
     <text value="入库客户详细信息" name="InboundCustomerDetail" />
     <text value="入库客户检索，共%s条数据" name="InboundCustomerRetrievalCnt" />
     <text value="入库客户" name="InboundCustomers" />
+    <text value="入库状态" name="InboundStatus" />
     <text value="收集箱" name="Inbox" />
     <text value="列入日期" name="Inclusiondate" />
     <text value="列入原因" name="Inclusionreason" />
     <text value="收入" name="Income" />
     <text value="收入支出比" name="IncomeandExpenditureRatio" />
+    <text value="创收" name="IncomeGeneration" />
     <text value="收入统计" name="IncomeStatistics" />
     <text value="收入类型" name="IncomeType" />
     <text value="收入：{0}" name="IncomeWithAmount" />
@@ -1619,6 +1630,8 @@
     <text value="最近七天" name="LastSevenDays" />
     <text value="上月已工作天数" name="Lastworkingdayslastmonth" />
     <text value="去年" name="LastYear" />
+    <text value="上年可供分配利润余额" name="LastYearAllocation" />
+    <text value="上年余额" name="LastYearBalance" />
     <text value="最新新闻" name="LatestNews" />
     <text value="最后付款金额" name="LatestPaymentAmount" />
     <text value="最新上传" name="LatestUploaded" />
@@ -1654,6 +1667,7 @@
     <text value="请假人员" name="LeaveStaff" />
     <text value="请假时间" name="LeaveTime" />
     <text value="请假类型" name="LeaveType" />
+    <text value="台账汇总" name="LedgerSummary" />
     <text value="左侧菜单" name="LeftMenu" />
     <text value="法律咨询" name="LegalAdvice" />
     <text value="是否法律援助" name="LegalAid" />
@@ -1853,6 +1867,7 @@
     <text value="所属多个部门，点击+号显示所有" name="MultipleOrganizationUnit" />
     <text value="请在{0}中录入对方当事人信息。" name="MustHasConflictInfo" />
     <text value="请录入关联客户信息！" name="MustHaveClients" />
+    <text value="当前案件费用信息暂未录入，无法进入案件审批流程，是否确认当前操作？" name="MustIncludeCost" />
     <text value="当前案件费用信息及合同暂未录入，无法进入案件审批流程，是否确认当前操作？" name="MustIncludeCostAndContract" />
     <text value="我的账单" name="MyBill" />
     <text value="我的业务计数" name="MyBusinessCount" />
@@ -2180,6 +2195,7 @@
     <text value="行政用章管理" name="Pages.Executive.Stamp.Manage" />
     <text value="财务管理" name="Pages.Financial" />
     <text value="分配管理" name="Pages.Financial.Allocations" />
+    <text value="分配审核" name="Pages.Financial.Allocations.AuditAllocations" />
     <text value="分配管理" name="Pages.Financial.Allocations.Manage" />
     <text value="我的创收" name="Pages.Financial.Allocations.MyAllocations" />
     <text value="我的分配" name="Pages.Financial.Allocations.MyReceipts" />
@@ -2210,6 +2226,11 @@
     <text value="发票审核" name="Pages.Financial.Invoices.AuditInvoices" />
     <text value="发票管理" name="Pages.Financial.Invoices.Manage" />
     <text value="我的发票" name="Pages.Financial.Invoices.MyApplyInvoices" />
+    <text value="台账管理" name="Pages.Financial.Ledgers" />
+    <text value="成本管理" name="Pages.Financial.Ledgers.Costs" />
+    <text value="台账管理" name="Pages.Financial.Ledgers.Manage" />
+    <text value="我的台账" name="Pages.Financial.Ledgers.MyLedger" />
+    <text value="台账设置" name="Pages.Financial.Ledgers.Settings" />
     <text value="收款管理" name="Pages.Financial.Receipts" />
     <text value="收款审核" name="Pages.Financial.Receipts.AuditReceipts" />
     <text value="收款登记" name="Pages.Financial.Receipts.Create" />
@@ -2507,6 +2528,8 @@
     <text value="预立案转立案" name="PreFiled" />
     <text value="预立案标识代字" name="PreFilingWord" />
     <text value="该代字只在预立案项目有效，非预立案项目不显示" name="PreFilingWord_Hint" />
+    <text value="预开票" name="PreInvoicing" />
+    <text value="预开票收款" name="PreInvoicingCollection" />
     <text value="预开账单" name="PreOpeningBill" />
     <text value="主审法官/指定仲裁员" name="PresidingJudgeOrAppointedArbitrator" />
     <text value="想输入多行文本 可按 Shift+Enter 换行" name="PressCtrlAndEnterToWrapLines" />
@@ -2736,6 +2759,7 @@
     <text value="结果日期" name="ResultDate" />
     <text value="审核结果" name="Results" />
     <text value="简历附件" name="ResumeAttachments" />
+    <text value="留所收入" name="RetentionIncome" />
     <text value="检索" name="Retrieval" />
     <text value="检索条件" name="RetrievalCondition" />
     <text value="检索失败" name="RetrievalFailed" />
@@ -2952,6 +2976,7 @@
     <text value="设置" name="Settings" />
     <text value="显示和修改程序设置." name="SettingsHeaderInfo" />
     <text value="设置案件参与人" name="SettingUpCaseParticipants" />
+    <text value="结案保证金" name="SettlementDeposit" />
     <text value="{0}您好！ 最近有{1} 条工作日志将您设为了参与人，是否将它们转化为您的工作日志？" name="SetToParticipateInWorkLogRemind" />
     <text value="{0}在工作日志[{1}]中将您设置为了日志参与人，您可点击查看并确定是否复制日志信息" name="SetYouInLogParticipantRemind" />
     <text value="分享" name="Share" />
@@ -3410,6 +3435,7 @@
     <text value="费用总金额" name="TotalChargeAmount" />
     <text value="共{0}条数据" name="TotalData" />
     <text value="合计支出" name="TotalExpenditure" />
+    <text value="固定成本合计" name="TotalFixedCosts" />
     <text value="合计小时" name="TotalHour" />
     <text value="发票总金额" name="TotalInvoiceAmount" />
     <text value="日志总耗时" name="TotalLogTime" />
@@ -3419,12 +3445,17 @@
     <text value="文书报审总数" name="TotalNumberOfDocumentsSubmitted" />
     <text value="申请盖章总数" name="TotalNumberOfSeals" />
     <text value="付款总额" name="TotalPayment" />
+    <text value="个人账调整合计" name="TotalPersonalAccountAdjustment" />
+    <text value="预开票扣款合计" name="TotalPreInvoicingDeductions" />
+    <text value="价税合计" name="TotalPriceTax" />
     <text value="收款总金额" name="TotalReceiptAmount" />
     <text value="总计：{0}" name="TotalRecordsCount" />
+    <text value="已报销合计" name="TotalReimbursed" />
     <text value="自报小时总计" name="TotalSelfReportedHours" />
     <text value="统计拜访时间总时长" name="TotalTimeOfStatisticalVisits" />
     <text value="会议总耗时" name="TotalTimeSpentInTheMeeting" />
     <text value="日程总耗时" name="TotalTimeSpentInTheSchedule" />
+    <text value="已提款合计" name="TotalWithdrawal" />
     <text value="是否确认作废该请假信息？" name="ToVoidLeaveInformation" />
     <text value="繁体中文" name="TraditionalChinese" />
     <text value="交通赔偿" name="TrafficCompensation" />
@@ -3570,6 +3601,7 @@
     <text value="上传图片" name="UploadPictures" />
     <text value="上传成功" name="UploadSuccess" />
     <text value="上传成功." name="UploadSuccessfully" />
+    <text value="城建及附加税" name="UrbanConstructionAndSurcharge" />
     <text value="使用" name="Use" />
     <text value="用户注册时使用图片验证码(captcha)." name="UseCaptchaOnRegistration" />
     <text value="使用当前默认账号" name="UseDefaultAccount" />
@@ -3614,6 +3646,7 @@
     <text value="使用电子印章" name="UsingElectronicSeal" />
     <text value="使用标的" name="UsingTheStandard" />
     <text value="增值金额" name="ValueAdded" />
+    <text value="增值税" name="VAT" />
     <text value="验证码" name="VerificationCode" />
     <text value="验证" name="Verify" />
     <text value="安全代码" name="VerifySecurityCode" />
@@ -3714,6 +3747,7 @@
     <text value="是否使用全时网络会议" name="WhetherUsingWebConferencing" />
     <text value="是否确定变更选中的日程状态？" name="WillChangesSelectedOnScheduledState" />
     <text value="中标" name="Winning" />
+    <text value="提款" name="Withdrawal" />
     <text value="提款时间" name="WithdrawalTime" />
     <text value="提款人" name="WithdrawalUser" />
     <text value="无任何条件" name="WithoutAnyCondition" />

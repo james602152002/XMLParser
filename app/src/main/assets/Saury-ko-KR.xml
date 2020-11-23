@@ -26,6 +26,7 @@
     <text value="오프라인 상태에서도 응용 프로그램 및 리소스에 액세스" name="Access to your applications and resources, even when you are offline" />
     <text value="액세스 카드 번호" name="AccessCardNumber" />
     <text value="액세스 토큰이 유효하지 않거나 만료되었습니다!" name="AccessTokenInvalidOrExpired" />
+    <text value="" name="AccountAjustment" />
     <text value="계좌 은행" name="AccountBank" />
     <text value="계정 바인딩" name="AccountBinding" />
     <text value="계좌 번호 관리" name="AccountManagement" />
@@ -130,11 +131,14 @@
     <text value="하루 종일" name="AllDay" />
     <text value="응용 프로그램에있는 모든 기능" name="AllFunctionalityYouHaveInTheApplication" />
     <text value="할당량" name="AllocationAmount" />
+    <text value="" name="AllocationConfirmed" />
     <text value="배정 날짜" name="AllocationDate" />
     <text value="유통 정보" name="AllocationInfo" />
     <text value="할당량의 비례 할당" name="AllocationQuotas" />
     <text value="할당 비율" name="AllocationRate" />
+    <text value="" name="AllocationReturned" />
     <text value="할당 자" name="AllocationUser" />
+    <text value="" name="AllocationWaitForConfirmed" />
     <text value="필수 권한이 ​​부여되지 않았습니다. 다음 권한이 부여되어야합니다. {0}" name="AllOfThesePermissionsMustBeGranted" />
     <text value="허용" name="Allow" />
     <text value="임차인을 시스템에 등록 할 수 있습니다." name="AllowTenantsToRegisterThemselves" />
@@ -192,6 +196,7 @@
     <text value="실마리" name="App.Customers.Clue" />
     <text value="창고" name="App.Customers.Storage" />
     <text value="챕터 사용" name="App.Executive.OfficeSeal" />
+    <text value="" name="App.Financial.Allocations" />
     <text value="빌" name="App.Financial.Billings" />
     <text value="비용" name="App.Financial.Charges" />
     <text value="송장" name="App.Financial.Invoices" />
@@ -308,6 +313,7 @@
     <text value="반복 결제 사용" name="AutomaticallyBillMyAccount" />
     <text value="사례 자료 자동 생성" name="AutomaticallyGeneratedCaseMaterial" />
     <text value="스케줄 자동 동기화" name="AutoSyncSchedule" />
+    <text value="" name="AvailableForDistribution" />
     <text value="평균값" name="AverageValue" />
     <text value="돌아 가기" name="Back" />
     <text value="내 계정으로 돌아 가기" name="BackToMyAccount" />
@@ -376,6 +382,7 @@
     <text value="차단 된 사용자" name="BlockedUsers" />
     <text value="사용자 차단" name="BlockUser" />
     <text value="블루" name="Blue" />
+    <text value="" name="BookBalance" />
     <text value="차용 기록" name="BorrowedRecord" />
     <text value="차용 등록" name="BorrowRegistration" />
     <text value="기소와 방위" name="BothSidesOfTheArgument" />
@@ -1292,6 +1299,7 @@
     <text value="회계 연도" name="FiscalYear" />
     <text value="고정 금액" name="FixedAmount" />
     <text value="고정 요금 카테고리" name="FixedChargeCategory" />
+    <text value="" name="FixedCost" />
     <text value="총 주문 자료 첨부 파일 %s 개" name="FixedMaterialAttachmentsCnt" />
     <text value="고정 전화" name="FixedTelephone" />
     <text value="고정 필드" name="FixedText" />
@@ -1411,6 +1419,7 @@
     <text value="(고객 생성 또는 기존 고객 선택)" name="HintCreateOrSelectClient" />
     <text value="(프로젝트 생성 또는 기존 프로젝트 선택)" name="HintCreateOrSelectProject" />
     <text value="(스테이지 생성 또는 기존 스테이지 선택)" name="HintCreateOrSelectStage" />
+    <text value="인보이스 금액은 선택한 결제 금액보다 클 수 없습니다." name="HintInvoiceAmountReceiptCondition" />
     <text value="친절한 팁" name="Hints" />
     <text name="History" />
     <text value="역사 기록" name="HistoryRecord" />
@@ -1458,11 +1467,13 @@
     <text value="인바운드 고객 세부 정보" name="InboundCustomerDetail" />
     <text value="인바운드 고객 검색, 총 %s 데이터" name="InboundCustomerRetrievalCnt" />
     <text value="인바운드 고객" name="InboundCustomers" />
+    <text value="인바운드 상태" name="InboundStatus" />
     <text value="수집 상자" name="Inbox" />
     <text value="포함 날짜" name="Inclusiondate" />
     <text value="포함 이유" name="Inclusionreason" />
     <text name="Income" />
     <text value="수입과 지출 비율" name="IncomeandExpenditureRatio" />
+    <text value="소득 창출" name="IncomeGeneration" />
     <text name="IncomeStatistics" />
     <text value="소득 유형" name="IncomeType" />
     <text name="IncomeWithAmount" />
@@ -1619,6 +1630,8 @@
     <text value="지난 7 일" name="LastSevenDays" />
     <text value="지난 달 마지막 일" name="Lastworkingdayslastmonth" />
     <text value="작년" name="LastYear" />
+    <text value="" name="LastYearAllocation" />
+    <text value="" name="LastYearBalance" />
     <text value="최신 뉴스" name="LatestNews" />
     <text name="LatestPaymentAmount" />
     <text value="최근 업로드" name="LatestUploaded" />
@@ -1654,6 +1667,7 @@
     <text value="직원 퇴장" name="LeaveStaff" />
     <text value="시간을 남겨주세요." name="LeaveTime" />
     <text value="탈퇴 유형" name="LeaveType" />
+    <text value="" name="LedgerSummary" />
     <text name="LeftMenu" />
     <text value="법률 자문" name="LegalAdvice" />
     <text value="법적 도움 여부" name="LegalAid" />
@@ -1853,6 +1867,7 @@
     <text value="여러 부서에서 + 표시를 클릭하여 모두 표시" name="MultipleOrganizationUnit" />
     <text value="{0}에 상대방의 정보를 입력하십시오." name="MustHasConflictInfo" />
     <text value="관련 고객 정보를 입력하십시오!" name="MustHaveClients" />
+    <text value="현재 안건 의 비용 정 보 는 아직 입력 되 지 않 아 안건 심사 절차 에 들 어 갈 수 없고 현재 작업 을 확인 하 시 겠 습 니까?" name="MustIncludeCost" />
     <text value="현재 안건 의 비용 정보 와 계약 이 아직 입력 되 지 않 아 안건 심사 절차 에 들 어 갈 수 없고 현재 작업 을 확인 하 시 겠 습 니까?" name="MustIncludeCostAndContract" />
     <text value="내 청구서" name="MyBill" />
     <text value="내 사업 수" name="MyBusinessCount" />
@@ -2180,6 +2195,7 @@
     <text value="관리 장 관리" name="Pages.Executive.Stamp.Manage" />
     <text value="재무 관리" name="Pages.Financial" />
     <text value="할당 관리" name="Pages.Financial.Allocations" />
+    <text value="" name="Pages.Financial.Allocations.AuditAllocations" />
     <text value="할당 관리" name="Pages.Financial.Allocations.Manage" />
     <text value="내 수입" name="Pages.Financial.Allocations.MyAllocations" />
     <text value="내 할당" name="Pages.Financial.Allocations.MyReceipts" />
@@ -2210,6 +2226,11 @@
     <text value="인보이스 검토" name="Pages.Financial.Invoices.AuditInvoices" />
     <text value="인보이스 관리" name="Pages.Financial.Invoices.Manage" />
     <text value="내 인보이스" name="Pages.Financial.Invoices.MyApplyInvoices" />
+    <text value="원장 관리" name="Pages.Financial.Ledgers" />
+    <text value="원가 관리" name="Pages.Financial.Ledgers.Costs" />
+    <text value="원장 관리" name="Pages.Financial.Ledgers.Manage" />
+    <text value="내 계정" name="Pages.Financial.Ledgers.MyLedger" />
+    <text value="원장 설정" name="Pages.Financial.Ledgers.Settings" />
     <text value="컬렉션 관리" name="Pages.Financial.Receipts" />
     <text value="컬렉션 검토" name="Pages.Financial.Receipts.AuditReceipts" />
     <text value="수금 등록" name="Pages.Financial.Receipts.Create" />
@@ -2507,6 +2528,8 @@
     <text value="사전 출원" name="PreFiled" />
     <text name="PreFilingWord" />
     <text name="PreFilingWord_Hint" />
+    <text value="" name="PreInvoicing" />
+    <text value="" name="PreInvoicingCollection" />
     <text value="선불 결제" name="PreOpeningBill" />
     <text value="재판장 / 지명 된 중재인" name="PresidingJudgeOrAppointedArbitrator" />
     <text value="여러 줄의 텍스트를 입력하려면 Shift + Enter를 눌러 줄 바꿈하십시오." name="PressCtrlAndEnterToWrapLines" />
@@ -2736,6 +2759,7 @@
     <text value="결과 날짜" name="ResultDate" />
     <text value="감사 결과" name="Results" />
     <text value="첨부 파일 다시 시작" name="ResumeAttachments" />
+    <text value="" name="RetentionIncome" />
     <text value="검색" name="Retrieval" />
     <text value="검색 조건" name="RetrievalCondition" />
     <text value="검색 실패" name="RetrievalFailed" />
@@ -2952,6 +2976,7 @@
     <text value="설정" name="Settings" />
     <text value="프로그램 설정을 표시하고 수정하십시오." name="SettingsHeaderInfo" />
     <text value="사례 참여자 설정" name="SettingUpCaseParticipants" />
+    <text value="" name="SettlementDeposit" />
     <text value="안녕하세요 {0} " name="SetToParticipateInWorkLogRemind" />
     <text value="{0} 로그 [{1}]에 로그 참여자로 설정하면 클릭하여 로그 정보를 복사할지 여부를 확인할 수 있습니다" name="SetYouInLogParticipantRemind" />
     <text value="공유" name="Share" />
@@ -3410,6 +3435,7 @@
     <text value="총 수수료 금액" name="TotalChargeAmount" />
     <text value="총 {0} 데이터" name="TotalData" />
     <text value="총 지출" name="TotalExpenditure" />
+    <text value="" name="TotalFixedCosts" />
     <text value="총 시간" name="TotalHour" />
     <text value="총 송장 금액" name="TotalInvoiceAmount" />
     <text value="총 로그 시간" name="TotalLogTime" />
@@ -3419,12 +3445,17 @@
     <text value="검토를 위해 제출 된 총 논문 수" name="TotalNumberOfDocumentsSubmitted" />
     <text value="총 도장 수" name="TotalNumberOfSeals" />
     <text value="총 지불액" name="TotalPayment" />
+    <text value="" name="TotalPersonalAccountAdjustment" />
+    <text value="" name="TotalPreInvoicingDeductions" />
+    <text value="" name="TotalPriceTax" />
     <text value="총 금액" name="TotalReceiptAmount" />
     <text name="TotalRecordsCount" />
+    <text value="" name="TotalReimbursed" />
     <text value="자체보고 된 시간 총" name="TotalSelfReportedHours" />
     <text value="총 통계 방문 시간" name="TotalTimeOfStatisticalVisits" />
     <text value="회의에 소비 된 총 시간" name="TotalTimeSpentInTheMeeting" />
     <text value="일정에 소비 된 총 시간" name="TotalTimeSpentInTheSchedule" />
+    <text value="" name="TotalWithdrawal" />
     <text value="이 휴가 신청을 취소 하시겠습니까?" name="ToVoidLeaveInformation" />
     <text value="중국어 번체" name="TraditionalChinese" />
     <text value="교통 보상" name="TrafficCompensation" />
@@ -3570,6 +3601,7 @@
     <text value="사진 업로드" name="UploadPictures" />
     <text value="업로드 성공" name="UploadSuccess" />
     <text value="업로드가 완료되었습니다." name="UploadSuccessfully" />
+    <text value="" name="UrbanConstructionAndSurcharge" />
     <text value="사용" name="Use" />
     <text value="사용자는 등록 할 때 captcha를 사용합니다." name="UseCaptchaOnRegistration" />
     <text value="현재 기본 계정 사용" name="UseDefaultAccount" />
@@ -3614,6 +3646,7 @@
     <text value="전자 씰 사용" name="UsingElectronicSeal" />
     <text value="제목 사용" name="UsingTheStandard" />
     <text value="부가가치" name="ValueAdded" />
+    <text value="" name="VAT" />
     <text value="인증 코드" name="VerificationCode" />
     <text name="Verify" />
     <text value="보안 코드 확인" name="VerifySecurityCode" />
@@ -3714,6 +3747,7 @@
     <text value="풀 타임 웹 회의 사용 여부" name="WhetherUsingWebConferencing" />
     <text value="선택한 일정 상태를 변경 하시겠습니까?" name="WillChangesSelectedOnScheduledState" />
     <text value="승리" name="Winning" />
+    <text value="" name="Withdrawal" />
     <text value="출금 시간" name="WithdrawalTime" />
     <text value="탈퇴자" name="WithdrawalUser" />
     <text value="조건없이" name="WithoutAnyCondition" />
