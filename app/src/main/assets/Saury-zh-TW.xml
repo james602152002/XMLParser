@@ -26,7 +26,7 @@
     <text value="即使您處於脫機狀態，也可以訪問您的應用程序和資源" name="Access to your applications and resources, even when you are offline" />
     <text value="門禁卡編號" name="AccessCardNumber" />
     <text value="訪問令牌無效或過期！" name="AccessTokenInvalidOrExpired" />
-    <text value="" name="AccountAjustment" />
+    <text value="個賬調整" name="AccountAjustment" />
     <text value="開戶行" name="AccountBank" />
     <text value="賬號綁定" name="AccountBinding" />
     <text value="賬號管理" name="AccountManagement" />
@@ -130,15 +130,16 @@
     <text value="所有客戶" name="AllCustomers" />
     <text value="全天" name="AllDay" />
     <text value="您在應用程序中擁有的所有功能" name="AllFunctionalityYouHaveInTheApplication" />
+    <text value="已分配金額" name="AllocatedAmount" />
     <text value="分配金額" name="AllocationAmount" />
-    <text value="" name="AllocationConfirmed" />
+    <text value="收款分配已確認" name="AllocationConfirmed" />
     <text value="分配日期" name="AllocationDate" />
     <text value="分配信息" name="AllocationInfo" />
     <text value="限額按比例分配" name="AllocationQuotas" />
     <text value="分配比例" name="AllocationRate" />
-    <text value="" name="AllocationReturned" />
+    <text value="收款分配已退回" name="AllocationReturned" />
     <text value="分配人" name="AllocationUser" />
-    <text value="" name="AllocationWaitForConfirmed" />
+    <text value="有一筆收款分配待確認" name="AllocationWaitForConfirmed" />
     <text value="未授予所需權限，必須授予以下權限：{0}" name="AllOfThesePermissionsMustBeGranted" />
     <text value="允許" name="Allow" />
     <text value="允許在系統註冊租戶." name="AllowTenantsToRegisterThemselves" />
@@ -196,7 +197,7 @@
     <text value="線索" name="App.Customers.Clue" />
     <text value="入庫" name="App.Customers.Storage" />
     <text value="用章" name="App.Executive.OfficeSeal" />
-    <text value="" name="App.Financial.Allocations" />
+    <text value="分配" name="App.Financial.Allocations" />
     <text value="賬單" name="App.Financial.Billings" />
     <text value="費用" name="App.Financial.Charges" />
     <text value="發票" name="App.Financial.Invoices" />
@@ -313,7 +314,7 @@
     <text value="啟用定期付款" name="AutomaticallyBillMyAccount" />
     <text value="自動生成的案件材料" name="AutomaticallyGeneratedCaseMaterial" />
     <text value="自動同步日程" name="AutoSyncSchedule" />
-    <text value="" name="AvailableForDistribution" />
+    <text value="可供分配款" name="AvailableForDistribution" />
     <text value="平均值" name="AverageValue" />
     <text value="返回" name="Back" />
     <text value="回到我的帳戶" name="BackToMyAccount" />
@@ -382,7 +383,7 @@
     <text value="屏蔽的用戶" name="BlockedUsers" />
     <text value="屏蔽用戶" name="BlockUser" />
     <text value="藍色" name="Blue" />
-    <text value="" name="BookBalance" />
+    <text value="賬面餘額" name="BookBalance" />
     <text value="借閱記錄" name="BorrowedRecord" />
     <text value="借閱登記" name="BorrowRegistration" />
     <text value="控辯雙方觀點" name="BothSidesOfTheArgument" />
@@ -744,6 +745,7 @@
     <text value="確認審核結果？" name="ConfirmTheReviewResult" />
     <text value="確認是否參與會議" name="ConfirmWhetherParticipateMeeting" />
     <text value="確認是否參與任務" name="ConfirmWhetherParticipateTask" />
+    <text value="存在利益衝突 %s 條(查看詳情)" name="ConflictCntWithSeeDetails" />
     <text value="共{0}條衝突信息" name="ConflictCounts" />
     <text value="利益衝突信息" name="ConflictOfInterestInformation" />
     <text value="利益衝突信息可以批量導入" name="ConflictOfInterestInformationCanBeImportedInBatches" />
@@ -1299,7 +1301,7 @@
     <text value="財政年" name="FiscalYear" />
     <text value="按固定金額" name="FixedAmount" />
     <text value="定額收費類別" name="FixedChargeCategory" />
-    <text value="" name="FixedCost" />
+    <text value="固定成本" name="FixedCost" />
     <text value="共 %s 份訂卷材料附件" name="FixedMaterialAttachmentsCnt" />
     <text value="固定電話" name="FixedTelephone" />
     <text value="固定字段" name="FixedText" />
@@ -1630,8 +1632,8 @@
     <text value="最近七天" name="LastSevenDays" />
     <text value="上月已工作天數" name="Lastworkingdayslastmonth" />
     <text value="去年" name="LastYear" />
-    <text value="" name="LastYearAllocation" />
-    <text value="" name="LastYearBalance" />
+    <text value="上年可供分配利潤餘額" name="LastYearAllocation" />
+    <text value="上年餘額" name="LastYearBalance" />
     <text value="最新新聞" name="LatestNews" />
     <text name="LatestPaymentAmount" />
     <text value="最新上傳" name="LatestUploaded" />
@@ -1667,7 +1669,7 @@
     <text value="請假人員" name="LeaveStaff" />
     <text value="請假時間" name="LeaveTime" />
     <text value="請假類型" name="LeaveType" />
-    <text value="" name="LedgerSummary" />
+    <text value="台賬匯總" name="LedgerSummary" />
     <text name="LeftMenu" />
     <text value="法律諮詢" name="LegalAdvice" />
     <text value="是否法律援助" name="LegalAid" />
@@ -1744,6 +1746,7 @@
     <text value="工作日誌概覽統計" name="LogSummaryStatistics" />
     <text value="查找多頁面應用版本號" name="LookingForMpaVersion" />
     <text value="查找單頁面應用版本號" name="LookingForSpaVersion" />
+    <text value="郵箱" name="Mail" />
     <text value="此郵箱用於修改管理員密碼" name="MailEditadminPassword" />
     <text value="郵件已發送" name="MailSent" />
     <text value="主體" name="Main" />
@@ -2195,7 +2198,7 @@
     <text value="行政用章管理" name="Pages.Executive.Stamp.Manage" />
     <text value="財務管理" name="Pages.Financial" />
     <text value="分配管理" name="Pages.Financial.Allocations" />
-    <text value="" name="Pages.Financial.Allocations.AuditAllocations" />
+    <text value="分配審核" name="Pages.Financial.Allocations.AuditAllocations" />
     <text value="分配管理" name="Pages.Financial.Allocations.Manage" />
     <text value="我的創收" name="Pages.Financial.Allocations.MyAllocations" />
     <text value="我的分配" name="Pages.Financial.Allocations.MyReceipts" />
@@ -2528,8 +2531,8 @@
     <text value="預立案轉立案" name="PreFiled" />
     <text value="預立案標識代字" name="PreFilingWord" />
     <text value="該代字只在預立案專案有效，非預立案專案不顯示" name="PreFilingWord_Hint" />
-    <text value="" name="PreInvoicing" />
-    <text value="" name="PreInvoicingCollection" />
+    <text value="預開票" name="PreInvoicing" />
+    <text value="預開票收款" name="PreInvoicingCollection" />
     <text value="預開賬單" name="PreOpeningBill" />
     <text value="主審法官/指定仲裁員" name="PresidingJudgeOrAppointedArbitrator" />
     <text value="想輸入多行文本 可按 Shift+Enter 換行" name="PressCtrlAndEnterToWrapLines" />
@@ -2759,7 +2762,7 @@
     <text value="結果日期" name="ResultDate" />
     <text value="審核結果" name="Results" />
     <text value="簡歷附件" name="ResumeAttachments" />
-    <text value="" name="RetentionIncome" />
+    <text value="留所收入" name="RetentionIncome" />
     <text value="檢索" name="Retrieval" />
     <text value="檢索條件" name="RetrievalCondition" />
     <text value="檢索失敗" name="RetrievalFailed" />
@@ -2976,7 +2979,7 @@
     <text value="設置" name="Settings" />
     <text value="顯示和修改程序設置." name="SettingsHeaderInfo" />
     <text value="設置案件參與人" name="SettingUpCaseParticipants" />
-    <text value="" name="SettlementDeposit" />
+    <text value="結案保證金" name="SettlementDeposit" />
     <text value="{0}您好！" name="SetToParticipateInWorkLogRemind" />
     <text value="{0}在工作日誌[{1}]中將您設置為了日誌參與人，您可點擊查看並確定是否複製日誌信息" name="SetYouInLogParticipantRemind" />
     <text value="分享" name="Share" />
@@ -3435,7 +3438,7 @@
     <text value="費用總金額" name="TotalChargeAmount" />
     <text value="共{0}條數據" name="TotalData" />
     <text value="合計支出" name="TotalExpenditure" />
-    <text value="" name="TotalFixedCosts" />
+    <text value="固定成本合計" name="TotalFixedCosts" />
     <text value="合計小時" name="TotalHour" />
     <text value="發票總金額" name="TotalInvoiceAmount" />
     <text value="日誌總耗時" name="TotalLogTime" />
@@ -3445,17 +3448,17 @@
     <text value="文書報審總數" name="TotalNumberOfDocumentsSubmitted" />
     <text value="申請蓋章總數" name="TotalNumberOfSeals" />
     <text value="付款總額" name="TotalPayment" />
-    <text value="" name="TotalPersonalAccountAdjustment" />
-    <text value="" name="TotalPreInvoicingDeductions" />
-    <text value="" name="TotalPriceTax" />
+    <text value="個人賬調整合計" name="TotalPersonalAccountAdjustment" />
+    <text value="預開票扣款合計" name="TotalPreInvoicingDeductions" />
+    <text value="價稅合計" name="TotalPriceTax" />
     <text value="收款總金額" name="TotalReceiptAmount" />
     <text name="TotalRecordsCount" />
-    <text value="" name="TotalReimbursed" />
+    <text value="已報銷合計" name="TotalReimbursed" />
     <text value="自報小時總計" name="TotalSelfReportedHours" />
     <text value="統計拜訪時間總時長" name="TotalTimeOfStatisticalVisits" />
     <text value="會議總耗時" name="TotalTimeSpentInTheMeeting" />
     <text value="日程總耗時" name="TotalTimeSpentInTheSchedule" />
-    <text value="" name="TotalWithdrawal" />
+    <text value="已提款合計" name="TotalWithdrawal" />
     <text value="是否確認作廢該請假信息？" name="ToVoidLeaveInformation" />
     <text value="繁體中文" name="TraditionalChinese" />
     <text value="交通賠償" name="TrafficCompensation" />
@@ -3601,7 +3604,7 @@
     <text value="上傳圖片" name="UploadPictures" />
     <text value="上傳成功" name="UploadSuccess" />
     <text value="上傳成功." name="UploadSuccessfully" />
-    <text value="" name="UrbanConstructionAndSurcharge" />
+    <text value="城建及附加稅" name="UrbanConstructionAndSurcharge" />
     <text value="使用" name="Use" />
     <text value="用戶註冊時使用圖片驗證碼(captcha)." name="UseCaptchaOnRegistration" />
     <text value="使用當前默認賬號" name="UseDefaultAccount" />
@@ -3646,7 +3649,7 @@
     <text value="使用電子印章" name="UsingElectronicSeal" />
     <text value="使用標的" name="UsingTheStandard" />
     <text value="增值金額" name="ValueAdded" />
-    <text value="" name="VAT" />
+    <text value="增值稅" name="VAT" />
     <text value="驗證碼" name="VerificationCode" />
     <text name="Verify" />
     <text value="驗證安全代碼" name="VerifySecurityCode" />
@@ -3747,7 +3750,7 @@
     <text value="是否使用全時網絡會議" name="WhetherUsingWebConferencing" />
     <text value="是否確定變更選中的日程狀態？" name="WillChangesSelectedOnScheduledState" />
     <text value="中標" name="Winning" />
-    <text value="" name="Withdrawal" />
+    <text value="提款" name="Withdrawal" />
     <text value="提款時間" name="WithdrawalTime" />
     <text value="提款人" name="WithdrawalUser" />
     <text value="無任何條件" name="WithoutAnyCondition" />

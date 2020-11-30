@@ -130,6 +130,7 @@
     <text value="所有客户" name="AllCustomers" />
     <text value="全天" name="AllDay" />
     <text value="您在应用程序中拥有的所有功能" name="AllFunctionalityYouHaveInTheApplication" />
+    <text value="已分配金额" name="AllocatedAmount" />
     <text value="分配金额" name="AllocationAmount" />
     <text value="收款分配已确认" name="AllocationConfirmed" />
     <text value="分配日期" name="AllocationDate" />
@@ -744,6 +745,7 @@
     <text value="确认审核结果？" name="ConfirmTheReviewResult" />
     <text value="确认是否参与会议" name="ConfirmWhetherParticipateMeeting" />
     <text value="确认是否参与任务" name="ConfirmWhetherParticipateTask" />
+    <text value="存在利益冲突 %s 条(查看详情)" name="ConflictCntWithSeeDetails" />
     <text value="共{0}条冲突信息" name="ConflictCounts" />
     <text value="利益冲突信息" name="ConflictOfInterestInformation" />
     <text value="利益冲突信息可以批量导入" name="ConflictOfInterestInformationCanBeImportedInBatches" />
@@ -1744,6 +1746,7 @@
     <text value="工作日志概览统计" name="LogSummaryStatistics" />
     <text value="查找多页面应用版本号" name="LookingForMpaVersion" />
     <text value="查找单页面应用版本号" name="LookingForSpaVersion" />
+    <text value="邮箱" name="Mail" />
     <text value="此邮箱用于修改管理员密码" name="MailEditadminPassword" />
     <text value="邮件已发送" name="MailSent" />
     <text value="主体" name="Main" />

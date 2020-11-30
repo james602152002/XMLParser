@@ -130,15 +130,16 @@
     <text value="All customers" name="AllCustomers" />
     <text value="All day" name="AllDay" />
     <text value="All the features you have in your application" name="AllFunctionalityYouHaveInTheApplication" />
+    <text value="Allocated amount" name="AllocatedAmount" />
     <text value="Allocated amount" name="AllocationAmount" />
-    <text value="" name="AllocationConfirmed" />
+    <text value="Receipt distribution confirmed" name="AllocationConfirmed" />
     <text value="Assignment date" name="AllocationDate" />
     <text value="Distribution information" name="AllocationInfo" />
     <text value="Proportional allocation of quotas" name="AllocationQuotas" />
     <text value="Allocation ratio" name="AllocationRate" />
-    <text value="" name="AllocationReturned" />
+    <text value="Receipt distribution has been returned" name="AllocationReturned" />
     <text value="Assignor" name="AllocationUser" />
-    <text value="" name="AllocationWaitForConfirmed" />
+    <text value="There is a payment allocation pending confirmation" name="AllocationWaitForConfirmed" />
     <text value="Required permissions are not granted. All of these permissions must be granted: {0}" name="AllOfThesePermissionsMustBeGranted" />
     <text value="allow" name="Allow" />
     <text value="Allow tenants to register to the system." name="AllowTenantsToRegisterThemselves" />
@@ -196,7 +197,7 @@
     <text value="clue" name="App.Customers.Clue" />
     <text value="Warehousing" name="App.Customers.Storage" />
     <text value="Use chapter" name="App.Executive.OfficeSeal" />
-    <text value="" name="App.Financial.Allocations" />
+    <text value="Allocation" name="App.Financial.Allocations" />
     <text value="Bill" name="App.Financial.Billings" />
     <text value="Cost" name="App.Financial.Charges" />
     <text value="Invoice" name="App.Financial.Invoices" />
@@ -744,6 +745,7 @@
     <text value="Confirm the audit result?" name="ConfirmTheReviewResult" />
     <text value="Confirm participation in the meeting" name="ConfirmWhetherParticipateMeeting" />
     <text value="Confirm participation in the task" name="ConfirmWhetherParticipateTask" />
+    <text value="There are %s conflicts of interest (see details)" name="ConflictCntWithSeeDetails" />
     <text value="Total {0} conflict information" name="ConflictCounts" />
     <text value="Conflict of interest information" name="ConflictOfInterestInformation" />
     <text value="Conflict of interest information can be imported in batches" name="ConflictOfInterestInformationCanBeImportedInBatches" />
@@ -1744,6 +1746,7 @@
     <text value="Log summary statistics" name="LogSummaryStatistics" />
     <text value="Looking for Multi-Page Application Version?" name="LookingForMpaVersion" />
     <text value="Looking for Single-Page Application Version?" name="LookingForSpaVersion" />
+    <text value="Mail" name="Mail" />
     <text value="This mailbox is used to modify the administrator password" name="MailEditadminPassword" />
     <text value="Mail sent" name="MailSent" />
     <text value="main body" name="Main" />
@@ -2195,7 +2198,7 @@
     <text value="Administrative Chapter Management" name="Pages.Executive.Stamp.Manage" />
     <text value="Financial" name="Pages.Financial" />
     <text value="Assignment management" name="Pages.Financial.Allocations" />
-    <text value="" name="Pages.Financial.Allocations.AuditAllocations" />
+    <text value="Assignment review" name="Pages.Financial.Allocations.AuditAllocations" />
     <text value="Assignment management" name="Pages.Financial.Allocations.Manage" />
     <text value="My income" name="Pages.Financial.Allocations.MyAllocations" />
     <text value="My allocation" name="Pages.Financial.Allocations.MyReceipts" />
