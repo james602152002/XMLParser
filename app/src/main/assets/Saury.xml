@@ -1182,6 +1182,7 @@
     <text value="Established" name="Established" />
     <text value="Estimated arrival date" name="EstimateDateOfPayment" />
     <text value="Estimated duration" name="EstimatedTime" />
+    <text value="Event" name="Event" />
     <text value="Schedule event type" name="EventType" />
     <text value="Your administrative application, [{0}] has been stamped." name="ExaminationAndApprovalOfAdministrativeSeal" />
     <text value="The administrative seal you applied for has passed the review of [{0}] and is waiting for the seal to be stamped." name="ExaminationAndApprovalOfAdministrativeUse" />
@@ -1417,7 +1418,9 @@
     <text value="Click to view help documentation" name="HelpTitle" />
     <text value="Hide advanced filters" name="HideAdvancedFilters" />
     <text value="Hide QR code" name="HideQRCode" />
+    <text value="Hello! There is a conflict of interest in the current case ％s" name="HintCaseConflictCnt" />
     <text value="After clearing the cache, the files and pictures you download will be deleted. Please proceed with caution." name="HintClearCache" />
+    <text value="Replacing the case will clear the attachment" name="HintClearDocReview" />
     <text value="(Create a customer or select an existing customer)" name="HintCreateOrSelectClient" />
     <text value="(Create project or select existing project)" name="HintCreateOrSelectProject" />
     <text value="(Create stage or select existing stage)" name="HintCreateOrSelectStage" />
@@ -2219,6 +2222,7 @@
     <text value="Contract management" name="Pages.Financial.Contracts.Manage" />
     <text value="My contract" name="Pages.Financial.Contracts.MyContracts" />
     <text value="Operating costs" name="Pages.Financial.Costs" />
+    <text value="Expense Entry" name="Pages.Financial.Costs.Expenditures.Create" />
     <text value="Expenditure management" name="Pages.Financial.Costs.Expenditures.Manage" />
     <text value="My expenses" name="Pages.Financial.Costs.Expenditures.MyExpenditures" />
     <text value="Electronic invoice entry" name="Pages.Financial.ElectronicInvoices.Create" />
@@ -2560,6 +2564,7 @@
     <text value="Processing" name="Processing" />
     <text value="Processing level" name="Processinglevel" />
     <text value="Processing..." name="ProcessingWithThreeDot" />
+    <text value="Process rollback" name="ProcessRollback" />
     <text value="Process state" name="ProcessStatus" />
     <text value="Process time" name="ProcessTime" />
     <text value="profession" name="Profession" />
@@ -2939,6 +2944,7 @@
     <text value="send email" name="SendEmail" />
     <text value="A link will be sent to your email to activate your email address. If you don't get an email within a few minutes, please re-try." name="SendEmailActivationLink_Information" />
     <text value="Sender" name="Sender" />
+    <text value="Send notification" name="SendNotification" />
     <text value="Send partner" name="SendPartner" />
     <text value="A password reset link will be sent to your email to reset your password. If you don't get an email within a few minutes, please re-try." name="SendPasswordResetLink_Information" />
     <text value="Please verify your law firm ID and email address first." name="SendPasswordResetMessage" />
@@ -3321,7 +3327,7 @@
     <text value="The account corresponding to the admin account is used by default" name="TheAccountCorrespondingToTheAdminAccountIsUsedByDefault" />
     <text value="year" name="TheAnnual" />
     <text value="Bill [{0}]{1}." name="TheBillNotify" />
-    <text value="This citizenship information already exists! " name="TheCardNoHasAlreadyExisted" />
+    <text value="The ID card / unified social credit code information already exists! You do not need to repeat the entry, please retrieve the reference directly." name="TheCardNoHasAlreadyExisted" />
     <text value="The case file you applied for [{0}] was stamped and not approved by {1}." name="TheCaseFileIsNotStamped" />
     <text value="The caser returned" name="TheCaserReturned" />
     <text value="Category name already exists!" name="TheCategoryNameAlreadyExists" />
@@ -3436,7 +3442,9 @@
     <text value="Total business hours" name="TotalBusinessHours" />
     <text value="Total charge" name="TotalCharge" />
     <text value="Total amount of fees" name="TotalChargeAmount" />
+    <text value="total cost" name="TotalCost" />
     <text value="Total {0} data" name="TotalData" />
+    <text value="Total deduction" name="TotalDeduction" />
     <text value="Total expenditure" name="TotalExpenditure" />
     <text value="Total fixed costs" name="TotalFixedCosts" />
     <text value="Total hours" name="TotalHour" />

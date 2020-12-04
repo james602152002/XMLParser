@@ -1182,6 +1182,7 @@
     <text value="설립시기" name="Established" />
     <text value="예상 도착 일" name="EstimateDateOfPayment" />
     <text value="예상 소요 시간" name="EstimatedTime" />
+    <text value="행사" name="Event" />
     <text value="이벤트 유형 예약" name="EventType" />
     <text value="관리 응용 프로그램 [{0}]에 스탬프가 찍혀 있습니다." name="ExaminationAndApprovalOfAdministrativeSeal" />
     <text value="귀하가 신청 한 관리 인장이 [{0}]의 검토를 통과했으며 인장이 찍히기를 기다리고 있습니다." name="ExaminationAndApprovalOfAdministrativeUse" />
@@ -1417,7 +1418,9 @@
     <text value="도움말을 보려면 클릭하십시오." name="HelpTitle" />
     <text value="고급 필터 숨기기" name="HideAdvancedFilters" />
     <text value="QR 코드 숨기기" name="HideQRCode" />
+    <text value="안녕하세요! 현재 케이스 ％s에 이해 상충이 있습니다." name="HintCaseConflictCnt" />
     <text value="캐시를 지우면 다운로드 한 파일과 사진이 삭제되므로주의하여 진행하십시오." name="HintClearCache" />
+    <text value="케이스를 교체하면 첨부 파일이 지워집니다." name="HintClearDocReview" />
     <text value="(고객 생성 또는 기존 고객 선택)" name="HintCreateOrSelectClient" />
     <text value="(프로젝트 생성 또는 기존 프로젝트 선택)" name="HintCreateOrSelectProject" />
     <text value="(스테이지 생성 또는 기존 스테이지 선택)" name="HintCreateOrSelectStage" />
@@ -2219,6 +2222,7 @@
     <text value="계약 관리" name="Pages.Financial.Contracts.Manage" />
     <text value="내 계약" name="Pages.Financial.Contracts.MyContracts" />
     <text value="운영 비용" name="Pages.Financial.Costs" />
+    <text value="비용 입력" name="Pages.Financial.Costs.Expenditures.Create" />
     <text value="지출 관리" name="Pages.Financial.Costs.Expenditures.Manage" />
     <text value="내 비용" name="Pages.Financial.Costs.Expenditures.MyExpenditures" />
     <text value="전자 송장 입력" name="Pages.Financial.ElectronicInvoices.Create" />
@@ -2560,6 +2564,7 @@
     <text value="가공" name="Processing" />
     <text value="처리 수준" name="Processinglevel" />
     <text name="ProcessingWithThreeDot" />
+    <text value="프로세스 롤백" name="ProcessRollback" />
     <text value="프로세스 상태" name="ProcessStatus" />
     <text name="ProcessTime" />
     <text value="전문가" name="Profession" />
@@ -2939,6 +2944,7 @@
     <text value="이메일을 보내" name="SendEmail" />
     <text value="시스템은 사용자 계정을 활성화하는 데 수십 초 내에 이메일을 전송합니다. 전자 메일 내용의 활성화 링크를 받아 클릭하십시오. " name="SendEmailActivationLink_Information" />
     <text value="보낸 사람" name="Sender" />
+    <text value="알림 보내기" name="SendNotification" />
     <text value="전송 파트너" name="SendPartner" />
     <text value="시스템에서 암호 재설정 이메일을 수십 초 내에 전송했습니다. 3 분 후에이 이메일을받지 못하면 다시 시도하십시오." name="SendPasswordResetLink_Information" />
     <text value="먼저 귀하의 법률 사무소 신분증과 이메일 주소를 확인하십시오." name="SendPasswordResetMessage" />
@@ -3321,7 +3327,7 @@
     <text value="기본적으로 Admin 계 정 에 해당 하 는 계 정 을 사용 합 니 다." name="TheAccountCorrespondingToTheAdminAccountIsUsedByDefault" />
     <text value="연간" name="TheAnnual" />
     <text value="Bill [{0}] {1}." name="TheBillNotify" />
-    <text value="이 시민권 정보는 이미 존재합니다! " name="TheCardNoHasAlreadyExisted" />
+    <text value="이 신분증 / 통일 사회 신용 코드 정보 가 존재 합 니 다!중복 입력 이 필요 없 으 니 인용 을 검색 하 십시오." name="TheCardNoHasAlreadyExisted" />
     <text value="[{0}]에 신청 한 사례 파일이 스탬프 처리되었으며 {1}에 의해 승인되지 않았습니다." name="TheCaseFileIsNotStamped" />
     <text value="캐서 리턴" name="TheCaserReturned" />
     <text value="카테고리 이름이 이미 있습니다!" name="TheCategoryNameAlreadyExists" />
@@ -3436,7 +3442,9 @@
     <text value="총 영업 시간" name="TotalBusinessHours" />
     <text value="총 청구액" name="TotalCharge" />
     <text value="총 수수료 금액" name="TotalChargeAmount" />
+    <text value="총 비용" name="TotalCost" />
     <text value="총 {0} 데이터" name="TotalData" />
+    <text value="총 공제" name="TotalDeduction" />
     <text value="총 지출" name="TotalExpenditure" />
     <text value="총 고정 비용" name="TotalFixedCosts" />
     <text value="총 시간" name="TotalHour" />

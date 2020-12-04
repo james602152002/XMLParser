@@ -1182,6 +1182,7 @@
     <text value="設立時期" name="Established" />
     <text value="到着予定日" name="EstimateDateOfPayment" />
     <text value="見積もり期間" name="EstimatedTime" />
+    <text value="イベント" name="Event" />
     <text value="スケジュールイベントタイプ" name="EventType" />
     <text value="あなたの管理アプリケーション[{0}]には刻印されています。" name="ExaminationAndApprovalOfAdministrativeSeal" />
     <text value="あなたが申請した管理シールは[{0}]の審査に合格し、シールに印が付くのを待っています。" name="ExaminationAndApprovalOfAdministrativeUse" />
@@ -1417,7 +1418,9 @@
     <text value="クリックしてヘルプドキュメントを参照してください。" name="HelpTitle" />
     <text value="高度なフィルタを非表示にする" name="HideAdvancedFilters" />
     <text value="QRコードを隠す" name="HideQRCode" />
+    <text value="こんにちは！ 現在のケース％sには利害の衝突があります" name="HintCaseConflictCnt" />
     <text value="キャッシュをクリアすると、ダウンロードしたファイルや画像は削除されますので、ご注意ください。" name="HintClearCache" />
+    <text value="ケースを交換すると、アタッチメントがクリアされます" name="HintClearDocReview" />
     <text value="（顧客を作成するか既存の顧客を選択する）" name="HintCreateOrSelectClient" />
     <text value="（プロジェクトを作成するか、既存のプロジェクトを選択します）" name="HintCreateOrSelectProject" />
     <text value="（ステージを作成するか、既存のステージを選択します）" name="HintCreateOrSelectStage" />
@@ -2219,6 +2222,7 @@
     <text value="契約管理" name="Pages.Financial.Contracts.Manage" />
     <text value="私の契約" name="Pages.Financial.Contracts.MyContracts" />
     <text value="操業コスト" name="Pages.Financial.Costs" />
+    <text value="支出の入力" name="Pages.Financial.Costs.Expenditures.Create" />
     <text value="支出管理" name="Pages.Financial.Costs.Expenditures.Manage" />
     <text value="私の経費" name="Pages.Financial.Costs.Expenditures.MyExpenditures" />
     <text value="電子請求書エントリ" name="Pages.Financial.ElectronicInvoices.Create" />
@@ -2560,6 +2564,7 @@
     <text value="処理中" name="Processing" />
     <text value="処理レベル" name="Processinglevel" />
     <text name="ProcessingWithThreeDot" />
+    <text value="プロセスのロールバック" name="ProcessRollback" />
     <text value="プロセス状態" name="ProcessStatus" />
     <text name="ProcessTime" />
     <text value="専門家" name="Profession" />
@@ -2939,6 +2944,7 @@
     <text value="メールを送る" name="SendEmail" />
     <text value="システムは、数十秒以内にあなたのユーザーアカウントを有効にするための電子メールを送信します。電子メールコンテンツのアクティベーションリンクを受信して​​クリックしてください。 " name="SendEmailActivationLink_Information" />
     <text value="送信者" name="Sender" />
+    <text value="通知を送信する" name="SendNotification" />
     <text value="送信パートナー" name="SendPartner" />
     <text value="システムから数秒でパスワードリセットのメールが届きました。このメールが3分以内に届かない場合は、もう一度お試しください。" name="SendPasswordResetLink_Information" />
     <text value="まずあなたの法律事務所のIDとEメールアドレスを確認してください。" name="SendPasswordResetMessage" />
@@ -3321,7 +3327,7 @@
     <text value="Adminアカウントに対応するアカウントをデフォルトで使用します。" name="TheAccountCorrespondingToTheAdminAccountIsUsedByDefault" />
     <text value="年次" name="TheAnnual" />
     <text value="ビル[{0}] {1}。" name="TheBillNotify" />
-    <text value="この市民権情報は既に存在します！" name="TheCardNoHasAlreadyExisted" />
+    <text value="この身分証/統一社会信用コード情報は既に存在します。繰り返し入力する必要はありません。直接参照を検索してください。" name="TheCardNoHasAlreadyExisted" />
     <text value="[{0}]に適用したケースファイルは、刻印されていて、{1}によって承認されていません。" name="TheCaseFileIsNotStamped" />
     <text value="ケーサーが戻った" name="TheCaserReturned" />
     <text value="カテゴリ名は既に存在します！" name="TheCategoryNameAlreadyExists" />
@@ -3436,7 +3442,9 @@
     <text value="総営業時間" name="TotalBusinessHours" />
     <text value="総料金" name="TotalCharge" />
     <text value="総手数料" name="TotalChargeAmount" />
+    <text value="総費用" name="TotalCost" />
     <text value="合計{0}データ" name="TotalData" />
+    <text value="合計控除" name="TotalDeduction" />
     <text value="総支出額" name="TotalExpenditure" />
     <text value="総固定費" name="TotalFixedCosts" />
     <text value="合計時間" name="TotalHour" />

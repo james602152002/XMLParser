@@ -1182,6 +1182,7 @@
     <text value="成立時間" name="Established" />
     <text value="預估到賬日期" name="EstimateDateOfPayment" />
     <text value="預估時長" name="EstimatedTime" />
+    <text value="事件" name="Event" />
     <text value="日程事件類型" name="EventType" />
     <text value="您的行政用章申請，[{0}]已經蓋章." name="ExaminationAndApprovalOfAdministrativeSeal" />
     <text value="您申請的行政用章已通過[{0}]的審核,正在等待蓋章人進行蓋章." name="ExaminationAndApprovalOfAdministrativeUse" />
@@ -1417,7 +1418,9 @@
     <text value="點擊查看幫助文檔" name="HelpTitle" />
     <text value="隱藏高級過濾" name="HideAdvancedFilters" />
     <text value="隱藏二維碼" name="HideQRCode" />
+    <text value="您好！當前案件存在利益衝突％s條" name="HintCaseConflictCnt" />
     <text value="清除緩存後，您下載的文件和圖片將刪除，請謹慎操作。" name="HintClearCache" />
+    <text value="更換案件將會清除附件" name="HintClearDocReview" />
     <text value="( 創建客戶或選擇已有客戶 )" name="HintCreateOrSelectClient" />
     <text value="( 創建項目或選擇已有項目 )" name="HintCreateOrSelectProject" />
     <text value="( 創建階段或選擇已有階段 )" name="HintCreateOrSelectStage" />
@@ -2219,6 +2222,7 @@
     <text value="合同管理" name="Pages.Financial.Contracts.Manage" />
     <text value="我的合同" name="Pages.Financial.Contracts.MyContracts" />
     <text value="運營成本" name="Pages.Financial.Costs" />
+    <text value="支出錄入" name="Pages.Financial.Costs.Expenditures.Create" />
     <text value="支出管理" name="Pages.Financial.Costs.Expenditures.Manage" />
     <text value="我的支出" name="Pages.Financial.Costs.Expenditures.MyExpenditures" />
     <text value="電子發票錄入" name="Pages.Financial.ElectronicInvoices.Create" />
@@ -2560,6 +2564,7 @@
     <text value="處理中" name="Processing" />
     <text value="處理等級" name="Processinglevel" />
     <text name="ProcessingWithThreeDot" />
+    <text value="流程回滾" name="ProcessRollback" />
     <text value="進程狀態" name="ProcessStatus" />
     <text name="ProcessTime" />
     <text value="專業" name="Profession" />
@@ -2939,6 +2944,7 @@
     <text value="發送郵件" name="SendEmail" />
     <text value="系統在幾十秒內向您發送一封郵件,用於激活您的用戶賬號，請接收並點擊郵件內容中的激活鏈接。" name="SendEmailActivationLink_Information" />
     <text value="發送人" name="Sender" />
+    <text value="發送通知" name="SendNotification" />
     <text value="發送合夥人" name="SendPartner" />
     <text value="系統在幾十秒內向您發送一封密碼重置郵件，如果在3分鐘內還沒收到這封郵件，請重試." name="SendPasswordResetLink_Information" />
     <text value="請先驗證您的律所標識和郵箱地址" name="SendPasswordResetMessage" />
@@ -3321,7 +3327,7 @@
     <text value="默認使用Admin帳戶對應的帳號" name="TheAccountCorrespondingToTheAdminAccountIsUsedByDefault" />
     <text value="年度" name="TheAnnual" />
     <text value="賬單[{0}]{1}." name="TheBillNotify" />
-    <text value="該公民身份信息已存在！" name="TheCardNoHasAlreadyExisted" />
+    <text value="該身份證/統一社會信用程式碼資訊已存在！您無需重複錄入，請直接檢索引用。" name="TheCardNoHasAlreadyExisted" />
     <text value="您申請的案件文書[{0}]蓋章,未通過{1}的審核." name="TheCaseFileIsNotStamped" />
     <text value="結案人退回" name="TheCaserReturned" />
     <text value="分類名稱已存在！" name="TheCategoryNameAlreadyExists" />
@@ -3436,7 +3442,9 @@
     <text value="業務小時總計" name="TotalBusinessHours" />
     <text value="收費總額" name="TotalCharge" />
     <text value="費用總金額" name="TotalChargeAmount" />
+    <text value="費用總計" name="TotalCost" />
     <text value="共{0}條數據" name="TotalData" />
+    <text value="扣減總計" name="TotalDeduction" />
     <text value="合計支出" name="TotalExpenditure" />
     <text value="固定成本合計" name="TotalFixedCosts" />
     <text value="合計小時" name="TotalHour" />

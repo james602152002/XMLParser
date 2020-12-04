@@ -1182,6 +1182,7 @@
     <text value="成立时间" name="Established" />
     <text value="预估到账日期" name="EstimateDateOfPayment" />
     <text value="预估时长" name="EstimatedTime" />
+    <text value="事件" name="Event" />
     <text value="日程事件类型" name="EventType" />
     <text value="您的行政用章申请，[{0}]已经盖章." name="ExaminationAndApprovalOfAdministrativeSeal" />
     <text value="您申请的行政用章已通过[{0}]的审核,正在等待盖章人进行盖章." name="ExaminationAndApprovalOfAdministrativeUse" />
@@ -1417,7 +1418,9 @@
     <text value="点击查看帮助文档" name="HelpTitle" />
     <text value="隐藏高级过滤" name="HideAdvancedFilters" />
     <text value="隐藏二维码" name="HideQRCode" />
+    <text value="您好！当前案件存在利益冲突%s条" name="HintCaseConflictCnt" />
     <text value="清除缓存后，您下载的文件和图片将删除，请谨慎操作。" name="HintClearCache" />
+    <text value="更换案件将会清除附件" name="HintClearDocReview" />
     <text value="( 创建客户或选择已有客户 )" name="HintCreateOrSelectClient" />
     <text value="( 创建项目或选择已有项目 )" name="HintCreateOrSelectProject" />
     <text value="( 创建阶段或选择已有阶段 )" name="HintCreateOrSelectStage" />
@@ -2219,6 +2222,7 @@
     <text value="合同管理" name="Pages.Financial.Contracts.Manage" />
     <text value="我的合同" name="Pages.Financial.Contracts.MyContracts" />
     <text value="运营成本" name="Pages.Financial.Costs" />
+    <text value="支出录入" name="Pages.Financial.Costs.Expenditures.Create" />
     <text value="支出管理" name="Pages.Financial.Costs.Expenditures.Manage" />
     <text value="我的支出" name="Pages.Financial.Costs.Expenditures.MyExpenditures" />
     <text value="电子发票录入" name="Pages.Financial.ElectronicInvoices.Create" />
@@ -2560,6 +2564,7 @@
     <text value="处理中" name="Processing" />
     <text value="处理等级" name="Processinglevel" />
     <text value="处理中..." name="ProcessingWithThreeDot" />
+    <text value="流程回滚" name="ProcessRollback" />
     <text value="进程状态" name="ProcessStatus" />
     <text value="处理时间" name="ProcessTime" />
     <text value="专业" name="Profession" />
@@ -2939,6 +2944,7 @@
     <text value="发送邮件" name="SendEmail" />
     <text value="系统在几十秒内向您发送一封邮件,用于激活您的用户账号，请接收并点击邮件内容中的激活链接。如果在2分钟内还没收到这封邮件，请重试." name="SendEmailActivationLink_Information" />
     <text value="发送人" name="Sender" />
+    <text value="发送通知" name="SendNotification" />
     <text value="发送合伙人" name="SendPartner" />
     <text value="系统在几十秒内向您发送一封密码重置邮件，如果在3分钟内还没收到这封邮件，请重试." name="SendPasswordResetLink_Information" />
     <text value="请先验证您的律所标识和邮箱地址" name="SendPasswordResetMessage" />
@@ -3321,7 +3327,7 @@
     <text value="默认使用Admin账户对应的账号" name="TheAccountCorrespondingToTheAdminAccountIsUsedByDefault" />
     <text value="年度" name="TheAnnual" />
     <text value="账单[{0}]{1}." name="TheBillNotify" />
-    <text value="该公民身份信息已存在！您无需重复录入，请直接检索引用" name="TheCardNoHasAlreadyExisted" />
+    <text value="该身份证/统一社会信用代码信息已存在！您无需重复录入，请直接检索引用。" name="TheCardNoHasAlreadyExisted" />
     <text value="您申请的案件文书[{0}]盖章,未通过{1}的审核." name="TheCaseFileIsNotStamped" />
     <text value="结案审核人退回" name="TheCaserReturned" />
     <text value="分类名称已存在！" name="TheCategoryNameAlreadyExists" />
@@ -3436,7 +3442,9 @@
     <text value="业务小时总计" name="TotalBusinessHours" />
     <text value="收费总额" name="TotalCharge" />
     <text value="费用总金额" name="TotalChargeAmount" />
+    <text value="费用总计" name="TotalCost" />
     <text value="共{0}条数据" name="TotalData" />
+    <text value="扣减总计" name="TotalDeduction" />
     <text value="合计支出" name="TotalExpenditure" />
     <text value="固定成本合计" name="TotalFixedCosts" />
     <text value="合计小时" name="TotalHour" />
