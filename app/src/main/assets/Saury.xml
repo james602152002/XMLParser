@@ -773,6 +773,7 @@
     <text value="Contract period" name="ContractDeadline" />
     <text value="Contract Deadline Date" name="ContractDeadlineDate" />
     <text value="Contract document" name="ContractDocument" />
+    <text value="Contract expires" name="ContractExpires" />
     <text value="Contract information" name="ContractInfo" />
     <text value="Return of contract" name="ContractIsRejected" />
     <text value="Convert to personal template" name="ConvertToPersonalTemplate" />
@@ -1203,6 +1204,7 @@
     <text value="Expense entry" name="ExpenditureEntry" />
     <text value="Expenditure Information Sheet" name="ExpenditureInformationSheet" />
     <text value="Task time-consuming" name="ExpenditureOfTime" />
+    <text value="Expense details" name="ExpenseDetails" />
     <text value="Cost information" name="ExpenseInfomration" />
     <text value="Cost information table" name="ExpenseInformationSheet" />
     <text value="Expense review" name="ExpenseReview" />
@@ -3610,6 +3612,7 @@
     <text value="Upload new cover" name="UploadNewCover" />
     <text value="upload picture" name="UploadPicture" />
     <text value="upload image" name="UploadPictures" />
+    <text value="Upload Result" name="UploadResult" />
     <text value="Successful upload" name="UploadSuccess" />
     <text value="Upload successful." name="UploadSuccessfully" />
     <text value="Urban construction and surcharge" name="UrbanConstructionAndSurcharge" />
@@ -3761,6 +3764,8 @@
     <text value="Withdrawal" name="Withdrawal" />
     <text value="Withdrawal time" name="WithdrawalTime" />
     <text value="Withdrawal person" name="WithdrawalUser" />
+    <text value="Withdrawal end time" name="WithdrawEndTime" />
+    <text value="Withdrawal start time" name="WithdrawStartTime" />
     <text value="Without any condition" name="WithoutAnyCondition" />
     <text value="A folder with the same name already exists in the current directory" name="WithTheSameNameAlreadyExistsUnderTheCurrentDirectory" />
     <text value="Filing - pending conflict search" name="WN.Business.CaseCheck.Created" />
@@ -3790,6 +3795,7 @@
     <text value="Working date format is incorrect" name="WorkDateFormatValidation" />
     <text value="work experience" name="WorkExperience" />
     <text value="Workflow" name="Workflow" />
+    <text value="Reminder of deduction of working hours" name="WorkHoursDeductionNotification" />
     <text value="Working days" name="WorkingDays" />
     <text value="Working years" name="WorkingLife" />
     <text value="Project" name="WorkItem" />

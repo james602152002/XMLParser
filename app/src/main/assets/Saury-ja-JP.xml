@@ -773,6 +773,7 @@
     <text value="契約期間" name="ContractDeadline" />
     <text value="契約の締め切り" name="ContractDeadlineDate" />
     <text value="契約書類" name="ContractDocument" />
+    <text value="契約の有効期限が切れます" name="ContractExpires" />
     <text value="契約情報" name="ContractInfo" />
     <text value="契約の復帰" name="ContractIsRejected" />
     <text value="個人用テンプレートに変換する" name="ConvertToPersonalTemplate" />
@@ -1203,6 +1204,7 @@
     <text value="経費入力" name="ExpenditureEntry" />
     <text value="経費情報シート" name="ExpenditureInformationSheet" />
     <text value="タスクに時間がかかる" name="ExpenditureOfTime" />
+    <text value="費用の詳細" name="ExpenseDetails" />
     <text value="費用情報" name="ExpenseInfomration" />
     <text value="コスト情報テーブル" name="ExpenseInformationSheet" />
     <text value="経費精査" name="ExpenseReview" />
@@ -3610,6 +3612,7 @@
     <text value="新しいカバーをアップロードする" name="UploadNewCover" />
     <text value="画像のアップロード" name="UploadPicture" />
     <text value="写真をアップロードする" name="UploadPictures" />
+    <text value="結果をアップロード" name="UploadResult" />
     <text value="アップロードの成功" name="UploadSuccess" />
     <text value="アップロードは成功しました。" name="UploadSuccessfully" />
     <text value="都市建設と追加料金" name="UrbanConstructionAndSurcharge" />
@@ -3761,6 +3764,8 @@
     <text value="撤退" name="Withdrawal" />
     <text value="引き出し時間" name="WithdrawalTime" />
     <text value="出金者" name="WithdrawalUser" />
+    <text value="撤退終了時間" name="WithdrawEndTime" />
+    <text value="撤退開始時間" name="WithdrawStartTime" />
     <text value="条件なし" name="WithoutAnyCondition" />
     <text value="同じ名前のフォルダがカレントディレクトリに既に存在します" name="WithTheSameNameAlreadyExistsUnderTheCurrentDirectory" />
     <text value="提起中の競合検索" name="WN.Business.CaseCheck.Created" />
@@ -3790,6 +3795,7 @@
     <text value="作業日の形式が正しくありません" name="WorkDateFormatValidation" />
     <text value="職務経験" name="WorkExperience" />
     <text value="ワークフロー" name="Workflow" />
+    <text value="労働時間の控除のリマインダー" name="WorkHoursDeductionNotification" />
     <text value="作業日数" name="WorkingDays" />
     <text value="勤続年数" name="WorkingLife" />
     <text value="アイテム" name="WorkItem" />

@@ -773,6 +773,7 @@
     <text value="合同期限" name="ContractDeadline" />
     <text value="合同截止日期" name="ContractDeadlineDate" />
     <text value="合同文档" name="ContractDocument" />
+    <text value="合同到期" name="ContractExpires" />
     <text value="合同信息" name="ContractInfo" />
     <text value="合同退回" name="ContractIsRejected" />
     <text value="转换为个人模板" name="ConvertToPersonalTemplate" />
@@ -1203,6 +1204,7 @@
     <text value="支出录入" name="ExpenditureEntry" />
     <text value="支出信息表" name="ExpenditureInformationSheet" />
     <text value="任务耗时" name="ExpenditureOfTime" />
+    <text value="支出详情" name="ExpenseDetails" />
     <text value="费用信息" name="ExpenseInfomration" />
     <text value="费用信息表" name="ExpenseInformationSheet" />
     <text value="费用审核" name="ExpenseReview" />
@@ -3610,6 +3612,7 @@
     <text value="上传新封面" name="UploadNewCover" />
     <text value="图片上传" name="UploadPicture" />
     <text value="上传图片" name="UploadPictures" />
+    <text value="上传结果" name="UploadResult" />
     <text value="上传成功" name="UploadSuccess" />
     <text value="上传成功." name="UploadSuccessfully" />
     <text value="城建及附加税" name="UrbanConstructionAndSurcharge" />
@@ -3761,6 +3764,8 @@
     <text value="提款" name="Withdrawal" />
     <text value="提款时间" name="WithdrawalTime" />
     <text value="提款人" name="WithdrawalUser" />
+    <text value="提款结束时间" name="WithdrawEndTime" />
+    <text value="提款开始时间" name="WithdrawStartTime" />
     <text value="无任何条件" name="WithoutAnyCondition" />
     <text value="当前目录下已存在同名的文件夹" name="WithTheSameNameAlreadyExistsUnderTheCurrentDirectory" />
     <text value="立案-待冲突检索" name="WN.Business.CaseCheck.Created" />
@@ -3790,6 +3795,7 @@
     <text value="工作日期格式不正确" name="WorkDateFormatValidation" />
     <text value="工作经历" name="WorkExperience" />
     <text value="工作流" name="Workflow" />
+    <text value="扣减工时提醒" name="WorkHoursDeductionNotification" />
     <text value="应工作天数" name="WorkingDays" />
     <text value="工作年限" name="WorkingLife" />
     <text value="项目" name="WorkItem" />
