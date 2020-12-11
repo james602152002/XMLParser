@@ -339,6 +339,7 @@
     <text value="회계 연도의 시작 달" name="BeginningOfTheFiscalYear" />
     <text value="사순절" name="BeLent" />
     <text value="소유자" name="Belonger" />
+    <text value="수익자" name="Beneficiary" />
     <text value="입찰 사례 [{0}]이 (가) 충돌 검색을 기다리고 있습니다." name="BidCaseWaitingForYouToPerformConflictRetrieval" />
     <text value="입찰 날짜" name="BidDate" />
     <text value="입찰" name="Bidding" />
@@ -528,6 +529,7 @@
     <text value="가공" name="CaseProcessing" />
     <text value="사례 프로젝트" name="CaseProject" />
     <text value="케이스 취소" name="CaseRemove" />
+    <text value="" name="CaseReportFailed" />
     <text value="사례 결과 및 분석" name="CaseResultsAndAnalysis" />
     <text value="사례 이전 정보" name="CaseReversalInformation" />
     <text value="사례 검토" name="CaseReview" />
@@ -661,6 +663,7 @@
     <text value="인바운드 고객 {0}이 (가) 충돌 검색을 기다리고 있습니다" name="ClientWaitingForYouConflictSearch" />
     <text value="신청 한웨어 하우징 고객 {0}이 (가)웨어 하우징을 확인했습니다." name="ClientYouAppliedHasBeenCorrected" />
     <text value="휴무일" name="Close" />
+    <text value="" name="ClosedCaseReportedSuccess" />
     <text value="알림 닫기" name="CloseToRemind" />
     <text value="응용 프로그램 도움말 정보 닫기" name="ClosingApplicationHelpsInformation" />
     <text value="마감일" name="ClosingCaseDate" />
@@ -743,6 +746,7 @@
     <text value="선택 확인" name="Confirmselection" />
     <text value="{0}이 (가) 귀하의 할당 된 작업 [{1}]에 대한 참여를 확인했습니다." name="ConfirmTasksAssignedByYou" />
     <text value="감사 결과를 확인 하시겠습니까?" name="ConfirmTheReviewResult" />
+    <text value="" name="ConfirmToCancelTheReport" />
     <text value="회의 참여 확인" name="ConfirmWhetherParticipateMeeting" />
     <text value="과제 참여 확인" name="ConfirmWhetherParticipateTask" />
     <text value="%s 개의 이해 상충이 있습니다 (세부 정보 참조)." name="ConflictCntWithSeeDetails" />
@@ -2023,6 +2027,7 @@
     <text value="죄송합니다. 작업의 참가자 목록에 없습니다. 작업을 삭제할 수있는 권한이 없습니다." name="NotInTaskParticipants" />
     <text value="비본소 프로젝트" name="NotOurProject" />
     <text value="삭제 후이 작업에 더 이상 관여하지 않습니다." name="NotParticipateInTaskAfterDeletion" />
+    <text value="보고되지 않음" name="NotReported" />
     <text name="NotSelected" />
     <text value="설정되지 않음" name="NotSet" />
     <text value="허용되지 않음" name="NotToAccept" />
@@ -2207,6 +2212,7 @@
     <text value="할당 관리" name="Pages.Financial.Allocations.Manage" />
     <text value="내 수입" name="Pages.Financial.Allocations.MyAllocations" />
     <text value="내 할당" name="Pages.Financial.Allocations.MyReceipts" />
+    <text value="할당 설정" name="Pages.Financial.Allocations.Settings" />
     <text value="결제 관리" name="Pages.Financial.Billings" />
     <text value="청구서 검토" name="Pages.Financial.Billings.AuditBillings" />
     <text value="청구 항목" name="Pages.Financial.Billings.Create" />
@@ -2727,6 +2733,7 @@
     <text value="시간 다시 알림" name="ReminderTime" />
     <text value="미리 알림" name="RemindInAdvance" />
     <text value="변호사를 상기시킵니다." name="RemindingTheLawyer" />
+    <text value="" name="RemoteCaseReportDeleted" />
     <text name="Remove" />
     <text value="기본 디렉토리 {1}에서 역할 {0}을 (를) 제거 하시겠습니까?" name="RemoveRoleFromFolderWarningMessage" />
     <text value="{1} 조직에서 {0} 역할을 삭제 하시겠습니까?" name="RemoveRoleFromOuWarningMessage" />
@@ -2737,6 +2744,7 @@
     <text value="폴더 이름 바꾸기" name="RenamingFolders" />
     <text value="상환" name="Repayment" />
     <text value="답글" name="Reply" />
+    <text value="" name="ReportedCasesConfirmed" />
     <text value="대행사 결과" name="RepresentativeResults" />
     <text value="요청한 파일이 존재하지 않습니다!" name="RequestedFileDoesNotExists" />
     <text value="신청을 떠나라." name="RequestForLeave" />
@@ -3164,6 +3172,7 @@
     <text value="성공적인 전송." name="SuccessfullyMoved" />
     <text value="성공적인 등록" name="SuccessfullyRegistered" />
     <text value="성공적으로 제거되었습니다." name="SuccessfullyRemoved" />
+    <text value="성공적으로보고" name="SuccessfullyReported" />
     <text value="성공적으로 저장되었습니다." name="SuccessfullySaved" />
     <text value="성공적으로 연결 해제 됨" name="SuccessfullyUnlinked" />
     <text value="성공적인 사전 제출" name="SuccessfulPreFiling" />
@@ -3192,6 +3201,7 @@
     <text value="이 계정은 Admin 계정에 바인딩 된 타사 동기화 계정에 속하며 주로 동기화 설정 작업에 사용됩니다. 일단 바인딩을 해제하면 동기화 할 수 없습니다.주의하십시오." name="SyncAccountUnbindSarning" />
     <text value="동기화 설정을 신중하게 선택하고 모든 사례가 변경된 경우에만 지역 정보를 읽으십시오." name="SyncChangeSettingsSarning" />
     <text value="귀하의 동의를 얻지 못하면 귀하는 귀하의 동의를 얻지 못하게됩니다." name="SyncChangeSettingsWarning" />
+    <text value="" name="SyncCreationTime" />
     <text value="동기화" name="Synchronize" />
     <text value="동기화 설정" name="SyncSetting" />
     <text value="성공적으로 동기화" name="SyncSuccess" />
@@ -3755,6 +3765,7 @@
     <text value="추천" name="WhetherToRecommend" />
     <text value="상기 시킬지 여부" name="WhetherToRemind" />
     <text value="스탬프 반복 적용 여부" name="WhetherToRepeatedStamps" />
+    <text value="" name="WhetherToReportCloseCase" />
     <text value="감사를 보내시겠습니까?" name="WhetherToSendAnAudit" />
     <text value="재무 감사로 전송됩니까?" name="WhetherToSendToFinancialAudit" />
     <text value="녹화 시작 여부" name="WhetherToStartRecording" />

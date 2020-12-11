@@ -339,6 +339,7 @@
     <text value="财政年度开始月份" name="BeginningOfTheFiscalYear" />
     <text value="被借出" name="BeLent" />
     <text value="所属人" name="Belonger" />
+    <text value="收款方" name="Beneficiary" />
     <text value="投标案件[{0}]等待您进行冲突检索." name="BidCaseWaitingForYouToPerformConflictRetrieval" />
     <text value="投标日期" name="BidDate" />
     <text value="招投标" name="Bidding" />
@@ -528,6 +529,7 @@
     <text value="办理中" name="CaseProcessing" />
     <text value="案件项目" name="CaseProject" />
     <text value="案件取消" name="CaseRemove" />
+    <text value="案件上报失败" name="CaseReportFailed" />
     <text value="案件结果及分析" name="CaseResultsAndAnalysis" />
     <text value="案件流转信息" name="CaseReversalInformation" />
     <text value="案件审核" name="CaseReview" />
@@ -661,6 +663,7 @@
     <text value="入库客户{0}等待您进行冲突检索" name="ClientWaitingForYouConflictSearch" />
     <text value="您申请的入库客户{0}已确认入库。" name="ClientYouAppliedHasBeenCorrected" />
     <text value="关闭" name="Close" />
+    <text value="结案上报成功" name="ClosedCaseReportedSuccess" />
     <text value="关闭提醒" name="CloseToRemind" />
     <text value="结案申请帮助信息" name="ClosingApplicationHelpsInformation" />
     <text value="结案日期" name="ClosingCaseDate" />
@@ -743,6 +746,7 @@
     <text value="确认选择" name="Confirmselection" />
     <text value="{0}确认了参与您分配的任务[{1}]." name="ConfirmTasksAssignedByYou" />
     <text value="确认审核结果？" name="ConfirmTheReviewResult" />
+    <text value="是否确认撤销上报？" name="ConfirmToCancelTheReport" />
     <text value="确认是否参与会议" name="ConfirmWhetherParticipateMeeting" />
     <text value="确认是否参与任务" name="ConfirmWhetherParticipateTask" />
     <text value="存在利益冲突 %s 条(查看详情)" name="ConflictCntWithSeeDetails" />
@@ -2023,6 +2027,7 @@
     <text value="对不起，您不在任务的参与人列表里，没有删除该任务的权限！" name="NotInTaskParticipants" />
     <text value="非本所项目" name="NotOurProject" />
     <text value="删除后您将不再参与该任务" name="NotParticipateInTaskAfterDeletion" />
+    <text value="未上报" name="NotReported" />
     <text value="未选择" name="NotSelected" />
     <text value="未设置" name="NotSet" />
     <text value="未受理" name="NotToAccept" />
@@ -2207,6 +2212,7 @@
     <text value="分配管理" name="Pages.Financial.Allocations.Manage" />
     <text value="我的创收" name="Pages.Financial.Allocations.MyAllocations" />
     <text value="我的分配" name="Pages.Financial.Allocations.MyReceipts" />
+    <text value="分配设置" name="Pages.Financial.Allocations.Settings" />
     <text value="账单管理" name="Pages.Financial.Billings" />
     <text value="账单审核" name="Pages.Financial.Billings.AuditBillings" />
     <text value="账单录入" name="Pages.Financial.Billings.Create" />
@@ -2727,6 +2733,7 @@
     <text value="提醒时间" name="ReminderTime" />
     <text value="提前提醒" name="RemindInAdvance" />
     <text value="提醒律师" name="RemindingTheLawyer" />
+    <text value="远程上报已删除" name="RemoteCaseReportDeleted" />
     <text value="删除" name="Remove" />
     <text value="您确定要从基本目录{1}中移除角色{0}吗？" name="RemoveRoleFromFolderWarningMessage" />
     <text value="您确定要从组织机构 {1} 中删除角色 {0} ?" name="RemoveRoleFromOuWarningMessage" />
@@ -2737,6 +2744,7 @@
     <text value="重命名文件夹" name="RenamingFolders" />
     <text value="还款" name="Repayment" />
     <text value="回复" name="Reply" />
+    <text value="已确认上报案件" name="ReportedCasesConfirmed" />
     <text value="代理结果" name="RepresentativeResults" />
     <text value="请求的文件不存在!" name="RequestedFileDoesNotExists" />
     <text value="请假申请" name="RequestForLeave" />
@@ -3164,6 +3172,7 @@
     <text value="移动成功" name="SuccessfullyMoved" />
     <text value="注册成功" name="SuccessfullyRegistered" />
     <text value="删除成功" name="SuccessfullyRemoved" />
+    <text value="上报成功" name="SuccessfullyReported" />
     <text value="保存成功." name="SuccessfullySaved" />
     <text value="关联成功" name="SuccessfullyUnlinked" />
     <text value="预立案成功" name="SuccessfulPreFiling" />
@@ -3192,6 +3201,7 @@
     <text value="此账号属于Admin账号下所绑定的第三方同步账号，主要用于同步设置操作，一旦解绑将无法进行同步操作，请谨慎操作！" name="SyncAccountUnbindSarning" />
     <text value="请谨慎选择同步设置，一旦更改之前所有的案件只会读取本地信息。" name="SyncChangeSettingsSarning" />
     <text value="是否确认更改当前同步设置，若改成第三方同步，此时会在Admin账号所绑定的第三方账号下生成同步文件夹和文件。" name="SyncChangeSettingsWarning" />
+    <text value="上报时间" name="SyncCreationTime" />
     <text value="同步" name="Synchronize" />
     <text value="同步设置" name="SyncSetting" />
     <text value="同步成功" name="SyncSuccess" />
@@ -3755,6 +3765,7 @@
     <text value="是否推荐" name="WhetherToRecommend" />
     <text value="是否提醒" name="WhetherToRemind" />
     <text value="是否允许重复申请盖章" name="WhetherToRepeatedStamps" />
+    <text value="是否确认上报结案？" name="WhetherToReportCloseCase" />
     <text value="是否确认发送审核？" name="WhetherToSendAnAudit" />
     <text value="是否发送给财务审核" name="WhetherToSendToFinancialAudit" />
     <text value="是否开启录音" name="WhetherToStartRecording" />

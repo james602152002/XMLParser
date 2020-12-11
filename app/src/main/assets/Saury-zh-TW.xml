@@ -339,6 +339,7 @@
     <text value="財政年度開始月份" name="BeginningOfTheFiscalYear" />
     <text value="被借出" name="BeLent" />
     <text value="所屬人" name="Belonger" />
+    <text value="收款方" name="Beneficiary" />
     <text value="投標案件[{0}]等待您進行沖突檢索." name="BidCaseWaitingForYouToPerformConflictRetrieval" />
     <text value="投標日期" name="BidDate" />
     <text value="招投標" name="Bidding" />
@@ -528,6 +529,7 @@
     <text value="辦理中" name="CaseProcessing" />
     <text value="案件項目" name="CaseProject" />
     <text value="案件取消" name="CaseRemove" />
+    <text value="案件上報失敗" name="CaseReportFailed" />
     <text value="案件結果及分析" name="CaseResultsAndAnalysis" />
     <text value="案件流轉信息" name="CaseReversalInformation" />
     <text value="案件審核" name="CaseReview" />
@@ -661,6 +663,7 @@
     <text value="入庫客戶{0}等待您進行沖突檢索" name="ClientWaitingForYouConflictSearch" />
     <text value="您申請的入庫客戶{0}已確認入庫。" name="ClientYouAppliedHasBeenCorrected" />
     <text value="關閉" name="Close" />
+    <text value="結案上報成功" name="ClosedCaseReportedSuccess" />
     <text value="關閉提醒" name="CloseToRemind" />
     <text value="結案申請幫助信息" name="ClosingApplicationHelpsInformation" />
     <text value="結案日期" name="ClosingCaseDate" />
@@ -743,6 +746,7 @@
     <text value="確認選擇" name="Confirmselection" />
     <text value="{0}確認了參與您分配的任務[{1}]." name="ConfirmTasksAssignedByYou" />
     <text value="確認審核結果？" name="ConfirmTheReviewResult" />
+    <text value="是否確認撤銷上報？" name="ConfirmToCancelTheReport" />
     <text value="確認是否參與會議" name="ConfirmWhetherParticipateMeeting" />
     <text value="確認是否參與任務" name="ConfirmWhetherParticipateTask" />
     <text value="存在利益衝突 %s 條(查看詳情)" name="ConflictCntWithSeeDetails" />
@@ -2023,6 +2027,7 @@
     <text value="對不起，您不在任務的參與人列表裡，沒有刪除該任務的權限！" name="NotInTaskParticipants" />
     <text value="非本所項目" name="NotOurProject" />
     <text value="刪除後您將不再參與該任務" name="NotParticipateInTaskAfterDeletion" />
+    <text value="未上報" name="NotReported" />
     <text name="NotSelected" />
     <text value="未設置" name="NotSet" />
     <text value="未受理" name="NotToAccept" />
@@ -2207,6 +2212,7 @@
     <text value="分配管理" name="Pages.Financial.Allocations.Manage" />
     <text value="我的創收" name="Pages.Financial.Allocations.MyAllocations" />
     <text value="我的分配" name="Pages.Financial.Allocations.MyReceipts" />
+    <text value="分配設置" name="Pages.Financial.Allocations.Settings" />
     <text value="賬單管理" name="Pages.Financial.Billings" />
     <text value="賬單審核" name="Pages.Financial.Billings.AuditBillings" />
     <text value="賬單錄入" name="Pages.Financial.Billings.Create" />
@@ -2727,6 +2733,7 @@
     <text value="提醒時間" name="ReminderTime" />
     <text value="提前提醒" name="RemindInAdvance" />
     <text value="提醒律師" name="RemindingTheLawyer" />
+    <text value="遠程上報已刪除" name="RemoteCaseReportDeleted" />
     <text name="Remove" />
     <text value="您確定要從基本目錄{1}中移除角色{0}嗎？" name="RemoveRoleFromFolderWarningMessage" />
     <text value="您確定要從組織機構 {1} 中刪除角色 {0} ?" name="RemoveRoleFromOuWarningMessage" />
@@ -2737,6 +2744,7 @@
     <text value="重命名文件夾" name="RenamingFolders" />
     <text value="還款" name="Repayment" />
     <text value="回复" name="Reply" />
+    <text value="已確認上報案件" name="ReportedCasesConfirmed" />
     <text value="代理結果" name="RepresentativeResults" />
     <text value="請求的文件不存在!" name="RequestedFileDoesNotExists" />
     <text value="請假申請" name="RequestForLeave" />
@@ -3164,6 +3172,7 @@
     <text value="轉移成功." name="SuccessfullyMoved" />
     <text value="註冊成功" name="SuccessfullyRegistered" />
     <text value="移除成功" name="SuccessfullyRemoved" />
+    <text value="上報成功" name="SuccessfullyReported" />
     <text value="保存成功." name="SuccessfullySaved" />
     <text value="成功取消關聯" name="SuccessfullyUnlinked" />
     <text value="預立案成功" name="SuccessfulPreFiling" />
@@ -3192,6 +3201,7 @@
     <text value="此賬號屬於Admin賬號下所綁定的第三方同步賬號，主要用於同步設置操作，一旦解綁將無法進行同步操作，請謹慎操作！" name="SyncAccountUnbindSarning" />
     <text value="請謹慎選擇同步設置，一旦更改之前所有的案件只會讀取本地信息。" name="SyncChangeSettingsSarning" />
     <text value="是否確認更改當前同步設置，若改成第三方同步，此時會在管理員賬號所綁定的第三方賬號下生成同步文件夾和文件。" name="SyncChangeSettingsWarning" />
+    <text value="上报時間" name="SyncCreationTime" />
     <text value="同步" name="Synchronize" />
     <text value="同步設置" name="SyncSetting" />
     <text value="同步成功" name="SyncSuccess" />
@@ -3755,6 +3765,7 @@
     <text value="是否推薦" name="WhetherToRecommend" />
     <text value="是否提醒" name="WhetherToRemind" />
     <text value="是否允許重複申請蓋章" name="WhetherToRepeatedStamps" />
+    <text value="是否確認上報結案" name="WhetherToReportCloseCase" />
     <text value="是否確認發送審核？" name="WhetherToSendAnAudit" />
     <text value="是否發送給財務審核" name="WhetherToSendToFinancialAudit" />
     <text value="是否開啟錄音" name="WhetherToStartRecording" />

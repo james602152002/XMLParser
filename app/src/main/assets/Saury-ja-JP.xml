@@ -339,6 +339,7 @@
     <text value="会計年度の開始月" name="BeginningOfTheFiscalYear" />
     <text value="借りた" name="BeLent" />
     <text value="所有者" name="Belonger" />
+    <text value="受益者" name="Beneficiary" />
     <text value="入札ケース[{0}]は競合検索を待っています。" name="BidCaseWaitingForYouToPerformConflictRetrieval" />
     <text value="入札日" name="BidDate" />
     <text value="入札" name="Bidding" />
@@ -528,6 +529,7 @@
     <text value="処理" name="CaseProcessing" />
     <text value="ケースプロジェクト" name="CaseProject" />
     <text value="ケースのキャンセル" name="CaseRemove" />
+    <text value="案件上報失敗" name="CaseReportFailed" />
     <text value="ケースの結果と分析" name="CaseResultsAndAnalysis" />
     <text value="ケース転送情報" name="CaseReversalInformation" />
     <text value="ケースレビュー" name="CaseReview" />
@@ -661,6 +663,7 @@
     <text value="インバウンド顧客{0}が競合検索を待っています" name="ClientWaitingForYouConflictSearch" />
     <text value="申し込んだ倉庫​​保管顧客{0}が倉庫保管を確認しました。" name="ClientYouAppliedHasBeenCorrected" />
     <text value="クローズド" name="Close" />
+    <text value="結案上報成功" name="ClosedCaseReportedSuccess" />
     <text value="リマインダを閉じる" name="CloseToRemind" />
     <text value="アプリケーションヘルプ情報を閉じる" name="ClosingApplicationHelpsInformation" />
     <text value="終了日" name="ClosingCaseDate" />
@@ -743,6 +746,7 @@
     <text value="選択を確認" name="Confirmselection" />
     <text value="{0}は割り当てられたタスク[{1}]への参加を確認しました。" name="ConfirmTasksAssignedByYou" />
     <text value="監査結果を確認しますか？" name="ConfirmTheReviewResult" />
+    <text value="是否確認撤銷上報？" name="ConfirmToCancelTheReport" />
     <text value="会議への参加を確認する" name="ConfirmWhetherParticipateMeeting" />
     <text value="タスクへの参加を確認する" name="ConfirmWhetherParticipateTask" />
     <text value="%sの利害の衝突があります（詳細を参照）" name="ConflictCntWithSeeDetails" />
@@ -2023,6 +2027,7 @@
     <text value="申し訳ありませんが、あなたはタスクの参加者リストにいません。タスクを削除する権限がありません！" name="NotInTaskParticipants" />
     <text value="本所ではない" name="NotOurProject" />
     <text value="削除後もこの作業には関与しなくなります" name="NotParticipateInTaskAfterDeletion" />
+    <text value="報告されていない" name="NotReported" />
     <text name="NotSelected" />
     <text value="設定されていない" name="NotSet" />
     <text value="受け入れられない" name="NotToAccept" />
@@ -2207,6 +2212,7 @@
     <text value="割り当て管理" name="Pages.Financial.Allocations.Manage" />
     <text value="私の収入" name="Pages.Financial.Allocations.MyAllocations" />
     <text value="私の割り当て" name="Pages.Financial.Allocations.MyReceipts" />
+    <text value="割り当て設定" name="Pages.Financial.Allocations.Settings" />
     <text value="請求管理" name="Pages.Financial.Billings" />
     <text value="請求書レビュー" name="Pages.Financial.Billings.AuditBillings" />
     <text value="請求書入力" name="Pages.Financial.Billings.Create" />
@@ -2727,6 +2733,7 @@
     <text value="時間を思い出させる" name="ReminderTime" />
     <text value="前もって思い出させる" name="RemindInAdvance" />
     <text value="弁護士に思い出させる" name="RemindingTheLawyer" />
+    <text value="遠程上報已刪除" name="RemoteCaseReportDeleted" />
     <text name="Remove" />
     <text value="ベースディレクトリ{1}から役割{0}を削除してもよろしいですか？" name="RemoveRoleFromFolderWarningMessage" />
     <text value="組織{1}からロール{0}を削除してもよろしいですか？" name="RemoveRoleFromOuWarningMessage" />
@@ -2737,6 +2744,7 @@
     <text value="フォルダの名前を変更する" name="RenamingFolders" />
     <text value="返済" name="Repayment" />
     <text value="返信" name="Reply" />
+    <text value="已確認上報案件" name="ReportedCasesConfirmed" />
     <text value="代理店の結果" name="RepresentativeResults" />
     <text value="要求されたファイルは存在しません！" name="RequestedFileDoesNotExists" />
     <text value="去る" name="RequestForLeave" />
@@ -3164,6 +3172,7 @@
     <text value="転送に成功しました。" name="SuccessfullyMoved" />
     <text value="成功した登録" name="SuccessfullyRegistered" />
     <text value="削除されました" name="SuccessfullyRemoved" />
+    <text value="正常に報告されました" name="SuccessfullyReported" />
     <text value="成功裏に保存されました。" name="SuccessfullySaved" />
     <text value="正常にリンク解除されました" name="SuccessfullyUnlinked" />
     <text value="成功したプレファイリング" name="SuccessfulPreFiling" />
@@ -3192,6 +3201,7 @@
     <text value="このアカウントは、管理者アカウントにバインドされているサードパーティの同期アカウントに属しており、主に同期設定操作に使用されます。一度バインド解除すると、同期することができなくなります。" name="SyncAccountUnbindSarning" />
     <text value="同期設定を慎重に選択し、すべてのケースが変更されたら、ローカル情報のみを読んでください。" name="SyncChangeSettingsSarning" />
     <text value="現在の設定が変更されたことを確認したかどうかにかかわらず、サードパーティを変更する場合は、アドミニストレーターで設定されたサードパーティのコードを使用して、次のようにすることができます。" name="SyncChangeSettingsWarning" />
+    <text value="上报時間" name="SyncCreationTime" />
     <text value="同期する" name="Synchronize" />
     <text value="同期設定" name="SyncSetting" />
     <text value="同期しました" name="SyncSuccess" />
@@ -3755,6 +3765,7 @@
     <text value="おすすめ" name="WhetherToRecommend" />
     <text value="思い出させるかどうか" name="WhetherToRemind" />
     <text value="スタンプの繰り返し適用を許可するかどうか" name="WhetherToRepeatedStamps" />
+    <text value="是否確認上報結案" name="WhetherToReportCloseCase" />
     <text value="監査を送信してもよろしいですか？" name="WhetherToSendAnAudit" />
     <text value="財務監査に送られますか？" name="WhetherToSendToFinancialAudit" />
     <text value="録音を開始するかどうか" name="WhetherToStartRecording" />

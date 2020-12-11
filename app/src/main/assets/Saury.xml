@@ -339,6 +339,7 @@
     <text value="Starting month of fiscal year" name="BeginningOfTheFiscalYear" />
     <text value="Lent" name="BeLent" />
     <text value="Owner" name="Belonger" />
+    <text value="Beneficiary" name="Beneficiary" />
     <text value="The bidding case [{0}] is waiting for your conflict search." name="BidCaseWaitingForYouToPerformConflictRetrieval" />
     <text value="Bid date" name="BidDate" />
     <text value="Bidding" name="Bidding" />
@@ -528,6 +529,7 @@
     <text value="Processing" name="CaseProcessing" />
     <text value="Case Project" name="CaseProject" />
     <text value="Cancellation of case" name="CaseRemove" />
+    <text value="Case report failed" name="CaseReportFailed" />
     <text value="Case results and analysis" name="CaseResultsAndAnalysis" />
     <text value="Case transfer information" name="CaseReversalInformation" />
     <text value="Case Review" name="CaseReview" />
@@ -661,6 +663,7 @@
     <text value="Inbound customer {0} is waiting for your conflict search" name="ClientWaitingForYouConflictSearch" />
     <text value="The warehousing customer {0} you applied for has confirmed warehousing." name="ClientYouAppliedHasBeenCorrected" />
     <text value="Close" name="Close" />
+    <text value="Case closed and reported successfully" name="ClosedCaseReportedSuccess" />
     <text value="Close reminder" name="CloseToRemind" />
     <text value="Closing application help information" name="ClosingApplicationHelpsInformation" />
     <text value="Closing date" name="ClosingCaseDate" />
@@ -743,6 +746,7 @@
     <text value="Confirm selection" name="Confirmselection" />
     <text value="{0} confirmed participation in your assigned task [{1}]." name="ConfirmTasksAssignedByYou" />
     <text value="Confirm the audit result?" name="ConfirmTheReviewResult" />
+    <text value="Confirm to cancel the report?" name="ConfirmToCancelTheReport" />
     <text value="Confirm participation in the meeting" name="ConfirmWhetherParticipateMeeting" />
     <text value="Confirm participation in the task" name="ConfirmWhetherParticipateTask" />
     <text value="There are %s conflicts of interest (see details)" name="ConflictCntWithSeeDetails" />
@@ -2023,6 +2027,7 @@
     <text value="Sorry, you are not in the participant list of the task. You do not have permission to delete the task!" name="NotInTaskParticipants" />
     <text value="Not Firm Project" name="NotOurProject" />
     <text value="You will no longer be involved in this task after deleting" name="NotParticipateInTaskAfterDeletion" />
+    <text value="NotReported" name="NotReported" />
     <text value="Not selected" name="NotSelected" />
     <text value="Not set" name="NotSet" />
     <text value="Not accepted" name="NotToAccept" />
@@ -2207,6 +2212,7 @@
     <text value="Assignment management" name="Pages.Financial.Allocations.Manage" />
     <text value="My income" name="Pages.Financial.Allocations.MyAllocations" />
     <text value="My allocation" name="Pages.Financial.Allocations.MyReceipts" />
+    <text value="Allocation settings" name="Pages.Financial.Allocations.Settings" />
     <text value="Billing Management" name="Pages.Financial.Billings" />
     <text value="Bill review" name="Pages.Financial.Billings.AuditBillings" />
     <text value="Bill entry" name="Pages.Financial.Billings.Create" />
@@ -2727,6 +2733,7 @@
     <text value="Remind time" name="ReminderTime" />
     <text value="Remind in advance" name="RemindInAdvance" />
     <text value="Remind the lawyer" name="RemindingTheLawyer" />
+    <text value="Remote escalation has been deleted" name="RemoteCaseReportDeleted" />
     <text value="Remove" name="Remove" />
     <text value="Are you sure you want to remove the role {0} from the base directory {1}?" name="RemoveRoleFromFolderWarningMessage" />
     <text value="Are you sure you want to delete role {0} from organization {1}?" name="RemoveRoleFromOuWarningMessage" />
@@ -2737,6 +2744,7 @@
     <text value="Rename folder" name="RenamingFolders" />
     <text value="Repayment" name="Repayment" />
     <text value="Reply" name="Reply" />
+    <text value="ReportedCasesConfirmed" name="ReportedCasesConfirmed" />
     <text value="Agency results" name="RepresentativeResults" />
     <text value="Requested file does not exist!" name="RequestedFileDoesNotExists" />
     <text value="Leave application" name="RequestForLeave" />
@@ -3164,6 +3172,7 @@
     <text value="Successfully moved." name="SuccessfullyMoved" />
     <text value="Successfully registered" name="SuccessfullyRegistered" />
     <text value="Successfully removed" name="SuccessfullyRemoved" />
+    <text value="Successfully reported" name="SuccessfullyReported" />
     <text value="Successfully saved." name="SuccessfullySaved" />
     <text value="Successfully unlinked" name="SuccessfullyUnlinked" />
     <text value="Successful pre-filing" name="SuccessfulPreFiling" />
@@ -3192,6 +3201,7 @@
     <text value="This account belongs to the third-party synchronization account bound to the Admin account. It is mainly used for synchronization setting operations. Once unbind, it cannot be synchronized. Please be cautious!" name="SyncAccountUnbindSarning" />
     <text value="Please choose the synchronization settings carefully and only read local information once all the cases have been changed." name="SyncChangeSettingsSarning" />
     <text value="Whether to confirm the change of the current synchronization settings, if it is changed to a third-party synchronization, the synchronization folder and files will be generated under the third-party account bound to the Admin account." name="SyncChangeSettingsWarning" />
+    <text value="Report Time" name="SyncCreationTime" />
     <text value="Synchronize" name="Synchronize" />
     <text value="Sync settings" name="SyncSetting" />
     <text value="Synchronized successfully" name="SyncSuccess" />
@@ -3755,6 +3765,7 @@
     <text value="Recommended" name="WhetherToRecommend" />
     <text value="Whether to remind" name="WhetherToRemind" />
     <text value="Whether to allow repeated application of stamps" name="WhetherToRepeatedStamps" />
+    <text value="Whether to confirm the report and close the case" name="WhetherToReportCloseCase" />
     <text value="Are you sure to send an audit?" name="WhetherToSendAnAudit" />
     <text value="Is it sent to financial audit" name="WhetherToSendToFinancialAudit" />
     <text value="Whether to start recording" name="WhetherToStartRecording" />
