@@ -1393,6 +1393,7 @@
     <text value="グレー" name="Grey" />
     <text value="チャート" name="GridRangesMap" />
     <text value="グループ化" name="GroupBy" />
+    <text value="戦略グループ" name="GroupPolicy" />
     <text value="成長する" name="Grow" />
     <text value="正常に処理されました" name="HandleASuccessful" />
     <text value="ハンギングダッシュボード" name="HangfireDashboard" />
@@ -1647,6 +1648,7 @@
     <text name="LatestPaymentAmount" />
     <text value="最新のアップロード" name="LatestUploaded" />
     <text value="法律事務所または組織コードは、2文字以上の数字、 - 、_、文字で始まります" name="LawCodeRegexDescription" />
+    <text value="法律事務所のライセンス番号" name="LawFirmLicenseNumber" />
     <text value="法律事務所のロゴ" name="LawFirmOrOrganizationCode" />
     <text value="法律事務所の名前" name="LawFirmOrOrganizationName" />
     <text value="法律事務所のウェブサイト" name="LawFirmWebsite" />
@@ -2157,6 +2159,7 @@
     <text value="ケースセンター" name="Pages.Business.Cases.CaseCenter" />
     <text value="ケースセンター" name="Pages.Business.Cases.CaseOrders" />
     <text value="事例登録" name="Pages.Business.Cases.Create" />
+    <text value="ビジネスケースレポート" name="Pages.Business.Cases.DataSync" />
     <text value="パフォーマンスクエリ" name="Pages.Business.Cases.Enquiry" />
     <text value="ケースマネジメント" name="Pages.Business.Cases.Manage" />
     <text value="私の場合" name="Pages.Business.Cases.MyCases" />
@@ -2501,7 +2504,9 @@
     <text value="網盤服務" name="PluginGroup.SkyDrive" />
     <text value="料金情報を追加してください" name="PlzAddChargeInfo" />
     <text value="費用情報を追加してください" name="PlzAddCoseInfo" />
+    <text value="請求書を追加してください" name="PlzAddInvoice" />
     <text value="レターオブジェクトを追加してください" name="PlzAddLetterObject" />
+    <text value="通常の料金情報を追加してください" name="PlzAddNormalChargeInfo" />
     <text value="利益相反情報を追加してください" name="PlzAddProfitConflictInfo" />
     <text value="料金および契約情報を確認してください" name="PlzConfirmChargeAndContractInfo" />
     <text value="顧客を作成または選択してください" name="PlzCreateOrSelectClient" />
@@ -2745,6 +2750,8 @@
     <text value="返済" name="Repayment" />
     <text value="返信" name="Reply" />
     <text value="已確認上報案件" name="ReportedCasesConfirmed" />
+    <text value="サービスリクエストアドレスを報告する" name="ReportServiceRequestAddress" />
+    <text value="ステータスを報告する" name="ReportStatus" />
     <text value="代理店の結果" name="RepresentativeResults" />
     <text value="要求されたファイルは存在しません！" name="RequestedFileDoesNotExists" />
     <text value="去る" name="RequestForLeave" />
@@ -2813,6 +2820,7 @@
     <text value="管理アプリケーション[{0}]はスタンプすることはできません。" name="ReviewOfAdministrativeSeal" />
     <text value="意見を確認する" name="ReviewOpinion" />
     <text value="監査時間" name="ReviewTime" />
+    <text value="取り消す" name="Revoke" />
     <text value="報酬の状況" name="RewardSituation" />
     <text value="リスク額" name="RiskAmount" />
     <text value="リスク量：" name="RiskAmountWithColon" />
@@ -3202,6 +3210,7 @@
     <text value="同期設定を慎重に選択し、すべてのケースが変更されたら、ローカル情報のみを読んでください。" name="SyncChangeSettingsSarning" />
     <text value="現在の設定が変更されたことを確認したかどうかにかかわらず、サードパーティを変更する場合は、アドミニストレーターで設定されたサードパーティのコードを使用して、次のようにすることができます。" name="SyncChangeSettingsWarning" />
     <text value="上报時間" name="SyncCreationTime" />
+    <text value="レポートターゲット" name="SyncDistributor" />
     <text value="同期する" name="Synchronize" />
     <text value="同期設定" name="SyncSetting" />
     <text value="同期しました" name="SyncSuccess" />
@@ -3596,6 +3605,7 @@
     <text value="無関係の場合。" name="UnRelatedCase" />
     <text value="送信されません" name="Unsent" />
     <text value="現在の案件は案件契約をアップロードしていないため、案件承認プロセスに入って現在の操作を確認することはできません。" name="UnsoldCaseContract" />
+    <text value="報告されるケース" name="UnSyncCases" />
     <text value="信じられないほどの名前" name="UntrustworthyName" />
     <text value="更新ログ" name="UpdateLog" />
     <text value="更新時間" name="UpdateTime" />

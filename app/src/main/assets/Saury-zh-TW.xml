@@ -1393,6 +1393,7 @@
     <text value="灰色" name="Grey" />
     <text value="題圖" name="GridRangesMap" />
     <text value="分組" name="GroupBy" />
+    <text value="組策略" name="GroupPolicy" />
     <text value="增長" name="Grow" />
     <text value="處理成功" name="HandleASuccessful" />
     <text value="Hangfire儀表板" name="HangfireDashboard" />
@@ -1647,6 +1648,7 @@
     <text name="LatestPaymentAmount" />
     <text value="最新上傳" name="LatestUploaded" />
     <text value="律所或組織代碼必須由2個以上字母、數字、-、_組成,以字母開頭" name="LawCodeRegexDescription" />
+    <text value="律所執業許可證號" name="LawFirmLicenseNumber" />
     <text value="律所標識" name="LawFirmOrOrganizationCode" />
     <text value="律所名稱" name="LawFirmOrOrganizationName" />
     <text value="律所網站" name="LawFirmWebsite" />
@@ -2157,6 +2159,7 @@
     <text value="案件中心" name="Pages.Business.Cases.CaseCenter" />
     <text value="案件中心" name="Pages.Business.Cases.CaseOrders" />
     <text value="案件登記" name="Pages.Business.Cases.Create" />
+    <text value="業務案件上報" name="Pages.Business.Cases.DataSync" />
     <text value="業績查詢" name="Pages.Business.Cases.Enquiry" />
     <text value="案件管理" name="Pages.Business.Cases.Manage" />
     <text value="我的案件" name="Pages.Business.Cases.MyCases" />
@@ -2501,7 +2504,9 @@
     <text value="網盤服務" name="PluginGroup.SkyDrive" />
     <text value="請添加收費信息" name="PlzAddChargeInfo" />
     <text value="請添加費用信息" name="PlzAddCoseInfo" />
+    <text value="請添加發票" name="PlzAddInvoice" />
     <text value="請添加發函對象" name="PlzAddLetterObject" />
+    <text value="請添加正常收費信息" name="PlzAddNormalChargeInfo" />
     <text value="請添加利益衝突信息" name="PlzAddProfitConflictInfo" />
     <text value="請確認收費及合同信息" name="PlzConfirmChargeAndContractInfo" />
     <text value="請創建或選擇客戶" name="PlzCreateOrSelectClient" />
@@ -2745,6 +2750,8 @@
     <text value="還款" name="Repayment" />
     <text value="回复" name="Reply" />
     <text value="已確認上報案件" name="ReportedCasesConfirmed" />
+    <text value="上報服務請求地址" name="ReportServiceRequestAddress" />
+    <text value="上報狀態" name="ReportStatus" />
     <text value="代理結果" name="RepresentativeResults" />
     <text value="請求的文件不存在!" name="RequestedFileDoesNotExists" />
     <text value="請假申請" name="RequestForLeave" />
@@ -2813,6 +2820,7 @@
     <text value="您的行政用章申請，[{0}]不允許蓋章." name="ReviewOfAdministrativeSeal" />
     <text value="審核意見" name="ReviewOpinion" />
     <text value="審核時間" name="ReviewTime" />
+    <text value="撤消" name="Revoke" />
     <text value="獎勵情況" name="RewardSituation" />
     <text value="風險金額" name="RiskAmount" />
     <text value="風險金額：" name="RiskAmountWithColon" />
@@ -3202,6 +3210,7 @@
     <text value="請謹慎選擇同步設置，一旦更改之前所有的案件只會讀取本地信息。" name="SyncChangeSettingsSarning" />
     <text value="是否確認更改當前同步設置，若改成第三方同步，此時會在管理員賬號所綁定的第三方賬號下生成同步文件夾和文件。" name="SyncChangeSettingsWarning" />
     <text value="上报時間" name="SyncCreationTime" />
+    <text value="上報目標" name="SyncDistributor" />
     <text value="同步" name="Synchronize" />
     <text value="同步設置" name="SyncSetting" />
     <text value="同步成功" name="SyncSuccess" />
@@ -3596,6 +3605,7 @@
     <text value="未關聯案件." name="UnRelatedCase" />
     <text value="未發送" name="Unsent" />
     <text value="當前案件暫未上傳案件合同，無法進入案件審批流程，是否確認當前操作？" name="UnsoldCaseContract" />
+    <text value="待上報案件" name="UnSyncCases" />
     <text value="失信人名" name="UntrustworthyName" />
     <text value="更新日誌" name="UpdateLog" />
     <text value="更新時間" name="UpdateTime" />

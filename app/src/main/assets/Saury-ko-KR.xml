@@ -1393,6 +1393,7 @@
     <text value="회색" name="Grey" />
     <text value="차트" name="GridRangesMap" />
     <text value="그룹화" name="GroupBy" />
+    <text value="그룹 정책" name="GroupPolicy" />
     <text value="늘다" name="Grow" />
     <text value="성공적으로 처리됨" name="HandleASuccessful" />
     <text value="Hangfire 대시 보드" name="HangfireDashboard" />
@@ -1647,6 +1648,7 @@
     <text name="LatestPaymentAmount" />
     <text value="최근 업로드" name="LatestUploaded" />
     <text value="법률 회사 또는 조직 코드는 문자로 시작하는 두 개 이상의 문자, 숫자, -, _로 구성되어야합니다" name="LawCodeRegexDescription" />
+    <text value="律所執業許可證號" name="LawFirmLicenseNumber" />
     <text value="법률 회사 로고" name="LawFirmOrOrganizationCode" />
     <text value="법률 회사 이름" name="LawFirmOrOrganizationName" />
     <text value="법률 회사 웹 사이트" name="LawFirmWebsite" />
@@ -2157,6 +2159,7 @@
     <text value="케이스 센터" name="Pages.Business.Cases.CaseCenter" />
     <text value="케이스 센터" name="Pages.Business.Cases.CaseOrders" />
     <text value="사례 등록" name="Pages.Business.Cases.Create" />
+    <text value="" name="Pages.Business.Cases.DataSync" />
     <text value="성능 쿼리" name="Pages.Business.Cases.Enquiry" />
     <text value="사례 관리" name="Pages.Business.Cases.Manage" />
     <text value="내 경우" name="Pages.Business.Cases.MyCases" />
@@ -2501,7 +2504,9 @@
     <text value="網盤服務" name="PluginGroup.SkyDrive" />
     <text value="청구 정보를 추가하십시오" name="PlzAddChargeInfo" />
     <text value="비용 정보를 추가하십시오" name="PlzAddCoseInfo" />
+    <text value="송장을 추가하십시오" name="PlzAddInvoice" />
     <text value="문자 개체를 추가하십시오" name="PlzAddLetterObject" />
+    <text value="일반 요금 정보를 추가하세요." name="PlzAddNormalChargeInfo" />
     <text value="이해 상충 정보를 추가하십시오" name="PlzAddProfitConflictInfo" />
     <text value="청구 및 계약 정보를 확인하십시오." name="PlzConfirmChargeAndContractInfo" />
     <text value="고객을 만들거나 선택하십시오." name="PlzCreateOrSelectClient" />
@@ -2745,6 +2750,8 @@
     <text value="상환" name="Repayment" />
     <text value="답글" name="Reply" />
     <text value="" name="ReportedCasesConfirmed" />
+    <text value="" name="ReportServiceRequestAddress" />
+    <text value="" name="ReportStatus" />
     <text value="대행사 결과" name="RepresentativeResults" />
     <text value="요청한 파일이 존재하지 않습니다!" name="RequestedFileDoesNotExists" />
     <text value="신청을 떠나라." name="RequestForLeave" />
@@ -2813,6 +2820,7 @@
     <text value="관리 응용 프로그램 [{0}]은 스탬프 할 수 없습니다." name="ReviewOfAdministrativeSeal" />
     <text value="의견 검토" name="ReviewOpinion" />
     <text value="감사 시간" name="ReviewTime" />
+    <text value="" name="Revoke" />
     <text value="보상 상황" name="RewardSituation" />
     <text value="위험 액" name="RiskAmount" />
     <text value="위험 금액 :" name="RiskAmountWithColon" />
@@ -3202,6 +3210,7 @@
     <text value="동기화 설정을 신중하게 선택하고 모든 사례가 변경된 경우에만 지역 정보를 읽으십시오." name="SyncChangeSettingsSarning" />
     <text value="귀하의 동의를 얻지 못하면 귀하는 귀하의 동의를 얻지 못하게됩니다." name="SyncChangeSettingsWarning" />
     <text value="" name="SyncCreationTime" />
+    <text value="" name="SyncDistributor" />
     <text value="동기화" name="Synchronize" />
     <text value="동기화 설정" name="SyncSetting" />
     <text value="성공적으로 동기화" name="SyncSuccess" />
@@ -3596,6 +3605,7 @@
     <text value="관련이없는 경우." name="UnRelatedCase" />
     <text value="전송되지 않음" name="Unsent" />
     <text value="현재의 사례는 사례 계약을 업로드하지 않았으므로 사례 승인 절차에 참여할 수 없습니다. 현재 작업이 확인 되었습니까?" name="UnsoldCaseContract" />
+    <text value="" name="UnSyncCases" />
     <text value="신뢰할 수없는 이름" name="UntrustworthyName" />
     <text value="로그 업데이트" name="UpdateLog" />
     <text value="업데이트 시간" name="UpdateTime" />

@@ -1393,6 +1393,7 @@
     <text value="gray" name="Grey" />
     <text value="Chart" name="GridRangesMap" />
     <text value="Grouping" name="GroupBy" />
+    <text value="Group Policy" name="GroupPolicy" />
     <text value="Grow" name="Grow" />
     <text value="Successfully processed" name="HandleASuccessful" />
     <text value="Hangfire dashboard" name="HangfireDashboard" />
@@ -1647,6 +1648,7 @@
     <text value="Latest payment amount" name="LatestPaymentAmount" />
     <text value="Latest upload" name="LatestUploaded" />
     <text value="The law firm or organization code must consist of more than 2 letters, numbers, -, _, beginning with a letter" name="LawCodeRegexDescription" />
+    <text value="Law Firm License Number" name="LawFirmLicenseNumber" />
     <text value="Law firm logo" name="LawFirmOrOrganizationCode" />
     <text value="Law firm name" name="LawFirmOrOrganizationName" />
     <text value="Law firm website" name="LawFirmWebsite" />
@@ -2157,6 +2159,7 @@
     <text value="Case center" name="Pages.Business.Cases.CaseCenter" />
     <text value="Case center" name="Pages.Business.Cases.CaseOrders" />
     <text value="Case registration" name="Pages.Business.Cases.Create" />
+    <text value="Business case report" name="Pages.Business.Cases.DataSync" />
     <text value="Enquiry" name="Pages.Business.Cases.Enquiry" />
     <text value="Case management" name="Pages.Business.Cases.Manage" />
     <text value="My case" name="Pages.Business.Cases.MyCases" />
@@ -2501,7 +2504,9 @@
     <text value="Network disk service" name="PluginGroup.SkyDrive" />
     <text value="Please add charge information" name="PlzAddChargeInfo" />
     <text value="Please add cost information" name="PlzAddCoseInfo" />
+    <text value="Please add invoice" name="PlzAddInvoice" />
     <text value="Please add a letter object" name="PlzAddLetterObject" />
+    <text value="Please add normal charge information" name="PlzAddNormalChargeInfo" />
     <text value="Please add conflict of interest information" name="PlzAddProfitConflictInfo" />
     <text value="Please confirm the charge and contract information" name="PlzConfirmChargeAndContractInfo" />
     <text value="Please create or select a customer" name="PlzCreateOrSelectClient" />
@@ -2745,6 +2750,8 @@
     <text value="Repayment" name="Repayment" />
     <text value="Reply" name="Reply" />
     <text value="ReportedCasesConfirmed" name="ReportedCasesConfirmed" />
+    <text value="Report service request address" name="ReportServiceRequestAddress" />
+    <text value="Report status" name="ReportStatus" />
     <text value="Agency results" name="RepresentativeResults" />
     <text value="Requested file does not exist!" name="RequestedFileDoesNotExists" />
     <text value="Leave application" name="RequestForLeave" />
@@ -2813,6 +2820,7 @@
     <text value="Your administrative application, [{0}] is not allowed to stamp." name="ReviewOfAdministrativeSeal" />
     <text value="Audit opinion" name="ReviewOpinion" />
     <text value="Audit time" name="ReviewTime" />
+    <text value="Revoke" name="Revoke" />
     <text value="Reward situation" name="RewardSituation" />
     <text value="Risk amount" name="RiskAmount" />
     <text value="Amount of risk:" name="RiskAmountWithColon" />
@@ -3202,6 +3210,7 @@
     <text value="Please choose the synchronization settings carefully and only read local information once all the cases have been changed." name="SyncChangeSettingsSarning" />
     <text value="Whether to confirm the change of the current synchronization settings, if it is changed to a third-party synchronization, the synchronization folder and files will be generated under the third-party account bound to the Admin account." name="SyncChangeSettingsWarning" />
     <text value="Report Time" name="SyncCreationTime" />
+    <text value="Report target" name="SyncDistributor" />
     <text value="Synchronize" name="Synchronize" />
     <text value="Sync settings" name="SyncSetting" />
     <text value="Synchronized successfully" name="SyncSuccess" />
@@ -3596,6 +3605,7 @@
     <text value="Unrelated cases." name="UnRelatedCase" />
     <text value="Unsent" name="Unsent" />
     <text value="The current case has not uploaded the case contract, and it is unable to enter the case approval process, and confirm the current operation？" name="UnsoldCaseContract" />
+    <text value="Cases to be reported" name="UnSyncCases" />
     <text value="Untrustworthy Name" name="UntrustworthyName" />
     <text value="Update log" name="UpdateLog" />
     <text value="Update time" name="UpdateTime" />
