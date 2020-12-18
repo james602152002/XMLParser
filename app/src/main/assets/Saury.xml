@@ -2528,6 +2528,7 @@
     <text value="Please select relevant lawyers" name="PlzSelectRelativeLawyer" />
     <text value="Please select a staff member" name="PlzSelectStaff" />
     <text value="Please select the stamp type" name="PlzSelectStampType" />
+    <text value="Please turn on Ignore battery optimization" name="PlzTurnOnIgnoreBatteryOpt" />
     <text value="Polar chart" name="PolarChart" />
     <text value="political status" name="PoliticsStatus" />
     <text value="Popular" name="Popular" />

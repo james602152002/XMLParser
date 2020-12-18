@@ -2528,6 +2528,7 @@
     <text value="関連する弁護士を選択してください" name="PlzSelectRelativeLawyer" />
     <text value="スタッフを選択してください" name="PlzSelectStaff" />
     <text value="スタンプタイプを選択してください" name="PlzSelectStampType" />
+    <text value="[バッテリーの最適化を無視する]をオンにしてください" name="PlzTurnOnIgnoreBatteryOpt" />
     <text value="極座標アイコン" name="PolarChart" />
     <text value="政治的見通し" name="PoliticsStatus" />
     <text value="人気" name="Popular" />

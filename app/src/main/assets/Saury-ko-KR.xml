@@ -2528,6 +2528,7 @@
     <text value="관련 변호사를 선택하십시오." name="PlzSelectRelativeLawyer" />
     <text value="직원을 선택하십시오." name="PlzSelectStaff" />
     <text value="스탬프 유형을 선택하십시오." name="PlzSelectStampType" />
+    <text value="배터리 최적화 무시를 켜십시오." name="PlzTurnOnIgnoreBatteryOpt" />
     <text value="극좌표" name="PolarChart" />
     <text value="정치 전망" name="PoliticsStatus" />
     <text value="인기" name="Popular" />

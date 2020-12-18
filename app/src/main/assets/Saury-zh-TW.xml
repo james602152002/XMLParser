@@ -2528,6 +2528,7 @@
     <text value="請選擇相關律師人員" name="PlzSelectRelativeLawyer" />
     <text value="請選擇職員" name="PlzSelectStaff" />
     <text value="請選擇蓋章類型" name="PlzSelectStampType" />
+    <text value="請開啟忽略電池優化" name="PlzTurnOnIgnoreBatteryOpt" />
     <text value="極坐標圖表" name="PolarChart" />
     <text value="政治面貌" name="PoliticsStatus" />
     <text value="熱門" name="Popular" />
