@@ -85,6 +85,7 @@
     <text value="该案件暂未添加项目，请添加项目后再添加任务！" name="AddTaskWithOutProjectWarning " />
     <text value="该项目暂未添加阶段，请添加阶段后再添加任务！" name="AddTaskWithOutStageWarning" />
     <text value="添加模板" name="AddTemplate" />
+    <text value="添加计时器微件" name="AddTimerWidget" />
     <text value="添加到收藏夹" name="AddToBookMark" />
     <text value="添加用户" name="AddUser" />
     <text value="添加拜访" name="AddVisit" />
@@ -2213,8 +2214,8 @@
     <text value="分配管理" name="Pages.Financial.Allocations" />
     <text value="分配审核" name="Pages.Financial.Allocations.AuditAllocations" />
     <text value="分配管理" name="Pages.Financial.Allocations.Manage" />
-    <text value="我的创收" name="Pages.Financial.Allocations.MyAllocations" />
-    <text value="我的分配" name="Pages.Financial.Allocations.MyReceipts" />
+    <text value="我的分配" name="Pages.Financial.Allocations.MyAllocations" />
+    <text value="我的创收" name="Pages.Financial.Allocations.MyIncomes" />
     <text value="分配设置" name="Pages.Financial.Allocations.Settings" />
     <text value="账单管理" name="Pages.Financial.Billings" />
     <text value="账单审核" name="Pages.Financial.Billings.AuditBillings" />
@@ -2645,6 +2646,7 @@
     <text value="代理理由" name="ReasonForAgency" />
     <text value="作废原因" name="ReasonOfInvalidation" />
     <text value="拒绝参会的原因" name="ReasonsForRejectToAttend" />
+    <text value="收款分配" name="ReceipDistribution" />
     <text value="收款金额：" name="ReceiptAmountTitle" />
     <text value="收案年度是收案的公历自然年，用阿拉伯数字表示" name="ReceiptAnnual_Hint" />
     <text value="收案年度格式化" name="ReceiptAnnualFormat" />
@@ -3103,6 +3105,7 @@
     <text value="开始时间" name="StartTime" />
     <text value="开始时间不能为空！" name="StartTimeCannotBeEmpty" />
     <text value="开始时间必须小于结束时间" name="StartTimeMustLowerThanEndTime" />
+    <text value="开始使用" name="StartUsing" />
     <text value="开始免费试用" name="StartUsingFree" />
     <text value="状态" name="State" />
     <text value="状态大类" name="StateCategories" />

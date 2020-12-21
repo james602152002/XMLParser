@@ -85,6 +85,7 @@
     <text value="No items have been added to this case. Adding the project before task.  " name="AddTaskWithOutProjectWarning " />
     <text value="The project has not been added yet, please add a task after adding the project!" name="AddTaskWithOutStageWarning" />
     <text value="Add a template" name="AddTemplate" />
+    <text value="Add timer widget" name="AddTimerWidget" />
     <text value="Add to Favorites" name="AddToBookMark" />
     <text value="Add user" name="AddUser" />
     <text value="Add a visit" name="AddVisit" />
@@ -2213,8 +2214,8 @@
     <text value="Assignment management" name="Pages.Financial.Allocations" />
     <text value="Assignment review" name="Pages.Financial.Allocations.AuditAllocations" />
     <text value="Assignment management" name="Pages.Financial.Allocations.Manage" />
-    <text value="My income" name="Pages.Financial.Allocations.MyAllocations" />
-    <text value="My allocation" name="Pages.Financial.Allocations.MyReceipts" />
+    <text value="My allocation" name="Pages.Financial.Allocations.MyAllocations" />
+    <text value="My income" name="Pages.Financial.Allocations.MyIncomes" />
     <text value="Allocation settings" name="Pages.Financial.Allocations.Settings" />
     <text value="Billing Management" name="Pages.Financial.Billings" />
     <text value="Bill review" name="Pages.Financial.Billings.AuditBillings" />
@@ -2645,6 +2646,7 @@
     <text value="Reason for agency" name="ReasonForAgency" />
     <text value="Reason for invalidation" name="ReasonOfInvalidation" />
     <text value="Reasons for refusing to attend" name="ReasonsForRejectToAttend" />
+    <text value="Receip distribution" name="ReceipDistribution" />
     <text value="Collection amount:" name="ReceiptAmountTitle" />
     <text value="The year of receipt is the natural year of the Gregorian calendar. It is expressed in Arabic numerals." name="ReceiptAnnual_Hint" />
     <text value="Receiving year format" name="ReceiptAnnualFormat" />
@@ -3103,6 +3105,7 @@
     <text value="Starting time" name="StartTime" />
     <text value="The start time cannot be empty!" name="StartTimeCannotBeEmpty" />
     <text value="Start time must be less than end time" name="StartTimeMustLowerThanEndTime" />
+    <text value="start using" name="StartUsing" />
     <text value="Start using free" name="StartUsingFree" />
     <text value="status" name="State" />
     <text value="State categories" name="StateCategories" />

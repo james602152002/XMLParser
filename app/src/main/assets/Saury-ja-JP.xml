@@ -85,6 +85,7 @@
     <text value="このケースにはアイテムが追加されていません。タスクを追加する前にタスクを追加してください！" name="AddTaskWithOutProjectWarning " />
     <text value="プロジェクトはまだ追加されていません。ステージを追加した後にタスクを追加してください！" name="AddTaskWithOutStageWarning" />
     <text value="テンプレートを追加する" name="AddTemplate" />
+    <text value="タイマーウィジェットを追加する" name="AddTimerWidget" />
     <text value="お気に入りに追加" name="AddToBookMark" />
     <text value="ユーザーを追加する" name="AddUser" />
     <text value="訪問を追加" name="AddVisit" />
@@ -2213,8 +2214,8 @@
     <text value="割り当て管理" name="Pages.Financial.Allocations" />
     <text value="割り当てレビュー" name="Pages.Financial.Allocations.AuditAllocations" />
     <text value="割り当て管理" name="Pages.Financial.Allocations.Manage" />
-    <text value="私の収入" name="Pages.Financial.Allocations.MyAllocations" />
-    <text value="私の割り当て" name="Pages.Financial.Allocations.MyReceipts" />
+    <text value="私の割り当て" name="Pages.Financial.Allocations.MyAllocations" />
+    <text value="私の収入" name="Pages.Financial.Allocations.MyIncomes" />
     <text value="割り当て設定" name="Pages.Financial.Allocations.Settings" />
     <text value="請求管理" name="Pages.Financial.Billings" />
     <text value="請求書レビュー" name="Pages.Financial.Billings.AuditBillings" />
@@ -2645,6 +2646,7 @@
     <text value="代理店の理由" name="ReasonForAgency" />
     <text value="無効化の理由" name="ReasonOfInvalidation" />
     <text value="参加を拒否した理由" name="ReasonsForRejectToAttend" />
+    <text value="領収書の配布" name="ReceipDistribution" />
     <text value="回収額：" name="ReceiptAmountTitle" />
     <text value="受領年は、グレゴリオ暦の自然年であり、アラビア数字で表されます。" name="ReceiptAnnual_Hint" />
     <text value="年末フォーマット" name="ReceiptAnnualFormat" />
@@ -3103,6 +3105,7 @@
     <text value="開始時間" name="StartTime" />
     <text value="開始時間は空ではありません！" name="StartTimeCannotBeEmpty" />
     <text value="開始時間は終了時間より短くなければなりません" name="StartTimeMustLowerThanEndTime" />
+    <text value="使い始める" name="StartUsing" />
     <text name="StartUsingFree" />
     <text value="ステータス" name="State" />
     <text value="州のカテゴリ" name="StateCategories" />

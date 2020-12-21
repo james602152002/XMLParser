@@ -85,6 +85,7 @@
     <text value="이 경우에 추가 된 항목이 없습니다. 작업을 추가하기 전에 작업을 추가하십시오!" name="AddTaskWithOutProjectWarning " />
     <text value="프로젝트가 아직 추가되지 않았습니다. 단계를 추가 한 후 작업을 추가하십시오!" name="AddTaskWithOutStageWarning" />
     <text value="템플릿 추가" name="AddTemplate" />
+    <text value="타이머 위젯 추가" name="AddTimerWidget" />
     <text value="즐겨 찾기에 추가" name="AddToBookMark" />
     <text value="사용자 추가" name="AddUser" />
     <text value="방문 추가" name="AddVisit" />
@@ -2213,8 +2214,8 @@
     <text value="할당 관리" name="Pages.Financial.Allocations" />
     <text value="과제 검토" name="Pages.Financial.Allocations.AuditAllocations" />
     <text value="할당 관리" name="Pages.Financial.Allocations.Manage" />
-    <text value="내 수입" name="Pages.Financial.Allocations.MyAllocations" />
-    <text value="내 할당" name="Pages.Financial.Allocations.MyReceipts" />
+    <text value="내 할당" name="Pages.Financial.Allocations.MyAllocations" />
+    <text value="내 수입" name="Pages.Financial.Allocations.MyIncomes" />
     <text value="할당 설정" name="Pages.Financial.Allocations.Settings" />
     <text value="결제 관리" name="Pages.Financial.Billings" />
     <text value="청구서 검토" name="Pages.Financial.Billings.AuditBillings" />
@@ -2645,6 +2646,7 @@
     <text value="대행 사유" name="ReasonForAgency" />
     <text value="무효화 사유" name="ReasonOfInvalidation" />
     <text value="참석을 거부 한 이유" name="ReasonsForRejectToAttend" />
+    <text value="영수증 배포" name="ReceipDistribution" />
     <text value="징수액 :" name="ReceiptAmountTitle" />
     <text name="ReceiptAnnual_Hint" />
     <text value="결산 연도 형식" name="ReceiptAnnualFormat" />
@@ -3103,6 +3105,7 @@
     <text value="시작 시간" name="StartTime" />
     <text value="시작 시간은 비워 둘 수 없습니다!" name="StartTimeCannotBeEmpty" />
     <text value="시작 시간은 종료 시간보다 짧아야합니다." name="StartTimeMustLowerThanEndTime" />
+    <text value="사용 시작" name="StartUsing" />
     <text name="StartUsingFree" />
     <text value="상태" name="State" />
     <text value="주 카테고리" name="StateCategories" />
