@@ -1434,6 +1434,7 @@
     <text value="（ステージを作成するか、既存のステージを選択します）" name="HintCreateOrSelectStage" />
     <text value="請求額は、選択した支払い額を超えることはできません" name="HintInvoiceAmountReceiptCondition" />
     <text value="フレンドリーなヒント" name="Hints" />
+    <text value="タイマーウィジェットをスムーズに実行するために、\nシステムはバックグラウンドの電力使用量を制限しなくなりました。" name="HintTimerAppWidget" />
     <text name="History" />
     <text value="歴史記録" name="HistoryRecord" />
     <text value="自宅住所" name="HomeAddress" />
@@ -3441,6 +3442,7 @@
     <text value="タイムゾーン" name="Timezone" />
     <text value="タイムゾーンの設定が変更されました。[OK]ボタンをクリックすると、ページが更新され、変更が有効になります。" name="TimeZoneSettingChangedRefreshPageNotification" />
     <text value="タイトル" name="Title" />
+    <text value="タイマーウィジェットを使用する" name="TitleTimerAppWidget" />
     <text value="〜する" name="To" />
     <text value="要求のタイムアウト" name="toast_internet_request_time_out" />
     <text value="割り当てられる" name="ToBeAllocated" />

@@ -1434,6 +1434,7 @@
     <text value="(스테이지 생성 또는 기존 스테이지 선택)" name="HintCreateOrSelectStage" />
     <text value="인보이스 금액은 선택한 결제 금액보다 클 수 없습니다." name="HintInvoiceAmountReceiptCondition" />
     <text value="친절한 팁" name="Hints" />
+    <text value="타이머 위젯을 원활하게 실행하기 위해 \n 시스템은 더 이상 백그라운드 전원 사용을 제한하지 않습니다." name="HintTimerAppWidget" />
     <text name="History" />
     <text value="역사 기록" name="HistoryRecord" />
     <text value="집 주소" name="HomeAddress" />
@@ -3441,6 +3442,7 @@
     <text value="시간대" name="Timezone" />
     <text value="시간대 설정이 변경되었습니다. 확인 버튼을 클릭하면 페이지가 새로 고침되고 변경 사항이 적용됩니다." name="TimeZoneSettingChangedRefreshPageNotification" />
     <text value="제목" name="Title" />
+    <text value="타이머 위젯 사용" name="TitleTimerAppWidget" />
     <text value="~하려면" name="To" />
     <text value="요청 제한 시간" name="toast_internet_request_time_out" />
     <text value="할당" name="ToBeAllocated" />

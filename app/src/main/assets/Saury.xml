@@ -1434,6 +1434,7 @@
     <text value="(Create stage or select existing stage)" name="HintCreateOrSelectStage" />
     <text value="The invoiced amount cannot be greater than the selected payment amount" name="HintInvoiceAmountReceiptCondition" />
     <text value="friendly reminder" name="Hints" />
+    <text value="In order to run the timer widget smoothly, \nthe system no longer restricts background power usage." name="HintTimerAppWidget" />
     <text value="History" name="History" />
     <text value="history record" name="HistoryRecord" />
     <text value="family address" name="HomeAddress" />
@@ -3441,6 +3442,7 @@
     <text value="Timezone" name="Timezone" />
     <text value="Timezone setting changed. Click OK button to refresh page and changes to take effect." name="TimeZoneSettingChangedRefreshPageNotification" />
     <text value="title" name="Title" />
+    <text value="Use timer widget" name="TitleTimerAppWidget" />
     <text value="to" name="To" />
     <text value="Request timed out" name="toast_internet_request_time_out" />
     <text value="To be allocated" name="ToBeAllocated" />

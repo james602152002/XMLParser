@@ -1434,6 +1434,7 @@
     <text value="( 创建阶段或选择已有阶段 )" name="HintCreateOrSelectStage" />
     <text value="开票金额不能大于已选收款金额" name="HintInvoiceAmountReceiptCondition" />
     <text value="友情提示" name="Hints" />
+    <text value="为顺利运行计时器微件，\n系统不再限制后台使用电量。" name="HintTimerAppWidget" />
     <text name="History" />
     <text value="历史记录" name="HistoryRecord" />
     <text value="家庭地址" name="HomeAddress" />
@@ -3441,6 +3442,7 @@
     <text value="时区" name="Timezone" />
     <text value="时区设置改变。单击“确定”按钮刷新页面，并使更改生效。" name="TimeZoneSettingChangedRefreshPageNotification" />
     <text value="标题" name="Title" />
+    <text value="使用计时器微件" name="TitleTimerAppWidget" />
     <text value="至" name="To" />
     <text value="请求超时" name="toast_internet_request_time_out" />
     <text value="待分配" name="ToBeAllocated" />
