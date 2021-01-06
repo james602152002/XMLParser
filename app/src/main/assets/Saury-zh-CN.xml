@@ -30,6 +30,7 @@
     <text value="开户行" name="AccountBank" />
     <text value="账号绑定" name="AccountBinding" />
     <text value="账号管理" name="AccountManagement" />
+    <text value="账户名" name="AccountName" />
     <text value="账号" name="AccountNumber" />
     <text value="该账号已在其他律所标识下绑定" name="AccountOtherTenantsHasBeenBound" />
     <text value="账户付费信息" name="AccountPaymentInformation" />
@@ -131,6 +132,7 @@
     <text value="所有客户" name="AllCustomers" />
     <text value="全天" name="AllDay" />
     <text value="您在应用程序中拥有的所有功能" name="AllFunctionalityYouHaveInTheApplication" />
+    <text value="可分配金额" name="AllocableAmount" />
     <text value="已分配金额" name="AllocatedAmount" />
     <text value="分配金额" name="AllocationAmount" />
     <text value="收款分配已确认" name="AllocationConfirmed" />
@@ -980,6 +982,7 @@
     <text value="决定书文号" name="Decidedtextnumber" />
     <text value="决定机关" name="Decisionagency" />
     <text value="扣减金额" name="DeductionAmount" />
+    <text value="扣取人" name="Deductor" />
     <text value="默认" name="Default" />
     <text value="默认（所有）API" name="Default (all) API" />
     <text value="帐户锁定持续时间（秒）" name="DefaultAccountLockoutDurationAsSeconds" />
@@ -1700,6 +1703,7 @@
     <text value="保密级别" name="LevelOfConfidentiality" />
     <text value="利冲" name="LiChong" />
     <text value="白色" name="Light" />
+    <text value="限定金额" name="LimitedAmount" />
     <text value="办案费限额" name="LimitOfHandlingExpenses" />
     <text value="办案费限额：" name="LimitOfHandlingExpensesTitle" />
     <text value="折线图" name="LineChart" />
@@ -1723,6 +1727,7 @@
     <text value="本地目录" name="LocalDirectory" />
     <text value="本所" name="LocalOffice" />
     <text value="地点" name="Location" />
+    <text value="自动锁定合同" name="LockContractAuto" />
     <text value="已锁定" name="Locked" />
     <text value="锁定成功！" name="LockedSuccessfully" />
     <text value="锁定" name="Locking" />
@@ -1759,6 +1764,7 @@
     <text value="工作日志概览统计" name="LogSummaryStatistics" />
     <text value="查找多页面应用版本号" name="LookingForMpaVersion" />
     <text value="查找单页面应用版本号" name="LookingForSpaVersion" />
+    <text value="包干费" name="LumpSumFee" />
     <text value="邮箱" name="Mail" />
     <text value="此邮箱用于修改管理员密码" name="MailEditadminPassword" />
     <text value="邮件已发送" name="MailSent" />
@@ -2156,6 +2162,7 @@
     <text value="结案审核" name="Pages.Business.CaseClose.Approve" />
     <text value="财务审核" name="Pages.Business.CaseClose.ApproveFinancial" />
     <text value="档案管理" name="Pages.Business.CaseClose.ArchiveManage" />
+    <text value="结案保证金" name="Pages.Business.CaseClose.Deposits" />
     <text value="结案归档" name="Pages.Business.CaseClose.UnSignedCases" />
     <text value="案件管理" name="Pages.Business.Cases" />
     <text value="案件中心" name="Pages.Business.Cases.CaseCenter" />
@@ -2170,6 +2177,7 @@
     <text value="文书管理" name="Pages.Business.StampFiles" />
     <text value="我的文书" name="Pages.Business.StampFiles.ApplyFileList" />
     <text value="文书审核" name="Pages.Business.StampFiles.Approve" />
+    <text value="文书模板字段管理" name="Pages.Business.StampFiles.BookMarkManage" />
     <text value="案件文书管理" name="Pages.Business.StampFiles.Manage" />
     <text value="盖章审核" name="Pages.Business.StampFiles.StampFileManage" />
     <text value="文书模板" name="Pages.Business.StampFiles.UploadTemplate" />
@@ -2245,7 +2253,8 @@
     <text value="发票申请" name="Pages.Financial.Invoices.Apply" />
     <text value="发票审核" name="Pages.Financial.Invoices.AuditInvoices" />
     <text value="发票管理" name="Pages.Financial.Invoices.Manage" />
-    <text value="我的发票" name="Pages.Financial.Invoices.MyApplyInvoices" />
+    <text value="我的发票" name="Pages.Financial.Invoices.MyInvoices" />
+    <text value="发票登记" name="Pages.Financial.Invoices.Register" />
     <text value="台账管理" name="Pages.Financial.Ledgers" />
     <text value="成本管理" name="Pages.Financial.Ledgers.Costs" />
     <text value="台账管理" name="Pages.Financial.Ledgers.Manage" />
@@ -2277,6 +2286,7 @@
     <text value="人员管理" name="Pages.HumanResource.Users.Manage" />
     <text value="工作日程" name="Pages.Works" />
     <text value="工作日志" name="Pages.Works.Log" />
+    <text value="业务团队日志" name="Pages.Works.Log.CaseWorklog" />
     <text value="日志录入" name="Pages.Works.Log.Create" />
     <text value="日志管理" name="Pages.Works.Log.Manage" />
     <text value="我的日志" name="Pages.Works.Log.MyWorklog" />
@@ -3078,6 +3088,7 @@
     <text value="堆叠图" name="StackChart" />
     <text value="职员" name="Staff" />
     <text value="阶段" name="Stage" />
+    <text value="共有 %s 个阶段" name="StageCnt" />
     <text value="阶段信息" name="StageInfo" />
     <text value="案件阶段允许多选" name="StageIsMultipleSelection" />
     <text value="阶段名称" name="StageName" />
@@ -3251,6 +3262,7 @@
     <text value="任务详情" name="TaskDetails" />
     <text value="任务讨论消息" name="TaskDiscussionMessage" />
     <text value="任务时长" name="TaskDuration" />
+    <text value="任务项目" name="TaskItem" />
     <text value="任务列表" name="TaskList" />
     <text value="任务负责人字段是必需的" name="TaskManagerRequired" />
     <text value="项目成员列表" name="TaskMembers" />

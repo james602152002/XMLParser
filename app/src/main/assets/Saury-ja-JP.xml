@@ -30,6 +30,7 @@
     <text value="口座銀行" name="AccountBank" />
     <text value="アカウントのバインド" name="AccountBinding" />
     <text value="アカウント管理" name="AccountManagement" />
+    <text value="アカウント名" name="AccountName" />
     <text value="口座番号" name="AccountNumber" />
     <text value="アカウントは他の法律事務所IDでバインドされています" name="AccountOtherTenantsHasBeenBound" />
     <text value="アカウントのお支払い情報" name="AccountPaymentInformation" />
@@ -131,6 +132,7 @@
     <text value="すべてのお客様" name="AllCustomers" />
     <text value="一日中" name="AllDay" />
     <text value="アプリケーションにあるすべての機能" name="AllFunctionalityYouHaveInTheApplication" />
+    <text value="割り当て可能な金額" name="AllocableAmount" />
     <text value="配賦額" name="AllocatedAmount" />
     <text value="配賦額" name="AllocationAmount" />
     <text value="受領書の配布が確認されました" name="AllocationConfirmed" />
@@ -980,6 +982,7 @@
     <text value="決定されたテキスト番号" name="Decidedtextnumber" />
     <text value="意思決定機関" name="Decisionagency" />
     <text value="控除額" name="DeductionAmount" />
+    <text value="控除人" name="Deductor" />
     <text value="デフォルト" name="Default" />
     <text name="Default (all) API" />
     <text value="アカウントのロックアウト時間（秒）" name="DefaultAccountLockoutDurationAsSeconds" />
@@ -1700,6 +1703,7 @@
     <text value="プライバシーレベル" name="LevelOfConfidentiality" />
     <text value="リチョン" name="LiChong" />
     <text value="ホワイト" name="Light" />
+    <text value="数量限定" name="LimitedAmount" />
     <text value="事件手数料の限度額" name="LimitOfHandlingExpenses" />
     <text value="事件処理手数料の上限：" name="LimitOfHandlingExpensesTitle" />
     <text value="折れ線グラフ" name="LineChart" />
@@ -1723,6 +1727,7 @@
     <text value="ローカルディレクトリ" name="LocalDirectory" />
     <text value="本所" name="LocalOffice" />
     <text value="場所" name="Location" />
+    <text value="契約を自動的にロックする" name="LockContractAuto" />
     <text value="ロックされた" name="Locked" />
     <text value="正常にロックされました！" name="LockedSuccessfully" />
     <text value="ロックされた" name="Locking" />
@@ -1759,6 +1764,7 @@
     <text value="ログの概要統計" name="LogSummaryStatistics" />
     <text value="複数ページのアプリケーションのバージョン番号を見つける" name="LookingForMpaVersion" />
     <text value="単一ページのアプリケーションのバージョン番号を検索する" name="LookingForSpaVersion" />
+    <text value="一括払い" name="LumpSumFee" />
     <text value="メールボックス" name="Mail" />
     <text value="このメールボックスは管理者パスワードを変更するために使用されます" name="MailEditadminPassword" />
     <text value="メールを送信しました" name="MailSent" />
@@ -2156,6 +2162,7 @@
     <text value="ケースレビュー" name="Pages.Business.CaseClose.Approve" />
     <text value="財務レビュー" name="Pages.Business.CaseClose.ApproveFinancial" />
     <text value="ファイル管理" name="Pages.Business.CaseClose.ArchiveManage" />
+    <text value="決済預金" name="Pages.Business.CaseClose.Deposits" />
     <text value="最終ファイル" name="Pages.Business.CaseClose.UnSignedCases" />
     <text value="ケースマネジメント" name="Pages.Business.Cases" />
     <text value="ケースセンター" name="Pages.Business.Cases.CaseCenter" />
@@ -2170,6 +2177,7 @@
     <text value="文書管理" name="Pages.Business.StampFiles" />
     <text value="私の楽器" name="Pages.Business.StampFiles.ApplyFileList" />
     <text value="文書の審査" name="Pages.Business.StampFiles.Approve" />
+    <text value="ドキュメントテンプレートのフィールド管理" name="Pages.Business.StampFiles.BookMarkManage" />
     <text value="事例管理" name="Pages.Business.StampFiles.Manage" />
     <text value="判を押して審査する" name="Pages.Business.StampFiles.StampFileManage" />
     <text value="ドキュメントテンプレート" name="Pages.Business.StampFiles.UploadTemplate" />
@@ -2245,7 +2253,8 @@
     <text value="請求書アプリケーション" name="Pages.Financial.Invoices.Apply" />
     <text value="請求書のレビュー" name="Pages.Financial.Invoices.AuditInvoices" />
     <text value="請求書管理" name="Pages.Financial.Invoices.Manage" />
-    <text value="私の請求書" name="Pages.Financial.Invoices.MyApplyInvoices" />
+    <text value="私の請求書" name="Pages.Financial.Invoices.MyInvoices" />
+    <text value="請求書登録" name="Pages.Financial.Invoices.Register" />
     <text value="元帳管理" name="Pages.Financial.Ledgers" />
     <text value="原価管理" name="Pages.Financial.Ledgers.Costs" />
     <text value="元帳管理" name="Pages.Financial.Ledgers.Manage" />
@@ -2277,6 +2286,7 @@
     <text value="人事管理" name="Pages.HumanResource.Users.Manage" />
     <text value="勤務スケジュール" name="Pages.Works" />
     <text value="作業ログ" name="Pages.Works.Log" />
+    <text value="業務團隊日誌" name="Pages.Works.Log.CaseWorklog" />
     <text value="作業ログ項目" name="Pages.Works.Log.Create" />
     <text value="ログ管理" name="Pages.Works.Log.Manage" />
     <text value="私のログ" name="Pages.Works.Log.MyWorklog" />
@@ -3078,6 +3088,7 @@
     <text value="積み上げグラフ" name="StackChart" />
     <text value="従業員" name="Staff" />
     <text value="フェーズ" name="Stage" />
+    <text value="%s ステージがあります" name="StageCnt" />
     <text value="ステージ情報" name="StageInfo" />
     <text value="ケースの段階で複数の選択肢を許可" name="StageIsMultipleSelection" />
     <text value="ステージ名" name="StageName" />
@@ -3251,6 +3262,7 @@
     <text value="タスクの詳細" name="TaskDetails" />
     <text value="タスクディスカッションメッセージ" name="TaskDiscussionMessage" />
     <text value="タスクの継続時間" name="TaskDuration" />
+    <text value="タスク項目" name="TaskItem" />
     <text value="タスクリスト" name="TaskList" />
     <text value="タスクリーダーフィールドは必須です" name="TaskManagerRequired" />
     <text value="プロジェクトメンバーリスト" name="TaskMembers" />

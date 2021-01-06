@@ -30,6 +30,7 @@
     <text value="Account Bank" name="AccountBank" />
     <text value="Account binding" name="AccountBinding" />
     <text value="Account Management" name="AccountManagement" />
+    <text value="Account name" name="AccountName" />
     <text value="Account number" name="AccountNumber" />
     <text value="The account has been bound under other law firm IDs" name="AccountOtherTenantsHasBeenBound" />
     <text value="Account payment information" name="AccountPaymentInformation" />
@@ -131,6 +132,7 @@
     <text value="All customers" name="AllCustomers" />
     <text value="All day" name="AllDay" />
     <text value="All the features you have in your application" name="AllFunctionalityYouHaveInTheApplication" />
+    <text value="Allocable amount" name="AllocableAmount" />
     <text value="Allocated amount" name="AllocatedAmount" />
     <text value="Allocated amount" name="AllocationAmount" />
     <text value="Receipt distribution confirmed" name="AllocationConfirmed" />
@@ -980,6 +982,7 @@
     <text value="Decided text number" name="Decidedtextnumber" />
     <text value="Decision agency" name="Decisionagency" />
     <text value="Deduction amount" name="DeductionAmount" />
+    <text value="Deductor" name="Deductor" />
     <text value="Default" name="Default" />
     <text value="Default (all) API" name="Default (all) API" />
     <text value="Account locking duration (as seconds)" name="DefaultAccountLockoutDurationAsSeconds" />
@@ -1700,6 +1703,7 @@
     <text value="Privacy level" name="LevelOfConfidentiality" />
     <text value="Li Chong" name="LiChong" />
     <text value="white" name="Light" />
+    <text value="Limited amount" name="LimitedAmount" />
     <text value="Limit of case fees" name="LimitOfHandlingExpenses" />
     <text value="Case handling fee limit:" name="LimitOfHandlingExpensesTitle" />
     <text value="line chart" name="LineChart" />
@@ -1723,6 +1727,7 @@
     <text value="Local directory" name="LocalDirectory" />
     <text value="Local Office" name="LocalOffice" />
     <text value="location" name="Location" />
+    <text value="Automatically lock the contract" name="LockContractAuto" />
     <text value="locked" name="Locked" />
     <text value="Locked successfully!" name="LockedSuccessfully" />
     <text value="locking" name="Locking" />
@@ -1759,6 +1764,7 @@
     <text value="Log summary statistics" name="LogSummaryStatistics" />
     <text value="Looking for Multi-Page Application Version?" name="LookingForMpaVersion" />
     <text value="Looking for Single-Page Application Version?" name="LookingForSpaVersion" />
+    <text value="Lump sum fee" name="LumpSumFee" />
     <text value="Mail" name="Mail" />
     <text value="This mailbox is used to modify the administrator password" name="MailEditadminPassword" />
     <text value="Mail sent" name="MailSent" />
@@ -2156,6 +2162,7 @@
     <text value="Case review" name="Pages.Business.CaseClose.Approve" />
     <text value="Financial Audit" name="Pages.Business.CaseClose.ApproveFinancial" />
     <text value="File Management" name="Pages.Business.CaseClose.ArchiveManage" />
+    <text value="Settlement deposit" name="Pages.Business.CaseClose.Deposits" />
     <text value="Final file" name="Pages.Business.CaseClose.UnSignedCases" />
     <text value="Case management" name="Pages.Business.Cases" />
     <text value="Case center" name="Pages.Business.Cases.CaseCenter" />
@@ -2170,6 +2177,7 @@
     <text value="Document management" name="Pages.Business.StampFiles" />
     <text value="My instrument" name="Pages.Business.StampFiles.ApplyFileList" />
     <text value="Document review" name="Pages.Business.StampFiles.Approve" />
+    <text value="Document template field management" name="Pages.Business.StampFiles.BookMarkManage" />
     <text value="Case document management" name="Pages.Business.StampFiles.Manage" />
     <text value="Stamp review" name="Pages.Business.StampFiles.StampFileManage" />
     <text value="Document Template" name="Pages.Business.StampFiles.UploadTemplate" />
@@ -2245,7 +2253,8 @@
     <text value="Invoice application" name="Pages.Financial.Invoices.Apply" />
     <text value="Invoice review" name="Pages.Financial.Invoices.AuditInvoices" />
     <text value="Invoice management" name="Pages.Financial.Invoices.Manage" />
-    <text value="My invoice" name="Pages.Financial.Invoices.MyApplyInvoices" />
+    <text value="My invoice" name="Pages.Financial.Invoices.MyInvoices" />
+    <text value="Invoice registration" name="Pages.Financial.Invoices.Register" />
     <text value="Ledger management" name="Pages.Financial.Ledgers" />
     <text value="Cost management" name="Pages.Financial.Ledgers.Costs" />
     <text value="Ledger management" name="Pages.Financial.Ledgers.Manage" />
@@ -2277,6 +2286,7 @@
     <text value="Personnel management" name="Pages.HumanResource.Users.Manage" />
     <text value="Schedule" name="Pages.Works" />
     <text value="Work log" name="Pages.Works.Log" />
+    <text value="Business team log" name="Pages.Works.Log.CaseWorklog" />
     <text value="Log entry" name="Pages.Works.Log.Create" />
     <text value="Log management" name="Pages.Works.Log.Manage" />
     <text value="My log" name="Pages.Works.Log.MyWorklog" />
@@ -3078,6 +3088,7 @@
     <text value="Stacked Chart" name="StackChart" />
     <text value="Employee" name="Staff" />
     <text value="stage" name="Stage" />
+    <text value="There are %s stages" name="StageCnt" />
     <text value="Stage information" name="StageInfo" />
     <text value="Multiple choices allowed at the case stage" name="StageIsMultipleSelection" />
     <text value="Stage name" name="StageName" />
@@ -3251,6 +3262,7 @@
     <text value="Task Details" name="TaskDetails" />
     <text value="Comment" name="TaskDiscussionMessage" />
     <text value="Task Duration" name="TaskDuration" />
+    <text value="Task item" name="TaskItem" />
     <text value="Task List" name="TaskList" />
     <text value="The task leader field is required" name="TaskManagerRequired" />
     <text value="Project Member List" name="TaskMembers" />

@@ -30,6 +30,7 @@
     <text value="계좌 은행" name="AccountBank" />
     <text value="계정 바인딩" name="AccountBinding" />
     <text value="계좌 번호 관리" name="AccountManagement" />
+    <text value="계정 이름" name="AccountName" />
     <text value="계좌 번호" name="AccountNumber" />
     <text value="이 계좌는 다른 법률 회사 ID로 묶여 있습니다." name="AccountOtherTenantsHasBeenBound" />
     <text value="계정 지불 정보" name="AccountPaymentInformation" />
@@ -131,6 +132,7 @@
     <text value="모든 고객" name="AllCustomers" />
     <text value="하루 종일" name="AllDay" />
     <text value="응용 프로그램에있는 모든 기능" name="AllFunctionalityYouHaveInTheApplication" />
+    <text value="할당 가능한 금액" name="AllocableAmount" />
     <text value="할당량" name="AllocatedAmount" />
     <text value="할당량" name="AllocationAmount" />
     <text value="영수증 분배 확인" name="AllocationConfirmed" />
@@ -980,6 +982,7 @@
     <text value="결정된 텍스트 번호" name="Decidedtextnumber" />
     <text value="결정 기관" name="Decisionagency" />
     <text value="공제 금액" name="DeductionAmount" />
+    <text value="공제 자" name="Deductor" />
     <text value="기본값" name="Default" />
     <text name="Default (all) API" />
     <text value="계정 잠금 시간 (초)" name="DefaultAccountLockoutDurationAsSeconds" />
@@ -1700,6 +1703,7 @@
     <text value="개인 정보 보호 수준" name="LevelOfConfidentiality" />
     <text value="리총" name="LiChong" />
     <text value="화이트" name="Light" />
+    <text value="한정 수량" name="LimitedAmount" />
     <text value="사례 수수료 한도" name="LimitOfHandlingExpenses" />
     <text value="사례 처리 수수료 한도 :" name="LimitOfHandlingExpensesTitle" />
     <text value="꺾은 선형 차트" name="LineChart" />
@@ -1723,6 +1727,7 @@
     <text value="로컬 디렉토리" name="LocalDirectory" />
     <text value="원소" name="LocalOffice" />
     <text value="위치" name="Location" />
+    <text value="계약 자동 잠금" name="LockContractAuto" />
     <text value="잠김" name="Locked" />
     <text value="성공적으로 잠겼습니다!" name="LockedSuccessfully" />
     <text value="잠김" name="Locking" />
@@ -1759,6 +1764,7 @@
     <text value="로그 요약 통계" name="LogSummaryStatistics" />
     <text value="다중 페이지 응용 프로그램 버전 번호 찾기" name="LookingForMpaVersion" />
     <text value="단일 페이지 응용 프로그램 버전 번호 찾기" name="LookingForSpaVersion" />
+    <text value="일시불 수수료" name="LumpSumFee" />
     <text value="사서함" name="Mail" />
     <text value="이 사서함은 관리자 암호를 수정하는 데 사용됩니다." name="MailEditadminPassword" />
     <text value="이메일이 전송되었습니다." name="MailSent" />
@@ -2156,6 +2162,7 @@
     <text value="사례 검토" name="Pages.Business.CaseClose.Approve" />
     <text value="재무 검토" name="Pages.Business.CaseClose.ApproveFinancial" />
     <text value="파일 관리" name="Pages.Business.CaseClose.ArchiveManage" />
+    <text value="정산 예금" name="Pages.Business.CaseClose.Deposits" />
     <text value="최종 파일" name="Pages.Business.CaseClose.UnSignedCases" />
     <text value="사례 관리" name="Pages.Business.Cases" />
     <text value="케이스 센터" name="Pages.Business.Cases.CaseCenter" />
@@ -2170,6 +2177,7 @@
     <text value="문서 관리" name="Pages.Business.StampFiles" />
     <text value="내 악기" name="Pages.Business.StampFiles.ApplyFileList" />
     <text value="문서 심사" name="Pages.Business.StampFiles.Approve" />
+    <text value="문서 템플릿 필드 관리" name="Pages.Business.StampFiles.BookMarkManage" />
     <text value="사례 문서 관리" name="Pages.Business.StampFiles.Manage" />
     <text value="도장 을 덮 고 심사 하다" name="Pages.Business.StampFiles.StampFileManage" />
     <text value="문서 템플릿" name="Pages.Business.StampFiles.UploadTemplate" />
@@ -2245,7 +2253,8 @@
     <text value="송장 응용 프로그램" name="Pages.Financial.Invoices.Apply" />
     <text value="인보이스 검토" name="Pages.Financial.Invoices.AuditInvoices" />
     <text value="인보이스 관리" name="Pages.Financial.Invoices.Manage" />
-    <text value="내 인보이스" name="Pages.Financial.Invoices.MyApplyInvoices" />
+    <text value="내 인보이스" name="Pages.Financial.Invoices.MyInvoices" />
+    <text value="송장 등록" name="Pages.Financial.Invoices.Register" />
     <text value="원장 관리" name="Pages.Financial.Ledgers" />
     <text value="원가 관리" name="Pages.Financial.Ledgers.Costs" />
     <text value="원장 관리" name="Pages.Financial.Ledgers.Manage" />
@@ -2277,6 +2286,7 @@
     <text value="인사 관리" name="Pages.HumanResource.Users.Manage" />
     <text value="근무 일정" name="Pages.Works" />
     <text value="작업 로그" name="Pages.Works.Log" />
+    <text value="비즈니스 팀 로그" name="Pages.Works.Log.CaseWorklog" />
     <text value="작업 로그 항목" name="Pages.Works.Log.Create" />
     <text value="로그 관리" name="Pages.Works.Log.Manage" />
     <text value="내 기록" name="Pages.Works.Log.MyWorklog" />
@@ -3078,6 +3088,7 @@
     <text value="누적 그래프" name="StackChart" />
     <text value="직원" name="Staff" />
     <text value="위상" name="Stage" />
+    <text value="%s 개의 단계가 있습니다." name="StageCnt" />
     <text value="무대 정보" name="StageInfo" />
     <text value="사례 단계에서 여러 선택 가능" name="StageIsMultipleSelection" />
     <text value="무대 이름" name="StageName" />
@@ -3251,6 +3262,7 @@
     <text value="작업 세부 정보" name="TaskDetails" />
     <text value="작업 토론 메시지" name="TaskDiscussionMessage" />
     <text value="작업 기간" name="TaskDuration" />
+    <text value="작업 항목" name="TaskItem" />
     <text value="작업 목록" name="TaskList" />
     <text value="과제 리더 영역이 필요합니다." name="TaskManagerRequired" />
     <text value="프로젝트 회원 목록" name="TaskMembers" />
